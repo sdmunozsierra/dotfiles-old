@@ -11,17 +11,17 @@ font pango:Ohsnap 9
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango:Ohsnap 9
 
-##############################
+#############################
 ###### GAPS AND BORDERS ###### 
 ##############################
 
 ### Borders ###
-new_window pixel 1
-new_float pixel 1
+new_window pixel 3
+new_float pixel 3
 
 ### Gaps ###
-set $default_gaps_inner 7
-set $default_gaps_outer 7
+set $default_gaps_inner 5
+set $default_gaps_outer 5
 gaps inner $default_gaps_inner
 gaps outer $default_gaps_outer
 smart_gaps on
@@ -91,7 +91,7 @@ bindsym $mod+Shift+underscore move container to workspace $WS11
 ##############################
 
 # start a terminal
-set $term st -f BitstreamVeraSansMono:size=12:style=Roman:antialias=true
+set $term st -f BitstreamVeraSansMono:size=11:style=Roman:antialias=true
 bindsym $mod+Return exec $term 
 
 # default programs
@@ -104,12 +104,15 @@ bindsym $mod+d exec dmenu_run
 exec	--no-startup-id i3-msg 'workspace $WS1; exec conky -c ~/.config/conky/conkyrc_swag'
 exec   	--no-startup-id synapse -s hide
 exec	--no-startup-id feh --bg-fill ~/Pictures/background/22.jpg
+exec	--no-startup-id $browser 
+
+#Backlight restart (Make a script to check if it's below 0)
+# exec --no-startup-id  xbacklight set 100
 
 # start programs
 bindsym $mod+t 	exec --no-startup-id pcmanfm
 bindsym $mod+b 	exec --no-startup-id firefox
 bindsym $mod+a	exec --no-startup-id ~/droid/bin/studio.sh
-#bindsym $mod+i  exec --no-startup-id i3-msg 'workspace °web; exec firefox'
 #bindsym $mod+p  exec --no-startup-id leafpad
 bindsym $mod+Ctrl+l  exec --no-startup-id lxappearance
 #bindsym $mod+Ctrl+g  exec --no-startup-id gnumeric
@@ -125,13 +128,12 @@ bindsym $mod+Shift+q kill
 #bindsym $mod+d exec rofi -show run -font "Ohsnap 9" -columns 5 -lines 1 -color-window "#FFFFFF" -hide-scrollbar -terminal i3-sensible-terminal
 
 # layout
-#for_window [class="(?i)feh"] floating enable
 #for_window [class="(?i)gcolor2"] floating enable
 #for_window [class="(?i)gbdfed"] floating enable
 for_window [class="Galculator"] floating enable 
 for_window [class="(?i)lxappearance"] floating enable change container layout (stacked, tabbed, toggle split)
 for_window [class="Firefox"] move container to workspace $WS2
-for_window [class="studio.sh"]move container to workspace $WS11
+for_window [class="studio.sh"] move container to workspace $WS11
 
 
 
@@ -246,62 +248,66 @@ mode "power"{
 # config mode 
 bindsym $mod+Ctrl+c mode "config"
 mode "config"{
-	bindsym i   exec i3-msg 'exec "$term -e vim .config/i3/config" move $WS0'
-	bindsym s   exec i3-msg 'exec "$term -e vim .config/i3/i3status.conf" move $WS1'
+	bindsym w   exec i3-msg 'exec "$term -e vim .config/i3/config" move $WS0'
+	bindsym b   exec i3-msg 'exec "$term -e vim .config/i3/i3status.conf" move $WS1'
 	bindsym c   exec i3-msg 'exec "$term -e vim .config/conky/conkyrc_swag" move $WS0'
 	bindsym a   exec i3-msg 'exec "$term -e vim .bash_aliases" move $WS0'
-	bindsym v   exec i3-msg 'exec "$term -e vim" move $WS0'
+	bindsym v   exec i3-msg 'exec "$term -e vim .vimrc" move $WS0'
+	bindsym s   exec i3-msg 'exec "$term -e vim ~/Repos/suckless/st/config.h"  move $WS0'
+	bindsym g   exec lightdm-gtk-greeter-settings 
+	bindsym m   exec i3-msg 'floating enable exec "$term -e ./Scripts/st_automake.sh" '
 
 	# back to normal: Escape or Enter
 	bindsym Escape mode "default"
 	bindsym Return mode "default"
 }
+#############################
+######   COLORS ###########
 ##############################
-########### COLORS ###########
-##############################
-
-#---keys---#    --Stacked Mode--	--Default Mode--
-#border-> 	Border 			Nada
-#background->   Bkg behind letters	Border
-#text->		Letters			Nada
-#indicator-> 	???			???
-#
-#---classes---#
-
-# class                 border  backgr. text    indicator
-client.focused          #000000 #0a9dff #000000 #FFFFFF
-client.focused_inactive #000000 #011267 #3C3530 #000000
-client.unfocused        #000000 #000000 #3C3530 #000000
-client.urgent           #000000 #000000 #ffffff #000000
-client.placeholder      #000000 #000000 #ffffff #000000
-
-#My bar
-bar {
-#	id		bar-1
-	position 	top
-	status_command 	i3status -c ~/.config/i3/i3status.conf
-#   mode hide     
-#  hidden_state hide
-#   modifier $winmod
-#   wheel_up_cmd nop
-#   wheel_down_cmd nop
-#font Droid Sans Mono for Powerline:style=Regular:size=9:antialias=true
+ 
+##---keys---#    --Stacked Mode--	--Default Mode--
+##border-> 	Border 			Nada
+##background->   Bkg behind letters	Border
+##text->		Letters			Nada
+##indicator-> 	???			???
+##
+##---classes---#
+ 
+## class                 border  backgr. text    indicator
+client.focused          #000000 #FFFB5A #000000 #FFFFFF
+#client.focused_inactive #000000 #011267 #3C3530 #000000
+#client.unfocused        #000000 #000000 #3C3530 #000000
+#client.urgent           #000000 #000000 #ffffff #000000
+#client.placeholder      #000000 #000000 #ffffff #000000
+ 
+##My bar
+ bar {
+ #	id		bar-1
+ 	position 	top
+ 	status_command 	i3status -c ~/.config/i3/i3status.conf
+ 	#   mode hide     
+ 	#  hidden_state hide
+	#   modifier $winmod
+	#   wheel_up_cmd nop
+ 	#   wheel_down_cmd nop 	
+ 	#font Droid Sans Mono for Powerline:style=Regular:size=9:antialias=true
+ 	
 	font pango:Ohsnap style=Regular:size=7:antialias=true	
-	
-	colors{
-#background -> Color of the bar
-#statusline -> Color of the letters at right side
-#focused_workspace ->	Workspace letters at the bar left side
-#active_workspace ->	Workspace letters??	
+ 				
+ 	colors{
+ 		#background -> Color of the bar
+ 		#statusline -> Color of the letters at right side
+ 		#focused_workspace ->	Workspace letters at the bar left side
+ 		#active_workspace ->	Workspace letters??	
+ 
 
-
-	background #0e0d0b
-     	statusline #f8f6f2
-      	separator  #eee8d5
-			 	#Margin #Backgd #Letters
-      	focused_workspace	#0e0d0b #0e0d0b #0a9dff 
-      	active_workspace	#0e0d0b #0e0d0b #6c71c4
-      	inactive_workspace 	#0e0d0b #0e0d0b #f4f4f8
-      	urgent_workspace   	#0e0d0b #0e0d0b #ff2c4b
-	}
+ 		background #0e0d0b
+ 		statusline #f8f6f2
+ 		separator  #eee8d5
+ 					#Margin #Backgd #Letters
+		focused_workspace	#0e0d0b #0e0d0b #0a9dff 
+         	active_workspace	#0e0d0b #0e0d0b #6c71c4
+      	      	inactive_workspace 	#0e0d0b #0e0d0b #f4f4f8
+ 		urgent_workspace   	#0e0d0b #0e0d0b #ff2c4b 	      				 	      	      	      	      		
+	}						   
 }
