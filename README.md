@@ -20,6 +20,7 @@ Contain my .config files for many Linux programs
 * rissetto
 * lynx
 * git
+* brassero (cd management _u never know_)
 
 ### Media
 * mps-youtube (needs python tools)
@@ -27,3 +28,7 @@ Contain my .config files for many Linux programs
 ### Pen-Testing
 * wireshark (not there yet...)
 * hamster
+
+### Fonts
+* gidole
+* Bitstream vera sans mono
