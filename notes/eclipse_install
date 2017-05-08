@@ -1,0 +1,4 @@
+/* In a persistent USB */
+
+Install location: /opt
+Create a eclipse-version.desktop file in usr/share/applications

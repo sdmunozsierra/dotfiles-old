@@ -1,0 +1,12 @@
+When doing a dualboot with windows and linux system take this notes as a reference:
+*Always install first windows.
+Because youre a control freak and probably you will like to have partitions
+for everything, remember that sometimes windows installs the boot in the
+HDD2 instead of the SDD, in that case you need to reinstall windows and
+leave the boot partition on the SDD. See tutorials for that or windows will
+fail to boot.
+
+If that happens, which happened to Kanue..
+
+Erase boot partition on hdd and boot into the windows USB an use boot repair
+and I dont know how but vuala.
