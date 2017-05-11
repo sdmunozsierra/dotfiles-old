@@ -17,7 +17,9 @@ _location file:_
 ## Custom Paths: dev/sda/ HDD 
 
 ## Environment Variables (Arch)
-/etc/profile
+/etc/environment
+source after editing
+note: It would be better to save it in ~/.bash.rc so i3 picks it up at startx
 
 ## Enable 256 colors in vim
 _location file:_
