@@ -1,8 +1,8 @@
-#Various Config files
+# Various Config files
 
 __IMPORTANT: use source [filename] to update changes__
 
-##Add commands and scripts at startup
+## Add commands and scripts at startup
 _location file:_
 /etc/rc.local
 
@@ -10,25 +10,28 @@ _location file:_
 /etc/lightdm/lightdm-gtk-greeter.conf
 /etc/xdg/lubuntu/lxdm.conf
 
-##Custom aliases for bash
+## Custom aliases for bash
 _location file:_
 'code: ~/.bash_aliases'
 
-##Custom Paths: dev/sda/ HDD 
+## Custom Paths: dev/sda/ HDD 
 
-##Enable 256 colors in vim
+## Environment Variables (Arch)
+/etc/profile
+
+## Enable 256 colors in vim
 _location file:_
 ~/.profile\
 
-##Openbox Configuration: keybindings
+## Openbox Configuration: keybindings
 _location file:_
 ~/.config/openbox/lubuntu-rc.xml
 
-##Xinit Configuration:
+## Xinit Configuration:
 _location file:_
 /etc/X11/xinit
 
-##Terminal Configuration
+## Terminal Configuration
 _location file:_
 ~/.Xdefaults
 ~/.xsession
@@ -39,8 +42,8 @@ Location Repos/st/
 files to modify
 config.h
 
-##Wmii Configuration
-##Use wmiirc for hardcore mods
+## Wmii Configuration
+## Use wmiirc for hardcore mods
 What I've read this is deprecated
 
 _location files:_
