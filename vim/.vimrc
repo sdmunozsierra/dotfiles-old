@@ -46,3 +46,8 @@ set laststatus=2
 " just hit backspace without this one and
 " see for yourself
 "set backspace=indent,eol,start
+
+" Copy and paste from xclip (needs xclip)
+vmap <F11> :!xclip -f -sel clip<CR>
+map <F12> :r !xclip -o<CR>
+
