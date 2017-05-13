@@ -20,6 +20,7 @@ Contain my .config files for many Linux programs
 * rissetto
 * lynx
 * git
+* xfce4-screenshooter
 * brassero (cd management _u never know_)
 
 ### Media
