@@ -1,6 +1,11 @@
 # dotfiles
 Contain my .config files for many Linux programs
 
+## (NEW SECTION) ArchScripts
+These are basically scripts that will install everything I need if I screw up my machine (which is something very probable due to my humanity).
+As right now all of them do what they are called to do install_* (install something)
+
+
 ## Programs that you've installed
 ### System Related
 * neofetch
@@ -9,19 +14,23 @@ Contain my .config files for many Linux programs
 * stterminal
 * synapse
 * feh
+* pacmanfm
+* escrotum (for screenshots lol) 
 
 ### Programming 
 * Java
 * Python
 * Android Studio
+* Eclipse
 
 ### Tools
 * vim (of course)
 * rissetto
 * lynx
 * git
-* xfce4-screenshooter
+* xfce4-screenshooter (does not work on arch :/)
 * brassero (cd management _u never know_)
+* mupdf
 
 ### Media
 * mps-youtube (needs python tools)
@@ -31,5 +40,6 @@ Contain my .config files for many Linux programs
 * hamster
 
 ### Fonts
-* gidole
+* Fira Sans
+* Gidole
 * Bitstream vera sans mono
