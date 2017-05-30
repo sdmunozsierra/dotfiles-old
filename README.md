@@ -43,3 +43,10 @@ As right now all of them do what they are called to do install_* (install someth
 * Fira Sans
 * Gidole
 * Bitstream vera sans mono
+
+## ViM plugins
+* bad wolf
+* solarized 
+* vim-airline
+* vim-airline-themes
+* YouCompleteMe(kinda not working)
