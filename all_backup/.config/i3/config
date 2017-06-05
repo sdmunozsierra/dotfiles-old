@@ -108,7 +108,7 @@ bindsym $mod+m exec dmenu_fm -i -p '>>' $dmenuTheme
 # autostart programs
 exec	--no-startup-id i3-msg 'workspace $WS1; exec conky -c ~/.config/conky/conkyrc_swag'
 exec   	--no-startup-id synapse -s hide
-exec	--no-startup-id feh --bg-fill ~/Data/Downloads/wallpaper_1.jpg
+exec	--no-startup-id feh --bg-fill ~/Data/Downloads/wallpaper_2.jpeg
 exec	--no-startup-id $browser 
 
 # start programs

@@ -1,6 +1,3 @@
-ls | grep st
-cp st-scrollback-0.7.diff ~/Data/Git/wolfst/patches/
-ls
 cd ..
 cd Git/
 ls
@@ -498,3 +495,6 @@ pacman -S e2fs
 sudo pacman -S e2fs
 sudo -i
 startx
+ls
+cd DA
+ncmpcpp 

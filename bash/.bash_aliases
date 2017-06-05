@@ -36,6 +36,25 @@ alias matrix="cmatrix -bu 7 -C "
 #Make directory and cd
 #mkdircd() {mkdir -p "$@" && eval cd "\"\$$#"";}
 
+#Backup all config files to github repo
+gitBackup(){
+	cd ~
+	cp -v .bash* ~/Data/Git/dotfiles/bash/ 		#Bash
+	cd .Android*
+	cp -rv config ~/Data/Git/dotfiles/androidstudio2.3/ 	#AndroidStudio
+	cd ..
+	cp -rv .config ~/Data/Git/dotfiles/all_backup/ 	#Backup all config files
+	cp -v .vimrc ~/Data/Git/dotfiles/vim/ 		#vim
+	cp -v .Xauth* ~/Data/Git/dotfiles/x/ 		#Xaut
+	cp -v .xini* ~/Data/Git/dotfiles/x/ 		#xinit
+	echo "Backup finished"
+	cd ~/Data/Git/dotfiles/
+	git add *
+	git commit -m "Backup all config files"
+	echo "Remember to Git push"
+	git push
+}
+
 #Create file chmod and vim
 touchVim(){
 	touch $1
