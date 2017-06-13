@@ -1,500 +1,500 @@
-cd ..
-cd Git/
 ls
-cp -R st st_vanilla
-cd st_vanilla/
-ls
-git apply ~/Data/Downloads/st-scrollback-0.7.diff 
-git apply --check ~/Data/Downloads/st-alpha-0.5.diff 
-git apply --status ~/Data/Downloads/st-alpha-0.5.diff 
-git am ~/Data/Downloads/st-alpha-0.5.diff 
-git
-git init
-git apply ~/Data/Downloads/st-scrollback-
-git apply ~/Data/Downloads/st-scrollback-0.7.diff 
-ls
-cd..
-ls
-git clone https://github.com/katie-jones/st.git
-git clone https://github.com/katie-jones/st.git katie-st
-cd katie-st/
-ls
-cd PKGBUILD 
-ls
-cd..
-rmDir katie-st/
-sudo rmDir katie-st/
-rm -r katie-st/
-y
-ls
-cd Data/Git/
-ls
-rmDir st/
-rm -R st/
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-sudo rm -R deleteme/
-cp -R  wolfst/ deleteme
-ls
-cd Data/Git/deleteme/
-ls
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-make clean install
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-cd..
-cd deleteme/
-sudo make clean install
-horrible
-cd Data/Git/
-ls
-cd st_vanilla/
-ls
-sudo make clean install
-ls
+ka
 la
-st
-mv ~/Data/Downloads/st-scrollback-0.7.diff ~/Data/Git/st_vanilla/
+mv .syslinux.config.bak syslinux.cfg.bak
+sudomv .syslinux.config.bak syslinux.cfg.bak
+sudo mv .syslinux.config.bak syslinux.cfg.bak
 ls
-chmod 777 st-scrollback-0.7.diff 
-git apply st-scrollback-0.7.diff 
-sudo git apply st-scrollback-0.7.diff 
-git apply -p1 st-scrollback-0.7.diff 
-git apply -p0 st-scrollback-0.7.diff 
-vim st-scrollback-0.7.diff 
-git status
-lsf 
-la
-git apply --check st-scrollback-0.7.diff 
-git apply --status st-scrollback-0.7.diff 
-git apply --stat st-scrollback-0.7.diff 
-git apply st-scrollback-0.7.diff 
-git apply --summary st-scrollback-0.7.diff 
+vim syslinux.cfg
+cd /usr/lib/syslinux/bios/
 ls
-cd..
-ls
-rm -r st_vanilla/
-y
-ls
-git clone git://git.suckless.org/st vanilla
-ls
-cd vanilla/
-ls
-vim README 
-git init
-git apply ~/Data/Downloads/st-alpha-0.5.diff 
-git checkout 
-git checkout 0.7
-git apply ~/Data/Downloads/st-alpha-0.5.diff 
-curl http://st.suckless.org/patches/st-scrollback-.0.7.diff | git apply
-git commit -a -m "APPLYING SCROLLBACK"
-git apply 
-ls
-git apply ~/Data/Downloads/st-alpha-0.5.diff 
-git branch my_dwm
-git checkout my_dwm
-git apply ~/Data/Downloads/st-alpha-0.5.diff 
-make clean
-git apply ~/Data/Downloads/st-alpha-0.5.diff 
-make
-git apply ~/Data/Downloads/st-alpha-0.5.diff 
-git apply ignore-space-change --ignore-whitespace ~/Data/Downloads/st-alpha-0.5.diff 
-clean
-clear
-git apply --ignore-space-change --ignore-whitespace ~/Data/Downloads/st-clipboard-20160727-308bfbf.diff 
-ls
-git commit -a -m "CLIPBOARD"
-git merge master
-git mergetool
-git commit
-:q
-lasdmapsd
-cd..
-exit
+vim mbr.bin 
+sudo dd bs=440 count=1 if=/usr/lib/syslinux/bios/mbr.bin of=/dev/sda
+sudo dd bs=440 count=1 if=/usr/lib/syslinux/bios/mbr.bin of=/dev/sdb
+sudo fdisk -l
+sudo pacman -S wget
+pacman -S libclang
+sudo pacman -S libclang
 cd Data/Git/
+cd dotfiles/
 ls
-cd wolfst/
-ls
-git apply patches/st-scrollback-0.7.diff 
-git apply patches/st-scrollback-0.7.diff 
-git apply -3 patches/st-scrollback-0.7.diff 
-ls
-git apply --stat patches/st-scrollback-0.7.diff 
-git apply --check patches/st-scrollback-0.7.diff 
-git start
-git status
-git apply -R patches/st-scrollback-0.7.diff 
-git apply -R -3 patches/st-scrollback-0.7.diff 
-git am patches/st-scrollback-0.7.diff 
-git pull
-cd..
-ls
-cd wolfst/
-git pull 
-git pull -f
-git pull -help
-git pull -f
-git status
-git reset HEAD config.def.h 
-git reset HEAD st.c
-ls
-git status
-git pull -f
-ls
-git am patches/st-scrollback-0.7.diff 
-git apply -p0 patches/st-scrollback-0.7.diff 
-la
-cd patches/
-ls
-git format-patch st-scrollback-0.7.diff 
-ls
-git format-patch st-scrollback-0.7.diff patch1
-ls
-git branch
-git logo
-git log
-cd..
-ls
-git format-patch scrollback_try -o patches/
-cd patches/
-vim st-scrollback-0.7.diff 
-git log
-git format-patch -1
-ls
-git apply st-scrollback-0.7.diff 
-ls
-cd..
-ls
-cd patches/
-ls
-git apply --check st-scrollback-0.7.diff 
-gistatusly --check st-scrollback-0.7.diff 
-git apply --status st-scrollback-0.7.diff 
-:q
-ls
-git status
-git rm 0001-Color-scheme-based-on-BadWolf.patch 
-git status
-git remove
-git rm
-git rm -f 0001-Color-scheme-based-on-BadWolf.patch 
-ls
-git status
-rm 0001-Color-scheme-based-on-BadWolf.patch 
-ls
-git status
-git diff --staged
-ls
-cd..
-ls
-git ckeckout scrollback-patch
-git checkout scrollback-patch
-git -b scrollback-patch
-git branch scrollback-patch
-git checkout scrollback-patch
-git apply --ignore-space-change --ignore-whitespace patches/st-scrollback-0.7.diff 
-git apply --reject --whitespace=fix patches/st-scrollback-0.7.diff 
-git -am resolved
-git -a -m "resolved"
-git -a -m resolved
-git commit -a -m resolved
-git merge
-git branch
-git merge scrollback-patch master
-ls
-git branch
-git merge master
-git status
-git add config.def.h.rej 
-git add st.c.rej 
-ls
-git merge master
-ls
-git branch
-git merge scrollback-patch
-git merge master
-git commit -a -m "IDKT WHAT IMD DOING"
-git pull --rebase
-git rebase --continue
-git merge master
-ls
-git branch
-git checkout master
-ls
-git apply patches/st-scrollback-0.7.diff 
-git apply -f patches/st-scrollback-0.7.diff 
-git apply -v patches/st-scrollback-0.7.diff 
-cd Data/Git/dotfiles/
-ls
+git push
 cd notes/
 ls
-vim readme.md 
-git add readme.md 
-git commit -m "Updated readme"
-git push
+vim vim_notes 
 ls
-vim st_config.md 
-history
-shutdown -t 1200
-shutdown -c
-shutdown -s -t 1200
-shutdown -r -t 1200
-vim 
+mv vim_notes vim_notes.md
 ls
-mv patch-1.patch Data/Git/
-cd Data/Downloads/
-mv st-scrollback-20170329-149c0d3.diff ~/Data/Git/wolfst/patches/
-shutdown -c
-cd Data/Git/
-ls
-sudo rm -r deleteme/
-cp -r wolfst/ deleteme
-cd deleteme/
-sudo make clean install
-st --ver
-st --v
-man st
-st -v
-ls
-cd Data/Git/
-ls
-mv patch-1.patch wolfst/
-cd wolfst/
-ls
-apply patch-1.patch 
-git apply patch-1.patch 
-git apply -status patch-1.patch 
-git apply -stat patch-1.patch 
-git apply --stat patch-1.patch 
-ls
-git apply patches/st-scrollback-20170329-149c0d3.diff 
-git merge
-git merge head
-git merge HEAD
-git commit -a -m "Scrollback?"
-git push
-ls
-history
-cd .config/colorscheme/
-ls
-touch badwolf colors
-ls
-rm colors 
-vim badwolf 
-history
-ximput list
-xinput list
-xinput list-propos device-number
-xinput list-propos device-number option-number setting
-xinput list-prop device-number option-number setting
-xinput list-props device-number
+vim vim_notes.md 
+exit
+clear
+clear
+wget Download libclang from llvm.org `http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz`
+wget Download libclang from llvm.org `http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-aarch64-linux-gnu.tar.xzclear
+clar
+clear
+Download libclang from llvm.org `http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz`
+wget http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz ~/temp/
+get http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz ~/temp/
+get http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz ~/temp/
+wget http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz ~/temp/
+wget http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz ~/temp/
 cd temp/
 ls
-cd tmp/
+la
+cd..
 ls
-bim ycmd_60803_stdout_3y0pd_nk.log 
-vim ycmd_60803_stdout_3y0pd_nk.log 
-mv /
-cd /
+mv -r clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz  temp/
+mv -R clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz  temp/
+mv clang+llvm-4.0.0-aarch64-linux-gnu.tar.xz  temp/
+cd temp/
+ls
+cd clang+llvm-4.0.0-aarch64-linux-gnu
+ls
+la
+cd bin/
+ls
+clang
+pacman -S clang
+sudo pacman -S clang
+./install.sh --clang-completer --sustem-libclang
+ls
+cd..
+ls
+cd include/
+ls
+la
+cd clang
+la
+cd...
+cd lib
+ls
+la
+cd..
+ls
+cd share/
+ls
+la
+cd clang/
+ls
+la
+cd...
 ls
 cd bin/
 ls
-cd serialver 
 la
 cd..
 ls
-cd temp 
-ls
-cd tmp/
-ls
-cd..
-ls
-cd temp 
-vim temp 
-cd usr/
+la
+cd include/
 ls
 cd..
-cd home/
+clang
+pacman -S phyton-dev
+sudopacman -S phyton-dev
+sudo pacman -S phython-dev
+cd ~/.vim/bundle/YouCompleteMe/
+sudo ./install.py --clang-completer --system-libclang
+exit
 ls
-cd keanue/
+cd Data/Programming/EclipseWorkspace/teb_cigna/
 ls
-cd temp/
+cd src/
 ls
-cd....
+cd teb_cigna/
 ls
-mv -r tmp/ home/keanue/temp/
-mv -R tmp/ home/keanue/temp/
-mv tmp/ home/keanue/temp/
-sudo mv tmp/ home/keanue/temp/
-cd tmp/
+vim Utils.java 
+vim Utils.java 
+sudo pacman -S flashplugin
+sudo pacman -S xorg-backlight
+sudo pacman -S xorg-xbacklight
+cd Data/Git/
 ls
-cd..
-ls
-cd tmp/
+cd dotfiles/
+l
+sls
+git commit -m "update"
+git rm notes/vim_notes
+git add notes/vim_notes.md 
+git commit -m "update vim notes"
+git push
+lspci | grep -e VGA -e 3D
+sudo pacman -S xf86-cideo-intel
+sudo pacman -S xf86-video-intel
+pacaur -Syu
+pacaur -S vivaldi-beta
+pacaur -S vivaldi-snapshot
+sudo pacman -S bumblebee
+sudo pacman -S mesa
+lspci -k | grep -A 2 -E "(VGA|3D)"
+pacman -S nvidia
+sudo pacman -S nvidia
+sudo pacman -S nvidia
+pacman -Rs nvidia
+sudo pacman -Rs nvidia
+sudo pacman -Rs nvidia*
+sudo pacman -Rs nvidia
+sudo pacman -S nvidia
+sudo pacman -S xf86-video-intel
+sudo gpasswd -a user bumblebee
+sudo gpasswd -a keanue bumblebee
+enable bumblebeed.service
+sudo enable bumblebee.service
+sudo service enable bumblebee.service
+bumblebee.service
+systemclt enable bumblebee.service
+systemctl enable bumblebee.service
+systemctl enable bumblebeed.service
+sudo pacman -S mesa-demos
+optirun glxgears --info
+glxgears -info
+glxspheres64
+reboot
+xbacklight -set 50
+xbacklighy
+xbacklight
+xrandr
+xrandr --output LVDS1
+xrandr --output ePD-1
+cd /etc/X11/
+la
+vim xorg.conf.backup 
+vim xorg.conf
 ls
 la
-cd..
-ls
-mv temp /home/keanue/temp/
-sudo mv temp /home/keanue/temp/
-ls
-cd dev/
-ls
-cd /mnt/
-ls
+rm xorg.conf
 la
-ls
-ls
-lsblk
-cd..
-ls
-cd etc/
-ls
-cd..
-cd dev/
-ls
-ls
-cd..
-ls
-cd mnt/
-ls
-vim /etc/fstab
-sudo vim /etc/fstab
-$ lsmod|grep -iE "apple|cyapa|sermouse|synap|psmouse|vsxx|bcm"
-$ lsmod|grep -iE "apple|cyapa|sermouse|synap|psmouse|vsxx|bcm"
-lsmod|grep 
-lsmod|grep -iE "apple|cyapa|sermouse|synap|psmouse|vsxx|bcm"
-clear
-lsmod|grep -iE "apple|cyapa|sermouse|synap|psmouse|vsxx|bcm"
-clear
-lsmod|grep -iE "input"
-modinfo input_leds
-ximput --list
-xinput --list
-xinput --list
-lsmod
-sudo pacman -S xf86-input-libinput
-pacman -Syu
-sudo pacman -Syu
-pacaur -S kcm-pointing-devices-git
-vim /usr/share/X11/xorg.conf.d/40-libinput.conf
-cd /etc/X11/xorg.conf.d/
-ls
+rm xorg.conf
+sudo rm xorg.conf
 la
-touch 30-touchpad.conf
-sudo touch 30-touchpad.conf
+cd ~
+cd Data/Git/
 ls
-vim 30-touchpad.conf 
-vim 30-touchpad.conf 
-vim 30-touchpad.conf 
+cd dotfiles/notes/
+ls
+vim nvidia_notes.md 
+startx
+optirun glxspheres64
+optirun glxgears -info
+glxgears -info
+optirun glxgears -info
+cd Data/Git/dotfiles/notes/
+vim nvidia_notes.md 
+xbacklight -set 50
+optirun -b none nvidia-settings -c :8
+optirun nvidia-settings
+nvidia-settings
+sudo nvidia-settings
+whereis nvidia-settings
+pacman -S nvidia-settings
+sudo pacman -S nvidia-settings
+optirun -b none nvidia-settings -c :8
+vim /etc/bumblebee/bumblebee.conf 
+vim /etc/X11/
+cd /etc/X11/
+ls
+touch xorg.conf
+sudo touch xorg.conf
+vim xorg.conf
+vim xorg.conf
+cd /sys/class/backlight/
+ls
+reboot
+startx
 cd Data/Notes/
 ls
-touch libinput_config.md
-vim libinput_config.md 
-sudo blkid
-gparted
-sudo gparted
-sudo blkid
-mount -a
-sudo mount -a
-lsblk
+cd..
+cd Git/dotfiles/
 ls
-cd/
-cd /
+cd notes/
 ls
-cd mnt/
-ls
-sudo mount -a
-lsmod | grep ext4
-zgrep EXT4 /proc/config.gz
-sudo pacman -S ext4
-mount -a
-sudo mount -a
-sudo mount -a
-cd /proc/filesystems 
-vim /proc/filesystems 
+vim nvidia_notes.md 
+sudo commit -m "Updated Nvidia Notes (Bumblebee and Brightness control)"
+sudo git commit -m "Updated Nvidia Notes (Bumblebee and Brightness control)"
+add nvidia_notes.md 
+git add nvidia_notes.md 
+sudo git commit -m "Updated Nvidia Notes (Bumblebee and Brightness control)"
+git push
+:q
+exit
+xbacklight
+xbacklight -set 50
+shutdown -t 0
+startx
+pacaur -S wps-office
+pacman -Sr midori
+pacman -Rs midori
+sudo pacman -Rs midori
+sudo pacman -S bbswitch
+cat /proc/acpi/bbswitch
+cat /proc/acpi/bbswitch
+modinfo bbswitch
+cd /etc/bumblebee/
+la
+vim bumblebee.conf 
+cd Data/Git/dotfiles/notes/
+vim nvidia_notes.md 
 reboot
+startx
+cd Data/Downloads/
+ls
+mv wxWidgets-3.1.0.tar.bz2 ~/temp/
+cd ~/temp/
+la
+la
+cd wxWidgets-3.1.0
+ls
+sudo make clean install
+sudo make 
+sudo make install
+la
+vim README.md 
+la
+./install-sh 
+cd build/
+ls
+vim README.txt 
+cd..
+ls
+la
+sudo pacman -S wxgtk
+pacman --version
+cat /proc/acpi/bbswitch
+cat /proc/acpi/bbswitch
+systemctl bumblebeed
+systemctl stat8s bumbledeed
+systemctl status bumbledeed
+systemctl 
+clear
+cat /proc/acpi/bbswitch
+optirun dolphin-emu
+optirun --h
+optirun dolphin-emu
+cat /proc/acpi/bbswitch
+cat /proc/acpi/bbswitch
+optirun dolphin-emu
+primusrun dolphin-emu
+pacaur -S dolphin-emu-git
+pacaur -S dolphin-emu-git
+pacaur -S dolphin-emu-git
+pacaur -S wxgyk
+pacaur -S wxgtk
+pacaur -S wxgtk
+pacaur -S wxgtk
+pacaur -S wxgtk
+pacaur -S wxgtk
+pacaur -S wxgtk3-light
+pacaur -S wxbase
+cd /etc/pacman.d/
+la
+vim mirrorlist 
+sudo pacaur -Syyu
+pacaur -Syyu
+pacaur -S dolphin-emu-git
+cd ~/Data/
+cd Downloads/
+la
+optirun -b none nvidia-settings -c :8
+pacaur -S primus
+cd Data/
+la
+feh -d -S filename /Downloads
+feh -d -S filename ~/Data/Downloads/
+cd..
+vim .fehbg 
+source .fehbg 
+vim .fehbg 
+source .fehbg 
+hisory | grep cat
+history | grep cat
+cat /proc/acpi/bbswitch
+startx
+primusrun dolphin-emu
+optirun dolphin-emu
+primusrun dolphin-emu -c :8
+optirun dolphin-emu
+optirun -d dolphin-emu -c :8
+shutdown -t 0
+ls
+vim dead.letter 
+mc dead.letter temp/
+mv dead.letter temp/
+la
+cd Data/
+ls
+cd Downloads/
+ls
+history | grep cat
+cat /proc/acpi/bbswitch
+optirun -d primusrun dolphin-emu
+optirun -d primusrun dolphin-emu
+primusrun dolphin-emu
+pacaur -S bumblebee-nvidia
+sudo dolphin-emu
+dolphin-emu
+nvidia-settings 
+sudo nvidia-settings 
+bumblebee -b primus dolphin-emu
+primusrun dolphin-emu
+primusrun -b nvidia-settings -c :8
+primusrun -d nvidia-settings -c :8
+primusrun nvidia-settings -c :8
+primusrun glxinfo
+mhwd -li
+mhwd -li
+PRIMUS_VERBOSE=2 primusrun /opt/splice/Splice
+PRIMUS_VERBOSE=2 primusrun /bin/dolphin-emu
+primusrun dolphin-emu
+vim
+vim
+vim
+vim
+ls
+cd .config/
+ls
+cd ublock/
+ls
+vim *txt
+cd /etc/fstab 
+vim /etc/fstab 
+sudo gparted
+pacman -S usbmount
+sudo pacman -S usbmount
+sudo pacman -S usbstick
+sudo vim /etc/fstab 
+vim /etc/fstab 
+pacman -Rs autofs
+sudo pacman -Rs autofs
+exit
+lsblk -f
+cd /mnt/
+ls
+mkdir usb
+sudo mkdir usb
+mount 1C57-4697
+mount -U 1C57-4697 /mnt/usb
+sudo mount -U 1C57-4697 /mnt/usb
+pacman -S gvfs
+sudo pacman -S gvfs
 lsblk
-sudo lsbkid
-sudo mount -a
-sudo mount -a
-fdisk -l
-sudo fdisk -l
-mount -t ext4 /dev/sda1 /mnt
-sudo mount -t ext4 /dev/sda1 /mnt
+sudo pacman -S autofs
+vim /etc/autofs/auto.master
+umount -o usb/
+sudo umount -o usb/
+sudo umount /usr/
+sudo umount /usb
 ls
-cd /
-ls
-sudo mkdir media/
+sudo umount /mnt/usb/
+cd..
 cd media/
 ls
-mount -a
-sudo mount -a
-pacman -S ext4dev
-sudo pacman -S ext4dev
-pacman e2fs
-pacman -S e2fs
-sudo pacman -S e2fs
-sudo -i
-startx
+la
+la
 ls
-cd DA
-ncmpcpp 
+ls
+cd.
+cd..
+ls
+cd media/
+ls
+cd..
+cd mnt/
+ls
+cd usb/
+ls
+cd...
+ls
+vim /etc/autofs/auto.master
+vim /etc/autofs/auto.master
+source /etc/autofs/auto.master
+autofs
+vim /etc/autofs/auto.master
+source /etc/autofs/auto.master
+vim /etc/autofs/auto.misc 
+source /etc/autofs/auto.misc
+vim /etc/autofs/auto.misc 
+vim
+vim 
+vim .vimrc 
+cd .vim
+la
+cd bundle/
+ls
+cd..
+ls
+cd..
+ls
+la
+cd .vim
+ls
+mkdir plugin
+cd bundle/
+ls
+cd badwolf/
+ls
+cd..
+cd vim-airline
+ls
+cd plugin/
+ls
+cd...
+ls
+cd..
+ls
+cd plugin/
+git clone https://github.com/fholgado/minibufexpl.vim.git
+ls
+cd minibufexpl.vim/
+ls
+cd plugin/
+ls
+cp minibufexpl.vim ~/.vim/plugin/
+cp minibufexpl.vim ~/.vim/plugin/
+ls
+vim 
+ls
+cd...
+ls
+ls
+cd..
+ls
+cd bundle/
+ls
+cd Vundle.vim/
+ls
+cd...
+ls
+cd plugin/
+ls
+cp -R minibufexpl.vim/ ~/.vim/bundle/
+cd..
+rm -r plugin/
+ls
+vim
+vim
+vom
+cim
+vim
+vim
+vim
+vim
+cd .vim
+ls
+cd bundle/
+ls
+cd Vundle.vim/
+ls
+cd..
+rm -r minibufexpl.vim/
+ls
+vim
+cd .config/ublock/
+vim *
+vim 
+sudo lsblk
+GRUB_ENABLE_CRYPTODISK=y
+ls
+grub-install
+parted /dev/sdb print
+sudo parted /dev/sdb print
+sudo gparted

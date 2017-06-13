@@ -44,6 +44,14 @@ After bumblebee: gears fullsize avg 142 fps (Video looks flugly though)
 
 Wholly Shit Batman.
 
+## Configuration
+First of all is important to turn off the Nvidia card when is not in use because it will drain your battery life.
+install `bbswitch`
+
+Nvidia Settings:
+optirun -b none nvidia-settings -c :8
+
+
 ### Manual Installation (From Nvidia Repos) (Might Break your system though)
 sudo service lightdm stop
 sudo service gdm stop

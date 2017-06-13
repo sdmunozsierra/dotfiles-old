@@ -108,7 +108,7 @@ bindsym $mod+m exec dmenu_fm -i -p '>>' $dmenuTheme
 # autostart programs
 exec	--no-startup-id i3-msg 'workspace $WS1; exec conky -c ~/.config/conky/conkyrc_swag'
 exec   	--no-startup-id synapse -s hide
-exec	--no-startup-id feh --bg-fill ~/Data/Downloads/wallpaper_2.jpeg
+exec	--no-startup-id feh --bg-fill ~/Data/Downloads/wallpaper_1.jpg
 exec	--no-startup-id $browser 
 
 # start programs
@@ -140,6 +140,7 @@ bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
 bindsym XF86AudioMute        exec amixer -q set Master Playback Switch toggle
 bindsym XF86MonBrightnessUp  exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown  exec xbacklight -dec 10
 
 ##############################
 ####### WINDOW CONTROL #######
@@ -172,6 +173,9 @@ bindsym $mod+Shift+l move right
 ##############################
 ######### LAYOUT #############
 ##############################
+
+# rename a workspace (mnemonic: 'y' for 'reyname')
+bindsym $mod+y exec i3-input -F 'rename workspace to "%s"' -P 'New name: '
 
 # split in horizontal orientation
 bindsym $mod+o split h
@@ -215,19 +219,17 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mprivate String ode
+        # These bindings trigger as soon as you enter the resize mode
 
         # $ressing left will shrink the window’s width.
-        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym h resize grow width 10 px or 10 ppt
+        bindsym l resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym m resize grow width 10 px or 10 ppt
-
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym j resize shrink height 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 10 px or 10 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"

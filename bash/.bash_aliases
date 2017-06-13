@@ -20,9 +20,6 @@ alias scrotf="escrotum -s ~/Data/Screenshots/ "
 #rm commands
 alias rmdir="rm -r"
 
-#git commands
-alias gbdir="cp -r * ~/Data/Git/dotfiles/all_backup/"
-
 #color theme
 alias displayColors="~/Data/ArchScripts/display_colors.sh"
 
@@ -53,6 +50,15 @@ gitBackup(){
 	git commit -m "Backup all config files"
 	echo "Remember to Git push"
 	git push
+}
+
+#Debug st
+debugSt(){
+	sudo rm -r deleteme
+	sudo cp -r wolfst deleteme/
+	cd deleteme	
+	sudo make clean install
+	cd ..
 }
 
 #Create file chmod and vim
