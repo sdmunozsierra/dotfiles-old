@@ -38,9 +38,10 @@ gitBackup(){
 	cd ~
 	cp -v .bash* ~/Data/Git/dotfiles/bash/ 		#Bash
 	cd .Android*
-	cp -rv config ~/Data/Git/dotfiles/androidstudio2.3/ 	#AndroidStudio
+#	cp -rv config ~/Data/Git/dotfiles/androidstudio2.3/ 	#AndroidStudio
 	cd ..
-	cp -rv .config ~/Data/Git/dotfiles/all_backup/ 	#Backup all config files
+# 	cp -rv .config ~/Data/Git/dotfiles/all_backup/ 	#Backup all config files
+	rsync -av --progress .config ~/Data/Git/dotfiles/config/ --exclude .config/vivald*
 	cp -v .vimrc ~/Data/Git/dotfiles/vim/ 		#vim
 	cp -v .Xauth* ~/Data/Git/dotfiles/x/ 		#Xaut
 	cp -v .xini* ~/Data/Git/dotfiles/x/ 		#xinit

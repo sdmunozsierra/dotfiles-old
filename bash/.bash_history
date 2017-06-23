@@ -1,196 +1,3 @@
-pacaur -S wxgtk
-pacaur -S wxgtk
-pacaur -S wxgtk
-pacaur -S wxgtk3-light
-pacaur -S wxbase
-cd /etc/pacman.d/
-la
-vim mirrorlist 
-sudo pacaur -Syyu
-pacaur -Syyu
-pacaur -S dolphin-emu-git
-cd ~/Data/
-cd Downloads/
-la
-optirun -b none nvidia-settings -c :8
-pacaur -S primus
-cd Data/
-la
-feh -d -S filename /Downloads
-feh -d -S filename ~/Data/Downloads/
-cd..
-vim .fehbg 
-source .fehbg 
-vim .fehbg 
-source .fehbg 
-hisory | grep cat
-history | grep cat
-cat /proc/acpi/bbswitch
-startx
-primusrun dolphin-emu
-optirun dolphin-emu
-primusrun dolphin-emu -c :8
-optirun dolphin-emu
-optirun -d dolphin-emu -c :8
-shutdown -t 0
-ls
-vim dead.letter 
-mc dead.letter temp/
-mv dead.letter temp/
-la
-cd Data/
-ls
-cd Downloads/
-ls
-history | grep cat
-cat /proc/acpi/bbswitch
-optirun -d primusrun dolphin-emu
-optirun -d primusrun dolphin-emu
-primusrun dolphin-emu
-pacaur -S bumblebee-nvidia
-sudo dolphin-emu
-dolphin-emu
-nvidia-settings 
-sudo nvidia-settings 
-bumblebee -b primus dolphin-emu
-primusrun dolphin-emu
-primusrun -b nvidia-settings -c :8
-primusrun -d nvidia-settings -c :8
-primusrun nvidia-settings -c :8
-primusrun glxinfo
-mhwd -li
-mhwd -li
-PRIMUS_VERBOSE=2 primusrun /opt/splice/Splice
-PRIMUS_VERBOSE=2 primusrun /bin/dolphin-emu
-primusrun dolphin-emu
-vim
-vim
-vim
-vim
-ls
-cd .config/
-ls
-cd ublock/
-ls
-vim *txt
-cd /etc/fstab 
-vim /etc/fstab 
-sudo gparted
-pacman -S usbmount
-sudo pacman -S usbmount
-sudo pacman -S usbstick
-sudo vim /etc/fstab 
-vim /etc/fstab 
-pacman -Rs autofs
-sudo pacman -Rs autofs
-exit
-lsblk -f
-cd /mnt/
-ls
-mkdir usb
-sudo mkdir usb
-mount 1C57-4697
-mount -U 1C57-4697 /mnt/usb
-sudo mount -U 1C57-4697 /mnt/usb
-pacman -S gvfs
-sudo pacman -S gvfs
-lsblk
-sudo pacman -S autofs
-vim /etc/autofs/auto.master
-umount -o usb/
-sudo umount -o usb/
-sudo umount /usr/
-sudo umount /usb
-ls
-sudo umount /mnt/usb/
-cd..
-cd media/
-ls
-la
-la
-ls
-ls
-cd.
-cd..
-ls
-cd media/
-ls
-cd..
-cd mnt/
-ls
-cd usb/
-ls
-cd...
-ls
-vim /etc/autofs/auto.master
-vim /etc/autofs/auto.master
-source /etc/autofs/auto.master
-autofs
-vim /etc/autofs/auto.master
-source /etc/autofs/auto.master
-vim /etc/autofs/auto.misc 
-source /etc/autofs/auto.misc
-vim /etc/autofs/auto.misc 
-vim
-vim 
-vim .vimrc 
-cd .vim
-la
-cd bundle/
-ls
-cd..
-ls
-cd..
-ls
-la
-cd .vim
-ls
-mkdir plugin
-cd bundle/
-ls
-cd badwolf/
-ls
-cd..
-cd vim-airline
-ls
-cd plugin/
-ls
-cd...
-ls
-cd..
-ls
-cd plugin/
-git clone https://github.com/fholgado/minibufexpl.vim.git
-ls
-cd minibufexpl.vim/
-ls
-cd plugin/
-ls
-cp minibufexpl.vim ~/.vim/plugin/
-cp minibufexpl.vim ~/.vim/plugin/
-ls
-vim 
-ls
-cd...
-ls
-ls
-cd..
-ls
-cd bundle/
-ls
-cd Vundle.vim/
-ls
-cd...
-ls
-cd plugin/
-ls
-cp -R minibufexpl.vim/ ~/.vim/bundle/
-cd..
-rm -r plugin/
-ls
-vim
-vim
-vom
 cim
 vim
 vim
@@ -498,3 +305,196 @@ i3lock ffffff
 i3lock -c 000000
 i3lock -c 000000
 i3lock -c 000000
+rsync
+rsync -av
+pacman -S rsync
+sudo pacman -S rsync
+cd .config/
+ls
+cd vivaldi
+ls
+cd Crash\ Reports/
+;s
+ls
+cd...
+ls
+cd vivaldi-snapshot/
+ls
+cd..
+ls
+rsync
+ls
+cd Data/
+ls
+cd Git/
+ls
+cd..
+ls
+cd Notes/
+ls
+cd...
+cd Data/Git/dotfiles/
+ls
+cd notes/
+ls
+vim eclipse_install
+cd...
+ls
+cd..
+cd..
+cd .config/
+ls
+ls
+ls
+cd..
+ls
+source .bash_aliases 
+cd Data/Git/
+ls
+cd Data/
+ls
+cd Git/
+ls
+cd deleteme/
+ls
+cd..
+ls
+cd dotfiles/
+ls
+cd notes/
+ls
+touch eclipse_install.md
+mv eclipse_install.md eclipse_notes.md
+vim eclipse_notes.md 
+gitBackup
+git push
+git status
+git rm *
+git rm -r *
+git status
+git rm -r all_backup/.
+git status
+git rm -r androidstudio2.3/config/disabled_plugins.txt 
+git status
+git commit
+git restart
+git --help
+git reset
+ls
+git status
+git -h
+git --help
+git fetch
+git init
+git status
+git commit -m "WTF"
+git rm all_backup/**
+git rm -r .*
+git rm -r .
+ls
+cd all_backup/
+ls
+la
+cd .config/
+ls
+rm -r vivaldi.*
+rm -r vivald.*
+rm -r vivaldi
+rm -r vivald
+rm -r vivald*
+ls
+ls
+cd..
+ls
+ls
+la
+cd .config/
+ls
+cd..
+ls
+cd..
+ls
+cd all_backup/
+ls
+cd .config/
+ls
+cd..
+ls
+cd i3/
+ls
+cd...
+ls
+cd all_backup/
+ls
+ls
+cd .config/
+ls
+cd...
+ls
+rm -r all_backup/
+git commit -m "Deleted all backup files for a better organization"
+git push
+git status
+git add *
+sudo git add *
+git push
+git status
+git rm -r *
+ls
+git push
+sudo git push
+ls
+git add *
+ls
+git status
+git restart
+git --help
+git show
+git status
+git commit
+sudo git commit "Deleted Backups for better management"
+sudo git commit -m "Deleted Backups for better management"
+git push
+ls
+git rm -r androidstudio2.3/
+git commit -m "removed for better management"
+git push
+ls
+la
+git fetch
+ls
+git add config
+mkdir config
+git add config/
+ls
+gitBackup
+git reset
+git status
+ls
+git reset all
+git rm all_backup/*
+git rm -r all_backup/*
+sudo git rm -r all_backup/*
+sudo git rm -r all_backup/
+sudo git rm -r all_backup/ -f
+sudo git rm -r all_backup/
+sudo git rm -r androidstudio2.3/
+sudo git rm -r androidstudio2.3/ -f
+sudo git rm -r androidstudio2.3/* -f
+git status
+ls
+rmDir all_backup/
+rmdir all_backup/
+rmdir androidstudio2.3/
+ls
+git commit -m "Still trying to delete"
+sudo git commit -m "Still trying to delete"
+git push
+gitBackup
+ls
+git rm *
+rmdir all_backup/
+rmdir androidstudio2.3/
+ls
+git status
+exit
