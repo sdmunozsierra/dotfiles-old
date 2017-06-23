@@ -1,5 +1,22 @@
 <application>
   <component name="DimensionService">
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="433" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="434" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="741" y="165" />
+    <location key="SettingsEditor.0.0.1920.1080" x="425" y="24" />
+    <location key="GitCloneDialog.0.0.1920.1080" x="578" y="317" />
+    <location key="NewModule_or_Project.wizard.0.0.1920.1080" x="545" y="108" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="668" y="296" />
+    <location key="Vcs.Push.Dialog.0.0.1920.1080" x="750" y="162" />
+    <location key="CommitChangelistDialog2.0.0.1920.1080" x="549" y="178" />
+    <location key="MultipleFileMergeDialog.0.0.1920.1080" x="710" y="348" />
+    <location key="#Browse_JetBrains_Plugins_.0.0.1920.1080" x="534" y="-2" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080" width="426" height="488" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1054" height="686" />
+    <size key="GitCloneDialog.0.0.1920.1080" width="753" height="184" />
+    <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="818" height="602" />
+    <size key="Vcs.Push.Dialog.0.0.1920.1080" width="403" height="587" />
+    <size key="CommitChangelistDialog2.0.0.1920.1080" width="810" height="639" />
+    <size key="MultipleFileMergeDialog.0.0.1920.1080" width="609" height="541" />
+    <size key="#Browse_JetBrains_Plugins_.0.0.1920.1080" width="826" height="688" />
   </component>
 </application>
