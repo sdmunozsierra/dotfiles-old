@@ -1,0 +1,118 @@
+no-cosmetic-filtering: www.stumbleupon.com true
+no-remote-fonts: * true
+no-remote-fonts: accounts.google.com false
+no-remote-fonts: coolors.co false
+no-remote-fonts: fontawesome.io false
+no-remote-fonts: my.utep.edu false
+no-remote-fonts: outlook.office365.com false
+no-remote-fonts: pay.ebay.com false
+no-remote-fonts: play.riffstation.com false
+no-remote-fonts: sso.utep.edu false
+no-remote-fonts: www.linkedin.com false
+no-remote-fonts: www.pinterest.com false
+no-remote-fonts: www.stumbleupon.com false
+* a.adroll.com * block
+* adnxs.com * block
+* adroll.com * block
+* adsafeprotected.com * block
+* audrte.com * block
+* c1exchange.com * block
+* cm.g.doubleclick.net * block
+* cpx.to * block
+* crunchyroll.com * allow
+* d.adroll.com * block
+* doubleclick.net * block
+* fbcdn.net * allow
+* googlesyndication.com * block
+* ib.adnxs.com * block
+* linksynergy.com * block
+* mathtag.com * block
+* media.net * block
+* mindbluff.com * block
+* mnet-ad.net * block
+* openx.net * block
+* s.adroll.com * block
+* shareasale.com * block
+* us-u.openx.net * block
+* utep.edu * allow
+accounts.google.com * 3p-frame noop
+accounts.google.com * 3p-script noop
+adminapps.utep.edu * * noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+coolors.co coolors.co * allow
+courses.edx.org * 3p-script noop
+courses.edx.org youtube.com * allow
+courses.edx.org ytimg.com * allow
+itdsrvcamdev01.utep.edu * * allow
+login.live.com * 3p-frame noop
+login.live.com * 3p-script noop
+login.microsoftonline.com * 3p-frame noop
+login.microsoftonline.com * 3p-script noop
+mail.google.com * * noop
+mail.google.com * 3p-frame noop
+mail.google.com * 3p-script noop
+mp3fiber.com * 3p-script noop
+mp3fiber.com freestar.io * block
+mp3fiber.com pagefair.com * block
+mp3fiber.com pagefair.net * block
+mp3fiber.com taboola.com * block
+mp3fiber.com whirlclick.com * block
+my.utep.edu * * allow
+my.utep.edu * 3p-frame allow
+my.utep.edu * 3p-script allow
+my.utep.edu utep.edu * allow
+outlook.live.com * 3p-frame noop
+outlook.live.com * 3p-script noop
+outlook.office365.com * * allow
+outlook.office365.com * 3p-frame allow
+outlook.office365.com * 3p-script allow
+pay.ebay.com c.paypal.com * allow
+pay.ebay.com pay.ebay.com * allow
+pay.ebay.com paypal.com * allow
+play.riffstation.com * 3p-frame noop
+play.riffstation.com * 3p-script allow
+setalarmclock.net * 3p-frame noop
+setalarmclock.net * 3p-script noop
+sso.utep.edu * * allow
+sso.utep.edu * 3p-frame allow
+sso.utep.edu * 3p-script allow
+sso.utep.edu utep.edu * allow
+www.crunchyroll.com * 3p-script noop
+www.crunchyroll.com 2mdn.net * noop
+www.crunchyroll.com twitter.com * block
+www.ebay.com * 3p-script noop
+www.google.com.mx * 3p-frame noop
+www.google.com.mx * 3p-script noop
+www.linkedin.com * 3p-frame noop
+www.linkedin.com * 3p-script noop
+www.pornhub.com fonts.googleapis.com * block
+www.pornhub.com google-analytics.com * block
+www.pornhub.com phncdn.com * noop
+www.pornhub.com pornhub.com * noop
+www.quora.com * 3p-frame noop
+www.quora.com * 3p-script noop
+www.snapchat.com * 3p-frame noop
+www.snapchat.com * 3p-script noop
+www.stumbleupon.com * 1p-script allow
+www.stumbleupon.com * 3p-frame allow
+www.stumbleupon.com * 3p-script allow
+www.stumbleupon.com * image allow
+www.stumbleupon.com * inline-script allow
+www.stumbleupon.com adsafeprotected.com * block
+www.stumbleupon.com beacon.errorception.com * block
+www.stumbleupon.com connect.facebook.net * block
+www.stumbleupon.com errorception.com * block
+www.stumbleupon.com facebook.com * block
+www.stumbleupon.com facebook.net * block
+www.stumbleupon.com fonts.googleapis.com * block
+www.stumbleupon.com google-analytics.com * block
+www.stumbleupon.com gsfn.us * block
+www.stumbleupon.com netdna-ssl.com * noop
+www.stumbleupon.com pixel.adsafeprotected.com * noop
+www.stumbleupon.com svc.stumbleupon.com * allow
+www.stumbleupon.com www.facebook.com * block
+www.tixr.com * 3p-script noop
+www.youtube.com * 3p-script noop
+www.youtube.com doubleclick.net * block
+www.youtube.com youtube.com * noop

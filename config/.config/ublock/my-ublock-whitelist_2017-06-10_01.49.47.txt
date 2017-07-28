@@ -1,0 +1,8 @@
+*/sso.utep.edu/*
+about-scheme
+adminapps.utep.edu
+https://sso.utep.edu/
+itdsrvcamdev01.utep.edu
+my.utep.edu/*
+sso.utep
+sso.utep.edu/*

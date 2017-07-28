@@ -1,0 +1,14 @@
+<Menu>
+<Name>Applications</Name>
+<Menu>
+<Directory>reCsvEditor-izpack.directory</Directory>
+<Name>reCsvEditor</Name>
+<Include>
+<Filename>reCsv Editor-1498671303925.desktop</Filename>
+<Filename>reCsv Editor (Big File)-1498671303930.desktop</Filename>
+<Filename>reCsvEd Documentation-1498671303933.desktop</Filename>
+<Filename>How To Documentation-1498671303938.desktop</Filename>
+<Filename>reCsvEd - Uninstaller-1498671303939.desktop</Filename>
+</Include>
+</Menu>
+</Menu>

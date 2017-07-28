@@ -1,0 +1,79 @@
+{
+  "timeStamp": 1500483818399,
+  "version": "1.13.8",
+  "userSettings": {
+    "advancedUserEnabled": true,
+    "alwaysDetachLogger": false,
+    "autoUpdate": true,
+    "cloudStorageEnabled": false,
+    "collapseBlocked": true,
+    "colorBlindFriendly": false,
+    "contextMenuEnabled": true,
+    "dynamicFilteringEnabled": true,
+    "externalLists": "",
+    "firewallPaneMinimized": false,
+    "hyperlinkAuditingDisabled": true,
+    "ignoreGenericCosmeticFilters": false,
+    "largeMediaSize": 50,
+    "parseAllABPHideFilters": true,
+    "prefetchingDisabled": true,
+    "requestLogMaxEntries": 1000,
+    "showIconBadge": true,
+    "tooltipsDisabled": false,
+    "webrtcIPAddressHidden": true
+  },
+  "selectedFilterLists": [
+    "plowe-0",
+    "malware-1",
+    "malware-0",
+    "easyprivacy",
+    "easylist",
+    "ublock-unbreak",
+    "ublock-privacy",
+    "ublock-experimental",
+    "ublock-badware",
+    "ublock-filters",
+    "user-filters"
+  ],
+  "hiddenSettingsString": "assetFetchTimeout 30\nautoUpdateAssetFetchPeriod 120\nautoUpdatePeriod 7\nignoreRedirectFilters false\nignoreScriptInjectFilters false\nmanualUpdateAssetFetchPeriod 2000\npopupFontSize unset\nsuspendTabsUntilReady false\nuserResourcesLocation unset",
+  "netWhitelist": "*/sso.utep.edu/*\nabout-scheme\nadminapps.utep.edu\ndrive.google.com\nhttps://sso.utep.edu/\nitdsrvcamdev01.utep.edu\nmatrixcalc.org\nmy.utep.edu/*\nsso.utep\nsso.utep.edu/*\nwww.pearsonmylabandmastering.com",
+  "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop\nwww.pornhub.com fonts.googleapis.com * block\nwww.pornhub.com pornhub.com * noop\nwww.pornhub.com phncdn.com * noop\nmy.utep.edu * * allow\nmy.utep.edu * 3p-script allow\nmy.utep.edu * 3p-frame allow\nsso.utep.edu * * allow\nsso.utep.edu * 3p-script allow\nsso.utep.edu * 3p-frame allow\n* utep.edu * allow\nmy.utep.edu utep.edu * allow\nsso.utep.edu utep.edu * allow\nwww.pornhub.com google-analytics.com * block\naccounts.google.com * 3p-script noop\naccounts.google.com * 3p-frame noop\nwww.youtube.com doubleclick.net * block\nwww.youtube.com youtube.com * noop\noutlook.live.com * 3p-script noop\noutlook.live.com * 3p-frame noop\nlogin.live.com * 3p-script noop\nlogin.live.com * 3p-frame noop\noutlook.office365.com * * allow\noutlook.office365.com * 3p-script allow\noutlook.office365.com * 3p-frame allow\nlogin.microsoftonline.com * 3p-script noop\nlogin.microsoftonline.com * 3p-frame noop\nmail.google.com * * noop\nmail.google.com * 3p-script noop\nmail.google.com * 3p-frame noop\nwww.google.com.mx * 3p-script noop\nwww.google.com.mx * 3p-frame noop\nsetalarmclock.net * 3p-script noop\nsetalarmclock.net * 3p-frame noop\nwww.quora.com * 3p-script noop\nwww.quora.com * 3p-frame noop\nwww.youtube.com * 3p-script noop\nwww.stumbleupon.com * inline-script allow\nwww.stumbleupon.com * 1p-script allow\nwww.stumbleupon.com * 3p-script allow\nwww.stumbleupon.com * 3p-frame allow\nwww.stumbleupon.com * image allow\nitdsrvcamdev01.utep.edu * * allow\nadminapps.utep.edu * * noop\nwww.linkedin.com * 3p-script noop\nwww.linkedin.com * 3p-frame noop\n* fbcdn.net * allow\n* doubleclick.net * block\nplay.riffstation.com * 3p-script allow\nplay.riffstation.com * 3p-frame noop\nmp3fiber.com * 3p-script noop\nmp3fiber.com freestar.io * block\nmp3fiber.com taboola.com * block\nmp3fiber.com whirlclick.com * block\nmp3fiber.com pagefair.com * block\nmp3fiber.com pagefair.net * block\ncoolors.co coolors.co * allow\ncourses.edx.org * 3p-script noop\nwww.tixr.com * 3p-script noop\nwww.ebay.com * 3p-script noop\ncourses.edx.org youtube.com * allow\ncourses.edx.org ytimg.com * allow\nwww.snapchat.com * 3p-script noop\nwww.snapchat.com * 3p-frame noop\nwww.crunchyroll.com * 3p-script noop\n* crunchyroll.com * allow\nwww.crunchyroll.com twitter.com * block\nwww.crunchyroll.com 2mdn.net * noop\nwww.stumbleupon.com svc.stumbleupon.com * allow\nwww.stumbleupon.com google-analytics.com * block\nwww.stumbleupon.com errorception.com * block\nwww.stumbleupon.com beacon.errorception.com * block\nwww.stumbleupon.com fonts.googleapis.com * block\nwww.stumbleupon.com facebook.net * block\nwww.stumbleupon.com connect.facebook.net * block\nwww.stumbleupon.com facebook.com * block\nwww.stumbleupon.com www.facebook.com * block\n* adroll.com * block\n* a.adroll.com * block\n* d.adroll.com * block\n* s.adroll.com * block\n* cm.g.doubleclick.net * block\n* adnxs.com * block\n* ib.adnxs.com * block\n* mindbluff.com * block\n* googlesyndication.com * block\n* media.net * block\n* mnet-ad.net * block\n* shareasale.com * block\n* openx.net * block\n* us-u.openx.net * block\n* c1exchange.com * block\n* mathtag.com * block\n* linksynergy.com * block\nwww.stumbleupon.com gsfn.us * block\nwww.stumbleupon.com pixel.adsafeprotected.com * noop\nwww.stumbleupon.com netdna-ssl.com * noop\n* adsafeprotected.com * block\nwww.stumbleupon.com adsafeprotected.com * block\n* audrte.com * block\n* cpx.to * block\npay.ebay.com paypal.com * allow\npay.ebay.com c.paypal.com * allow\npay.ebay.com pay.ebay.com * allow\n* cliqz.com * block\n* betrad.com * block\nwww.joinhoney.com youtube.com * allow\nwww.joinhoney.com ytimg.com * allow\nwww.joinhoney.com pinterest.com * block\nwww.joinhoney.com bootstrapcdn.com * block\nwww.joinhoney.com facebook.com * block\nwww.joinhoney.com yahoo.com * block\nwww.joinhoney.com myfonts.net * block\nwww.joinhoney.com google-analytics.com * block\nwww.joinhoney.com googleadservices.com * block\nwww.joinhoney.com twitter.com * block\nwww.joinhoney.com t.co * block\nwww.joinhoney.com taboola.com * block\nwww.joinhoney.com redditmedia.com * block\nwww.joinhoney.com outbrain.com * block\nwww.joinhoney.com facebook.net * block\nwww.joinhoney.com google.com * block\nwww.joinhoney.com gstatic.com * block\nwww.paypal.com * 1p-script allow\nwww.paypal.com * 3p-script allow\nwww.paypal.com * 3p-frame allow\nwww.paypal.com paypalobjects.com * allow\nwww.paypal.com paypal.com * allow\nwww.20minutemail.com * * noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-remote-fonts: * true\nno-remote-fonts: outlook.office365.com false\nno-remote-fonts: accounts.google.com false\nno-remote-fonts: sso.utep.edu false\nno-remote-fonts: fontawesome.io false\nno-remote-fonts: www.linkedin.com false\nno-remote-fonts: play.riffstation.com false\nno-remote-fonts: coolors.co false\nno-cosmetic-filtering: www.stumbleupon.com true\nno-remote-fonts: www.stumbleupon.com false\nno-remote-fonts: pay.ebay.com false\nno-remote-fonts: www.pinterest.com false\nno-remote-fonts: extension.ghostery.com false\nno-remote-fonts: courses.edx.org false\nno-remote-fonts: www.paypal.com false\nno-remote-fonts: www.20minutemail.com false\nno-remote-fonts: matrixcalc.org false\nno-remote-fonts: ocw.mit.edu false\nno-remote-fonts: outlook.office.com false\nno-remote-fonts: my.utep.edu false",
+  "userFilters": "! 5/18/2017, 12:12:22 AM https://www.google.com.mx/?gfe_rd=cr&ei=ZukbWZ75L6XI8gfKoaDQCw&gws_rd=ssl\nwww.google.com.mx##.gb_g.gb_Lc.gb_Xc.gb_Wc\n\n! 5/19/2017, 1:16:28 PM https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin\naccounts.google.com###glifPromo\n\n! 5/19/2017, 6:29:55 PM https://www.google.com.mx/search?q=1+hour+timer&ie=utf-8&oe=utf-8&client=firefox-b&gfe_rd=cr&ei=aTweWdOEEIz08AfBq4-QBw\nwww.google.com.mx###_L8b\n\n! 5/21/2017, 12:07:04 PM https://www.facebook.com/\nwww.facebook.com###pagelet_games_rhc\n\n! 5/21/2017, 12:07:53 PM https://www.facebook.com/\nwww.facebook.com###pagelet_rhc_footer\n\n! 5/21/2017, 12:08:03 PM https://www.facebook.com/\nwww.facebook.com##.d_w0lu1r7v0.pagelet.ego_column > ._1-ia\n\n! 5/21/2017, 12:11:28 PM https://www.facebook.com/\nwww.facebook.com###createNav\n\n! 5/21/2017, 12:14:49 PM https://www.facebook.com/\nwww.facebook.com###u_0_11\n\n! 5/21/2017, 12:15:15 PM https://www.facebook.com/\nwww.facebook.com###pagelet_canvas_nav_content\n\n! 5/21/2017, 12:18:53 PM https://www.facebook.com/\nwww.facebook.com###js_b > .fbNubFlyoutFooter > ._1d4_ > ._552n > ._13gb._6gd\n\n! 5/21/2017, 3:56:27 PM https://www.facebook.com/\nwww.facebook.com###leftCol > div > div\n\n! 5/24/2017, 6:43:56 PM https://www.google.com.mx/search?q=videogame+anime+rpg&ie=utf-8&oe=utf-8&client=firefox-b&gfe_rd=cr&ei=nNYkWabpNI_D8gf-0bPQAw#q=rpg+games+2017+pc\nwww.google.com.mx##.gb_g.gb_Kc.gb_Wc.gb_Vc\n\n! 5/25/2017, 12:37:22 AM https://www.youtube.com/results?search_query=adventure+island\nwww.youtube.com##.signup-promo.guide-header.guide-section\n\n! 5/25/2017, 12:31:22 PM https://www.facebook.com/\nwww.facebook.com###globalContainer > div:nth-of-type(2)\n\n! 5/25/2017, 12:32:01 PM https://www.facebook.com/\nwww.facebook.com##._50dz > div\n\n! 5/25/2017, 3:51:44 PM https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/johnwarrillow/2017/05/24/from-nothing-to-25-million-in-less-than-12-months/&refURL=https://www.linkedin.com/&referrer=https://www.linkedin.com/\nwww.forbes.com##.content-container\n\n! 5/25/2017, 3:51:52 PM https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/johnwarrillow/2017/05/24/from-nothing-to-25-million-in-less-than-12-months/&refURL=https://www.linkedin.com/&referrer=https://www.linkedin.com/\nwww.forbes.com###app\n\n! 5/27/2017, 4:33:26 AM http://www.stumbleupon.com/su/1DX6Y7/:E4A6kF.@:WOLcE-vp/www.classybro.com/classy-bros-random-hotties-part-2\nwww.stumbleupon.com##.toolbar-tutorial\n\n! 5/27/2017, 6:38:42 PM http://mp3fiber.com/index.php\nmp3fiber.com##.checklist\n\n! 5/27/2017, 6:38:59 PM http://mp3fiber.com/index.php\nmp3fiber.com###main_content_left > .grid_12\n\n! 5/27/2017, 6:39:12 PM http://mp3fiber.com/index.php\nmp3fiber.com##.margin-1.feat.grid_6\n\n! 5/27/2017, 6:39:24 PM http://mp3fiber.com/index.php\nmp3fiber.com##.grid_4:nth-of-type(4)\n\n! 5/27/2017, 6:39:31 PM http://mp3fiber.com/index.php\nmp3fiber.com##.grid_4:nth-of-type(5)\n\n! 5/27/2017, 6:39:38 PM http://mp3fiber.com/index.php\nmp3fiber.com##.grid_4:nth-of-type(6)\n\n! 5/27/2017, 6:39:49 PM http://mp3fiber.com/index.php\nmp3fiber.com##.grid_6:nth-of-type(8)\n\n! 5/27/2017, 6:39:59 PM http://mp3fiber.com/index.php\nmp3fiber.com###fullwidth_footer_bottom\n\n! 5/27/2017, 6:40:14 PM http://mp3fiber.com/index.php\nmp3fiber.com##.margin.container_12 > a[href=\"http://www.facebook.com/pages/MP3-Fiber/348389805228914\"]\n\n! 5/30/2017, 12:32:29 PM https://coolors.co/ede3e4-e7dfe8-e4dee4-af9fa5-92898a\ncoolors.co###skillshare-sticky\n\n! 6/8/2017, 2:43:11 PM http://www.linuxandubuntu.com/home/5-alternatives-to-microsoft-office-in-linux\nwww.linuxandubuntu.com###giobe00\n\n! 6/10/2017, 12:29:53 AM https://www.pinterest.com/Empkike/fixed/\nwww.pinterest.com##div:nth-of-type(3) > div:nth-of-type(3)\n\n! 6/11/2017, 11:34:17 PM https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS101x+1T2016/courseware/6cee72d455c847e9b462efb4e2dbd2a7/0d5c853a5b0c4776881e6b27368237d6/?child=first\ncourses.edx.org###footer-edx-v3\n\n! 6/12/2017, 1:39:22 AM http://computingforgeeks.com/how-to-auto-mount-usb-and-external-storage-devices-with-rw-in-arch-linux/\ncomputingforgeeks.com###modal\n\n! 6/28/2017, 5:44:50 PM https://sourceforge.net/p/recsveditor/discussion/general/thread/92ecc083/\nsourceforge.net###newsletter-floating\n\n! 7/6/2017, 12:16:54 AM https://rule34.xxx/index.php?page=post&s=list&tags=mimi\nrule34.xxx###paginator > center\n\n! 7/11/2017, 5:36:26 PM http://longfiles.com/etsj659gxihh/Physics_for_Scientists_and_Engineers_A_Strategic_Approach_with_Modern_Physics.pdf.html\n||longfiles.com/images/468.png$image\n\n! 7/12/2017, 5:45:36 PM https://www.google.com/search?q=change+in+velocity+formula&client=firefox-b&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwiel66W9oTVAhXD4CYKHRwnD1QQ_AUIBigB&biw=938&bih=949#tbm=isch&q=change+in+velocity+formula+physics\nwww.google.com##.gb_g.gb_Mc.gb_Zc.gb_Xc\n\n! 7/18/2017, 6:19:19 PM https://www.maketecheasier.com/easily-automount-windows-ntfs-partition-in-ubuntu/\nwww.maketecheasier.com##.cc-message\n\n! 7/18/2017, 6:19:24 PM https://www.maketecheasier.com/easily-automount-windows-ntfs-partition-in-ubuntu/\nwww.maketecheasier.com###cookieconsent\n\n! 7/18/2017, 6:19:39 PM https://www.maketecheasier.com/easily-automount-windows-ntfs-partition-in-ubuntu/\nwww.maketecheasier.com###mte_optin\n",
+  "filterLists": {
+    "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
+      "off": false
+    },
+    "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
+      "off": false
+    },
+    "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
+      "off": false
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
+      "off": false
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
+      "off": false
+    },
+    "assets/ublock/unbreak.txt": {
+      "off": false
+    },
+    "assets/ublock/privacy.txt": {
+      "off": false
+    },
+    "assets/ublock/experimental.txt": {
+      "off": false
+    },
+    "assets/ublock/badware.txt": {
+      "off": false
+    },
+    "assets/ublock/filters.txt": {
+      "off": false
+    },
+    "assets/user/filters.txt": {
+      "off": false
+    }
+  }
+}

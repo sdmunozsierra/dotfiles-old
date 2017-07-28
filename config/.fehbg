@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --bg-max --randomize --no-fehbg ~/Data/Photos&Vids/Wallpapers/*

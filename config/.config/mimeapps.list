@@ -1,0 +1,9 @@
+[Added Associations]
+application/pdf=zathura.desktop;userapp-mupdf-x11-9CJM0Y.desktop;firefox.desktop;
+video/mp4=qv4l2.desktop;
+application/vnd.ms-excel=leafpad.desktop;
+
+[Removed Associations]
+
+[Default Applications]
+application/pdf=userapp-mupdf-x11-9CJM0Y.desktop
