@@ -1,6 +1,9 @@
 # dotfiles
 Contain my .config files for many Linux programs
 
+## Current Setup
+![Clean Desktop](https://github.com/sdmunozsierra/dotfiles/blob/master/screenshots/2017-Jul-28_02:11:44.png)
+![Fake Dirty](https://github.com/sdmunozsierra/dotfiles/blob/master/screenshots/2017-Jul-28_02:00:13.png)
 ## File Structure
 All "dot files" are in the folder config.
 TODO separate bash, vim, and gtk outside dotfiles to folders for simplicity
