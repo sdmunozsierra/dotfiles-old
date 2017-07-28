@@ -15,6 +15,10 @@ __Use Pacaur to find the bleeding edge one__ (Who cares about stability)
 Install location: /opt
 Create a eclipse-version.desktop file in usr/share/applications
 
+## Addons and Preferences
+
+
+
 ## Troubleshooting
 
 ### Preferences not saving

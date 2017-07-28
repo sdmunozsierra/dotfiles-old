@@ -1,6 +1,8 @@
 # dotfiles
 Contain my .config files for many Linux programs
 
+## OUTDATED!!
+
 ## (NEW SECTION) ArchScripts
 These are basically scripts that will install everything I need if I screw up my machine (which is something very probable due to my humanity).
 As right now all of them do what they are called to do install_* (install something)
