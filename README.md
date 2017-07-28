@@ -1,6 +1,10 @@
 # dotfiles
 Contain my .config files for many Linux programs
 
+## File Structure
+All "dot files" are in the folder config.
+TODO separate bash, vim, and gtk outside dotfiles to folders for simplicity
+
 ## OUTDATED!!
 
 ## (NEW SECTION) ArchScripts
