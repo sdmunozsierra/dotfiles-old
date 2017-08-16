@@ -1,2 +1,3 @@
 #!/bin/sh
-feh --bg-max --randomize --no-fehbg ~/Data/Photos&Vids/Wallpapers/*
+#feh --bg-fill --randomize --no-fehbg ~/Data/Photos\&Vids/Wallpapers/Natgeo/*
+feh --bg-fill --randomize --no-fehbg ~/Data/Downloads/minimal.png

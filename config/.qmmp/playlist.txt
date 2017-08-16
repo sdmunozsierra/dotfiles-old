@@ -1,7 +1,7 @@
 current_playlist=0
 playlist=Playlist
 current=0
-file=https://r6---sn-q4fl6nl7.googlevideo.com/videoplayback?expire=1500623956&dur=432.587&ipbits=0&lmt=1391854030916340&signature=886C5723F3629092513C76BAFA0797490D5F51F7.269E97BC2A022BAE1792402CB98E5C6C07EADAFF&key=yt6&gir=yes&mime=audio%2Fmp4&initcwndbps=1311250&requiressl=yes&clen=6871066&keepalive=yes&id=o-AIag0-pOlm8qVbw4Tqoy2Th2T-2KNjqf_iqchxABYEO2&mn=sn-q4fl6nl7&mm=31&ms=au&mv=m&sparams=clen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Crequiressl%2Csource%2Cexpire&mt=1500602214&ip=97.79.180.58&itag=140&ei=819xWaaNMomwuwWz-j8&pl=17&source=youtube&ratebypass=yes
+file=/home/keanue/Data/Downloads/saib-space_cowboy.mp3
 title=
 artist=
 albumartist=
@@ -12,4 +12,16 @@ composer=
 year=
 track=
 disc=
-length=0
+length=173
+file=/home/keanue/Data/Downloads/saib-space_cowboy.mp3
+title=
+artist=
+albumartist=
+album=
+comment=
+genre=
+composer=
+year=
+track=
+disc=
+length=173

@@ -17,6 +17,20 @@ Create a eclipse-version.desktop file in usr/share/applications
 
 ## Addons and Preferences
 
+### Addons
+* Vrapper - Vimlike shortcuts
+* DarkestEclipse - Theme for looking baddass
+
+## Shortcuts
+
+### Default
+CTRL-3: Quick Access
+
+### Window Movement
+* Remove conflicts
+CTRL-SHIFT-K: Next Tab
+CTRL-SHIFT-J: Prev Tab
+
 
 
 ## Troubleshooting

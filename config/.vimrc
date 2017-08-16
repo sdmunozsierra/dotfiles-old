@@ -50,6 +50,13 @@ let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
 
+" General usage options: folding
+"Folding
+set foldmethod=indent
+"set foldnestmax=10
+"set foldlevelstart=1
+
+
 "----------------------------------------
 "------------- MAPPINGS -----------------
 "----------------------------------------
@@ -74,8 +81,18 @@ map <leader>bd :Bclose<cr>
 cmap ws w !sudo tee > /dev/null %
 
 "Visual mode pressing * or # searches for the current selection:
-vnoremap <silent> * :call VisualSelection('f')<CR>
-vnoremap <silent> # :call VisualSelection('b')<CR>
+"vnoremap <silent> * :call VisualSelection('f')<CR>
+"vnoremap <silent> # :call VisualSelection('b')<CR>
+"Visual mode pressing // will search and then n for foward
+vnoremap // y/<C-R>"<CR>
+
+"Move between splits with vimlike keys Ctrl + hjkl
+set splitbelow
+set splitright
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 "----------------------------------------
 "------------- OPTIONS ------------------

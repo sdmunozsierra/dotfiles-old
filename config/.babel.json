@@ -1,0 +1,250 @@
+{
+  "{\"filename\":\"/home/keanue/.cache/pacaur/nylas-mail-git/src/nylas-mail/scripts/postinstall.es6\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceMaps\":\"inline\",\"sourceRoot\":\"/home/keanue/.cache/pacaur/nylas-mail-git/src/nylas-mail/scripts\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.25.0": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator",
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "fs-plus",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fs"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          },
+          {
+            "source": "child_process",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "childProcess"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/keanue/.cache/pacaur/nylas-mail-git/src/nylas-mail/scripts/postinstall.es6",
+      "filenameRelative": "/home/keanue/.cache/pacaur/nylas-mail-git/src/nylas-mail/scripts/postinstall.es6",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "postinstall.es6",
+      "sourceFileName": "postinstall.es6",
+      "sourceRoot": "/home/keanue/.cache/pacaur/nylas-mail-git/src/nylas-mail/scripts",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/keanue/.cache/pacaur/nylas-mail-git/src/nylas-mail/scripts",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "postinstall"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nlet spawn = (() => {\n  var _ref = _asyncToGenerator(function* (cmd, args, opts = {}) {\n    return new Promise(function (resolve, reject) {\n      const options = Object.assign({ stdio: 'inherit' }, opts);\n      const proc = _child_process2.default.spawn(cmd, args, options);\n      proc.on(\"error\", reject);\n      proc.on(\"exit\", resolve);\n    });\n  });\n\n  return function spawn(_x, _x2) {\n    return _ref.apply(this, arguments);\n  };\n})();\n\nlet lernaBootstrap = (() => {\n  var _ref2 = _asyncToGenerator(function* (installTarget) {\n    console.log(\"\\n---> Installing packages\");\n    const lernaCmd = process.platform === 'win32' ? 'lerna.cmd' : 'lerna';\n    const args = [\"bootstrap\"];\n    switch (installTarget) {\n      case TARGET_CLIENT:\n        args.push(`--ignore='cloud-*'`);\n        break;\n      case TARGET_CLOUD:\n        args.push(`--ignore='client-*'`);\n        break;\n      default:\n        break;\n    }\n    yield spawn(_path2.default.join('node_modules', '.bin', lernaCmd), args);\n  });\n\n  return function lernaBootstrap(_x3) {\n    return _ref2.apply(this, arguments);\n  };\n})();\n\nlet npm = (() => {\n  var _ref3 = _asyncToGenerator(function* (cmd, options) {\n    var _Object$assign = Object.assign({ cwd: '.', env: 'system' }, options);\n\n    const cwd = _Object$assign.cwd,\n          env = _Object$assign.env;\n\n    const npmCmd = process.platform === 'win32' ? 'npm.cmd' : 'npm';\n    yield spawn(npmCmd, [cmd], {\n      cwd: _path2.default.resolve(__dirname, '..', cwd),\n      env: npmEnvs[env]\n    });\n  });\n\n  return function npm(_x4, _x5) {\n    return _ref3.apply(this, arguments);\n  };\n})();\n\nlet electronRebuild = (() => {\n  var _ref4 = _asyncToGenerator(function* () {\n    if (!_fsPlus2.default.existsSync(_path2.default.join(\"packages\", \"client-app\", \"apm\"))) {\n      console.log(\"\\n---> No client app to rebuild. Moving on\");\n      return;\n    }\n    yield npm('install', {\n      cwd: _path2.default.join('packages', 'client-app', 'apm'),\n      env: 'apm'\n    });\n    yield npm('rebuild', {\n      cwd: _path2.default.join('packages', 'client-app'),\n      env: 'electron'\n    });\n  });\n\n  return function electronRebuild() {\n    return _ref4.apply(this, arguments);\n  };\n})();\n\nlet main = (() => {\n  var _ref5 = _asyncToGenerator(function* () {\n    try {\n      const installTarget = getInstallTarget();\n      console.log(`\\n---> Installing for target ${installTarget}`);\n\n      if ([TARGET_ALL, TARGET_CLIENT].includes(installTarget)) {\n        installPrivateResources();\n        installClientSyncPackage();\n      }\n\n      yield lernaBootstrap(installTarget);\n\n      if ([TARGET_ALL, TARGET_CLIENT].includes(installTarget)) {\n        if (process.platform === \"darwin\") {\n          // Given that `lerna bootstrap` does not install optional dependencies, we\n          // need to manually run `npm install` inside `client-app` so\n          // `node-mac-notifier` get's correctly installed and included in the build\n          // See https://github.com/lerna/lerna/issues/121\n          console.log(\"\\n---> Reinstalling client-app dependencies to include optional dependencies\");\n          yield npm('install', { cwd: 'packages/client-app' });\n        }\n        yield electronRebuild();\n        linkJasmineConfigs();\n        linkIsomorphicCoreSpecs();\n      }\n    } catch (err) {\n      console.error(err);\n      process.exit(1);\n    }\n  });\n\n  return function main() {\n    return _ref5.apply(this, arguments);\n  };\n})();\n\nvar _fsPlus = require('fs-plus');\n\nvar _fsPlus2 = _interopRequireDefault(_fsPlus);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nvar _child_process = require('child_process');\n\nvar _child_process2 = _interopRequireDefault(_child_process);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nconst TARGET_ALL = 'all';\nconst TARGET_CLOUD = 'cloud';\nconst TARGET_CLIENT = 'client';\n\nfunction unlinkIfExistsSync(p) {\n  try {\n    if (_fsPlus2.default.lstatSync(p)) {\n      _fsPlus2.default.removeSync(p);\n    }\n  } catch (err) {\n    return;\n  }\n}\n\nfunction copyErrorLoggerExtensions(privateDir) {\n  const from = _path2.default.join(privateDir, 'src');\n  const to = _path2.default.resolve(_path2.default.join('packages', 'client-app', 'src'));\n  unlinkIfExistsSync(_path2.default.join(to, 'error-logger-extensions'));\n  _fsPlus2.default.copySync(from, to);\n}\n\nfunction installClientSyncPackage() {\n  console.log(\"\\n---> Linking client-sync\");\n  // link client-sync\n  const clientSyncDir = _path2.default.resolve(_path2.default.join('packages', 'client-sync'));\n  const destination = _path2.default.resolve(_path2.default.join('packages', 'client-app', 'internal_packages', 'client-sync'));\n  unlinkIfExistsSync(destination);\n  _fsPlus2.default.symlinkSync(clientSyncDir, destination, 'dir');\n}\n\nfunction installPrivateResources() {\n  console.log(\"\\n---> Linking private plugins\");\n  const privateDir = _path2.default.resolve(_path2.default.join('packages', 'client-private-plugins'));\n  if (!_fsPlus2.default.existsSync(privateDir)) {\n    console.log(\"\\n---> No client app to link. Moving on\");\n    return;\n  }\n\n  copyErrorLoggerExtensions(privateDir);\n\n  // link private plugins\n  for (const plugin of _fsPlus2.default.readdirSync(_path2.default.join(privateDir, 'packages'))) {\n    const from = _path2.default.resolve(_path2.default.join(privateDir, 'packages', plugin));\n    const to = _path2.default.resolve(_path2.default.join('packages', 'client-app', 'internal_packages', plugin));\n    unlinkIfExistsSync(to);\n    _fsPlus2.default.symlinkSync(from, to, 'dir');\n  }\n}\n\nconst npmEnvs = {\n  system: process.env,\n  apm: Object.assign({}, process.env, {\n    NPM_CONFIG_TARGET: '0.10.40'\n  }),\n  electron: Object.assign({}, process.env, {\n    NPM_CONFIG_TARGET: '1.4.15',\n    NPM_CONFIG_ARCH: process.arch,\n    NPM_CONFIG_TARGET_ARCH: process.arch,\n    NPM_CONFIG_DISTURL: 'https://atom.io/download/electron',\n    NPM_CONFIG_RUNTIME: 'electron',\n    NPM_CONFIG_BUILD_FROM_SOURCE: true\n  })\n};\n\nconst getJasmineDir = packageName => _path2.default.resolve(_path2.default.join('packages', packageName, 'spec', 'jasmine'));\nconst getJasmineConfigPath = packageName => _path2.default.resolve(_path2.default.join(getJasmineDir(packageName), 'config.json'));\n\nfunction linkJasmineConfigs() {\n  console.log(\"\\n---> Linking Jasmine configs\");\n  const linkToPackages = ['cloud-api', 'cloud-core', 'cloud-workers'];\n  const from = getJasmineConfigPath('isomorphic-core');\n  for (const packageName of linkToPackages) {\n    const packageDir = _path2.default.join('packages', packageName);\n    if (!_fsPlus2.default.existsSync(packageDir)) {\n      console.log(\"\\n---> No cloud packages to link. Moving on\");\n      return;\n    }\n\n    const jasmineDir = getJasmineDir(packageName);\n    if (!_fsPlus2.default.existsSync(jasmineDir)) {\n      _fsPlus2.default.mkdirSync(jasmineDir);\n    }\n    const to = getJasmineConfigPath(packageName);\n    unlinkIfExistsSync(to);\n    _fsPlus2.default.symlinkSync(from, to, 'file');\n  }\n}\n\nfunction linkIsomorphicCoreSpecs() {\n  console.log(\"\\n---> Linking isomorphic-core specs to client-app specs\");\n  const from = _path2.default.resolve(_path2.default.join('packages', 'isomorphic-core', 'spec'));\n  const to = _path2.default.resolve(_path2.default.join('packages', 'client-app', 'spec', 'isomorphic-core'));\n  unlinkIfExistsSync(to);\n  _fsPlus2.default.symlinkSync(from, to, 'dir');\n}\n\nfunction getInstallTarget() {\n  const INSTALL_TARGET = process.env.INSTALL_TARGET;\n\n  if (!INSTALL_TARGET) {\n    return TARGET_ALL;\n  }\n  if (![TARGET_ALL, TARGET_CLIENT, TARGET_CLOUD].includes(INSTALL_TARGET)) {\n    throw new Error(`postinstall: INSTALL_TARGET must be one of client, cloud, or all. It was set to ${INSTALL_TARGET}`);\n  }\n  return INSTALL_TARGET;\n}\n\nmain();\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvc3RpbnN0YWxsLmVzNiJdLCJuYW1lcyI6WyJjbWQiLCJhcmdzIiwib3B0cyIsIlByb21pc2UiLCJyZXNvbHZlIiwicmVqZWN0Iiwib3B0aW9ucyIsIk9iamVjdCIsImFzc2lnbiIsInN0ZGlvIiwicHJvYyIsInNwYXduIiwib24iLCJpbnN0YWxsVGFyZ2V0IiwiY29uc29sZSIsImxvZyIsImxlcm5hQ21kIiwicHJvY2VzcyIsInBsYXRmb3JtIiwiVEFSR0VUX0NMSUVOVCIsInB1c2giLCJUQVJHRVRfQ0xPVUQiLCJqb2luIiwibGVybmFCb290c3RyYXAiLCJjd2QiLCJlbnYiLCJucG1DbWQiLCJfX2Rpcm5hbWUiLCJucG1FbnZzIiwibnBtIiwiZXhpc3RzU3luYyIsImVsZWN0cm9uUmVidWlsZCIsImdldEluc3RhbGxUYXJnZXQiLCJUQVJHRVRfQUxMIiwiaW5jbHVkZXMiLCJpbnN0YWxsUHJpdmF0ZVJlc291cmNlcyIsImluc3RhbGxDbGllbnRTeW5jUGFja2FnZSIsImxpbmtKYXNtaW5lQ29uZmlncyIsImxpbmtJc29tb3JwaGljQ29yZVNwZWNzIiwiZXJyIiwiZXJyb3IiLCJleGl0IiwibWFpbiIsInVubGlua0lmRXhpc3RzU3luYyIsInAiLCJsc3RhdFN5bmMiLCJyZW1vdmVTeW5jIiwiY29weUVycm9yTG9nZ2VyRXh0ZW5zaW9ucyIsInByaXZhdGVEaXIiLCJmcm9tIiwidG8iLCJjb3B5U3luYyIsImNsaWVudFN5bmNEaXIiLCJkZXN0aW5hdGlvbiIsInN5bWxpbmtTeW5jIiwicGx1Z2luIiwicmVhZGRpclN5bmMiLCJzeXN0ZW0iLCJhcG0iLCJOUE1fQ09ORklHX1RBUkdFVCIsImVsZWN0cm9uIiwiTlBNX0NPTkZJR19BUkNIIiwiYXJjaCIsIk5QTV9DT05GSUdfVEFSR0VUX0FSQ0giLCJOUE1fQ09ORklHX0RJU1RVUkwiLCJOUE1fQ09ORklHX1JVTlRJTUUiLCJOUE1fQ09ORklHX0JVSUxEX0ZST01fU09VUkNFIiwiZ2V0SmFzbWluZURpciIsInBhY2thZ2VOYW1lIiwiZ2V0SmFzbWluZUNvbmZpZ1BhdGgiLCJsaW5rVG9QYWNrYWdlcyIsInBhY2thZ2VEaXIiLCJqYXNtaW5lRGlyIiwibWtkaXJTeW5jIiwiSU5TVEFMTF9UQVJHRVQiLCJFcnJvciJdLCJtYXBwaW5ncyI6Ijs7OytCQVFBLFdBQXFCQSxHQUFyQixFQUEwQkMsSUFBMUIsRUFBZ0NDLE9BQU8sRUFBdkMsRUFBMkM7QUFDekMsV0FBTyxJQUFJQyxPQUFKLENBQVksVUFBQ0MsT0FBRCxFQUFVQyxNQUFWLEVBQXFCO0FBQ3RDLFlBQU1DLFVBQVVDLE9BQU9DLE1BQVAsQ0FBYyxFQUFDQyxPQUFPLFNBQVIsRUFBZCxFQUFrQ1AsSUFBbEMsQ0FBaEI7QUFDQSxZQUFNUSxPQUFPLHdCQUFhQyxLQUFiLENBQW1CWCxHQUFuQixFQUF3QkMsSUFBeEIsRUFBOEJLLE9BQTlCLENBQWI7QUFDQUksV0FBS0UsRUFBTCxDQUFRLE9BQVIsRUFBaUJQLE1BQWpCO0FBQ0FLLFdBQUtFLEVBQUwsQ0FBUSxNQUFSLEVBQWdCUixPQUFoQjtBQUNELEtBTE0sQ0FBUDtBQU1ELEc7O2tCQVBjTyxLOzs7Ozs7Z0NBc0RmLFdBQThCRSxhQUE5QixFQUE2QztBQUMzQ0MsWUFBUUMsR0FBUixDQUFZLDRCQUFaO0FBQ0EsVUFBTUMsV0FBV0MsUUFBUUMsUUFBUixLQUFxQixPQUFyQixHQUErQixXQUEvQixHQUE2QyxPQUE5RDtBQUNBLFVBQU1qQixPQUFPLENBQUMsV0FBRCxDQUFiO0FBQ0EsWUFBUVksYUFBUjtBQUNFLFdBQUtNLGFBQUw7QUFDRWxCLGFBQUttQixJQUFMLENBQVcsb0JBQVg7QUFDQTtBQUNGLFdBQUtDLFlBQUw7QUFDRXBCLGFBQUttQixJQUFMLENBQVcscUJBQVg7QUFDQTtBQUNGO0FBQ0U7QUFSSjtBQVVBLFVBQU1ULE1BQU0sZUFBS1csSUFBTCxDQUFVLGNBQVYsRUFBMEIsTUFBMUIsRUFBa0NOLFFBQWxDLENBQU4sRUFBbURmLElBQW5ELENBQU47QUFDRCxHOztrQkFmY3NCLGM7Ozs7Oztn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Y0FBTCxFQUFxQjtBQUNuQixXQUFPekMsVUFBUDtBQUNEO0FBQ0QsTUFBSSxDQUFDLENBQUNBLFVBQUQsRUFBYWQsYUFBYixFQUE0QkUsWUFBNUIsRUFBMENhLFFBQTFDLENBQW1Ed0MsY0FBbkQsQ0FBTCxFQUF5RTtBQUN2RSxVQUFNLElBQUlDLEtBQUosQ0FBVyxtRkFBa0ZELGNBQWUsRUFBNUcsQ0FBTjtBQUNEO0FBQ0QsU0FBT0EsY0FBUDtBQUNEOztBQWdDRGhDIiwiZmlsZSI6InBvc3RpbnN0YWxsLmVzNiIsInNvdXJjZVJvb3QiOiIvaG9tZS9rZWFudWUvLmNhY2hlL3BhY2F1ci9ueWxhcy1tYWlsLWdpdC9zcmMvbnlsYXMtbWFpbC9zY3JpcHRzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGZzIGZyb20gJ2ZzLXBsdXMnXG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJ1xuaW1wb3J0IGNoaWxkUHJvY2VzcyBmcm9tICdjaGlsZF9wcm9jZXNzJ1xuXG5jb25zdCBUQVJHRVRfQUxMID0gJ2FsbCdcbmNvbnN0IFRBUkdFVF9DTE9VRCA9ICdjbG91ZCdcbmNvbnN0IFRBUkdFVF9DTElFTlQgPSAnY2xpZW50J1xuXG5hc3luYyBmdW5jdGlvbiBzcGF3bihjbWQsIGFyZ3MsIG9wdHMgPSB7fSkge1xuICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4ge1xuICAgIGNvbnN0IG9wdGlvbnMgPSBPYmplY3QuYXNzaWduKHtzdGRpbzogJ2luaGVyaXQnfSwgb3B0cyk7XG4gICAgY29uc3QgcHJvYyA9IGNoaWxkUHJvY2Vzcy5zcGF3bihjbWQsIGFyZ3MsIG9wdGlvbnMpXG4gICAgcHJvYy5vbihcImVycm9yXCIsIHJlamVjdClcbiAgICBwcm9jLm9uKFwiZXhpdFwiLCByZXNvbHZlKVxuICB9KVxufVxuXG5mdW5jdGlvbiB1bmxpbmtJZkV4aXN0c1N5bmMocCkge1xuICB0cnkge1xuICAgIGlmIChmcy5sc3RhdFN5bmMocCkpIHtcbiAgICAgIGZzLnJlbW92ZVN5bmMocCk7XG4gICAgfVxuICB9IGNhdGNoIChlcnIpIHtcbiAgICByZXR1cm5cbiAgfVxufVxuXG5mdW5jdGlvbiBjb3B5RXJyb3JMb2dnZXJFeHRlbnNpb25zKHByaXZhdGVEaXIpIHtcbiAgY29uc3QgZnJvbSA9IHBhdGguam9pbihwcml2YXRlRGlyLCAnc3JjJylcbiAgY29uc3QgdG8gPSBwYXRoLnJlc29sdmUocGF0aC5qb2luKCdwYWNrYWdlcycsICdjbGllbnQtYXBwJywgJ3NyYycpKVxuICB1bmxpbmtJZkV4aXN0c1N5bmMocGF0aC5qb2luKHRvLCAnZXJyb3ItbG9nZ2VyLWV4dGVuc2lvbnMnKSk7XG4gIGZzLmNvcHlTeW5jKGZyb20sIHRvKTtcbn1cblxuZnVuY3Rpb24gaW5zdGFsbENsaWVudFN5bmNQYWNrYWdlKCkge1xuICBjb25zb2xlLmxvZyhcIlxcbi0tLT4gTGlua2luZyBjbGllbnQtc3luY1wiKVxuICAvLyBsaW5rIGNsaWVudC1zeW5jXG4gIGNvbnN0IGNsaWVudFN5bmNEaXIgPSBwYXRoLnJlc29sdmUocGF0aC5qb2luKCdwYWNrYWdlcycsICdjbGllbnQtc3luYycpKTtcbiAgY29uc3QgZGVzdGluYXRpb24gPSBwYXRoLnJlc29sdmUocGF0aC5qb2luKCdwYWNrYWdlcycsICdjbGllbnQtYXBwJywgJ2ludGVybmFsX3BhY2thZ2VzJywgJ2NsaWVudC1zeW5jJykpO1xuICB1bmxpbmtJZkV4aXN0c1N5bmMoZGVzdGluYXRpb24pO1xuICBmcy5zeW1saW5rU3luYyhjbGllbnRTeW5jRGlyLCBkZXN0aW5hdGlvbiwgJ2RpcicpO1xufVxuXG5mdW5jdGlvbiBpbnN0YWxsUHJpdmF0ZVJlc291cmNlcygpIHtcbiAgY29uc29sZS5sb2coXCJcXG4tLS0+IExpbmtpbmcgcHJpdmF0ZSBwbHVnaW5zXCIpXG4gIGNvbnN0IHByaXZhdGVEaXIgPSBwYXRoLnJlc29sdmUocGF0aC5qb2luKCdwYWNrYWdlcycsICdjbGllbnQtcHJpdmF0ZS1wbHVnaW5zJykpXG4gIGlmICghZnMuZXhpc3RzU3luYyhwcml2YXRlRGlyKSkge1xuICAgIGNvbnNvbGUubG9nKFwiXFxuLS0tPiBObyBjbGllbnQgYXBwIHRvIGxpbmsuIE1vdmluZyBvblwiKVxuICAgIHJldHVybjtcbiAgfVxuXG4gIGNvcHlFcnJvckxvZ2dlckV4dGVuc2lvbnMocHJpdmF0ZURpcilcblxuICAvLyBsaW5rIHByaXZhdGUgcGx1Z2luc1xuICBmb3IgKGNvbnN0IHBsdWdpbiBvZiBmcy5yZWFkZGlyU3luYyhwYXRoLmpvaW4ocHJpdmF0ZURpciwgJ3BhY2thZ2VzJykpKSB7XG4gICAgY29uc3QgZnJvbSA9IHBhdGgucmVzb2x2ZShwYXRoLmpvaW4ocHJpdmF0ZURpciwgJ3BhY2thZ2VzJywgcGx1Z2luKSk7XG4gICAgY29uc3QgdG8gPSBwYXRoLnJlc29sdmUocGF0aC5qb2luKCdwYWNrYWdlcycsICdjbGllbnQtYXBwJywgJ2ludGVybmFsX3BhY2thZ2VzJywgcGx1Z2luKSk7XG4gICAgdW5saW5rSWZFeGlzdHNTeW5jKHRvKTtcbiAgICBmcy5zeW1saW5rU3luYyhmcm9tLCB0bywgJ2RpcicpO1xuICB9XG59XG5cbmFzeW5jIGZ1bmN0aW9uIGxlcm5hQm9vdHN0cmFwKGluc3RhbGxUYXJnZXQpIHtcbiAgY29uc29sZS5sb2coXCJcXG4tLS0+IEluc3RhbGxpbmcgcGFja2FnZXNcIik7XG4gIGNvbnN0IGxlcm5hQ21kID0gcHJvY2Vzcy5wbGF0Zm9ybSA9PT0gJ3dpbjMyJyA/ICdsZXJuYS5jbWQnIDogJ2xlcm5hJztcbiAgY29uc3QgYXJncyA9IFtcImJvb3RzdHJhcFwiXVxuICBzd2l0Y2ggKGluc3RhbGxUYXJnZXQpIHtcbiAgICBjYXNlIFRBUkdFVF9DTElFTlQ6XG4gICAgICBhcmdzLnB1c2goYC0taWdub3JlPSdjbG91ZC0qJ2ApXG4gICAgICBicmVha1xuICAgIGNhc2UgVEFSR0VUX0NMT1VEOlxuICAgICAgYXJncy5wdXNoKGAtLWlnbm9yZT0nY2xpZW50LSonYClcbiAgICAgIGJyZWFrXG4gICAgZGVmYXVsdDpcbiAgICAgIGJyZWFrXG4gIH1cbiAgYXdhaXQgc3Bhd24ocGF0aC5qb2luKCdub2RlX21vZHVsZXMnLCAnLmJpbicsIGxlcm5hQ21kKSwgYXJncylcbn1cblxuY29uc3QgbnBtRW52cyA9IHtcbiAgc3lzdGVtOiBwcm9jZXNzLmVudixcbiAgYXBtOiBPYmplY3QuYXNzaWduKHt9LCBwcm9jZXNzLmVudiwge1xuICAgIE5QTV9DT05GSUdfVEFSR0VUOiAnMC4xMC40MCcsXG4gIH0pLFxuICBlbGVjdHJvbjogT2JqZWN0LmFzc2lnbih7fSwgcHJvY2Vzcy5lbnYsIHtcbiAgICBOUE1fQ09ORklHX1RBUkdFVDogJzEuNC4xNScsXG4gICAgTlBNX0NPTkZJR19BUkNIOiBwcm9jZXNzLmFyY2gsXG4gICAgTlBNX0NPTkZJR19UQVJHRVRfQVJDSDogcHJvY2Vzcy5hcmNoLFxuICAgIE5QTV9DT05GSUdfRElTVFVSTDogJ2h0dHBzOi8vYXRvbS5pby9kb3dubG9hZC9lbGVjdHJvbicsXG4gICAgTlBNX0NPTkZJR19SVU5USU1FOiAnZWxlY3Ryb24nLFxuICAgIE5QTV9DT05GSUdfQlVJTERfRlJPTV9TT1VSQ0U6IHRydWUsXG4gIH0pLFxufTtcblxuYXN5bmMgZnVuY3Rpb24gbnBtKGNtZCwgb3B0aW9ucykge1xuICBjb25zdCB7Y3dkLCBlbnZ9ID0gT2JqZWN0LmFzc2lnbih7Y3dkOiAnLicsIGVudjogJ3N5c3RlbSd9LCBvcHRpb25zKTtcbiAgY29uc3QgbnBtQ21kID0gcHJvY2Vzcy5wbGF0Zm9ybSA9PT0gJ3dpbjMyJyA/ICducG0uY21kJyA6ICducG0nXG4gIGF3YWl0IHNwYXduKG5wbUNtZCwgW2NtZF0sIHtcbiAgICBjd2Q6IHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICcuLicsIGN3ZCksXG4gICAgZW52OiBucG1FbnZzW2Vudl0sXG4gIH0pXG59XG5cbmFzeW5jIGZ1bmN0aW9uIGVsZWN0cm9uUmVidWlsZCgpIHtcbiAgaWYgKCFmcy5leGlzdHNTeW5jKHBhdGguam9pbihcInBhY2thZ2VzXCIsIFwiY2xpZW50LWFwcFwiLCBcImFwbVwiKSkpIHtcbiAgICBjb25zb2xlLmxvZyhcIlxcbi0tLT4gTm8gY2xpZW50IGFwcCB0byByZWJ1aWxkLiBNb3Zpbmcgb25cIilcbiAgICByZXR1cm47XG4gIH1cbiAgYXdhaXQgbnBtKCdpbnN0YWxsJywge1xuICAgIGN3ZDogcGF0aC5qb2luKCdwYWNrYWdlcycsICdjbGllbnQtYXBwJywgJ2FwbScpLFxuICAgIGVudjogJ2FwbScsXG4gIH0pXG4gIGF3YWl0IG5wbSgncmVidWlsZCcsIHtcbiAgICBjd2Q6IHBhdGguam9pbigncGFja2FnZXMnLCAnY2xpZW50LWFwcCcpLFxuICAgIGVudjogJ2VsZWN0cm9uJyxcbiAgfSlcbn1cblxuY29uc3QgZ2V0SmFzbWluZURpciA9IChwYWNrYWdlTmFtZSkgPT4gcGF0aC5yZXNvbHZlKFxuICBwYXRoLmpvaW4oJ3BhY2thZ2VzJywgcGFja2FnZU5hbWUsICdzcGVjJywgJ2phc21pbmUnKVxuKVxuY29uc3QgZ2V0SmFzbWluZUNvbmZpZ1BhdGggPSAocGFja2FnZU5hbWUpID0+IHBhdGgucmVzb2x2ZShcbiAgcGF0aC5qb2luKGdldEphc21pbmVEaXIocGFja2FnZU5hbWUpLCAnY29uZmlnLmpzb24nKVxuKVxuXG5mdW5jdGlvbiBsaW5rSmFzbWluZUNvbmZpZ3MoKSB7XG4gIGNvbnNvbGUubG9nKFwiXFxuLS0tPiBMaW5raW5nIEphc21pbmUgY29uZmlnc1wiKTtcbiAgY29uc3QgbGlua1RvUGFja2FnZXMgPSBbJ2Nsb3VkLWFwaScsICdjbG91ZC1jb3JlJywgJ2Nsb3VkLXdvcmtlcnMnXVxuICBjb25zdCBmcm9tID0gZ2V0SmFzbWluZUNvbmZpZ1BhdGgoJ2lzb21vcnBoaWMtY29yZScpXG4gIGZvciAoY29uc3QgcGFja2FnZU5hbWUgb2YgbGlua1RvUGFja2FnZXMpIHtcbiAgICBjb25zdCBwYWNrYWdlRGlyID0gcGF0aC5qb2luKCdwYWNrYWdlcycsIHBhY2thZ2VOYW1lKVxuICAgIGlmICghZnMuZXhpc3RzU3luYyhwYWNrYWdlRGlyKSkge1xuICAgICAgY29uc29sZS5sb2coXCJcXG4tLS0+IE5vIGNsb3VkIHBhY2thZ2VzIHRvIGxpbmsuIE1vdmluZyBvblwiKVxuICAgICAgcmV0dXJuXG4gICAgfVxuXG4gICAgY29uc3QgamFzbWluZURpciA9IGdldEphc21pbmVEaXIocGFja2FnZU5hbWUpXG4gICAgaWYgKCFmcy5leGlzdHNTeW5jKGphc21pbmVEaXIpKSB7XG4gICAgICBmcy5ta2RpclN5bmMoamFzbWluZURpcilcbiAgICB9XG4gICAgY29uc3QgdG8gPSBnZXRKYXNtaW5lQ29uZmlnUGF0aChwYWNrYWdlTmFtZSlcbiAgICB1bmxpbmtJZkV4aXN0c1N5bmModG8pXG4gICAgZnMuc3ltbGlua1N5bmMoZnJvbSwgdG8sICdmaWxlJylcbiAgfVxufVxuXG5mdW5jdGlvbiBsaW5rSXNvbW9ycGhpY0NvcmVTcGVjcygpIHtcbiAgY29uc29sZS5sb2coXCJcXG4tLS0+IExpbmtpbmcgaXNvbW9ycGhpYy1jb3JlIHNwZWNzIHRvIGNsaWVudC1hcHAgc3BlY3NcIilcbiAgY29uc3QgZnJvbSA9IHBhdGgucmVzb2x2ZShwYXRoLmpvaW4oJ3BhY2thZ2VzJywgJ2lzb21vcnBoaWMtY29yZScsICdzcGVjJykpXG4gIGNvbnN0IHRvID0gcGF0aC5yZXNvbHZlKHBhdGguam9pbigncGFja2FnZXMnLCAnY2xpZW50LWFwcCcsICdzcGVjJywgJ2lzb21vcnBoaWMtY29yZScpKVxuICB1bmxpbmtJZkV4aXN0c1N5bmModG8pXG4gIGZzLnN5bWxpbmtTeW5jKGZyb20sIHRvLCAnZGlyJylcbn1cblxuZnVuY3Rpb24gZ2V0SW5zdGFsbFRhcmdldCgpIHtcbiAgY29uc3Qge0lOU1RBTExfVEFSR0VUfSA9IHByb2Nlc3MuZW52XG4gIGlmICghSU5TVEFMTF9UQVJHRVQpIHtcbiAgICByZXR1cm4gVEFSR0VUX0FMTFxuICB9XG4gIGlmICghW1RBUkdFVF9BTEwsIFRBUkdFVF9DTElFTlQsIFRBUkdFVF9DTE9VRF0uaW5jbHVkZXMoSU5TVEFMTF9UQVJHRVQpKSB7XG4gICAgdGhyb3cgbmV3IEVycm9yKGBwb3N0aW5zdGFsbDogSU5TVEFMTF9UQVJHRVQgbXVzdCBiZSBvbmUgb2YgY2xpZW50LCBjbG91ZCwgb3IgYWxsLiBJdCB3YXMgc2V0IHRvICR7SU5TVEFMTF9UQVJHRVR9YClcbiAgfVxuICByZXR1cm4gSU5TVEFMTF9UQVJHRVRcbn1cblxuYXN5bmMgZnVuY3Rpb24gbWFpbigpIHtcbiAgdHJ5IHtcbiAgICBjb25zdCBpbnN0YWxsVGFyZ2V0ID0gZ2V0SW5zdGFsbFRhcmdldCgpXG4gICAgY29uc29sZS5sb2coYFxcbi0tLT4gSW5zdGFsbGluZyBmb3IgdGFyZ2V0ICR7aW5zdGFsbFRhcmdldH1gKTtcblxuICAgIGlmIChbVEFSR0VUX0FMTCwgVEFSR0VUX0NMSUVOVF0uaW5jbHVkZXMoaW5zdGFsbFRhcmdldCkpIHtcbiAgICAgIGluc3RhbGxQcml2YXRlUmVzb3VyY2VzKClcbiAgICAgIGluc3RhbGxDbGllbnRTeW5jUGFja2FnZSgpXG4gICAgfVxuXG4gICAgYXdhaXQgbGVybmFCb290c3RyYXAoaW5zdGFsbFRhcmdldCk7XG5cbiAgICBpZiAoW1RBUkdFVF9BTEwsIFRBUkdFVF9DTElFTlRdLmluY2x1ZGVzKGluc3RhbGxUYXJnZXQpKSB7XG4gICAgICBpZiAocHJvY2Vzcy5wbGF0Zm9ybSA9PT0gXCJkYXJ3aW5cIikge1xuICAgICAgICAvLyBHaXZlbiB0aGF0IGBsZXJuYSBib290c3RyYXBgIGRvZXMgbm90IGluc3RhbGwgb3B0aW9uYWwgZGVwZW5kZW5jaWVzLCB3ZVxuICAgICAgICAvLyBuZWVkIHRvIG1hbnVhbGx5IHJ1biBgbnBtIGluc3RhbGxgIGluc2lkZSBgY2xpZW50LWFwcGAgc29cbiAgICAgICAgLy8gYG5vZGUtbWFjLW5vdGlmaWVyYCBnZXQncyBjb3JyZWN0bHkgaW5zdGFsbGVkIGFuZCBpbmNsdWRlZCBpbiB0aGUgYnVpbGRcbiAgICAgICAgLy8gU2VlIGh0dHBzOi8vZ2l0aHViLmNvbS9sZXJuYS9sZXJuYS9pc3N1ZXMvMTIxXG4gICAgICAgIGNvbnNvbGUubG9nKFwiXFxuLS0tPiBSZWluc3RhbGxpbmcgY2xpZW50LWFwcCBkZXBlbmRlbmNpZXMgdG8gaW5jbHVkZSBvcHRpb25hbCBkZXBlbmRlbmNpZXNcIik7XG4gICAgICAgIGF3YWl0IG5wbSgnaW5zdGFsbCcsIHtjd2Q6ICdwYWNrYWdlcy9jbGllbnQtYXBwJ30pXG4gICAgICB9XG4gICAgICBhd2FpdCBlbGVjdHJvblJlYnVpbGQoKTtcbiAgICAgIGxpbmtKYXNtaW5lQ29uZmlncygpO1xuICAgICAgbGlua0lzb21vcnBoaWNDb3JlU3BlY3MoKTtcbiAgICB9XG4gIH0gY2F0Y2ggKGVycikge1xuICAgIGNvbnNvbGUuZXJyb3IoZXJyKTtcbiAgICBwcm9jZXNzLmV4aXQoMSk7XG4gIH1cbn1cbm1haW4oKVxuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "postinstall.es6"
+      ],
+      "names": [
+        "cmd",
+        "args",
+        "opts",
+        "Promise",
+        "resolve",
+        "reject",
+        "options",
+        "Object",
+        "assign",
+        "stdio",
+        "proc",
+        "spawn",
+        "on",
+        "installTarget",
+        "console",
+        "log",
+        "lernaCmd",
+        "process",
+        "platform",
+        "TARGET_CLIENT",
+        "push",
+        "TARGET_CLOUD",
+        "join",
+        "lernaBootstrap",
+        "cwd",
+        "env",
+        "npmCmd",
+        "__dirname",
+        "npmEnvs",
+        "npm",
+        "existsSync",
+        "electronRebuild",
+        "getInstallTarget",
+        "TARGET_ALL",
+        "includes",
+        "installPrivateResources",
+        "installClientSyncPackage",
+        "linkJasmineConfigs",
+        "linkIsomorphicCoreSpecs",
+        "err",
+        "error",
+        "exit",
+        "main",
+        "unlinkIfExistsSync",
+        "p",
+        "lstatSync",
+        "removeSync",
+        "copyErrorLoggerExtensions",
+        "privateDir",
+        "from",
+        "to",
+        "copySync",
+        "clientSyncDir",
+        "destination",
+        "symlinkSync",
+        "plugin",
+        "readdirSync",
+        "system",
+        "apm",
+        "NPM_CONFIG_TARGET",
+        "electron",
+        "NPM_CONFIG_ARCH",
+        "arch",
+        "NPM_CONFIG_TARGET_ARCH",
+        "NPM_CONFIG_DISTURL",
+        "NPM_CONFIG_RUNTIME",
+        "NPM_CONFIG_BUILD_FROM_SOURCE",
+        "getJasmineDir",
+        "packageName",
+        "getJasmineConfigPath",
+        "linkToPackages",
+        "packageDir",
+        "jasmineDir",
+        "mkdirSync",
+        "INSTALL_TARGET",
+        "Error"
+      ],
+      "mappings": "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",
+      "file": "postinstall.es6",
+      "sourceRoot": "/home/keanue/.cache/pacaur/nylas-mail-git/src/nylas-mail/scripts",
+      "sourcesContent": [
+        "import fs from 'fs-plus'\nimport path from 'path'\nimport childProcess from 'child_process'\n\nconst TARGET_ALL = 'all'\nconst TARGET_CLOUD = 'cloud'\nconst TARGET_CLIENT = 'client'\n\nasync function spawn(cmd, args, opts = {}) {\n  return new Promise((resolve, reject) => {\n    const options = Object.assign({stdio: 'inherit'}, opts);\n    const proc = childProcess.spawn(cmd, args, options)\n    proc.on(\"error\", reject)\n    proc.on(\"exit\", resolve)\n  })\n}\n\nfunction unlinkIfExistsSync(p) {\n  try {\n    if (fs.lstatSync(p)) {\n      fs.removeSync(p);\n    }\n  } catch (err) {\n    return\n  }\n}\n\nfunction copyErrorLoggerExtensions(privateDir) {\n  const from = path.join(privateDir, 'src')\n  const to = path.resolve(path.join('packages', 'client-app', 'src'))\n  unlinkIfExistsSync(path.join(to, 'error-logger-extensions'));\n  fs.copySync(from, to);\n}\n\nfunction installClientSyncPackage() {\n  console.log(\"\\n---> Linking client-sync\")\n  // link client-sync\n  const clientSyncDir = path.resolve(path.join('packages', 'client-sync'));\n  const destination = path.resolve(path.join('packages', 'client-app', 'internal_packages', 'client-sync'));\n  unlinkIfExistsSync(destination);\n  fs.symlinkSync(clientSyncDir, destination, 'dir');\n}\n\nfunction installPrivateResources() {\n  console.log(\"\\n---> Linking private plugins\")\n  const privateDir = path.resolve(path.join('packages', 'client-private-plugins'))\n  if (!fs.existsSync(privateDir)) {\n    console.log(\"\\n---> No client app to link. Moving on\")\n    return;\n  }\n\n  copyErrorLoggerExtensions(privateDir)\n\n  // link private plugins\n  for (const plugin of fs.readdirSync(path.join(privateDir, 'packages'))) {\n    const from = path.resolve(path.join(privateDir, 'packages', plugin));\n    const to = path.resolve(path.join('packages', 'client-app', 'internal_packages', plugin));\n    unlinkIfExistsSync(to);\n    fs.symlinkSync(from, to, 'dir');\n  }\n}\n\nasync function lernaBootstrap(installTarget) {\n  console.log(\"\\n---> Installing packages\");\n  const lernaCmd = process.platform === 'win32' ? 'lerna.cmd' : 'lerna';\n  const args = [\"bootstrap\"]\n  switch (installTarget) {\n    case TARGET_CLIENT:\n      args.push(`--ignore='cloud-*'`)\n      break\n    case TARGET_CLOUD:\n      args.push(`--ignore='client-*'`)\n      break\n    default:\n      break\n  }\n  await spawn(path.join('node_modules', '.bin', lernaCmd), args)\n}\n\nconst npmEnvs = {\n  system: process.env,\n  apm: Object.assign({}, process.env, {\n    NPM_CONFIG_TARGET: '0.10.40',\n  }),\n  electron: Object.assign({}, process.env, {\n    NPM_CONFIG_TARGET: '1.4.15',\n    NPM_CONFIG_ARCH: process.arch,\n    NPM_CONFIG_TARGET_ARCH: process.arch,\n    NPM_CONFIG_DISTURL: 'https://atom.io/download/electron',\n    NPM_CONFIG_RUNTIME: 'electron',\n    NPM_CONFIG_BUILD_FROM_SOURCE: true,\n  }),\n};\n\nasync function npm(cmd, options) {\n  const {cwd, env} = Object.assign({cwd: '.', env: 'system'}, options);\n  const npmCmd = process.platform === 'win32' ? 'npm.cmd' : 'npm'\n  await spawn(npmCmd, [cmd], {\n    cwd: path.resolve(__dirname, '..', cwd),\n    env: npmEnvs[env],\n  })\n}\n\nasync function electronRebuild() {\n  if (!fs.existsSync(path.join(\"packages\", \"client-app\", \"apm\"))) {\n    console.log(\"\\n---> No client app to rebuild. Moving on\")\n    return;\n  }\n  await npm('install', {\n    cwd: path.join('packages', 'client-app', 'apm'),\n    env: 'apm',\n  })\n  await npm('rebuild', {\n    cwd: path.join('packages', 'client-app'),\n    env: 'electron',\n  })\n}\n\nconst getJasmineDir = (packageName) => path.resolve(\n  path.join('packages', packageName, 'spec', 'jasmine')\n)\nconst getJasmineConfigPath = (packageName) => path.resolve(\n  path.join(getJasmineDir(packageName), 'config.json')\n)\n\nfunction linkJasmineConfigs() {\n  console.log(\"\\n---> Linking Jasmine configs\");\n  const linkToPackages = ['cloud-api', 'cloud-core', 'cloud-workers']\n  const from = getJasmineConfigPath('isomorphic-core')\n  for (const packageName of linkToPackages) {\n    const packageDir = path.join('packages', packageName)\n    if (!fs.existsSync(packageDir)) {\n      console.log(\"\\n---> No cloud packages to link. Moving on\")\n      return\n    }\n\n    const jasmineDir = getJasmineDir(packageName)\n    if (!fs.existsSync(jasmineDir)) {\n      fs.mkdirSync(jasmineDir)\n    }\n    const to = getJasmineConfigPath(packageName)\n    unlinkIfExistsSync(to)\n    fs.symlinkSync(from, to, 'file')\n  }\n}\n\nfunction linkIsomorphicCoreSpecs() {\n  console.log(\"\\n---> Linking isomorphic-core specs to client-app specs\")\n  const from = path.resolve(path.join('packages', 'isomorphic-core', 'spec'))\n  const to = path.resolve(path.join('packages', 'client-app', 'spec', 'isomorphic-core'))\n  unlinkIfExistsSync(to)\n  fs.symlinkSync(from, to, 'dir')\n}\n\nfunction getInstallTarget() {\n  const {INSTALL_TARGET} = process.env\n  if (!INSTALL_TARGET) {\n    return TARGET_ALL\n  }\n  if (![TARGET_ALL, TARGET_CLIENT, TARGET_CLOUD].includes(INSTALL_TARGET)) {\n    throw new Error(`postinstall: INSTALL_TARGET must be one of client, cloud, or all. It was set to ${INSTALL_TARGET}`)\n  }\n  return INSTALL_TARGET\n}\n\nasync function main() {\n  try {\n    const installTarget = getInstallTarget()\n    console.log(`\\n---> Installing for target ${installTarget}`);\n\n    if ([TARGET_ALL, TARGET_CLIENT].includes(installTarget)) {\n      installPrivateResources()\n      installClientSyncPackage()\n    }\n\n    await lernaBootstrap(installTarget);\n\n    if ([TARGET_ALL, TARGET_CLIENT].includes(installTarget)) {\n      if (process.platform === \"darwin\") {\n        // Given that `lerna bootstrap` does not install optional dependencies, we\n        // need to manually run `npm install` inside `client-app` so\n        // `node-mac-notifier` get's correctly installed and included in the build\n        // See https://github.com/lerna/lerna/issues/121\n        console.log(\"\\n---> Reinstalling client-app dependencies to include optional dependencies\");\n        await npm('install', {cwd: 'packages/client-app'})\n      }\n      await electronRebuild();\n      linkJasmineConfigs();\n      linkIsomorphicCoreSpecs();\n    }\n  } catch (err) {\n    console.error(err);\n    process.exit(1);\n  }\n}\nmain()\n"
+      ]
+    },
+    "mtime": 1502303199702
+  }
+}

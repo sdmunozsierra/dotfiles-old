@@ -39,7 +39,7 @@ Why patch st? Have you notticed there is no scrollback or clipboard availability
 3. `git apply path/to/patch.diff`
 
 
-After you understand that, then is fairly easy to make your st as you wish it to be, with scrollback, copy and paste patches, and themes such as solarized. At the end of the day is your opinion.
+After you understand that, then is fairly easy to make your st as you wish it to be, with scrollback, copy and paste patches, and themes such as solarized. At the end of the day is your decision.
 
 I recomend to create a git repo with your config.h for a latter recompilation you do not need to start from scratch and have everything you need there.
 

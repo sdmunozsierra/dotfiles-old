@@ -16,7 +16,7 @@ font pango:Ohsnap 9
 ##############################
 
 ### Borders ###
-new_window pixel 1
+new_window pixel 0
 new_float pixel 3
 
 ### Gaps ###
@@ -79,17 +79,19 @@ bindsym $mod+Shift+grave move container to workspace $WS12
 
 ## specific config for specific workspace
 
-#workspace 1 gaps inner 0
+#workspace 3 smart gaps off
+workspace "$WS3" gaps inner 50
+workspace "$WS3" gaps outer 20
+
+#workspace 12 gaps inner 0
 workspace "$WS12" gaps inner 0
 workspace "$WS12" gaps outer 0
-
 
 ##############################
 ########## PROGRAMS  #########
 ##############################
 
 # set default programs
-#set $term st -f BitstreamVeraSansMono:size=11:style=Roman:antialias=true
 set $browser firefox
 set $term st -f Hack-Regular:size=10:antialias=true
 set $dmenuTheme -fn 'Raleway-16:bold' -nb '#141413' -nf '#f8f6f2' -sf '#141413' -sb '#ffa724' 
@@ -99,7 +101,6 @@ bindsym $mod+Return exec $term
 
 # start dmenu (a program launcher)
 #bindsym $mod+u exec dmenu_run (Deprecated due to hacked one <3 )
-
 bindsym $mod+d exec --no-startup-id dmenu_recent_aliases -i -p ' ' $dmenuTheme
 
 #bindsym $mod+m exec "dmenu_fm" Raleway-14:bold,
@@ -107,25 +108,25 @@ bindsym $mod+m exec --no-startup-id dmenu_fm -i -p '>>' $dmenuTheme
 
 # autostart programs
 exec	--no-startup-id i3-msg 'workspace $WS1; exec conky -c ~/.config/conky/conkyrc_swag'
-exec   	--no-startup-id synapse -s hide
 exec	--no-startup-id feh --bg-fill --randomize --no-fehbg ~/Data/Photos\&Vids/Wallpapers/Natgeo/*
 exec	--no-startup-id $browser 
 
 # start programs
 bindsym $mod+t 	exec --no-startup-id pcmanfm
+bindsym $mod+n 	exec --no-startup-id notes; exec --no-startup-id simplenote; exec i3-msg "smartgaps current off"
 bindsym $mod+a	exec --no-startup-id ~/droid/bin/studio.sh
 #bindsym $mod+Ctrl+l  exec --no-startup-id lxappearance
 #bindsym $mod+Ctrl+w  exec --no-startup-id wicd-gtk
 bindsym $mod+Ctrl+Delete exec --no-startup-id xfce4-taskmanager
 
-# start rofi 
-#bindsym $mod+d exec rofi -show run -font "Ohsnap 9" -columns 5 -lines 1 -color-window "#FFFFFF" -hide-scrollbar -terminal i3-sensible-terminal
-
 # layout
 for_window [class="Galculator"] floating enable 
 for_window [class="(?i)lxappearance"] floating enable change container layout (stacked, tabbed, toggle split)
 for_window [class="Firefox"] move container to workspace $WS2
+for_window [class="notes"] move container to workspace $WS3
+for_window [class="simplenote"] move container to workspace $WS3 border pixel 1
 for_window [class="studio.sh"] move container to workspace $WS11
+for_window [class="mpv"] floating enable
 
 #for_window [class="(?i)pystopwatch"] move container to workspace $WS1
 #for_window [urgent="latest" class="(?i)pystopwatch"] focus
@@ -141,6 +142,10 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
 bindsym XF86AudioMute        exec amixer -q set Master Playback Switch toggle
 bindsym XF86MonBrightnessUp  exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown  exec xbacklight -dec 10
+bindsym XF86AudioPlay  exec mpris-ctl pp
+bindsym XF86AudioStop  exec mpris-ctl stop
+bindsym XF86AudioNext  exec mpris-ctl next
+bindsym XF86AudioPrev  exec mpris-ctl prev
 
 ##############################
 ####### WINDOW CONTROL #######
@@ -172,10 +177,6 @@ bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
-
-# The side buttons move the window around
-#bindsym $mod+button1ove move left
-#bindsym button8 move right
 
 ##############################
 ######### LAYOUT #############
@@ -254,6 +255,7 @@ mode "move" {
     bindsym Down move down 20px
     bindsym Right move right 20px
 
+	# back to normal: Escape or Enter
     bindsym Return mode "default"
     bindsym Escape mode "default" 
 }
@@ -264,6 +266,23 @@ mode "power"{
 	bindsym p	exec systemctl poweroff
 	bindsym r	exec systemctl reboot
 	bindsym h 	exec gksu systemctl hibernate
+
+	# back to normal: Escape or Enter
+	bindsym Escape mode "default"
+	bindsym Return mode "default"
+}
+
+# Gaps mode
+bindsym $mod+Ctrl+g mode "gaps"
+mode "gaps"{
+	#enable f = false t = true
+	bindsym f exec i3-msg "smartgaps current off;gaps inner current set 0; gaps outer current set 0"
+	bindsym t exec i3-msg "smartgaps current on;gaps inner current set 10; gaps outer current set 5"
+	# on the fly adjustments
+    bindsym Up gaps  outer current  plus 5;
+    bindsym Down gaps  outer current  minus 5;
+    bindsym Right gaps  inner current  plus 5;
+    bindsym Left gaps  inner current  minus 5;
 
 	# back to normal: Escape or Enter
 	bindsym Escape mode "default"
@@ -306,11 +325,9 @@ set $c_azul 	"#8cffba" #Blue aqua
 set $c_orang 	"#ffa724" #Orange
 set $c_white 	"#f8f6f2" #Plain white
 
-
-
-#############################
-######   COLORS ###########
-##############################
+############################
+########  COLORS ###########
+############################
  
 ##---keys---#   --Stacked Mode--	--Default Mode--
 ##border->		Border 				Nada
@@ -321,23 +338,19 @@ set $c_white 	"#f8f6f2" #Plain white
 ##---classes---#
  
 ## class                 border  backgr. text    indicator
-client.focused           #000000 #ff3c4b #000000 #FFFFFF
+client.focused           #000000 #5294E2 #000000 #FFFFFF
 #client.focused_inactive #000000 #011267 #3C3530 #000000
-#client.unfocused        #000000 #aee00 #3C3530 #FFFFFF
+client.unfocused        #000000 #121212 #3C3530 #FFFFFF
 client.urgent           #000000 #000000 #ffffff #000000
 #client.placeholder      #000000 #000000 #ffffff #000000
  
-# The Bar I was Using before
- bar {
+bar {
  	position 	top
  	status_command 	i3status -c ~/.config/i3/i3status.conf
- 	#   mode hide     
- 	#  hidden_state hide
-	#   modifier $winmod
-##   wheel_up_cmd nop
-#	#   wheel_down_cmd nop 	
-# 
-font pango:Gidole Regular 14
+	#tray_output primary
+  	#status_command ~/Data/ArchScripts/youtube_title.sh 
+
+	font pango:Gidole Regular 14
 	colors{
  	#focused_workspace ->	Workspace letters at the bar left side
  	#active_workspace ->	Workspace letters??	
@@ -345,8 +358,6 @@ font pango:Gidole Regular 14
  		background $c_gray 		#Bar Background
  		statusline $c_white		#Bar Letters
  		separator  $c_gray 		#Bar Separator
-#0a9dff" #Blue 
-#8cffba" #Blue aqua
  							#Margin #Backgd #Letters 141413
 		focused_workspace	#141413 #141413 #aeee00
         active_workspace	#141413 #141413 #6c71c4

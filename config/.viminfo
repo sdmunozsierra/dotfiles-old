@@ -11,506 +11,529 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/5294e2
+~MSle0~/30
 
 # Last Substitute Search Pattern:
-~MSle0~&5294E2
+~MSle0&5294E2
 
 # Last Substitute String:
-$AEFF00
+$
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1501211160,,"q"
-:w
-|2,0,1501211156,,"w"
-:w !sudo tee > /dev/null %
-|2,0,1501209854,,"w !sudo tee > /dev/null %"
-:wq
-|2,0,1501209065,,"wq"
 :q!
-|2,0,1501203805,,"q!"
-:%s/5294E2/AEFF00/gi
-|2,0,1501203772,,"%s/5294E2/AEFF00/gi"
-:%s/2B2E39/141413/gi
-|2,0,1501203455,,"%s/2B2E39/141413/gi"
-:%s/2B2E39/141413/g
-|2,0,1501203447,,"%s/2B2E39/141413/g"
-:%s/383C4A/141413/g
-|2,0,1501203399,,"%s/383C4A/141413/g"
-:%s/383C4A//g
-|2,0,1501203261,,"%s/383C4A//g"
-:%s/383C4A/444444/g
-|2,0,1501203251,,"%s/383C4A/444444/g"
-:%s/d3dae3/444444/g
-|2,0,1501203212,,"%s/d3dae3/444444/g"
-:%s/D3DAE3/444444/g
-|2,0,1501203178,,"%s/D3DAE3/444444/g"
+|2,0,1502900817,,"q!"
 :Q
-|2,0,1501202497,,"Q"
-:%s/DD2C00/D75F00/g
-|2,0,1501201806,,"%s/DD2C00/D75F00/g"
-:%s/FF6D00/FFA724/g
-|2,0,1501201802,,"%s/FF6D00/FFA724/g"
-:%s/F0544C/85FCAD/g
-|2,0,1501201794,,"%s/F0544C/85FCAD/g"
-:1
-|2,0,1500779625,,"1"
-:es
-|2,0,1499186348,,"es"
-:w dreamstatesocal.md
-|2,0,1499183574,,"w dreamstatesocal.md"
+|2,0,1502900812,,"Q"
+:q
+|2,0,1502898973,,"q"
+:colo badwolf
+|2,0,1502898121,,"colo badwolf"
+:colorscheme darkblue
+|2,0,1502898117,,"colorscheme darkblue"
+:quit
+|2,0,1502898953,,"quit"
+:w
+|2,0,1502896338,,"w"
+:wq
+|2,0,1502819360,,"wq"
 :W
-|2,0,1498241089,,"W"
-:bn
-|2,0,1498240829,,"bn"
-:e eclipse_install
-|2,0,1498240798,,"e eclipse_install"
-:ws
-|2,0,1497396320,,"ws"
+|2,0,1502810667,,"W"
+:qa!
+|2,0,1502725649,,"qa!"
+:w !sudo tee > /dev/null %
+|2,0,1502673285,,"w !sudo tee > /dev/null %"
 :e
-|2,0,1497370435,,"e"
-:s
-|2,0,1497369609,,"s"
-:MBEOpen
-|2,0,1497234131,,"MBEOpen"
-:BundleInstall
-|2,0,1497234094,,"BundleInstall"
-:PluginInstall
-|2,0,1497234058,,"PluginInstall"
-:BundleUpdate
-|2,0,1497234043,,"BundleUpdate"
-:buffer
-|2,0,1497233935,,"buffer"
-:vim hello
-|2,0,1497233926,,"vim hello"
-:o 
-|2,0,1497233916,,"o "
+|2,0,1502666723,,"e"
+::w !sudo tee > /dev/null %
+|2,0,1501855081,,":w !sudo tee > /dev/null %"
+:colorscheme desert
+|2,0,1501786176,,"colorscheme desert"
+:colorscheme delek
+|2,0,1501786171,,"colorscheme delek"
+:colorscheme default
+|2,0,1501786167,,"colorscheme default"
+:colorscheme blue
+|2,0,1501786158,,"colorscheme blue"
+:qa
+|2,0,1501782055,,"qa"
+:new 1
+|2,0,1501696787,,"new 1"
+:badd dreamstatemusic.md
+|2,0,1501696741,,"badd dreamstatemusic.md"
+:PluginUpdate
+|2,0,1501696672,,"PluginUpdate"
+:7,8bdelete
+|2,0,1501696542,,"7,8bdelete"
+:2,5bdelete
+|2,0,1501696530,,"2,5bdelete"
+:bdelete 2,5
+|2,0,1501696507,,"bdelete 2,5"
+:bdelete display_colors.sh
+|2,0,1501696498,,"bdelete display_colors.sh"
+:vsp install_pacaur.sh
+|2,0,1501696018,,"vsp install_pacaur.sh"
+:sp dreamstatemusic.md
+|2,0,1501695442,,"sp dreamstatemusic.md"
+:ls
+|2,0,1501695428,,"ls"
+:O new.txt
+|2,0,1501695423,,"O new.txt"
+:o
+|2,0,1501695412,,"o"
+:nO nded
+|2,0,1501695410,,"nO nded"
+:O /data
+|2,0,1501695402,,"O /data"
+:O dreams
+|2,0,1501695388,,"O dreams"
+:PluginClean
+|2,0,1501695350,,"PluginClean"
+:PlufinL
+|2,0,1501695316,,"PlufinL"
 :PluginList
-|2,0,1497233222,,"PluginList"
-:Plugin
-|2,0,1497232474,,"Plugin"
-:PluginSearch
-|2,0,1497232313,,"PluginSearch"
-:PluginSearch minibufexpl
-|2,0,1497232277,,"PluginSearch minibufexpl"
-:plugin
-|2,0,1497232189,,"plugin"
-:vundle
-|2,0,1497232183,,"vundle"
-:bundle
-|2,0,1497232181,,"bundle"
-:qQ
-|2,0,1497232097,,"qQ"
-:echo mapleader
-|2,0,1497228676,,"echo mapleader"
-:2bn
-|2,0,1497229109,,"2bn"
-:bnn
-|2,0,1497229103,,"bnn"
-:b 7
-|2,0,1497229087,,"b 7"
-:e Utils.java
-|2,0,1496773263,,"e Utils.java"
-:bd
-|2,0,1496773256,,"bd"
-:bc
-|2,0,1496773238,,"bc"
-:bp
-|2,0,1496773205,,"bp"
-:bm
-|2,0,1496773022,,"bm"
+|2,0,1501695280,,"PluginList"
+:c
+|2,0,1501694599,,"c"
+:colorscheme peachpuff
+|2,0,1501693906,,"colorscheme peachpuff"
+:colorscheme pablo
+|2,0,1501693896,,"colorscheme pablo"
+:colorscheme evening
+|2,0,1501693888,,"colorscheme evening"
+:r
+|2,0,1501647042,,"r"
+:version
+|2,0,1501606751,,"version"
+:'<,'>setlocal foldmethod=marker
+|2,0,1501604688,,"'<,'>setlocal foldmethod=marker"
+:setlocal foldmethod=marker
+|2,0,1501604661,,"setlocal foldmethod=marker"
+:set foldmethod manual
+|2,0,1501604285,,"set foldmethod manual"
+:h fold
+|2,0,1501604218,,"h fold"
+:h
+|2,0,1501604208,,"h"
+:foldmethod manual
+|2,0,1501604204,,"foldmethod manual"
+:set fmd manual
+|2,0,1501604194,,"set fmd manual"
+:set foldlevel=4
+|2,0,1501604101,,"set foldlevel=4"
 
 # Search String History (newest to oldest):
-? 5294E2
-|2,1,1501203772,,"5294E2"
-?/5294e2
-|2,1,1501203731,47,"5294e2"
-?/5294E2
-|2,1,1501203724,47,"5294E2"
-? 2B2E39
-|2,1,1501203455,,"2B2E39"
-? 383C4A
-|2,1,1501203280,,"383C4A"
-? d3dae3
-|2,1,1501203212,,"d3dae3"
-? D3DAE3
-|2,1,1501203178,,"D3DAE3"
-? DD2C00
-|2,1,1501201806,,"DD2C00"
-? FF6D00
-|2,1,1501201802,,"FF6D00"
-? F0544C
-|2,1,1501201794,,"F0544C"
-??85FCAD
-|2,1,1501200803,63,"85FCAD"
-?/dmenu
-|2,1,1500692723,47,"dmenu"
 ?/feh
-|2,1,1500666843,47,"feh"
-?/feg
-|2,1,1500666393,47,"feg"
-?/move
-|2,1,1500664043,47,"move"
-?/focus
-|2,1,1500563549,47,"focus"
+|2,1,1502897602,47,"feh"
 ? @$
-|2,1,1499860521,,"@$"
-?/mixer
-|2,1,1498296347,47,"mixer"
-?/eclip
-|2,1,1498290679,47,"eclip"
+|2,1,1502895491,,"@$"
+?/gaps
+|2,1,1502819859,47,"gaps"
+??30
+|2,1,1502819341,63,"30"
+?/mod+n
+|2,1,1502811021,47,"mod+n"
+?/smart
+|2,1,1502808050,47,"smart"
+?/clipse
+|2,1,1502807420,47,"clipse"
+??eclipse
+|2,1,1502807413,63,"eclipse"
+?/eclipse
+|2,1,1502807410,47,"eclipse"
+?/individual
+|2,1,1502807399,47,"individual"
+??gaps
+|2,1,1502754323,63,"gaps"
+?/$mod
+|2,1,1502754079,47,"$mod"
 ?/fire
-|2,1,1497399746,47,"fire"
-?/vuz
-|2,1,1497399589,47,"vuz"
-?/Java
-|2,1,1497396405,47,"Java"
-? \<String\>
-|2,1,1497229211,,"\\<String\\>"
-? \<spaces\>
-|2,1,1497229194,,"\\<spaces\\>"
-? \<array\>
-|2,1,1497229081,,"\\<array\\>"
-?/size
-|2,1,1497018762,47,"size"
-?/Resize
-|2,1,1497018521,47,"Resize"
-?/rezise
-|2,1,1497018519,47,"rezise"
-?/Audio
-|2,1,1496881857,47,"Audio"
-?/Video
-|2,1,1496881855,47,"Video"
-?/video
-|2,1,1496881853,47,"video"
-?/set
-|2,1,1496881848,47,"set"
-?/bright
-|2,1,1496881844,47,"bright"
-?/brightness
-|2,1,1496881840,47,"brightness"
-?/number
-|2,1,1496773270,47,"number"
-? "";
-|2,1,1496245393,,"\"\";"
-?/AUDIO
-|2,1,1496022834,47,"AUDIO"
-?/audio
-|2,1,1496022830,47,"audio"
-?/COLORS
-|2,1,1495853921,47,"COLORS"
-?/colors
-|2,1,1495853835,47,"colors"
-?/st
-|2,1,1495853214,47,"st"
+|2,1,1502729311,47,"fire"
+?/ACCD
+|2,1,1502725608,47,"ACCD"
+?/BENE,CRIT,C
+|2,1,1502725566,47,"BENE,CRIT,C"
+?/VALENZUELA
+|2,1,1502725546,47,"VALENZUELA"
+?/RAZLO
+|2,1,1502725538,47,"RAZLO"
+?/MARTINEZ
+|2,1,1502725518,47,"MARTINEZ"
+?/CHAVEZ
+|2,1,1502725505,47,"CHAVEZ"
+?/CHACEZ
+|2,1,1502725503,47,"CHACEZ"
+?/ARRIETA
+|2,1,1502725492,47,"ARRIETA"
+?/ALDERETE
+|2,1,1502725482,47,"ALDERETE"
+?/ZZ
+|2,1,1502725086,47,"ZZ"
+?/VARELA
+|2,1,1502721027,47,"VARELA"
+?/SCOGIN
+|2,1,1502720717,47,"SCOGIN"
+?/THOMAS
+|2,1,1502720614,47,"THOMAS"
+?/THOMAS LOGAN
+|2,1,1502720611,47,"THOMAS LOGAN"
+?/00
+|2,1,1502678138,47,"00"
+?/zz
+|2,1,1502678132,47,"zz"
 ?/bar
-|2,1,1495849990,47,"bar"
-? UNK
-|2,1,1495840955,,"UNK"
-??"
-|2,1,1495806870,63,"\""
-?/"
-|2,1,1495806860,47,"\""
-?/Rail
-|2,1,1495710627,47,"Rail"
-?/mode
-|2,1,1495671488,47,"mode"
-?/<3
-|2,1,1495670090,47,"<3"
-?/%
-|2,1,1495667003,47,"%"
-?/Niece
-|2,1,1495637079,47,"Niece"
+|2,1,1502663634,47,"bar"
+?/url
+|2,1,1502632969,47,"url"
+?/iso
+|2,1,1502632962,47,"iso"
+?/457889858
+|2,1,1502464680,47,"457889858"
+?/RORER
+|2,1,1502464621,47,"RORER"
+?/628108378
+|2,1,1502464569,47,"628108378"
+?/RAZLOZNIK
+|2,1,1502464549,47,"RAZLOZNIK"
+?/razloznik
+|2,1,1502464545,47,"razloznik"
+?/453718605
+|2,1,1502223465,47,"453718605"
+?/DPDT,C
+|2,1,1502223453,47,"DPDT,C"
+?/450494577
+|2,1,1502223156,47,"450494577"
+?/SPSE,C
+|2,1,1502223140,47,"SPSE,C"
+?/459775387
+|2,1,1502222557,47,"459775387"
+?/EMPL,C
+|2,1,1502222460,47,"EMPL,C"
+?/454950027
+|2,1,1502222421,47,"454950027"
+?/Voluntary
+|2,1,1502222405,47,"Voluntary"
+?/453279074
+|2,1,1502222372,47,"453279074"
+?/SANCHE
+|2,1,1502222307,47,"SANCHE"
+?/MARQUEZ RACHEL
+|2,1,1502222112,47,"MARQUEZ RACHEL"
+?/MARQUEZ RACHAEL
+|2,1,1502222086,47,"MARQUEZ RACHAEL"
+?/MARQUEZ
+|2,1,1502222082,47,"MARQUEZ"
 
 # Expression History (newest to oldest):
 =p
 |2,2,1495714643,,"p"
 
 # Input Line History (newest to oldest):
+@y
+|2,3,1501695354,,"y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	.config/mpv
-|3,0,0,1,1,0,1501209705,".config/mpv"
+""0	LINE	0
+	for_window [class="studio.sh"] move container to workspace $WS11
+|3,1,0,1,1,0,1502896175,"for_window [class=\"studio.sh\"] move container to workspace $WS11"
 "1	LINE	0
-	.config/mpv
-|3,0,1,1,1,0,1501209708,".config/mpv"
+	workspace "$WS3" smartgaps off
+|3,0,1,1,1,0,1502820306,"workspace \"$WS3\" smartgaps off"
 "2	LINE	0
-	.config/
-|3,0,2,1,1,0,1501209300,".config/"
+	workspace "$WS3" exec i3-msg "smartgaps current off"
+|3,0,2,1,1,0,1502810429,"workspace \"$WS3\" exec i3-msg \"smartgaps current off\""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1501198914,""
+	#exec   	--no-startup-id synapse -s hide
+|3,0,3,1,1,0,1502810333,"#exec   	--no-startup-id synapse -s hide"
 "4	LINE	0
-	#AEEE00
-|3,0,4,1,1,0,1501198876,"#AEEE00"
-"5	LINE	0
-	#141413
-|3,0,5,1,1,0,1501198822,"#141413"
-"6	LINE	0
-	Error: target STRING not available
-|3,0,6,1,1,0,1500666426,"Error: target STRING not available"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1500666295,""
+|3,0,4,1,1,0,1502807899,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1502807898,""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1502807898,""
+"7	LINE	0
+	## specific config for specific workspace
+	#workspace 12 gaps inner 0
+	workspace "$WS12" gaps inner 0
+	workspace "$WS12" gaps outer 0
+	
+|3,0,7,1,5,0,1502807845,"## specific config for specific workspace","#workspace 12 gaps inner 0","workspace \"$WS12\" gaps inner 0","workspace \"$WS12\" gaps outer 0",""
 "8	LINE	0
-	feh  --bg-fill '/home/keanue/Data/Downloads/wallpaper_5.jpg' 
-|3,0,8,1,1,0,1500666294,"feh  --bg-fill '/home/keanue/Data/Downloads/wallpaper_5.jpg' "
+	## specific config for specific workspace
+	#workspace 12 gaps inner 0
+	workspace "$WS12" gaps inner 0
+	workspace "$WS12" gaps outer 0
+|3,0,8,1,4,0,1502807841,"## specific config for specific workspace","#workspace 12 gaps inner 0","workspace \"$WS12\" gaps inner 0","workspace \"$WS12\" gaps outer 0"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1500664681,""
+|3,0,9,1,1,0,1502807827,""
 "d@	CHAR	0
-	v$ykv$pjjv$yjkkv$pjjv$yjkkv$pjjv$yjkkv$p
-|3,2,13,0,1,0,1496245602,"v$ykv$pjjv$yjkkv$pjjv$yjkkv$pjjv$yjkkv$p"
+	dwbbea p
+|3,2,13,0,1,0,1502807028,"dwbbea p"
 "e	CHAR	0
 	
 |3,0,14,0,1,0,1500574790,""
 "f	CHAR	0
 	wwwwlv$"1yk0wwwwlv$"2yv$"1p
 |3,0,15,0,1,0,1496244193,"wwwwlv$\"1yk0wwwwlv$\"2yv$\"1p"
+"j	CHAR	0
+	dw2bepua p
+|3,0,19,0,1,0,1502806925,"dw2bepua p"
+"l	CHAR	0
+	560
+<llllllllllhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjwi;h€kbismartfa€kb€kbgaps current pf€kb€kboff €kb:wg
+|3,0,21,0,1,0,1502754857,>559
+|<"llllllllllhjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjwi;h€kbismartfa€kb€kbgaps current pf€kb€kboff €kb:wg"
+"q	CHAR	0
+	
+|3,0,26,0,1,0,1501530489,""
 "w	CHAR	0
-	
-|3,0,32,0,1,0,1494718208,""
+	491
+<€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klxx:w€kd€kr€ku€ku€kuI#:w:w€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdi#A #PID€ku€ku€ku€ku:w€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kda|grep NADA:w€kl€kr€kl€kl€kl€kl€kl€kl€kl€klCawk -f€kbF'€kb €kb '€kb€kb'--no' '{print $1'€kb}':w€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kr€kr€kri €kr :w:w€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klr0:w€kr€klr2:w
+|3,0,32,0,1,0,1501295427,>490
+|<"€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klxx:w€kd€kr€ku€ku€kuI#:w:w€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdi#A #PID€ku€ku€ku€ku:w€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kda|grep NADA:w€kl€kr€kl€kl€kl€kl€kl€kl€kl€klCawk -f€kbF'€kb €kb '€kb€kb'--no' '{print $1'€kb}':w€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kr€kr€kri €kr :w:w€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klr0:w€kr€klr2:w"
 "y	CHAR	0
 	[&#xf17c;]
 	
 |3,0,34,0,2,0,1495712165,"[&#xf17c;]",""
-""-	CHAR	0
-	temp/backup3
-|3,1,36,0,1,0,1501211096,"temp/backup3"
+"-	CHAR	0
+	smplayer
+|3,0,36,0,1,0,1502896335,"smplayer"
 
 # File marks:
-'0  45  108  ~/.bash_aliases
-|4,48,45,108,1501211160,"~/.bash_aliases"
-'1  5  0  ~/Data/Git/dotfiles/README.md
-|4,49,5,0,1501211064,"~/Data/Git/dotfiles/README.md"
-'2  6  74  ~/Data/Git/dotfiles/README.md
-|4,50,6,74,1501211051,"~/Data/Git/dotfiles/README.md"
-'3  6  74  ~/Data/Git/dotfiles/README.md
-|4,51,6,74,1501211051,"~/Data/Git/dotfiles/README.md"
-'4  58  2  ~/Data/Git/dotfiles/README.md
-|4,52,58,2,1501210774,"~/Data/Git/dotfiles/README.md"
-'5  54  2  ~/Data/Git/dotfiles/README.md
-|4,53,54,2,1501210774,"~/Data/Git/dotfiles/README.md"
-'6  58  2  ~/Data/Git/dotfiles/README.md
-|4,54,58,2,1501210774,"~/Data/Git/dotfiles/README.md"
-'7  54  2  ~/Data/Git/dotfiles/README.md
-|4,55,54,2,1501210774,"~/Data/Git/dotfiles/README.md"
-'8  45  96  ~/.bash_aliases
-|4,56,45,96,1501210465,"~/.bash_aliases"
-'9  6  0  ~/exclude-list.txt
-|4,57,6,0,1501209860,"~/exclude-list.txt"
+'0  1  0  ~/.bash_aliases
+|4,48,1,0,1502900817,"~/.bash_aliases"
+'1  22  0  ~/Data/Notes/firefox_config.md
+|4,49,22,0,1502898973,"~/Data/Notes/firefox_config.md"
+'2  10  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,50,10,0,1502898953,"~/Data/ArchScripts/mpsyt_info.sh"
+'3  111  21  ~/.config/i3/config
+|4,51,111,21,1502898916,"~/.config/i3/config"
+'4  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,52,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
+'5  1  0  ~/Data/Asiakirja/so
+|4,53,1,0,1502897851,"~/Data/Asiakirja/so"
+'6  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,54,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+'7  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,55,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+'8  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,56,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+'9  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,57,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
 
 # Jumplist (newest first):
--'  45  108  ~/.bash_aliases
-|4,39,45,108,1501211160,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1501211077,"~/.bash_aliases"
--'  5  0  ~/Data/Git/dotfiles/README.md
-|4,39,5,0,1501211064,"~/Data/Git/dotfiles/README.md"
--'  5  0  ~/Data/Git/dotfiles/README.md
-|4,39,5,0,1501211064,"~/Data/Git/dotfiles/README.md"
--'  1  0  ~/Data/Git/dotfiles/README.md
-|4,39,1,0,1501211058,"~/Data/Git/dotfiles/README.md"
--'  1  0  ~/Data/Git/dotfiles/README.md
-|4,39,1,0,1501211058,"~/Data/Git/dotfiles/README.md"
--'  6  74  ~/Data/Git/dotfiles/README.md
-|4,39,6,74,1501211051,"~/Data/Git/dotfiles/README.md"
--'  6  74  ~/Data/Git/dotfiles/README.md
-|4,39,6,74,1501211051,"~/Data/Git/dotfiles/README.md"
--'  6  74  ~/Data/Git/dotfiles/README.md
-|4,39,6,74,1501211051,"~/Data/Git/dotfiles/README.md"
--'  6  74  ~/Data/Git/dotfiles/README.md
-|4,39,6,74,1501211051,"~/Data/Git/dotfiles/README.md"
--'  1  0  ~/Data/Git/dotfiles/README.md
-|4,39,1,0,1501210907,"~/Data/Git/dotfiles/README.md"
--'  1  0  ~/Data/Git/dotfiles/README.md
-|4,39,1,0,1501210907,"~/Data/Git/dotfiles/README.md"
--'  58  2  ~/Data/Git/dotfiles/README.md
-|4,39,58,2,1501210774,"~/Data/Git/dotfiles/README.md"
--'  54  2  ~/Data/Git/dotfiles/README.md
-|4,39,54,2,1501210774,"~/Data/Git/dotfiles/README.md"
--'  58  2  ~/Data/Git/dotfiles/README.md
-|4,39,58,2,1501210774,"~/Data/Git/dotfiles/README.md"
--'  54  2  ~/Data/Git/dotfiles/README.md
-|4,39,54,2,1501210774,"~/Data/Git/dotfiles/README.md"
--'  58  2  ~/Data/Git/dotfiles/README.md
-|4,39,58,2,1501210774,"~/Data/Git/dotfiles/README.md"
--'  54  2  ~/Data/Git/dotfiles/README.md
-|4,39,54,2,1501210774,"~/Data/Git/dotfiles/README.md"
--'  58  2  ~/Data/Git/dotfiles/README.md
-|4,39,58,2,1501210774,"~/Data/Git/dotfiles/README.md"
--'  54  2  ~/Data/Git/dotfiles/README.md
-|4,39,54,2,1501210774,"~/Data/Git/dotfiles/README.md"
--'  8  12  ~/Data/Git/dotfiles/README.md
-|4,39,8,12,1501210768,"~/Data/Git/dotfiles/README.md"
--'  4  12  ~/Data/Git/dotfiles/README.md
-|4,39,4,12,1501210768,"~/Data/Git/dotfiles/README.md"
--'  8  12  ~/Data/Git/dotfiles/README.md
-|4,39,8,12,1501210768,"~/Data/Git/dotfiles/README.md"
--'  4  12  ~/Data/Git/dotfiles/README.md
-|4,39,4,12,1501210768,"~/Data/Git/dotfiles/README.md"
--'  8  12  ~/Data/Git/dotfiles/README.md
-|4,39,8,12,1501210768,"~/Data/Git/dotfiles/README.md"
--'  4  12  ~/Data/Git/dotfiles/README.md
-|4,39,4,12,1501210768,"~/Data/Git/dotfiles/README.md"
--'  8  12  ~/Data/Git/dotfiles/README.md
-|4,39,8,12,1501210768,"~/Data/Git/dotfiles/README.md"
--'  4  12  ~/Data/Git/dotfiles/README.md
-|4,39,4,12,1501210768,"~/Data/Git/dotfiles/README.md"
--'  1  0  ~/Data/Git/dotfiles/README.md
-|4,39,1,0,1501210731,"~/Data/Git/dotfiles/README.md"
--'  1  0  ~/Data/Git/dotfiles/README.md
-|4,39,1,0,1501210731,"~/Data/Git/dotfiles/README.md"
--'  45  96  ~/.bash_aliases
-|4,39,45,96,1501210465,"~/.bash_aliases"
--'  45  96  ~/.bash_aliases
-|4,39,45,96,1501210465,"~/.bash_aliases"
--'  45  96  ~/.bash_aliases
-|4,39,45,96,1501210465,"~/.bash_aliases"
--'  45  96  ~/.bash_aliases
-|4,39,45,96,1501210465,"~/.bash_aliases"
--'  45  96  ~/.bash_aliases
-|4,39,45,96,1501210465,"~/.bash_aliases"
--'  45  96  ~/.bash_aliases
-|4,39,45,96,1501210465,"~/.bash_aliases"
--'  45  96  ~/.bash_aliases
-|4,39,45,96,1501210465,"~/.bash_aliases"
--'  45  96  ~/.bash_aliases
-|4,39,45,96,1501210465,"~/.bash_aliases"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  6  0  ~/exclude-list.txt
-|4,39,6,0,1501209860,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  5  0  ~/exclude-list.txt
-|4,39,5,0,1501209709,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1501209274,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
--'  2  0  ~/exclude-list.txt
-|4,39,2,0,1501209065,"~/exclude-list.txt"
+|4,39,1,0,1502900817,"~/.bash_aliases"
+-'  22  0  ~/Data/Notes/firefox_config.md
+|4,39,22,0,1502898973,"~/Data/Notes/firefox_config.md"
+-'  22  0  ~/Data/Notes/firefox_config.md
+|4,39,22,0,1502898973,"~/Data/Notes/firefox_config.md"
+-'  10  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,10,0,1502898953,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  10  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,10,0,1502898953,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  111  21  ~/.config/i3/config
+|4,39,111,21,1502898916,"~/.config/i3/config"
+-'  111  21  ~/.config/i3/config
+|4,39,111,21,1502898916,"~/.config/i3/config"
+-'  1  0  ~/Data/Notes/firefox_config.md
+|4,39,1,0,1502897876,"~/Data/Notes/firefox_config.md"
+-'  1  0  ~/Data/Notes/firefox_config.md
+|4,39,1,0,1502897876,"~/Data/Notes/firefox_config.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/so
+|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
+-'  1  0  ~/Data/Asiakirja/so
+|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
+-'  1  0  ~/Data/Asiakirja/so
+|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
+-'  1  0  ~/Data/Asiakirja/so
+|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
+-'  1  0  ~/Data/Asiakirja/so
+|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
+-'  1  0  ~/Data/Asiakirja/so
+|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
+-'  1  0  ~/Data/Asiakirja/so
+|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
+-'  1  0  ~/Data/Asiakirja/so
+|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
+|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
+-'  129  21  ~/.config/i3/config
+|4,39,129,21,1502897602,"~/.config/i3/config"
+-'  129  21  ~/.config/i3/config
+|4,39,129,21,1502897602,"~/.config/i3/config"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896603,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896603,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/youtube_title.sh
+|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
+|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
 
 # History of marks within files (newest to oldest):
 
 > ~/.bash_aliases
-	*	1501211158	0
-	"	45	108
+	*	1502900814	0
+	"	1	0
 	^	45	109
 	.	45	108
 	+	85	0
@@ -614,30 +637,597 @@ $AEFF00
 	+	45	9
 	+	45	108
 
-> ~/Data/Git/dotfiles/README.md
-	*	1501211061	0
-	"	5	0
-	^	6	75
-	.	6	74
-	+	8	12
-	+	4	15
-	+	6	74
+> ~/Data/Notes/firefox_config.md
+	*	1502898122	0
+	"	22	0
+	^	69	9
+	.	69	8
+	+	64	40
+	+	65	14
+	+	67	15
+	+	69	8
+
+> ~/Data/Asiakirja/dreamstatesocal.md
+	*	1502897855	0
+	"	1	0
+
+> ~/Data/Asiakirja/so
+	*	1502897850	0
+	"	1	0
+
+> ~/.config/i3/config
+	*	1502897607	0
+	"	111	21
+	^	129	22
+	.	129	21
+	+	145	39
+	+	146	41
+	+	147	41
+	+	346	2
+	+	348	0
+	+	349	0
+	+	348	2
+	+	1	0
+	+	348	2
+	+	346	2
+	+	349	0
+	+	348	3
+	+	347	19
+	+	348	0
+	+	347	1
+	+	273	0
+	+	273	26
+	+	287	0
+	+	276	11
+	+	276	12
+	+	276	42
+	+	276	37
+	+	285	0
+	+	274	0
+	+	276	67
+	+	274	9
+	+	276	45
+	+	277	95
+	+	279	0
+	+	281	0
+	+	255	0
+	+	256	0
+	+	284	0
+	+	281	0
+	+	279	46
+	+	280	15
+	+	279	15
+	+	280	17
+	+	279	20
+	+	280	33
+	+	281	0
+	+	284	28
+	+	284	15
+	+	279	38
+	+	280	41
+	+	284	41
+	+	284	0
+	+	284	29
+	+	284	0
+	+	282	29
+	+	281	30
+	+	280	29
+	+	279	27
+	+	281	0
+	+	283	0
+	+	278	24
+	+	275	26
+	+	310	0
+	+	111	0
+	+	104	0
+	+	95	0
+	+	121	0
+	+	177	0
+	+	89	0
+	+	80	0
+	+	89	0
+	+	81	0
+	+	85	0
+	+	82	26
+	+	83	29
+	+	84	26
+	+	83	52
+	+	269	0
+	+	111	0
+	+	116	13
+	+	126	58
+	+	83	0
+	+	116	49
+	+	126	59
+	+	116	0
+	+	147	85
+	+	147	86
+	+	148	0
+	+	116	0
+	+	126	59
+	+	116	42
+	+	126	59
+	+	116	75
+	+	127	28
+	+	83	28
+	+	127	78
+	+	83	44
+	+	83	0
+	+	85	0
+	+	116	111
+	+	341	39
+	+	343	38
+	+	341	39
+	+	19	17
+	+	129	21
+	g	106	27
+	m	106	27
+
+> ~/Data/ArchScripts/mpsyt_info.sh
+	*	1502897092	0
+	"	10	0
+	^	22	15
+	.	22	16
+	+	10	11
+	+	10	0
+	+	5	0
+	+	4	0
+	+	5	32
+	+	5	11
+	+	5	0
+	+	10	0
+	+	10	11
+	+	10	0
+	+	10	5
+	+	10	11
+	+	10	34
+	+	10	5
+	+	10	12
+	+	10	0
+	+	4	20
+	+	10	38
+	+	5	99
+	+	10	0
+	+	5	90
+	+	10	5
+	+	10	12
+	+	10	5
+	+	10	12
+	+	10	0
+	+	10	5
+	+	5	7
+	+	10	0
+	+	5	104
+	+	5	1
+	+	5	95
+	+	5	0
+	+	10	11
+	+	5	6
+	+	5	94
+	+	5	8
+	+	11	0
+	+	10	12
+	+	11	5
+	+	2	0
+	+	10	0
+	+	11	0
+	+	4	0
+	+	5	0
+	+	10	0
+	+	11	0
+	+	9	0
+	+	8	28
+	+	9	9
+	+	9	1
+	+	8	0
+	+	9	0
+	+	8	0
+	+	9	0
+	+	9	17
+	+	8	35
+	+	8	0
+	+	5	95
+	+	5	93
+	+	5	94
+	+	7	1
+	+	5	94
+	+	9	0
+	+	8	0
+	+	6	37
+	+	7	3
+	+	10	3
+	+	23	18
+	+	11	0
+	+	14	0
+	+	16	0
+	+	23	32
+	+	25	0
+	+	23	0
+	+	25	0
+	+	23	30
+	+	19	25
+	+	20	22
+	+	23	24
+	+	25	16
+	+	23	23
+	+	21	20
+	+	23	17
+	+	25	8
+	+	23	24
+	+	21	0
+	+	23	25
+	+	21	15
+	+	23	17
+	+	25	24
+	+	23	19
+	+	24	41
+	+	23	0
+	+	18	21
+	+	23	0
+	+	19	25
+	+	22	18
+	+	23	0
+	+	22	16
+
+> ~/Data/ArchScripts/youtube_title.sh
+	*	1502896585	0
+	"	1	0
+	^	7	15
+	.	8	0
+	+	12	5
+	+	12	27
+	+	12	3
+	+	5	10
+	+	6	7
+	+	12	42
+	+	12	0
+	+	6	27
+	+	12	29
+	+	3	37
+	+	12	35
+	+	3	0
+	+	12	0
+	+	9	26
+	+	9	50
+	+	8	4
+	+	9	51
+	+	9	16
+	+	8	10
+	+	8	14
+	+	9	0
+	+	9	51
+	+	12	0
+	+	11	23
+	+	10	1
+	+	8	15
+	+	11	14
+	+	11	0
+	+	9	0
+	+	8	2
+	+	10	2
+	+	11	2
+	+	7	35
+	+	8	2
+	+	10	2
+	+	9	15
+	+	8	19
+	+	11	2
+	+	9	26
+	+	8	3
+	+	9	3
+	+	10	3
+	+	11	14
+	+	3	40
+	+	4	0
+	+	8	2
+	+	9	2
+	+	10	2
+	+	8	26
+	+	9	26
+	+	11	12
+	+	8	2
+	+	10	2
+	+	11	2
+	+	3	40
+	+	7	10
+	+	3	47
+	+	8	0
+	+	7	14
+	+	8	0
+	+	7	13
+	+	8	0
+	+	7	10
+	+	8	0
+
+> ~/.babel.json
+	*	1502895604	0
+	"	66	0
+
+> /mnt/hda/Devops-intro/devops-intro-project/packer-templates/application-server.json
+	*	1502745083	0
+	"	121	0
+	^	44	101
+	.	44	100
+	+	45	0
+	+	45	80
+	+	45	0
+	+	44	19
+	+	45	0
+	+	44	100
+	+	44	0
+	+	44	19
+	+	44	100
+
+> /mnt/hda/Devops-intro/devops-kungfu/README.md
+	*	1502743477	0
+	"	46	0
+
+> ~/Data/Git/dotfiles/notes/eclipse_notes.md
+	*	1502732708	0
+	"	30	0
+	^	29	19
+	.	30	0
+	+	22	43
+	+	20	9
+	+	23	12
+	+	27	19
+	+	25	0
+	+	23	0
+	+	26	10
+	+	31	21
+	+	32	17
+	+	30	17
+	+	29	18
+	+	30	0
+
+> ~/.dmenu_history
+	*	1502729324	0
+	"	688	0
+	.	688	0
+	+	96	0
+	+	82	0
+	+	94	0
+	+	81	0
+	+	82	0
+	+	591	0
+	+	633	0
+	+	688	0
+
+> ~/.dmenu_cache
+	*	1502729243	0
+	"	337	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08142017.CSV
+	*	1502725639	0
+	"	2246	31
+	.	5212	0
+	+	5269	0
+	+	5268	83
+	+	5269	0
+	+	1863	0
+	+	4358	0
+	+	4407	0
+	+	4519	0
+	+	4875	0
+	+	5056	0
+	+	5212	0
+	n	4519	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SocorroISD_PROD_08082017.CSV
+	*	1502725182	0
+	"	2246	31
+
+> ~/Data/Programming/EclipseOxygen/aflac/-MiniBufExplorer-
+	*	1502725182	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08032017.CSV
+	*	1502721029	0
+	"	5229	22
+	^	5191	23
+	.	5191	0
+	+	5191	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08112017.CSV
+	*	1502720603	0
+	"	6295	22
+
+> ~/.gitconfig
+	*	1502674761	0
+	"	3	1
+	.	3	0
+	+	3	0
+
+> ~/.git-credentials
+	*	1502674733	0
+	"	1	0
+
+> ~/.gksu.lock
+	*	1502674719	0
+	"	1	0
+
+> ~/.asoundrc
+	*	1502674217	0
+	"	1	0
+	^	9	1
+	.	4	0
+	+	8	0
+	+	9	0
+	+	1	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	1	0
+	+	4	0
+	+	16	0
+	+	16	1
+	+	4	0
+	+	1	0
+	+	3	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	1	0
+	+	2	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	15	0
+	+	14	8
+	+	11	0
+	+	12	1
+	+	13	1
+	+	14	1
+	+	15	0
+	+	9	11
+	+	6	0
+	+	7	4
+	+	8	4
+	+	9	4
+	+	9	0
+	+	10	0
+	+	1	0
+	+	2	0
+	+	16	0
+	+	1	0
+	+	4	0
+	+	1	0
+	+	4	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	1	19
+	+	1	14
+	+	9	0
+	+	4	0
+
+> /var/lib/alsa/.asoundrc
+	*	1502673293	0
+	"	9	0
+	^	9	1
+	.	9	0
+	+	9	0
+
+> /var/lib/alsa/asound.state
+	*	1502672872	0
+	"	711	0
+
+> /usr/bin/firefox
+	*	1502671067	0
+	"	1	0
+	^	2	11
+	.	2	10
+	+	2	10
+
+> ~/.bashrc
+	*	1502670524	0
+	"	15	0
+	^	15	1
+	.	15	0
+	+	18	0
+	+	19	11
+	+	18	0
+	+	17	8
+	+	19	19
+	+	17	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	14	14
+	+	16	0
+	+	14	16
+	+	16	0
+	+	14	0
+	+	16	0
+	+	14	0
+	+	16	0
+	+	14	16
+	+	16	0
+	+	14	16
+	+	16	0
+	+	14	6
+	+	14	14
+	+	16	2
+	+	14	12
+	+	16	6
+	+	23	0
+	+	24	52
+	+	28	1
+	+	23	3
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	23	33
+	+	16	18
+	+	10	0
+	+	5	20
+	+	6	16
+	+	16	45
+	+	14	29
+	+	16	45
+	+	16	5
+	+	16	4
+	+	16	0
+	+	16	6
+	+	16	69
+	+	16	0
+	+	16	5
+	+	16	0
+	+	14	13
+	+	16	0
+	+	14	17
+	+	15	28
+	+	14	62
+	+	15	0
+
+> /usr/opt/recsveditor/Csv_Readme.txt
+	*	1502669926	0
+	"	6	1
+
+> /usr/opt/recsveditor/Install_V0.98.2_20170628173829_1442719364311498974.log
+	*	1502669893	0
+	"	1	0
+
+> /usr/opt/recsveditor/Uninstaller/uninstaller.jar
+	*	1502669495	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/exclude-list.txt
-	*	1501209859	0
-	"	6	0
-	^	5	17
-	.	5	16
+	*	1502669050	0
+	"	28	3
+	^	28	4
+	.	28	4
 	+	8	28
 	+	6	26
 	+	7	0
 	+	6	30
 	+	11	7
-	+	31	0
+	+	36	0
 	+	11	8
 	+	11	7
-	+	36	3
-	+	28	0
+	+	45	3
+	+	33	0
 	+	14	5
 	+	1	0
 	+	6	0
@@ -645,459 +1235,225 @@ $AEFF00
 	+	14	7
 	+	10	5
 	+	15	16
-	+	34	2
-	+	35	13
-	+	37	4
-	+	38	0
-	+	37	5
-	+	28	10
-	+	29	3
-	+	27	7
-	+	27	0
-	+	21	2
-	+	19	7
+	+	43	2
+	+	44	13
+	+	46	4
+	+	47	0
+	+	46	5
+	+	33	10
+	+	33	3
+	+	31	7
+	+	31	0
+	+	22	2
+	+	20	7
 	+	15	16
-	+	18	10
+	+	19	10
 	+	15	0
-	+	17	5
-	+	16	4
+	+	18	5
+	+	17	4
 	+	13	5
 	+	12	7
-	+	26	12
+	+	29	12
+	+	25	12
 	+	24	12
 	+	23	12
-	+	22	12
 	+	7	0
-	+	32	13
-	+	25	7
-	+	21	5
-	+	20	6
+	+	37	13
+	+	26	7
+	+	22	5
+	+	21	6
 	+	2	13
 	+	9	17
 	+	2	14
 	+	3	19
 	+	4	10
 	+	5	16
+	+	34	3
+	+	32	0
+	+	35	12
+	+	38	11
+	+	36	0
+	+	39	0
+	+	40	7
+	+	16	3
+	+	30	8
+	+	44	0
+	+	42	10
+	+	27	8
+	+	28	4
+
+> ~/.mynotes/notes
+	*	1502668001	0
+	"	1	0
+
+> ~/README.md
+	*	1502667975	0
+	"	48	0
+
+> ~/.wmstickynotes/2
+	*	1502667948	0
+	"	1	0
+
+> ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+	*	1502667909	0
+	"	1	0
+
+> ~/.cache/pacaur/notes/PKGBUILD
+	*	1502667591	0
+	"	1	0
+	.	3	9
+	+	3	9
+
+> /usr/share/applications/notes.desktop
+	*	1502667271	0
+	"	9	0
+	.	10	0
+	+	10	0
+
+> /usr/bin/notes
+	*	1502667004	0
+	"	1	0
+
+> ~/Data/Git/wolfst/config.h
+	*	1502658634	0
+	"	2	0
+
+> ~/Data/Git/deleteme/st-scrollback-mouse-20170427-5a10aca.diff
+	*	1502657638	0
+	"	19	0
+
+> ~/Data/Git/st/st-scrollback-mouse-20170427-5a10aca.diff
+	*	1502657321	0
+	"	389	1
+	.	2	0
+	+	1	0
+	+	2	0
+
+> /etc/asound.conf
+	*	1502654243	0
+	"	1	0
+
+> /etc/asound.con
+	*	1502654240	0
+	"	1	0
+
+> ~/Data/Git/dotfiles/notes/st_config.md
+	*	1502643101	0
+	"	42	194
+	^	42	195
+	.	42	194
+	+	42	194
+
+> ~/Data/Notes/dmenu_config.md
+	*	1502627210	0
+	"	15	58
+	^	15	59
+	.	15	58
+	+	15	58
 
 > ~/Data/Notes/git.md
-	*	1501208752	0
+	*	1502626912	0
 	"	1	0
 
-> ~/.config/colorscheme/badwolf
-	*	1501206893	0
-	"	18	0
-	^	19	30
-	.	19	29
-	+	3	0
-	+	7	0
-	+	14	0
-	+	15	0
-	+	19	0
-	+	22	0
-	+	25	0
-	+	28	0
-	+	31	0
-	+	34	0
-	+	37	0
-	+	40	0
-	+	43	0
-	+	47	0
-	+	3	0
-	+	4	0
-	+	3	0
-	+	1	0
-	+	2	0
-	+	7	6
-	+	14	6
-	+	15	6
-	+	19	6
-	+	22	6
-	+	25	6
-	+	28	6
-	+	31	6
-	+	34	6
-	+	37	6
-	+	40	6
-	+	43	6
-	+	47	6
-	+	4	6
-	+	1	15
-	+	3	16
-	+	4	14
-	+	7	22
-	+	8	21
-	+	9	16
-	+	10	23
-	+	11	21
-	+	12	21
-	+	13	22
-	+	15	18
-	+	14	9
-	+	13	0
-	+	14	0
-	+	13	21
-	+	12	16
-	+	19	29
-
-> ~/.config/colorscheme/myBadwolf
-	*	1501206881	0
-	"	7	0
-	.	13	0
-	+	14	0
-	+	13	0
-
-> ~/Data/Programming/EclipseOxygen/.metadata/.log
-	*	1501205729	0
-	"	12763	1
-
-> ~/Data/Programming/EclipseOxygen/.metadata/version.ini
-	*	1501205667	0
+> ~/Data/Notes/libinput_config.md
+	*	1502626881	0
 	"	1	0
 
-> /usr/share/themes/BadWold-Dark/gtk-3.0/gtk.css
-	*	1501203804	0
-	"	4300	0
-	^	34	29
-	.	75	0
-	+	4	0
-	+	18	0
-	+	4275	0
-	+	25	0
-	+	86	0
-	+	37	28
-	+	34	28
-	+	28	28
-	+	31	26
-	+	34	28
-	+	75	0
+> /usr/local/bin/st
+	*	1502626809	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
 
-> /usr/share/themes/BadWold-Dark/gtk-2.0/gtkrc
-	*	1501202957	0
-	"	8	45
-	^	8	46
-	.	8	45
-	+	1	38
-	+	2	38
-	+	3	36
-	+	4	36
-	+	5	44
-	+	6	44
-	+	7	45
-	+	9	48
-	+	10	48
-	+	11	39
-	+	12	43
-	+	13	38
-	+	14	35
-	+	9	48
-	+	1	63
-	+	8	45
-
-> /usr/share/themes/BadWold-Dark/gtk-2.0/panel.rc
-	*	1501202566	0
-	"	56	0
-
-> /usr/share/themes/BadWolf-Light/gtk-3.0/gtk-dark.css
-	*	1501201814	0
-	"	3905	0
-	.	32	0
-	+	25	0
-	+	309	0
-	+	32	0
-
-> /usr/share/themes/BadWolf-Light/gtk-2.0/gtkrc
-	*	1501201703	0
-	"	1	0
-	^	9	45
-	.	9	44
-	+	2	0
-	+	3	0
-	+	9	72
-	+	10	0
-	+	13	32
-	+	14	0
-	+	13	65
-	+	9	44
-
-> /usr/share/themes/BadWolf-Light/gtk-2.0/main.rc
-	*	1501201696	0
-	"	2695	0
-
-> /usr/share/themes/BadWolf-Light/gtk-3.0/gtk.css
-	*	1501201489	0
-	"	3879	0
-	.	309	0
-	+	25	0
-	+	32	0
-	+	309	0
-
-> /usr/share/themes/BadWolf-Light/gnome-shell/gnome-shell.css
-	*	1501200825	0
-	"	1573	21
-	.	128	0
-	+	128	0
-
-> ~/Data/Programming/EclipseOxygen/teb_cigna/src/teb_cigna/Employee.java
-	*	1501200693	0
+> /usr/local/st
+	*	1502626787	0
 	"	1	0
 
-> ~/.config/i3/config
-	*	1501200243	0
-	"	4	0
-	^	106	36
-	.	106	35
-	+	103	44
-	+	95	16
-	+	103	67
-	+	106	50
-	+	95	0
-	+	349	40
-	+	329	0
-	+	351	0
-	+	352	0
-	+	329	0
-	+	353	0
-	+	328	28
-	+	325	0
-	+	322	0
-	+	324	38
-	+	330	0
-	+	353	0
-	+	352	0
-	+	351	0
-	+	353	0
-	+	352	0
-	+	351	0
-	+	329	0
-	+	338	0
-	+	339	0
-	+	340	0
-	+	341	0
-	+	350	0
-	+	351	0
-	+	352	0
-	+	351	5
-	+	350	7
-	+	141	0
-	+	141	44
-	+	111	66
-	+	143	50
-	+	184	0
-	+	183	0
-	+	185	13
-	+	184	47
-	+	186	0
-	+	235	28
-	+	241	33
-	+	237	0
-	+	242	55
-	+	242	89
-	+	242	119
-	+	243	0
-	+	242	0
-	+	258	46
-	+	259	0
-	+	236	16
-	+	237	16
-	+	238	16
-	+	237	16
-	+	232	66
-	+	46	15
-	+	40	0
-	+	39	21
-	+	46	16
-	+	111	62
-	+	40	17
-	+	42	15
-	+	119	62
-	+	187	0
-	+	189	0
-	+	187	0
-	+	188	13
-	+	119	0
-	+	117	0
-	+	116	0
-	+	130	68
-	+	133	0
-	+	132	0
-	+	132	69
-	+	132	68
-	+	131	0
-	+	132	0
-	+	131	0
-	+	132	0
-	+	131	49
-	+	130	0
-	+	131	0
-	+	103	0
-	+	176	0
-	+	179	0
-	+	177	0
-	+	178	0
-	+	148	0
-	+	149	0
-	+	148	0
-	+	111	23
-	+	112	0
-	+	113	0
-	+	111	25
-	+	111	33
-	+	103	20
-	+	106	0
-	+	107	0
-	+	106	35
-	g	105	27
-	j	349	8
-	m	105	27
-
-> ~/Data/Programming/EclipseOxygen/teb_cigna/src/teb_cigna/CignaFormat.java
-	*	1501199076	0
+> ~/Data/Git/st/TODO
+	*	1502626698	0
 	"	1	0
 
-> ~/.config/conky/conkyrc_swag
-	*	1501199018	0
-	"	1	0
-	^	1	0
-
-> ~/Data/Git/dotfiles/notes/eclipse_notes.md
-	*	1501198424	0
-	"	20	0
-	^	20	0
-	.	20	0
-	+	1	0
-	+	8	0
-	+	5	34
-	+	4	20
-	+	6	22
-	+	11	48
-	+	14	17
-	+	10	13
-	+	12	72
-	+	13	0
-	+	15	0
-	+	25	0
-	+	26	0
-	+	27	14
-	+	20	0
-
-> ~/Data/Programming/EclipseOxygen/teb_cigna/src/teb_cigna/test.java
-	*	1501170214	0
-	"	33	0
-
-> /usr/share/themes/Arc-Dark/gtk-2.0/gtkrc
-	*	1500813231	0
-	"	5	44
-	^	5	45
-	.	5	44
-	+	3	36
-	+	4	0
-	+	12	43
-	+	4	36
-	+	2	38
-	+	1	38
-	+	7	42
-	+	9	48
-	+	13	38
-	+	14	35
-	+	11	39
-	+	10	48
-	+	11	39
-	+	5	44
-	j	1	38
-
-> ~/.webclipse.properties
-	*	1500779749	0
+> /opt/vagrant/bin/vagrant
+	*	1502586889	0
 	"	1	0
 
-> ~/.gksu.lock
-	*	1500779625	0
+> /usr/bin/firefoxNoAudio
+	*	1502469619	0
 	"	1	0
 
-> ~/dreamstate
-	*	1500776031	0
-	"	1	0
+> ~/Data/Programming/EclipseOxygen/teb_aflac/SOCORROISD_TEST_08112017.CSV
+	*	1502464698	0
+	"	3971	347
 
-> /usr/share/icons/capitaline-cursors/index.theme
-	*	1500692183	0
-	"	1	0
+> ~/Data/Programming/EclipseOxygen/teb_aflac/SOCORROISD_TEST_08032017.CSV
+	*	1502463597	0
+	"	3970	347
+	^	4742	81
+	.	1863	0
+	+	135	0
+	+	4344	0
+	+	5172	1
+	+	2260	0
+	+	4716	0
+	+	181	0
+	+	1863	0
+	+	1852	5
+	+	1863	0
 
-> ~/.config/gtk-3.0/settings.ini
-	*	1500691978	0
-	"	1	0
-	^	1	40
-	.	1	39
-	+	1	40
-	+	1	39
-
-> /usr/share/icons/default/index.theme
-	*	1500691708	0
-	"	1	0
-	^	2	27
-	.	2	26
-	+	2	26
-
-> ~/.fehbg
-	*	1500666441	0
-	"	2	0
-	^	2	67
+> ~/Data/Programming/EclipseOxygen/teb_aflac/-MiniBufExplorer-
+	*	1502463597	0
+	"	1	33
 	.	2	0
-	+	2	58
 	+	2	0
-	+	2	54
-	+	2	66
-	+	2	0
-
-> ~/.luarocks/lib/luarocks/rocks-5.3/mpris/scm-0/doc/README.md
-	*	1500581608	0
-	"	1	0
 
 > ~/Data/ArchScripts/install_programs.sh
-	*	1500574826	0
-	"	25	0
-	^	25	0
-	.	25	0
-	+	71	33
+	*	1502459922	0
+	"	55	30
+	^	55	31
+	.	55	30
+	+	72	33
 	+	29	26
-	+	54	0
 	+	55	0
-	+	71	0
+	+	56	0
+	+	72	0
 	+	40	0
 	+	41	10
-	+	71	0
+	+	72	0
 	+	42	0
-	+	71	0
-	+	54	0
+	+	72	0
 	+	55	0
-	+	71	0
+	+	56	0
+	+	72	0
 	+	44	0
-	+	71	0
+	+	72	0
 	+	46	0
-	+	56	18
-	+	63	0
-	+	59	0
-	+	71	0
-	+	65	0
-	+	71	0
-	+	67	0
-	+	69	0
+	+	57	18
+	+	64	0
+	+	60	0
+	+	72	0
+	+	66	0
+	+	72	0
+	+	68	0
+	+	70	0
 	+	48	0
-	+	56	32
+	+	57	32
 	+	50	26
 	+	51	32
 	+	27	6
-	+	93	0
-	+	73	0
-	+	89	0
-	+	81	0
-	+	73	30
-	+	76	23
-	+	77	30
-	+	82	24
-	+	83	23
-	+	84	30
+	+	94	0
+	+	74	0
+	+	90	0
+	+	82	0
+	+	74	30
+	+	77	23
 	+	78	30
-	+	79	38
-	+	54	0
+	+	83	24
+	+	84	23
+	+	85	30
+	+	79	30
+	+	80	38
+	+	55	0
 	+	52	21
 	+	53	24
 	+	45	34
@@ -1105,15 +1461,15 @@ $AEFF00
 	+	39	33
 	+	36	25
 	+	37	31
-	+	57	20
-	+	58	27
+	+	58	20
+	+	59	27
 	+	36	26
 	+	37	37
 	+	36	0
 	+	34	21
 	+	35	27
-	+	74	45
-	+	75	10
+	+	75	45
+	+	76	10
 	+	24	24
 	+	17	44
 	+	18	29
@@ -1123,25 +1479,369 @@ $AEFF00
 	+	33	39
 	+	30	20
 	+	31	26
-	+	85	31
-	+	86	39
+	+	86	31
+	+	87	39
 	+	5	140
-	+	86	0
-	+	89	0
-	+	87	27
-	+	88	33
+	+	87	0
+	+	90	0
+	+	88	27
+	+	89	33
 	+	21	31
 	+	22	32
 	+	24	24
 	+	23	48
 	+	24	24
 	+	25	0
+	+	53	0
+	+	54	19
+	+	55	0
+	+	56	0
+	+	55	0
+	+	56	0
+	+	55	30
+
+> /mnt/hda/Vagrant/Vagrantfile
+	*	1502459670	0
+	"	1	0
+	.	11	0
+	+	8	0
+	+	11	0
+	+	9	2
+	+	10	3
+	+	11	0
+
+> ~/Data/Programming/EclipseOxygen/teb_aflac/SOCORROISD_TEST_06222017.CSV
+	*	1502223445	0
+	"	1888	0
+	.	5242	0
+	+	5242	0
+
+> ~/.vimrc
+	*	1502222345	0
+	"	106	0
+	^	86	58
+	.	86	57
+	+	49	42
+	+	26	0
+	+	18	0
+	+	38	0
+	+	39	0
+	+	39	27
+	+	40	24
+	+	40	0
+	+	39	0
+	+	40	24
+	+	49	0
+	+	49	43
+	+	49	0
+	+	49	21
+	+	50	0
+	+	4	26
+	+	5	0
+	+	6	0
+	+	5	23
+	+	28	0
+	+	27	0
+	+	29	13
+	+	31	0
+	+	39	0
+	+	39	28
+	+	39	29
+	+	43	0
+	+	36	0
+	+	36	12
+	+	43	0
+	+	31	0
+	+	33	0
+	+	36	0
+	+	39	0
+	+	43	0
+	+	44	0
+	+	49	0
+	+	43	0
+	+	32	25
+	+	42	10
+	+	43	0
+	+	42	20
+	+	45	0
+	+	47	0
+	+	49	0
+	+	7	0
+	+	9	0
+	+	16	0
+	+	25	0
+	+	15	17
+	+	27	0
+	+	49	0
+	+	50	0
+	+	51	14
+	+	50	0
+	+	57	0
+	+	50	0
+	+	60	0
+	+	50	0
+	+	55	0
+	+	53	0
+	+	54	18
+	+	57	0
+	+	50	0
+	+	71	0
+	+	50	0
+	+	71	0
+	+	70	0
+	+	77	0
+	+	72	0
+	+	78	24
+	+	49	0
+	+	81	0
+	+	104	0
+	+	67	0
+	+	66	0
+	+	69	0
+	+	50	0
+	+	43	10
+	+	43	0
+	+	63	0
+	+	65	0
+	+	64	19
+	+	73	1
+	+	74	0
+	+	76	0
+	+	97	10
+	+	88	47
+	+	89	0
+	+	92	0
+	+	16	0
+	+	92	0
+	+	89	49
+	+	89	0
+	+	90	13
+	+	91	13
+	+	84	0
+	+	85	0
+	+	87	0
+	+	86	57
+
+> ~/Data/TEB/Aflac-all-beneficiaries.csv
+	*	1502218302	0
+	"	9	0
+
+> ~/Data/TEB/Aflac-all_employees2.csv
+	*	1502216627	0
+	"	525	222
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170801.txt
+	*	1501858400	0
+	"	2501	2864
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.47666.DATE.txt
+	*	1501858169	0
+	"	2491	2864
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/-MiniBufExplorer-
+	*	1501858169	0
+	"	1	41
+	.	2	0
+	+	2	0
+
+> /etc/fstab
+	*	1501855989	0
+	"	14	46
+	^	14	47
+	.	14	46
+	+	8	39
+	+	9	0
+	+	9	5
+	+	9	0
+	+	9	41
+	+	9	74
+	+	10	0
+	+	14	25
+	+	17	5
+	+	17	41
+	+	17	0
+	+	9	90
+	+	17	0
+	+	14	20
+	+	9	44
+	+	17	0
+	+	14	61
+	+	14	62
+	+	14	55
+	+	6	0
+	+	7	0
+	+	10	0
+	+	11	5
+	+	14	0
+	+	10	22
+	+	14	3
+	+	11	41
+	+	14	0
+	+	11	45
+	+	8	40
+	+	10	0
+	+	9	0
+	+	9	8
+	+	10	1
+	+	9	0
+	+	8	24
+	+	7	0
+	+	8	0
+	+	8	16
+	+	8	22
+	+	7	38
+	+	14	0
+	+	16	0
+	+	14	61
+	+	13	28
+	+	11	49
+	+	14	0
+	+	15	0
+	+	14	46
+
+> /usr/lib/firefox/firefox
+	*	1501724226	0
+	"	1	0
+
+> ~/temp/LBL1000__lbl0001i.47666.20170801.txt
+	*	1501697481	0
+	"	2389	108
+
+> ~/temp/LBL1000__lbl0001i.47666.20170601.txt
+	*	1501697009	0
+	"	2402	108
+
+> ~/temp/-MiniBufExplorer-
+	*	1501696862	0
+	"	1	41
+	.	2	0
+	+	2	0
+
+> ~/Data/ArchScripts/install_networkmanager.sh
+	*	1501696838	0
+	"	1	0
+
+> ~/Data/ArchScripts/install_mupdf.sh
+	*	1501696837	0
+	"	1	0
+
+> ~/Data/ArchScripts/install_pacaur_pkg.sh
+	*	1501696837	0
+	"	1	0
+
+> ~/Data/ArchScripts/display_colors.sh
+	*	1501696836	0
+	"	1	0
+
+> ~/Data/ArchScripts/install_fonts.sh
+	*	1501696836	0
+	"	1	0
+
+> ~/Data/ArchScripts/install_i3.sh
+	*	1501696836	0
+	"	1	0
+
+> ~/Data/ArchScripts/-MiniBufExplorer-
+	*	1501696834	0
+	"	1	82
+	.	2	0
+	+	2	0
+
+> ~/Data/ArchScripts/install_pacaur.sh
+	*	1501696831	0
+	"	1	0
+
+> ~/Data/ArchScripts/run_vim_from_i3.sh
+	*	1501696831	0
+	"	1	0
+
+> ~/Data/ArchScripts/switch_netctl.sh
+	*	1501696831	0
+	"	1	0
+
+> ~/dreamstatemusic.md
+	*	1501696820	0
+	"	12	0
+	^	12	0
+	.	12	0
+	+	11	19
+	+	17	25
+	+	16	13
+	+	1	44
+	+	6	9
+	+	9	28
+	+	7	14
+	+	18	0
+	+	19	0
+	+	1	30
+	+	1	0
+	+	12	0
+
+> ~/-MiniBufExplorer-
+	*	1501696806	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/1
+	*	1501696805	0
+	"	1	0
+
+> ~/[Vundle] Installer
+	*	1501696715	0
+	"	9	0
+	.	1	0
+	+	25	0
+	+	17	0
+	+	9	0
+	+	1	0
+
+> ~/[Vundle] clean
+	*	1501695369	0
+	"	3	0
+	.	1	0
+	+	1	0
+
+> ~/[Vundle] list
+	*	1501695326	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/.config/conky/conkyrc_swag
+	*	1501694363	0
+	"	1	0
+	^	1	0
+
+> ~/.config/i3/i3statusForMusic.conf
+	*	1501643487	0
+	"	1	0
+	^	70	18
+	.	70	17
+	+	40	35
+	+	22	0
+	+	24	0
+	+	1	60
+	+	2	0
+	+	51	0
+	+	50	15
+	+	50	16
+	+	50	18
+	+	57	18
+	+	66	0
+	+	71	0
+	+	70	13
+	+	71	0
+	+	70	0
+	+	66	0
+	+	72	0
+	+	70	17
 
 > ~/.config/i3/i3status.conf
-	*	1500573481	0
-	"	56	25
-	^	68	24
-	.	68	23
+	*	1501642455	0
+	"	26	0
+	^	26	1
+	.	26	0
 	+	67	34
 	+	69	21
 	+	69	0
@@ -1156,858 +1856,65 @@ $AEFF00
 	+	67	16
 	+	69	0
 	+	68	23
+	+	26	0
 
-> /etc/fstab
-	*	1500403670	0
-	"	7	38
-	^	7	39
-	.	7	38
-	+	8	39
-	+	9	0
-	+	9	5
-	+	9	0
-	+	9	41
-	+	9	74
-	+	10	0
-	+	12	25
-	+	13	5
-	+	13	41
-	+	13	0
-	+	9	90
-	+	13	0
-	+	12	20
-	+	9	44
-	+	13	0
-	+	12	61
-	+	12	62
-	+	12	55
-	+	6	0
-	+	7	0
-	+	10	0
-	+	11	5
-	+	12	0
-	+	10	22
-	+	12	3
-	+	11	41
-	+	12	0
-	+	11	45
-	+	8	40
-	+	10	0
-	+	9	0
-	+	9	8
-	+	10	1
-	+	9	0
-	+	8	24
-	+	7	0
-	+	8	0
-	+	8	16
-	+	8	22
-	+	7	38
+> ~/Data/Programming/EclipseWorkspace/teb_aflacV4/src/teb_aflacV4/Dependent.java
+	*	1501605109	0
+	"	56	0
+	^	37	1
+	.	34	0
+	+	34	0
 
-> /etc/NetworkManager/NetworkManager.conf
-	*	1499860533	0
-	"	1	0
+> /usr/share/vim/vim80/doc/fold.txt
+	*	1501604234	0
+	"	294	20
 
-> ~/dreamstatemusic.md
-	*	1499545477	0
-	"	21	0
-	^	18	0
-	.	19	0
-	+	11	19
-	+	17	25
-	+	16	13
-	+	4	14
-	+	6	9
-	+	9	28
-	+	7	14
-	+	18	0
-	+	19	0
-
-> ~/.dmenu_cache
-	*	1499388611	0
-	"	1	0
-
-> /usr/bin/firefox
-	*	1499388520	0
-	"	2	11
-	^	2	12
-	.	2	11
-	+	2	11
-
-> ~/dreamstatesocal.md
-	*	1499282216	0
-	"	1	0
-	.	56	0
-	+	53	0
-	+	52	0
-	+	56	0
-
-> ~/.git-credentials
-	*	1498674798	0
-	"	1	0
-
-> ~/.esd_auth
-	*	1498674777	0
-	"	1	0
-
-> /usr/lib/firefox/firefox
-	*	1498326972	0
-	"	1	0
-
-> ~/.asoundrc
-	*	1498326787	0
-	"	15	0
-
-> ~/Data/Git/dotfiles/notes/eclipse_install
-	*	1498240827	0
-	"	1	0
-
-> ~/Data/Git/dotfiles/notes/-MiniBufExplorer-
-	*	1498240798	0
-	"	1	0
+> ~/Data/Programming/EclipseWorkspace/teb_aflacV4/src/teb_aflacV4/-MiniBufExplorer-
+	*	1501604218	0
+	"	1	19
 	.	2	0
 	+	2	0
 
-> /usr/bin/runFTL
-	*	1498065120	0
-	"	1	2
-	^	1	3
-	.	1	2
-	+	2	22
-	+	3	0
-	+	4	9
-	+	1	2
+> /usr/share/vim/vim80/doc/help.txt
+	*	1501604213	0
+	"	28	61
 
-> /usr/bin/dmenu_run
-	*	1498064749	0
+> ~/Data/Programming/EclipseWorkspace/teb_aflacV4/src/teb_aflacV4/AflacFormat.java
+	*	1501603985	0
 	"	1	0
 
-> ~/.bashrc
-	*	1498064593	0
-	"	1	0
-	^	8	1
-	.	8	0
-	+	16	0
-	+	17	11
-	+	16	0
-	+	15	8
-	+	17	19
-	+	15	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	12	14
-	+	14	0
-	+	12	16
-	+	14	0
-	+	12	0
-	+	14	0
-	+	12	0
-	+	14	0
-	+	12	16
-	+	14	0
-	+	12	16
-	+	14	0
-	+	12	6
-	+	12	14
-	+	13	2
-	+	12	12
-	+	13	6
-	+	21	0
-	+	22	52
-	+	26	1
-	+	21	3
-	+	22	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	21	33
-	+	13	18
-	+	8	0
+> ~/temp/LBL1000__lbl0002i.47666.DAT2.txt
+	*	1501531856	0
+	"	12	0
 
-> /mnt/media/Games/FTL Faster Than Light/runFTL.sh
-	*	1498064433	0
-	"	3	4
-	^	3	5
-	.	3	4
-	+	1	1
-	+	3	4
-
-> /mnt/media/Games/FTL Faster Than Light/FTL
-	*	1498064335	0
-	"	1	0
-
-> ~/.dmenu_history
-	*	1497399759	0
-	"	28	0
-	.	82	0
-	+	96	0
-	+	82	0
-	+	94	0
-	+	81	0
-	+	82	0
-
-> ~/.azureus/downloads.config
-	*	1497399437	0
-	"	1	0
-
-> ~/.azureus/azureus.statistics
-	*	1497399428	0
-	"	1	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflacV4/src/teb_aflacV4/readme.md
-	*	1497373086	0
-	"	13	0
-	^	6	1
-	.	13	0
-	+	6	28
-	+	17	22
-	+	16	66
-	+	17	0
-	+	29	15
-	+	12	31
-	+	13	43
-	+	12	35
-	+	13	56
-	+	14	57
-	+	15	27
-	+	12	11
-	+	6	12
-	+	12	12
-	+	6	37
-	+	12	26
-	+	22	40
-	+	21	9
-	+	24	9
-	+	25	0
-	+	29	0
-	+	21	14
-	+	24	14
-	+	28	70
-	+	7	0
-	+	11	0
-	+	12	0
-	+	13	0
-
-> ~/-MiniBufExplorer-
-	*	1497234131	0
-	"	1	0
-	.	2	0
-	+	2	0
-
-> ~/[Vundle] Installer
-	*	1497234113	0
-	"	9	0
-	.	1	0
-	+	17	0
-	+	9	0
-	+	1	0
-
-> /tmp/vhFeIYB/6
-	*	1497233843	0
-	"	3	43
-
-> ~/.vim/[Vundle] Installer
-	*	1497233544	0
-	"	8	0
-	.	1	0
-	+	15	0
-	+	8	0
-	+	1	0
-
-> ~/.vimrc
-	*	1497232745	0
-	"	1	0
-	^	88	11
-	.	88	10
-	+	51	1
-	+	28	11
-	+	50	0
-	+	50	42
-	+	27	0
-	+	19	0
-	+	39	0
-	+	40	0
-	+	40	27
-	+	41	24
-	+	41	0
-	+	40	0
-	+	41	24
-	+	50	0
-	+	50	43
-	+	50	0
-	+	50	21
-	+	51	0
-	+	4	26
-	+	5	0
-	+	6	0
-	+	5	23
-	+	29	0
-	+	28	0
-	+	30	13
+> ~/temp/LBL1000__lbl0002i.47666.DATE.txt
+	*	1501531853	0
+	"	10	0
+	.	33	0
 	+	32	0
-	+	40	0
-	+	40	28
-	+	40	29
-	+	44	0
-	+	37	0
-	+	37	12
-	+	44	0
-	+	32	0
-	+	34	0
-	+	37	0
-	+	40	0
-	+	44	0
-	+	45	0
-	+	50	0
-	+	44	0
-	+	33	25
-	+	43	10
-	+	44	0
-	+	43	20
-	+	46	0
-	+	48	0
-	+	50	0
-	+	7	0
-	+	9	0
-	+	17	0
-	+	26	0
-	+	15	17
-	+	28	0
-	+	50	0
-	+	51	0
-	+	52	14
-	+	51	0
-	+	58	0
-	+	51	0
-	+	61	0
-	+	51	0
-	+	56	0
-	+	54	0
-	+	55	18
-	+	58	0
-	+	51	0
-	+	72	0
-	+	51	0
-	+	72	0
-	+	71	0
-	+	78	0
-	+	73	0
-	+	79	24
-	+	50	0
-	+	82	0
-	+	95	0
-	+	68	0
-	+	67	0
-	+	70	0
-	+	51	0
-	+	44	10
-	+	44	0
-	+	64	0
-	+	66	0
-	+	65	19
-	+	74	1
-	+	75	0
-	+	77	0
-	+	88	10
-
-> ~/.config/ublock/my-ublock-backup_2017-05-18_00.28.02.txt
-	*	1497232097	0
-	"	1	0
-
-> /etc/autofs/auto.misc
-	*	1497232041	0
-	"	1	0
-	^	7	60
-	.	7	59
-	+	7	0
-	+	8	0
-	+	7	59
-
-> /etc/autofs/auto.master
-	*	1497231206	0
-	"	13	0
-	^	7	1
-	.	7	0
-	+	7	0
-	+	8	4
-	+	8	28
-	+	9	0
-	+	7	0
-	w	9	1
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/Utils.java
-	*	1497229293	0
-	"	314	2
-	.	129	0
-	+	120	0
-	+	121	0
-	+	129	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/testUtils.java
-	*	1497229111	0
-	"	1	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/Product.java
-	*	1497229103	0
-	"	27	1
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/Employee.java
-	*	1497229096	0
-	"	57	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/Dependent.java
-	*	1497229089	0
-	"	1	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/AflacFormatBeneficiary.java
-	*	1497229081	0
-	"	66	20
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/test3.java
-	*	1497227034	0
-	"	1	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/Database.java
-	*	1497227020	0
-	"	1	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/Beneficiary.java
-	*	1497227011	0
-	"	1	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/AflacFormatProduct.java
-	*	1497227010	0
-	"	1	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/AflacFormatEmployee.java
-	*	1497227006	0
-	"	1	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflac3/src/test/AflacFormatDependent.java
-	*	1497227005	0
-	"	1	0
-
-> ~/dead.letter
-	*	1497018828	0
-	"	1	0
-
-> /etc/pacman.d/mirrorlist
-	*	1496977379	0
-	"	8	0
-	.	9	0
-	+	1	0
-	+	2	0
-	+	10	0
-	+	21	0
-	+	42	0
-	+	53	0
-	+	34	0
-	+	8	0
-	+	9	0
-
-> ~/temp/wxWidgets-3.1.0/build/README.txt
-	*	1496976758	0
-	"	27	1
-
-> ~/temp/wxWidgets-3.1.0/README.md
-	*	1496976654	0
-	"	1	0
-
-> /etc/bumblebee/bumblebee.conf
-	*	1496972703	0
-	"	69	0
-
-> ~/Data/Git/dotfiles/notes/nvidia_notes.md
-	*	1496971763	0
-	"	51	15
-	^	51	16
-	.	51	15
-	+	54	0
-	+	22	11
-	+	25	0
-	+	5	4
-	+	7	14
-	+	18	0
-	+	9	0
-	+	12	0
-	+	9	0
-	+	12	0
-	+	17	35
-	+	25	50
-	+	29	16
-	+	30	0
-	+	32	16
-	+	37	23
-	+	40	1
-	+	54	0
-	+	43	38
-	+	41	42
-	+	45	19
-	+	55	75
-	+	54	0
-	+	68	0
-	+	74	38
-	+	74	0
-	+	75	6
-	+	47	16
-	+	52	36
-	+	51	15
-
-> /etc/X11/xorg.conf
-	*	1496888984	0
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	12
-	+	1	0
-
-> /etc/X11/xorg.conf.backup
-	*	1496882765	0
-	"	54	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_cigna/src/teb_cigna/Utils.java
-	*	1496773277	0
-	"	87	16
-	^	88	15
-	.	88	14
-	+	189	1
-	+	187	27
-	+	188	10
-	+	2	0
-	+	163	0
-	+	82	0
-	+	84	0
-	+	83	53
-	+	84	1
-	+	84	0
-	+	85	1
-	+	87	0
-	+	86	1
-	+	87	1
-	+	89	1
-	+	88	14
-
-> ~/Data/Programming/EclipseWorkspace/teb_cigna/src/teb_cigna/Person.java
-	*	1496773256	0
-	"	47	0
-	^	47	40
-	.	47	39
-	+	39	37
-	+	35	37
-	+	51	39
-	+	47	39
-
-> ~/Data/Programming/EclipseWorkspace/teb_cigna/src/teb_cigna/readme.md
-	*	1496773022	0
-	"	47	0
-	^	47	0
-	.	47	0
-	+	1	44
-	+	11	23
-	+	8	28
-	+	11	80
-	+	2	138
-	+	17	0
-	+	14	31
-	+	17	28
-	+	23	15
-	+	38	1
-	+	37	0
-	+	38	4
-	+	23	15
-	+	36	0
-	+	38	27
-	+	17	30
-	+	39	59
-	+	35	14
-	+	24	0
-	+	23	0
-	+	24	11
-	+	26	0
-	+	25	2
-	+	26	17
-	+	27	2
-	+	26	3
-	+	27	24
-	+	26	35
-	+	27	40
-	+	46	169
-	+	50	28
-	+	27	28
-	+	28	40
-	+	26	43
-	+	27	53
-	+	28	40
-	+	34	0
-	+	28	48
-	+	30	2
-	+	16	61
-	+	33	47
-	+	50	1
-	+	51	0
-	+	52	21
-	+	55	19
-	+	56	1
-	+	56	0
-	+	56	1
-	+	57	0
-	+	58	0
 	+	59	0
-	+	60	36
-	+	56	1
-	+	57	0
-	+	55	31
-	+	56	26
-	+	58	39
-	+	62	12
-	+	55	12
-	+	62	1
-	+	62	0
-	+	62	38
-	+	62	3
-	+	62	2
-	+	62	1
-	+	62	0
-	+	62	1
-	+	62	0
-	+	65	24
-	+	45	5
-	+	42	36
-	+	45	158
-	+	44	157
-	+	45	232
-	+	45	143
-	+	46	0
-	+	45	6
-	+	46	4
-	+	45	135
-	+	45	142
-	+	45	8
-	+	45	143
-	+	46	0
-	+	47	0
+	+	33	0
 
-> ~/Data/Programming/EclipseWorkspace/teb_cigna/src/teb_cigna/test.java
-	*	1496760627	0
-	"	83	0
-	.	84	0
-	+	83	0
-	+	83	19
-	+	83	3
-	+	83	30
-	+	83	89
-	+	83	60
-	+	83	3
-	+	84	0
+> ~/Data/Downloads/mediaplayer.py
+	*	1501269585	0
+	"	40	0
 
-> ~/Data/Git/dotfiles/notes/vim_notes.md
-	*	1496759436	0
-	"	1	10
-	^	1	11
-	.	1	11
-	+	3	0
-	+	3	51
-	+	3	101
-	+	3	51
-	+	5	9
-	+	6	3
-	+	1	11
+> ~/mpv.txt
+	*	1501265275	0
+	"	114	0
 
-> ~/Data/Git/dotfiles/notes/vim_notes
-	*	1496759356	0
-	"	16	47
-	^	16	48
-	.	16	47
-	+	13	32
-	+	13	33
-	+	13	0
-	+	13	105
-	+	13	37
-	+	13	151
-	+	13	11
-	+	15	34
-	+	13	12
-	+	15	30
-	+	16	47
-
-> ~/Data/Programming/EclipseWorkspace/teb_cigna/src/teb_cigna/Employee.java
-	*	1496755857	0
-	"	510	0
-	^	223	28
-	.	180	13
-	+	308	33
-	+	346	45
-	+	348	30
-	+	346	61
-	+	346	45
-	+	346	15
-	+	346	45
-	+	348	15
-	+	348	0
-	+	348	30
-	+	348	15
-	+	273	42
-	+	273	28
-	+	275	14
-	+	179	0
-	+	180	65
-	+	183	13
-	+	273	28
-	+	275	14
-	+	276	14
-	+	270	28
-	+	272	14
-	+	273	14
-	+	264	14
-	+	265	14
-	+	267	14
-	+	268	14
-	+	269	14
-	+	270	14
-	+	250	14
-	+	251	14
-	+	246	14
-	+	247	14
-	+	235	14
-	+	236	14
-	+	226	14
-	+	227	14
-	+	228	14
-	+	220	28
-	+	222	14
-	+	223	14
-	+	219	14
-	+	220	14
-	+	213	14
-	+	214	14
-	+	215	14
-	+	216	14
-	+	217	14
-	+	204	0
-	+	186	13
-	+	188	14
-	+	191	14
-	+	196	14
-	+	209	14
-	+	204	14
-	+	205	14
-	+	179	13
-	+	180	13
-
-> /usr/lib/syslinux/bios/mbr.bin
-	*	1496716771	0
+> ~/Data/Downloads/mpv-mpris-master/Makefile
+	*	1501264753	0
 	"	1	0
 
-> /boot/syslinux/syslinux.cfg
-	*	1496716692	0
-	"	69	2
-	^	62	0
-	.	69	2
-	+	33	24
-	+	63	0
-	+	56	0
-	+	62	0
-	+	56	0
-	+	57	0
-	+	63	0
-	+	67	0
-	+	61	1
-	+	58	1
-	+	61	1
-	+	58	1
-	+	61	1
-	+	64	1
-	+	65	1
-	+	68	1
-	+	69	1
-	+	61	0
-	+	59	0
-	+	58	2
-	+	59	2
-	+	61	2
-	+	64	2
-	+	65	2
-	+	68	2
-	+	69	2
-
-> ~/Data/ArchScripts/display_colors.sh
-	*	1496698905	0
-	"	11	5
-	^	11	6
-	.	11	5
-	+	1	0
-	+	11	5
-
-> ~/Data/Git/wolfst/config.def.h
-	*	1496698792	0
-	"	106	18
-	^	104	18
-	.	104	17
-	+	8	34
-	+	98	12
-	+	99	0
-	+	87	4
-	+	113	0
-	+	114	0
-	+	113	31
-	+	113	20
-	+	113	8
-	+	88	20
-	+	113	2
-	+	114	0
-	+	113	26
-	+	114	34
-	+	110	26
-	+	113	8
-	+	110	39
-	+	113	8
-	+	109	0
-	+	100	0
-	+	109	0
-	+	100	0
-	+	109	0
-	+	116	0
-	+	109	0
-	+	101	0
-	+	116	0
-	+	115	0
-	+	113	3
-	+	115	18
-	+	113	42
-	+	111	0
-	+	113	0
-	+	111	19
-	+	104	17
-
-> ~/Data/Git/deleteme/config.h
-	*	1496697559	0
-	"	58	0
-	.	58	0
-	+	58	0
-
-> ~/.gtk-bookmarks
-	*	1496696529	0
+> /usr/lib/lua/5.3/ldbus_scm_0-ldbus.so
+	*	1501263913	0
 	"	1	0
 
-> ~/.config/mimeapps.list
-	*	1496695703	0
-	"	1	0
+> ~/.luarocks/lib/luarocks/rocks-5.3/ldbus/scm-0/doc/README.md
+	*	1501263759	0
+	"	138	0
 
-> ~/.config/gmusicbrowser/gmbrc
-	*	1496695648	0
-	"	633	0
-
-> ~/.gitconfig
-	*	1496695447	0
-	"	1	0
-
-> ~/.swo
-	*	1496695294	0
-	"	1	0
-
-> ~/.viminfo
-	*	1496694939	0
+> ~/.config/mpv/mpris/README.md
+	*	1501262906	0
 	"	1	0

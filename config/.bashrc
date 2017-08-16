@@ -2,6 +2,8 @@
 # ~/.bashrc
 #
 
+HISTCONTROL=erasedups
+HISTIGNORE="exit"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -9,8 +11,8 @@ alias ls='ls --color=auto'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
 alias test='echo bashrc is working'
-PS1='\e[32m[Keanue  \W]\e[37m\$ '
-export PS2='\e[112m[\A Keanue  \W]\e[37m\$ '
+PS1='\[\033[31m\]Keanue  \W\[\033[00m\]\$ '	#Show small path
+#PS1='\[\033[31m\]Keanue  $PWD\[\033[00m\]\$ '	#Show full path
 
 #myPath="/home/keanue/Data/"
 #export PATH=":/home/keanue/Data/ArchScripts"
