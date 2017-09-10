@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/30
+~MSle0~/config
 
 # Last Substitute Search Pattern:
 ~MSle0&5294E2
@@ -20,28 +20,34 @@
 $
 
 # Command Line History (newest to oldest):
-:q!
-|2,0,1502900817,,"q!"
-:Q
-|2,0,1502900812,,"Q"
+:wq
+|2,0,1504831321,,"wq"
+:w
+|2,0,1504746861,,"w"
+:qa!
+|2,0,1504566286,,"qa!"
+:vsp
+|2,0,1504484483,,"vsp"
+:sp
+|2,0,1504484462,,"sp"
 :q
-|2,0,1502898973,,"q"
+|2,0,1504484459,,"q"
+:W
+|2,0,1504494773,,"W"
+:Q
+|2,0,1504137695,,"Q"
+:q!
+|2,0,1504124729,,"q!"
+:wa
+|2,0,1504042047,,"wa"
+:w !sudo tee > /dev/null %
+|2,0,1503889486,,"w !sudo tee > /dev/null %"
 :colo badwolf
 |2,0,1502898121,,"colo badwolf"
 :colorscheme darkblue
 |2,0,1502898117,,"colorscheme darkblue"
 :quit
 |2,0,1502898953,,"quit"
-:w
-|2,0,1502896338,,"w"
-:wq
-|2,0,1502819360,,"wq"
-:W
-|2,0,1502810667,,"W"
-:qa!
-|2,0,1502725649,,"qa!"
-:w !sudo tee > /dev/null %
-|2,0,1502673285,,"w !sudo tee > /dev/null %"
 :e
 |2,0,1502666723,,"e"
 ::w !sudo tee > /dev/null %
@@ -114,18 +120,40 @@ $
 |2,0,1501604218,,"h fold"
 :h
 |2,0,1501604208,,"h"
-:foldmethod manual
-|2,0,1501604204,,"foldmethod manual"
-:set fmd manual
-|2,0,1501604194,,"set fmd manual"
-:set foldlevel=4
-|2,0,1501604101,,"set foldlevel=4"
 
 # Search String History (newest to oldest):
+?/config
+|2,1,1504744392,47,"config"
+?/bar
+|2,1,1504703633,47,"bar"
+??neo
+|2,1,1504494821,63,"neo"
+?/mopi
+|2,1,1504408796,47,"mopi"
+?/t
+|2,1,1504396067,47,"t"
+?/wm
+|2,1,1504286896,47,"wm"
+?/Java
+|2,1,1504230160,47,"Java"
+?/Jaca
+|2,1,1504230157,47,"Jaca"
+? @$
+|2,1,1504226227,,"@$"
+?/syl
+|2,1,1504224445,47,"syl"
+?/fire
+|2,1,1504224432,47,"fire"
+?/thunder
+|2,1,1503949876,47,"thunder"
+?//fire
+|2,1,1503949851,47,"/fire"
+?//thunder
+|2,1,1503949850,47,"/thunder"
+?/geary
+|2,1,1503074796,47,"geary"
 ?/feh
 |2,1,1502897602,47,"feh"
-? @$
-|2,1,1502895491,,"@$"
 ?/gaps
 |2,1,1502819859,47,"gaps"
 ??30
@@ -146,8 +174,6 @@ $
 |2,1,1502754323,63,"gaps"
 ?/$mod
 |2,1,1502754079,47,"$mod"
-?/fire
-|2,1,1502729311,47,"fire"
 ?/ACCD
 |2,1,1502725608,47,"ACCD"
 ?/BENE,CRIT,C
@@ -180,8 +206,6 @@ $
 |2,1,1502678138,47,"00"
 ?/zz
 |2,1,1502678132,47,"zz"
-?/bar
-|2,1,1502663634,47,"bar"
 ?/url
 |2,1,1502632969,47,"url"
 ?/iso
@@ -198,30 +222,6 @@ $
 |2,1,1502464545,47,"razloznik"
 ?/453718605
 |2,1,1502223465,47,"453718605"
-?/DPDT,C
-|2,1,1502223453,47,"DPDT,C"
-?/450494577
-|2,1,1502223156,47,"450494577"
-?/SPSE,C
-|2,1,1502223140,47,"SPSE,C"
-?/459775387
-|2,1,1502222557,47,"459775387"
-?/EMPL,C
-|2,1,1502222460,47,"EMPL,C"
-?/454950027
-|2,1,1502222421,47,"454950027"
-?/Voluntary
-|2,1,1502222405,47,"Voluntary"
-?/453279074
-|2,1,1502222372,47,"453279074"
-?/SANCHE
-|2,1,1502222307,47,"SANCHE"
-?/MARQUEZ RACHEL
-|2,1,1502222112,47,"MARQUEZ RACHEL"
-?/MARQUEZ RACHAEL
-|2,1,1502222086,47,"MARQUEZ RACHAEL"
-?/MARQUEZ
-|2,1,1502222082,47,"MARQUEZ"
 
 # Expression History (newest to oldest):
 =p
@@ -234,43 +234,38 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	for_window [class="studio.sh"] move container to workspace $WS11
-|3,1,0,1,1,0,1502896175,"for_window [class=\"studio.sh\"] move container to workspace $WS11"
-"1	LINE	0
-	workspace "$WS3" smartgaps off
-|3,0,1,1,1,0,1502820306,"workspace \"$WS3\" smartgaps off"
+"0	LINE	0
+		bindsym v   exec i3-msg 'exec "$term -e vim .vimrc" move $WS0'
+|3,0,0,1,1,0,1504744493,"	bindsym v   exec i3-msg 'exec \"$term -e vim .vimrc\" move $WS0'"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1504746746,""
 "2	LINE	0
-	workspace "$WS3" exec i3-msg "smartgaps current off"
-|3,0,2,1,1,0,1502810429,"workspace \"$WS3\" exec i3-msg \"smartgaps current off\""
+	                             ;; Guesstimate number of buffer lines.
+	                             (ceiling (log (max 1 (/ (buffer-size) 80)) 10)))
+	                        "d"))))
+|3,0,2,1,3,0,1504746732,"                             ;; Guesstimate number of buffer lines.","                             (ceiling (log (max 1 (/ (buffer-size) 80)) 10)))","                        \"d\"))))"
 "3	LINE	0
-	#exec   	--no-startup-id synapse -s hide
-|3,0,3,1,1,0,1502810333,"#exec   	--no-startup-id synapse -s hide"
+	
+|3,0,3,1,1,0,1504746577,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1502807899,""
+|3,0,4,1,1,0,1504746577,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1502807898,""
+|3,0,5,1,1,0,1504746576,""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1502807898,""
+		bindsym a   exec i3-msg 'exec "$term -e vim .bash_aliases" move $WS0'
+|3,0,6,1,1,0,1504744486,"	bindsym a   exec i3-msg 'exec \"$term -e vim .bash_aliases\" move $WS0'"
 "7	LINE	0
-	## specific config for specific workspace
-	#workspace 12 gaps inner 0
-	workspace "$WS12" gaps inner 0
-	workspace "$WS12" gaps outer 0
 	
-|3,0,7,1,5,0,1502807845,"## specific config for specific workspace","#workspace 12 gaps inner 0","workspace \"$WS12\" gaps inner 0","workspace \"$WS12\" gaps outer 0",""
+|3,0,7,1,1,0,1504704376,""
 "8	LINE	0
-	## specific config for specific workspace
-	#workspace 12 gaps inner 0
-	workspace "$WS12" gaps inner 0
-	workspace "$WS12" gaps outer 0
-|3,0,8,1,4,0,1502807841,"## specific config for specific workspace","#workspace 12 gaps inner 0","workspace \"$WS12\" gaps inner 0","workspace \"$WS12\" gaps outer 0"
-"9	LINE	0
 	
-|3,0,9,1,1,0,1502807827,""
+|3,0,8,1,1,0,1504704364,""
+"9	LINE	0
+	   format = " %degrees °C"
+|3,0,9,1,1,0,1504704363,"   format = \" %degrees °C\""
 "d@	CHAR	0
 	dwbbea p
 |3,2,13,0,1,0,1502807028,"dwbbea p"
@@ -302,237 +297,570 @@ $
 	
 |3,0,34,0,2,0,1495712165,"[&#xf17c;]",""
 "-	CHAR	0
-	smplayer
-|3,0,36,0,1,0,1502896335,"smplayer"
+	vimrc
+|3,0,36,0,1,0,1504744524,"vimrc"
 
 # File marks:
-'0  1  0  ~/.bash_aliases
-|4,48,1,0,1502900817,"~/.bash_aliases"
-'1  22  0  ~/Data/Notes/firefox_config.md
-|4,49,22,0,1502898973,"~/Data/Notes/firefox_config.md"
-'2  10  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,50,10,0,1502898953,"~/Data/ArchScripts/mpsyt_info.sh"
-'3  111  21  ~/.config/i3/config
-|4,51,111,21,1502898916,"~/.config/i3/config"
-'4  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,52,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
-'5  1  0  ~/Data/Asiakirja/so
-|4,53,1,0,1502897851,"~/Data/Asiakirja/so"
-'6  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,54,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
-'7  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,55,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
-'8  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,56,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
-'9  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,57,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+'0  1  22  ~/.config/user-dirs.dirs
+|4,48,1,22,1504831321,"~/.config/user-dirs.dirs"
+'1  72  0  ~/.emacs.d/init.el
+|4,49,72,0,1504769406,"~/.emacs.d/init.el"
+'2  301  60  ~/.config/i3/config
+|4,50,301,60,1504744557,"~/.config/i3/config"
+'3  1  0  ~/.emacs.d/init.el
+|4,51,1,0,1504744556,"~/.emacs.d/init.el"
+'4  1  0  ~/.emacs.d/init.el
+|4,52,1,0,1504744556,"~/.emacs.d/init.el"
+'5  352  3  ~/.config/i3/config
+|4,53,352,3,1504704902,"~/.config/i3/config"
+'6  351  3  ~/.config/i3/config
+|4,54,351,3,1504704902,"~/.config/i3/config"
+'7  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,55,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+'8  11  6  ~/Data/ArchScripts/youtube_title.sh
+|4,56,11,6,1504704303,"~/Data/ArchScripts/youtube_title.sh"
+'9  1  0  ~/.config/i3/i3status.conf
+|4,57,1,0,1504703628,"~/.config/i3/i3status.conf"
 
 # Jumplist (newest first):
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1502900817,"~/.bash_aliases"
--'  22  0  ~/Data/Notes/firefox_config.md
-|4,39,22,0,1502898973,"~/Data/Notes/firefox_config.md"
--'  22  0  ~/Data/Notes/firefox_config.md
-|4,39,22,0,1502898973,"~/Data/Notes/firefox_config.md"
--'  10  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,10,0,1502898953,"~/Data/ArchScripts/mpsyt_info.sh"
--'  10  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,10,0,1502898953,"~/Data/ArchScripts/mpsyt_info.sh"
--'  111  21  ~/.config/i3/config
-|4,39,111,21,1502898916,"~/.config/i3/config"
--'  111  21  ~/.config/i3/config
-|4,39,111,21,1502898916,"~/.config/i3/config"
--'  1  0  ~/Data/Notes/firefox_config.md
-|4,39,1,0,1502897876,"~/Data/Notes/firefox_config.md"
--'  1  0  ~/Data/Notes/firefox_config.md
-|4,39,1,0,1502897876,"~/Data/Notes/firefox_config.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897856,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/so
-|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
--'  1  0  ~/Data/Asiakirja/so
-|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
--'  1  0  ~/Data/Asiakirja/so
-|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
--'  1  0  ~/Data/Asiakirja/so
-|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
--'  1  0  ~/Data/Asiakirja/so
-|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
--'  1  0  ~/Data/Asiakirja/so
-|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
--'  1  0  ~/Data/Asiakirja/so
-|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
--'  1  0  ~/Data/Asiakirja/so
-|4,39,1,0,1502897851,"~/Data/Asiakirja/so"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  21  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,21,0,1502897842,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
--'  1  0  ~/Data/Asiakirja/dreamstatesocal.md
-|4,39,1,0,1502897787,"~/Data/Asiakirja/dreamstatesocal.md"
--'  129  21  ~/.config/i3/config
-|4,39,129,21,1502897602,"~/.config/i3/config"
--'  129  21  ~/.config/i3/config
-|4,39,129,21,1502897602,"~/.config/i3/config"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896603,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896603,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/youtube_title.sh
-|4,39,1,0,1502896586,"~/Data/ArchScripts/youtube_title.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
--'  1  0  ~/Data/ArchScripts/mpsyt_info.sh
-|4,39,1,0,1502896214,"~/Data/ArchScripts/mpsyt_info.sh"
+-'  1  22  ~/.config/user-dirs.dirs
+|4,39,1,22,1504831321,"~/.config/user-dirs.dirs"
+-'  72  0  ~/.emacs.d/init.el
+|4,39,72,0,1504769406,"~/.emacs.d/init.el"
+-'  72  0  ~/.emacs.d/init.el
+|4,39,72,0,1504769406,"~/.emacs.d/init.el"
+-'  71  0  ~/.emacs.d/init.el
+|4,39,71,0,1504746734,"~/.emacs.d/init.el"
+-'  71  0  ~/.emacs.d/init.el
+|4,39,71,0,1504746734,"~/.emacs.d/init.el"
+-'  1  0  ~/.emacs.d/init.el
+|4,39,1,0,1504744559,"~/.emacs.d/init.el"
+-'  1  0  ~/.emacs.d/init.el
+|4,39,1,0,1504744559,"~/.emacs.d/init.el"
+-'  301  60  ~/.config/i3/config
+|4,39,301,60,1504744557,"~/.config/i3/config"
+-'  301  60  ~/.config/i3/config
+|4,39,301,60,1504744557,"~/.config/i3/config"
+-'  301  60  ~/.config/i3/config
+|4,39,301,60,1504744557,"~/.config/i3/config"
+-'  301  60  ~/.config/i3/config
+|4,39,301,60,1504744557,"~/.config/i3/config"
+-'  1  0  ~/.emacs.d/init.el
+|4,39,1,0,1504744556,"~/.emacs.d/init.el"
+-'  1  0  ~/.emacs.d/init.el
+|4,39,1,0,1504744556,"~/.emacs.d/init.el"
+-'  225  13  ~/.config/i3/config
+|4,39,225,13,1504744405,"~/.config/i3/config"
+-'  225  13  ~/.config/i3/config
+|4,39,225,13,1504744405,"~/.config/i3/config"
+-'  225  13  ~/.config/i3/config
+|4,39,225,13,1504744405,"~/.config/i3/config"
+-'  225  13  ~/.config/i3/config
+|4,39,225,13,1504744405,"~/.config/i3/config"
+-'  113  30  ~/.config/i3/config
+|4,39,113,30,1504744400,"~/.config/i3/config"
+-'  113  30  ~/.config/i3/config
+|4,39,113,30,1504744400,"~/.config/i3/config"
+-'  113  30  ~/.config/i3/config
+|4,39,113,30,1504744400,"~/.config/i3/config"
+-'  113  30  ~/.config/i3/config
+|4,39,113,30,1504744400,"~/.config/i3/config"
+-'  83  12  ~/.config/i3/config
+|4,39,83,12,1504744397,"~/.config/i3/config"
+-'  83  12  ~/.config/i3/config
+|4,39,83,12,1504744397,"~/.config/i3/config"
+-'  83  12  ~/.config/i3/config
+|4,39,83,12,1504744397,"~/.config/i3/config"
+-'  83  12  ~/.config/i3/config
+|4,39,83,12,1504744397,"~/.config/i3/config"
+-'  1  7  ~/.config/i3/config
+|4,39,1,7,1504744392,"~/.config/i3/config"
+-'  1  7  ~/.config/i3/config
+|4,39,1,7,1504744392,"~/.config/i3/config"
+-'  1  7  ~/.config/i3/config
+|4,39,1,7,1504744392,"~/.config/i3/config"
+-'  1  7  ~/.config/i3/config
+|4,39,1,7,1504744392,"~/.config/i3/config"
+-'  352  3  ~/.config/i3/config
+|4,39,352,3,1504704902,"~/.config/i3/config"
+-'  351  3  ~/.config/i3/config
+|4,39,351,3,1504704902,"~/.config/i3/config"
+-'  351  3  ~/.config/i3/config
+|4,39,351,3,1504704902,"~/.config/i3/config"
+-'  352  3  ~/.config/i3/config
+|4,39,352,3,1504704902,"~/.config/i3/config"
+-'  351  3  ~/.config/i3/config
+|4,39,351,3,1504704902,"~/.config/i3/config"
+-'  351  3  ~/.config/i3/config
+|4,39,351,3,1504704902,"~/.config/i3/config"
+-'  352  3  ~/.config/i3/config
+|4,39,352,3,1504704902,"~/.config/i3/config"
+-'  351  3  ~/.config/i3/config
+|4,39,351,3,1504704902,"~/.config/i3/config"
+-'  351  3  ~/.config/i3/config
+|4,39,351,3,1504704902,"~/.config/i3/config"
+-'  352  3  ~/.config/i3/config
+|4,39,352,3,1504704902,"~/.config/i3/config"
+-'  351  3  ~/.config/i3/config
+|4,39,351,3,1504704902,"~/.config/i3/config"
+-'  351  3  ~/.config/i3/config
+|4,39,351,3,1504704902,"~/.config/i3/config"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  19  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  45  27  ~/.config/i3/i3statusForMusic.conf
+|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  76  1  ~/.config/i3/i3statusForMusic.conf
+|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  77  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  1  0  ~/.config/i3/i3statusForMusic.conf
+|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
 
 # History of marks within files (newest to oldest):
 
+> ~/.config/user-dirs.dirs
+	*	1504831320	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
+> ~/.emacs.d/init.el
+	*	1504746862	0
+	"	72	0
+	^	62	0
+	.	72	0
+	+	44	0
+	+	81	0
+	+	81	13
+	+	81	24
+	+	81	0
+	+	74	0
+	+	46	11
+	+	44	4
+	+	44	5
+	+	46	0
+	+	44	10
+	+	46	0
+	+	47	0
+	+	46	0
+	+	43	0
+	+	48	0
+	+	81	0
+	+	77	0
+	+	76	0
+	+	79	0
+	+	49	12
+	+	76	5
+	+	78	27
+	+	76	0
+	+	2	0
+	+	22	0
+	+	19	0
+	+	20	13
+	+	25	0
+	+	30	24
+	+	30	0
+	+	92	0
+	+	81	0
+	+	88	0
+	+	89	0
+	+	81	0
+	+	91	0
+	+	81	0
+	+	92	0
+	+	30	0
+	+	82	0
+	+	83	0
+	+	88	0
+	+	88	28
+	+	88	0
+	+	43	0
+	+	28	0
+	+	30	0
+	+	43	0
+	+	32	0
+	+	84	0
+	+	33	0
+	+	41	0
+	+	30	0
+	+	24	0
+	+	42	33
+	+	51	0
+	+	59	0
+	+	93	0
+	+	30	0
+	+	27	0
+	+	26	0
+	+	27	7
+	+	31	0
+	+	40	0
+	+	45	0
+	+	50	0
+	+	40	12
+	+	45	10
+	+	50	7
+	+	31	10
+	+	58	0
+	+	30	0
+	+	35	0
+	+	58	0
+	+	98	24
+	+	98	0
+	+	53	0
+	+	58	0
+	+	52	0
+	+	55	0
+	+	58	0
+	+	55	39
+	+	58	0
+	+	56	48
+	+	57	48
+	+	98	0
+	+	35	0
+	+	34	0
+	+	61	0
+	+	60	9
+	+	63	0
+	+	68	0
+	+	73	0
+	+	61	0
+	+	63	0
+	+	62	0
+	+	72	0
+	j	75	0
+
+> ~/.config/i3/config
+	*	1504744544	0
+	"	301	60
+	^	301	61
+	.	301	60
+	+	278	45
+	+	279	95
+	+	281	0
+	+	283	0
+	+	257	0
+	+	258	0
+	+	286	0
+	+	283	0
+	+	281	46
+	+	282	15
+	+	281	15
+	+	282	17
+	+	281	20
+	+	282	33
+	+	283	0
+	+	286	28
+	+	286	15
+	+	281	38
+	+	282	41
+	+	286	41
+	+	286	0
+	+	286	29
+	+	286	0
+	+	284	29
+	+	283	30
+	+	282	29
+	+	281	27
+	+	283	0
+	+	285	0
+	+	280	24
+	+	277	26
+	+	313	0
+	+	111	0
+	+	104	0
+	+	95	0
+	+	122	0
+	+	179	0
+	+	89	0
+	+	80	0
+	+	89	0
+	+	81	0
+	+	85	0
+	+	82	26
+	+	83	29
+	+	84	26
+	+	83	52
+	+	271	0
+	+	111	0
+	+	117	13
+	+	127	58
+	+	83	0
+	+	117	49
+	+	127	59
+	+	117	0
+	+	149	85
+	+	149	86
+	+	150	0
+	+	117	0
+	+	127	59
+	+	117	42
+	+	127	59
+	+	117	75
+	+	128	28
+	+	83	28
+	+	128	78
+	+	83	44
+	+	83	0
+	+	85	0
+	+	117	111
+	+	344	39
+	+	346	38
+	+	344	39
+	+	19	17
+	+	131	21
+	+	45	19
+	+	113	29
+	+	130	0
+	+	129	26
+	+	355	0
+	+	353	2
+	+	355	0
+	+	354	0
+	+	353	2
+	+	355	3
+	+	19	17
+	+	20	16
+	+	46	16
+	+	47	0
+	+	46	16
+	+	47	0
+	+	46	16
+	+	46	18
+	+	355	0
+	+	352	0
+	+	353	2
+	+	352	3
+	+	299	0
+	+	300	0
+	+	302	0
+	+	301	60
+	g	106	27
+	m	106	27
+
+> ~/.config/i3/i3statusForMusic.conf
+	*	1504704884	0
+	"	19	0
+	^	28	1
+	.	28	0
+	+	40	35
+	+	22	0
+	+	24	0
+	+	1	60
+	+	2	0
+	+	52	0
+	+	51	15
+	+	51	16
+	+	51	18
+	+	58	18
+	+	67	0
+	+	72	0
+	+	71	13
+	+	72	0
+	+	71	0
+	+	67	0
+	+	73	0
+	+	71	17
+	+	33	14
+	+	77	0
+	+	76	0
+	+	75	0
+	+	76	1
+	+	77	1
+	+	76	1
+	+	27	0
+	+	75	0
+	+	76	0
+	+	77	0
+	+	45	0
+	+	46	0
+	+	27	0
+	+	28	0
+
+> ~/Data/ArchScripts/youtube_title.sh
+	*	1504704290	0
+	"	11	6
+	^	8	0
+	.	11	6
+	+	13	5
+	+	13	27
+	+	13	3
+	+	5	10
+	+	6	7
+	+	13	42
+	+	13	0
+	+	6	27
+	+	13	29
+	+	3	37
+	+	13	35
+	+	3	0
+	+	13	0
+	+	10	26
+	+	10	50
+	+	9	4
+	+	10	51
+	+	10	16
+	+	9	10
+	+	9	14
+	+	10	0
+	+	10	51
+	+	13	0
+	+	12	23
+	+	11	1
+	+	9	15
+	+	12	14
+	+	12	0
+	+	10	0
+	+	9	2
+	+	11	2
+	+	12	2
+	+	9	35
+	+	9	2
+	+	11	2
+	+	10	15
+	+	9	19
+	+	12	2
+	+	10	26
+	+	9	3
+	+	10	3
+	+	11	3
+	+	12	14
+	+	3	40
+	+	4	0
+	+	9	2
+	+	10	2
+	+	11	2
+	+	9	26
+	+	10	26
+	+	12	12
+	+	9	2
+	+	11	2
+	+	12	2
+	+	3	40
+	+	9	10
+	+	3	47
+	+	9	0
+	+	9	14
+	+	9	0
+	+	9	13
+	+	9	0
+	+	9	10
+	+	9	0
+	+	7	0
+	+	8	0
+	+	7	10
+	+	11	6
+
 > ~/.bash_aliases
-	*	1502900814	0
+	*	1504703624	0
 	"	1	0
 	^	45	109
 	.	45	108
@@ -637,6 +965,484 @@ $
 	+	45	9
 	+	45	108
 
+> ~/.config/i3/i3status.conf
+	*	1504703623	0
+	"	1	0
+	^	26	1
+	.	26	0
+	+	67	34
+	+	69	21
+	+	69	0
+	+	67	22
+	+	69	0
+	+	68	23
+	+	67	9
+	+	67	12
+	+	68	0
+	+	67	15
+	+	68	23
+	+	67	16
+	+	69	0
+	+	68	23
+	+	26	0
+
+> /tmp/vimgolf20170904-3551-25okg3.input
+	*	1504489717	0
+	"	1	0
+
+> ~/.vimgolf/put/596ba8373e3dd71412000004.output.output
+	*	1504489715	0
+	"	1	0
+
+> ~/-MiniBufExplorer-
+	*	1504489715	0
+	"	1	38
+	.	2	0
+	+	2	0
+
+> ~/Data/Programming/C/book/1.5.2-Character-Counting.c
+	*	1504484944	0
+	"	2	0
+
+> ~/.dmenu_history
+	*	1504408808	0
+	"	339	0
+	.	340	0
+	+	96	0
+	+	82	0
+	+	94	0
+	+	81	0
+	+	82	0
+	+	588	0
+	+	625	0
+	+	680	0
+	+	617	0
+	+	619	0
+	+	623	0
+	+	736	0
+	+	749	0
+	+	623	0
+	+	736	0
+	+	748	0
+	+	427	0
+	+	620	0
+	+	340	0
+
+> ~/.xinitrc
+	*	1504317929	0
+	"	1	0
+
+> ~/.emacs.d/.emacs
+	*	1504226249	0
+	"	1	0
+	^	2	29
+	.	2	28
+	+	3	17
+	+	3	0
+	+	3	19
+	+	3	27
+	+	3	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	2	28
+
+> ~/.babel.json
+	*	1504224832	0
+	"	1	0
+
+> ~/.asoundrc
+	*	1504224809	0
+	"	6	0
+	.	1	0
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	8
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	4
+	+	1	0
+	+	1	19
+	+	1	14
+	+	1	0
+
+> ~/.dmenu_cache
+	*	1504224423	0
+	"	337	0
+
+> /tmp/vimgolf20170831-31990-181nzz8.txt
+	*	1504201527	0
+	"	1	0
+
+> ~/.vimgolf/put/55b18bbea9c2c30d04000001.output.txt
+	*	1504201525	0
+	"	1	0
+
+> ~/.bashrc
+	*	1504201072	0
+	"	17	34
+	^	17	35
+	.	17	34
+	+	20	0
+	+	21	11
+	+	20	0
+	+	19	8
+	+	21	19
+	+	19	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	14	14
+	+	18	0
+	+	14	16
+	+	18	0
+	+	14	0
+	+	18	0
+	+	14	0
+	+	18	0
+	+	14	16
+	+	18	0
+	+	14	16
+	+	18	0
+	+	14	6
+	+	14	14
+	+	18	2
+	+	14	12
+	+	18	6
+	+	25	0
+	+	26	52
+	+	30	1
+	+	25	3
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	25	33
+	+	18	18
+	+	10	0
+	+	5	20
+	+	6	16
+	+	18	45
+	+	14	29
+	+	18	45
+	+	18	5
+	+	18	4
+	+	18	0
+	+	18	6
+	+	18	69
+	+	18	0
+	+	18	5
+	+	18	0
+	+	14	13
+	+	18	0
+	+	14	17
+	+	15	28
+	+	14	62
+	+	15	0
+	+	17	9
+	+	17	34
+
+> ~/Data/Programming/C/book/hello.c
+	*	1504171725	0
+	"	19	0
+	^	19	0
+	.	19	0
+	+	19	0
+
+> ~/Data/Programming/C/hello.c
+	*	1504137695	0
+	"	15	22
+	^	15	23
+	.	15	22
+	+	12	29
+	+	5	3
+	+	4	0
+	+	18	0
+	+	18	19
+	+	3	31
+	+	7	24
+	+	12	15
+	+	12	6
+	+	18	0
+	+	12	0
+	+	15	0
+	+	18	8
+	+	15	35
+	+	16	22
+	+	18	0
+	+	17	0
+	+	6	6
+	+	7	6
+	+	14	35
+	+	15	22
+
+> ~/.vimrc
+	*	1504135854	0
+	"	41	0
+	^	86	58
+	.	86	57
+	+	49	42
+	+	26	0
+	+	18	0
+	+	38	0
+	+	39	0
+	+	39	27
+	+	40	24
+	+	40	0
+	+	39	0
+	+	40	24
+	+	49	0
+	+	49	43
+	+	49	0
+	+	49	21
+	+	50	0
+	+	4	26
+	+	5	0
+	+	6	0
+	+	5	23
+	+	28	0
+	+	27	0
+	+	29	13
+	+	31	0
+	+	39	0
+	+	39	28
+	+	39	29
+	+	43	0
+	+	36	0
+	+	36	12
+	+	43	0
+	+	31	0
+	+	33	0
+	+	36	0
+	+	39	0
+	+	43	0
+	+	44	0
+	+	49	0
+	+	43	0
+	+	32	25
+	+	42	10
+	+	43	0
+	+	42	20
+	+	45	0
+	+	47	0
+	+	49	0
+	+	7	0
+	+	9	0
+	+	16	0
+	+	25	0
+	+	15	17
+	+	27	0
+	+	49	0
+	+	50	0
+	+	51	14
+	+	50	0
+	+	57	0
+	+	50	0
+	+	60	0
+	+	50	0
+	+	55	0
+	+	53	0
+	+	54	18
+	+	57	0
+	+	50	0
+	+	71	0
+	+	50	0
+	+	71	0
+	+	70	0
+	+	77	0
+	+	72	0
+	+	78	24
+	+	49	0
+	+	81	0
+	+	104	0
+	+	67	0
+	+	66	0
+	+	69	0
+	+	50	0
+	+	43	10
+	+	43	0
+	+	63	0
+	+	65	0
+	+	64	19
+	+	73	1
+	+	74	0
+	+	76	0
+	+	97	10
+	+	88	47
+	+	89	0
+	+	92	0
+	+	16	0
+	+	92	0
+	+	89	49
+	+	89	0
+	+	90	13
+	+	91	13
+	+	84	0
+	+	85	0
+	+	87	0
+	+	86	57
+
+> ~/.config/conky/conkyrc_swag
+	*	1504135123	0
+	"	1	0
+	^	1	0
+
+> ~/Data/Programming/C/hello
+	*	1504134529	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	5	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170801.txt
+	*	1504124727	0
+	"	2502	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170830.txt
+	*	1504124725	0
+	"	2548	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/-MiniBufExplorer-
+	*	1504116872	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/Data/ArchScripts/mount_usb.sh
+	*	1504042049	0
+	"	4	52
+	^	4	53
+	.	4	52
+	+	1	11
+	+	3	21
+	+	4	10
+	+	4	52
+
+> ~/Data/ArchScripts/install_mupdf.sh
+	*	1504034509	0
+	"	1	0
+
+> ~/exclude-list.txt
+	*	1503950330	0
+	"	13	6
+	^	13	7
+	.	13	6
+	+	8	28
+	+	6	26
+	+	7	0
+	+	6	30
+	+	11	7
+	+	38	0
+	+	11	8
+	+	11	7
+	+	48	3
+	+	35	0
+	+	15	5
+	+	1	0
+	+	6	0
+	+	1	0
+	+	15	7
+	+	10	5
+	+	17	16
+	+	45	2
+	+	46	13
+	+	49	4
+	+	50	0
+	+	49	5
+	+	35	10
+	+	35	3
+	+	33	7
+	+	33	0
+	+	24	2
+	+	22	7
+	+	17	16
+	+	21	10
+	+	17	0
+	+	20	5
+	+	19	4
+	+	14	5
+	+	12	7
+	+	31	12
+	+	27	12
+	+	26	12
+	+	25	12
+	+	7	0
+	+	39	13
+	+	28	7
+	+	24	5
+	+	23	6
+	+	2	13
+	+	9	17
+	+	2	14
+	+	3	19
+	+	4	10
+	+	5	16
+	+	36	3
+	+	34	0
+	+	37	12
+	+	40	11
+	+	38	0
+	+	41	0
+	+	42	7
+	+	18	3
+	+	32	8
+	+	46	0
+	+	44	10
+	+	29	8
+	+	30	4
+	+	51	0
+	+	48	0
+	+	47	7
+	+	55	4
+	+	16	8
+	+	13	6
+
+> /usr/bin/firefox
+	*	1503889490	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	2	10
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08142017.CSV
+	*	1503594558	0
+	"	1	0
+	.	1	6
+	+	5269	0
+	+	5268	83
+	+	5269	0
+	+	1863	0
+	+	4358	0
+	+	4407	0
+	+	4519	0
+	+	4875	0
+	+	5056	0
+	+	5212	0
+	+	1	6
+	n	4519	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08032017.CSV
+	*	1503594556	0
+	"	1	0
+	^	5191	23
+	.	5191	0
+	+	5191	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/-MiniBufExplorer-
+	*	1503594556	0
+	"	1	33
+	.	2	0
+	+	2	0
+
 > ~/Data/Notes/firefox_config.md
 	*	1502898122	0
 	"	22	0
@@ -654,114 +1460,6 @@ $
 > ~/Data/Asiakirja/so
 	*	1502897850	0
 	"	1	0
-
-> ~/.config/i3/config
-	*	1502897607	0
-	"	111	21
-	^	129	22
-	.	129	21
-	+	145	39
-	+	146	41
-	+	147	41
-	+	346	2
-	+	348	0
-	+	349	0
-	+	348	2
-	+	1	0
-	+	348	2
-	+	346	2
-	+	349	0
-	+	348	3
-	+	347	19
-	+	348	0
-	+	347	1
-	+	273	0
-	+	273	26
-	+	287	0
-	+	276	11
-	+	276	12
-	+	276	42
-	+	276	37
-	+	285	0
-	+	274	0
-	+	276	67
-	+	274	9
-	+	276	45
-	+	277	95
-	+	279	0
-	+	281	0
-	+	255	0
-	+	256	0
-	+	284	0
-	+	281	0
-	+	279	46
-	+	280	15
-	+	279	15
-	+	280	17
-	+	279	20
-	+	280	33
-	+	281	0
-	+	284	28
-	+	284	15
-	+	279	38
-	+	280	41
-	+	284	41
-	+	284	0
-	+	284	29
-	+	284	0
-	+	282	29
-	+	281	30
-	+	280	29
-	+	279	27
-	+	281	0
-	+	283	0
-	+	278	24
-	+	275	26
-	+	310	0
-	+	111	0
-	+	104	0
-	+	95	0
-	+	121	0
-	+	177	0
-	+	89	0
-	+	80	0
-	+	89	0
-	+	81	0
-	+	85	0
-	+	82	26
-	+	83	29
-	+	84	26
-	+	83	52
-	+	269	0
-	+	111	0
-	+	116	13
-	+	126	58
-	+	83	0
-	+	116	49
-	+	126	59
-	+	116	0
-	+	147	85
-	+	147	86
-	+	148	0
-	+	116	0
-	+	126	59
-	+	116	42
-	+	126	59
-	+	116	75
-	+	127	28
-	+	83	28
-	+	127	78
-	+	83	44
-	+	83	0
-	+	85	0
-	+	116	111
-	+	341	39
-	+	343	38
-	+	341	39
-	+	19	17
-	+	129	21
-	g	106	27
-	m	106	27
 
 > ~/Data/ArchScripts/mpsyt_info.sh
 	*	1502897092	0
@@ -869,80 +1567,6 @@ $
 	+	23	0
 	+	22	16
 
-> ~/Data/ArchScripts/youtube_title.sh
-	*	1502896585	0
-	"	1	0
-	^	7	15
-	.	8	0
-	+	12	5
-	+	12	27
-	+	12	3
-	+	5	10
-	+	6	7
-	+	12	42
-	+	12	0
-	+	6	27
-	+	12	29
-	+	3	37
-	+	12	35
-	+	3	0
-	+	12	0
-	+	9	26
-	+	9	50
-	+	8	4
-	+	9	51
-	+	9	16
-	+	8	10
-	+	8	14
-	+	9	0
-	+	9	51
-	+	12	0
-	+	11	23
-	+	10	1
-	+	8	15
-	+	11	14
-	+	11	0
-	+	9	0
-	+	8	2
-	+	10	2
-	+	11	2
-	+	7	35
-	+	8	2
-	+	10	2
-	+	9	15
-	+	8	19
-	+	11	2
-	+	9	26
-	+	8	3
-	+	9	3
-	+	10	3
-	+	11	14
-	+	3	40
-	+	4	0
-	+	8	2
-	+	9	2
-	+	10	2
-	+	8	26
-	+	9	26
-	+	11	12
-	+	8	2
-	+	10	2
-	+	11	2
-	+	3	40
-	+	7	10
-	+	3	47
-	+	8	0
-	+	7	14
-	+	8	0
-	+	7	13
-	+	8	0
-	+	7	10
-	+	8	0
-
-> ~/.babel.json
-	*	1502895604	0
-	"	66	0
-
 > /mnt/hda/Devops-intro/devops-intro-project/packer-templates/application-server.json
 	*	1502745083	0
 	"	121	0
@@ -980,55 +1604,9 @@ $
 	+	29	18
 	+	30	0
 
-> ~/.dmenu_history
-	*	1502729324	0
-	"	688	0
-	.	688	0
-	+	96	0
-	+	82	0
-	+	94	0
-	+	81	0
-	+	82	0
-	+	591	0
-	+	633	0
-	+	688	0
-
-> ~/.dmenu_cache
-	*	1502729243	0
-	"	337	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08142017.CSV
-	*	1502725639	0
-	"	2246	31
-	.	5212	0
-	+	5269	0
-	+	5268	83
-	+	5269	0
-	+	1863	0
-	+	4358	0
-	+	4407	0
-	+	4519	0
-	+	4875	0
-	+	5056	0
-	+	5212	0
-	n	4519	0
-
 > ~/Data/Programming/EclipseOxygen/aflac/SocorroISD_PROD_08082017.CSV
 	*	1502725182	0
 	"	2246	31
-
-> ~/Data/Programming/EclipseOxygen/aflac/-MiniBufExplorer-
-	*	1502725182	0
-	"	1	0
-	.	2	0
-	+	2	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08032017.CSV
-	*	1502721029	0
-	"	5229	22
-	^	5191	23
-	.	5191	0
-	+	5191	0
 
 > ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08112017.CSV
 	*	1502720603	0
@@ -1048,75 +1626,6 @@ $
 	*	1502674719	0
 	"	1	0
 
-> ~/.asoundrc
-	*	1502674217	0
-	"	1	0
-	^	9	1
-	.	4	0
-	+	8	0
-	+	9	0
-	+	1	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	1	0
-	+	4	0
-	+	16	0
-	+	16	1
-	+	4	0
-	+	1	0
-	+	3	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	1	0
-	+	2	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	15	0
-	+	14	8
-	+	11	0
-	+	12	1
-	+	13	1
-	+	14	1
-	+	15	0
-	+	9	11
-	+	6	0
-	+	7	4
-	+	8	4
-	+	9	4
-	+	9	0
-	+	10	0
-	+	1	0
-	+	2	0
-	+	16	0
-	+	1	0
-	+	4	0
-	+	1	0
-	+	4	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	1	19
-	+	1	14
-	+	9	0
-	+	4	0
-
 > /var/lib/alsa/.asoundrc
 	*	1502673293	0
 	"	9	0
@@ -1127,77 +1636,6 @@ $
 > /var/lib/alsa/asound.state
 	*	1502672872	0
 	"	711	0
-
-> /usr/bin/firefox
-	*	1502671067	0
-	"	1	0
-	^	2	11
-	.	2	10
-	+	2	10
-
-> ~/.bashrc
-	*	1502670524	0
-	"	15	0
-	^	15	1
-	.	15	0
-	+	18	0
-	+	19	11
-	+	18	0
-	+	17	8
-	+	19	19
-	+	17	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	14	14
-	+	16	0
-	+	14	16
-	+	16	0
-	+	14	0
-	+	16	0
-	+	14	0
-	+	16	0
-	+	14	16
-	+	16	0
-	+	14	16
-	+	16	0
-	+	14	6
-	+	14	14
-	+	16	2
-	+	14	12
-	+	16	6
-	+	23	0
-	+	24	52
-	+	28	1
-	+	23	3
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	23	33
-	+	16	18
-	+	10	0
-	+	5	20
-	+	6	16
-	+	16	45
-	+	14	29
-	+	16	45
-	+	16	5
-	+	16	4
-	+	16	0
-	+	16	6
-	+	16	69
-	+	16	0
-	+	16	5
-	+	16	0
-	+	14	13
-	+	16	0
-	+	14	17
-	+	15	28
-	+	14	62
-	+	15	0
 
 > /usr/opt/recsveditor/Csv_Readme.txt
 	*	1502669926	0
@@ -1212,75 +1650,6 @@ $
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/exclude-list.txt
-	*	1502669050	0
-	"	28	3
-	^	28	4
-	.	28	4
-	+	8	28
-	+	6	26
-	+	7	0
-	+	6	30
-	+	11	7
-	+	36	0
-	+	11	8
-	+	11	7
-	+	45	3
-	+	33	0
-	+	14	5
-	+	1	0
-	+	6	0
-	+	1	0
-	+	14	7
-	+	10	5
-	+	15	16
-	+	43	2
-	+	44	13
-	+	46	4
-	+	47	0
-	+	46	5
-	+	33	10
-	+	33	3
-	+	31	7
-	+	31	0
-	+	22	2
-	+	20	7
-	+	15	16
-	+	19	10
-	+	15	0
-	+	18	5
-	+	17	4
-	+	13	5
-	+	12	7
-	+	29	12
-	+	25	12
-	+	24	12
-	+	23	12
-	+	7	0
-	+	37	13
-	+	26	7
-	+	22	5
-	+	21	6
-	+	2	13
-	+	9	17
-	+	2	14
-	+	3	19
-	+	4	10
-	+	5	16
-	+	34	3
-	+	32	0
-	+	35	12
-	+	38	11
-	+	36	0
-	+	39	0
-	+	40	7
-	+	16	3
-	+	30	8
-	+	44	0
-	+	42	10
-	+	27	8
-	+	28	4
 
 > ~/.mynotes/notes
 	*	1502668001	0
@@ -1516,112 +1885,6 @@ $
 	.	5242	0
 	+	5242	0
 
-> ~/.vimrc
-	*	1502222345	0
-	"	106	0
-	^	86	58
-	.	86	57
-	+	49	42
-	+	26	0
-	+	18	0
-	+	38	0
-	+	39	0
-	+	39	27
-	+	40	24
-	+	40	0
-	+	39	0
-	+	40	24
-	+	49	0
-	+	49	43
-	+	49	0
-	+	49	21
-	+	50	0
-	+	4	26
-	+	5	0
-	+	6	0
-	+	5	23
-	+	28	0
-	+	27	0
-	+	29	13
-	+	31	0
-	+	39	0
-	+	39	28
-	+	39	29
-	+	43	0
-	+	36	0
-	+	36	12
-	+	43	0
-	+	31	0
-	+	33	0
-	+	36	0
-	+	39	0
-	+	43	0
-	+	44	0
-	+	49	0
-	+	43	0
-	+	32	25
-	+	42	10
-	+	43	0
-	+	42	20
-	+	45	0
-	+	47	0
-	+	49	0
-	+	7	0
-	+	9	0
-	+	16	0
-	+	25	0
-	+	15	17
-	+	27	0
-	+	49	0
-	+	50	0
-	+	51	14
-	+	50	0
-	+	57	0
-	+	50	0
-	+	60	0
-	+	50	0
-	+	55	0
-	+	53	0
-	+	54	18
-	+	57	0
-	+	50	0
-	+	71	0
-	+	50	0
-	+	71	0
-	+	70	0
-	+	77	0
-	+	72	0
-	+	78	24
-	+	49	0
-	+	81	0
-	+	104	0
-	+	67	0
-	+	66	0
-	+	69	0
-	+	50	0
-	+	43	10
-	+	43	0
-	+	63	0
-	+	65	0
-	+	64	19
-	+	73	1
-	+	74	0
-	+	76	0
-	+	97	10
-	+	88	47
-	+	89	0
-	+	92	0
-	+	16	0
-	+	92	0
-	+	89	49
-	+	89	0
-	+	90	13
-	+	91	13
-	+	84	0
-	+	85	0
-	+	87	0
-	+	86	57
-
 > ~/Data/TEB/Aflac-all-beneficiaries.csv
 	*	1502218302	0
 	"	9	0
@@ -1630,19 +1893,9 @@ $
 	*	1502216627	0
 	"	525	222
 
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170801.txt
-	*	1501858400	0
-	"	2501	2864
-
 > ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.47666.DATE.txt
 	*	1501858169	0
 	"	2491	2864
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/-MiniBufExplorer-
-	*	1501858169	0
-	"	1	41
-	.	2	0
-	+	2	0
 
 > /etc/fstab
 	*	1501855989	0
@@ -1721,10 +1974,6 @@ $
 	*	1501696838	0
 	"	1	0
 
-> ~/Data/ArchScripts/install_mupdf.sh
-	*	1501696837	0
-	"	1	0
-
 > ~/Data/ArchScripts/install_pacaur_pkg.sh
 	*	1501696837	0
 	"	1	0
@@ -1777,12 +2026,6 @@ $
 	+	1	0
 	+	12	0
 
-> ~/-MiniBufExplorer-
-	*	1501696806	0
-	"	1	0
-	.	2	0
-	+	2	0
-
 > ~/1
 	*	1501696805	0
 	"	1	0
@@ -1801,120 +2044,3 @@ $
 	"	3	0
 	.	1	0
 	+	1	0
-
-> ~/[Vundle] list
-	*	1501695326	0
-	"	7	0
-	.	1	0
-	+	1	0
-
-> ~/.config/conky/conkyrc_swag
-	*	1501694363	0
-	"	1	0
-	^	1	0
-
-> ~/.config/i3/i3statusForMusic.conf
-	*	1501643487	0
-	"	1	0
-	^	70	18
-	.	70	17
-	+	40	35
-	+	22	0
-	+	24	0
-	+	1	60
-	+	2	0
-	+	51	0
-	+	50	15
-	+	50	16
-	+	50	18
-	+	57	18
-	+	66	0
-	+	71	0
-	+	70	13
-	+	71	0
-	+	70	0
-	+	66	0
-	+	72	0
-	+	70	17
-
-> ~/.config/i3/i3status.conf
-	*	1501642455	0
-	"	26	0
-	^	26	1
-	.	26	0
-	+	67	34
-	+	69	21
-	+	69	0
-	+	67	22
-	+	69	0
-	+	68	23
-	+	67	9
-	+	67	12
-	+	68	0
-	+	67	15
-	+	68	23
-	+	67	16
-	+	69	0
-	+	68	23
-	+	26	0
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflacV4/src/teb_aflacV4/Dependent.java
-	*	1501605109	0
-	"	56	0
-	^	37	1
-	.	34	0
-	+	34	0
-
-> /usr/share/vim/vim80/doc/fold.txt
-	*	1501604234	0
-	"	294	20
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflacV4/src/teb_aflacV4/-MiniBufExplorer-
-	*	1501604218	0
-	"	1	19
-	.	2	0
-	+	2	0
-
-> /usr/share/vim/vim80/doc/help.txt
-	*	1501604213	0
-	"	28	61
-
-> ~/Data/Programming/EclipseWorkspace/teb_aflacV4/src/teb_aflacV4/AflacFormat.java
-	*	1501603985	0
-	"	1	0
-
-> ~/temp/LBL1000__lbl0002i.47666.DAT2.txt
-	*	1501531856	0
-	"	12	0
-
-> ~/temp/LBL1000__lbl0002i.47666.DATE.txt
-	*	1501531853	0
-	"	10	0
-	.	33	0
-	+	32	0
-	+	59	0
-	+	33	0
-
-> ~/Data/Downloads/mediaplayer.py
-	*	1501269585	0
-	"	40	0
-
-> ~/mpv.txt
-	*	1501265275	0
-	"	114	0
-
-> ~/Data/Downloads/mpv-mpris-master/Makefile
-	*	1501264753	0
-	"	1	0
-
-> /usr/lib/lua/5.3/ldbus_scm_0-ldbus.so
-	*	1501263913	0
-	"	1	0
-
-> ~/.luarocks/lib/luarocks/rocks-5.3/ldbus/scm-0/doc/README.md
-	*	1501263759	0
-	"	138	0
-
-> ~/.config/mpv/mpris/README.md
-	*	1501262906	0
-	"	1	0

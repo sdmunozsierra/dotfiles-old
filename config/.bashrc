@@ -14,6 +14,8 @@ alias test='echo bashrc is working'
 PS1='\[\033[31m\]Keanue  \W\[\033[00m\]\$ '	#Show small path
 #PS1='\[\033[31m\]Keanue  $PWD\[\033[00m\]\$ '	#Show full path
 
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+
 #myPath="/home/keanue/Data/"
 #export PATH=":/home/keanue/Data/ArchScripts"
 #PATH="$PATH:$myPath"

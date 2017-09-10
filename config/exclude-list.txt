@@ -10,8 +10,10 @@
 .adobe
 .androi*
 .Androi*
+.babel*
 .cache
 .eclipse
+.electron
 .esd_auth
 .gem
 .git-credentials
@@ -42,6 +44,7 @@
 .webeclipse
 .webeclipse.properties
 Androi*
+eclipse*
 Data
 Desktop
 Hdd
@@ -49,3 +52,4 @@ StudioProjects
 temp
 *.sw*
 *.md
+*.key
