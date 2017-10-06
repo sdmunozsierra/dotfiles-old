@@ -57,6 +57,16 @@
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 (helm-mode 1)
 
+;;; auto-complete
+(require 'auto-complete)
+(require 'auto-complete-config)
+(ac-config-default)
+
+;;; yasnipet
+(require 'yasnippet)
+(yas-global-mode 1)
+
+
 ;;; nlinum
 ;(require 'linum)
 
@@ -70,6 +80,8 @@
                         "d"))))
 (add-hook 'nlinum-mode-hook #'my-nlinum-mode-hook)
 (add-hook 'prog-mode-hook 'linum-mode)
+
+
 
 ;;;;;;;;;;;;;;;;;;;;
 ;;;;; Settings ;;;;;
@@ -89,7 +101,34 @@
 (setq scroll-conservatively 10000
       scroll-preserve-screen-position t)
 
+;; Small compiler window set to F9
+(defun my-compile ()
+	"Run compile and resize the compile window"
+	(interactive)
+	(progn
+		(call-interactively 'compile)
+		(setq cur (selected-window))
+		(setq w (get-buffer-window "*compilation*"))
+		(select-window w)
+		(setq h (window-height w))
+		(shrink-window (- h 10))
+		(select-window cur)
+	)	
+)
 
+(defun my-compilation-hook () 
+  "Make sure that the compile window is splitting vertically"
+  (progn
+    (if (not (get-buffer-window "*compilation*"))
+       (progn
+	  		(split-window-vertically)
+	   )
+	 )
+    )
+)
+
+(add-hook 'compilation-mode-hook 'my-compilation-hook)
+(global-set-key [f9] 'my-compile)
 
 ;;;;;;;;;;;;;;;;;;;;
 ;;;; Shortcuts ;;;;;

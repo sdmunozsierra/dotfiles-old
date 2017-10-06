@@ -5,6 +5,8 @@ application/vnd.ms-excel=leafpad.desktop;
 application/epub+zip=userapp-mupdf-x11-GR6X5Y.desktop;firefox.desktop;
 x-scheme-handler/mailto=thunderbird.desktop;
 message/rfc822=thunderbird.desktop;
+text/csv=userapp-vim-TAO86Y.desktop;leafpad.desktop;
+text/plain=leafpad.desktop;
 
 [Removed Associations]
 
@@ -14,3 +16,5 @@ x-scheme-handler/nylas=nylas.desktop
 x-scheme-handler/mailto=thunderbird.desktop
 message/rfc822=thunderbird.desktop
 application/epub+zip=userapp-mupdf-x11-GR6X5Y.desktop
+text/csv=leafpad.desktop
+text/plain=leafpad.desktop

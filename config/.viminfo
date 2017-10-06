@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/config
+~MSle0~/Hous
 
 # Last Substitute Search Pattern:
 ~MSle0&5294E2
@@ -20,32 +20,60 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1504831321,,"wq"
+:q
+|2,0,1507311450,,"q"
 :w
-|2,0,1504746861,,"w"
+|2,0,1507311448,,"w"
+:q!
+|2,0,1507310792,,"q!"
 :qa!
-|2,0,1504566286,,"qa!"
+|2,0,1507306131,,"qa!"
+:'<,'>qa!
+|2,0,1507124518,,"'<,'>qa!"
+:wq
+|2,0,1507059780,,"wq"
+:W
+|2,0,1507058713,,"W"
+:w !sudo tee > /dev/null %
+|2,0,1507039774,,"w !sudo tee > /dev/null %"
+:w jj
+|2,0,1506359178,,"w jj"
+:%s/seisd.ent/sesid.net
+|2,0,1506015194,,"%s/seisd.ent/sesid.net"
+:.qa!
+|2,0,1505838007,,".qa!"
+:ls
+|2,0,1505836040,,"ls"
+:.,.+1ls
+|2,0,1505836038,,".,.+1ls"
+:bn
+|2,0,1505836021,,"bn"
+:e exclude-list.txt
+|2,0,1505836017,,"e exclude-list.txt"
+:e Data/ArchScripts/install_i3.sh
+|2,0,1505835948,,"e Data/ArchScripts/install_i3.sh"
+:colorscheme elflord
+|2,0,1505739839,,"colorscheme elflord"
+:colorscheme delek
+|2,0,1505739835,,"colorscheme delek"
+:colorscheme default
+|2,0,1505739832,,"colorscheme default"
+:colorscheme darkblue
+|2,0,1505739828,,"colorscheme darkblue"
+:wqa!
+|2,0,1505241715,,"wqa!"
+:'<,'>qa
+|2,0,1505083912,,"'<,'>qa"
 :vsp
 |2,0,1504484483,,"vsp"
 :sp
 |2,0,1504484462,,"sp"
-:q
-|2,0,1504484459,,"q"
-:W
-|2,0,1504494773,,"W"
 :Q
 |2,0,1504137695,,"Q"
-:q!
-|2,0,1504124729,,"q!"
 :wa
 |2,0,1504042047,,"wa"
-:w !sudo tee > /dev/null %
-|2,0,1503889486,,"w !sudo tee > /dev/null %"
 :colo badwolf
 |2,0,1502898121,,"colo badwolf"
-:colorscheme darkblue
-|2,0,1502898117,,"colorscheme darkblue"
 :quit
 |2,0,1502898953,,"quit"
 :e
@@ -54,10 +82,6 @@ $
 |2,0,1501855081,,":w !sudo tee > /dev/null %"
 :colorscheme desert
 |2,0,1501786176,,"colorscheme desert"
-:colorscheme delek
-|2,0,1501786171,,"colorscheme delek"
-:colorscheme default
-|2,0,1501786167,,"colorscheme default"
 :colorscheme blue
 |2,0,1501786158,,"colorscheme blue"
 :qa
@@ -80,8 +104,6 @@ $
 |2,0,1501696018,,"vsp install_pacaur.sh"
 :sp dreamstatemusic.md
 |2,0,1501695442,,"sp dreamstatemusic.md"
-:ls
-|2,0,1501695428,,"ls"
 :O new.txt
 |2,0,1501695423,,"O new.txt"
 :o
@@ -98,130 +120,108 @@ $
 |2,0,1501695316,,"PlufinL"
 :PluginList
 |2,0,1501695280,,"PluginList"
-:c
-|2,0,1501694599,,"c"
-:colorscheme peachpuff
-|2,0,1501693906,,"colorscheme peachpuff"
-:colorscheme pablo
-|2,0,1501693896,,"colorscheme pablo"
-:colorscheme evening
-|2,0,1501693888,,"colorscheme evening"
-:r
-|2,0,1501647042,,"r"
-:version
-|2,0,1501606751,,"version"
-:'<,'>setlocal foldmethod=marker
-|2,0,1501604688,,"'<,'>setlocal foldmethod=marker"
-:setlocal foldmethod=marker
-|2,0,1501604661,,"setlocal foldmethod=marker"
-:set foldmethod manual
-|2,0,1501604285,,"set foldmethod manual"
-:h fold
-|2,0,1501604218,,"h fold"
-:h
-|2,0,1501604208,,"h"
 
 # Search String History (newest to oldest):
-?/config
-|2,1,1504744392,47,"config"
+?/Hous
+|2,1,1507235835,47,"Hous"
+? \<628261895\>
+|2,1,1507124274,,"\\<628261895\\>"
+?/Enroll
+|2,1,1507123560,47,"Enroll"
+?/H
+|2,1,1507123550,47,"H"
+?/.Hou
+|2,1,1507123545,47,".Hou"
+?/^Ho
+|2,1,1507123541,47,"^Ho"
+?/*Hous
+|2,1,1507123537,47,"*Hous"
+?/Houston
+|2,1,1507123523,47,"Houston"
+?/Hos
+|2,1,1507123519,47,"Hos"
+?/core
+|2,1,1507039430,47,"core"
+?/Log
+|2,1,1507033687,47,"Log"
+?/Houst
+|2,1,1506712132,47,"Houst"
+?/Housto
+|2,1,1506706692,47,"Housto"
+?/libirecovery
+|2,1,1506649832,47,"libirecovery"
+?/PKG_CON
+|2,1,1506649733,47,"PKG_CON"
+?/recover
+|2,1,1506649657,47,"recover"
+?/resto
+|2,1,1506649606,47,"resto"
 ?/bar
-|2,1,1504703633,47,"bar"
-??neo
-|2,1,1504494821,63,"neo"
-?/mopi
-|2,1,1504408796,47,"mopi"
-?/t
-|2,1,1504396067,47,"t"
-?/wm
-|2,1,1504286896,47,"wm"
-?/Java
-|2,1,1504230160,47,"Java"
-?/Jaca
-|2,1,1504230157,47,"Jaca"
+|2,1,1506619158,47,"bar"
+?//bar
+|2,1,1506619155,47,"/bar"
 ? @$
-|2,1,1504226227,,"@$"
-?/syl
-|2,1,1504224445,47,"syl"
-?/fire
-|2,1,1504224432,47,"fire"
-?/thunder
-|2,1,1503949876,47,"thunder"
-?//fire
-|2,1,1503949851,47,"/fire"
-?//thunder
-|2,1,1503949850,47,"/thunder"
-?/geary
-|2,1,1503074796,47,"geary"
-?/feh
-|2,1,1502897602,47,"feh"
-?/gaps
-|2,1,1502819859,47,"gaps"
-??30
-|2,1,1502819341,63,"30"
-?/mod+n
-|2,1,1502811021,47,"mod+n"
-?/smart
-|2,1,1502808050,47,"smart"
-?/clipse
-|2,1,1502807420,47,"clipse"
-??eclipse
-|2,1,1502807413,63,"eclipse"
-?/eclipse
-|2,1,1502807410,47,"eclipse"
-?/individual
-|2,1,1502807399,47,"individual"
-??gaps
-|2,1,1502754323,63,"gaps"
-?/$mod
-|2,1,1502754079,47,"$mod"
-?/ACCD
-|2,1,1502725608,47,"ACCD"
+|2,1,1506614438,,"@$"
+?/SLH
+|2,1,1506524499,47,"SLH"
+?/6r7
+|2,1,1506358845,47,"6r7"
+?/data
+|2,1,1506258543,47,"data"
+?/in
+|2,1,1506257975,47,"in"
+??in
+|2,1,1505954537,63,"in"
+?/wou
+|2,1,1505952494,47,"wou"
+?/.net
+|2,1,1506012015,47,".net"
+?/210
+|2,1,1506015212,47,"210"
+? seisd.ent
+|2,1,1506015194,,"seisd.ent"
+?/ent
+|2,1,1506015164,47,"ent"
+?/seisd.ent
+|2,1,1506015146,47,"seisd.ent"
+?//.ent
+|2,1,1506015079,47,"/.ent"
+?/.ent
+|2,1,1506015060,47,".ent"
+?/.
+|2,1,1506015040,47,"."
+?/,net
+|2,1,1506014876,47,",net"
+?/2105
+|2,1,1506011183,47,"2105"
+?/req
+|2,1,1505845815,47,"req"
+? \<setq\>
+|2,1,1505844844,,"\\<setq\\>"
+?/Vale
+|2,1,1505922130,47,"Vale"
+?/valeri
+|2,1,1505922077,47,"valeri"
+?/Wik
+|2,1,1505741260,47,"Wik"
+?/Wi
+|2,1,1505741216,47,"Wi"
+?/000
+|2,1,1505741213,47,"000"
+??Brooks
+|2,1,1505740880,63,"Brooks"
+?/BENE
+|2,1,1505243571,47,"BENE"
+??Hous
+|2,1,1505241710,63,"Hous"
+?/Hou
+|2,1,1505241698,47,"Hou"
 ?/BENE,CRIT,C
-|2,1,1502725566,47,"BENE,CRIT,C"
-?/VALENZUELA
-|2,1,1502725546,47,"VALENZUELA"
-?/RAZLO
-|2,1,1502725538,47,"RAZLO"
-?/MARTINEZ
-|2,1,1502725518,47,"MARTINEZ"
-?/CHAVEZ
-|2,1,1502725505,47,"CHAVEZ"
-?/CHACEZ
-|2,1,1502725503,47,"CHACEZ"
-?/ARRIETA
-|2,1,1502725492,47,"ARRIETA"
-?/ALDERETE
-|2,1,1502725482,47,"ALDERETE"
-?/ZZ
-|2,1,1502725086,47,"ZZ"
-?/VARELA
-|2,1,1502721027,47,"VARELA"
-?/SCOGIN
-|2,1,1502720717,47,"SCOGIN"
-?/THOMAS
-|2,1,1502720614,47,"THOMAS"
-?/THOMAS LOGAN
-|2,1,1502720611,47,"THOMAS LOGAN"
-?/00
-|2,1,1502678138,47,"00"
-?/zz
-|2,1,1502678132,47,"zz"
-?/url
-|2,1,1502632969,47,"url"
-?/iso
-|2,1,1502632962,47,"iso"
-?/457889858
-|2,1,1502464680,47,"457889858"
-?/RORER
-|2,1,1502464621,47,"RORER"
-?/628108378
-|2,1,1502464569,47,"628108378"
-?/RAZLOZNIK
-|2,1,1502464549,47,"RAZLOZNIK"
-?/razloznik
-|2,1,1502464545,47,"razloznik"
-?/453718605
-|2,1,1502223465,47,"453718605"
+|2,1,1505241588,47,"BENE,CRIT,C"
+?/BENE,CRIT,A
+|2,1,1505241412,47,"BENE,CRIT,A"
+??BENE,CRIT,C
+|2,1,1505241374,63,"BENE,CRIT,C"
 
 # Expression History (newest to oldest):
 =p
@@ -235,40 +235,67 @@ $
 
 # Registers:
 "0	LINE	0
-		bindsym v   exec i3-msg 'exec "$term -e vim .vimrc" move $WS0'
-|3,0,0,1,1,0,1504744493,"	bindsym v   exec i3-msg 'exec \"$term -e vim .vimrc\" move $WS0'"
-""1	LINE	0
+	.config/Awesomeness
+|3,0,0,1,1,0,1507306141,".config/Awesomeness"
+"1	LINE	0
 	
-|3,1,1,1,1,0,1504746746,""
-"2	LINE	0
-	                             ;; Guesstimate number of buffer lines.
-	                             (ceiling (log (max 1 (/ (buffer-size) 80)) 10)))
-	                        "d"))))
-|3,0,2,1,3,0,1504746732,"                             ;; Guesstimate number of buffer lines.","                             (ceiling (log (max 1 (/ (buffer-size) 80)) 10)))","                        \"d\"))))"
+|3,0,1,1,1,0,1507311097,""
+"2	CHAR	0
+	u
+	.
+|3,0,2,0,2,0,1507306033,"u","."
 "3	LINE	0
-	
-|3,0,3,1,1,0,1504746577,""
+	"------------- OPTIONS ------------------
+|3,0,3,1,1,0,1507123812,"\"------------- OPTIONS ------------------"
 "4	LINE	0
 	
-|3,0,4,1,1,0,1504746577,""
+	
+|3,0,4,1,2,0,1507058605,"",""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1504746576,""
+|3,0,5,1,1,0,1506646861,""
 "6	LINE	0
-		bindsym a   exec i3-msg 'exec "$term -e vim .bash_aliases" move $WS0'
-|3,0,6,1,1,0,1504744486,"	bindsym a   exec i3-msg 'exec \"$term -e vim .bash_aliases\" move $WS0'"
+	dd
+|3,0,6,1,1,0,1506646568,"dd"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1504704376,""
+	3002
+<461554319                         000102743000020185                     BORUNDA                            NOREEN                   R                                  19810216FK                                                                                                              13709 Paseo Sereno                                                    EL PASO                       TX79928                                   US     R        9154228256          R                                               AC        P20170803                                     A004028720                  TX                                                                                                                                                                                         Premium Plan   TEACHER - 187 D           TX                                                                                                                                                                                                  01STD          SLH010001120171001     00020000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               nborun@sisd.net                                                                                                                                      
+|3,0,7,1,1,0,1506630158,>3001
+|<"461554319                         000102743000020185                     BORUNDA                            NOREEN                   R                                  19810216FK                                                                                                              13709 Paseo Sereno                                                    EL PASO                       TX79928                                   US     R        9154228256          R                       
+|<                        AC        P20170803                                     A004028720                  TX                                                                                                                                                                                         Premium Plan   TEACHER - 187 D           TX                                                                                                                                                        
+|<                                          01STD          SLH010001120171001     00020000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                           
+|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+|<                                                                                                                                                                                                                                                                                                                                                                                                                nborun@sisd.net                                                                           
+|<                                                           "
 "8	LINE	0
-	
-|3,0,8,1,1,0,1504704364,""
+	3002
+<631369731                         000102743000020185                     BARRON                             ALEXANDER                S                                  19930317MK                                                                                                              4604 LOMA DE COBRE                                                    EL PASO                       TX79934                                   US     R        9154945174          R                                               AC        P20170830                                     A004106196                  TX                                                                                                                                                                                         Premium Plan   TEACHER - 187 D           TX                                                                                                                                                                                                  01STD          SLH010001120171001     00022000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               abarro010@sisd.net                                                                                                                                   
+|3,0,8,1,1,0,1506630145,>3001
+|<"631369731                         000102743000020185                     BARRON                             ALEXANDER                S                                  19930317MK                                                                                                              4604 LOMA DE COBRE                                                    EL PASO                       TX79934                                   US     R        9154945174          R                       
+|<                        AC        P20170830                                     A004106196                  TX                                                                                                                                                                                         Premium Plan   TEACHER - 187 D           TX                                                                                                                                                        
+|<                                          01STD          SLH010001120171001     00022000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                           
+|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+|<                                                                                                                                                                                                                                                                                                                                                                                                                abarro010@sisd.net                                                                        
+|<                                                           "
 "9	LINE	0
-	   format = "ï‹‰ %degrees Â°C"
-|3,0,9,1,1,0,1504704363,"   format = \"ï‹‰ %degrees Â°C\""
-"d@	CHAR	0
+	3002
+<450795000                         000102743000020185                     ARAUJO                             LILIANA                                                     19830128FK                                                                                                              14020 TIERRA YUKON LN                                                 EL PASO                       TX79938                                   US     R                            R                                               AC        P20170828                                     A004157846                  TX                                                                                                                                                                                         Premium Plan   TEACHER 2ND GRA           TX                                                                                                                                                                                                  01STD          SLH010001120171001     00020000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               LARAUJO04@SISD.NET                                                                                                                                   
+|3,0,9,1,1,0,1506630121,>3001
+|<"450795000                         000102743000020185                     ARAUJO                             LILIANA                                                     19830128FK                                                                                                              14020 TIERRA YUKON LN                                                 EL PASO                       TX79938                                   US     R                            R                       
+|<                        AC        P20170828                                     A004157846                  TX                                                                                                                                                                                         Premium Plan   TEACHER 2ND GRA           TX                                                                                                                                                        
+|<                                          01STD          SLH010001120171001     00020000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                           
+|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+|<                                                                                                                                                                                                                                                                                                                                                                                                                LARAUJO04@SISD.NET                                                                        
+|<                                                           "
+"a@	CHAR	0
+	!
+|3,2,10,0,1,0,1506016147,"!"
+"d	CHAR	0
 	dwbbea p
-|3,2,13,0,1,0,1502807028,"dwbbea p"
+|3,0,13,0,1,0,1502807028,"dwbbea p"
 "e	CHAR	0
 	
 |3,0,14,0,1,0,1500574790,""
@@ -278,6 +305,9 @@ $
 "j	CHAR	0
 	dw2bepua p
 |3,0,19,0,1,0,1502806925,"dw2bepua p"
+"k	CHAR	0
+	
+|3,0,20,0,1,0,1505845083,""
 "l	CHAR	0
 	560
 <llllllllllhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjwi;h€kbismartfa€kb€kbgaps current pf€kb€kboff €kb:wg
@@ -287,6 +317,9 @@ $
 "q	CHAR	0
 	
 |3,0,26,0,1,0,1501530489,""
+"u	CHAR	0
+	hhwi€kb€kbu.
+|3,0,30,0,1,0,1505845046,"hhwi€kb€kbu."
 "w	CHAR	0
 	491
 <€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klxx:w€kd€kr€ku€ku€kuI#:w:w€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdi#A #PID€ku€ku€ku€ku:w€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kda|grep NADA:w€kl€kr€kl€kl€kl€kl€kl€kl€kl€klCawk -f€kbF'€kb €kb '€kb€kb'--no' '{print $1'€kb}':w€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kr€kr€kri €kr :w:w€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klr0:w€kr€klr2:w
@@ -296,355 +329,809 @@ $
 	[&#xf17c;]
 	
 |3,0,34,0,2,0,1495712165,"[&#xf17c;]",""
-"-	CHAR	0
-	vimrc
-|3,0,36,0,1,0,1504744524,"vimrc"
+""-	CHAR	0
+	"ls -alGgh --color=none | awk '{print $3," | " $7}' | column -t"
+|3,1,36,0,1,0,1507311436,"\"ls -alGgh --color=none | awk '{print $3,\" | \" $7}' | column -t\""
 
 # File marks:
-'0  1  22  ~/.config/user-dirs.dirs
-|4,48,1,22,1504831321,"~/.config/user-dirs.dirs"
-'1  72  0  ~/.emacs.d/init.el
-|4,49,72,0,1504769406,"~/.emacs.d/init.el"
-'2  301  60  ~/.config/i3/config
-|4,50,301,60,1504744557,"~/.config/i3/config"
-'3  1  0  ~/.emacs.d/init.el
-|4,51,1,0,1504744556,"~/.emacs.d/init.el"
-'4  1  0  ~/.emacs.d/init.el
-|4,52,1,0,1504744556,"~/.emacs.d/init.el"
-'5  352  3  ~/.config/i3/config
-|4,53,352,3,1504704902,"~/.config/i3/config"
-'6  351  3  ~/.config/i3/config
-|4,54,351,3,1504704902,"~/.config/i3/config"
-'7  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,55,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
-'8  11  6  ~/Data/ArchScripts/youtube_title.sh
-|4,56,11,6,1504704303,"~/Data/ArchScripts/youtube_title.sh"
-'9  1  0  ~/.config/i3/i3status.conf
-|4,57,1,0,1504703628,"~/.config/i3/i3status.conf"
+'0  6  13  ~/.bash_aliases
+|4,48,6,13,1507311450,"~/.bash_aliases"
+'1  11  0  ~/.bash_aliases
+|4,49,11,0,1507311251,"~/.bash_aliases"
+'2  7  0  ~/.bash_aliases
+|4,50,7,0,1507311251,"~/.bash_aliases"
+'3  11  0  ~/.bash_aliases
+|4,51,11,0,1507311108,"~/.bash_aliases"
+'4  7  0  ~/.bash_aliases
+|4,52,7,0,1507311108,"~/.bash_aliases"
+'5  1  0  ~/.config/i3/i3status.conf
+|4,53,1,0,1507310792,"~/.config/i3/i3status.conf"
+'6  12  17  ~/exclude-list.txt
+|4,54,12,17,1507306729,"~/exclude-list.txt"
+'7  19  29  ~/.config/Trolltech.conf
+|4,55,19,29,1507306131,"~/.config/Trolltech.conf"
+'8  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,56,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+'9  1  0  ~/.cache/babl/babl-fishes
+|4,57,1,0,1507305794,"~/.cache/babl/babl-fishes"
 
 # Jumplist (newest first):
--'  1  22  ~/.config/user-dirs.dirs
-|4,39,1,22,1504831321,"~/.config/user-dirs.dirs"
--'  72  0  ~/.emacs.d/init.el
-|4,39,72,0,1504769406,"~/.emacs.d/init.el"
--'  72  0  ~/.emacs.d/init.el
-|4,39,72,0,1504769406,"~/.emacs.d/init.el"
--'  71  0  ~/.emacs.d/init.el
-|4,39,71,0,1504746734,"~/.emacs.d/init.el"
--'  71  0  ~/.emacs.d/init.el
-|4,39,71,0,1504746734,"~/.emacs.d/init.el"
--'  1  0  ~/.emacs.d/init.el
-|4,39,1,0,1504744559,"~/.emacs.d/init.el"
--'  1  0  ~/.emacs.d/init.el
-|4,39,1,0,1504744559,"~/.emacs.d/init.el"
--'  301  60  ~/.config/i3/config
-|4,39,301,60,1504744557,"~/.config/i3/config"
--'  301  60  ~/.config/i3/config
-|4,39,301,60,1504744557,"~/.config/i3/config"
--'  301  60  ~/.config/i3/config
-|4,39,301,60,1504744557,"~/.config/i3/config"
--'  301  60  ~/.config/i3/config
-|4,39,301,60,1504744557,"~/.config/i3/config"
--'  1  0  ~/.emacs.d/init.el
-|4,39,1,0,1504744556,"~/.emacs.d/init.el"
--'  1  0  ~/.emacs.d/init.el
-|4,39,1,0,1504744556,"~/.emacs.d/init.el"
--'  225  13  ~/.config/i3/config
-|4,39,225,13,1504744405,"~/.config/i3/config"
--'  225  13  ~/.config/i3/config
-|4,39,225,13,1504744405,"~/.config/i3/config"
--'  225  13  ~/.config/i3/config
-|4,39,225,13,1504744405,"~/.config/i3/config"
--'  225  13  ~/.config/i3/config
-|4,39,225,13,1504744405,"~/.config/i3/config"
--'  113  30  ~/.config/i3/config
-|4,39,113,30,1504744400,"~/.config/i3/config"
--'  113  30  ~/.config/i3/config
-|4,39,113,30,1504744400,"~/.config/i3/config"
--'  113  30  ~/.config/i3/config
-|4,39,113,30,1504744400,"~/.config/i3/config"
--'  113  30  ~/.config/i3/config
-|4,39,113,30,1504744400,"~/.config/i3/config"
--'  83  12  ~/.config/i3/config
-|4,39,83,12,1504744397,"~/.config/i3/config"
--'  83  12  ~/.config/i3/config
-|4,39,83,12,1504744397,"~/.config/i3/config"
--'  83  12  ~/.config/i3/config
-|4,39,83,12,1504744397,"~/.config/i3/config"
--'  83  12  ~/.config/i3/config
-|4,39,83,12,1504744397,"~/.config/i3/config"
--'  1  7  ~/.config/i3/config
-|4,39,1,7,1504744392,"~/.config/i3/config"
--'  1  7  ~/.config/i3/config
-|4,39,1,7,1504744392,"~/.config/i3/config"
--'  1  7  ~/.config/i3/config
-|4,39,1,7,1504744392,"~/.config/i3/config"
--'  1  7  ~/.config/i3/config
-|4,39,1,7,1504744392,"~/.config/i3/config"
--'  352  3  ~/.config/i3/config
-|4,39,352,3,1504704902,"~/.config/i3/config"
--'  351  3  ~/.config/i3/config
-|4,39,351,3,1504704902,"~/.config/i3/config"
--'  351  3  ~/.config/i3/config
-|4,39,351,3,1504704902,"~/.config/i3/config"
--'  352  3  ~/.config/i3/config
-|4,39,352,3,1504704902,"~/.config/i3/config"
--'  351  3  ~/.config/i3/config
-|4,39,351,3,1504704902,"~/.config/i3/config"
--'  351  3  ~/.config/i3/config
-|4,39,351,3,1504704902,"~/.config/i3/config"
--'  352  3  ~/.config/i3/config
-|4,39,352,3,1504704902,"~/.config/i3/config"
--'  351  3  ~/.config/i3/config
-|4,39,351,3,1504704902,"~/.config/i3/config"
--'  351  3  ~/.config/i3/config
-|4,39,351,3,1504704902,"~/.config/i3/config"
--'  352  3  ~/.config/i3/config
-|4,39,352,3,1504704902,"~/.config/i3/config"
--'  351  3  ~/.config/i3/config
-|4,39,351,3,1504704902,"~/.config/i3/config"
--'  351  3  ~/.config/i3/config
-|4,39,351,3,1504704902,"~/.config/i3/config"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  19  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,19,0,1504704900,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  45  27  ~/.config/i3/i3statusForMusic.conf
-|4,39,45,27,1504704717,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  76  1  ~/.config/i3/i3statusForMusic.conf
-|4,39,76,1,1504704390,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  77  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,77,0,1504704374,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
--'  1  0  ~/.config/i3/i3statusForMusic.conf
-|4,39,1,0,1504704317,"~/.config/i3/i3statusForMusic.conf"
+-'  6  13  ~/.bash_aliases
+|4,39,6,13,1507311450,"~/.bash_aliases"
+-'  8  8  ~/.bash_aliases
+|4,39,8,8,1507311426,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1507311308,"~/.bash_aliases"
+-'  11  0  ~/.bash_aliases
+|4,39,11,0,1507311251,"~/.bash_aliases"
+-'  7  0  ~/.bash_aliases
+|4,39,7,0,1507311251,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1507311137,"~/.bash_aliases"
+-'  7  0  ~/.bash_aliases
+|4,39,7,0,1507311108,"~/.bash_aliases"
+-'  6  14  ~/.bash_aliases
+|4,39,6,14,1507310898,"~/.bash_aliases"
+-'  6  14  ~/.bash_aliases
+|4,39,6,14,1507310898,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1507310796,"~/.bash_aliases"
+-'  1  0  ~/.config/i3/i3status.conf
+|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
+-'  1  0  ~/.config/i3/i3status.conf
+|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
+-'  1  0  ~/.config/i3/i3status.conf
+|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
+-'  1  0  ~/.config/i3/i3status.conf
+|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
+-'  1  0  ~/.config/i3/i3status.conf
+|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
+-'  1  0  ~/.config/i3/i3status.conf
+|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
+-'  1  0  ~/.config/i3/i3status.conf
+|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
+-'  1  0  ~/.config/i3/i3status.conf
+|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  12  17  ~/exclude-list.txt
+|4,39,12,17,1507306729,"~/exclude-list.txt"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  19  29  ~/.config/Trolltech.conf
+|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/Trolltech.conf
+|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
+|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
+-'  3  18  ~/exclude-list.txt
+|4,39,3,18,1507306034,"~/exclude-list.txt"
+-'  3  18  ~/exclude-list.txt
+|4,39,3,18,1507306034,"~/exclude-list.txt"
 
 # History of marks within files (newest to oldest):
 
-> ~/.config/user-dirs.dirs
-	*	1504831320	0
-	"	1	22
-	^	1	23
-	.	1	22
-	+	1	22
-
-> ~/.emacs.d/init.el
-	*	1504746862	0
-	"	72	0
-	^	62	0
-	.	72	0
-	+	44	0
-	+	81	0
-	+	81	13
-	+	81	24
-	+	81	0
-	+	74	0
-	+	46	11
-	+	44	4
-	+	44	5
-	+	46	0
-	+	44	10
-	+	46	0
-	+	47	0
-	+	46	0
-	+	43	0
-	+	48	0
-	+	81	0
-	+	77	0
-	+	76	0
-	+	79	0
-	+	49	12
-	+	76	5
-	+	78	27
-	+	76	0
+> ~/.bash_aliases
+	*	1507311450	0
+	"	6	13
+	^	6	14
+	.	6	13
+	+	1	82
+	+	1	63
+	+	1	62
+	+	1	96
+	+	1	41
+	+	1	42
+	+	1	55
+	+	1	53
+	+	6	0
+	+	3	8
+	+	4	10
+	+	5	10
+	+	4	55
+	+	5	45
+	+	6	45
+	+	1	54
+	+	1	71
+	+	1	90
+	+	1	107
+	+	1	108
+	+	1	121
+	+	1	139
+	+	1	162
+	+	1	189
+	+	1	220
 	+	2	0
-	+	22	0
-	+	19	0
-	+	20	13
-	+	25	0
-	+	30	24
-	+	30	0
-	+	92	0
-	+	81	0
-	+	88	0
-	+	89	0
-	+	81	0
-	+	91	0
-	+	81	0
-	+	92	0
-	+	30	0
-	+	82	0
-	+	83	0
-	+	88	0
-	+	88	28
-	+	88	0
-	+	43	0
-	+	28	0
-	+	30	0
-	+	43	0
-	+	32	0
-	+	84	0
-	+	33	0
-	+	41	0
-	+	30	0
+	+	21	14
+	+	85	0
+	+	27	0
 	+	24	0
-	+	42	33
-	+	51	0
-	+	59	0
-	+	93	0
-	+	30	0
+	+	85	0
+	+	29	0
+	+	28	40
 	+	27	0
 	+	26	0
-	+	27	7
-	+	31	0
-	+	40	0
-	+	45	0
-	+	50	0
-	+	40	12
-	+	45	10
-	+	50	7
-	+	31	10
-	+	58	0
-	+	30	0
-	+	35	0
-	+	58	0
-	+	98	24
-	+	98	0
-	+	53	0
-	+	58	0
-	+	52	0
+	+	27	12
+	+	27	51
+	+	27	0
+	+	27	10
+	+	27	0
 	+	55	0
-	+	58	0
-	+	55	39
-	+	58	0
-	+	56	48
-	+	57	48
-	+	98	0
-	+	35	0
-	+	34	0
-	+	61	0
-	+	60	9
-	+	63	0
+	+	43	36
+	+	44	0
+	+	43	9
+	+	42	4
+	+	43	5
+	+	44	13
+	+	44	50
+	+	44	6
+	+	43	46
+	+	44	67
+	+	55	0
+	+	44	78
+	+	47	0
+	+	48	8
+	+	47	40
+	+	48	41
+	+	46	44
+	+	47	12
+	+	48	11
+	+	53	27
+	+	52	39
+	+	50	23
+	+	51	9
+	+	54	8
+	+	27	0
+	+	59	20
+	+	61	11
+	+	59	4
+	+	60	5
+	+	59	0
+	+	63	5
+	+	44	0
+	+	44	86
+	+	44	2
+	+	44	56
+	+	44	0
+	+	45	76
+	+	44	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	54	0
+	+	43	0
+	+	45	9
+	+	45	108
+	+	50	0
+	+	51	0
+	+	53	37
+	+	44	0
+	+	6	0
+	+	11	0
+	+	6	59
+	+	9	65
+	+	10	0
+	+	8	11
+	+	6	13
+
+> ~/.config/i3/i3status.conf
+	*	1507310787	0
+	"	1	0
+	^	26	1
+	.	26	0
+	+	67	34
+	+	69	21
+	+	69	0
+	+	67	22
+	+	69	0
+	+	68	23
+	+	67	9
+	+	67	12
 	+	68	0
-	+	73	0
-	+	61	0
-	+	63	0
-	+	62	0
+	+	67	15
+	+	68	23
+	+	67	16
+	+	69	0
+	+	68	23
+	+	26	0
+
+> ~/exclude-list.txt
+	*	1507306161	0
+	"	12	17
+	^	4	19
+	.	4	18
+	+	11	28
+	+	9	26
+	+	10	0
+	+	9	30
+	+	14	7
+	+	41	0
+	+	14	8
+	+	14	7
+	+	51	3
+	+	38	0
+	+	18	5
+	+	1	0
+	+	9	0
+	+	1	0
+	+	18	7
+	+	13	5
+	+	20	16
+	+	48	2
+	+	49	13
+	+	52	4
+	+	53	0
+	+	52	5
+	+	38	10
+	+	38	3
+	+	36	7
+	+	36	0
+	+	27	2
+	+	25	7
+	+	20	16
+	+	24	10
+	+	20	0
+	+	23	5
+	+	22	4
+	+	17	5
+	+	15	7
+	+	34	12
+	+	30	12
+	+	29	12
+	+	28	12
+	+	10	0
+	+	42	13
+	+	31	7
+	+	27	5
+	+	26	6
+	+	2	13
+	+	12	17
+	+	2	14
+	+	3	37
+	+	7	10
+	+	8	16
+	+	39	3
+	+	37	0
+	+	40	12
+	+	43	11
+	+	41	0
+	+	44	0
+	+	45	7
+	+	21	3
+	+	35	8
+	+	49	0
+	+	47	10
+	+	32	8
+	+	33	4
+	+	54	0
+	+	51	0
+	+	50	7
+	+	58	4
+	+	19	8
+	+	16	6
+	+	6	17
+	+	6	0
+	+	3	18
+	+	4	18
+
+> ~/.config/Trolltech.conf
+	*	1507306129	0
+	"	19	29
+
+> ~/.config/pcmanfm/default/pcmanfm.conf
+	*	1507306078	0
+	"	1	0
+
+> ~/.cache/babl/babl-fishes
+	*	1507305326	0
+	"	1	0
+
+> ~/.webclipse.properties
+	*	1507305138	0
+	"	1	0
+
+> ~/.gtkrc-2.0
+	*	1507305071	0
+	"	1	0
+
+> ~/.icons/default/index.theme
+	*	1507304991	0
+	"	1	0
+
+> ~/.lesshst
+	*	1507304959	0
+	"	1	0
+
+> /mnt/hda/SharedFolder/TEB/LBL1000__lbl0001i.53127.20170930.txt
+	*	1507236081	0
+	"	1	0
+
+> /mnt/hda/SharedFolder/TEB/LBL1000__lbl0001i.53127.20171005.txt
+	*	1507236081	0
+	"	1	0
+
+> /mnt/hda/SharedFolder/TEB/-MiniBufExplorer-
+	*	1507236081	0
+	"	1	41
+	.	2	0
+	+	2	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/Eli/LBL1000__lbl0001i.53127.20171005.txt
+	*	1507235876	0
+	"	258	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/Eli/LBL1000__lbl0002i.53127.20170921.txt
+	*	1507235814	0
+	"	260	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/Eli/-MiniBufExplorer-
+	*	1507235814	0
+	"	1	41
+	.	2	0
+	+	2	0
+
+> ~/.vimrc
+	*	1507126262	0
+	"	58	0
+	^	86	58
+	.	88	0
+	+	26	0
+	+	18	0
+	+	38	0
+	+	39	0
+	+	39	27
+	+	40	24
+	+	40	0
+	+	39	0
+	+	40	24
+	+	49	0
+	+	49	43
+	+	49	0
+	+	49	21
+	+	50	0
+	+	4	26
+	+	5	0
+	+	6	0
+	+	5	23
+	+	28	0
+	+	27	0
+	+	29	13
+	+	31	0
+	+	39	0
+	+	39	28
+	+	39	29
+	+	43	0
+	+	36	0
+	+	36	12
+	+	43	0
+	+	31	0
+	+	33	0
+	+	36	0
+	+	39	0
+	+	43	0
+	+	44	0
+	+	49	0
+	+	43	0
+	+	32	25
+	+	42	10
+	+	43	0
+	+	42	20
+	+	45	0
+	+	47	0
+	+	49	0
+	+	7	0
+	+	9	0
+	+	16	0
+	+	25	0
+	+	15	17
+	+	27	0
+	+	49	0
+	+	50	0
+	+	51	14
+	+	50	0
+	+	57	0
+	+	50	0
+	+	60	0
+	+	50	0
+	+	55	0
+	+	53	0
+	+	54	18
+	+	57	0
+	+	50	0
+	+	71	0
+	+	50	0
+	+	71	0
+	+	70	0
+	+	77	0
 	+	72	0
-	j	75	0
+	+	78	24
+	+	49	0
+	+	81	0
+	+	104	0
+	+	67	0
+	+	66	0
+	+	69	0
+	+	50	0
+	+	43	10
+	+	43	0
+	+	63	0
+	+	65	0
+	+	64	19
+	+	73	1
+	+	74	0
+	+	76	0
+	+	97	10
+	+	89	47
+	+	89	0
+	+	92	0
+	+	16	0
+	+	92	0
+	+	89	49
+	+	89	0
+	+	90	13
+	+	91	13
+	+	84	0
+	+	85	0
+	+	87	0
+	+	86	57
+	+	88	0
+
+> /mnt/hda/SharedFolder/TEB/ProductionSent/SOCORROISD_PROD_10042017.CSV
+	*	1507125104	0
+	"	271	0
+
+> /mnt/hda/SharedFolder/TEB/ProductionSent/SocorroISD_PROD_09122017.CSV
+	*	1507124690	0
+	"	511	0
+
+> /mnt/hda/SharedFolder/TEB/ProductionSent/-MiniBufExplorer-
+	*	1507124690	0
+	"	1	33
+	.	2	0
+	+	2	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_10042017.CSV
+	*	1507124518	0
+	"	1145	0
+	.	3509	0
+	+	2259	0
+	+	2258	0
+	+	2257	0
+	+	3509	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_09122017.CSV
+	*	1507123922	0
+	"	1109	0
+	^	4634	69
+	.	4634	68
+	+	4634	68
+
+> ~/Data/Programming/EclipseOxygen/aflac/-MiniBufExplorer-
+	*	1507123922	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_10032017.CSV
+	*	1507123424	0
+	"	37	377
+
+> ~/Data/Git/dotfiles/notes/eclipse_notes.md
+	*	1507058714	0
+	"	23	33
+	^	23	34
+	.	23	33
+	+	22	43
+	+	20	9
+	+	24	12
+	+	28	19
+	+	26	0
+	+	24	0
+	+	27	10
+	+	32	21
+	+	33	17
+	+	31	17
+	+	30	18
+	+	31	0
+	+	34	0
+	+	31	22
+	+	23	33
+
+> /etc/pacman.conf
+	*	1507039777	0
+	"	91	0
+	^	77	1
+	.	91	0
+	+	78	0
+	+	76	25
+	+	77	67
+	+	81	0
+	+	83	0
+	+	89	0
+	+	92	0
+	+	91	0
+	+	89	0
+	+	90	0
+	+	81	0
+	+	82	0
+	+	76	0
+	+	77	0
+	+	78	0
+	+	83	0
+	+	91	0
+
+> /etc/systemd/system.conf
+	*	1507033743	0
+	"	16	13
+	^	15	14
+	.	15	13
+	+	15	0
+	+	16	0
+	+	15	13
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170929.txt
+	*	1506712165	0
+	"	2564	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170830.txt
+	*	1506712149	0
+	"	2548	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/-MiniBufExplorer-
+	*	1506712149	0
+	"	1	41
+	.	2	0
+	+	2	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170801.txt
+	*	1506705402	0
+	"	317	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170928.txt
+	*	1506704993	0
+	"	10	785
+	.	265	0
+	+	1	0
+	+	127	0
+	+	216	0
+	+	265	0
+
+> ~/Data/ArchScripts/Notes/iphone_linux.md
+	*	1506655772	0
+	"	30	46
+	^	30	47
+	.	30	46
+	+	16	21
+	+	14	0
+	+	13	6
+	+	13	11
+	+	9	10
+	+	15	0
+	+	17	0
+	+	18	0
+	+	17	17
+	+	18	16
+	+	21	25
+	+	22	0
+	+	22	22
+	+	9	0
+	+	25	16
+	+	28	3
+	+	30	46
+
+> ~/Data/Git/iphone-stuff/idevicerestore/configure
+	*	1506649833	0
+	"	12173	54
+
+> ~/Data/Git/iphone-stuff/idevicerestore/config
+	*	1506649505	0
+	"	1	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170913.txt
+	*	1506629829	0
+	"	1	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170915.txt
+	*	1506629792	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/jj
+	*	1506627699	0
+	"	1	0
+	^	1	32
+	.	1	0
+	+	4	27
+	+	3	28
+	+	4	44
+	+	6	63
+	+	7	0
+	+	5	0
+	+	7	18
+	+	9	0
+	+	1	65
+	+	10	0
+	+	2	39
+	+	9	38
+	+	11	8
+	+	12	64
+	+	13	48
+	+	14	19
+	+	16	0
+	+	15	8
+	+	8	30
+	+	16	44
+	+	16	0
+	+	19	10
+	+	17	17
+	+	18	15
+	+	16	0
+	+	21	31
+	+	20	0
+	+	16	0
+	+	14	11
+	+	2	0
+	+	1	33
+	+	1	32
+	+	1	0
 
 > ~/.config/i3/config
-	*	1504744544	0
-	"	301	60
-	^	301	61
-	.	301	60
-	+	278	45
-	+	279	95
+	*	1506619170	0
+	"	353	2
+	^	352	4
+	.	353	2
 	+	281	0
 	+	283	0
 	+	257	0
@@ -743,8 +1230,279 @@ $
 	+	300	0
 	+	302	0
 	+	301	60
+	+	352	3
+	+	353	2
 	g	106	27
 	m	106	27
+
+> ~/-MiniBufExplorer-
+	*	1506614453	0
+	"	1	25
+	.	2	0
+	+	2	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.53127.20170915.txt
+	*	1506529678	0
+	"	29	785
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.53127.20170921.txt
+	*	1506520180	0
+	"	29	785
+
+> ~/transcript.txt
+	*	1506353172	0
+	"	1	0
+	^	104	108
+	.	1	0
+	+	3	182
+	+	4	229
+	+	4	96
+	+	6	173
+	+	7	213
+	+	9	209
+	+	16	174
+	+	17	0
+	+	16	124
+	+	17	129
+	+	19	173
+	+	21	185
+	+	23	23
+	+	22	99
+	+	25	174
+	+	26	221
+	+	30	7
+	+	28	177
+	+	33	164
+	+	34	216
+	+	36	158
+	+	39	167
+	+	40	109
+	+	42	181
+	+	46	51
+	+	45	51
+	+	45	175
+	+	46	105
+	+	57	0
+	+	56	2
+	+	57	9
+	+	57	10
+	+	60	0
+	+	104	107
+	+	1	0
+
+> /usr/bin/firefox
+	*	1506257887	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	11
+
+> ~/Data/ArchScripts/mount_usb2.sh
+	*	1506103564	0
+	"	4	40
+	.	4	40
+	+	4	40
+
+> ~/Data/ArchScripts/mount_usb.sh
+	*	1506103366	0
+	"	1	0
+	^	4	53
+	.	4	52
+	+	1	11
+	+	3	21
+	+	4	10
+	+	4	52
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.53127.20170920.txt
+	*	1506016005	0
+	"	42	1082
+	^	9	1
+	.	1	0
+	+	6	0
+	+	1	0
+
+> ~/Data/TEB/cigna_elizario.csv
+	*	1506015248	0
+	"	133	42
+	^	113	115
+	.	113	114
+	+	50	0
+	+	41	106
+	+	89	121
+	+	113	114
+
+> ~/.local/bin/firewwall-nointernet
+	*	1505999393	0
+	"	2	26
+	^	2	27
+	.	2	26
+	+	2	26
+
+> ~/.emacs.d/init.el
+	*	1505859199	0
+	"	67	16
+	^	67	17
+	.	67	16
+	+	45	0
+	+	50	0
+	+	40	12
+	+	45	10
+	+	50	7
+	+	31	10
+	+	58	0
+	+	30	0
+	+	35	0
+	+	58	0
+	+	137	24
+	+	137	0
+	+	53	0
+	+	58	0
+	+	52	0
+	+	55	0
+	+	58	0
+	+	55	39
+	+	58	0
+	+	56	48
+	+	57	48
+	+	137	0
+	+	35	0
+	+	34	0
+	+	71	0
+	+	70	9
+	+	73	0
+	+	78	0
+	+	85	0
+	+	71	0
+	+	73	0
+	+	72	0
+	+	82	0
+	+	83	0
+	+	60	0
+	+	59	0
+	+	61	23
+	+	62	29
+	+	63	17
+	+	60	16
+	+	65	0
+	+	105	0
+	+	106	2
+	+	107	2
+	+	108	2
+	+	106	0
+	+	107	0
+	+	108	0
+	+	109	0
+	+	110	1
+	+	111	1
+	+	112	1
+	+	115	1
+	+	115	22
+	+	115	21
+	+	133	0
+	+	132	0
+	+	115	20
+	+	115	24
+	+	106	0
+	+	107	0
+	+	115	23
+	+	132	0
+	+	117	0
+	+	104	33
+	+	117	1
+	+	128	0
+	+	127	4
+	+	123	50
+	+	123	48
+	+	123	15
+	+	126	0
+	+	123	15
+	+	125	1
+	+	124	1
+	+	123	4
+	+	122	3
+	+	121	0
+	+	120	0
+	+	119	0
+	+	125	1
+	+	124	4
+	+	126	1
+	+	125	2
+	+	126	2
+	+	125	3
+	+	129	0
+	+	130	0
+	+	131	0
+	+	130	0
+	+	131	0
+	+	130	0
+	+	118	0
+	+	65	11
+	+	66	25
+	+	68	0
+	+	66	19
+	+	67	16
+	j	87	0
+
+> ~/Data/ArchScripts/install_i3.sh
+	*	1505838007	0
+	"	3	0
+
+> /mnt/hda/SharedFolder/TEB/LBL1000__lbl0002i.53127.20170915.txt
+	*	1505742354	0
+	"	230	11
+	^	210	12
+	.	210	12
+	+	68	0
+	+	29	527
+	+	29	0
+	+	29	527
+	+	257	8
+	+	210	12
+
+> /mnt/hda/SharedFolder/TEB/LBL1000__lbl0002i.53127.20170913.txt
+	*	1505739773	0
+	"	230	11
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.47666.20170910.txt
+	*	1505505307	0
+	"	1	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170910.txt
+	*	1505505284	0
+	"	1	0
+	^	257	34
+	.	257	33
+	+	2	0
+	+	257	8
+	+	258	0
+	+	257	33
+
+> /usr/share/applications/vim.desktop
+	*	1505495372	0
+	"	9	11
+	^	9	34
+	.	9	33
+	+	1	0
+	+	9	33
+
+> /usr/share/applications/vi
+	*	1505495243	0
+	"	1	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SocorroISD_PROD_08082017.CSV
+	*	1505243554	0
+	"	5206	0
+
+> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08302017.CSV
+	*	1505241570	0
+	"	4547	68
+
+> ~/.config/user-dirs.dirs
+	*	1504831320	0
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
 
 > ~/.config/i3/i3statusForMusic.conf
 	*	1504704884	0
@@ -859,133 +1617,6 @@ $
 	+	7	10
 	+	11	6
 
-> ~/.bash_aliases
-	*	1504703624	0
-	"	1	0
-	^	45	109
-	.	45	108
-	+	85	0
-	+	85	2
-	+	85	9
-	+	85	8
-	+	85	9
-	+	85	0
-	+	85	6
-	+	85	0
-	+	85	1
-	+	85	0
-	+	1	41
-	+	1	82
-	+	1	63
-	+	1	62
-	+	1	96
-	+	1	41
-	+	1	42
-	+	1	55
-	+	1	53
-	+	7	0
-	+	3	8
-	+	4	10
-	+	5	10
-	+	4	55
-	+	5	45
-	+	6	45
-	+	1	54
-	+	1	71
-	+	1	90
-	+	1	107
-	+	1	108
-	+	1	121
-	+	1	139
-	+	1	162
-	+	1	189
-	+	1	220
-	+	2	0
-	+	17	14
-	+	85	0
-	+	23	0
-	+	20	0
-	+	85	0
-	+	25	0
-	+	24	40
-	+	23	0
-	+	22	0
-	+	23	12
-	+	23	51
-	+	23	0
-	+	23	10
-	+	23	0
-	+	55	0
-	+	39	36
-	+	41	0
-	+	39	9
-	+	38	4
-	+	39	5
-	+	40	13
-	+	41	50
-	+	42	6
-	+	39	46
-	+	41	67
-	+	55	0
-	+	42	78
-	+	47	0
-	+	48	8
-	+	47	40
-	+	48	41
-	+	46	44
-	+	47	12
-	+	48	11
-	+	53	27
-	+	52	39
-	+	50	23
-	+	51	9
-	+	54	8
-	+	23	0
-	+	59	20
-	+	61	11
-	+	59	4
-	+	60	5
-	+	59	0
-	+	63	5
-	+	41	0
-	+	44	86
-	+	43	2
-	+	44	56
-	+	44	0
-	+	45	76
-	+	44	0
-	+	46	0
-	+	47	0
-	+	48	0
-	+	50	0
-	+	51	0
-	+	52	0
-	+	54	0
-	+	39	0
-	+	45	9
-	+	45	108
-
-> ~/.config/i3/i3status.conf
-	*	1504703623	0
-	"	1	0
-	^	26	1
-	.	26	0
-	+	67	34
-	+	69	21
-	+	69	0
-	+	67	22
-	+	69	0
-	+	68	23
-	+	67	9
-	+	67	12
-	+	68	0
-	+	67	15
-	+	68	23
-	+	67	16
-	+	69	0
-	+	68	23
-	+	26	0
-
 > /tmp/vimgolf20170904-3551-25okg3.input
 	*	1504489717	0
 	"	1	0
@@ -993,12 +1624,6 @@ $
 > ~/.vimgolf/put/596ba8373e3dd71412000004.output.output
 	*	1504489715	0
 	"	1	0
-
-> ~/-MiniBufExplorer-
-	*	1504489715	0
-	"	1	38
-	.	2	0
-	+	2	0
 
 > ~/Data/Programming/C/book/1.5.2-Character-Counting.c
 	*	1504484944	0
@@ -1185,112 +1810,6 @@ $
 	+	14	35
 	+	15	22
 
-> ~/.vimrc
-	*	1504135854	0
-	"	41	0
-	^	86	58
-	.	86	57
-	+	49	42
-	+	26	0
-	+	18	0
-	+	38	0
-	+	39	0
-	+	39	27
-	+	40	24
-	+	40	0
-	+	39	0
-	+	40	24
-	+	49	0
-	+	49	43
-	+	49	0
-	+	49	21
-	+	50	0
-	+	4	26
-	+	5	0
-	+	6	0
-	+	5	23
-	+	28	0
-	+	27	0
-	+	29	13
-	+	31	0
-	+	39	0
-	+	39	28
-	+	39	29
-	+	43	0
-	+	36	0
-	+	36	12
-	+	43	0
-	+	31	0
-	+	33	0
-	+	36	0
-	+	39	0
-	+	43	0
-	+	44	0
-	+	49	0
-	+	43	0
-	+	32	25
-	+	42	10
-	+	43	0
-	+	42	20
-	+	45	0
-	+	47	0
-	+	49	0
-	+	7	0
-	+	9	0
-	+	16	0
-	+	25	0
-	+	15	17
-	+	27	0
-	+	49	0
-	+	50	0
-	+	51	14
-	+	50	0
-	+	57	0
-	+	50	0
-	+	60	0
-	+	50	0
-	+	55	0
-	+	53	0
-	+	54	18
-	+	57	0
-	+	50	0
-	+	71	0
-	+	50	0
-	+	71	0
-	+	70	0
-	+	77	0
-	+	72	0
-	+	78	24
-	+	49	0
-	+	81	0
-	+	104	0
-	+	67	0
-	+	66	0
-	+	69	0
-	+	50	0
-	+	43	10
-	+	43	0
-	+	63	0
-	+	65	0
-	+	64	19
-	+	73	1
-	+	74	0
-	+	76	0
-	+	97	10
-	+	88	47
-	+	89	0
-	+	92	0
-	+	16	0
-	+	92	0
-	+	89	49
-	+	89	0
-	+	90	13
-	+	91	13
-	+	84	0
-	+	85	0
-	+	87	0
-	+	86	57
-
 > ~/.config/conky/conkyrc_swag
 	*	1504135123	0
 	"	1	0
@@ -1303,115 +1822,9 @@ $
 	.	5	0
 	+	5	0
 
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170801.txt
-	*	1504124727	0
-	"	2502	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170830.txt
-	*	1504124725	0
-	"	2548	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/-MiniBufExplorer-
-	*	1504116872	0
-	"	1	0
-	.	2	0
-	+	2	0
-
-> ~/Data/ArchScripts/mount_usb.sh
-	*	1504042049	0
-	"	4	52
-	^	4	53
-	.	4	52
-	+	1	11
-	+	3	21
-	+	4	10
-	+	4	52
-
 > ~/Data/ArchScripts/install_mupdf.sh
 	*	1504034509	0
 	"	1	0
-
-> ~/exclude-list.txt
-	*	1503950330	0
-	"	13	6
-	^	13	7
-	.	13	6
-	+	8	28
-	+	6	26
-	+	7	0
-	+	6	30
-	+	11	7
-	+	38	0
-	+	11	8
-	+	11	7
-	+	48	3
-	+	35	0
-	+	15	5
-	+	1	0
-	+	6	0
-	+	1	0
-	+	15	7
-	+	10	5
-	+	17	16
-	+	45	2
-	+	46	13
-	+	49	4
-	+	50	0
-	+	49	5
-	+	35	10
-	+	35	3
-	+	33	7
-	+	33	0
-	+	24	2
-	+	22	7
-	+	17	16
-	+	21	10
-	+	17	0
-	+	20	5
-	+	19	4
-	+	14	5
-	+	12	7
-	+	31	12
-	+	27	12
-	+	26	12
-	+	25	12
-	+	7	0
-	+	39	13
-	+	28	7
-	+	24	5
-	+	23	6
-	+	2	13
-	+	9	17
-	+	2	14
-	+	3	19
-	+	4	10
-	+	5	16
-	+	36	3
-	+	34	0
-	+	37	12
-	+	40	11
-	+	38	0
-	+	41	0
-	+	42	7
-	+	18	3
-	+	32	8
-	+	46	0
-	+	44	10
-	+	29	8
-	+	30	4
-	+	51	0
-	+	48	0
-	+	47	7
-	+	55	4
-	+	16	8
-	+	13	6
-
-> /usr/bin/firefox
-	*	1503889490	0
-	"	2	10
-	^	2	11
-	.	2	10
-	+	2	10
 
 > ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08142017.CSV
 	*	1503594558	0
@@ -1436,12 +1849,6 @@ $
 	^	5191	23
 	.	5191	0
 	+	5191	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/-MiniBufExplorer-
-	*	1503594556	0
-	"	1	33
-	.	2	0
-	+	2	0
 
 > ~/Data/Notes/firefox_config.md
 	*	1502898122	0
@@ -1586,28 +1993,6 @@ $
 	*	1502743477	0
 	"	46	0
 
-> ~/Data/Git/dotfiles/notes/eclipse_notes.md
-	*	1502732708	0
-	"	30	0
-	^	29	19
-	.	30	0
-	+	22	43
-	+	20	9
-	+	23	12
-	+	27	19
-	+	25	0
-	+	23	0
-	+	26	10
-	+	31	21
-	+	32	17
-	+	30	17
-	+	29	18
-	+	30	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SocorroISD_PROD_08082017.CSV
-	*	1502725182	0
-	"	2246	31
-
 > ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08112017.CSV
 	*	1502720603	0
 	"	6295	22
@@ -1666,381 +2051,3 @@ $
 > ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
 	*	1502667909	0
 	"	1	0
-
-> ~/.cache/pacaur/notes/PKGBUILD
-	*	1502667591	0
-	"	1	0
-	.	3	9
-	+	3	9
-
-> /usr/share/applications/notes.desktop
-	*	1502667271	0
-	"	9	0
-	.	10	0
-	+	10	0
-
-> /usr/bin/notes
-	*	1502667004	0
-	"	1	0
-
-> ~/Data/Git/wolfst/config.h
-	*	1502658634	0
-	"	2	0
-
-> ~/Data/Git/deleteme/st-scrollback-mouse-20170427-5a10aca.diff
-	*	1502657638	0
-	"	19	0
-
-> ~/Data/Git/st/st-scrollback-mouse-20170427-5a10aca.diff
-	*	1502657321	0
-	"	389	1
-	.	2	0
-	+	1	0
-	+	2	0
-
-> /etc/asound.conf
-	*	1502654243	0
-	"	1	0
-
-> /etc/asound.con
-	*	1502654240	0
-	"	1	0
-
-> ~/Data/Git/dotfiles/notes/st_config.md
-	*	1502643101	0
-	"	42	194
-	^	42	195
-	.	42	194
-	+	42	194
-
-> ~/Data/Notes/dmenu_config.md
-	*	1502627210	0
-	"	15	58
-	^	15	59
-	.	15	58
-	+	15	58
-
-> ~/Data/Notes/git.md
-	*	1502626912	0
-	"	1	0
-
-> ~/Data/Notes/libinput_config.md
-	*	1502626881	0
-	"	1	0
-
-> /usr/local/bin/st
-	*	1502626809	0
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
-
-> /usr/local/st
-	*	1502626787	0
-	"	1	0
-
-> ~/Data/Git/st/TODO
-	*	1502626698	0
-	"	1	0
-
-> /opt/vagrant/bin/vagrant
-	*	1502586889	0
-	"	1	0
-
-> /usr/bin/firefoxNoAudio
-	*	1502469619	0
-	"	1	0
-
-> ~/Data/Programming/EclipseOxygen/teb_aflac/SOCORROISD_TEST_08112017.CSV
-	*	1502464698	0
-	"	3971	347
-
-> ~/Data/Programming/EclipseOxygen/teb_aflac/SOCORROISD_TEST_08032017.CSV
-	*	1502463597	0
-	"	3970	347
-	^	4742	81
-	.	1863	0
-	+	135	0
-	+	4344	0
-	+	5172	1
-	+	2260	0
-	+	4716	0
-	+	181	0
-	+	1863	0
-	+	1852	5
-	+	1863	0
-
-> ~/Data/Programming/EclipseOxygen/teb_aflac/-MiniBufExplorer-
-	*	1502463597	0
-	"	1	33
-	.	2	0
-	+	2	0
-
-> ~/Data/ArchScripts/install_programs.sh
-	*	1502459922	0
-	"	55	30
-	^	55	31
-	.	55	30
-	+	72	33
-	+	29	26
-	+	55	0
-	+	56	0
-	+	72	0
-	+	40	0
-	+	41	10
-	+	72	0
-	+	42	0
-	+	72	0
-	+	55	0
-	+	56	0
-	+	72	0
-	+	44	0
-	+	72	0
-	+	46	0
-	+	57	18
-	+	64	0
-	+	60	0
-	+	72	0
-	+	66	0
-	+	72	0
-	+	68	0
-	+	70	0
-	+	48	0
-	+	57	32
-	+	50	26
-	+	51	32
-	+	27	6
-	+	94	0
-	+	74	0
-	+	90	0
-	+	82	0
-	+	74	30
-	+	77	23
-	+	78	30
-	+	83	24
-	+	84	23
-	+	85	30
-	+	79	30
-	+	80	38
-	+	55	0
-	+	52	21
-	+	53	24
-	+	45	34
-	+	38	27
-	+	39	33
-	+	36	25
-	+	37	31
-	+	58	20
-	+	59	27
-	+	36	26
-	+	37	37
-	+	36	0
-	+	34	21
-	+	35	27
-	+	75	45
-	+	76	10
-	+	24	24
-	+	17	44
-	+	18	29
-	+	24	24
-	+	19	33
-	+	32	33
-	+	33	39
-	+	30	20
-	+	31	26
-	+	86	31
-	+	87	39
-	+	5	140
-	+	87	0
-	+	90	0
-	+	88	27
-	+	89	33
-	+	21	31
-	+	22	32
-	+	24	24
-	+	23	48
-	+	24	24
-	+	25	0
-	+	53	0
-	+	54	19
-	+	55	0
-	+	56	0
-	+	55	0
-	+	56	0
-	+	55	30
-
-> /mnt/hda/Vagrant/Vagrantfile
-	*	1502459670	0
-	"	1	0
-	.	11	0
-	+	8	0
-	+	11	0
-	+	9	2
-	+	10	3
-	+	11	0
-
-> ~/Data/Programming/EclipseOxygen/teb_aflac/SOCORROISD_TEST_06222017.CSV
-	*	1502223445	0
-	"	1888	0
-	.	5242	0
-	+	5242	0
-
-> ~/Data/TEB/Aflac-all-beneficiaries.csv
-	*	1502218302	0
-	"	9	0
-
-> ~/Data/TEB/Aflac-all_employees2.csv
-	*	1502216627	0
-	"	525	222
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.47666.DATE.txt
-	*	1501858169	0
-	"	2491	2864
-
-> /etc/fstab
-	*	1501855989	0
-	"	14	46
-	^	14	47
-	.	14	46
-	+	8	39
-	+	9	0
-	+	9	5
-	+	9	0
-	+	9	41
-	+	9	74
-	+	10	0
-	+	14	25
-	+	17	5
-	+	17	41
-	+	17	0
-	+	9	90
-	+	17	0
-	+	14	20
-	+	9	44
-	+	17	0
-	+	14	61
-	+	14	62
-	+	14	55
-	+	6	0
-	+	7	0
-	+	10	0
-	+	11	5
-	+	14	0
-	+	10	22
-	+	14	3
-	+	11	41
-	+	14	0
-	+	11	45
-	+	8	40
-	+	10	0
-	+	9	0
-	+	9	8
-	+	10	1
-	+	9	0
-	+	8	24
-	+	7	0
-	+	8	0
-	+	8	16
-	+	8	22
-	+	7	38
-	+	14	0
-	+	16	0
-	+	14	61
-	+	13	28
-	+	11	49
-	+	14	0
-	+	15	0
-	+	14	46
-
-> /usr/lib/firefox/firefox
-	*	1501724226	0
-	"	1	0
-
-> ~/temp/LBL1000__lbl0001i.47666.20170801.txt
-	*	1501697481	0
-	"	2389	108
-
-> ~/temp/LBL1000__lbl0001i.47666.20170601.txt
-	*	1501697009	0
-	"	2402	108
-
-> ~/temp/-MiniBufExplorer-
-	*	1501696862	0
-	"	1	41
-	.	2	0
-	+	2	0
-
-> ~/Data/ArchScripts/install_networkmanager.sh
-	*	1501696838	0
-	"	1	0
-
-> ~/Data/ArchScripts/install_pacaur_pkg.sh
-	*	1501696837	0
-	"	1	0
-
-> ~/Data/ArchScripts/display_colors.sh
-	*	1501696836	0
-	"	1	0
-
-> ~/Data/ArchScripts/install_fonts.sh
-	*	1501696836	0
-	"	1	0
-
-> ~/Data/ArchScripts/install_i3.sh
-	*	1501696836	0
-	"	1	0
-
-> ~/Data/ArchScripts/-MiniBufExplorer-
-	*	1501696834	0
-	"	1	82
-	.	2	0
-	+	2	0
-
-> ~/Data/ArchScripts/install_pacaur.sh
-	*	1501696831	0
-	"	1	0
-
-> ~/Data/ArchScripts/run_vim_from_i3.sh
-	*	1501696831	0
-	"	1	0
-
-> ~/Data/ArchScripts/switch_netctl.sh
-	*	1501696831	0
-	"	1	0
-
-> ~/dreamstatemusic.md
-	*	1501696820	0
-	"	12	0
-	^	12	0
-	.	12	0
-	+	11	19
-	+	17	25
-	+	16	13
-	+	1	44
-	+	6	9
-	+	9	28
-	+	7	14
-	+	18	0
-	+	19	0
-	+	1	30
-	+	1	0
-	+	12	0
-
-> ~/1
-	*	1501696805	0
-	"	1	0
-
-> ~/[Vundle] Installer
-	*	1501696715	0
-	"	9	0
-	.	1	0
-	+	25	0
-	+	17	0
-	+	9	0
-	+	1	0
-
-> ~/[Vundle] clean
-	*	1501695369	0
-	"	3	0
-	.	1	0
-	+	1	0

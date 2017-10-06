@@ -1,6 +1,9 @@
 .config/vivald*
 .config/oomox*
+.config/Awesomeness
 .config/dolphin-emu
+.config/galculator
+.config/pulse/
 .config/mpv
 .config/smplayer/
 .config/transmission/blocklists
@@ -14,9 +17,12 @@
 .cache
 .eclipse
 .electron
+.emacs.d/auto*
+.emacs.d/elpa/*
 .esd_auth
 .gem
 .git-credentials
+.gnome/
 .gnupg
 .icons
 .java
@@ -31,6 +37,7 @@
 .nv
 .packer.d
 .pki
+.qmmp
 .RecordEditor
 .scenebuilder
 .ssh

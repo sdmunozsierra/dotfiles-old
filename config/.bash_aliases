@@ -3,7 +3,11 @@
 alias la="ls -A"
 alias ll="ls -alF"
 alias l="ls -CF"
+alias lss=LSS;
 
+function LSS(){
+		ls -alGgh --color=none | awk '{print $3, " | " $7}' | column -t
+}
 
 #cd Commands 
 alias cd..="cd .."
@@ -37,20 +41,16 @@ alias matrix="cmatrix -bu 7 -C "
 gitBackup(){
 	cd ~
 #	cp -v .bash* ~/Data/Git/dotfiles/bash/ 		#Bash
-	cd .Android*
-#	cp -rv config ~/Data/Git/dotfiles/androidstudio2.3/ 	#AndroidStudio
-	cd ..
-# 	cp -rv .config ~/Data/Git/dotfiles/all_backup/ 	#Backup all config files
 #	rsync -av --progress .config ~/Data/Git/dotfiles/config/ --exclude .config/vivald*
 	rsync -av --exclude-from='/home/keanue/exclude-list.txt' /home/keanue/ /home/keanue/Data/Git/dotfiles/config
 #	cp -v .vimrc ~/Data/Git/dotfiles/vim/ 		#vim
 #	cp -v .Xauth* ~/Data/Git/dotfiles/x/ 		#Xaut
 #	cp -v .xini* ~/Data/Git/dotfiles/x/ 		#xinit
 	echo "Backup finished"
-#	cd ~/Data/Git/dotfiles/
+	cd ~/Data/Git/dotfiles/
 #	git add *
 #	git commit -m "Backup all config files"
-	echo "Remember to Git push"
+	echo "Remember to Git add commit and push"
 #	git push
 }
 

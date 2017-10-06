@@ -349,8 +349,8 @@ client.urgent           #000000 #000000 #ffffff #000000
  
 bar {
  	position 	top
-  	status_command ~/Data/ArchScripts/youtube_title.sh 
- 	#status_command 	i3status -c ~/.config/i3/i3status.conf
+  	#status_command ~/Data/ArchScripts/youtube_title.sh 
+ 	status_command 	i3status -c ~/.config/i3/i3status.conf
 	#tray_output primary
 
 	font pango:Gidole Regular 14

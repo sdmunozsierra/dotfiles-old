@@ -1,3 +1,3 @@
-2017/09/06-13:04:36.538 28982 Reusing MANIFEST /home/keanue/.config/Simplenote/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2017/09/06-13:04:36.538 28982 Recovering log #3
-2017/09/06-13:04:36.541 28982 Reusing old log /home/keanue/.config/Simplenote/IndexedDB/file__0.indexeddb.leveldb/000003.log 
+2017/10/05-07:37:54.500 3120 Reusing MANIFEST /home/keanue/.config/Simplenote/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2017/10/05-07:37:54.500 3120 Recovering log #3
+2017/10/05-07:37:54.516 3120 Reusing old log /home/keanue/.config/Simplenote/IndexedDB/file__0.indexeddb.leveldb/000003.log 

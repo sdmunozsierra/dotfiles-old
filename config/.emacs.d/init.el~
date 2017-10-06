@@ -12,7 +12,9 @@
    (quote
     ("0cd56f8cd78d12fc6ead32915e1c4963ba2039890700458c13e12038ec40f6f5" default)))
  '(inhibit-startup-screen t)
- '(package-selected-packages (quote (helm-R helm powerline-evil ace-window evil ##))))
+ '(package-selected-packages
+   (quote
+    (auto-complete helm-R helm powerline-evil ace-window evil ##))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -56,6 +58,20 @@
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
 (helm-mode 1)
+
+;;; nlinum
+;(require 'linum)
+
+;; Preset `nlinum-format' for minimum width.
+(defun my-nlinum-mode-hook ()
+  (when nlinum-mode
+    (setq-local nlinum-format
+                (concat "%" (number-to-string
+                             ;; Guesstimate number of buffer lines.
+                             (ceiling (log (max 1 (/ (buffer-size) 80)) 10)))
+                        "d"))))
+(add-hook 'nlinum-mode-hook #'my-nlinum-mode-hook)
+(add-hook 'prog-mode-hook 'linum-mode)
 
 ;;;;;;;;;;;;;;;;;;;;
 ;;;;; Settings ;;;;;
