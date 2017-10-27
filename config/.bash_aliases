@@ -54,6 +54,11 @@ gitBackup(){
 #	git push
 }
 
+gitBackupTest(){
+	cd ~
+	rsync -av --exclude-from='/home/keanue/exclude-list.txt' /home/keanue/ /home/keanue/temp/test
+}
+
 #Debug st
 debugSt(){
 	sudo rm -r deleteme

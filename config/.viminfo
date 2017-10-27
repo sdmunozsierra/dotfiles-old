@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Hous
+~MSle0~/bar
 
 # Last Substitute Search Pattern:
 ~MSle0&5294E2
@@ -21,21 +21,43 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1507311450,,"q"
+|2,0,1509072173,,"q"
 :w
-|2,0,1507311448,,"w"
+|2,0,1509069530,,"w"
+:wq
+|2,0,1509068525,,"wq"
+:W
+|2,0,1509068327,,"W"
+:open
+|2,0,1509046266,,"open"
+:Q
+|2,0,1509045100,,"Q"
+:1
+|2,0,1509039698,,"1"
 :q!
-|2,0,1507310792,,"q!"
+|2,0,1509010295,,"q!"
+:w !sudo tee > /dev/null %
+|2,0,1508975908,,"w !sudo tee > /dev/null %"
+:pwd
+|2,0,1508853206,,"pwd"
 :qa!
-|2,0,1507306131,,"qa!"
+|2,0,1507756767,,"qa!"
+:wqa
+|2,0,1507507207,,"wqa"
+:bp
+|2,0,1507494348,,"bp"
+:p
+|2,0,1507494347,,"p"
+:sp llist.c
+|2,0,1507494238,,"sp llist.c"
+:open 
+|2,0,1507494217,,"open "
+:sp llist.h
+|2,0,1507493926,,"sp llist.h"
+:sp
+|2,0,1507493907,,"sp"
 :'<,'>qa!
 |2,0,1507124518,,"'<,'>qa!"
-:wq
-|2,0,1507059780,,"wq"
-:W
-|2,0,1507058713,,"W"
-:w !sudo tee > /dev/null %
-|2,0,1507039774,,"w !sudo tee > /dev/null %"
 :w jj
 |2,0,1506359178,,"w jj"
 :%s/seisd.ent/sesid.net
@@ -66,10 +88,6 @@ $
 |2,0,1505083912,,"'<,'>qa"
 :vsp
 |2,0,1504484483,,"vsp"
-:sp
-|2,0,1504484462,,"sp"
-:Q
-|2,0,1504137695,,"Q"
 :wa
 |2,0,1504042047,,"wa"
 :colo badwolf
@@ -102,26 +120,38 @@ $
 |2,0,1501696498,,"bdelete display_colors.sh"
 :vsp install_pacaur.sh
 |2,0,1501696018,,"vsp install_pacaur.sh"
-:sp dreamstatemusic.md
-|2,0,1501695442,,"sp dreamstatemusic.md"
-:O new.txt
-|2,0,1501695423,,"O new.txt"
-:o
-|2,0,1501695412,,"o"
-:nO nded
-|2,0,1501695410,,"nO nded"
-:O /data
-|2,0,1501695402,,"O /data"
-:O dreams
-|2,0,1501695388,,"O dreams"
-:PluginClean
-|2,0,1501695350,,"PluginClean"
-:PlufinL
-|2,0,1501695316,,"PlufinL"
-:PluginList
-|2,0,1501695280,,"PluginList"
 
 # Search String History (newest to oldest):
+?/bar
+|2,1,1509034253,47,"bar"
+??2
+|2,1,1509012469,63,"2"
+??1
+|2,1,1509012081,63,"1"
+??Do
+|2,1,1509011868,63,"Do"
+??bar
+|2,1,1509010259,63,"bar"
+?/window
+|2,1,1509010249,47,"window"
+?/mul
+|2,1,1508975208,47,"mul"
+?/MUL
+|2,1,1508975205,47,"MUL"
+?/Mul
+|2,1,1508975202,47,"Mul"
+?/GR
+|2,1,1508974982,47,"GR"
+?/multi
+|2,1,1508973563,47,"multi"
+?/trip
+|2,1,1508933777,47,"trip"
+?/ytip
+|2,1,1508933772,47,"ytip"
+?/stack
+|2,1,1508849625,47,"stack"
+??comm
+|2,1,1507496228,63,"comm"
 ?/Hous
 |2,1,1507235835,47,"Hous"
 ? \<628261895\>
@@ -156,8 +186,6 @@ $
 |2,1,1506649657,47,"recover"
 ?/resto
 |2,1,1506649606,47,"resto"
-?/bar
-|2,1,1506619158,47,"bar"
 ?//bar
 |2,1,1506619155,47,"/bar"
 ? @$
@@ -194,34 +222,6 @@ $
 |2,1,1506014876,47,",net"
 ?/2105
 |2,1,1506011183,47,"2105"
-?/req
-|2,1,1505845815,47,"req"
-? \<setq\>
-|2,1,1505844844,,"\\<setq\\>"
-?/Vale
-|2,1,1505922130,47,"Vale"
-?/valeri
-|2,1,1505922077,47,"valeri"
-?/Wik
-|2,1,1505741260,47,"Wik"
-?/Wi
-|2,1,1505741216,47,"Wi"
-?/000
-|2,1,1505741213,47,"000"
-??Brooks
-|2,1,1505740880,63,"Brooks"
-?/BENE
-|2,1,1505243571,47,"BENE"
-??Hous
-|2,1,1505241710,63,"Hous"
-?/Hou
-|2,1,1505241698,47,"Hou"
-?/BENE,CRIT,C
-|2,1,1505241588,47,"BENE,CRIT,C"
-?/BENE,CRIT,A
-|2,1,1505241412,47,"BENE,CRIT,A"
-??BENE,CRIT,C
-|2,1,1505241374,63,"BENE,CRIT,C"
 
 # Expression History (newest to oldest):
 =p
@@ -235,61 +235,36 @@ $
 
 # Registers:
 "0	LINE	0
-	.config/Awesomeness
-|3,0,0,1,1,0,1507306141,".config/Awesomeness"
+	GCC_DIR= /opt/ti/msp430_gcc/bin
+|3,0,0,1,1,0,1509066410,"GCC_DIR= /opt/ti/msp430_gcc/bin"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1507311097,""
-"2	CHAR	0
-	u
-	.
-|3,0,2,0,2,0,1507306033,"u","."
+|3,0,1,1,1,0,1509068302,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1509068302,""
 "3	LINE	0
-	"------------- OPTIONS ------------------
-|3,0,3,1,1,0,1507123812,"\"------------- OPTIONS ------------------"
+	#switch the compiler (for the internal make rules)
+|3,0,3,1,1,0,1509068301,"#switch the compiler (for the internal make rules)"
 "4	LINE	0
-	
-	
-|3,0,4,1,2,0,1507058605,"",""
+	LFLAGS =	-L $(SUPPORT_FILE_DIRECTORY)
+|3,0,4,1,1,0,1509068297,"LFLAGS =	-L $(SUPPORT_FILE_DIRECTORY)"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1506646861,""
+|3,0,5,1,1,0,1509068296,""
 "6	LINE	0
-	dd
-|3,0,6,1,1,0,1506646568,"dd"
+	CC              = $(GCC_DIR)/msp430-elf-gcc
+	AS              = $(GCC_DIR)/msp430-elf-as
+|3,0,6,1,2,0,1509068295,"CC              = $(GCC_DIR)/msp430-elf-gcc","AS              = $(GCC_DIR)/msp430-elf-as"
 "7	LINE	0
-	3002
-<461554319                         000102743000020185                     BORUNDA                            NOREEN                   R                                  19810216FK                                                                                                              13709 Paseo Sereno                                                    EL PASO                       TX79928                                   US     R        9154228256          R                                               AC        P20170803                                     A004028720                  TX                                                                                                                                                                                         Premium Plan   TEACHER - 187 D           TX                                                                                                                                                                                                  01STD          SLH010001120171001     00020000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               nborun@sisd.net                                                                                                                                      
-|3,0,7,1,1,0,1506630158,>3001
-|<"461554319                         000102743000020185                     BORUNDA                            NOREEN                   R                                  19810216FK                                                                                                              13709 Paseo Sereno                                                    EL PASO                       TX79928                                   US     R        9154228256          R                       
-|<                        AC        P20170803                                     A004028720                  TX                                                                                                                                                                                         Premium Plan   TEACHER - 187 D           TX                                                                                                                                                        
-|<                                          01STD          SLH010001120171001     00020000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                           
-|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-|<                                                                                                                                                                                                                                                                                                                                                                                                                nborun@sisd.net                                                                           
-|<                                                           "
+	CFLAGS =	-I $(SUPPORT_FILE_DIRECTORY) -mmcu=$(CPU) -I../h
+|3,0,7,1,1,0,1509068288,"CFLAGS =	-I $(SUPPORT_FILE_DIRECTORY) -mmcu=$(CPU) -I../h"
 "8	LINE	0
-	3002
-<631369731                         000102743000020185                     BARRON                             ALEXANDER                S                                  19930317MK                                                                                                              4604 LOMA DE COBRE                                                    EL PASO                       TX79934                                   US     R        9154945174          R                                               AC        P20170830                                     A004106196                  TX                                                                                                                                                                                         Premium Plan   TEACHER - 187 D           TX                                                                                                                                                                                                  01STD          SLH010001120171001     00022000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               abarro010@sisd.net                                                                                                                                   
-|3,0,8,1,1,0,1506630145,>3001
-|<"631369731                         000102743000020185                     BARRON                             ALEXANDER                S                                  19930317MK                                                                                                              4604 LOMA DE COBRE                                                    EL PASO                       TX79934                                   US     R        9154945174          R                       
-|<                        AC        P20170830                                     A004106196                  TX                                                                                                                                                                                         Premium Plan   TEACHER - 187 D           TX                                                                                                                                                        
-|<                                          01STD          SLH010001120171001     00022000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                           
-|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-|<                                                                                                                                                                                                                                                                                                                                                                                                                abarro010@sisd.net                                                                        
-|<                                                           "
+	
+|3,0,8,1,1,0,1509068248,""
 "9	LINE	0
-	3002
-<450795000                         000102743000020185                     ARAUJO                             LILIANA                                                     19830128FK                                                                                                              14020 TIERRA YUKON LN                                                 EL PASO                       TX79938                                   US     R                            R                                               AC        P20170828                                     A004157846                  TX                                                                                                                                                                                         Premium Plan   TEACHER 2ND GRA           TX                                                                                                                                                                                                  01STD          SLH010001120171001     00020000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               LARAUJO04@SISD.NET                                                                                                                                   
-|3,0,9,1,1,0,1506630121,>3001
-|<"450795000                         000102743000020185                     ARAUJO                             LILIANA                                                     19830128FK                                                                                                              14020 TIERRA YUKON LN                                                 EL PASO                       TX79938                                   US     R                            R                       
-|<                        AC        P20170828                                     A004157846                  TX                                                                                                                                                                                         Premium Plan   TEACHER 2ND GRA           TX                                                                                                                                                        
-|<                                          01STD          SLH010001120171001     00020000010000        YOPTION 2                                                                                                                                                                                                                                                                                                                                                                                           
-|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-|<                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-|<                                                                                                                                                                                                                                                                                                                                                                                                                LARAUJO04@SISD.NET                                                                        
-|<                                                           "
+	CPU             = msp430g2553
+|3,0,9,1,1,0,1509068247,"CPU             = msp430g2553"
 "a@	CHAR	0
 	!
 |3,2,10,0,1,0,1506016147,"!"
@@ -330,255 +305,838 @@ $
 	
 |3,0,34,0,2,0,1495712165,"[&#xf17c;]",""
 ""-	CHAR	0
-	"ls -alGgh --color=none | awk '{print $3," | " $7}' | column -t"
-|3,1,36,0,1,0,1507311436,"\"ls -alGgh --color=none | awk '{print $3,\" | \" $7}' | column -t\""
+	F
+|3,1,36,0,1,0,1509069526,"F"
 
 # File marks:
-'0  6  13  ~/.bash_aliases
-|4,48,6,13,1507311450,"~/.bash_aliases"
-'1  11  0  ~/.bash_aliases
-|4,49,11,0,1507311251,"~/.bash_aliases"
-'2  7  0  ~/.bash_aliases
-|4,50,7,0,1507311251,"~/.bash_aliases"
-'3  11  0  ~/.bash_aliases
-|4,51,11,0,1507311108,"~/.bash_aliases"
-'4  7  0  ~/.bash_aliases
-|4,52,7,0,1507311108,"~/.bash_aliases"
-'5  1  0  ~/.config/i3/i3status.conf
-|4,53,1,0,1507310792,"~/.config/i3/i3status.conf"
-'6  12  17  ~/exclude-list.txt
-|4,54,12,17,1507306729,"~/exclude-list.txt"
-'7  19  29  ~/.config/Trolltech.conf
-|4,55,19,29,1507306131,"~/.config/Trolltech.conf"
-'8  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,56,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
-'9  1  0  ~/.cache/babl/babl-fishes
-|4,57,1,0,1507305794,"~/.cache/babl/babl-fishes"
+'0  1  0  /opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile
+|4,48,1,0,1509072173,"/opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile"
+'1  3  0  ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile
+|4,49,3,0,1509072165,"~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile"
+'2  1  0  ~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile
+|4,50,1,0,1509069804,"~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile"
+'3  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,51,1,0,1509069784,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+'4  19  21  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,52,19,21,1509069533,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+'5  19  21  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,53,19,21,1509069533,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+'6  19  20  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,54,19,20,1509069507,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+'7  19  20  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,55,19,20,1509069507,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+'8  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,56,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+'9  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,57,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
 
 # Jumplist (newest first):
--'  6  13  ~/.bash_aliases
-|4,39,6,13,1507311450,"~/.bash_aliases"
--'  8  8  ~/.bash_aliases
-|4,39,8,8,1507311426,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1507311308,"~/.bash_aliases"
--'  11  0  ~/.bash_aliases
-|4,39,11,0,1507311251,"~/.bash_aliases"
--'  7  0  ~/.bash_aliases
-|4,39,7,0,1507311251,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1507311137,"~/.bash_aliases"
--'  7  0  ~/.bash_aliases
-|4,39,7,0,1507311108,"~/.bash_aliases"
--'  6  14  ~/.bash_aliases
-|4,39,6,14,1507310898,"~/.bash_aliases"
--'  6  14  ~/.bash_aliases
-|4,39,6,14,1507310898,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1507310796,"~/.bash_aliases"
--'  1  0  ~/.config/i3/i3status.conf
-|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
--'  1  0  ~/.config/i3/i3status.conf
-|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
--'  1  0  ~/.config/i3/i3status.conf
-|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
--'  1  0  ~/.config/i3/i3status.conf
-|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
--'  1  0  ~/.config/i3/i3status.conf
-|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
--'  1  0  ~/.config/i3/i3status.conf
-|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
--'  1  0  ~/.config/i3/i3status.conf
-|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
--'  1  0  ~/.config/i3/i3status.conf
-|4,39,1,0,1507310792,"~/.config/i3/i3status.conf"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  12  17  ~/exclude-list.txt
-|4,39,12,17,1507306729,"~/exclude-list.txt"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  19  29  ~/.config/Trolltech.conf
-|4,39,19,29,1507306131,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/Trolltech.conf
-|4,39,1,0,1507306111,"~/.config/Trolltech.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  1  0  ~/.config/pcmanfm/default/pcmanfm.conf
-|4,39,1,0,1507306079,"~/.config/pcmanfm/default/pcmanfm.conf"
--'  3  18  ~/exclude-list.txt
-|4,39,3,18,1507306034,"~/exclude-list.txt"
--'  3  18  ~/exclude-list.txt
-|4,39,3,18,1507306034,"~/exclude-list.txt"
+-'  1  0  /opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile
+|4,39,1,0,1509072173,"/opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile"
+-'  3  0  ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile
+|4,39,3,0,1509072165,"~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile
+|4,39,1,0,1509069804,"~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile"
+-'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,1,0,1509069784,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  19  21  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,19,21,1509069533,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  19  21  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,19,21,1509069533,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,1,0,1509069514,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  19  20  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,19,20,1509069507,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,1,0,1509069141,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,1,0,1509068790,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  19  14  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,19,14,1509068525,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  19  14  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,19,14,1509068525,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,1,0,1509068173,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
+-'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+|4,39,1,0,1509068023,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
 
 # History of marks within files (newest to oldest):
 
-> ~/.bash_aliases
-	*	1507311450	0
-	"	6	13
-	^	6	14
-	.	6	13
-	+	1	82
-	+	1	63
-	+	1	62
-	+	1	96
-	+	1	41
-	+	1	42
-	+	1	55
-	+	1	53
+> ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
+	*	1509069782	0
+	"	1	0
+	^	10	12
+	.	19	21
+	+	15	12
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	1	46
+	+	15	31
+	+	1	30
+	+	15	50
+	+	15	0
+	+	15	28
+	+	15	0
+	+	15	9
+	+	15	7
+	+	15	36
+	+	16	0
+	+	15	0
+	+	4	0
+	+	15	0
+	+	15	14
+	+	16	46
+	+	24	0
+	+	25	0
+	+	31	0
+	+	29	0
+	+	27	0
+	+	21	0
+	+	22	0
+	+	21	1
+	+	22	2
+	+	4	0
+	+	3	14
+	+	18	8
+	+	15	56
+	+	15	0
+	+	19	0
+	+	22	0
+	+	21	0
+	+	22	0
+	+	18	8
+	+	16	0
+	+	15	14
+	+	1	0
+	+	4	0
+	+	15	0
+	+	15	13
+	+	20	0
+	+	16	0
+	+	23	0
+	+	26	0
+	+	28	0
+	+	30	0
+	+	15	0
+	+	5	0
+	+	14	0
+	+	15	0
+	+	9	65
+	+	15	0
+	+	10	0
+	+	12	0
+	+	15	0
+	+	10	11
+	+	19	21
+
+> ~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile
+	*	1509068949	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile
+	*	1509068228	0
+	"	3	0
+	^	7	47
+	.	3	0
+	+	8	15
+	+	15	17
+	+	8	13
+	+	3	31
+	+	4	50
+	+	10	28
+	+	11	28
+	+	12	28
+	+	8	0
+	+	15	7
+	+	24	0
+	+	7	46
+	+	3	0
 	+	6	0
-	+	3	8
-	+	4	10
-	+	5	10
-	+	4	55
-	+	5	45
-	+	6	45
+	+	3	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
+	*	1509068005	0
+	"	8	61
+	^	8	62
+	.	8	60
+	+	9	42
+	+	4	0
+	+	9	0
+	+	2	0
+	+	4	0
+	+	3	0
+	+	6	0
+	+	9	0
+	+	7	0
+	+	9	39
+	+	12	28
+	+	13	28
+	+	1	1
+	+	8	60
+
+> ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
+	*	1509067988	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/make
+	*	1509067623	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/buzzer_blink_demo/Makefile
+	*	1509067501	0
+	"	32	0
+	^	13	29
+	.	13	28
+	+	9	59
+	+	9	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	8	46
+	+	9	55
+	+	12	28
+	+	13	28
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/buzzer_demo/Makefile
+	*	1509067326	0
+	"	9	49
+	^	7	95
+	.	7	94
+	+	8	0
+	+	7	0
+	+	8	0
+	+	7	40
+	+	8	0
+	+	2	30
+	+	3	49
+	+	10	28
+	+	11	28
+	+	7	94
+
+> ~/Data/Git/pjct2-sdms/demos/buzzer_demo/Makefile
+	*	1509067283	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/clocksTimer.c
+	*	1509066329	0
+	"	1	0
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/clocksTimer.
+	*	1509066326	0
+	"	1	0
+
+> ~/Data/Git/pjct2-sdms/demos/timerLib/Makefile
+	*	1509065767	0
+	"	1	0
+
+> /opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile
+	*	1509063756	0
+	"	1	0
+
+> ~/.profile
+	*	1509062760	0
+	"	2	32
+	^	2	33
+	.	2	32
+	+	2	0
+	+	3	0
+	+	2	32
+
+> /etc/environment
+	*	1509062677	0
+	"	5	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/README.md
+	*	1509046299	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/Makefile
+	*	1509046211	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/clocksTimer.h
+	*	1509045017	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/libTimer.h
+	*	1509045001	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/sr.h
+	*	1509044993	0
+	"	1	0
+
+> /usr/opt/ti/msp430_gcc/include/devices.csv
+	*	1509044082	0
+	"	31	0
+
+> ~/Data/Git/pjct2-sdms/demos/.profile
+	*	1509042045	0
+	"	1	0
+
+> ~/temp/msp430-gcc-support-files/Revisions_Header.txt
+	*	1509041706	0
+	"	211	0
+
+> ~/Data/Git/pjct2-sdms/demos/Makefile
+	*	1509041643	0
+	"	1	0
+
+> ~/.bash_profile
+	*	1509039940	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	4	0
+	+	2	11
+
+> ~/.config/i3/config
+	*	1509034272	0
+	"	352	3
+	^	352	4
+	.	352	3
+	+	282	33
+	+	283	0
+	+	286	28
+	+	286	15
+	+	281	38
+	+	282	41
+	+	286	41
+	+	286	0
+	+	286	29
+	+	286	0
+	+	284	29
+	+	283	30
+	+	282	29
+	+	281	27
+	+	283	0
+	+	285	0
+	+	280	24
+	+	277	26
+	+	313	0
+	+	111	0
+	+	104	0
+	+	95	0
+	+	122	0
+	+	179	0
+	+	89	0
+	+	80	0
+	+	89	0
+	+	81	0
+	+	85	0
+	+	82	26
+	+	83	29
+	+	84	26
+	+	83	52
+	+	271	0
+	+	111	0
+	+	117	13
+	+	127	58
+	+	83	0
+	+	117	49
+	+	127	59
+	+	117	0
+	+	149	85
+	+	149	86
+	+	150	0
+	+	117	0
+	+	127	59
+	+	117	42
+	+	127	59
+	+	117	75
+	+	128	28
+	+	83	28
+	+	128	78
+	+	83	44
+	+	83	0
+	+	85	0
+	+	117	111
+	+	344	39
+	+	346	38
+	+	344	39
+	+	19	17
+	+	131	21
+	+	45	19
+	+	113	29
+	+	130	0
+	+	129	26
+	+	355	0
+	+	353	2
+	+	355	0
+	+	354	0
+	+	353	2
+	+	355	3
+	+	19	17
+	+	20	16
+	+	46	16
+	+	47	0
+	+	46	16
+	+	47	0
+	+	46	16
+	+	46	18
+	+	355	0
+	+	352	0
+	+	353	2
+	+	352	3
+	+	299	0
+	+	300	0
+	+	302	0
+	+	301	60
+	+	352	3
+	+	353	2
+	+	352	3
+	+	354	0
+	+	353	2
+	+	352	3
+	+	353	2
+	+	352	3
+	+	353	2
+	+	358	0
+	+	353	2
+	+	353	0
+	+	352	3
+	g	106	27
+	m	106	27
+
+> ~/Data/Git/oop_pyramids/oop_pyramids_sample/README.md
+	*	1509032593	0
+	"	3	0
+	^	4	0
+	.	4	0
+	+	5	0
+	+	1	37
+	+	8	105
+	+	8	14
+	+	13	63
+	+	12	0
+	+	13	0
+	+	12	0
+	+	13	0
+	+	12	16
+	+	13	18
+	+	12	44
+	+	8	26
+	+	12	131
+	+	13	64
+	+	13	63
+	+	13	109
+	+	30	132
+	+	31	1
+	+	29	0
+	+	32	48
+	+	30	2
+	+	32	48
+	+	32	116
+	+	32	45
+	+	32	79
+	+	32	120
+	+	32	48
+	+	10	86
+	+	22	19
+	+	25	0
+	+	32	45
+	+	22	35
+	+	32	150
+	+	24	139
+	+	24	0
+	+	25	0
+	+	32	45
+	+	32	65
+	+	33	110
+	+	16	36
+	+	32	1
+	+	33	1
+	+	33	148
+	+	35	2
+	+	37	102
+	+	23	74
+	+	34	0
+	+	36	0
+	+	38	109
+	+	39	158
+	+	40	0
+	+	3	0
+	+	4	0
+
+> /etc/udev/rules.d/51-android.rules
+	*	1508975911	0
+	"	3	90
+	^	3	91
+	.	3	90
+	+	2	0
+	+	3	90
+
+> /etc/udev/rules.d/51-android-hs.rules
+	*	1508975797	0
+	"	3	0
+	.	4	0
+	+	4	97
+	+	4	0
+	+	4	80
+	+	4	0
+
+> /etc/udev/rules.d/cd
+	*	1508975777	0
+	"	1	0
+
+> /etc/udev/rules.d/-MiniBufExplorer-
+	*	1508975777	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> /etc/pacman.conf
+	*	1508975222	0
+	"	100	0
+	^	100	1
+	.	100	0
+	+	78	0
+	+	76	25
+	+	77	67
+	+	81	0
+	+	83	0
+	+	89	0
+	+	92	0
+	+	91	0
+	+	89	0
+	+	90	0
+	+	81	0
+	+	82	0
+	+	76	0
+	+	77	0
+	+	78	0
+	+	83	0
+	+	91	0
+	+	99	1
+	+	100	1
+	+	99	0
+	+	100	0
+
+> /usr/bin/lsusb
+	*	1508963521	0
+	"	1	0
+
+> ~/Data/Git/libusb/Makefile
+	*	1508961205	0
+	"	152	0
+
+> ~/Data/Git/libusb/README
+	*	1508961147	0
+	"	31	0
+
+> ~/Data/Git/libusb/README.git
+	*	1508961077	0
+	"	15	0
+
+> ~/Data/Git/libusb/README.md
+	*	1508961026	0
+	"	5	0
+
+> ~/temp/USB Driver/install
+	*	1508959891	0
+	"	203	0
+
+> ~/temp/USB Driver/readme.txt
+	*	1508959613	0
+	"	1	28
+
+> /etc/fuse.conf
+	*	1508959434	0
+	"	9	0
+	.	9	0
+	+	9	0
+
+> ~/exclude-list.txt
+	*	1508943198	0
+	"	18	0
+	.	18	0
+	+	15	28
+	+	13	26
+	+	14	0
+	+	13	30
+	+	18	7
+	+	52	0
+	+	18	8
+	+	18	7
+	+	62	3
+	+	49	0
+	+	22	5
+	+	1	0
+	+	13	0
+	+	1	0
+	+	22	7
+	+	17	5
+	+	28	16
+	+	59	2
+	+	60	13
+	+	63	4
+	+	64	0
+	+	63	5
+	+	49	10
+	+	49	3
+	+	46	7
+	+	46	0
+	+	36	2
+	+	34	7
+	+	28	16
+	+	33	10
+	+	28	0
+	+	32	5
+	+	30	4
+	+	21	5
+	+	19	7
+	+	44	12
+	+	39	12
+	+	38	12
+	+	37	12
+	+	14	0
+	+	53	13
+	+	40	7
+	+	36	5
+	+	35	6
+	+	2	13
+	+	16	17
+	+	2	14
+	+	3	37
+	+	11	10
+	+	12	16
+	+	50	3
+	+	48	0
+	+	51	12
+	+	54	11
+	+	52	0
+	+	55	0
+	+	56	7
+	+	29	3
+	+	45	8
+	+	60	0
+	+	58	10
+	+	42	8
+	+	43	4
+	+	65	0
+	+	62	0
+	+	61	7
+	+	69	4
+	+	23	8
+	+	20	6
+	+	7	17
+	+	7	0
+	+	3	18
+	+	6	18
+	+	26	14
+	+	6	8
+	+	26	7
+	+	25	13
+	+	47	4
+	+	31	6
+	+	10	13
+	+	6	0
+	+	41	3
+	+	26	12
+	+	27	16
+	+	24	12
+	+	6	0
+	+	9	15
+	+	8	15
+	+	5	15
+	+	4	18
+	+	18	0
+
+> ~/.bash_aliases
+	*	1508934110	0
+	"	1	0
+	^	59	73
+	.	59	72
 	+	1	54
 	+	1	71
 	+	1	90
@@ -591,10 +1149,10 @@ $
 	+	1	220
 	+	2	0
 	+	21	14
-	+	85	0
+	+	1	0
 	+	27	0
 	+	24	0
-	+	85	0
+	+	1	0
 	+	29	0
 	+	28	40
 	+	27	0
@@ -630,12 +1188,12 @@ $
 	+	51	9
 	+	54	8
 	+	27	0
-	+	59	20
-	+	61	11
-	+	59	4
-	+	60	5
-	+	59	0
-	+	63	5
+	+	64	20
+	+	66	11
+	+	64	4
+	+	65	5
+	+	64	0
+	+	68	5
 	+	44	0
 	+	44	86
 	+	44	2
@@ -664,9 +1222,42 @@ $
 	+	10	0
 	+	8	11
 	+	6	13
+	+	1	0
+	+	57	0
+	+	61	0
+	+	56	0
+	+	60	0
+	+	58	6
+	+	57	12
+	+	58	88
+	+	61	0
+	+	58	6
+	+	58	5
+	+	59	0
+	+	59	72
+
+> ~/.config/Awesomeness/Notes.ini
+	*	1508933790	0
+	"	70	0
+	.	70	0
+	+	70	0
+
+> /usr/share/vim/vim80/doc/help.txt
+	*	1508933758	0
+	"	1	0
+
+> ~/.config/Awesomeness/-MiniBufExplorer-
+	*	1508933755	0
+	"	1	14
+	.	2	0
+	+	2	0
+
+> ~/.config/Awesomeness/Trash.ini
+	*	1508933578	0
+	"	1	0
 
 > ~/.config/i3/i3status.conf
-	*	1507310787	0
+	*	1508890754	0
 	"	1	0
 	^	26	1
 	.	26	0
@@ -686,84 +1277,209 @@ $
 	+	68	23
 	+	26	0
 
-> ~/exclude-list.txt
-	*	1507306161	0
-	"	12	17
-	^	4	19
-	.	4	18
-	+	11	28
-	+	9	26
-	+	10	0
-	+	9	30
-	+	14	7
-	+	41	0
-	+	14	8
-	+	14	7
-	+	51	3
-	+	38	0
-	+	18	5
-	+	1	0
-	+	9	0
-	+	1	0
-	+	18	7
-	+	13	5
-	+	20	16
-	+	48	2
-	+	49	13
-	+	52	4
-	+	53	0
-	+	52	5
-	+	38	10
-	+	38	3
-	+	36	7
-	+	36	0
-	+	27	2
-	+	25	7
-	+	20	16
-	+	24	10
-	+	20	0
-	+	23	5
-	+	22	4
-	+	17	5
-	+	15	7
-	+	34	12
-	+	30	12
-	+	29	12
-	+	28	12
-	+	10	0
-	+	42	13
-	+	31	7
-	+	27	5
-	+	26	6
-	+	2	13
-	+	12	17
-	+	2	14
-	+	3	37
-	+	7	10
-	+	8	16
-	+	39	3
-	+	37	0
-	+	40	12
-	+	43	11
-	+	41	0
-	+	44	0
-	+	45	7
-	+	21	3
-	+	35	8
-	+	49	0
-	+	47	10
-	+	32	8
-	+	33	4
-	+	54	0
-	+	51	0
-	+	50	7
-	+	58	4
-	+	19	8
-	+	16	6
-	+	6	17
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/README.md
+	*	1508861944	0
+	"	1	0
+	^	10	49
+	.	10	49
+	+	1	19
+	+	4	42
+	+	11	0
+	+	32	0
+	+	16	71
+	+	23	0
+	+	19	18
+	+	30	97
+	+	11	0
+	+	10	49
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/test.txt
+	*	1508857809	0
+	"	1	0
+	^	6	4
+	.	6	3
+	+	6	3
+
+> ~/Data/Programming/EclipseOxygen/BST_inC/test.txt
+	*	1508853207	0
+	"	1	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/Makefile
+	*	1508836573	0
+	"	1	0
+	^	10	2
+	.	10	5
+	+	3	30
+	+	6	8
+	+	3	24
+	+	3	29
 	+	6	0
-	+	3	18
-	+	4	18
+	+	5	1
+	+	3	39
+	+	3	67
+	+	8	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	3	27
+	+	3	39
+	+	6	0
+	+	7	0
+	+	6	0
+	+	8	28
+	+	9	0
+	+	3	27
+	+	3	39
+	+	3	29
+	+	3	27
+	+	3	39
+	+	5	0
+	+	6	0
+	+	5	0
+	+	9	17
+	+	5	0
+	+	13	10
+	+	12	5
+	+	10	5
+
+> ~/temp/temp.c
+	*	1508292235	0
+	"	15	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/MA
+	*	1508284172	0
+	"	2	1
+	^	2	2
+	.	2	1
+	+	2	1
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/llDemo
+	*	1508283966	0
+	"	1	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/Binary_Search_Tree.o
+	*	1508283910	0
+	"	1	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/make
+	*	1508283460	0
+	"	1	0
+
+> ~/temp/-MiniBufExplorer-
+	*	1508168418	0
+	"	1	12
+	.	2	0
+	+	2	0
+
+> /usr/lib/python3.6/site-packages/mps_youtube/main.py
+	*	1507727509	0
+	"	63	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/llDemo.c
+	*	1507496467	0
+	"	56	0
+	^	55	2
+	.	55	0
+	+	3	21
+	+	59	0
+	+	59	19
+	+	59	20
+	+	59	0
+	+	21	12
+	+	27	0
+	+	26	0
+	+	59	0
+	+	26	0
+	+	26	26
+	+	26	6
+	+	26	0
+	+	26	48
+	+	26	20
+	+	31	17
+	+	26	0
+	+	21	12
+	+	26	0
+	+	31	17
+	+	29	11
+	+	59	0
+	+	34	8
+	+	22	17
+	+	23	14
+	+	24	17
+	+	25	15
+	+	26	9
+	+	62	0
+	+	58	0
+	+	62	0
+	+	47	53
+	+	48	51
+	+	47	48
+	+	46	41
+	+	57	0
+	+	21	2
+	+	31	16
+	+	31	17
+	+	32	0
+	+	33	0
+	+	35	0
+	+	36	0
+	+	37	2
+	+	37	30
+	+	38	0
+	+	42	3
+	+	42	11
+	+	43	11
+	+	43	4
+	+	44	0
+	+	45	3
+	+	46	0
+	+	47	4
+	+	48	0
+	+	49	4
+	+	50	3
+	+	51	0
+	+	38	21
+	+	42	2
+	+	43	3
+	+	44	3
+	+	45	2
+	+	46	2
+	+	47	3
+	+	48	3
+	+	49	4
+	+	50	2
+	+	51	2
+	+	52	2
+	+	54	1
+	+	56	0
+	+	38	22
+	+	40	8
+	+	41	17
+	+	53	2
+	+	55	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/.git/COMMIT_EDITMSG
+	*	1507494908	0
+	"	1	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/llist.h
+	*	1507494348	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/-MiniBufExplorer-
+	*	1507494343	0
+	"	1	13
+	.	2	0
+	+	2	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/llist.c
+	*	1507494337	0
+	"	60	0
 
 > ~/.config/Trolltech.conf
 	*	1507306129	0
@@ -988,29 +1704,6 @@ $
 	+	31	22
 	+	23	33
 
-> /etc/pacman.conf
-	*	1507039777	0
-	"	91	0
-	^	77	1
-	.	91	0
-	+	78	0
-	+	76	25
-	+	77	67
-	+	81	0
-	+	83	0
-	+	89	0
-	+	92	0
-	+	91	0
-	+	89	0
-	+	90	0
-	+	81	0
-	+	82	0
-	+	76	0
-	+	77	0
-	+	78	0
-	+	83	0
-	+	91	0
-
 > /etc/systemd/system.conf
 	*	1507033743	0
 	"	16	13
@@ -1127,114 +1820,6 @@ $
 	+	1	32
 	+	1	0
 
-> ~/.config/i3/config
-	*	1506619170	0
-	"	353	2
-	^	352	4
-	.	353	2
-	+	281	0
-	+	283	0
-	+	257	0
-	+	258	0
-	+	286	0
-	+	283	0
-	+	281	46
-	+	282	15
-	+	281	15
-	+	282	17
-	+	281	20
-	+	282	33
-	+	283	0
-	+	286	28
-	+	286	15
-	+	281	38
-	+	282	41
-	+	286	41
-	+	286	0
-	+	286	29
-	+	286	0
-	+	284	29
-	+	283	30
-	+	282	29
-	+	281	27
-	+	283	0
-	+	285	0
-	+	280	24
-	+	277	26
-	+	313	0
-	+	111	0
-	+	104	0
-	+	95	0
-	+	122	0
-	+	179	0
-	+	89	0
-	+	80	0
-	+	89	0
-	+	81	0
-	+	85	0
-	+	82	26
-	+	83	29
-	+	84	26
-	+	83	52
-	+	271	0
-	+	111	0
-	+	117	13
-	+	127	58
-	+	83	0
-	+	117	49
-	+	127	59
-	+	117	0
-	+	149	85
-	+	149	86
-	+	150	0
-	+	117	0
-	+	127	59
-	+	117	42
-	+	127	59
-	+	117	75
-	+	128	28
-	+	83	28
-	+	128	78
-	+	83	44
-	+	83	0
-	+	85	0
-	+	117	111
-	+	344	39
-	+	346	38
-	+	344	39
-	+	19	17
-	+	131	21
-	+	45	19
-	+	113	29
-	+	130	0
-	+	129	26
-	+	355	0
-	+	353	2
-	+	355	0
-	+	354	0
-	+	353	2
-	+	355	3
-	+	19	17
-	+	20	16
-	+	46	16
-	+	47	0
-	+	46	16
-	+	47	0
-	+	46	16
-	+	46	18
-	+	355	0
-	+	352	0
-	+	353	2
-	+	352	3
-	+	299	0
-	+	300	0
-	+	302	0
-	+	301	60
-	+	352	3
-	+	353	2
-	g	106	27
-	m	106	27
-
 > ~/-MiniBufExplorer-
 	*	1506614453	0
 	"	1	25
@@ -1248,806 +1833,3 @@ $
 > ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.53127.20170921.txt
 	*	1506520180	0
 	"	29	785
-
-> ~/transcript.txt
-	*	1506353172	0
-	"	1	0
-	^	104	108
-	.	1	0
-	+	3	182
-	+	4	229
-	+	4	96
-	+	6	173
-	+	7	213
-	+	9	209
-	+	16	174
-	+	17	0
-	+	16	124
-	+	17	129
-	+	19	173
-	+	21	185
-	+	23	23
-	+	22	99
-	+	25	174
-	+	26	221
-	+	30	7
-	+	28	177
-	+	33	164
-	+	34	216
-	+	36	158
-	+	39	167
-	+	40	109
-	+	42	181
-	+	46	51
-	+	45	51
-	+	45	175
-	+	46	105
-	+	57	0
-	+	56	2
-	+	57	9
-	+	57	10
-	+	60	0
-	+	104	107
-	+	1	0
-
-> /usr/bin/firefox
-	*	1506257887	0
-	"	2	11
-	^	2	12
-	.	2	11
-	+	2	11
-
-> ~/Data/ArchScripts/mount_usb2.sh
-	*	1506103564	0
-	"	4	40
-	.	4	40
-	+	4	40
-
-> ~/Data/ArchScripts/mount_usb.sh
-	*	1506103366	0
-	"	1	0
-	^	4	53
-	.	4	52
-	+	1	11
-	+	3	21
-	+	4	10
-	+	4	52
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.53127.20170920.txt
-	*	1506016005	0
-	"	42	1082
-	^	9	1
-	.	1	0
-	+	6	0
-	+	1	0
-
-> ~/Data/TEB/cigna_elizario.csv
-	*	1506015248	0
-	"	133	42
-	^	113	115
-	.	113	114
-	+	50	0
-	+	41	106
-	+	89	121
-	+	113	114
-
-> ~/.local/bin/firewwall-nointernet
-	*	1505999393	0
-	"	2	26
-	^	2	27
-	.	2	26
-	+	2	26
-
-> ~/.emacs.d/init.el
-	*	1505859199	0
-	"	67	16
-	^	67	17
-	.	67	16
-	+	45	0
-	+	50	0
-	+	40	12
-	+	45	10
-	+	50	7
-	+	31	10
-	+	58	0
-	+	30	0
-	+	35	0
-	+	58	0
-	+	137	24
-	+	137	0
-	+	53	0
-	+	58	0
-	+	52	0
-	+	55	0
-	+	58	0
-	+	55	39
-	+	58	0
-	+	56	48
-	+	57	48
-	+	137	0
-	+	35	0
-	+	34	0
-	+	71	0
-	+	70	9
-	+	73	0
-	+	78	0
-	+	85	0
-	+	71	0
-	+	73	0
-	+	72	0
-	+	82	0
-	+	83	0
-	+	60	0
-	+	59	0
-	+	61	23
-	+	62	29
-	+	63	17
-	+	60	16
-	+	65	0
-	+	105	0
-	+	106	2
-	+	107	2
-	+	108	2
-	+	106	0
-	+	107	0
-	+	108	0
-	+	109	0
-	+	110	1
-	+	111	1
-	+	112	1
-	+	115	1
-	+	115	22
-	+	115	21
-	+	133	0
-	+	132	0
-	+	115	20
-	+	115	24
-	+	106	0
-	+	107	0
-	+	115	23
-	+	132	0
-	+	117	0
-	+	104	33
-	+	117	1
-	+	128	0
-	+	127	4
-	+	123	50
-	+	123	48
-	+	123	15
-	+	126	0
-	+	123	15
-	+	125	1
-	+	124	1
-	+	123	4
-	+	122	3
-	+	121	0
-	+	120	0
-	+	119	0
-	+	125	1
-	+	124	4
-	+	126	1
-	+	125	2
-	+	126	2
-	+	125	3
-	+	129	0
-	+	130	0
-	+	131	0
-	+	130	0
-	+	131	0
-	+	130	0
-	+	118	0
-	+	65	11
-	+	66	25
-	+	68	0
-	+	66	19
-	+	67	16
-	j	87	0
-
-> ~/Data/ArchScripts/install_i3.sh
-	*	1505838007	0
-	"	3	0
-
-> /mnt/hda/SharedFolder/TEB/LBL1000__lbl0002i.53127.20170915.txt
-	*	1505742354	0
-	"	230	11
-	^	210	12
-	.	210	12
-	+	68	0
-	+	29	527
-	+	29	0
-	+	29	527
-	+	257	8
-	+	210	12
-
-> /mnt/hda/SharedFolder/TEB/LBL1000__lbl0002i.53127.20170913.txt
-	*	1505739773	0
-	"	230	11
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.47666.20170910.txt
-	*	1505505307	0
-	"	1	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170910.txt
-	*	1505505284	0
-	"	1	0
-	^	257	34
-	.	257	33
-	+	2	0
-	+	257	8
-	+	258	0
-	+	257	33
-
-> /usr/share/applications/vim.desktop
-	*	1505495372	0
-	"	9	11
-	^	9	34
-	.	9	33
-	+	1	0
-	+	9	33
-
-> /usr/share/applications/vi
-	*	1505495243	0
-	"	1	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SocorroISD_PROD_08082017.CSV
-	*	1505243554	0
-	"	5206	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08302017.CSV
-	*	1505241570	0
-	"	4547	68
-
-> ~/.config/user-dirs.dirs
-	*	1504831320	0
-	"	1	22
-	^	1	23
-	.	1	22
-	+	1	22
-
-> ~/.config/i3/i3statusForMusic.conf
-	*	1504704884	0
-	"	19	0
-	^	28	1
-	.	28	0
-	+	40	35
-	+	22	0
-	+	24	0
-	+	1	60
-	+	2	0
-	+	52	0
-	+	51	15
-	+	51	16
-	+	51	18
-	+	58	18
-	+	67	0
-	+	72	0
-	+	71	13
-	+	72	0
-	+	71	0
-	+	67	0
-	+	73	0
-	+	71	17
-	+	33	14
-	+	77	0
-	+	76	0
-	+	75	0
-	+	76	1
-	+	77	1
-	+	76	1
-	+	27	0
-	+	75	0
-	+	76	0
-	+	77	0
-	+	45	0
-	+	46	0
-	+	27	0
-	+	28	0
-
-> ~/Data/ArchScripts/youtube_title.sh
-	*	1504704290	0
-	"	11	6
-	^	8	0
-	.	11	6
-	+	13	5
-	+	13	27
-	+	13	3
-	+	5	10
-	+	6	7
-	+	13	42
-	+	13	0
-	+	6	27
-	+	13	29
-	+	3	37
-	+	13	35
-	+	3	0
-	+	13	0
-	+	10	26
-	+	10	50
-	+	9	4
-	+	10	51
-	+	10	16
-	+	9	10
-	+	9	14
-	+	10	0
-	+	10	51
-	+	13	0
-	+	12	23
-	+	11	1
-	+	9	15
-	+	12	14
-	+	12	0
-	+	10	0
-	+	9	2
-	+	11	2
-	+	12	2
-	+	9	35
-	+	9	2
-	+	11	2
-	+	10	15
-	+	9	19
-	+	12	2
-	+	10	26
-	+	9	3
-	+	10	3
-	+	11	3
-	+	12	14
-	+	3	40
-	+	4	0
-	+	9	2
-	+	10	2
-	+	11	2
-	+	9	26
-	+	10	26
-	+	12	12
-	+	9	2
-	+	11	2
-	+	12	2
-	+	3	40
-	+	9	10
-	+	3	47
-	+	9	0
-	+	9	14
-	+	9	0
-	+	9	13
-	+	9	0
-	+	9	10
-	+	9	0
-	+	7	0
-	+	8	0
-	+	7	10
-	+	11	6
-
-> /tmp/vimgolf20170904-3551-25okg3.input
-	*	1504489717	0
-	"	1	0
-
-> ~/.vimgolf/put/596ba8373e3dd71412000004.output.output
-	*	1504489715	0
-	"	1	0
-
-> ~/Data/Programming/C/book/1.5.2-Character-Counting.c
-	*	1504484944	0
-	"	2	0
-
-> ~/.dmenu_history
-	*	1504408808	0
-	"	339	0
-	.	340	0
-	+	96	0
-	+	82	0
-	+	94	0
-	+	81	0
-	+	82	0
-	+	588	0
-	+	625	0
-	+	680	0
-	+	617	0
-	+	619	0
-	+	623	0
-	+	736	0
-	+	749	0
-	+	623	0
-	+	736	0
-	+	748	0
-	+	427	0
-	+	620	0
-	+	340	0
-
-> ~/.xinitrc
-	*	1504317929	0
-	"	1	0
-
-> ~/.emacs.d/.emacs
-	*	1504226249	0
-	"	1	0
-	^	2	29
-	.	2	28
-	+	3	17
-	+	3	0
-	+	3	19
-	+	3	27
-	+	3	0
-	+	1	0
-	+	3	0
-	+	4	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	2	28
-
-> ~/.babel.json
-	*	1504224832	0
-	"	1	0
-
-> ~/.asoundrc
-	*	1504224809	0
-	"	6	0
-	.	1	0
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	8
-	+	1	0
-	+	1	1
-	+	1	0
-	+	1	11
-	+	1	0
-	+	1	4
-	+	1	0
-	+	1	19
-	+	1	14
-	+	1	0
-
-> ~/.dmenu_cache
-	*	1504224423	0
-	"	337	0
-
-> /tmp/vimgolf20170831-31990-181nzz8.txt
-	*	1504201527	0
-	"	1	0
-
-> ~/.vimgolf/put/55b18bbea9c2c30d04000001.output.txt
-	*	1504201525	0
-	"	1	0
-
-> ~/.bashrc
-	*	1504201072	0
-	"	17	34
-	^	17	35
-	.	17	34
-	+	20	0
-	+	21	11
-	+	20	0
-	+	19	8
-	+	21	19
-	+	19	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	14	14
-	+	18	0
-	+	14	16
-	+	18	0
-	+	14	0
-	+	18	0
-	+	14	0
-	+	18	0
-	+	14	16
-	+	18	0
-	+	14	16
-	+	18	0
-	+	14	6
-	+	14	14
-	+	18	2
-	+	14	12
-	+	18	6
-	+	25	0
-	+	26	52
-	+	30	1
-	+	25	3
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	25	33
-	+	18	18
-	+	10	0
-	+	5	20
-	+	6	16
-	+	18	45
-	+	14	29
-	+	18	45
-	+	18	5
-	+	18	4
-	+	18	0
-	+	18	6
-	+	18	69
-	+	18	0
-	+	18	5
-	+	18	0
-	+	14	13
-	+	18	0
-	+	14	17
-	+	15	28
-	+	14	62
-	+	15	0
-	+	17	9
-	+	17	34
-
-> ~/Data/Programming/C/book/hello.c
-	*	1504171725	0
-	"	19	0
-	^	19	0
-	.	19	0
-	+	19	0
-
-> ~/Data/Programming/C/hello.c
-	*	1504137695	0
-	"	15	22
-	^	15	23
-	.	15	22
-	+	12	29
-	+	5	3
-	+	4	0
-	+	18	0
-	+	18	19
-	+	3	31
-	+	7	24
-	+	12	15
-	+	12	6
-	+	18	0
-	+	12	0
-	+	15	0
-	+	18	8
-	+	15	35
-	+	16	22
-	+	18	0
-	+	17	0
-	+	6	6
-	+	7	6
-	+	14	35
-	+	15	22
-
-> ~/.config/conky/conkyrc_swag
-	*	1504135123	0
-	"	1	0
-	^	1	0
-
-> ~/Data/Programming/C/hello
-	*	1504134529	0
-	"	5	0
-	^	5	1
-	.	5	0
-	+	5	0
-
-> ~/Data/ArchScripts/install_mupdf.sh
-	*	1504034509	0
-	"	1	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08142017.CSV
-	*	1503594558	0
-	"	1	0
-	.	1	6
-	+	5269	0
-	+	5268	83
-	+	5269	0
-	+	1863	0
-	+	4358	0
-	+	4407	0
-	+	4519	0
-	+	4875	0
-	+	5056	0
-	+	5212	0
-	+	1	6
-	n	4519	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08032017.CSV
-	*	1503594556	0
-	"	1	0
-	^	5191	23
-	.	5191	0
-	+	5191	0
-
-> ~/Data/Notes/firefox_config.md
-	*	1502898122	0
-	"	22	0
-	^	69	9
-	.	69	8
-	+	64	40
-	+	65	14
-	+	67	15
-	+	69	8
-
-> ~/Data/Asiakirja/dreamstatesocal.md
-	*	1502897855	0
-	"	1	0
-
-> ~/Data/Asiakirja/so
-	*	1502897850	0
-	"	1	0
-
-> ~/Data/ArchScripts/mpsyt_info.sh
-	*	1502897092	0
-	"	10	0
-	^	22	15
-	.	22	16
-	+	10	11
-	+	10	0
-	+	5	0
-	+	4	0
-	+	5	32
-	+	5	11
-	+	5	0
-	+	10	0
-	+	10	11
-	+	10	0
-	+	10	5
-	+	10	11
-	+	10	34
-	+	10	5
-	+	10	12
-	+	10	0
-	+	4	20
-	+	10	38
-	+	5	99
-	+	10	0
-	+	5	90
-	+	10	5
-	+	10	12
-	+	10	5
-	+	10	12
-	+	10	0
-	+	10	5
-	+	5	7
-	+	10	0
-	+	5	104
-	+	5	1
-	+	5	95
-	+	5	0
-	+	10	11
-	+	5	6
-	+	5	94
-	+	5	8
-	+	11	0
-	+	10	12
-	+	11	5
-	+	2	0
-	+	10	0
-	+	11	0
-	+	4	0
-	+	5	0
-	+	10	0
-	+	11	0
-	+	9	0
-	+	8	28
-	+	9	9
-	+	9	1
-	+	8	0
-	+	9	0
-	+	8	0
-	+	9	0
-	+	9	17
-	+	8	35
-	+	8	0
-	+	5	95
-	+	5	93
-	+	5	94
-	+	7	1
-	+	5	94
-	+	9	0
-	+	8	0
-	+	6	37
-	+	7	3
-	+	10	3
-	+	23	18
-	+	11	0
-	+	14	0
-	+	16	0
-	+	23	32
-	+	25	0
-	+	23	0
-	+	25	0
-	+	23	30
-	+	19	25
-	+	20	22
-	+	23	24
-	+	25	16
-	+	23	23
-	+	21	20
-	+	23	17
-	+	25	8
-	+	23	24
-	+	21	0
-	+	23	25
-	+	21	15
-	+	23	17
-	+	25	24
-	+	23	19
-	+	24	41
-	+	23	0
-	+	18	21
-	+	23	0
-	+	19	25
-	+	22	18
-	+	23	0
-	+	22	16
-
-> /mnt/hda/Devops-intro/devops-intro-project/packer-templates/application-server.json
-	*	1502745083	0
-	"	121	0
-	^	44	101
-	.	44	100
-	+	45	0
-	+	45	80
-	+	45	0
-	+	44	19
-	+	45	0
-	+	44	100
-	+	44	0
-	+	44	19
-	+	44	100
-
-> /mnt/hda/Devops-intro/devops-kungfu/README.md
-	*	1502743477	0
-	"	46	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_08112017.CSV
-	*	1502720603	0
-	"	6295	22
-
-> ~/.gitconfig
-	*	1502674761	0
-	"	3	1
-	.	3	0
-	+	3	0
-
-> ~/.git-credentials
-	*	1502674733	0
-	"	1	0
-
-> ~/.gksu.lock
-	*	1502674719	0
-	"	1	0
-
-> /var/lib/alsa/.asoundrc
-	*	1502673293	0
-	"	9	0
-	^	9	1
-	.	9	0
-	+	9	0
-
-> /var/lib/alsa/asound.state
-	*	1502672872	0
-	"	711	0
-
-> /usr/opt/recsveditor/Csv_Readme.txt
-	*	1502669926	0
-	"	6	1
-
-> /usr/opt/recsveditor/Install_V0.98.2_20170628173829_1442719364311498974.log
-	*	1502669893	0
-	"	1	0
-
-> /usr/opt/recsveditor/Uninstaller/uninstaller.jar
-	*	1502669495	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.mynotes/notes
-	*	1502668001	0
-	"	1	0
-
-> ~/README.md
-	*	1502667975	0
-	"	48	0
-
-> ~/.wmstickynotes/2
-	*	1502667948	0
-	"	1	0
-
-> ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
-	*	1502667909	0
-	"	1	0

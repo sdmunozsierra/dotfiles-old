@@ -1,500 +1,500 @@
-sudo pacman -U /var/cache/pacman/pkg/systemd-234.11-6-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/systemd-sysvcompat-234.11-6-x86_64.pkg.tar.xz 
-ls | grep system
-sudo pacman -U /var/cache/pacman/pkg/libsystemd-234.11-6-x86_64.pkg.tar.xz 
-systemctl --version
-systemctl restart NetworkManager
-systemctl restart NetworkManager
-sudo pacman -Rs linux-zen
-cd /var/cache/pacman/pkg/
-ls | grep linux
-sudo pacman -U /var/cache/pacman/pkg/linux-4.12.8-2-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && pacman -U virtualbox-host-modules-arch-5.1.26-6-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && sudo pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && sudo pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && sudo pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
- pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && sudo pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && sudo pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
-sudo  pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && sudo pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && sudo pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz nvidia-utils-384.59-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz nvidia-utils-384.59-1-x86_64.pkg.tar.xz virtualbox-host-modules-arch-5.1.26-2-x86_64.pkg.tar.xz 
-sudo reboot
-startx
-systemctl restart NetworkManager
-sudo systemctl restart NetworkManager
-systemctl
-systemctl
-sudo /sbin/vboxconfig
-sudo pacman -S virtualbox
-cd /sbin/
-ls
-sudo ./vboxreload
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz nvidia-utils-384.59-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz nvidia-utils-384.59-1-x86_64.pkg.tar.xz virtualbox-host-modules-arch-5.1.26-2-x86_64.pkg.tar.xz 
-sudo reboot
-startx
-systemctl restart NetworkManager
-sudo systemctl restart NetworkManager
-systemctl
-cd Data/No
-cd Data/
-cd Asiakirja/
-mkdir Resumes
-mv Web\ Resume\ -\ Fall\ 2017* Resumes/
-mv MunozSergio.docx Resumes/
-mv Cover\ Letter* Resumes/
-mv SergioMunoz-Resume-Spring2017.pdf Resumes/
-feh image001.png 
-cd ArchScripts/
-cd Notes/
+vim Trash.ini 
+vim Notes.ini 
+GitBackupTest
+BackupGitTest
 cd..
-cd Git/
-cd dotfiles/
-cd notes/
-ls
-vim eclipse_notes.md 
-youtube
-sudo systemctl restart NetworkManager
-sudo /sbin/vboxconfig
-sudo pacman -S virtualbox
-sudo modprobe vboxdrv
-systemd
-systemctl
-sudo pacman -R virtualbox-guest-utilis virtualbox-guest-dkms
-pacman U /var/cache/pacman/pkg/virtualbox-5.1.26-1-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/virtualbox-5.1.26-1-x86_64.pkg.tar.xz 
-pacman -Qs linux
-pacman -Qs linux | grep -r kernel
-pacman -Qs linux | grep kernel
-pacman -Qs linux | grep -B 1 kernel
+vim .bash_aliases 
+gitBackupTest
+reboot
+startx
+pacaur -Syyu --ignore notes
+pacaur -Syyu --ignore notes linux-headers
 uname -a
-pacman -Qs linux | grep -B 1 headers
-pacman -Qs virtualbox
-sudo reboot
-startx
-startx
-sudo modprobe vboxdrv
-sudo pacman -S linux-headers-$(uname -r) virtualbox-dkms dkms
-sudo pacman -S linux-headers-4.12.13
-sudo pacman -S linux-headers
-sudo pacman -S virtualbox-dkms
-sudo pacman -S virtualbox !
-sudo pacman -Ss virtualbox 
-sudo reboot
-sudo pacman -Ss virtualbox
-sudo pacman -S virtualbox-host-modules-arch
-sudo pacman -S virtualbox
-sudo modprobe vboxdrv
-ls
-sudo modprobe vboxdrv
-youtube
-youtube
-vimdiff SOCORROISD_TEST_10032017.CSV SOCORROISD_TEST_09122017.CSV 
-vimdiff SOCORROISD_TEST_10042017.CSV SOCORROISD_TEST_09122017.CSV 
-vimdiff SOCORROISD_PROD_10042017.CSV SocorroISD_PROD_09122017.CSV 
-cd Data/ArchScripts/
-./mount_usb.sh 
-sudo umount /media/usb
-startx
-sudo shutdown -n
-sudo shutdown 
-sudo shutdown -t 0
-cd Data/Programming/
-ls
-cd C/
-mkdir Online
-touch RotateLinkedList.c
-mv RotateLinkedList.c Online/
-mv RotateLinkedList.c Online/
-mv LBL1000__lbl0001i.53127.20171005.txt Eli/
-cd Eli/
-ls
-vimdiff LBL1000__lbl0001i.53127.20171005.txt LBL1000__lbl0002i.53127.20170921.txt 
-mv RotateLinkedList.c Online/
-mv LBL1000__lbl0001i.53127.20171005.txt Eli/
-cd Eli/
-ls
-vimdiff LBL1000__lbl0001i.53127.20171005.txt LBL1000__lbl0002i.53127.20170921.txt 
-ls
-vimdiff LBL1000__lbl0001i.53127.20170930.txt LBL1000__lbl0001i.53127.20171005.txt 
-youtube
-vim exclude-list.txt 
-journalctl -r
-pacman -Syyu
-sudo pacman -Syyu
-cd /var/cache/pacman/
-cd pkg/
-grep | system
-grep system
-pacman -U /var/cache/pacman/pkg/systemd-234.11-6-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/systemd-234.11-6-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/systemd-sysvcompat-234.11-6-x86_64.pkg.tar.xz 
-ls | grep system
-sudo pacman -U /var/cache/pacman/pkg/libsystemd-234.11-6-x86_64.pkg.tar.xz 
-systemctl --version
-systemctl restart NetworkManager
-systemctl restart NetworkManager
-sudo pacman -Rs linux-zen
-cd /var/cache/pacman/pkg/
-ls | grep linux
-sudo pacman -U /var/cache/pacman/pkg/linux-4.12.8-2-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && pacman -U virtualbox-host-modules-arch-5.1.26-6-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && sudo pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/nvidia-384.69-2-x86_64.pkg.tar.xz && pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && sudo pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && sudo pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
- pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && sudo pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && sudo pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
-sudo  pacman - U linux-4.12.8-2-x86_64.pkg.tar.xz && sudo pacman -U bbswitch-0.8-78-x86_64.pkg.tar.xz && sudo pacman -U virtualbox-host-modules-arch-5.1.24-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz nvidia-utils-384.59-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz nvidia-utils-384.59-1-x86_64.pkg.tar.xz virtualbox-host-modules-arch-5.1.26-2-x86_64.pkg.tar.xz 
-sudo reboot
-startx
-systemctl restart NetworkManager
-sudo systemctl restart NetworkManager
-systemctl
-systemctl
-sudo /sbin/vboxconfig
-sudo pacman -S virtualbox
-cd /sbin/
-sudo ./vboxreload
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz nvidia-utils-384.59-1-x86_64.pkg.tar.xz 
-sudo pacman -U bbswitch-0.8-75-x86_64.pkg.tar.xz nvidia-384.59-1-x86_64.pkg.tar.xz nvidia-utils-384.59-1-x86_64.pkg.tar.xz virtualbox-host-modules-arch-5.1.26-2-x86_64.pkg.tar.xz 
-sudo reboot
-startx
-systemctl restart NetworkManager
-sudo systemctl restart NetworkManager
-systemctl
-cd Data/No
-cd Asiakirja/
-mkdir Resumes
-mv Web\ Resume\ -\ Fall\ 2017* Resumes/
-mv MunozSergio.docx Resumes/
-mv Cover\ Letter* Resumes/
-mv SergioMunoz-Resume-Spring2017.pdf Resumes/
-feh image001.png 
-cd ArchScripts/
-cd Notes/
-cd Git/
-cd dotfiles/
-cd notes/
-vim eclipse_notes.md 
-youtube
-sudo systemctl restart NetworkManager
-sudo /sbin/vboxconfig
-sudo pacman -S virtualbox
-sudo modprobe vboxdrv
-systemd
-systemctl
-sudo pacman -R virtualbox-guest-utilis virtualbox-guest-dkms
-pacman U /var/cache/pacman/pkg/virtualbox-5.1.26-1-x86_64.pkg.tar.xz 
-sudo pacman -U /var/cache/pacman/pkg/virtualbox-5.1.26-1-x86_64.pkg.tar.xz 
-pacman -Qs linux
-pacman -Qs linux | grep -r kernel
-pacman -Qs linux | grep kernel
-pacman -Qs linux | grep -B 1 kernel
-uname -a
-pacman -Qs linux | grep -B 1 headers
-pacman -Qs virtualbox
-sudo reboot
-startx
-startx
-sudo modprobe vboxdrv
-sudo pacman -S linux-headers-$(uname -r) virtualbox-dkms dkms
-sudo pacman -S linux-headers-4.12.13
-sudo pacman -S linux-headers
-sudo pacman -S virtualbox-dkms
-sudo pacman -S virtualbox !
-sudo pacman -Ss virtualbox 
-sudo reboot
-sudo pacman -Ss virtualbox
-sudo pacman -S virtualbox-host-modules-arch
-sudo pacman -S virtualbox
-sudo modprobe vboxdrv
-sudo modprobe vboxdrv
-youtube
-youtube
-vimdiff SOCORROISD_TEST_10032017.CSV SOCORROISD_TEST_09122017.CSV 
-vimdiff SOCORROISD_TEST_10042017.CSV SOCORROISD_TEST_09122017.CSV 
-vimdiff SOCORROISD_PROD_10042017.CSV SocorroISD_PROD_09122017.CSV 
-cd Data/ArchScripts/
-./mount_usb.sh 
-sudo umount /media/usb
-startx
-sudo shutdown -n
-sudo shutdown 
-sudo shutdown -t 0
-cd Data/Programming/
-cd C/
-mkdir Online
-touch RotateLinkedList.c
-mv RotateLinkedList.c Online/
-mv RotateLinkedList.c Online/
-mv LBL1000__lbl0001i.53127.20171005.txt Eli/
-cd Eli/
-vimdiff LBL1000__lbl0001i.53127.20171005.txt LBL1000__lbl0002i.53127.20170921.txt 
-mv RotateLinkedList.c Online/
-mv LBL1000__lbl0001i.53127.20171005.txt Eli/
-cd Eli/
-vimdiff LBL1000__lbl0001i.53127.20171005.txt LBL1000__lbl0002i.53127.20170921.txt 
-vimdiff LBL1000__lbl0001i.53127.20170930.txt LBL1000__lbl0001i.53127.20171005.txt 
-youtube
-rm *.sw*
-rm .*.sw*
-rmdir bumblebee-bugreport-20170928_144835.tar.gz 
-cd .lyrics/
-rmdir .lyrics/
-vim .lesshst 
-rm .lesshst 
-cd .m2/
-cd repository/
-cd .icons/
-vim index.theme 
-cdll
-vim .gtkrc-2.0 
-vim .webclipse.properties 
-cd .webclipse
-rmdir .webclipse
-cd .w3m/
-rmdir .w3m/
-cd .pki/
-cd nssdb/
-cd....
-cd keanue/
-cd .cache/
-rmdir mopidy/
-cd babl/
-vim babl-fishes 
-rm babl-fishes 
-rmdir babl/
-cd g-ir-scanner/
-rmdir g-ir-scanner/
-cd gegl-0.2/
+reboot
+cd Hdd
+chmod -x torrents/
+cd Isos/
+sudo cd torrents/
+cd torrents/
+cd cache/
 cd swap/
 cd...
-rmdir gegl-0.2/
-cd gstreamer-1.0/
-cd mozilla/
-cd firefox/
-cd jvxwzt48.default/
-cd.....
-cd .config/
-rmdir google-chrome/
-cd Awesomeness/
-cd pcmanfm/
-cd default/
-vim pcmanfm.conf 
-vim Trolltech.conf 
-ls -a
-ls -a -c 2
-ls -a -c2
-ls --h
-la -t
-ls -t
+mkdir Cryptocurrency
+cd Cryptocurrency/
+git clone https://github.com/hyperledger/fabric-samples.git
+cd fabric-samples/
+docker
+sudo systemctl start docker
+curl -sSL https://goo.gl/Q3YRTi | bash
+systemctl 
+sudo curl -sSL https://goo.gl/Q3YRTi | bash
+sudo usermod -a -G docker $USER
+docker run hello-world
+sudo docker run hello-world
+cal
+cd /etc/fuse.conf 
+vim /etc/fuse.conf 
 cd temp/
-ll -t
-ls -ltu
-ls -u
-ls -lu
-ls -T=2
-ls -T2
-la T2
-la --T2
-la -T10
-la -T100
-la -T1
-la -T3
-la 
-la -T66
-la -T2
-ll -k
-ls -m
-ls -mT2
-ls -mT1
-la =m
-la -T2m
-la -T2 -m
-la -T100 -m
-la -T0 -m
-la -m
-ll -m
-ls -l --time-style=locale
-la -l --time-style=locale
-a
-la --format=across
-la --format=coma
-la --format=comma
-la --format=horizontal
-la --format=long
-la --format=verbose
-la --format=vertical
-la -p
-lp
-ls -p
-la --sort=extension
-la --sort=size
-la --sort=time
-la -r --sort=size 
-ls --width 10
-la --width 10
-la --width 80
-la --width 200
-la --width 100
-ls --tabsize=1
-l1 --tabsize=1
-la --tabsize=1
-la --tabsize=2
-la --tabsize=3
-la --tabsize=4
-la --tabsize=5
-la --tabsize=6
-la --tabsize=7
-la --tabsize=8
-la --tabsize=0
-la -h
-la -lh
-lh
-la -lh --width= 100
-la -lh --width=100
-la -lh 
--ll -Ggh
-ll -Ggh
-lL
-lq
-lw
-le
-lr
-ls -R
-xl
-lz
-lc
-ls -lhaG --color=always | sed -re 's/^[^ ]* //'
-ll -ahGg --color=always | sed -re 's/^[^ ]* //'
-ll -ahGgS --color=always | sed -re 's/^[^ ]* //'
-ll -ahGgS --color=always | awk '{print $1}
-
-;
-
-'
-ll -hGgS --color=always | awk '{print $1}'
-ll -hGgS --color=always | awk '{print $2}'
-ll -hGgS --color=always | awk '{print $3}'
-ll -hGgS --color=always | awk '{print $3, $4}'
-ll -hGgS --color=always | awk '{print $3, $5}'
-ll -hGgS --color=always | awk '{print $3, $6}'
-ll -hGgS --color=always | awk '{print $3, $7}'
-ll -hGg --color=none | awk '{print $3, $7}'
-ll -hGg --color=always -T= 80 | awk '{print $3, $7}'
-ll -hGg --color=always -T=80 | awk '{print $3, $7}'
-ll -hGg --color=always -T80 | awk '{print $3, $7}'
-ll -hGg --color=always --width= 80 | awk '{print $3, $7}'
-ll -hGg --tabsize=10 --color=always | awk '{print $3, $7}'
-ll -hGg -CF --color=always | awk '{print $3, $7}'
-ll -hGg -C --color=always | awk '{print $3, $7}'
-ll -hGg --tabsize=1 --color=always | awk '{print $3, $7}'
-ll -hGg --width=100 --color=always | awk '{print $3, $7}'
-ll -hGg --width=10 --color=always | awk '{print $3, $7}'
-ll -hGg --width=80 --color=always | awk '{print $3, $7}'
-ll -hGg --color=always | awk '{print $3, $7}'
-ll -hGg --color=always | awk '{print $3, $7}' | grep th
-ll -hGg --color=always | awk '{print $3, $7}' | fi
-ll -hGg --color=always | awk '{print $3, $3}'
-ll -hGg --color=always | awk '{print $7, $3}'
-ll -hGg --color=always | awk '{print $7, $3}' | column -t
-ll -hGg --color=always | awk '{print $3, $7}' | column -t
-ll -hGg --color=always | awk '{print $3, $7}' --color=always | column -t
-ll -hGg --color=always | awk '{print $3, $7}' | column -t --color
-ll -hGg --color=always | awk '{print $3, $7}' | column -tJ
-ll -hGg --color=always | awk '{print $3, $7}' | column -t -W 1
-ll -hGg --color=always | awk '{print $3, $7}' | column -t -W
-ll -hGg --color=always | awk '{print $3, $7}' | column -t -W----
-ll -hGg --color=always | awk '{print $3, $7}' | column -t -W2
-ll -hGg --color=always | awk '{print $3, $7}' | column -t --help
-ll -hGg --color=always | column -t
-ll -hGg --color=always | column -hhelp
-ll -hGg --color=always | column -s | '
-;
-awk
-'{}
-ll -hGg --color=always | column -s I
-ll -hGg --color=always | column -t -s I
-ll -hGg --color=always | column -t --help
-ll -hGg --color=always | column -t -o I
-ll -hGg --color=always | column -t -o /| fkfkf
-ll -hGg --color=always | column -t -o \|
-ll -hGg --color=always | awk print{$1, $2} | column -t -o \|
-ll -hGg --color=always | awk print'{$1, $2}' | column -t -o \|
-ll -hGg --color=always | awk 'print{$1, $2}' | column -t -o \|
-ll -hGg --color=always | awk '{print$1, $2}' | column -t -o \|
-ll -hGg --color=always | awk '{print$5, $7}' | column -t -o \|
-ll -hGg --color=always | awk '{print$6, $7}' | column -t -o \|
-ll -hGg --color=always | awk '{print$4, $7}' | column -t -o \|
-ll -hGg --color=always | awk '{print$3, $7}' | column -t -o \|
-ll -hGg --color=always | awk '{print$3, $7}' | column -t -o  \| 
-ll -hGg --color=always | awk '{print$3, $7}' | column -t -o \ |  fkf
-ll -hGg --color=always | awk '{print$3, $7}' | column -t -o \ \|\  
-ll --color=always | awk '{print$3, $7}' | column -t -o \ \|\  
-ll -Gg --color=always | awk '{print$3, $7}' 
-ll -Ggh --color=always | awk '{print$3, $7}' 
-ll -Ggh --color=always | awk '{print$3, $7}' | 
-ll -Gg --color=always | awk '{print$3, $7}' | column -t -o \ \|\  
-ll -Gg --color=always | awk '{print$3, $7}' | column -t -o \ \|\  | sed "1{s/^/$(printf '\e[7m')/;s/$/$(printf '\e[0m')/}"
-ll -Gg --color=always | awk '{print$3, $7}' |  awk '{printf "\033[1;32m%s\t\033[00m\033[1;33m%s\t\033[00m\033[1;34m%s\033[00m\n", $1, $2, $3;}'   |  column -t -o \ \|\ 
-ll -Gg --color=always | awk '{print$3, $7}'
-ll -Gg --color=always | awk '{print$3,\t\t $7}'
-ll -Gg --color=always | awk '{print$3,/t/t $7}'
-ll -Gg --color=always | awk '{print$3,$7}'
-ll -Ggh --color=always | awk '{print$3,$7}'
-ll -Ggh --color=always | awk {'prinf("%s  %s\n"),$3, $7'}
-ll -Ggh --color=always | awk {'prinf("%s  %s\n" , $3, $7'}
-ll -Ggh --color=always | awk {'prinf("%s  %s\n" , $3, $7)'}
-ll -Ggh --color=always | gawk '{print $3,  $7}'
-ll -Ggh --color=always | gawk '{print $3,       $7}'
-ll -Ggh --color=always | awk '{print $3,"  " $7}'
-ll -Ggh --color=always | awk '{print "|"$3,"  " $7}'
-ll -Ggh --color=always | awk '{print "|"$3,"|  " $7}'
-ll -Ggh --color=always | awk '{print "|"$3,"|  " $7 "|"}'
-ll -Ggh --color=always | awk '{print ""$3,"|  " $7 ""}'
-ll -Ggh --filesize=M --color=always | awk '{print ""$3," |  " $7 ""}'
-ll -Ggh --block-size=M --color=always | awk '{print ""$3," |  " $7 ""}'
-ll -Ggh --block-size=K --color=always | awk '{print ""$3," |  " $7 ""}'
-ll -Ggh --color=always | awk '{print ""$3," |  " $7 ""}'
-ll -Ggh --color=always | awk '{print ""$3," | " $7 ""}'
-ll -Ggh --color=always | awk '{print ""$3," | " $7 ""}' | columns -t
-ll -Ggh --color=always | awk '{print ""$3," | " $7 ""}' | column -t
-cd Data/
-cd Music/
-lt
-ll -Ggh --color=none | awk '{print ""$3," | " $7 ""}' | column -t
-l -a
-ls --help
+tar -xfz USB\ Driver.tar.gz 
+tar -xvzf USB\ Driver.tar.gz 
+cd USB\ Driver
+vim readme.txt 
+chmod +777 install uninstall 
+./install 
+sudo ./install 
+vim install 
+libusb
+lusb
+lsusb
+pacman -Rs libusb
+sudo pacman -Rs libusb
+pacman -Qi libusb
+sudo pacman -Rs libusbx
+cd ~/Data/Git/
+git clone https://github.com/libusb/libusb.git
+cd libusb/
 ll
-la
+l
+vim README.md 
+vim README.git 
+./autogen.sh 
+vim README
+vim Makefile
+compile
+./compile 
+cd tests/
+make Makefile
+make clean
+make
+cd stress
+./stress 
+cd libusb
+pacman -S libusb
+sudo pacman -S libusb
+cd /usr/lib32
+cd /usr/lib64
+cd lib
+export LD_LIBRARY_PATH=/usr/lib:/usr/lib64:$LD_LIBRARY_PATH
+./lsusb
+grep | usb
+grep us
+ls | grep *usb
+./libusb.so
+sudo ./libusb.so
 cd..
+cd lib64/
 ls
-l
-lss
-vimdiff LBL1000__lbl0001i.53127.20171005.txt LBL1000__lbl0002i.53127.20170921.txt 
-vimdiff LBL1000__lbl0001i.53127.20170930.txt LBL1000__lbl0001i.53127.20171005.txt 
+ls | grep usb
+ll | grep usb
+pacman -S libusb-compact
+sudo pacman -S libusb-compact
+pacaur -S lib32-libusb
+pacaur -S libusb
+pacaur -S libusb-compat
+pacaur -S lib32-libusb-compat
+pacman -Syyu
+sudo pacman -Syyu
+pacaur -S lib32-libusb-compat
+pacaur -S lib32-libusb
+pacman -S lib32-libusb
+sudo pacman -S lib32-libusb
+adb
+adb
+adb
+sudo rm /usr/lib/libusb-0.1.so.4
+sudo rm /usr/lib/libusb-0.1.so.4.4.4 
+sudo rm /usr/lib/libusb.so 
+adb
+sudo rm /usr/lib/libusb-0.1.so.4
+sudo rm /usr/lib/libusb-0.1.so.4.4.4 
+sudo rm /usr/lib/libusb.so 
+sudo pacman -S lib32-libusb
+vim /etc/pacman.conf 
+sudo mount /dev/sr0 /media/usb2
+cd /media/usb2
+cd linux/
+ls
+cp USB\ Driver.tar.gz ~/temp/
+lsblk
+lsusb
+pacman -S lib32-libusb
+sudo pacman -S lib32-libusb
+adb
+adb
+adb
+sudo rm /usr/lib/libusb-0.1.so.4
+sudo rm /usr/lib/libusb-0.1.so.4.4.4 
+sudo rm /usr/lib/libusb.so 
+sudo rm /usr/lib/libusbredirparser.so.1
+sudo rm /usr/lib/libusbg.so.0
+sudo rm /usr/lib/libusbmuxd.so.2
+sudo adb
+cd temp/
+tar -xfzv
+tar -xfzv USB\ Driver.tar.gz 
+tar -xzvf USB\ Driver.tar.gz 
+cd USB\ Driver
+cd mtp/
+./mtp
+./mtpdaemon
+cd driver/
+ls
+cd..
+chmod +777 install 
+./install 
+udo ./install 
+sudo ./install 
+lsusb
+sudo rm /usr/lib/libusbg.so.0
+sudo rm /usr/lib/libusbmuxd.so.2
+cd temp/
+tar -xfzv
+tar -xfzv USB\ Driver.tar.gz 
+tar -xzvf USB\ Driver.tar.gz 
+cd USB\ Driver
+cd mtp/
+./mtp
+./mtpdaemon
+cd driver/
+cd..
+chmod +777 install 
+./install 
+udo ./install 
+sudo ./install 
+sudo adb
+sudo usb
+sudo adb usb
+sudo lsusb
+cd /etc/udev/rules.d/
+sudo adb tcpio 5555
+sudo adb wait-for-device
+vim /etc/pacman.conf 
+pacman -Syyu
+sudo pacman -Syyu
+lsusb
+lsmod
+libsub
+pacman -Qi libusb
+pacman -Qi lib32-libusb
+libusb
+sudo adb kill-server
+sudo adb start-server
+adb devices
+fastboot -i 0x2a96 devices
+fastboot devices
+sudo fastboot
+sudo fastboot devices
+ls
+cd 51-android-hs.rules 
+vim cd 51-android-hs.rules 
+vim 51-android-hs.rules 
+touchVim 51-android.rules
+useradd -G adbusers keanue
+grep adbusers /etc/group
+sudo adb devices
+lsusb.py
+pacman -S google-chrome
+sudo pacman -S google-chrome
+sudo pacman -S chrome
+pacaur -s googlechrome
+sudo sytemctl restart NetworkManager
+sudo systemctl restart NetworkManager
+arandr 
+sudo arandr
+sudo systemctl restart NetworkManager
 youtube
-vim exclude-list.txt 
-vim .bash_aliases 
-source .bash_aliases 
-lss
-lss -S
-lss -Sx
-lss -x
-lss -X
+cal
+cd Data/Git/pjct2-sdms/
 ls
-l
+cd demos/
+make
+cd Data/Git/pjct2-sdms/
+cd demos/
+make
+cal
+cd Data/Git/pjct2-sdms/
+ls
+cd demos/
+make
+$PATH
+sudo systemctl restart NetworkManager
+arandr 
+sudo arandr
+sudo systemctl restart NetworkManager
+youtube
+cal
+cd Data/Git/pjct2-sdms/
+cd demos/
+make
+cd Data/Git/pjct2-sdms/
+cd demos/
+make
+cal
+cd Data/Git/pjct2-sdms/
+cd demos/
+make
+$PATH
+cd Hdd
+mkdir torrents
+rmdir torrents/
+mkdir Torrents
+chmod +775 Torrents/
+chmod +777 torrents/
+cd torrents/
+cd 0_Incomplete/
+sudo rm -rf torrents/
+ls
+cd Torrents/
+mkdir 0Incomplete
+lll
+cd..
+ll
+vim 51-android-hs.rules 
+touchVim 51-android.rules
+useradd -G adbusers keanue
+grep adbusers /etc/group
+sudo adb devices
+pacman -S google-chrome
+sudo pacman -S google-chrome
+sudo pacman -S chrome
+pacaur -s googlechrome
+sudo sytemctl restart NetworkManager
+sudo systemctl restart NetworkManager
+arandr 
+sudo arandr
+sudo systemctl restart NetworkManager
+lsblk
+lsusb
+lsusb.py
+dmesg
+dmesg | f
+cd Data/Downloads/
+chmox +777 msp430-gcc-full-linux-installer-5.0.0.36.run 
+sudo chmod +777 msp430-gcc-full-linux-installer-5.0.0.36.run 
+./msp430-gcc-full-linux-installer-5.0.0.36.run 
+sudo ./msp430-gcc-full-linux-installer-5.0.0.36.run 
+cd /usr/opt/ti/msp430_gcc/
+cd ~/temp/
+cd msp430-gcc-support-files
+vim Revisions_Header.txt 
+cd include/
+cd..
+mv -r include/ /usr/opt/ti/support-files/
+mv include/ /usr/opt/ti/support-files/
+sudo mv include/ /usr/opt/ti/support-files/
+ls
+sudo adb kill-server
+sudo adb start-server
+adb devices
+fastboot -i 0x2a96 devices
+fastboot devices
+sudo fastboot
+sudo fastboot devices
+cd 51-android-hs.rules 
+vim cd 51-android-hs.rules 
+vim 51-android-hs.rules 
+touchVim 51-android.rules
+useradd -G adbusers keanue
+grep adbusers /etc/group
+sudo adb devices
+lsusb.py
+pacman -S google-chrome
+sudo pacman -S google-chrome
+sudo pacman -S chrome
+pacaur -s googlechrome
+sudo sytemctl restart NetworkManager
+sudo systemctl restart NetworkManager
+cd Data/
+cd Git/
+cd oop_pyramids/
+cd oop_pyramids_sample/
+git status
+vim README.md 
+git add .
+git commit -m "updated readme with instructions"
+git push
+cd 2017-fall-arch1-project-1-sdmunozsierra/
+cd pjct2-sdms/
+cd..
+la
+cd demos/
+make clean
+ls
+make
+sudo umount /media/usb2
+sudo arandr
+sudo systemctl restart NetworkManager
+youtube
+cal
+cal
+ls
+bim .profile 
+source .profile 
+$PATH
+cd Data/Git/pjct2-sdms/
+cd demos/
+make
+cd ~
+vim .profile
+pacman -S google-chrome
+sudo pacman -S google-chrome
+sudo pacman -S chrome
+pacaur -s googlechrome
+sudo sytemctl restart NetworkManager
+sudo systemctl restart NetworkManager
+arandr 
+sudo arandr
+sudo systemctl restart NetworkManager
+youtube
+pacaur -Rs binutils-msp430
+pacaur -Rs msp430mcu
+pacaur -Rs msp430-elf-binutils
+pacaur -Rs msp430-elf-mcu
+Data/Git/
+cd Data/Git/
+cd pjct2-sdms/
+cd demos/
+make
+cd /usr/opt/
+cd ti/
+cd msp430_gcc/p
+cd msp430_gcc/
+cd msp430
+cd bin/
+pwd
+./msp430-elf-gcc
+cd..
+cd include/
+ls
+ls grep | msp430
+ls | grep msp430
+ls | grep msp430.h
+lsmod
+libsub
+pacman -Qi libusb
+pacman -Qi lib32-libusb
+libusb
+sudo adb kill-server
+sudo adb start-server
+adb devices
+fastboot -i 0x2a96 devices
+fastboot devices
+sudo fastboot
+sudo fastboot devices
+cd 51-android-hs.rules 
+vim cd 51-android-hs.rules 
+vim 51-android-hs.rules 
+touchVim 51-android.rules
+useradd -G adbusers keanue
+grep adbusers /etc/group
+sudo adb devices
+lsusb.py
+pacman -S google-chrome
+sudo pacman -S google-chrome
+sudo pacman -S chrome
+pacaur -s googlechrome
+sudo sytemctl restart NetworkManager
+sudo systemctl restart NetworkManager
+arandr 
+sudo arandr
+sudo systemctl restart NetworkManager
+fdisk -l
+sudo fdisk -l
+sudo lsusb
+sudo lsusb.py
+cd /dev/
+cd usb/
+cd hiddev0 
+pacaur -S mspgcc-ti
+pacaur -S binutils-msp430
+pacaur -S gcc-msp430
+pacaur -S msp430mcu
+pacaur -S msp430-libc
+pacaur -S msp430-gdb
+pacaur -S msp430-jtag
+dmesg | tail
+pacaur -S msp430-elf-binutils
+pacaur -S msp430-elf-mcu
+pacaur -S msp430-elf-gcc-stage1
+pacaur -S msp430-elf-gcc
+pacaur -S msp430-elf-newlib
+pacaur -S msp430-elf-newlib mps430-elf-gcc-stage1 mps430-elf-gcc
+pacaur -S msp430-elf-newlib msp430-elf-gcc-stage1 msp430-elf-gcc
+pacaur -S msp430-elf-gcc msp430-elf-newlib msp430-elf-gcc-stage1
+pacaur -S msp430-elf-gcc msp430-elf-newlib
+pacaur -S --force msp430-elf-gcc-stage1
+pacaur -S --force msp430-elf-gcc
+pacaur -S --force msp430-elf-gcc-stage1 msp430-elf-newlib msp430-elf-gcc
+pacaur -Rs msp430-gcc
+pacaur -Rs gcc-msp430
+pacaur -R gcc-msp430
+pacaur -Rs gcc-msp430 msp430-gdb msp430-libx
+pacaur -Rs gcc-msp430 msp430-gdb msp430-libc
+pacaur -Rs gcc-msp430 msp430-gdb msp430-libc msp430-jtag
+pacaur -Rs msp*
+pacman -Qi msp*
+pacaur -S --force msp430-elf-newlib msp430-elf-gcc-stage1
+pacman -Qi | grep msp
+cd..
+cd ~
+source .bash_profile 
+touch .profile
+vim .profile 
+vim .bash_profile 
+source .profile 
+source $PATH
+cd Data/Git/
+cd pjct2-sdms/
+cd demos/
+cd timerLib/
+ls
+$PATH
+vim Makefile 
+make
+pacaur -S msp430-elf-mcu
+pacaur -S msp430-elf-newlib
+pacman -Qi | grep msp
+lsusb
+lsusb.py
+git add .
+git commit -m "updated readme with instructions"
+git push
+cd 2017-fall-arch1-project-1-sdmunozsierra/
+cd pjct2-sdms/
+cd..
+la
+cd demos/
+make clean
+ls
+make
+sudo umount /media/usb2
+lsusb.py
+dmesg | tail
+sudo dmesg | tail
+sudo mtp-detect
+simple-mtpf -l
+sudo pacman -Syyu
+mtp-detect
+sudo adb start
+sudo adb start-server
+sudo adb devices
+reboot
+youtube
+startx
+sudo adb start-server
+sudo adb devices
+reboot
+youtube
+startx
+liusb
+sudo pacman -Rs libusb1
+sudo pacman -Rs libusb0
+sudo pacman -Rs libusbx
+usbutils
+sudo pacman -Rs libusb-compat
+pacaur -Rs libusb-compat
+pacman -Qi | grep libusb
+pacaur -S libusb
+pacaur -S mspdebug
+libusb
+lsusb

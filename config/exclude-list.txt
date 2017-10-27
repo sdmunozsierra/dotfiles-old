@@ -1,8 +1,12 @@
 .config/vivald*
 .config/oomox*
 .config/Awesomeness
+.config/Simplenote/
+.config/desktop/
 .config/dolphin-emu
 .config/galculator
+.config/inkscape
+.config/leafpad/
 .config/pulse/
 .config/mpv
 .config/smplayer/
@@ -17,8 +21,10 @@
 .cache
 .eclipse
 .electron
+.emacs.d/ac*
 .emacs.d/auto*
-.emacs.d/elpa/*
+.emacs.d/elpa
+.emacs.d/snippets
 .esd_auth
 .gem
 .git-credentials
@@ -32,6 +38,7 @@
 .macromedia
 .mozilla
 .mynotes
+.m2/
 .node-gyp
 .npm
 .nv
