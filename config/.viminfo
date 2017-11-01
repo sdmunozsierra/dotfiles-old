@@ -11,37 +11,89 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/bar
+~MSle0~/L
 
 # Last Substitute Search Pattern:
-~MSle0&5294E2
+~MSle0&syntastic_solidity_checkers
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1509072173,,"q"
 :w
-|2,0,1509069530,,"w"
+|2,0,1509564491,,"w"
+:qa!
+|2,0,1509564328,,"qa!"
+:bn
+|2,0,1509562485,,"bn"
 :wq
-|2,0,1509068525,,"wq"
+|2,0,1509564326,,"wq"
+:q!
+|2,0,1509562304,,"q!"
+:e Data/
+|2,0,1509561038,,"e Data/"
 :W
-|2,0,1509068327,,"W"
+|2,0,1509560994,,"W"
+:q
+|2,0,1509561030,,"q"
+:e Android/
+|2,0,1509561029,,"e Android/"
+:NERDTree
+|2,0,1509559512,,"NERDTree"
+:help NERD_tree.txt
+|2,0,1509559333,,"help NERD_tree.txt"
+:PluginInstall
+|2,0,1509559181,,"PluginInstall"
+:source %
+|2,0,1509559076,,"source %"
+:sp
+|2,0,1509558894,,"sp"
+:pwd
+|2,0,1509269211,,"pwd"
+:1
+|2,0,1509197745,,"1"
+:edit ../index.html
+|2,0,1509238381,,"edit ../index.html"
+:vsp
+|2,0,1509238327,,"vsp"
+:1!
+|2,0,1509239347,,"1!"
+:e
+|2,0,1509229689,,"e"
+:.1
+|2,0,1509210564,,".1"
+:echo syntastic#util#system('echo "$PATH"')
+|2,0,1509198713,,"echo syntastic#util#system('echo \"$PATH\"')"
+:SyntasticInfo
+|2,0,1509198636,,"SyntasticInfo"
+:help syntastic-checkers
+|2,0,1509198465,,"help syntastic-checkers"
+:SyntasticCheck sol
+|2,0,1509198441,,"SyntasticCheck sol"
+:SyntasticCheck solidity
+|2,0,1509198417,,"SyntasticCheck solidity"
+:SyntasticCheck
+|2,0,1509198232,,"SyntasticCheck"
+:syntastic-cheL
+|2,0,1509198175,,"syntastic-cheL"
+:PluginUpdate
+|2,0,1509197141,,"PluginUpdate"
+:PluginList
+|2,0,1509197135,,"PluginList"
+:help syntastic
+|2,0,1509197122,,"help syntastic"
+:WQ
+|2,0,1509196622,,"WQ"
+:PluginSearch syntastic
+|2,0,1509196599,,"PluginSearch syntastic"
+:shell
+|2,0,1509046248,,"shell"
 :open
 |2,0,1509046266,,"open"
 :Q
 |2,0,1509045100,,"Q"
-:1
-|2,0,1509039698,,"1"
-:q!
-|2,0,1509010295,,"q!"
 :w !sudo tee > /dev/null %
 |2,0,1508975908,,"w !sudo tee > /dev/null %"
-:pwd
-|2,0,1508853206,,"pwd"
-:qa!
-|2,0,1507756767,,"qa!"
 :wqa
 |2,0,1507507207,,"wqa"
 :bp
@@ -54,8 +106,6 @@ $
 |2,0,1507494217,,"open "
 :sp llist.h
 |2,0,1507493926,,"sp llist.h"
-:sp
-|2,0,1507493907,,"sp"
 :'<,'>qa!
 |2,0,1507124518,,"'<,'>qa!"
 :w jj
@@ -68,60 +118,58 @@ $
 |2,0,1505836040,,"ls"
 :.,.+1ls
 |2,0,1505836038,,".,.+1ls"
-:bn
-|2,0,1505836021,,"bn"
 :e exclude-list.txt
 |2,0,1505836017,,"e exclude-list.txt"
-:e Data/ArchScripts/install_i3.sh
-|2,0,1505835948,,"e Data/ArchScripts/install_i3.sh"
-:colorscheme elflord
-|2,0,1505739839,,"colorscheme elflord"
-:colorscheme delek
-|2,0,1505739835,,"colorscheme delek"
-:colorscheme default
-|2,0,1505739832,,"colorscheme default"
-:colorscheme darkblue
-|2,0,1505739828,,"colorscheme darkblue"
-:wqa!
-|2,0,1505241715,,"wqa!"
-:'<,'>qa
-|2,0,1505083912,,"'<,'>qa"
-:vsp
-|2,0,1504484483,,"vsp"
-:wa
-|2,0,1504042047,,"wa"
-:colo badwolf
-|2,0,1502898121,,"colo badwolf"
-:quit
-|2,0,1502898953,,"quit"
-:e
-|2,0,1502666723,,"e"
-::w !sudo tee > /dev/null %
-|2,0,1501855081,,":w !sudo tee > /dev/null %"
-:colorscheme desert
-|2,0,1501786176,,"colorscheme desert"
-:colorscheme blue
-|2,0,1501786158,,"colorscheme blue"
-:qa
-|2,0,1501782055,,"qa"
-:new 1
-|2,0,1501696787,,"new 1"
-:badd dreamstatemusic.md
-|2,0,1501696741,,"badd dreamstatemusic.md"
-:PluginUpdate
-|2,0,1501696672,,"PluginUpdate"
-:7,8bdelete
-|2,0,1501696542,,"7,8bdelete"
-:2,5bdelete
-|2,0,1501696530,,"2,5bdelete"
-:bdelete 2,5
-|2,0,1501696507,,"bdelete 2,5"
-:bdelete display_colors.sh
-|2,0,1501696498,,"bdelete display_colors.sh"
-:vsp install_pacaur.sh
-|2,0,1501696018,,"vsp install_pacaur.sh"
 
 # Search String History (newest to oldest):
+?/L
+|2,1,1509562432,47,"L"
+?/Hous
+|2,1,1509558571,47,"Hous"
+?/hous
+|2,1,1509558568,47,"hous"
+??Hous
+|2,1,1509558483,63,"Hous"
+?/blockch
+|2,1,1509214821,47,"blockch"
+?/butto
+|2,1,1509214814,47,"butto"
+?/sol
+|2,1,1509198513,47,"sol"
+?/Tok
+|2,1,1509245641,47,"Tok"
+??smart
+|2,1,1509240244,63,"smart"
+?/button
+|2,1,1509239673,47,"button"
+?/get btn
+|2,1,1509239668,47,"get btn"
+?/form-group
+|2,1,1509239653,47,"form-group"
+?/block
+|2,1,1509239280,47,"block"
+?/blo
+|2,1,1509239110,47,"blo"
+?/To
+|2,1,1509233098,47,"To"
+?/*globals $, SimpleStorage, document*/
+|2,1,1509236841,47,"*globals $, SimpleStorage, document*/"
+??err
+|2,1,1509232574,63,"err"
+??SimpleStora
+|2,1,1509232492,63,"SimpleStora"
+?/getVal
+|2,1,1509232481,47,"getVal"
+??id
+|2,1,1509231387,63,"id"
+?/Set
+|2,1,1509231344,47,"Set"
+?/id
+|2,1,1509231230,47,"id"
+??Check
+|2,1,1509231082,63,"Check"
+?/Check
+|2,1,1509231064,47,"Check"
 ?/bar
 |2,1,1509034253,47,"bar"
 ??2
@@ -152,8 +200,6 @@ $
 |2,1,1508849625,47,"stack"
 ??comm
 |2,1,1507496228,63,"comm"
-?/Hous
-|2,1,1507235835,47,"Hous"
 ? \<628261895\>
 |2,1,1507124274,,"\\<628261895\\>"
 ?/Enroll
@@ -176,52 +222,6 @@ $
 |2,1,1507033687,47,"Log"
 ?/Houst
 |2,1,1506712132,47,"Houst"
-?/Housto
-|2,1,1506706692,47,"Housto"
-?/libirecovery
-|2,1,1506649832,47,"libirecovery"
-?/PKG_CON
-|2,1,1506649733,47,"PKG_CON"
-?/recover
-|2,1,1506649657,47,"recover"
-?/resto
-|2,1,1506649606,47,"resto"
-?//bar
-|2,1,1506619155,47,"/bar"
-? @$
-|2,1,1506614438,,"@$"
-?/SLH
-|2,1,1506524499,47,"SLH"
-?/6r7
-|2,1,1506358845,47,"6r7"
-?/data
-|2,1,1506258543,47,"data"
-?/in
-|2,1,1506257975,47,"in"
-??in
-|2,1,1505954537,63,"in"
-?/wou
-|2,1,1505952494,47,"wou"
-?/.net
-|2,1,1506012015,47,".net"
-?/210
-|2,1,1506015212,47,"210"
-? seisd.ent
-|2,1,1506015194,,"seisd.ent"
-?/ent
-|2,1,1506015164,47,"ent"
-?/seisd.ent
-|2,1,1506015146,47,"seisd.ent"
-?//.ent
-|2,1,1506015079,47,"/.ent"
-?/.ent
-|2,1,1506015060,47,".ent"
-?/.
-|2,1,1506015040,47,"."
-?/,net
-|2,1,1506014876,47,",net"
-?/2105
-|2,1,1506011183,47,"2105"
 
 # Expression History (newest to oldest):
 =p
@@ -235,36 +235,36 @@ $
 
 # Registers:
 "0	LINE	0
-	GCC_DIR= /opt/ti/msp430_gcc/bin
-|3,0,0,1,1,0,1509066410,"GCC_DIR= /opt/ti/msp430_gcc/bin"
+	.ethereum
+|3,0,0,1,1,0,1509564483,".ethereum"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1509068302,""
+	let NERDTreeDirArrows = 1
+|3,0,1,1,1,0,1509562332,"let NERDTreeDirArrows = 1"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1509068302,""
+|3,0,2,1,1,0,1509562274,""
 "3	LINE	0
-	#switch the compiler (for the internal make rules)
-|3,0,3,1,1,0,1509068301,"#switch the compiler (for the internal make rules)"
+	
+|3,0,3,1,1,0,1509561544,""
 "4	LINE	0
-	LFLAGS =	-L $(SUPPORT_FILE_DIRECTORY)
-|3,0,4,1,1,0,1509068297,"LFLAGS =	-L $(SUPPORT_FILE_DIRECTORY)"
+	" Fast save a buffer
+|3,0,4,1,1,0,1509561481,"\" Fast save a buffer"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1509068296,""
+|3,0,5,1,1,0,1509561475,""
 "6	LINE	0
-	CC              = $(GCC_DIR)/msp430-elf-gcc
-	AS              = $(GCC_DIR)/msp430-elf-as
-|3,0,6,1,2,0,1509068295,"CC              = $(GCC_DIR)/msp430-elf-gcc","AS              = $(GCC_DIR)/msp430-elf-as"
+	" Close current buffer
+|3,0,6,1,1,0,1509561474,"\" Close current buffer"
 "7	LINE	0
-	CFLAGS =	-I $(SUPPORT_FILE_DIRECTORY) -mmcu=$(CPU) -I../h
-|3,0,7,1,1,0,1509068288,"CFLAGS =	-I $(SUPPORT_FILE_DIRECTORY) -mmcu=$(CPU) -I../h"
-"8	LINE	0
+	" Close current buffer
 	
-|3,0,8,1,1,0,1509068248,""
+|3,0,7,1,2,0,1509561470,"\" Close current buffer",""
+"8	LINE	0
+	map <leader>bd :Bclose<cr> " Close current buffer
+|3,0,8,1,1,0,1509561467,"map <leader>bd :Bclose<cr> \" Close current buffer"
 "9	LINE	0
-	CPU             = msp430g2553
-|3,0,9,1,1,0,1509068247,"CPU             = msp430g2553"
+	" Close current buffer
+|3,0,9,1,1,0,1509561460,"\" Close current buffer"
 "a@	CHAR	0
 	!
 |3,2,10,0,1,0,1506016147,"!"
@@ -281,8 +281,8 @@ $
 	dw2bepua p
 |3,0,19,0,1,0,1502806925,"dw2bepua p"
 "k	CHAR	0
-	
-|3,0,20,0,1,0,1505845083,""
+	kwwkwwkkkkkwkwwk222k22kgg
+|3,0,20,0,1,0,1509197953,"kwwkwwkkkkkwkwwk222k22kgg"
 "l	CHAR	0
 	560
 <llllllllllhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjwi;h€kbismartfa€kb€kbgaps current pf€kb€kboff €kb:wg
@@ -290,1546 +290,1090 @@ $
 |<"llllllllllhjjjjjjjjjjjjjjjjjjjjjjjjj
 |<jjjjjjjjjwi;h€kbismartfa€kb€kbgaps current pf€kb€kboff €kb:wg"
 "q	CHAR	0
-	
-|3,0,26,0,1,0,1501530489,""
+	
+|3,0,26,0,1,0,1509248825,""
 "u	CHAR	0
 	hhwi€kb€kbu.
 |3,0,30,0,1,0,1505845046,"hhwi€kb€kbu."
 "w	CHAR	0
-	491
-<€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klxx:w€kd€kr€ku€ku€kuI#:w:w€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdi#A #PID€ku€ku€ku€ku:w€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kda|grep NADA:w€kl€kr€kl€kl€kl€kl€kl€kl€kl€klCawk -f€kbF'€kb €kb '€kb€kb'--no' '{print $1'€kb}':w€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kr€kr€kri €kr :w:w€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klr0:w€kr€klr2:w
-|3,0,32,0,1,0,1501295427,>490
-|<"€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klxx:w€kd€kr€ku€ku€kuI#:w:w€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdi#A #PID€ku€ku€ku€ku:w€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kda|grep NADA:w€kl€kr€kl€kl€kl€kl€kl€kl€kl€klCawk -f€kbF'€kb €kb '€kb€kb'--no' '{print $1'€kb}':w€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kr€kr€kri €kr :w:w€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€klr0:w€kr€klr2:w"
+	
+|3,0,32,0,1,0,1509560289,""
 "y	CHAR	0
 	[&#xf17c;]
 	
 |3,0,34,0,2,0,1495712165,"[&#xf17c;]",""
 ""-	CHAR	0
-	F
-|3,1,36,0,1,0,1509069526,"F"
+	ethereum
+|3,1,36,0,1,0,1509564486,"ethereum"
 
 # File marks:
-'0  1  0  /opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile
-|4,48,1,0,1509072173,"/opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile"
-'1  3  0  ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile
-|4,49,3,0,1509072165,"~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile"
-'2  1  0  ~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile
-|4,50,1,0,1509069804,"~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile"
-'3  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,51,1,0,1509069784,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
-'4  19  21  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,52,19,21,1509069533,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
-'5  19  21  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,53,19,21,1509069533,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
-'6  19  20  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,54,19,20,1509069507,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
-'7  19  20  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,55,19,20,1509069507,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
-'8  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,56,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
-'9  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,57,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
+'0  29  6  ~/exclude-list.txt
+|4,48,29,6,1509564514,"~/exclude-list.txt"
+'1  24  8  ~/NERD_tree_1
+|4,49,24,8,1509564328,"~/NERD_tree_1"
+'2  85  44  ~/.vimrc
+|4,50,85,44,1509564326,"~/.vimrc"
+'3  1  0  ~/NERD_tree_1
+|4,51,1,0,1509562424,"~/NERD_tree_1"
+'4  15  0  ~/NERD_tree_1
+|4,52,15,0,1509562424,"~/NERD_tree_1"
+'5  90  0  ~/.vimrc
+|4,53,90,0,1509562300,"~/.vimrc"
+'6  92  0  ~/.vimrc
+|4,54,92,0,1509562300,"~/.vimrc"
+'7  90  0  ~/.vimrc
+|4,55,90,0,1509562300,"~/.vimrc"
+'8  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,56,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+'9  1  0  ~/.config/i3/config
+|4,57,1,0,1509561365,"~/.config/i3/config"
 
 # Jumplist (newest first):
--'  1  0  /opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile
-|4,39,1,0,1509072173,"/opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile"
--'  3  0  ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile
-|4,39,3,0,1509072165,"~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile
-|4,39,1,0,1509069804,"~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile"
--'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,1,0,1509069784,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  19  21  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,19,21,1509069533,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  19  21  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,19,21,1509069533,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,1,0,1509069514,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  19  20  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,19,20,1509069507,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,1,0,1509069141,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  20  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,20,0,1509068917,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,1,0,1509068790,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  19  14  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,19,14,1509068525,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  19  14  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,19,14,1509068525,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  15  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,15,0,1509068203,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,1,0,1509068173,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  30  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,30,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  31  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,31,0,1509068140,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-|4,39,1,0,1509068026,"~/Data/Git/pjct2-sdms/demos/button_demo/Makefile"
--'  1  0  ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-|4,39,1,0,1509068023,"~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
--'  8  61  ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-|4,39,8,61,1509068007,"~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile"
+-'  29  6  ~/exclude-list.txt
+|4,39,29,6,1509564514,"~/exclude-list.txt"
+-'  1  0  ~/exclude-list.txt
+|4,39,1,0,1509564394,"~/exclude-list.txt"
+-'  24  8  ~/NERD_tree_1
+|4,39,24,8,1509564328,"~/NERD_tree_1"
+-'  24  8  ~/NERD_tree_1
+|4,39,24,8,1509564328,"~/NERD_tree_1"
+-'  85  44  ~/.vimrc
+|4,39,85,44,1509564326,"~/.vimrc"
+-'  85  44  ~/.vimrc
+|4,39,85,44,1509564326,"~/.vimrc"
+-'  10  47  ~/Data/Crypto/embark-framework/LICENSE
+|4,39,10,47,1509562873,"~/Data/Crypto/embark-framework/LICENSE"
+-'  10  47  ~/Data/Crypto/embark-framework/LICENSE
+|4,39,10,47,1509562873,"~/Data/Crypto/embark-framework/LICENSE"
+-'  84  0  ~/.vimrc
+|4,39,84,0,1509562801,"~/.vimrc"
+-'  84  0  ~/.vimrc
+|4,39,84,0,1509562801,"~/.vimrc"
+-'  12  0  ~/Data/Crypto/embark-framework/script_test.js
+|4,39,12,0,1509562478,"~/Data/Crypto/embark-framework/script_test.js"
+-'  12  0  ~/Data/Crypto/embark-framework/script_test.js
+|4,39,12,0,1509562478,"~/Data/Crypto/embark-framework/script_test.js"
+-'  1  0  ~/Data/Crypto/embark-framework/script_test.js
+|4,39,1,0,1509562452,"~/Data/Crypto/embark-framework/script_test.js"
+-'  2  0  ~/Data/Crypto/embark-framework/CONTRIBUTING.md
+|4,39,2,0,1509562452,"~/Data/Crypto/embark-framework/CONTRIBUTING.md"
+-'  1  0  ~/Data/Crypto/embark-framework/script_test.js
+|4,39,1,0,1509562452,"~/Data/Crypto/embark-framework/script_test.js"
+-'  2  0  ~/Data/Crypto/embark-framework/CONTRIBUTING.md
+|4,39,2,0,1509562452,"~/Data/Crypto/embark-framework/CONTRIBUTING.md"
+-'  2  0  ~/Data/Crypto/embark-framework/LICENSE
+|4,39,2,0,1509562438,"~/Data/Crypto/embark-framework/LICENSE"
+-'  2  0  ~/Data/Crypto/embark-framework/LICENSE
+|4,39,2,0,1509562438,"~/Data/Crypto/embark-framework/LICENSE"
+-'  1  0  ~/Data/Crypto/embark-framework/LICENSE
+|4,39,1,0,1509562433,"~/Data/Crypto/embark-framework/LICENSE"
+-'  1  0  ~/Data/Crypto/embark-framework/LICENSE
+|4,39,1,0,1509562433,"~/Data/Crypto/embark-framework/LICENSE"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1509562424,"~/NERD_tree_1"
+-'  15  0  ~/NERD_tree_1
+|4,39,15,0,1509562424,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1509562424,"~/NERD_tree_1"
+-'  15  0  ~/NERD_tree_1
+|4,39,15,0,1509562424,"~/NERD_tree_1"
+-'  8  0  ~/Data/Crypto/my-peso/src/index.html
+|4,39,8,0,1509562396,"~/Data/Crypto/my-peso/src/index.html"
+-'  8  0  ~/Data/Crypto/my-peso/src/index.html
+|4,39,8,0,1509562396,"~/Data/Crypto/my-peso/src/index.html"
+-'  8  0  ~/Data/Crypto/my-peso/src/index.html
+|4,39,8,0,1509562396,"~/Data/Crypto/my-peso/src/index.html"
+-'  8  0  ~/Data/Crypto/my-peso/src/index.html
+|4,39,8,0,1509562396,"~/Data/Crypto/my-peso/src/index.html"
+-'  1  0  ~/Data/Crypto/my-peso/src/index.html
+|4,39,1,0,1509562386,"~/Data/Crypto/my-peso/src/index.html"
+-'  1  0  ~/Data/Crypto/my-peso/src/index.html
+|4,39,1,0,1509562386,"~/Data/Crypto/my-peso/src/index.html"
+-'  1  0  ~/Data/Crypto/my-peso/src/index.html
+|4,39,1,0,1509562386,"~/Data/Crypto/my-peso/src/index.html"
+-'  1  0  ~/Data/Crypto/my-peso/src/index.html
+|4,39,1,0,1509562386,"~/Data/Crypto/my-peso/src/index.html"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1509562311,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1509562311,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562300,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562300,"~/.vimrc"
+-'  92  0  ~/.vimrc
+|4,39,92,0,1509562300,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562300,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562300,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562300,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562300,"~/.vimrc"
+-'  92  0  ~/.vimrc
+|4,39,92,0,1509562300,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562300,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562300,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1509562266,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1509562266,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562266,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1509562266,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1509562266,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1509562266,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1509562266,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1509562266,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1509562266,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1509562266,"~/.vimrc"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
+|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
 
 # History of marks within files (newest to oldest):
 
-> ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/Makefile
-	*	1509069782	0
-	"	1	0
-	^	10	12
-	.	19	21
-	+	15	12
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	1	46
-	+	15	31
-	+	1	30
-	+	15	50
-	+	15	0
-	+	15	28
-	+	15	0
-	+	15	9
-	+	15	7
-	+	15	36
-	+	16	0
-	+	15	0
-	+	4	0
-	+	15	0
-	+	15	14
-	+	16	46
-	+	24	0
-	+	25	0
-	+	31	0
-	+	29	0
-	+	27	0
-	+	21	0
-	+	22	0
-	+	21	1
-	+	22	2
-	+	4	0
-	+	3	14
-	+	18	8
-	+	15	56
-	+	15	0
-	+	19	0
-	+	22	0
-	+	21	0
-	+	22	0
-	+	18	8
-	+	16	0
-	+	15	14
+> ~/exclude-list.txt
+	*	1509564495	0
+	"	29	6
+	^	29	7
+	.	29	6
+	+	33	6
+	+	30	8
+	+	29	6
+
+> ~/NERD_tree_1
+	*	1509562879	0
+	"	24	8
+	.	1	0
 	+	1	0
-	+	4	0
-	+	15	0
-	+	15	13
-	+	20	0
-	+	16	0
-	+	23	0
-	+	26	0
-	+	28	0
-	+	30	0
-	+	15	0
-	+	5	0
-	+	14	0
-	+	15	0
-	+	9	65
-	+	15	0
-	+	10	0
-	+	12	0
-	+	15	0
-	+	10	11
-	+	19	21
 
-> ~/Data/Git/pjct2-sdms/demos/blink_demo/Makefile
-	*	1509068949	0
+> ~/Data/Crypto/embark-framework/LICENSE
+	*	1509562871	0
+	"	10	47
+
+> ~/Data/Crypto/embark-framework/script_test.js
+	*	1509562867	0
 	"	1	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/Makefile
-	*	1509068228	0
-	"	3	0
-	^	7	47
-	.	3	0
-	+	8	15
-	+	15	17
-	+	8	13
-	+	3	31
-	+	4	50
-	+	10	28
-	+	11	28
-	+	12	28
-	+	8	0
-	+	15	7
-	+	24	0
-	+	7	46
-	+	3	0
-	+	6	0
-	+	3	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/Makefile
-	*	1509068005	0
-	"	8	61
-	^	8	62
-	.	8	60
-	+	9	42
-	+	4	0
-	+	9	0
-	+	2	0
-	+	4	0
-	+	3	0
-	+	6	0
-	+	9	0
-	+	7	0
-	+	9	39
-	+	12	28
-	+	13	28
+	.	1	1
 	+	1	1
-	+	8	60
+	o	2	0
 
-> ~/Data/Git/pjct2-sdms/demos/button_demo/Makefile
-	*	1509067988	0
-	"	1	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/make
-	*	1509067623	0
-	"	1	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/buzzer_blink_demo/Makefile
-	*	1509067501	0
-	"	32	0
-	^	13	29
-	.	13	28
-	+	9	59
+> ~/.vimrc
+	*	1509562829	0
+	"	85	44
+	^	85	45
+	.	85	44
+	+	15	0
+	+	36	26
+	+	38	44
+	+	52	0
+	+	62	40
+	+	63	38
+	+	17	27
+	+	10	0
 	+	9	0
-	+	3	0
-	+	4	0
-	+	3	0
-	+	8	46
-	+	9	55
-	+	12	28
-	+	13	28
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/buzzer_demo/Makefile
-	*	1509067326	0
-	"	9	49
-	^	7	95
-	.	7	94
-	+	8	0
-	+	7	0
-	+	8	0
-	+	7	40
-	+	8	0
-	+	2	30
-	+	3	49
-	+	10	28
-	+	11	28
-	+	7	94
-
-> ~/Data/Git/pjct2-sdms/demos/buzzer_demo/Makefile
-	*	1509067283	0
-	"	1	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/clocksTimer.c
-	*	1509066329	0
-	"	1	0
-	^	1	19
-	.	1	18
-	+	1	18
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/clocksTimer.
-	*	1509066326	0
-	"	1	0
-
-> ~/Data/Git/pjct2-sdms/demos/timerLib/Makefile
-	*	1509065767	0
-	"	1	0
-
-> /opt/ti/msp430_gcc/examples/linux/msp430g2553/Makefile
-	*	1509063756	0
-	"	1	0
-
-> ~/.profile
-	*	1509062760	0
-	"	2	32
-	^	2	33
-	.	2	32
-	+	2	0
-	+	3	0
-	+	2	32
-
-> /etc/environment
-	*	1509062677	0
-	"	5	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/blink_demo/README.md
-	*	1509046299	0
-	"	1	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/Makefile
-	*	1509046211	0
-	"	1	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/clocksTimer.h
-	*	1509045017	0
-	"	1	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/libTimer.h
-	*	1509045001	0
-	"	1	0
-
-> ~/Data/Git/project-2-sdmunozsierra/demos/timerLib/sr.h
-	*	1509044993	0
-	"	1	0
-
-> /usr/opt/ti/msp430_gcc/include/devices.csv
-	*	1509044082	0
-	"	31	0
-
-> ~/Data/Git/pjct2-sdms/demos/.profile
-	*	1509042045	0
-	"	1	0
-
-> ~/temp/msp430-gcc-support-files/Revisions_Header.txt
-	*	1509041706	0
-	"	211	0
-
-> ~/Data/Git/pjct2-sdms/demos/Makefile
-	*	1509041643	0
-	"	1	0
-
-> ~/.bash_profile
-	*	1509039940	0
-	"	2	11
-	^	2	12
-	.	2	11
-	+	4	0
-	+	2	11
-
-> ~/.config/i3/config
-	*	1509034272	0
-	"	352	3
-	^	352	4
-	.	352	3
-	+	282	33
-	+	283	0
-	+	286	28
-	+	286	15
-	+	281	38
-	+	282	41
-	+	286	41
-	+	286	0
-	+	286	29
-	+	286	0
-	+	284	29
-	+	283	30
-	+	282	29
-	+	281	27
-	+	283	0
-	+	285	0
-	+	280	24
-	+	277	26
-	+	313	0
-	+	111	0
-	+	104	0
-	+	95	0
-	+	122	0
-	+	179	0
-	+	89	0
-	+	80	0
-	+	89	0
-	+	81	0
-	+	85	0
-	+	82	26
-	+	83	29
-	+	84	26
-	+	83	52
-	+	271	0
-	+	111	0
-	+	117	13
-	+	127	58
-	+	83	0
-	+	117	49
-	+	127	59
-	+	117	0
-	+	149	85
-	+	149	86
-	+	150	0
-	+	117	0
-	+	127	59
-	+	117	42
-	+	127	59
-	+	117	75
-	+	128	28
-	+	83	28
-	+	128	78
-	+	83	44
-	+	83	0
-	+	85	0
-	+	117	111
-	+	344	39
-	+	346	38
-	+	344	39
-	+	19	17
-	+	131	21
-	+	45	19
-	+	113	29
-	+	130	0
-	+	129	26
-	+	355	0
-	+	353	2
-	+	355	0
-	+	354	0
-	+	353	2
-	+	355	3
-	+	19	17
-	+	20	16
-	+	46	16
-	+	47	0
-	+	46	16
-	+	47	0
-	+	46	16
-	+	46	18
-	+	355	0
-	+	352	0
-	+	353	2
-	+	352	3
-	+	299	0
-	+	300	0
-	+	302	0
-	+	301	60
-	+	352	3
-	+	353	2
-	+	352	3
-	+	354	0
-	+	353	2
-	+	352	3
-	+	353	2
-	+	352	3
-	+	353	2
-	+	358	0
-	+	353	2
-	+	353	0
-	+	352	3
-	g	106	27
-	m	106	27
-
-> ~/Data/Git/oop_pyramids/oop_pyramids_sample/README.md
-	*	1509032593	0
-	"	3	0
-	^	4	0
-	.	4	0
-	+	5	0
-	+	1	37
-	+	8	105
-	+	8	14
-	+	13	63
-	+	12	0
-	+	13	0
-	+	12	0
-	+	13	0
-	+	12	16
-	+	13	18
-	+	12	44
-	+	8	26
-	+	12	131
-	+	13	64
-	+	13	63
-	+	13	109
-	+	30	132
-	+	31	1
-	+	29	0
-	+	32	48
-	+	30	2
-	+	32	48
-	+	32	116
-	+	32	45
-	+	32	79
-	+	32	120
-	+	32	48
-	+	10	86
-	+	22	19
-	+	25	0
-	+	32	45
-	+	22	35
-	+	32	150
-	+	24	139
-	+	24	0
-	+	25	0
-	+	32	45
-	+	32	65
-	+	33	110
-	+	16	36
-	+	32	1
-	+	33	1
-	+	33	148
-	+	35	2
-	+	37	102
-	+	23	74
-	+	34	0
-	+	36	0
-	+	38	109
-	+	39	158
-	+	40	0
-	+	3	0
-	+	4	0
-
-> /etc/udev/rules.d/51-android.rules
-	*	1508975911	0
-	"	3	90
-	^	3	91
-	.	3	90
-	+	2	0
-	+	3	90
-
-> /etc/udev/rules.d/51-android-hs.rules
-	*	1508975797	0
-	"	3	0
-	.	4	0
-	+	4	97
-	+	4	0
-	+	4	80
-	+	4	0
-
-> /etc/udev/rules.d/cd
-	*	1508975777	0
-	"	1	0
-
-> /etc/udev/rules.d/-MiniBufExplorer-
-	*	1508975777	0
-	"	1	0
-	.	2	0
-	+	2	0
-
-> /etc/pacman.conf
-	*	1508975222	0
-	"	100	0
-	^	100	1
-	.	100	0
+	+	112	0
+	+	113	0
+	+	127	0
+	+	127	22
+	+	128	0
+	+	126	0
+	+	57	0
+	+	62	0
+	+	63	0
 	+	78	0
-	+	76	25
-	+	77	67
-	+	81	0
-	+	83	0
+	+	92	0
+	+	93	0
+	+	92	0
+	+	93	0
+	+	78	24
+	+	95	29
+	+	79	27
+	+	98	0
+	+	26	0
+	+	22	0
+	+	79	29
+	+	110	26
+	+	110	0
+	+	110	26
+	+	110	27
+	+	110	0
+	+	110	26
+	+	110	27
+	+	110	0
+	+	109	0
+	+	108	0
+	+	106	0
+	+	107	16
+	+	82	0
+	+	92	0
+	+	81	45
+	+	79	13
+	+	84	0
+	+	88	0
+	+	87	36
 	+	89	0
 	+	92	0
 	+	91	0
-	+	89	0
-	+	90	0
-	+	81	0
-	+	82	0
-	+	76	0
-	+	77	0
-	+	78	0
-	+	83	0
-	+	91	0
-	+	99	1
-	+	100	1
-	+	99	0
-	+	100	0
+	+	90	23
+	+	92	0
+	+	79	29
+	+	84	0
+	+	86	0
+	+	85	44
 
-> /usr/bin/lsusb
-	*	1508963521	0
+> ~/Data/Crypto/embark-framework/CONTRIBUTING.md
+	*	1509562481	0
+	"	21	0
+
+> ~/Data/Crypto/my-peso/src/index.html
+	*	1509562395	0
+	"	8	0
+
+> ~/Data/Crypto/embark-framework/demo/chains.json
+	*	1509562248	0
+	"	45	0
+
+> ~/Data/Crypto/embark-framework/demo/app/contracts/simple_storage.sol
+	*	1509562248	0
 	"	1	0
 
-> ~/Data/Git/libusb/Makefile
-	*	1508961205	0
-	"	152	0
+> ~/Data/Crypto/embark-framework/demo/embark.json
+	*	1509562005	0
+	"	5	2
 
-> ~/Data/Git/libusb/README
-	*	1508961147	0
-	"	31	0
-
-> ~/Data/Git/libusb/README.git
-	*	1508961077	0
-	"	15	0
-
-> ~/Data/Git/libusb/README.md
-	*	1508961026	0
-	"	5	0
-
-> ~/temp/USB Driver/install
-	*	1508959891	0
-	"	203	0
-
-> ~/temp/USB Driver/readme.txt
-	*	1508959613	0
-	"	1	28
-
-> /etc/fuse.conf
-	*	1508959434	0
-	"	9	0
-	.	9	0
-	+	9	0
-
-> ~/exclude-list.txt
-	*	1508943198	0
-	"	18	0
-	.	18	0
-	+	15	28
-	+	13	26
-	+	14	0
-	+	13	30
-	+	18	7
-	+	52	0
-	+	18	8
-	+	18	7
-	+	62	3
-	+	49	0
-	+	22	5
-	+	1	0
-	+	13	0
-	+	1	0
-	+	22	7
-	+	17	5
-	+	28	16
-	+	59	2
-	+	60	13
-	+	63	4
-	+	64	0
-	+	63	5
-	+	49	10
-	+	49	3
-	+	46	7
-	+	46	0
-	+	36	2
-	+	34	7
-	+	28	16
-	+	33	10
-	+	28	0
-	+	32	5
-	+	30	4
-	+	21	5
-	+	19	7
-	+	44	12
-	+	39	12
-	+	38	12
-	+	37	12
-	+	14	0
-	+	53	13
-	+	40	7
-	+	36	5
-	+	35	6
-	+	2	13
-	+	16	17
-	+	2	14
-	+	3	37
-	+	11	10
-	+	12	16
-	+	50	3
-	+	48	0
-	+	51	12
-	+	54	11
-	+	52	0
-	+	55	0
-	+	56	7
-	+	29	3
-	+	45	8
-	+	60	0
-	+	58	10
-	+	42	8
-	+	43	4
-	+	65	0
-	+	62	0
-	+	61	7
-	+	69	4
-	+	23	8
-	+	20	6
-	+	7	17
-	+	7	0
-	+	3	18
-	+	6	18
-	+	26	14
-	+	6	8
-	+	26	7
-	+	25	13
-	+	47	4
-	+	31	6
-	+	10	13
-	+	6	0
-	+	41	3
-	+	26	12
-	+	27	16
-	+	24	12
-	+	6	0
-	+	9	15
-	+	8	15
-	+	5	15
-	+	4	18
-	+	18	0
-
-> ~/.bash_aliases
-	*	1508934110	0
+> ~/Data/Crypto/embark-framework/demo/package.json
+	*	1509561940	0
 	"	1	0
-	^	59	73
-	.	59	72
-	+	1	54
-	+	1	71
-	+	1	90
-	+	1	107
-	+	1	108
-	+	1	121
-	+	1	139
-	+	1	162
-	+	1	189
-	+	1	220
-	+	2	0
-	+	21	14
-	+	1	0
-	+	27	0
-	+	24	0
-	+	1	0
-	+	29	0
-	+	28	40
-	+	27	0
-	+	26	0
-	+	27	12
-	+	27	51
-	+	27	0
-	+	27	10
-	+	27	0
-	+	55	0
-	+	43	36
-	+	44	0
-	+	43	9
-	+	42	4
-	+	43	5
-	+	44	13
-	+	44	50
-	+	44	6
-	+	43	46
-	+	44	67
-	+	55	0
-	+	44	78
-	+	47	0
-	+	48	8
-	+	47	40
-	+	48	41
-	+	46	44
-	+	47	12
-	+	48	11
-	+	53	27
-	+	52	39
-	+	50	23
-	+	51	9
-	+	54	8
-	+	27	0
-	+	64	20
-	+	66	11
-	+	64	4
-	+	65	5
-	+	64	0
-	+	68	5
-	+	44	0
-	+	44	86
-	+	44	2
-	+	44	56
-	+	44	0
-	+	45	76
-	+	44	0
-	+	46	0
-	+	47	0
-	+	48	0
-	+	50	0
-	+	51	0
-	+	52	0
-	+	54	0
-	+	43	0
-	+	45	9
-	+	45	108
-	+	50	0
-	+	51	0
-	+	53	37
-	+	44	0
-	+	6	0
-	+	11	0
-	+	6	59
-	+	9	65
-	+	10	0
-	+	8	11
-	+	6	13
-	+	1	0
-	+	57	0
-	+	61	0
-	+	56	0
-	+	60	0
-	+	58	6
-	+	57	12
-	+	58	88
-	+	61	0
-	+	58	6
-	+	58	5
-	+	59	0
-	+	59	72
-
-> ~/.config/Awesomeness/Notes.ini
-	*	1508933790	0
-	"	70	0
-	.	70	0
-	+	70	0
-
-> /usr/share/vim/vim80/doc/help.txt
-	*	1508933758	0
-	"	1	0
-
-> ~/.config/Awesomeness/-MiniBufExplorer-
-	*	1508933755	0
-	"	1	14
 	.	2	0
 	+	2	0
 
-> ~/.config/Awesomeness/Trash.ini
-	*	1508933578	0
+> ~/Data/Crypto/embark-framework/bin/embark
+	*	1509561732	0
+	"	2	0
+
+> ~/.config/i3/config
+	*	1509561363	0
 	"	1	0
 
-> ~/.config/i3/i3status.conf
-	*	1508890754	0
-	"	1	0
-	^	26	1
-	.	26	0
-	+	67	34
-	+	69	21
-	+	69	0
-	+	67	22
-	+	69	0
-	+	68	23
-	+	67	9
-	+	67	12
-	+	68	0
-	+	67	15
-	+	68	23
-	+	67	16
-	+	69	0
-	+	68	23
-	+	26	0
+> ~/Data/Git/oop_pyramids/oop_pyramids_sample/American_Pyramid.java
+	*	1509561352	0
+	"	4	16
+	^	4	0
+	.	4	0
+	+	4	0
 
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/README.md
-	*	1508861944	0
-	"	1	0
-	^	10	49
-	.	10	49
-	+	1	19
-	+	4	42
-	+	11	0
-	+	32	0
-	+	16	71
-	+	23	0
-	+	19	18
-	+	30	97
-	+	11	0
-	+	10	49
-
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/test.txt
-	*	1508857809	0
-	"	1	0
-	^	6	4
-	.	6	3
-	+	6	3
-
-> ~/Data/Programming/EclipseOxygen/BST_inC/test.txt
-	*	1508853207	0
-	"	1	0
-
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/Makefile
-	*	1508836573	0
-	"	1	0
-	^	10	2
-	.	10	5
-	+	3	30
-	+	6	8
-	+	3	24
-	+	3	29
-	+	6	0
-	+	5	1
-	+	3	39
-	+	3	67
-	+	8	0
+> ~/NERD_tree_5
+	*	1509561349	0
+	"	4	0
+	.	1	0
 	+	1	0
+
+> ~/NERD_tree_2
+	*	1509561029	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/Binary_Search_Tree.c
+	*	1509561025	0
+	"	2	0
+
+> ~/Data/Crypto/mazi/migrations/2_deploy_contracts.js
+	*	1509561006	0
+	"	3	4
+
+> ~/Data/Crypto/SmartChain/my-pso/package.json
+	*	1509559546	0
+	"	4	0
+
+> ~/[Vundle] Installer
+	*	1509559185	0
+	"	11	0
+	.	1	0
+	+	11	0
+	+	1	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170929.txt
+	*	1509558580	0
+	"	2	176
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20171101.txt
+	*	1509558579	0
+	"	2	176
+	^	2576	4
+	.	2576	0
+	+	2576	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/-MiniBufExplorer-
+	*	1509557457	0
+	"	1	40
+	.	2	0
+	+	2	0
+
+> ~/Data/Git/project-2-sdmunozsierra/project/SwitchLeds/Makefile
+	*	1509556516	0
+	"	19	84
+	^	20	0
+	.	2	0
+	+	7	9
+	+	13	14
+	+	16	9
+	+	16	0
+	+	17	1
+	+	18	1
+	+	19	0
+	+	2	0
+
+> ~/Data/Git/embark-framework/demo/config/contracts.json
+	*	1509497440	0
+	"	20	11
+	.	20	11
+	+	20	11
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/buttonMain.c
+	*	1509466688	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/button_demo/led.c
+	*	1509466665	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/project/SwitchLeds/main.c
+	*	1509465942	0
+	"	49	0
+	.	2	0
+	+	2	0
+
+> ~/Data/Git/project-2-sdmunozsierra/demos/Makefile
+	*	1509465870	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/my-pso/package.json
+	*	1509273704	0
+	"	12	0
+	.	12	0
+	+	12	46
+	+	12	33
+	+	16	0
+	+	14	23
+	+	13	16
+	+	12	37
+	+	13	23
+	+	14	41
+	+	16	17
+	+	12	33
+	+	13	16
+	+	14	12
+	+	12	33
+	+	13	18
+	+	14	22
+	+	14	23
+	+	15	33
+	+	16	0
+	+	15	33
+	+	12	0
+
+> ~/Data/Git/mazi/migrations/2_deploy_contracts.js
+	*	1509273659	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/bash_script.sh
+	*	1509273592	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	11	0
+	+	2	11
+	+	4	0
 	+	2	0
 	+	3	0
-	+	3	27
-	+	3	39
+	+	4	0
+	+	2	0
+	+	3	0
+
+> ~/temp/bash_script.sh
+	*	1509272938	0
+	"	4	30
+	^	4	31
+	.	4	31
+	+	4	31
+
+> ~/Data/ArchScripts/bash_script.sh
+	*	1509272851	0
+	"	5	14
+	^	5	15
+	.	5	14
+	+	2	0
+	+	3	13
+	+	3	0
+	+	5	14
+
+> ~/Data/Git/SmartChain/my-pso/contracts/ConvertLib.sol
+	*	1509270352	0
+	"	5	0
+
+> ~/Data/Git/SmartChain/my-pso/contracts/Migrations.sol
+	*	1509270337	0
+	"	20	0
+
+> ~/Data/Git/mazi/migrations/1_initial_migration.js
+	*	1509270105	0
+	"	1	0
+
+> ~/Data/Git/mazi/truffle-config.js
+	*	1509270042	0
+	"	1	0
+
+> ~/Data/Git/mazi/truffle.js
+	*	1509270035	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/my-pso/truffle.js
+	*	1509270018	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/my-pso/index.html
+	*	1509269929	0
+	"	15	0
+
+> ~/Data/Git/SmartChain/my-pso/src/App.js
+	*	1509269767	0
+	"	4	0
+	^	4	0
+	.	4	0
+	+	1	0
+	+	5	0
+	+	1	0
+	+	4	0
+
+> ~/Data/Git/mazi/src/App.js
+	*	1509269592	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Data/Git/SmartChain/migrations/1_initial_migration.js
+	*	1509269326	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/migrations/1
+	*	1509269322	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/migrations/2_deploy_contracts.js
+	*	1509269307	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/my-pso/package-lock.json
+	*	1509269253	0
+	"	1	0
+
+> ~/Data/Git/mazi/src/App.
+	*	1509269124	0
+	"	1	0
+
+> ~/Data/Git/mazi/scripts/build.js
+	*	1509269092	0
+	"	224	0
+
+> ~/Data/Git/SmartChain/src/index.html
+	*	1509268829	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/truffle.js
+	*	1509268805	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/package.json
+	*	1509268315	0
+	"	10	0
+
+> ~/Data/Git/my-pso/node_modules/zeppelin-solidity/contracts/examples/SimpleToken.sol
+	*	1509268239	0
+	"	14	0
+
+> ~/Data/Git/my-pso/contracts/Tu.sol
+	*	1509267443	0
+	"	6	10
+	^	6	11
+	.	6	11
+	+	6	11
+
+> ~/Data/Git/my-pso/node_modules/zeppelin-solidity/contracts/payment/PullPayment.sol
+	*	1509265855	0
+	"	1	0
+
+> ~/Data/Git/my-pso/contracts/PesoCoinCrowdsale.sol
+	*	1509264178	0
+	"	4	9
+	^	4	24
+	.	4	9
+	+	5	8
+	+	12	0
+	+	11	12
+	+	8	25
+	+	4	9
+
+> ~/Data/Git/my-pso/node_modules/zeppelin-solidity/contracts/examples/SampleCrowdsale.sol
+	*	1509264127	0
+	"	39	4
+	.	34	0
+	+	34	0
+
+> ~/temp/my-pso/node_modules/zeppelin-solidity/contracts/crowdsale/Crowdsale.sol
+	*	1509262750	0
+	"	13	0
+
+> ~/temp/my-pso/contracts/PesoCoinCrowdsale.sol
+	*	1509262706	0
+	"	1	0
+	^	4	27
+	.	4	14
+	+	4	14
+
+> ~/temp/my-pso/migrations/2_deploy_contracts.js
+	*	1509262439	0
+	"	8	0
+	^	9	26
+	.	1	0
+	+	1	0
+	+	1	55
+	+	9	26
+	+	1	0
+
+> ~/temp/my-pso/migrations/2
+	*	1509262409	0
+	"	1	0
+
+> ~/temp/my-pso/migrations/1_initial_migration.js
+	*	1509261758	0
+	"	1	0
+
+> ~/temp/my-pso/contracts/PesoCoin.sol
+	*	1509261729	0
+	"	6	0
+	^	1	0
+	.	2	0
+	+	2	0
+
+> ~/temp/my-ico/contracts/PesoCoinCrowdsale.sol
+	*	1509261273	0
+	"	6	0
+	^	3	18
+	.	1	0
+	+	7	16
+	+	9	19
+	+	16	22
+	+	3	17
+	+	1	0
+
+> ~/temp/my-ico/contracts/PesoCoin
+	*	1509261192	0
+	"	1	0
+
+> ~/temp/my-ico/migrations/2_deploy_contracts.js
+	*	1509260799	0
+	"	10	26
+	^	10	26
+	.	10	26
+	+	1	0
+	+	2	55
+	+	10	26
+
+> ~/temp/my-ico/contracts/PesoCoinCwordsale.sol
+	*	1509260654	0
+	"	20	0
+	.	2	0
+	+	2	0
+
+> ~/temp/my-ico/contracts/PesoCoin.sol
+	*	1509260597	0
+	"	8	28
+	^	8	29
+	.	8	28
+	+	2	0
+	+	6	16
+	+	7	27
+	+	8	28
+
+> /etc/fstab
+	*	1509259846	0
+	"	3	0
+
+> ~/Data/Git/SmartChain/src/js/app.js
+	*	1509258146	0
+	"	83	0
+
+> ~/Data/Git/SmartChain/build/contracts/BasicToken.json
+	*	1509258070	0
+	"	4	0
+
+> ~/Data/Git/SmartChain/build/contracts/TutorialToken.json
+	*	1509258060	0
+	"	118	0
+
+> ~/Data/Git/SmartChain/bs-config.json
+	*	1509258030	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/package
+	*	1509255632	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/contracts/TutorialToken.sol
+	*	1509254543	0
+	"	4	0
+
+> ~/temp/SmartChain2/contracts/TutorialToken.sol
+	*	1509253580	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	1	23
+	+	18	0
+	+	1	0
+	+	1	23
+	+	1	6
+	+	19	0
+	+	18	0
+	+	3	0
+	+	2	0
+	+	4	0
 	+	6	0
 	+	7	0
-	+	6	0
-	+	8	28
-	+	9	0
-	+	3	27
-	+	3	39
-	+	3	29
-	+	3	27
-	+	3	39
-	+	5	0
-	+	6	0
-	+	5	0
-	+	9	17
-	+	5	0
-	+	13	10
-	+	12	5
-	+	10	5
+	+	11	0
+	+	13	0
+	+	7	29
+	+	8	25
+	+	9	23
 
-> ~/temp/temp.c
-	*	1508292235	0
-	"	15	0
+> ~/temp/SmartChain2/migrations/2_deploy_contracts.js
+	*	1509253411	0
+	"	6	0
+	.	2	0
+	+	2	0
+
+> ~/temp/pet-shop-tutorial/src/js/app.js
+	*	1509252475	0
+	"	103	0
+	^	103	0
+	.	103	0
+	+	27	0
+	+	32	0
+	+	33	39
+	+	38	0
+	+	39	0
+	+	50	0
+	+	76	0
+	+	59	0
+	+	60	0
+	+	75	0
+	+	105	0
+	+	104	0
+	+	83	0
+	+	103	0
+
+> ~/temp/pet-shop-tutorial/src/js/web3.min.js
+	*	1509251938	0
+	"	1	0
+
+> ~/temp/pet-shop-tutorial/test/TestAdoption.sol
+	*	1509251891	0
+	"	40	0
+	^	40	0
+	.	30	0
+	+	1	0
+	+	9	0
+	+	10	0
+	+	18	0
+	+	20	0
+	+	40	0
+	+	30	0
+
+> ~/temp/pet-shop-tutorial/migrations/2_deploy_contracts.js
+	*	1509251519	0
+	"	6	0
+	.	2	0
+	+	1	50
+	+	1	1
+	+	1	0
+	+	2	0
+
+> ~/temp/pet-shop-tutorial/migrations/1_initial_migration.js
+	*	1509251333	0
+	"	1	0
+
+> ~/temp/pet-shop-tutorial/contracts/Adoption.sol
+	*	1509251088	0
+	"	7	50
+	^	7	51
+	.	7	50
+	+	19	0
+	+	18	0
+	+	4	31
+	+	12	20
+	+	13	0
+	+	16	23
+	+	17	0
+	+	8	28
+	+	7	50
+
+> ~/Data/Git/SmartChain/app/index.html
+	*	1509249125	0
+	"	28	0
+	.	2	0
+	+	1	76
+	+	1	0
+	+	1	8
+	+	1	21
+	+	1	55
+	+	1	0
+	+	1	8
+	+	1	32
+	+	1	0
+	+	1	18
+	+	1	0
+	+	1	40
+	+	1	23
+	+	1	67
+	+	1	0
+	+	1	12
+	+	1	0
+	+	1	17
+	+	1	59
+	+	1	0
+	+	1	41
+	+	1	0
+	+	1	36
+	+	1	52
+	+	1	76
+	+	1	0
+	+	1	46
+	+	1	57
+	+	1	46
+	+	1	0
+	+	1	24
+	+	1	0
+	+	1	39
+	+	1	31
+	+	1	0
+	+	2	0
+
+> ~/Data/Git/SmartChain/app/js/index.js
+	*	1509249091	0
+	"	25	0
+	.	2	0
+	+	1	17
+	+	1	42
+	+	1	0
+	+	1	30
+	+	1	19
+	+	1	55
+	+	1	0
+	+	1	54
+	+	1	0
+	+	1	35
+	+	1	23
+	+	1	0
+	+	1	26
+	+	1	0
+	+	1	66
+	+	1	67
+	+	1	0
+	+	1	42
+	+	1	17
+	+	1	64
+	+	1	60
+	+	1	66
+	+	1	70
+	+	1	22
+	+	1	23
+	+	1	1
+	+	1	0
+	+	1	26
+	+	1	11
+	+	1	0
+	+	11	0
+	+	1	0
+	+	1	6
+	+	9	0
+	+	10	6
+	+	1	3
+	+	9	4
+	+	1	21
+	+	9	2
+	+	9	4
+	+	4	0
+	+	7	0
+	+	8	34
+	+	4	1
+	+	5	1
+	+	6	1
+	+	8	23
+	+	8	0
+	+	8	9
+	+	3	21
+	+	1	0
+	+	1	22
+	+	1	11
+	+	1	5
+	+	3	6
+	+	1	21
+	+	2	6
+	+	1	0
+	+	1	1
+	+	1	2
+	+	1	0
+	+	1	53
+	+	1	0
+	+	1	20
+	+	1	0
+	+	1	21
+	+	1	26
+	+	1	15
+	+	1	53
+	+	1	0
+	+	1	26
+	+	1	2
+	+	1	19
+	+	1	12
+	+	1	3
+	+	1	13
+	+	1	0
+	+	1	36
+	+	1	26
+	+	1	0
+	+	2	0
+
+> ~/Data/Git/SmartChain/dist/contracts/Token.json
+	*	1509248976	0
+	"	2	0
+
+> ~/Data/Git/SmartChain/dist/js/app.js
+	*	1509248917	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/dist/index.html
+	*	1509248902	0
+	"	1	0
+
+> ~/Data/Git/SmartChain/chains.json
+	*	1509245844	0
+	"	179	8
+	.	179	0
+	+	240	0
+	+	180	0
+	+	184	0
+	+	179	0
+
+> ~/Data/Git/SmartChain/app/js/token.js
+	*	1509245460	0
+	"	1	0
 	.	2	0
 	+	1	0
 	+	2	0
 
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/MA
-	*	1508284172	0
-	"	2	1
-	^	2	2
-	.	2	1
-	+	2	1
+> ~/Data/Git/SmartChain/config/contracts.json
+	*	1509244979	0
+	"	26	2
+	^	17	0
+	.	26	0
+	+	1	17
+	+	1	7
+	+	1	24
+	+	28	0
+	+	1	0
+	+	1	7
+	+	1	11
+	+	28	11
+	+	1	0
+	+	28	11
+	+	28	16
+	+	28	0
+	+	1	10
+	+	1	0
+	+	26	0
+	+	7	0
+	+	26	0
+	+	18	0
+	+	26	0
 
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/llDemo
-	*	1508283966	0
+> ~/Data/Git/SmartChain/app/contracts/token.sol
+	*	1509244864	0
+	"	40	0
+	.	2	0
+	+	2	0
+
+> ~/Data/Git/SmartChain/app/contracts/simple_storage.sol
+	*	1509242277	0
 	"	1	0
 
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/Binary_Search_Tree.o
-	*	1508283910	0
+> ~/Data/Git/SmartChain/app/contracts/compile.sol
+	*	1509241649	0
 	"	1	0
+	^	1	22
+	.	1	22
+	+	1	23
+	+	16	37
+	+	17	20
+	+	18	24
+	+	19	20
+	+	19	21
+	+	20	37
+	+	29	23
+	+	29	0
+	+	1	22
 
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/make
-	*	1508283460	0
+> ~/embark_demo/app/index.html
+	*	1509239526	0
 	"	1	0
+	.	1	0
+	+	1	0
 
-> ~/temp/-MiniBufExplorer-
-	*	1508168418	0
+> ~/embark_demo/app/js/index.js
+	*	1509239347	0
+	"	1	0
+	^	1	0
+
+> ~/Data/Git/SmartChain/app/js/-MiniBufExplorer-
+	*	1509238381	0
 	"	1	12
 	.	2	0
 	+	2	0
 
-> /usr/lib/python3.6/site-packages/mps_youtube/main.py
-	*	1507727509	0
-	"	63	0
+> ~/Data/Git/SmartChain/app/contracts/simple_storage2.sol
+	*	1509237849	0
+	"	2	20
+	^	2	21
+	.	2	20
+	+	2	20
 
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/llDemo.c
-	*	1507496467	0
-	"	56	0
-	^	55	2
-	.	55	0
-	+	3	21
-	+	59	0
-	+	59	19
-	+	59	20
-	+	59	0
-	+	21	12
-	+	27	0
-	+	26	0
-	+	59	0
-	+	26	0
-	+	26	26
-	+	26	6
-	+	26	0
-	+	26	48
-	+	26	20
-	+	31	17
-	+	26	0
-	+	21	12
-	+	26	0
-	+	31	17
-	+	29	11
-	+	59	0
-	+	34	8
-	+	22	17
-	+	23	14
-	+	24	17
-	+	25	15
-	+	26	9
-	+	62	0
-	+	58	0
-	+	62	0
-	+	47	53
-	+	48	51
-	+	47	48
-	+	46	41
-	+	57	0
-	+	21	2
-	+	31	16
-	+	31	17
-	+	32	0
-	+	33	0
-	+	35	0
-	+	36	0
-	+	37	2
-	+	37	30
-	+	38	0
-	+	42	3
-	+	42	11
-	+	43	11
-	+	43	4
-	+	44	0
-	+	45	3
-	+	46	0
-	+	47	4
-	+	48	0
-	+	49	4
-	+	50	3
-	+	51	0
-	+	38	21
-	+	42	2
-	+	43	3
-	+	44	3
-	+	45	2
-	+	46	2
-	+	47	3
-	+	48	3
-	+	49	4
-	+	50	2
-	+	51	2
-	+	52	2
-	+	54	1
-	+	56	0
-	+	38	22
-	+	40	8
-	+	41	17
-	+	53	2
-	+	55	0
+> ~/Data/Git/SmartChain/app/index-copy.html
+	*	1509231414	0
+	"	15	0
 
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/.git/COMMIT_EDITMSG
-	*	1507494908	0
-	"	1	0
-
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/llist.h
-	*	1507494348	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/-MiniBufExplorer-
-	*	1507494343	0
-	"	1	13
-	.	2	0
-	+	2	0
-
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/llist.c
-	*	1507494337	0
-	"	60	0
-
-> ~/.config/Trolltech.conf
-	*	1507306129	0
-	"	19	29
-
-> ~/.config/pcmanfm/default/pcmanfm.conf
-	*	1507306078	0
-	"	1	0
-
-> ~/.cache/babl/babl-fishes
-	*	1507305326	0
-	"	1	0
-
-> ~/.webclipse.properties
-	*	1507305138	0
-	"	1	0
-
-> ~/.gtkrc-2.0
-	*	1507305071	0
-	"	1	0
-
-> ~/.icons/default/index.theme
-	*	1507304991	0
-	"	1	0
-
-> ~/.lesshst
-	*	1507304959	0
-	"	1	0
-
-> /mnt/hda/SharedFolder/TEB/LBL1000__lbl0001i.53127.20170930.txt
-	*	1507236081	0
-	"	1	0
-
-> /mnt/hda/SharedFolder/TEB/LBL1000__lbl0001i.53127.20171005.txt
-	*	1507236081	0
-	"	1	0
-
-> /mnt/hda/SharedFolder/TEB/-MiniBufExplorer-
-	*	1507236081	0
-	"	1	41
-	.	2	0
-	+	2	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/Eli/LBL1000__lbl0001i.53127.20171005.txt
-	*	1507235876	0
-	"	258	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/Eli/LBL1000__lbl0002i.53127.20170921.txt
-	*	1507235814	0
-	"	260	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/Eli/-MiniBufExplorer-
-	*	1507235814	0
-	"	1	41
-	.	2	0
-	+	2	0
-
-> ~/.vimrc
-	*	1507126262	0
-	"	58	0
-	^	86	58
-	.	88	0
-	+	26	0
-	+	18	0
-	+	38	0
-	+	39	0
-	+	39	27
-	+	40	24
-	+	40	0
-	+	39	0
-	+	40	24
-	+	49	0
-	+	49	43
-	+	49	0
-	+	49	21
-	+	50	0
-	+	4	26
+> ~/Data/Git/SmartChain/app/contracts/testBackend.sol
+	*	1509229936	0
+	"	57	20
+	^	29	21
+	.	29	20
+	+	9	0
+	+	10	1
+	+	11	2
+	+	12	3
+	+	13	4
+	+	14	5
+	+	15	6
+	+	3	27
+	+	6	29
+	+	34	22
+	+	8	22
+	+	18	3
+	+	24	1
+	+	25	34
 	+	5	0
-	+	6	0
-	+	5	23
-	+	28	0
-	+	27	0
-	+	29	13
-	+	31	0
-	+	39	0
-	+	39	28
-	+	39	29
-	+	43	0
-	+	36	0
-	+	36	12
-	+	43	0
-	+	31	0
-	+	33	0
-	+	36	0
-	+	39	0
-	+	43	0
-	+	44	0
-	+	49	0
-	+	43	0
-	+	32	25
-	+	42	10
-	+	43	0
-	+	42	20
-	+	45	0
-	+	47	0
-	+	49	0
-	+	7	0
-	+	9	0
-	+	16	0
-	+	25	0
-	+	15	17
-	+	27	0
-	+	49	0
-	+	50	0
-	+	51	14
-	+	50	0
-	+	57	0
-	+	50	0
-	+	60	0
-	+	50	0
-	+	55	0
-	+	53	0
-	+	54	18
-	+	57	0
-	+	50	0
-	+	71	0
-	+	50	0
-	+	71	0
-	+	70	0
-	+	77	0
-	+	72	0
-	+	78	24
-	+	49	0
-	+	81	0
-	+	104	0
-	+	67	0
-	+	66	0
-	+	69	0
-	+	50	0
-	+	43	10
-	+	43	0
-	+	63	0
-	+	65	0
-	+	64	19
-	+	73	1
-	+	74	0
-	+	76	0
-	+	97	10
-	+	89	47
-	+	89	0
-	+	92	0
-	+	16	0
-	+	92	0
-	+	89	49
-	+	89	0
-	+	90	13
-	+	91	13
-	+	84	0
-	+	85	0
-	+	87	0
-	+	86	57
-	+	88	0
-
-> /mnt/hda/SharedFolder/TEB/ProductionSent/SOCORROISD_PROD_10042017.CSV
-	*	1507125104	0
-	"	271	0
-
-> /mnt/hda/SharedFolder/TEB/ProductionSent/SocorroISD_PROD_09122017.CSV
-	*	1507124690	0
-	"	511	0
-
-> /mnt/hda/SharedFolder/TEB/ProductionSent/-MiniBufExplorer-
-	*	1507124690	0
-	"	1	33
-	.	2	0
-	+	2	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_10042017.CSV
-	*	1507124518	0
-	"	1145	0
-	.	3509	0
-	+	2259	0
-	+	2258	0
-	+	2257	0
-	+	3509	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_09122017.CSV
-	*	1507123922	0
-	"	1109	0
-	^	4634	69
-	.	4634	68
-	+	4634	68
-
-> ~/Data/Programming/EclipseOxygen/aflac/-MiniBufExplorer-
-	*	1507123922	0
-	"	1	0
-	.	2	0
-	+	2	0
-
-> ~/Data/Programming/EclipseOxygen/aflac/SOCORROISD_TEST_10032017.CSV
-	*	1507123424	0
-	"	37	377
-
-> ~/Data/Git/dotfiles/notes/eclipse_notes.md
-	*	1507058714	0
-	"	23	33
-	^	23	34
-	.	23	33
-	+	22	43
-	+	20	9
-	+	24	12
-	+	28	19
-	+	26	0
-	+	24	0
-	+	27	10
-	+	32	21
-	+	33	17
-	+	31	17
-	+	30	18
-	+	31	0
-	+	34	0
-	+	31	22
-	+	23	33
-
-> /etc/systemd/system.conf
-	*	1507033743	0
-	"	16	13
-	^	15	14
-	.	15	13
-	+	15	0
-	+	16	0
-	+	15	13
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170929.txt
-	*	1506712165	0
-	"	2564	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170830.txt
-	*	1506712149	0
-	"	2548	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/-MiniBufExplorer-
-	*	1506712149	0
-	"	1	41
-	.	2	0
-	+	2	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170801.txt
-	*	1506705402	0
-	"	317	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170928.txt
-	*	1506704993	0
-	"	10	785
-	.	265	0
-	+	1	0
-	+	127	0
-	+	216	0
-	+	265	0
-
-> ~/Data/ArchScripts/Notes/iphone_linux.md
-	*	1506655772	0
-	"	30	46
-	^	30	47
-	.	30	46
-	+	16	21
-	+	14	0
-	+	13	6
-	+	13	11
-	+	9	10
-	+	15	0
-	+	17	0
-	+	18	0
-	+	17	17
-	+	18	16
-	+	21	25
-	+	22	0
-	+	22	22
-	+	9	0
-	+	25	16
-	+	28	3
-	+	30	46
-
-> ~/Data/Git/iphone-stuff/idevicerestore/configure
-	*	1506649833	0
-	"	12173	54
-
-> ~/Data/Git/iphone-stuff/idevicerestore/config
-	*	1506649505	0
-	"	1	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170913.txt
-	*	1506629829	0
-	"	1	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170915.txt
-	*	1506629792	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/jj
-	*	1506627699	0
-	"	1	0
-	^	1	32
-	.	1	0
-	+	4	27
-	+	3	28
-	+	4	44
-	+	6	63
-	+	7	0
-	+	5	0
-	+	7	18
-	+	9	0
-	+	1	65
-	+	10	0
-	+	2	39
-	+	9	38
-	+	11	8
-	+	12	64
-	+	13	48
-	+	14	19
-	+	16	0
-	+	15	8
-	+	8	30
-	+	16	44
-	+	16	0
-	+	19	10
-	+	17	17
-	+	18	15
-	+	16	0
-	+	21	31
-	+	20	0
-	+	16	0
-	+	14	11
-	+	2	0
-	+	1	33
-	+	1	32
-	+	1	0
-
-> ~/-MiniBufExplorer-
-	*	1506614453	0
-	"	1	25
-	.	2	0
-	+	2	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.53127.20170915.txt
-	*	1506529678	0
-	"	29	785
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0002i.53127.20170921.txt
-	*	1506520180	0
-	"	29	785
+	+	26	16
+	+	27	18
+	+	28	25
+	+	29	20

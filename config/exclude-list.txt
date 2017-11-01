@@ -26,8 +26,11 @@
 .emacs.d/elpa
 .emacs.d/snippets
 .esd_auth
+.ethash
+.ethereum
 .gem
 .git-credentials
+.gradle
 .gnome/
 .gnupg
 .icons

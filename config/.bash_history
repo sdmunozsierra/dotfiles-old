@@ -1,500 +1,500 @@
-vim Trash.ini 
-vim Notes.ini 
-GitBackupTest
-BackupGitTest
-cd..
-vim .bash_aliases 
-gitBackupTest
-reboot
-startx
-pacaur -Syyu --ignore notes
-pacaur -Syyu --ignore notes linux-headers
-uname -a
-reboot
-cd Hdd
-chmod -x torrents/
-cd Isos/
-sudo cd torrents/
-cd torrents/
-cd cache/
-cd swap/
-cd...
-mkdir Cryptocurrency
-cd Cryptocurrency/
-git clone https://github.com/hyperledger/fabric-samples.git
-cd fabric-samples/
-docker
-sudo systemctl start docker
-curl -sSL https://goo.gl/Q3YRTi | bash
-systemctl 
-sudo curl -sSL https://goo.gl/Q3YRTi | bash
-sudo usermod -a -G docker $USER
-docker run hello-world
-sudo docker run hello-world
-cal
-cd /etc/fuse.conf 
-vim /etc/fuse.conf 
-cd temp/
-tar -xfz USB\ Driver.tar.gz 
-tar -xvzf USB\ Driver.tar.gz 
-cd USB\ Driver
-vim readme.txt 
-chmod +777 install uninstall 
-./install 
-sudo ./install 
-vim install 
-libusb
-lusb
-lsusb
-pacman -Rs libusb
-sudo pacman -Rs libusb
-pacman -Qi libusb
-sudo pacman -Rs libusbx
-cd ~/Data/Git/
-git clone https://github.com/libusb/libusb.git
-cd libusb/
-ll
-l
-vim README.md 
-vim README.git 
-./autogen.sh 
-vim README
-vim Makefile
-compile
-./compile 
-cd tests/
-make Makefile
-make clean
-make
-cd stress
-./stress 
-cd libusb
-pacman -S libusb
-sudo pacman -S libusb
-cd /usr/lib32
-cd /usr/lib64
-cd lib
-export LD_LIBRARY_PATH=/usr/lib:/usr/lib64:$LD_LIBRARY_PATH
-./lsusb
-grep | usb
-grep us
-ls | grep *usb
-./libusb.so
-sudo ./libusb.so
-cd..
-cd lib64/
-ls
-ls | grep usb
-ll | grep usb
-pacman -S libusb-compact
-sudo pacman -S libusb-compact
-pacaur -S lib32-libusb
-pacaur -S libusb
-pacaur -S libusb-compat
-pacaur -S lib32-libusb-compat
-pacman -Syyu
-sudo pacman -Syyu
-pacaur -S lib32-libusb-compat
-pacaur -S lib32-libusb
-pacman -S lib32-libusb
-sudo pacman -S lib32-libusb
-adb
-adb
-adb
-sudo rm /usr/lib/libusb-0.1.so.4
-sudo rm /usr/lib/libusb-0.1.so.4.4.4 
-sudo rm /usr/lib/libusb.so 
-adb
-sudo rm /usr/lib/libusb-0.1.so.4
-sudo rm /usr/lib/libusb-0.1.so.4.4.4 
-sudo rm /usr/lib/libusb.so 
-sudo pacman -S lib32-libusb
-vim /etc/pacman.conf 
-sudo mount /dev/sr0 /media/usb2
-cd /media/usb2
-cd linux/
-ls
-cp USB\ Driver.tar.gz ~/temp/
-lsblk
-lsusb
-pacman -S lib32-libusb
-sudo pacman -S lib32-libusb
-adb
-adb
-adb
-sudo rm /usr/lib/libusb-0.1.so.4
-sudo rm /usr/lib/libusb-0.1.so.4.4.4 
-sudo rm /usr/lib/libusb.so 
-sudo rm /usr/lib/libusbredirparser.so.1
-sudo rm /usr/lib/libusbg.so.0
-sudo rm /usr/lib/libusbmuxd.so.2
-sudo adb
-cd temp/
-tar -xfzv
-tar -xfzv USB\ Driver.tar.gz 
-tar -xzvf USB\ Driver.tar.gz 
-cd USB\ Driver
-cd mtp/
-./mtp
-./mtpdaemon
-cd driver/
-ls
-cd..
-chmod +777 install 
-./install 
-udo ./install 
-sudo ./install 
-lsusb
-sudo rm /usr/lib/libusbg.so.0
-sudo rm /usr/lib/libusbmuxd.so.2
-cd temp/
-tar -xfzv
-tar -xfzv USB\ Driver.tar.gz 
-tar -xzvf USB\ Driver.tar.gz 
-cd USB\ Driver
-cd mtp/
-./mtp
-./mtpdaemon
-cd driver/
-cd..
-chmod +777 install 
-./install 
-udo ./install 
-sudo ./install 
-sudo adb
-sudo usb
-sudo adb usb
-sudo lsusb
-cd /etc/udev/rules.d/
-sudo adb tcpio 5555
-sudo adb wait-for-device
-vim /etc/pacman.conf 
-pacman -Syyu
-sudo pacman -Syyu
-lsusb
-lsmod
-libsub
-pacman -Qi libusb
-pacman -Qi lib32-libusb
-libusb
-sudo adb kill-server
-sudo adb start-server
-adb devices
-fastboot -i 0x2a96 devices
-fastboot devices
-sudo fastboot
-sudo fastboot devices
-ls
-cd 51-android-hs.rules 
-vim cd 51-android-hs.rules 
-vim 51-android-hs.rules 
-touchVim 51-android.rules
-useradd -G adbusers keanue
-grep adbusers /etc/group
-sudo adb devices
-lsusb.py
-pacman -S google-chrome
-sudo pacman -S google-chrome
-sudo pacman -S chrome
-pacaur -s googlechrome
-sudo sytemctl restart NetworkManager
-sudo systemctl restart NetworkManager
-arandr 
-sudo arandr
-sudo systemctl restart NetworkManager
-youtube
-cal
-cd Data/Git/pjct2-sdms/
-ls
-cd demos/
-make
-cd Data/Git/pjct2-sdms/
-cd demos/
-make
-cal
-cd Data/Git/pjct2-sdms/
-ls
-cd demos/
-make
-$PATH
-sudo systemctl restart NetworkManager
-arandr 
-sudo arandr
-sudo systemctl restart NetworkManager
-youtube
-cal
-cd Data/Git/pjct2-sdms/
-cd demos/
-make
-cd Data/Git/pjct2-sdms/
-cd demos/
-make
-cal
-cd Data/Git/pjct2-sdms/
-cd demos/
-make
-$PATH
-cd Hdd
-mkdir torrents
-rmdir torrents/
-mkdir Torrents
-chmod +775 Torrents/
-chmod +777 torrents/
-cd torrents/
-cd 0_Incomplete/
-sudo rm -rf torrents/
-ls
-cd Torrents/
-mkdir 0Incomplete
-lll
-cd..
-ll
-vim 51-android-hs.rules 
-touchVim 51-android.rules
-useradd -G adbusers keanue
-grep adbusers /etc/group
-sudo adb devices
-pacman -S google-chrome
-sudo pacman -S google-chrome
-sudo pacman -S chrome
-pacaur -s googlechrome
-sudo sytemctl restart NetworkManager
-sudo systemctl restart NetworkManager
-arandr 
-sudo arandr
-sudo systemctl restart NetworkManager
-lsblk
-lsusb
-lsusb.py
-dmesg
-dmesg | f
-cd Data/Downloads/
-chmox +777 msp430-gcc-full-linux-installer-5.0.0.36.run 
-sudo chmod +777 msp430-gcc-full-linux-installer-5.0.0.36.run 
-./msp430-gcc-full-linux-installer-5.0.0.36.run 
-sudo ./msp430-gcc-full-linux-installer-5.0.0.36.run 
-cd /usr/opt/ti/msp430_gcc/
-cd ~/temp/
-cd msp430-gcc-support-files
-vim Revisions_Header.txt 
-cd include/
-cd..
-mv -r include/ /usr/opt/ti/support-files/
-mv include/ /usr/opt/ti/support-files/
-sudo mv include/ /usr/opt/ti/support-files/
-ls
-sudo adb kill-server
-sudo adb start-server
-adb devices
-fastboot -i 0x2a96 devices
-fastboot devices
-sudo fastboot
-sudo fastboot devices
-cd 51-android-hs.rules 
-vim cd 51-android-hs.rules 
-vim 51-android-hs.rules 
-touchVim 51-android.rules
-useradd -G adbusers keanue
-grep adbusers /etc/group
-sudo adb devices
-lsusb.py
-pacman -S google-chrome
-sudo pacman -S google-chrome
-sudo pacman -S chrome
-pacaur -s googlechrome
-sudo sytemctl restart NetworkManager
-sudo systemctl restart NetworkManager
+ping google.com
+cd Data/Git/SmartChain/
+embark blockchain
+cd test/
+cd Data/Git/
+vim simple_storage.sol 
+cd config/
+vim contracts.json 
+vim chains.json 
+cd app/
+cd js/
+cd _vendor/
+vim token.sol 
+pacaur -S truffle
+truffle
+mv -r embark_demo/ temp/
+mv embark_demo/ temp/
+mv ethereumj.starter/ temp/
 cd Data/
 cd Git/
-cd oop_pyramids/
-cd oop_pyramids_sample/
-git status
-vim README.md 
+cd mazi/
+truffle test
+testrpc
+cd SmartChain/
+rm -r *
+git commit -m "Clean Repo"
 git add .
-git commit -m "updated readme with instructions"
+git commit -m "Changed to Truffle"
 git push
-cd 2017-fall-arch1-project-1-sdmunozsierra/
-cd pjct2-sdms/
+cd co
+cd contracts/
+vim TutorialToken.sol 
+truffle compile
+truffle migrate
 cd..
-la
-cd demos/
-make clean
 ls
-make
-sudo umount /media/usb2
-sudo arandr
+npm run dev
+testrpc 
+startx
+vim $CURR/timerLib/Makefile 
+$CURR
+startx
+pacaur -S neovim
 sudo systemctl restart NetworkManager
-youtube
-cal
-cal
-ls
-bim .profile 
-source .profile 
-$PATH
-cd Data/Git/pjct2-sdms/
-cd demos/
-make
-cd ~
-vim .profile
-pacman -S google-chrome
-sudo pacman -S google-chrome
-sudo pacman -S chrome
-pacaur -s googlechrome
-sudo sytemctl restart NetworkManager
-sudo systemctl restart NetworkManager
-arandr 
-sudo arandr
-sudo systemctl restart NetworkManager
-youtube
-pacaur -Rs binutils-msp430
-pacaur -Rs msp430mcu
-pacaur -Rs msp430-elf-binutils
-pacaur -Rs msp430-elf-mcu
-Data/Git/
-cd Data/Git/
-cd pjct2-sdms/
-cd demos/
-make
-cd /usr/opt/
-cd ti/
-cd msp430_gcc/p
-cd msp430_gcc/
-cd msp430
+vim
+pacaur -S solidity-git
+pacaur -S solidity-git
+cd temp/ethereumj
+/gradlew run -PmainClass=org.ethereum.samples.PendingStateSample
+./gradlew run -PmainClass=org.ethereum.samples.PendingStateSample
+clear
+v
+embark simulator
+embark blockchain
+sudo embark simulator
+sudo embark blockchain
+git commit -m "Almost November Backup"
+sudo git commit -m "Almost November Backup"
+git push
+lsusb
+systemctl restart NetworkManager
+git clone https://github.com/tomlion/vim-solidity.git ~/.vim/bundle/vim-solidity
+ping google.com
+systemctl restart NetworkManager
+reboot
+startx
+cd /opt/ti/msp430_gcc/
 cd bin/
-pwd
-./msp430-elf-gcc
-cd..
-cd include/
-ls
-ls grep | msp430
-ls | grep msp430
-ls | grep msp430.h
-lsmod
-libsub
-pacman -Qi libusb
-pacman -Qi lib32-libusb
-libusb
-sudo adb kill-server
-sudo adb start-server
-adb devices
-fastboot -i 0x2a96 devices
-fastboot devices
-sudo fastboot
-sudo fastboot devices
-cd 51-android-hs.rules 
-vim cd 51-android-hs.rules 
-vim 51-android-hs.rules 
-touchVim 51-android.rules
-useradd -G adbusers keanue
-grep adbusers /etc/group
-sudo adb devices
-lsusb.py
-pacman -S google-chrome
-sudo pacman -S google-chrome
-sudo pacman -S chrome
-pacaur -s googlechrome
-sudo sytemctl restart NetworkManager
+ls /usr/bin/ | grep gcc
+OFFICIAL=~/Data/Git/pjct2-sdms/demos/
+vim $OFFICIAL/timerLib/Makefile 
+CURR=~/Data/Git/project-2-sdmunozsierra/demos/
+vim $CURR/timerLib/Makefile 
+$CURR
+startx
 sudo systemctl restart NetworkManager
-arandr 
-sudo arandr
-sudo systemctl restart NetworkManager
-fdisk -l
-sudo fdisk -l
-sudo lsusb
-sudo lsusb.py
-cd /dev/
-cd usb/
-cd hiddev0 
-pacaur -S mspgcc-ti
-pacaur -S binutils-msp430
-pacaur -S gcc-msp430
-pacaur -S msp430mcu
-pacaur -S msp430-libc
-pacaur -S msp430-gdb
-pacaur -S msp430-jtag
-dmesg | tail
-pacaur -S msp430-elf-binutils
-pacaur -S msp430-elf-mcu
-pacaur -S msp430-elf-gcc-stage1
-pacaur -S msp430-elf-gcc
-pacaur -S msp430-elf-newlib
-pacaur -S msp430-elf-newlib mps430-elf-gcc-stage1 mps430-elf-gcc
-pacaur -S msp430-elf-newlib msp430-elf-gcc-stage1 msp430-elf-gcc
-pacaur -S msp430-elf-gcc msp430-elf-newlib msp430-elf-gcc-stage1
-pacaur -S msp430-elf-gcc msp430-elf-newlib
-pacaur -S --force msp430-elf-gcc-stage1
-pacaur -S --force msp430-elf-gcc
-pacaur -S --force msp430-elf-gcc-stage1 msp430-elf-newlib msp430-elf-gcc
-pacaur -Rs msp430-gcc
-pacaur -Rs gcc-msp430
-pacaur -R gcc-msp430
-pacaur -Rs gcc-msp430 msp430-gdb msp430-libx
-pacaur -Rs gcc-msp430 msp430-gdb msp430-libc
-pacaur -Rs gcc-msp430 msp430-gdb msp430-libc msp430-jtag
-pacaur -Rs msp*
-pacman -Qi msp*
-pacaur -S --force msp430-elf-newlib msp430-elf-gcc-stage1
-pacman -Qi | grep msp
-cd..
-cd ~
-source .bash_profile 
-touch .profile
-vim .profile 
-vim .bash_profile 
-source .profile 
-source $PATH
-cd Data/Git/
-cd pjct2-sdms/
-cd demos/
-cd timerLib/
-ls
-$PATH
-vim Makefile 
-make
-pacaur -S msp430-elf-mcu
-pacaur -S msp430-elf-newlib
-pacman -Qi | grep msp
-lsusb
-lsusb.py
-git add .
-git commit -m "updated readme with instructions"
-git push
-cd 2017-fall-arch1-project-1-sdmunozsierra/
-cd pjct2-sdms/
-cd..
+vim
+vim intro.sol
+cp intro.sol ~
+cd intro.sol embark_demo/
+mv intro.sol embark_demo/
 la
+vim simple_storage.sol 
+cp simple_storage.sol simple_storage2.sol 
+vim simple_storage2.sol 
+ls /usr/bin/ | grep gcc
+OFFICIAL=~/Data/Git/pjct2-sdms/demos/
+vim $OFFICIAL/timerLib/Makefile 
+CURR=~/Data/Git/project-2-sdmunozsierra/demos/
+vim $CURR/timerLib/Makefile 
+$CURR
+startx
+ping google.com
+cd Data/Git/SmartChain/
+cd  SmartChain/
+cd config/
+vim contracts.json 
+git pull --rebase
+git --help
+gir reset
+git reset
+git pull
+git status
+git remove .
+sudo rm -r SmartChain/
+git clone https://github.com/sdmunozsierra/SmartChain.git
+vim index.js 
+pwd
+ld
+cd dist/
+vim Token.json 
+cd app/
+vim index.js
+cp index.js token.js
+embark blockchain
+embark blockchain
+cd contracts
+cp SimpleStorage.sol ~/Data/Git/SmartChain/app/contracts/
+cp SimpleBounties.sol ~/Data/Git/SmartChain/app/contracts/
+la
+cp simple_storage.sol simple_storage2.sol 
+vim simple_storage2.sol 
+ls /usr/bin/ | grep gcc
+OFFICIAL=~/Data/Git/pjct2-sdms/demos/
+vim $OFFICIAL/timerLib/Makefile 
+CURR=~/Data/Git/project-2-sdmunozsierra/demos/
+vim $CURR/timerLib/Makefile 
+$CURR
+startx
+ping google.com
+cd Data/Git/SmartChain/
+embark blockchain
+vim simple_storage.sol 
+cd config/
+vim chains.json 
+cd app/
+vim compile.sol 
+touch token.sol
+vim token.sol 
+;s
+touch token.js
+vim token.js 
+cd _vendor/
+mv jquery.min.js ..
+mv jquery.min.js _vendor/
+mv index.js index.js.past
+mv token.js index.js
+rm index-copy.html 
+cp index.js index.js.bak
+vim index.js
+cd Data/Git/SmartChain/
+embark blockchain
+cd contracts
+cp SimpleStorage.sol ~/Data/Git/SmartChain/app/contracts/
+cp SimpleBounties.sol ~/Data/Git/SmartChain/app/contracts/
+la
+cp simple_storage.sol simple_storage2.sol 
+vim simple_storage2.sol 
+ls /usr/bin/ | grep gcc
+OFFICIAL=~/Data/Git/pjct2-sdms/demos/
+vim $OFFICIAL/timerLib/Makefile 
+CURR=~/Data/Git/project-2-sdmunozsierra/demos/
+vim $CURR/timerLib/Makefile 
+$CURR
+startx
+ping google.com
+cd Data/Git/SmartChain/
+embark blockchain
+vim simple_storage.sol 
+cd config/
+vim contracts.json 
+vim chains.json 
+cd app/
+cd _vendor/
+vim token.sol 
+cd Data/Git/
+cd mazi/
+cd ~
+cd temp/
+mkdir pet-shop-tutorial
+truffle unbox pet-shop
+vim Adoption.sol
+tuffle migrate
+vim 1_initial_migration.js 
+truffle test
+vim TestAdoption.sol
+vim web3.min.js 
+mkdir SmartChain2
+truffle unboc tutorialtoken
+truffle unbox tutorialtoken
+npm install zeppelin-solidity
+vim TutorialToken.sol
+vim 2_deploy_contracts.js
+s
+vim TutorialToken.sol 
+truffle compile
+truffle migrate
+mv * ~/Data/Git/SmartChain/
+cd ~/Data/Git/
+vim package
+vim index.html 
+cd ~/temp/
+cd pet-shop-tutorial/
+npm run dev
+cd SmartChain2/
+cd embark_demo/
+embark run
+cd ~/Data/Git/SmartChain/
+vim truffle.js 
+cd test/
+cd.
+cd index.html 
+vim package.json 
+vim bs-config.json 
+cd build/
+cd contracts/
+vim TutorialToken.json 
+vim BasicToken.json 
+cd 1509253206747-27906245133653784/
+cd migrations/
+vim 2_deploy_contracts.js 
+cd src/
+cd js/
+vim app.js 
+cd..
+cd SmartChain/
+ls
+cd _vendor/
+cd..
+cd contracts/
+vim token.sol 
+pacaur -S mist
+mist
+mist
+google-chrome-stable
+pacaur -S google-chrome
+pacaur -S chronium
+pacaur -S chromium
+testrpc 
+sudo testrpc
+cd temp/
+cd embark_demo/
+embark simulator
+cd ~/Data/Git/
+ls
+cd SmartChain/
+truffle init
+truffle compile
+truffle migrate
+truffle test
+npm run dev
+reboot
+reboot
+sudo umount /dev/sda1
+umount -l /dev/sda1
+sudo umount -l /dev/sda1
+sudo umount -f /dev/sda1
+ls
+lsblk
+sudo mount sda1 /dev/sda1
+echo /etc/fstab
+vim /etc/fstab 
+vim token.sol 
+pacaur -S mist
+mist
+mist
+google-chrome-stable
+pacaur -S google-chrome
+pacaur -S chronium
+pacaur -S chromium
+testrpc 
+sudo testrpc
+cd temp/
+cd embark_demo/
+embark simulator
+cd ~/Data/Git/
+truffle migrate
+truffle test
+reboot
+reboot
+sudo umount /dev/sda1
+umount -l /dev/sda1
+sudo umount -l /dev/sda1
+sudo umount -f /dev/sda1
+lsblk
+sudo mount sda1 /dev/sda1
+echo /etc/fstab
+vim /etc/fstab 
+node -v
+pacman -S node
+sudo pacman -S node
+pacaur -S node-js
+pacaur -S nodejs
+cd Data/Git/
+cd SmartChain/
+nmp run dev
+npm run dev
+truffle
+testrpc
+zeppelin-solidity
+@npm install zeppelin-solidity
+cd ~/temp/
+mkdir my-ico
+cd my-ico/
+touch contracts/PesoCoin.sol
+vim PesoCoin.sol 
+vim PesoCoinCwordsale.sol
+mv PesoCoinCwordsale.sol PesoCoinCrowdsale.sol
+vim PesoCoinCrowdsale.sol 
+cd migrations/
+vim 2_deploy_contracts.js 
+cd..
+mkdir my-pso
+cd my-pso/
+npm init
+truffle init
+npm install zeppelin-solidity
+truffle compile
+cd contracts/
+ls
+mv PesoCoinCwordsale.sol PesoCoinCrowdsale.sol
+vim PesoCoinCrowdsale.sol 
+cd migrations/
+vim 2_deploy_contracts.js 
+cd..
+mkdir my-pso
+npm init
+truffle init
+npm install zeppelin-solidity
+truffle compile
+cd Data/Git/
+cd...
+cd my-pso/
+cd node_modules/
+cd zeppelin-solidity/
+cd contracts/
+cd examples/
+ls
+vim SampleCrowdsale.sol 
+sudo umount -l /dev/sda1
+sudo umount -f /dev/sda1
+ls
+lsblk
+sudo mount sda1 /dev/sda1
+echo /etc/fstab
+vim /etc/fstab 
+testrpc
+testrpc -u 0
+cd migrations/
+vim 2_deploy_contracts.js 
+mkdir my-pso
+npm init
+truffle init
+npm install zeppelin-solidity
+truffle compile
+cd contracts/
+mv PesoCoinCwordsale.sol PesoCoinCrowdsale.sol
+vim PesoCoinCrowdsale.sol 
+cd migrations/
+vim 2_deploy_contracts.js 
+mkdir my-pso
+npm init
+truffle init
+npm install zeppelin-solidity
+truffle compile
+cd Data/Git/
+cd...
+cd node_modules/
+cd zeppelin-solidity/
+cd contracts/
+cd examples/
+vim SampleCrowdsale.sol 
+cd Data/
+cd ArchScripts/
+cp switch_netctl.sh bash_script.sh
+mv bash_script.sh ~/temp/
+cd ~/temp/
+./bash_script.sh 
+mv bash_script.sh ~/Data/Git/SmartChain/
+cd $:mv bash_script.sh ~/Data/Git/SmartChain/
+cd ~/Data/Git/SmartChain/
+git pull
+git commmit -m "bash script"
+git status
+git commit -m "ehiedja"
+vim bash_script.sh 
+git commit -m ""
+git commit -m "as"
+git init https://github.com/sdmunozsierra/my-pso.git
+cd https\:/
+git init
+git clone https://github.com/sdmunozsierra/my-pso.git
+git clone https://github.com/sdmunozsierra/my-peso.git
+cd my-peso/
+cd..
+cd SmartChain/
+cd my-pso/
+cp * ~/Data/Git/my-peso/
+cp -r * ~/Data/Git/my-peso/
+cd ~/Data/Git/my-peso/
+git add .
+git commit -m "MY PESSSSSSSSSO"
+git push
+ls
+testrpc
+cd ~/Data/Git/my-peso/
+git add .
+git commit -m "MY PESSSSSSSSSO"
+git push
+cd Data/Git/
+cd embark-framework/
+cd demo/
+cd config/
+vim contracts.json 
+ls
+git add .
+git commit -m "MY PESSSSSSSSSO"
+git push
+cd Data/Git/
+cd embark-framework/
+cd demo/
+ls
+embark run
+mv bash_script.sh ~/Data/Git/SmartChain/
+cd $:mv bash_script.sh ~/Data/Git/SmartChain/
+cd ~/Data/Git/SmartChain/
+git pull
+git commmit -m "bash script"
+git status
+git commit -m "ehiedja"
+vim bash_script.sh 
+git commit -m ""
+git commit -m "as"
+git init https://github.com/sdmunozsierra/my-pso.git
+cd https\:/
+git init
+git clone https://github.com/sdmunozsierra/my-pso.git
+git clone https://github.com/sdmunozsierra/my-peso.git
+cd my-peso/
+cd SmartChain/
+cd my-pso/
+cp * ~/Data/Git/my-peso/
+cp -r * ~/Data/Git/my-peso/
+cd ~/Data/Git/my-peso/
+git add .
+git commit -m "MY PESSSSSSSSSO"
+git push
+cd Data/
+cd Git/project-2-sdmunozsierra/
+cd de
 cd demos/
 make clean
+cd blink_demo/
+cp Makefile ../../project/SwitchLeds/
+cd..
+cp -r timerLib/ ../project/
+cd button_demo/
+vim led.c 
 ls
-make
-sudo umount /media/usb2
-lsusb.py
-dmesg | tail
-sudo dmesg | tail
-sudo mtp-detect
-simple-mtpf -l
-sudo pacman -Syyu
-mtp-detect
-sudo adb start
-sudo adb start-server
-sudo adb devices
-reboot
-youtube
-startx
-sudo adb start-server
-sudo adb devices
-reboot
-youtube
-startx
-liusb
-sudo pacman -Rs libusb1
-sudo pacman -Rs libusb0
-sudo pacman -Rs libusbx
-usbutils
-sudo pacman -Rs libusb-compat
-pacaur -Rs libusb-compat
-pacman -Qi | grep libusb
-pacaur -S libusb
-pacaur -S mspdebug
-libusb
-lsusb
+vim buttonMain.c 
+st
+git add .
+git commit -m "MY PESSSSSSSSSO"
+git push
+cd..
+cd ..
+cd project/
+ls
+pacaur -Rs neovim
+ls
+pacaur -Rs neovim
+vim
+git commit -m "MY PESSSSSSSSSO"
+git push
+cd..
+cd ..
+cd project/
+ls
+pacaur -Rs neovim
+ls
+pacaur -Rs neovim
+vim
+vim
+git commit -m "MY PESSSSSSSSSO"
+git push
+cd ..
+cd project/
+pacaur -Rs neovim
+pacaur -Rs neovim
+vim
+GitBackupTest
+cd temp/
+ks
+cd test/
+la
+rmdir .gradle/
+gitBackupTest 
+cd..
+ls
+vim exclude-list.txt 

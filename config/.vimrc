@@ -6,39 +6,36 @@ filetype off                  " required
 "----------------------------------------
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-"Plugin 'VundleVim/Vundle.vim'
-Plugin 'VundleVim/Vundle'
+Plugin 'VundleVim/Vundle.vim'
 " My Plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'badwolf'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'https://github.com/fholgado/minibufexpl.vim.git'
+Plugin 'tomlion/vim-solidity'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
 call vundle#end() 
 
 " To ignore plugin indent changes, instead use:
 filetype plugin indent on
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just
-" :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to
-" auto-approve removal
-" see :h vundle for more details or wiki for FAQ
-
 
 "----------------------------------------
 "-------------- DISPLAY -----------------
 "----------------------------------------
+" set <leader> to ,
+let mapleader = ","
 
 " numbers, scheme, syntax
 set number         " Enable line numbers
 set relativenumber " Enable relative number
 set tabstop=4	   " Set tabs 4 spaces
-set t_Co=256 
+set softtabstop=0 noexpandtab
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab " Fixes new line to 4 spaces
+
+set t_Co=256  "Color 256 :)
 syntax on
-colorscheme badwolf
+colorscheme badwolf     "New nice comming up!
 let g:badwolf_darkgutter = 1 " Make the gutters darker than the background.
 let g:badwolf_tabline = 3
 
@@ -50,19 +47,54 @@ let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
 
+let g:airline#extensions#syntastic#enabled = 1
+
 " General usage options: folding
 "Folding
 set foldmethod=indent
 "set foldnestmax=10
 "set foldlevelstart=1
 
+"----------------------------------------
+"------------- PLUGGINS -----------------
+"----------------------------------------
+
+"------------- SYNTASTIC ----------------
+"Please read the documentation for this
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+"let g:syntastic_c_checkers=['make','splint']
+let g:syntastic_solidity_checkers=['solidity','solc','Solhint','Soluim']
+
+"let g:syntastic_filetype_checkers['solidity'] = ['solidity'] " will use python as checker
+
+"------------- NERDTree -----------------
+nmap <leader>o :NERDTreeToggle<CR>
+
+" Starts NERDTree if no file was selevtionated
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" Close vim if NERDTree is the onlything open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" Delete the buffer of a deleted file
+let NERDTreeAutoDeleteBuffer = 1
+
+" Prettier no ? for help
+let NERDTreeMinimalUI = 1
+
 
 "----------------------------------------
-"------------- MAPPINGS -----------------
+"------------- MAPPINGS EXTRA -----------
 "----------------------------------------
 
-" set <leader> to ,
-let mapleader = ","
 
 " Press F4 to toggle highlighting on/off and show current value.
 :noremap <F4> :set hlsearch! hlsearch?<CR>
@@ -71,11 +103,9 @@ set hlsearch
 vmap <F11> :!xclip -f -sel clip<CR>
 map <F12> :r !xclip -o -sel clip<CR>
 
-" Fast save a buffer
 nmap <leader>w :w!<cr>
-
-" Close current buffer
-map <leader>bd :Bclose<cr>
+nmap <leader>q :q!<cr>
+map <leader>bd :Bclose<cr> 
 
 " Use ws to write as sudo
 cmap ws w !sudo tee > /dev/null %
@@ -93,7 +123,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
+"
 "----------------------------------------
 "------------- OPTIONS ------------------
 "----------------------------------------
