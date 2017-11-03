@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/L
+~MSle0~/NER
 
 # Last Substitute Search Pattern:
 ~MSle0&syntastic_solidity_checkers
@@ -20,22 +20,30 @@
 $
 
 # Command Line History (newest to oldest):
-:w
-|2,0,1509564491,,"w"
-:qa!
-|2,0,1509564328,,"qa!"
-:bn
-|2,0,1509562485,,"bn"
-:wq
-|2,0,1509564326,,"wq"
+:q
+|2,0,1509672148,,"q"
 :q!
-|2,0,1509562304,,"q!"
+|2,0,1509672112,,"q!"
+:wq
+|2,0,1509671845,,"wq"
+:w
+|2,0,1509671843,,"w"
+:qa!
+|2,0,1509671115,,"qa!"
+:bd
+|2,0,1509634334,,"bd"
+:bn
+|2,0,1509634274,,"bn"
+:3vs
+|2,0,1509634264,,"3vs"
+:sp 3
+|2,0,1509634256,,"sp 3"
+:2vs
+|2,0,1509634226,,"2vs"
 :e Data/
 |2,0,1509561038,,"e Data/"
 :W
 |2,0,1509560994,,"W"
-:q
-|2,0,1509561030,,"q"
 :e Android/
 |2,0,1509561029,,"e Android/"
 :NERDTree
@@ -112,20 +120,14 @@ $
 |2,0,1506359178,,"w jj"
 :%s/seisd.ent/sesid.net
 |2,0,1506015194,,"%s/seisd.ent/sesid.net"
-:.qa!
-|2,0,1505838007,,".qa!"
-:ls
-|2,0,1505836040,,"ls"
-:.,.+1ls
-|2,0,1505836038,,".,.+1ls"
-:e exclude-list.txt
-|2,0,1505836017,,"e exclude-list.txt"
 
 # Search String History (newest to oldest):
+?/Hous
+|2,1,1509648054,47,"Hous"
+?/NER
+|2,1,1509577702,47,"NER"
 ?/L
 |2,1,1509562432,47,"L"
-?/Hous
-|2,1,1509558571,47,"Hous"
 ?/hous
 |2,1,1509558568,47,"hous"
 ??Hous
@@ -220,8 +222,6 @@ $
 |2,1,1507039430,47,"core"
 ?/Log
 |2,1,1507033687,47,"Log"
-?/Houst
-|2,1,1506712132,47,"Houst"
 
 # Expression History (newest to oldest):
 =p
@@ -235,36 +235,36 @@ $
 
 # Registers:
 "0	LINE	0
-	.ethereum
-|3,0,0,1,1,0,1509564483,".ethereum"
+	.config/chromium
+|3,0,0,1,1,0,1509564597,".config/chromium"
 "1	LINE	0
-	let NERDTreeDirArrows = 1
-|3,0,1,1,1,0,1509562332,"let NERDTreeDirArrows = 1"
+	void enableWDTInterrupts()  
+|3,0,1,1,1,0,1509630084,"void enableWDTInterrupts()  "
 "2	LINE	0
 	
-|3,0,2,1,1,0,1509562274,""
+	
+|3,0,2,1,2,0,1509617348,"",""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1509561544,""
+|3,0,3,1,1,0,1509617189,""
 "4	LINE	0
-	" Fast save a buffer
-|3,0,4,1,1,0,1509561481,"\" Fast save a buffer"
+	
+|3,0,4,1,1,0,1509617189,""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1509561475,""
+	let NERDTreeDirArrows = 1
+|3,0,5,1,1,0,1509562332,"let NERDTreeDirArrows = 1"
 "6	LINE	0
-	" Close current buffer
-|3,0,6,1,1,0,1509561474,"\" Close current buffer"
-"7	LINE	0
-	" Close current buffer
 	
-|3,0,7,1,2,0,1509561470,"\" Close current buffer",""
+|3,0,6,1,1,0,1509562274,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1509561544,""
 "8	LINE	0
-	map <leader>bd :Bclose<cr> " Close current buffer
-|3,0,8,1,1,0,1509561467,"map <leader>bd :Bclose<cr> \" Close current buffer"
+	" Fast save a buffer
+|3,0,8,1,1,0,1509561481,"\" Fast save a buffer"
 "9	LINE	0
-	" Close current buffer
-|3,0,9,1,1,0,1509561460,"\" Close current buffer"
+	
+|3,0,9,1,1,0,1509561475,""
 "a@	CHAR	0
 	!
 |3,2,10,0,1,0,1506016147,"!"
@@ -303,249 +303,399 @@ $
 	
 |3,0,34,0,2,0,1495712165,"[&#xf17c;]",""
 ""-	CHAR	0
-	ethereum
-|3,1,36,0,1,0,1509564486,"ethereum"
+	i
+|3,1,36,0,1,0,1509671795,"i"
 
 # File marks:
-'0  29  6  ~/exclude-list.txt
-|4,48,29,6,1509564514,"~/exclude-list.txt"
-'1  24  8  ~/NERD_tree_1
-|4,49,24,8,1509564328,"~/NERD_tree_1"
-'2  85  44  ~/.vimrc
-|4,50,85,44,1509564326,"~/.vimrc"
-'3  1  0  ~/NERD_tree_1
-|4,51,1,0,1509562424,"~/NERD_tree_1"
-'4  15  0  ~/NERD_tree_1
-|4,52,15,0,1509562424,"~/NERD_tree_1"
-'5  90  0  ~/.vimrc
-|4,53,90,0,1509562300,"~/.vimrc"
-'6  92  0  ~/.vimrc
-|4,54,92,0,1509562300,"~/.vimrc"
-'7  90  0  ~/.vimrc
-|4,55,90,0,1509562300,"~/.vimrc"
-'8  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,56,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
-'9  1  0  ~/.config/i3/config
-|4,57,1,0,1509561365,"~/.config/i3/config"
+'0  1  0  ~/.cvspass
+|4,48,1,0,1509672148,"~/.cvspass"
+'1  1  0  ~/.buffer.swp
+|4,49,1,0,1509672135,"~/.buffer.swp"
+'2  138  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,50,138,0,1509672112,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+'3  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,51,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+'4  1  0  ~/.mspdebug_history
+|4,52,1,0,1509672028,"~/.mspdebug_history"
+'5  5  0  ~/.todo/config/todo.cfg
+|4,53,5,0,1509671845,"~/.todo/config/todo.cfg"
+'6  4  0  ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/test.txt
+|4,54,4,0,1509671115,"~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/test.txt"
+'7  2575  0  ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20171101.txt
+|4,55,2575,0,1509648076,"~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20171101.txt"
+'8  1  0  ~/Data/Git/project-2-sdmunozsierra/project/switchLeds/Makefile
+|4,56,1,0,1509635483,"~/Data/Git/project-2-sdmunozsierra/project/switchLeds/Makefile"
+'9  1  0  ~/NERD_tree_1
+|4,57,1,0,1509634205,"~/NERD_tree_1"
 
 # Jumplist (newest first):
--'  29  6  ~/exclude-list.txt
-|4,39,29,6,1509564514,"~/exclude-list.txt"
--'  1  0  ~/exclude-list.txt
-|4,39,1,0,1509564394,"~/exclude-list.txt"
--'  24  8  ~/NERD_tree_1
-|4,39,24,8,1509564328,"~/NERD_tree_1"
--'  24  8  ~/NERD_tree_1
-|4,39,24,8,1509564328,"~/NERD_tree_1"
--'  85  44  ~/.vimrc
-|4,39,85,44,1509564326,"~/.vimrc"
--'  85  44  ~/.vimrc
-|4,39,85,44,1509564326,"~/.vimrc"
--'  10  47  ~/Data/Crypto/embark-framework/LICENSE
-|4,39,10,47,1509562873,"~/Data/Crypto/embark-framework/LICENSE"
--'  10  47  ~/Data/Crypto/embark-framework/LICENSE
-|4,39,10,47,1509562873,"~/Data/Crypto/embark-framework/LICENSE"
--'  84  0  ~/.vimrc
-|4,39,84,0,1509562801,"~/.vimrc"
--'  84  0  ~/.vimrc
-|4,39,84,0,1509562801,"~/.vimrc"
--'  12  0  ~/Data/Crypto/embark-framework/script_test.js
-|4,39,12,0,1509562478,"~/Data/Crypto/embark-framework/script_test.js"
--'  12  0  ~/Data/Crypto/embark-framework/script_test.js
-|4,39,12,0,1509562478,"~/Data/Crypto/embark-framework/script_test.js"
--'  1  0  ~/Data/Crypto/embark-framework/script_test.js
-|4,39,1,0,1509562452,"~/Data/Crypto/embark-framework/script_test.js"
--'  2  0  ~/Data/Crypto/embark-framework/CONTRIBUTING.md
-|4,39,2,0,1509562452,"~/Data/Crypto/embark-framework/CONTRIBUTING.md"
--'  1  0  ~/Data/Crypto/embark-framework/script_test.js
-|4,39,1,0,1509562452,"~/Data/Crypto/embark-framework/script_test.js"
--'  2  0  ~/Data/Crypto/embark-framework/CONTRIBUTING.md
-|4,39,2,0,1509562452,"~/Data/Crypto/embark-framework/CONTRIBUTING.md"
--'  2  0  ~/Data/Crypto/embark-framework/LICENSE
-|4,39,2,0,1509562438,"~/Data/Crypto/embark-framework/LICENSE"
--'  2  0  ~/Data/Crypto/embark-framework/LICENSE
-|4,39,2,0,1509562438,"~/Data/Crypto/embark-framework/LICENSE"
--'  1  0  ~/Data/Crypto/embark-framework/LICENSE
-|4,39,1,0,1509562433,"~/Data/Crypto/embark-framework/LICENSE"
--'  1  0  ~/Data/Crypto/embark-framework/LICENSE
-|4,39,1,0,1509562433,"~/Data/Crypto/embark-framework/LICENSE"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1509562424,"~/NERD_tree_1"
--'  15  0  ~/NERD_tree_1
-|4,39,15,0,1509562424,"~/NERD_tree_1"
--'  1  0  ~/NERD_tree_1
-|4,39,1,0,1509562424,"~/NERD_tree_1"
--'  15  0  ~/NERD_tree_1
-|4,39,15,0,1509562424,"~/NERD_tree_1"
--'  8  0  ~/Data/Crypto/my-peso/src/index.html
-|4,39,8,0,1509562396,"~/Data/Crypto/my-peso/src/index.html"
--'  8  0  ~/Data/Crypto/my-peso/src/index.html
-|4,39,8,0,1509562396,"~/Data/Crypto/my-peso/src/index.html"
--'  8  0  ~/Data/Crypto/my-peso/src/index.html
-|4,39,8,0,1509562396,"~/Data/Crypto/my-peso/src/index.html"
--'  8  0  ~/Data/Crypto/my-peso/src/index.html
-|4,39,8,0,1509562396,"~/Data/Crypto/my-peso/src/index.html"
--'  1  0  ~/Data/Crypto/my-peso/src/index.html
-|4,39,1,0,1509562386,"~/Data/Crypto/my-peso/src/index.html"
--'  1  0  ~/Data/Crypto/my-peso/src/index.html
-|4,39,1,0,1509562386,"~/Data/Crypto/my-peso/src/index.html"
--'  1  0  ~/Data/Crypto/my-peso/src/index.html
-|4,39,1,0,1509562386,"~/Data/Crypto/my-peso/src/index.html"
--'  1  0  ~/Data/Crypto/my-peso/src/index.html
-|4,39,1,0,1509562386,"~/Data/Crypto/my-peso/src/index.html"
--'  1  0  ~/.vimrc
-|4,39,1,0,1509562311,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1509562311,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562300,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562300,"~/.vimrc"
--'  92  0  ~/.vimrc
-|4,39,92,0,1509562300,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562300,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562300,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562300,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562300,"~/.vimrc"
--'  92  0  ~/.vimrc
-|4,39,92,0,1509562300,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562300,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562300,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1509562266,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1509562266,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562266,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1509562266,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1509562266,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1509562266,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1509562266,"~/.vimrc"
--'  90  0  ~/.vimrc
-|4,39,90,0,1509562266,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1509562266,"~/.vimrc"
--'  88  0  ~/.vimrc
-|4,39,88,0,1509562266,"~/.vimrc"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  45  0  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,45,0,1509562251,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
--'  27  2  ~/Data/Crypto/embark-framework/demo/chains.json
-|4,39,27,2,1509561797,"~/Data/Crypto/embark-framework/demo/chains.json"
+-'  1  0  ~/.cvspass
+|4,39,1,0,1509672148,"~/.cvspass"
+-'  1  0  ~/.buffer.swp
+|4,39,1,0,1509672135,"~/.buffer.swp"
+-'  1  0  ~/.buffer.swp
+|4,39,1,0,1509672135,"~/.buffer.swp"
+-'  138  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,39,138,0,1509672112,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+-'  138  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,39,138,0,1509672112,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+-'  138  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,39,138,0,1509672112,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+-'  138  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,39,138,0,1509672112,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+-'  1  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,39,1,0,1509672091,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+-'  1  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,39,1,0,1509672091,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+-'  1  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,39,1,0,1509672091,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+-'  1  0  ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+|4,39,1,0,1509672091,"~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties"
+-'  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,39,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+-'  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,39,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+-'  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,39,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+-'  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,39,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+-'  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,39,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+-'  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,39,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+-'  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,39,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+-'  1  0  ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+|4,39,1,0,1509672050,"~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  1  0  ~/.mspdebug_history
+|4,39,1,0,1509672028,"~/.mspdebug_history"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  5  0  ~/.todo/config/todo.cfg
+|4,39,5,0,1509671845,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  4  33  ~/.todo/config/todo.cfg
+|4,39,4,33,1509671788,"~/.todo/config/todo.cfg"
+-'  1  0  ~/.todo/config/todo.cfg
+|4,39,1,0,1509671682,"~/.todo/config/todo.cfg"
 
 # History of marks within files (newest to oldest):
 
-> ~/exclude-list.txt
-	*	1509564495	0
-	"	29	6
-	^	29	7
-	.	29	6
-	+	33	6
-	+	30	8
-	+	29	6
+> ~/.cvspass
+	*	1509672147	0
+	"	1	0
+
+> ~/.buffer.swp
+	*	1509672134	0
+	"	1	0
+
+> ~/.java/fonts/1.8.0_131/fcinfo-1-arch-vm-Linux-4.11.9-1-ARCH-en.properties
+	*	1509672111	0
+	"	138	0
+
+> ~/.v8flags.5.1.281.84.8d6db9ffaf3948ab19078ce024b47bbe.json
+	*	1509672044	0
+	"	1	0
+
+> ~/.mspdebug_history
+	*	1509672027	0
+	"	1	0
+
+> ~/.todo/config/todo.cfg
+	*	1509671843	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	4	37
+	+	5	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20171101.txt
+	*	1509648071	0
+	"	2575	0
+	^	2576	4
+	.	2576	0
+	+	2576	0
+
+> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170929.txt
+	*	1509648041	0
+	"	2564	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/test.txt
+	*	1509634340	0
+	"	1	4
+	^	1	5
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/Binary_Search_Tree.c
+	*	1509634329	0
+	"	4	0
+
+> ~/3
+	*	1509634256	0
+	"	1	0
 
 > ~/NERD_tree_1
-	*	1509562879	0
-	"	24	8
+	*	1509634244	0
+	"	14	0
 	.	1	0
 	+	1	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/Makefile
+	*	1509634216	0
+	"	1	0
+
+> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/bst
+	*	1509634200	0
+	"	1	0
+
+> ~/Data/Git/project-2-sdmunozsierra/project/timerLib/clocksTimer.c
+	*	1509630178	0
+	"	15	12
+	.	16	0
+	+	17	0
+	+	16	0
+
+> ~/Data/Git/project-2-sdmunozsierra/project/timerLib/Makefile
+	*	1509630167	0
+	"	4	44
+
+> ~/Data/Git/project-2-sdmunozsierra/project/timerLib/clocksTimer.h
+	*	1509630145	0
+	"	3	0
+
+> ~/.vimrc
+	*	1509617349	0
+	"	92	0
+	^	92	40
+	.	92	0
+	+	15	0
+	+	36	26
+	+	38	44
+	+	52	0
+	+	62	40
+	+	63	38
+	+	17	27
+	+	10	0
+	+	9	0
+	+	114	0
+	+	115	0
+	+	129	0
+	+	129	22
+	+	130	0
+	+	128	0
+	+	57	0
+	+	62	0
+	+	63	0
+	+	78	0
+	+	92	83
+	+	95	0
+	+	92	83
+	+	95	0
+	+	78	24
+	+	97	29
+	+	79	27
+	+	100	0
+	+	26	0
+	+	22	0
+	+	79	29
+	+	112	26
+	+	112	0
+	+	112	26
+	+	112	27
+	+	112	0
+	+	112	26
+	+	112	27
+	+	112	0
+	+	111	0
+	+	110	0
+	+	108	0
+	+	109	16
+	+	82	0
+	+	92	83
+	+	81	45
+	+	79	13
+	+	84	0
+	+	88	0
+	+	87	36
+	+	89	0
+	+	92	83
+	+	91	0
+	+	90	23
+	+	92	83
+	+	79	29
+	+	84	0
+	+	86	0
+	+	85	44
+	+	92	0
+	+	92	78
+	+	92	0
+	+	92	40
+	+	92	82
+	+	92	0
+	+	92	36
+	+	92	0
+
+> ~/exclude-list.txt
+	*	1509564606	0
+	"	4	18
+	^	4	19
+	.	4	18
+	+	36	6
+	+	33	8
+	+	32	6
+	+	3	15
+	+	14	11
+	+	4	18
 
 > ~/Data/Crypto/embark-framework/LICENSE
 	*	1509562871	0
@@ -557,70 +707,6 @@ $
 	.	1	1
 	+	1	1
 	o	2	0
-
-> ~/.vimrc
-	*	1509562829	0
-	"	85	44
-	^	85	45
-	.	85	44
-	+	15	0
-	+	36	26
-	+	38	44
-	+	52	0
-	+	62	40
-	+	63	38
-	+	17	27
-	+	10	0
-	+	9	0
-	+	112	0
-	+	113	0
-	+	127	0
-	+	127	22
-	+	128	0
-	+	126	0
-	+	57	0
-	+	62	0
-	+	63	0
-	+	78	0
-	+	92	0
-	+	93	0
-	+	92	0
-	+	93	0
-	+	78	24
-	+	95	29
-	+	79	27
-	+	98	0
-	+	26	0
-	+	22	0
-	+	79	29
-	+	110	26
-	+	110	0
-	+	110	26
-	+	110	27
-	+	110	0
-	+	110	26
-	+	110	27
-	+	110	0
-	+	109	0
-	+	108	0
-	+	106	0
-	+	107	16
-	+	82	0
-	+	92	0
-	+	81	45
-	+	79	13
-	+	84	0
-	+	88	0
-	+	87	36
-	+	89	0
-	+	92	0
-	+	91	0
-	+	90	23
-	+	92	0
-	+	79	29
-	+	84	0
-	+	86	0
-	+	85	44
 
 > ~/Data/Crypto/embark-framework/CONTRIBUTING.md
 	*	1509562481	0
@@ -675,10 +761,6 @@ $
 	.	1	0
 	+	1	0
 
-> ~/Data/Git/2017-fall-arch1-project-1-sdmunozsierra/Binary_Search_Tree.c
-	*	1509561025	0
-	"	2	0
-
 > ~/Data/Crypto/mazi/migrations/2_deploy_contracts.js
 	*	1509561006	0
 	"	3	4
@@ -693,17 +775,6 @@ $
 	.	1	0
 	+	11	0
 	+	1	0
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20170929.txt
-	*	1509558580	0
-	"	2	176
-
-> ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/LBL1000__lbl0001i.47666.20171101.txt
-	*	1509558579	0
-	"	2	176
-	^	2576	4
-	.	2576	0
-	+	2576	0
 
 > ~/Data/Programming/EclipseOxygen/teb_GUI_CignaDisability/-MiniBufExplorer-
 	*	1509557457	0
@@ -1253,127 +1324,3 @@ $
 > ~/Data/Git/SmartChain/dist/js/app.js
 	*	1509248917	0
 	"	1	0
-
-> ~/Data/Git/SmartChain/dist/index.html
-	*	1509248902	0
-	"	1	0
-
-> ~/Data/Git/SmartChain/chains.json
-	*	1509245844	0
-	"	179	8
-	.	179	0
-	+	240	0
-	+	180	0
-	+	184	0
-	+	179	0
-
-> ~/Data/Git/SmartChain/app/js/token.js
-	*	1509245460	0
-	"	1	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/Data/Git/SmartChain/config/contracts.json
-	*	1509244979	0
-	"	26	2
-	^	17	0
-	.	26	0
-	+	1	17
-	+	1	7
-	+	1	24
-	+	28	0
-	+	1	0
-	+	1	7
-	+	1	11
-	+	28	11
-	+	1	0
-	+	28	11
-	+	28	16
-	+	28	0
-	+	1	10
-	+	1	0
-	+	26	0
-	+	7	0
-	+	26	0
-	+	18	0
-	+	26	0
-
-> ~/Data/Git/SmartChain/app/contracts/token.sol
-	*	1509244864	0
-	"	40	0
-	.	2	0
-	+	2	0
-
-> ~/Data/Git/SmartChain/app/contracts/simple_storage.sol
-	*	1509242277	0
-	"	1	0
-
-> ~/Data/Git/SmartChain/app/contracts/compile.sol
-	*	1509241649	0
-	"	1	0
-	^	1	22
-	.	1	22
-	+	1	23
-	+	16	37
-	+	17	20
-	+	18	24
-	+	19	20
-	+	19	21
-	+	20	37
-	+	29	23
-	+	29	0
-	+	1	22
-
-> ~/embark_demo/app/index.html
-	*	1509239526	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/embark_demo/app/js/index.js
-	*	1509239347	0
-	"	1	0
-	^	1	0
-
-> ~/Data/Git/SmartChain/app/js/-MiniBufExplorer-
-	*	1509238381	0
-	"	1	12
-	.	2	0
-	+	2	0
-
-> ~/Data/Git/SmartChain/app/contracts/simple_storage2.sol
-	*	1509237849	0
-	"	2	20
-	^	2	21
-	.	2	20
-	+	2	20
-
-> ~/Data/Git/SmartChain/app/index-copy.html
-	*	1509231414	0
-	"	15	0
-
-> ~/Data/Git/SmartChain/app/contracts/testBackend.sol
-	*	1509229936	0
-	"	57	20
-	^	29	21
-	.	29	20
-	+	9	0
-	+	10	1
-	+	11	2
-	+	12	3
-	+	13	4
-	+	14	5
-	+	15	6
-	+	3	27
-	+	6	29
-	+	34	22
-	+	8	22
-	+	18	3
-	+	24	1
-	+	25	34
-	+	5	0
-	+	26	16
-	+	27	18
-	+	28	25
-	+	29	20

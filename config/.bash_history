@@ -1,43 +1,3 @@
-ping google.com
-cd Data/Git/SmartChain/
-embark blockchain
-cd test/
-cd Data/Git/
-vim simple_storage.sol 
-cd config/
-vim contracts.json 
-vim chains.json 
-cd app/
-cd js/
-cd _vendor/
-vim token.sol 
-pacaur -S truffle
-truffle
-mv -r embark_demo/ temp/
-mv embark_demo/ temp/
-mv ethereumj.starter/ temp/
-cd Data/
-cd Git/
-cd mazi/
-truffle test
-testrpc
-cd SmartChain/
-rm -r *
-git commit -m "Clean Repo"
-git add .
-git commit -m "Changed to Truffle"
-git push
-cd co
-cd contracts/
-vim TutorialToken.sol 
-truffle compile
-truffle migrate
-cd..
-ls
-npm run dev
-testrpc 
-startx
-vim $CURR/timerLib/Makefile 
 $CURR
 startx
 pacaur -S neovim
@@ -498,3 +458,43 @@ gitBackupTest
 cd..
 ls
 vim exclude-list.txt 
+ks
+cd test/
+la
+rmdir .gradle/
+gitBackupTest 
+cd..
+vim exclude-list.txt 
+cd Data/Git/dotfiles/
+gir remove .
+git remove .
+git rm .
+cd config/
+cd .config/
+git rm -r Mist/
+rm -r Mist/
+rm -r chromium/
+rm -r configstore/
+git add .
+cd...
+ls
+git status
+sudo git add .
+git commit -m "Vim NERDTree and other changes"
+git push
+vim exclude-list.txt 
+gitBackup
+gitBackup
+vim
+vim
+vim
+vim
+vim
+emacs
+ls
+vimdiff LBL1000__lbl0001i.47666.20171101.txt LBL1000__lbl0001i.47666.20170929.txt 
+youtube
+gitBackup
+vim
+cd Data/Asiakirja/
+mkdir todo
