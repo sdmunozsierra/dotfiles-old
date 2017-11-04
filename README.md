@@ -31,21 +31,22 @@ As right now all of them do what they are called to do install_* (install someth
 * Python
 * Android Studio
 * Eclipse
+* Go
 
 ### Tools
 * vim (of course)
+* emacs (had to try)
 * rissetto
 * lynx
 * git
 * xfce4-screenshooter (does not work on arch :/)
-* brassero (cd management _u never know_)
 * mupdf
 
 ### Media
 * mps-youtube (needs python tools)
 
 ### Pen-Testing
-* wireshark (not there yet...)
+* wireshark with qt
 * hamster
 
 ### Fonts
@@ -59,3 +60,10 @@ As right now all of them do what they are called to do install_* (install someth
 * vim-airline
 * vim-airline-themes
 * YouCompleteMe(kinda not working)
+* NERDTree 
+
+## Blockchain
+
+### A L O T O F T H I N G S 
+**You should start listing all the stuff you downloaded for blockcain**
+* Truffle - Working blockain
