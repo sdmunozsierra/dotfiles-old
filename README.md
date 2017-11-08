@@ -1,37 +1,36 @@
 # dotfiles
-Contain my .config files for many Linux programs
+Dotfiles for my setup running ArchLinux. Current setup involves i3, vim, and terminal (st) color scheme based on badwolf.
 
-## Current Setup
+## Current Setup Photos
 ![Clean Desktop](https://github.com/sdmunozsierra/dotfiles/blob/master/screenshots/2017-Jul-28_02:11:44.png)
 ![Fake Dirty](https://github.com/sdmunozsierra/dotfiles/blob/master/screenshots/2017-Jul-28_02:00:13.png)
+
 ## File Structure
-All "dot files" are in the folder config.
-TODO separate bash, vim, and gtk outside dotfiles to folders for simplicity
-
-## OUTDATED!!
-
-## (NEW SECTION) ArchScripts
-These are basically scripts that will install everything I need if I screw up my machine (which is something very probable due to my humanity).
-As right now all of them do what they are called to do install_* (install something)
-
+confing folder - All config files (vim, emacs, bash, etc).
+notes folder - notes that I have recorded over the years (mostly legacy as new notes are now stored on separate program).
+screenshots folder - Showoff my setup.
 
 ## Programs that you've installed
+Just in case of a fresh install, remember to add the following to your collection.
+
 ### System Related
 * neofetch
 * pavucontrol (for audio)
 * arandr (for video)
 * stterminal
-* synapse
+* synapse (Not installed)
 * feh
 * pacmanfm
-* escrotum (for screenshots lol) 
+* escrotum (Screnshoot) 
 
 ### Programming 
 * Java
 * Python
+* Go
+* C Lang
+* Node.js
 * Android Studio
 * Eclipse
-* Go
 
 ### Tools
 * vim (of course)
@@ -66,4 +65,6 @@ As right now all of them do what they are called to do install_* (install someth
 
 ### A L O T O F T H I N G S 
 **You should start listing all the stuff you downloaded for blockcain**
-* Truffle - Working blockain
+* Truffle - from npm
+* testrpc
+* embarkjs
