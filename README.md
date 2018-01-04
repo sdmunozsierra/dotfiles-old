@@ -27,11 +27,15 @@ As right now all of them do what they are called to do install_* (install someth
 * escrotum (for screenshots lol) 
 
 ### Programming 
-* Java
-* Python
+* java
+* python
 * Android Studio
 * Eclipse
-* Go
+* go
+* clang
+* mono (C++)
+* rust
+* npm
 
 ### Tools
 * vim (of course)
@@ -59,7 +63,7 @@ As right now all of them do what they are called to do install_* (install someth
 * solarized 
 * vim-airline
 * vim-airline-themes
-* YouCompleteMe(kinda not working)
+* YouCompleteMe
 * NERDTree 
 
 ## Blockchain

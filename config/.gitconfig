@@ -1,7 +1,15 @@
 [user]
 	name = sdmunozsierra
 	email = sdmunozsierra@miners.utep.edu
+	signingkey = 0CB4F8D95213EF2B
 [core]
 	editor = vim
 [credential]
-	helper = cache --timeout=3600
+        # helper = cache --timeout=3600
+    helper = /usr/lib/git-core/git-credential-libsecret
+[gpg]
+	program = gpg2
+[alias]
+	unstage = reset HEAD --
+	comm = commit -a -S -m
+	last = log -1 HEAD

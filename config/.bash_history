@@ -1,500 +1,500 @@
-$CURR
-startx
-pacaur -S neovim
-sudo systemctl restart NetworkManager
-vim
-pacaur -S solidity-git
-pacaur -S solidity-git
-cd temp/ethereumj
-/gradlew run -PmainClass=org.ethereum.samples.PendingStateSample
-./gradlew run -PmainClass=org.ethereum.samples.PendingStateSample
-clear
-v
-embark simulator
-embark blockchain
-sudo embark simulator
-sudo embark blockchain
-git commit -m "Almost November Backup"
-sudo git commit -m "Almost November Backup"
-git push
-lsusb
-systemctl restart NetworkManager
-git clone https://github.com/tomlion/vim-solidity.git ~/.vim/bundle/vim-solidity
-ping google.com
-systemctl restart NetworkManager
 reboot
+bench
+cench
+reboot
+echo "export PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
+ls
+bench
+vim .bashrc 
+mysql
+sudo mysqld -u root -p 
+mysql -u root -p
 startx
-cd /opt/ti/msp430_gcc/
-cd bin/
-ls /usr/bin/ | grep gcc
-OFFICIAL=~/Data/Git/pjct2-sdms/demos/
-vim $OFFICIAL/timerLib/Makefile 
-CURR=~/Data/Git/project-2-sdmunozsierra/demos/
-vim $CURR/timerLib/Makefile 
-$CURR
+pacaur -Rs msp430-elf-gdb
+pacaur -Rs msp430-elf-binutils
+pacaur -Rs msp430-elf-gcc
+pacaur -Rs msp430-elf-gcc-stage1
+pacaur -Rs msp430-elf-gcc
+pacaur -Rs msp430-elf-gcc-stage1
+cd Data/
+cd Git/
+bim .bashrc
+vim .bashrc
+bench --site site1.local install-app erpnext
+sudo bench new-site site1.local
+bench new-site site1.local
+bench use site1.local
+mysql -u root -p
+cench
+reboot
+cench
+reboot
+echo "export PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
+vim .bashrc 
+bench init frappe-bench && freppe-bench
+cd temp/
+pip install --user -e bench-repo
+sudo pip install --user -e bench-repo
+  bench init frappe-bench && cd frappe-bench
+sudo   bench init frappe-bench && cd frappe-bench
+systemctl start redis
+systemctl start cronie
+ bench init frappe-bench && cd frappe-bench
+vim /etc/mysql/my.cnf
+sudo bench init frappe-bench && cd frappe-bench
+cd bench-repo/
+cd..
+rm -r bench-repo/
+sudo rm -r bench-repo 
+git clone https://github.com/frappe/bench bench-repo
+sudo  pip2 install --user -e bench-repo
+bench bench init frappe-bench && cd frappe-bench
+bench init frappe-bench && cd frappe-bench
+bench get-app erpnext https://github.com/frappe/erpnext
+redis
+systemctl service enable redis
+systemctl enable redis
+bench
+systemctl start bench-repo/ls
+systemctl start mariadb
+ls
+systemctl
+systemctl | grep cro
+systemctl | grep mys
+systemctl | grep mysql
+systemctl start mysqld
+mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+bench start
+sudo pacman -Syyu
+mysqld
+sudo mysqld
+sudo mysqld -u root - p
+sudo mysqld -u root - p
+cd temp/
+ls
+mysqld
+suda mysqld
+sudo mysqld
+sudo mysqld -u root
+ls
+sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+vim /etc/mysql/my.cnf
+mysql
+sudo mysql
+sudo mysqld
+sudo mysqld -u root -p
+sudo service mysqld start
+sudo systemd mysqld start
+sudo systemd start mysqld
+systemd start mysqld
+systemd
+sudo systemclt start mysqld
+sudo systemctl start mysqld
+sudo mysqld -u root -p
+mysqld
+sudo chwon -R mysql /var/lib/mysql
+sudo chown -R mysql /var/lib/mysql
+sudo chgrp -R mysql /var/lib/mysql
+sudo chmod 755 /var/lib/mysql
+vim /etc/mysql/my.cnf
+systemctl start mysqld
+sudo mysqld -u root -p
+vim /etc/mysql/my.cnf
+sudo mysqld -u root -p
+systemctl start mysqld
+mysql_secure_installation
+vim /etc/mysql/my.cnf
+systemctl start myqld redis
+systemctl start mysqld redis
+systemctl enable cronie
+cd temp/
+sudo pip2 install --user -e bench-repo
+bench init frappe-bench && cd frappe-bench
+sudo mysqld -u root -p
 startx
-sudo systemctl restart NetworkManager
-vim
-vim intro.sol
-cp intro.sol ~
-cd intro.sol embark_demo/
-mv intro.sol embark_demo/
-la
-vim simple_storage.sol 
-cp simple_storage.sol simple_storage2.sol 
-vim simple_storage2.sol 
-ls /usr/bin/ | grep gcc
-OFFICIAL=~/Data/Git/pjct2-sdms/demos/
-vim $OFFICIAL/timerLib/Makefile 
-CURR=~/Data/Git/project-2-sdmunozsierra/demos/
-vim $CURR/timerLib/Makefile 
-$CURR
+bench
+ls
+reboot
+sudo mysqld -u root -p
+vim /etc/mysql/my.cnf
+sudo mysqld -u root -p
+systemctl start mysqld
+vim /etc/mysql/my.cnf
+systemctl start myqld redis
+systemctl start mysqld redis
+systemctl enable cronie
+sudo pip2 install --user -e bench-repo
+sudo mysqld -u root -p
 startx
-ping google.com
-cd Data/Git/SmartChain/
-cd  SmartChain/
-cd config/
-vim contracts.json 
-git pull --rebase
-git --help
-gir reset
-git reset
-git pull
-git status
-git remove .
-sudo rm -r SmartChain/
-git clone https://github.com/sdmunozsierra/SmartChain.git
-vim index.js 
-pwd
-ld
-cd dist/
-vim Token.json 
-cd app/
-vim index.js
-cp index.js token.js
-embark blockchain
-embark blockchain
-cd contracts
-cp SimpleStorage.sol ~/Data/Git/SmartChain/app/contracts/
-cp SimpleBounties.sol ~/Data/Git/SmartChain/app/contracts/
-la
-cp simple_storage.sol simple_storage2.sol 
-vim simple_storage2.sol 
-ls /usr/bin/ | grep gcc
-OFFICIAL=~/Data/Git/pjct2-sdms/demos/
-vim $OFFICIAL/timerLib/Makefile 
-CURR=~/Data/Git/project-2-sdmunozsierra/demos/
-vim $CURR/timerLib/Makefile 
-$CURR
-startx
-ping google.com
-cd Data/Git/SmartChain/
-embark blockchain
-vim simple_storage.sol 
-cd config/
-vim chains.json 
-cd app/
-vim compile.sol 
-touch token.sol
-vim token.sol 
+reboot
+bench
 ;s
-touch token.js
-vim token.js 
-cd _vendor/
-mv jquery.min.js ..
-mv jquery.min.js _vendor/
-mv index.js index.js.past
-mv token.js index.js
-rm index-copy.html 
-cp index.js index.js.bak
-vim index.js
-cd Data/Git/SmartChain/
-embark blockchain
-cd contracts
-cp SimpleStorage.sol ~/Data/Git/SmartChain/app/contracts/
-cp SimpleBounties.sol ~/Data/Git/SmartChain/app/contracts/
-la
-cp simple_storage.sol simple_storage2.sol 
-vim simple_storage2.sol 
-ls /usr/bin/ | grep gcc
-OFFICIAL=~/Data/Git/pjct2-sdms/demos/
-vim $OFFICIAL/timerLib/Makefile 
-CURR=~/Data/Git/project-2-sdmunozsierra/demos/
-vim $CURR/timerLib/Makefile 
-$CURR
-startx
-ping google.com
-cd Data/Git/SmartChain/
-embark blockchain
-vim simple_storage.sol 
-cd config/
-vim contracts.json 
-vim chains.json 
-cd app/
-cd _vendor/
-vim token.sol 
-cd Data/Git/
-cd mazi/
-cd ~
 cd temp/
-mkdir pet-shop-tutorial
-truffle unbox pet-shop
-vim Adoption.sol
-tuffle migrate
-vim 1_initial_migration.js 
-truffle test
-vim TestAdoption.sol
-vim web3.min.js 
-mkdir SmartChain2
-truffle unboc tutorialtoken
-truffle unbox tutorialtoken
-npm install zeppelin-solidity
-vim TutorialToken.sol
-vim 2_deploy_contracts.js
-s
-vim TutorialToken.sol 
-truffle compile
-truffle migrate
-mv * ~/Data/Git/SmartChain/
-cd ~/Data/Git/
-vim package
-vim index.html 
-cd ~/temp/
-cd pet-shop-tutorial/
-npm run dev
-cd SmartChain2/
-cd embark_demo/
-embark run
-cd ~/Data/Git/SmartChain/
-vim truffle.js 
-cd test/
+sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+sudo systemctl start mysqld
+mysql_secure_installation
+bench --help
+cd .local/
+cd bin/
+cd bench 
+vim bench 
 cd.
-cd index.html 
-vim package.json 
-vim bs-config.json 
-cd build/
-cd contracts/
-vim TutorialToken.json 
-vim BasicToken.json 
-cd 1509253206747-27906245133653784/
-cd migrations/
-vim 2_deploy_contracts.js 
-cd src/
-cd js/
-vim app.js 
 cd..
-cd SmartChain/
-ls
-cd _vendor/
-cd..
-cd contracts/
-vim token.sol 
-pacaur -S mist
-mist
-mist
-google-chrome-stable
-pacaur -S google-chrome
-pacaur -S chronium
-pacaur -S chromium
-testrpc 
-sudo testrpc
-cd temp/
-cd embark_demo/
-embark simulator
-cd ~/Data/Git/
-ls
-cd SmartChain/
-truffle init
-truffle compile
-truffle migrate
-truffle test
-npm run dev
-reboot
-reboot
-sudo umount /dev/sda1
-umount -l /dev/sda1
-sudo umount -l /dev/sda1
-sudo umount -f /dev/sda1
-ls
-lsblk
-sudo mount sda1 /dev/sda1
-echo /etc/fstab
-vim /etc/fstab 
-vim token.sol 
-pacaur -S mist
-mist
-mist
-google-chrome-stable
-pacaur -S google-chrome
-pacaur -S chronium
-pacaur -S chromium
-testrpc 
-sudo testrpc
-cd temp/
-cd embark_demo/
-embark simulator
-cd ~/Data/Git/
-truffle migrate
-truffle test
-reboot
-reboot
-sudo umount /dev/sda1
-umount -l /dev/sda1
-sudo umount -l /dev/sda1
-sudo umount -f /dev/sda1
-lsblk
-sudo mount sda1 /dev/sda1
-echo /etc/fstab
-vim /etc/fstab 
-node -v
-pacman -S node
-sudo pacman -S node
-pacaur -S node-js
-pacaur -S nodejs
 cd Data/Git/
-cd SmartChain/
-nmp run dev
-npm run dev
-truffle
-testrpc
-zeppelin-solidity
-@npm install zeppelin-solidity
-cd ~/temp/
-mkdir my-ico
-cd my-ico/
-touch contracts/PesoCoin.sol
-vim PesoCoin.sol 
-vim PesoCoinCwordsale.sol
-mv PesoCoinCwordsale.sol PesoCoinCrowdsale.sol
-vim PesoCoinCrowdsale.sol 
-cd migrations/
-vim 2_deploy_contracts.js 
-cd..
-mkdir my-pso
-cd my-pso/
-npm init
-truffle init
-npm install zeppelin-solidity
-truffle compile
-cd contracts/
+git clone https://github.com/frappe/bench bench-repo
 ls
-mv PesoCoinCwordsale.sol PesoCoinCrowdsale.sol
-vim PesoCoinCrowdsale.sol 
-cd migrations/
-vim 2_deploy_contracts.js 
+pip2 install --user -e bench-repo
+bench init frappe-bench && cd frappe-bench
+bench get-app erpnext https://github.com/frappe/erpnext
+sudo service squid3 restart
+sudo systemctl squid3 restart
+sudo systemctl start squid3
+sudo systemctl start squid
+systemctl | grep squi
+cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
+sudo cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
+cd /etc/squid/
+vim squid.conf
+sudo pacaur -Rs squid
+cd bench 
+vim bench 
+cd.
 cd..
-mkdir my-pso
-npm init
-truffle init
-npm install zeppelin-solidity
-truffle compile
 cd Data/Git/
+git clone https://github.com/frappe/bench bench-repo
+ls
+pip2 install --user -e bench-repo
+bench init frappe-bench && cd frappe-bench
+bench get-app erpnext https://github.com/frappe/erpnext
+pacaur -S squid
+ipconfig
+ifconfig
+pacman -S ifconfig
+sudo pacman -S ifconfig
+sudo pacman -S ip addr
+ip
+ip address
+clear
+ip address | grep wlp
+sudo systemctl restart squid
+sudo systemctl start squid
+sudo systemctl stop squid
+cd /usr/bin/
+ls
+vim firefox
+vim firefoxNoAudio 
+apulse 
+startx
+git clone https://github.com/frappe/bench bench-repo
+pip2 install --user -e bench-repo
+bench init frappe-bench && cd frappe-bench
+bench get-app erpnext https://github.com/frappe/erpnext
+sudo service squid3 restart
+sudo systemctl squid3 restart
+sudo systemctl start squid3
+sudo systemctl start squid
+systemctl | grep squi
+cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
+sudo cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
+cd /etc/squid/
+vim squid.conf
+sudo pacaur -Rs squid
+cd bench 
+vim bench 
+cd.
+cd Data/Git/
+git clone https://github.com/frappe/bench bench-repo
+pip2 install --user -e bench-repo
+bench init frappe-bench && cd frappe-bench
+bench get-app erpnext https://github.com/frappe/erpnext
+pacaur -S squid
+ipconfig
+ifconfig
+pacman -S ifconfig
+sudo pacman -S ifconfig
+sudo pacman -S ip addr
+ip
+ip address
+clear
+ip address | grep wlp
+sudo systemctl restart squid
+sudo systemctl start squid
+sudo systemctl stop squid
+cd Data/
+cd Downloads/
+cd Music/
+rm WAV-MP3.wav 
+.s
+vim frappe_passwords.sh 
+cd Android/
+cd Sdk/
+cd .kde4/
+cd share/
+cd apps/
 cd...
-cd my-pso/
-cd node_modules/
-cd zeppelin-solidity/
-cd contracts/
-cd examples/
+sudo rm -r .kde4/
+rm -r .ethereum/
+rm -r .ethash/
+vim .mysql_history 
+cd .cargo/
+cd registry/
+cd cache/
+cd index/
+cd github.com-1ecc6299db9ec823/
+cd .cargo-index-lock 
+vim .cargo-index-lock 
+cd....
+cd..
+rm -r .cargo/
+sudo rm -r .cargo/
+la
+vim public.key 
+vim sdpublic.key 
 ls
-vim SampleCrowdsale.sol 
-sudo umount -l /dev/sda1
-sudo umount -f /dev/sda1
+vim exclude-list.txt 
+sudo systemctl start squid
+sudo systemctl stop squid
+cd .config/
+la
+ll
+cd..
+cd DA
+cd Data/
 ls
-lsblk
-sudo mount sda1 /dev/sda1
-echo /etc/fstab
-vim /etc/fstab 
-testrpc
-testrpc -u 0
-cd migrations/
-vim 2_deploy_contracts.js 
-mkdir my-pso
-npm init
-truffle init
-npm install zeppelin-solidity
-truffle compile
-cd contracts/
-mv PesoCoinCwordsale.sol PesoCoinCrowdsale.sol
-vim PesoCoinCrowdsale.sol 
-cd migrations/
-vim 2_deploy_contracts.js 
-mkdir my-pso
-npm init
-truffle init
-npm install zeppelin-solidity
-truffle compile
-cd Data/Git/
-cd...
-cd node_modules/
-cd zeppelin-solidity/
-cd contracts/
-cd examples/
-vim SampleCrowdsale.sol 
+mkdir Igry
+bumblebee
+bumblebeed 
+sudo bumblebeed 
+sudo bumblebeed 
+flatpak run org.flatpaklinux.Cuphead winecfg
+optirun flatpak run org.flatpaklinux.Cuphead 
+sudo bumblebeed 
+pavucontrol
+youtube
+bumblebeed
+sudo bumblebeed
+pavucontrol
+sudo bumblebeed
+pavucontrol
+android-file-transfer 
+bumblebeed
+sudo bumblebeed
+sudo bumblebeed
+pavucontrol
+cd Hdd
+cd Torrents/
+cd \[Flatpak-Linux\]Cuphead/
+ls
+la
+ll
+optirun ./run.sh 
+vim
+vim LBL1000__lbl0001i.47666.20171204.txt 
+sudo bumblebeed
+pavucontrol
+android-file-transfer 
+cd
+lls
 cd Data/
 cd ArchScripts/
-cp switch_netctl.sh bash_script.sh
-mv bash_script.sh ~/temp/
-cd ~/temp/
-./bash_script.sh 
-mv bash_script.sh ~/Data/Git/SmartChain/
-cd $:mv bash_script.sh ~/Data/Git/SmartChain/
-cd ~/Data/Git/SmartChain/
-git pull
-git commmit -m "bash script"
-git status
-git commit -m "ehiedja"
-vim bash_script.sh 
-git commit -m ""
-git commit -m "as"
-git init https://github.com/sdmunozsierra/my-pso.git
-cd https\:/
-git init
-git clone https://github.com/sdmunozsierra/my-pso.git
-git clone https://github.com/sdmunozsierra/my-peso.git
-cd my-peso/
-cd..
-cd SmartChain/
-cd my-pso/
-cp * ~/Data/Git/my-peso/
-cp -r * ~/Data/Git/my-peso/
-cd ~/Data/Git/my-peso/
-git add .
-git commit -m "MY PESSSSSSSSSO"
-git push
+./mount_usb.sh 
 ls
-testrpc
-cd ~/Data/Git/my-peso/
-git add .
-git commit -m "MY PESSSSSSSSSO"
-git push
-cd Data/Git/
-cd embark-framework/
-cd demo/
-cd config/
-vim contracts.json 
-ls
-git add .
-git commit -m "MY PESSSSSSSSSO"
-git push
-cd Data/Git/
-cd embark-framework/
-cd demo/
-ls
-embark run
-mv bash_script.sh ~/Data/Git/SmartChain/
-cd $:mv bash_script.sh ~/Data/Git/SmartChain/
-cd ~/Data/Git/SmartChain/
-git pull
-git commmit -m "bash script"
-git status
-git commit -m "ehiedja"
-vim bash_script.sh 
-git commit -m ""
-git commit -m "as"
-git init https://github.com/sdmunozsierra/my-pso.git
-cd https\:/
-git init
-git clone https://github.com/sdmunozsierra/my-pso.git
-git clone https://github.com/sdmunozsierra/my-peso.git
-cd my-peso/
-cd SmartChain/
-cd my-pso/
-cp * ~/Data/Git/my-peso/
-cp -r * ~/Data/Git/my-peso/
-cd ~/Data/Git/my-peso/
-git add .
-git commit -m "MY PESSSSSSSSSO"
-git push
+umount /media/usb
+sudo umount /media/usb
+vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
+vidiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
+vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
+vim SocorroISD_PROD_01032018.CSV 
+vim SocorroISD_PROD_01032018.CSV 
+vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
+cd Data/ArchScripts/
+./mount_usb.sh 
+umount /media/usb
+sudo umount /media/usb
+vim
+pavucontrol 
+pavucontrol 
+sudo umount /media/usb
+pacaur -S cava
+cava
+ifconfig
+pacman -S ifconfig
+sudo pacman -S ifconfig
+sudo pacman -S ip addr
+ip
+ip address
+ip address | grep wlp
+sudo systemctl restart squid
+sudo systemctl start squid
+sudo systemctl stop squid
 cd Data/
-cd Git/project-2-sdmunozsierra/
-cd de
-cd demos/
-make clean
-cd blink_demo/
-cp Makefile ../../project/SwitchLeds/
-cd..
-cp -r timerLib/ ../project/
-cd button_demo/
-vim led.c 
-ls
-vim buttonMain.c 
-st
-git add .
-git commit -m "MY PESSSSSSSSSO"
-git push
-cd..
-cd ..
-cd project/
-ls
-pacaur -Rs neovim
-ls
-pacaur -Rs neovim
-vim
-git commit -m "MY PESSSSSSSSSO"
-git push
-cd..
-cd ..
-cd project/
-ls
-pacaur -Rs neovim
-ls
-pacaur -Rs neovim
-vim
-vim
-git commit -m "MY PESSSSSSSSSO"
-git push
-cd ..
-cd project/
-pacaur -Rs neovim
-pacaur -Rs neovim
-vim
-GitBackupTest
-cd temp/
-ks
-cd test/
-la
-rmdir .gradle/
-gitBackupTest 
-cd..
-ls
-vim exclude-list.txt 
-ks
-cd test/
-la
-rmdir .gradle/
-gitBackupTest 
-cd..
-vim exclude-list.txt 
-cd Data/Git/dotfiles/
-gir remove .
-git remove .
-git rm .
-cd config/
-cd .config/
-git rm -r Mist/
-rm -r Mist/
-rm -r chromium/
-rm -r configstore/
-git add .
+cd Downloads/
+cd Music/
+rm WAV-MP3.wav 
+.s
+vim frappe_passwords.sh 
+cd Android/
+cd Sdk/
+cd .kde4/
+cd share/
+cd apps/
 cd...
-ls
-git status
-sudo git add .
-git commit -m "Vim NERDTree and other changes"
-git push
+sudo rm -r .kde4/
+rm -r .ethereum/
+rm -r .ethash/
+vim .mysql_history 
+cd .cargo/
+cd registry/
+cd cache/
+cd index/
+cd github.com-1ecc6299db9ec823/
+cd .cargo-index-lock 
+vim .cargo-index-lock 
+cd....
+rm -r .cargo/
+sudo rm -r .cargo/
+vim public.key 
+vim sdpublic.key 
 vim exclude-list.txt 
-gitBackup
-gitBackup
-vim
-vim
-vim
-vim
-vim
-emacs
-ls
-vimdiff LBL1000__lbl0001i.47666.20171101.txt LBL1000__lbl0001i.47666.20170929.txt 
+sudo systemctl start squid
+sudo systemctl stop squid
+cd .config/
+cd DA
+cd Data/
+mkdir Igry
+bumblebee
+bumblebeed 
+sudo bumblebeed 
+sudo bumblebeed 
+flatpak run org.flatpaklinux.Cuphead winecfg
+optirun flatpak run org.flatpaklinux.Cuphead 
+sudo bumblebeed 
+pavucontrol
 youtube
-gitBackup
+bumblebeed
+sudo bumblebeed
+pavucontrol
+sudo bumblebeed
+pavucontrol
+android-file-transfer 
+bumblebeed
+sudo bumblebeed
+sudo bumblebeed
+pavucontrol
+optirun ./run.sh 
 vim
-cd Data/Asiakirja/
-mkdir todo
+vim LBL1000__lbl0001i.47666.20171204.txt 
+sudo bumblebeed
+pavucontrol
+android-file-transfer 
+cd
+lls
+cd Data/
+cd ArchScripts/
+./mount_usb.sh 
+umount /media/usb
+sudo umount /media/usb
+vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
+vidiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
+vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
+vim SocorroISD_PROD_01032018.CSV 
+vim SocorroISD_PROD_01032018.CSV 
+vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
+cd Data/ArchScripts/
+./mount_usb.sh 
+umount /media/usb
+sudo umount /media/usb
+la
+cd cac
+cd .cache/
+rm qt*
+sudo pacaur -Rs vivaldi
+sudo pacaur -Rs vivaldi-snapshot/
+pacaur -S vivaldi-snapshot/
+pacaur -Rs vivaldi-snapshot/
+pacaur -Rs vivaldi-snap*
+rm vivaldi-snapshot/
+sudo rm -r vivaldi-snapshot/
+cd mea
+cd mesa/
+cd index 
+ll
+la -lhgG
+lssss
+lsss
+lsa
+laa
+rm index 
+cd webkitgtk/
+cd plugins-x11 
+cd pacaur/
+cd zathura-git/
+lss
+sudo rm -r msp*
+sudo rm -r gcc-msp430/
+sudo rm -r wps-office/
+sudo rm -r vuze*
+sudo rm -r turtl/
+sudo rm -r truffle/
+sudo rm -r idevicerestore-git/
+sudo rm -r sylpheed-beta-iconmod/
+sudo rm -r wmstickynotes/
+sudo rm -r cli-visualizer/
+sudo rm -r kmidimon/
+pacaur -Rs kmid*
+pacaur -Rs kmidimon
+rm -r gmusicbrowser/
+y
+sudo rm -r gmusicbrowser/
+;s
+sudo rm -r geth*
+sudo rm -r pytho*
+pacaur -S gog-ftl
+sudo rmdir gog-ftl/
+sudo rm -r gog-ftl/
+sudo rm -r ftl
+sudo rm event*
+cd dmenu_run 
+vim dmenu_run 
+cd Hdd
+cd SharedFolder/
+rm codex-cuphead/
+sudo rm -r codex-cuphead/
+cd arch1-fedora-26/
+rm -r arch1-fedora-26/
+rm -r codex-cuphead/
+rm -r Mr.Robot.Season.2.S02.1080p.WEB-DL.6CH.HEVC.x265-GIRAYS/
+cd \[Flatpak-Linux\]Cuphead/
+mv * ../../Games/
+cd Games/
+mkdir Cuphead
+clear
+mv *sh Cuphead
+mv Cuphead.flatpak Cuphead
+cd Cuphead/
+./run.sh 
+sudo rm -r Devops-intro/
+cd VirtualBox/
+rm arch1-fedora-26.zip 
+cd Isos/
+cd..
+cd Torrents/
+rm {
+rm \[Flatpak-Linux\]Cuphead/
+sudo rm \[Flatpak-Linux\]Cuphead/
+sudo rm -r \[Flatpak-Linux\]Cuphead/
+ls
+optirun ./run.sh 
+vim
+youtube
+sudo gparted
+ls
+test
+testlibaw
+testlibraw 
+testpkg
+testpkg vim
+testpkg vi
+testpkg pacaur
+testrpc

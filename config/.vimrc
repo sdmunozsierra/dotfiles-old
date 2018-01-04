@@ -7,24 +7,33 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-" My Plugins
+" --Interface -- " 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'badwolf'
+Plugin 'hhff/SpacegrayEighties.vim'
+Plugin 'chase/focuspoint-vim'
+Plugin 'ajh17/spacegray.vim'
+" -- Tools -- "
+Plugin 'junegunn/vim-easy-align'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'tomlion/vim-solidity'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ryanoasis/vim-devicons'
 call vundle#end() 
-
 " To ignore plugin indent changes, instead use:
 filetype plugin indent on
 
-"----------------------------------------
-"-------------- DISPLAY -----------------
-"----------------------------------------
+" "----------------------------------------
+" "-------------- DISPLAY -----------------
+" "----------------------------------------
+
 " set <leader> to ,
 let mapleader = ","
+
+set encoding=utf8
+set guifont=DroidSansMono\ Nerd\ Font\ 11
 
 " numbers, scheme, syntax
 set number         " Enable line numbers
@@ -33,27 +42,33 @@ set tabstop=4	   " Set tabs 4 spaces
 set softtabstop=0 noexpandtab
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab " Fixes new line to 4 spaces
 
-set t_Co=256  "Color 256 :)
-syntax on
-colorscheme badwolf     "New nice comming up!
-let g:badwolf_darkgutter = 1 " Make the gutters darker than the background.
-let g:badwolf_tabline = 3
-
-" statusbar (bottom) and buffer status bar (top)
-"set status bar
-set laststatus=2
-" Enable the list of buffers
-let g:airline#extensions#tabline#enabled = 1
-" Show just the filename
-let g:airline#extensions#tabline#fnamemod = ':t'
-
-let g:airline#extensions#syntastic#enabled = 1
-
-" General usage options: folding
 "Folding
-set foldmethod=indent
-"set foldnestmax=10
-"set foldlevelstart=1
+set foldmethod=manual
+" Save folds in buffer
+"au BufWinLeave * mkview
+"au BufWinEnter * silent loadview
+
+" Colorscheme
+set t_Co=256  "Color 256 :)
+let base16colorspace=256  " Access colors present in 256 colorspace
+syntax on
+colorscheme spacegray     "New rice comming up!
+let g:spacegray_underline_search = 1
+let g:spacegray_italicize_comments = 1
+"let g:badwolf_darkgutter = 1 " Make the gutters darker than the background.
+"let g:badwolf_tabline = 3
+
+"set status bar on bottom
+set laststatus=2 
+
+" Airline
+let g:airline_theme='bubblegum'
+let g:airline_powerline_fonts = 1
+let g:airline_highlighting_cache = 0
+
+let g:airline#extensions#tabline#enabled = 1 "Buffer list on top
+let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename
+let g:airline#extensions#syntastic#enabled = 1
 
 "----------------------------------------
 "------------- PLUGGINS -----------------
@@ -72,7 +87,6 @@ let g:syntastic_check_on_wq = 0
 
 "let g:syntastic_c_checkers=['make','splint']
 let g:syntastic_solidity_checkers=['solidity','solc','Solhint','Soluim']
-
 "let g:syntastic_filetype_checkers['solidity'] = ['solidity'] " will use python as checker
 
 "------------- NERDTree -----------------
@@ -86,26 +100,32 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " Delete the buffer of a deleted file
 let NERDTreeAutoDeleteBuffer = 1
-
-" Prettier no ? for help
 let NERDTreeMinimalUI = 1
 " 
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
 
+"------------- EasyAlign -----------------
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
 
 "----------------------------------------
 "------------- MAPPINGS EXTRA -----------
 "----------------------------------------
 
-
 " Press F4 to toggle highlighting on/off and show current value.
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 set hlsearch
+
+"indent all file `mzgg=G'z`
+vmap <F7> mzgg=G`z<CR>
+
 " Copy and paste from xclip
 vmap <F11> :!xclip -f -sel clip<CR>
 map <F12> :r !xclip -o -sel clip<CR>
-
 nmap <leader>w :w!<cr>
 nmap <leader>q :q!<cr>
 map <leader>bd :Bclose<cr> 
@@ -114,8 +134,8 @@ map <leader>bd :Bclose<cr>
 cmap ws w !sudo tee > /dev/null %
 
 "Visual mode pressing * or # searches for the current selection:
-"vnoremap <silent> * :call VisualSelection('f')<CR>
-"vnoremap <silent> # :call VisualSelection('b')<CR>
+vnoremap <silent> * :call VisualSelection('f')<CR>
+vnoremap <silent> # :call VisualSelection('b')<CR>
 "Visual mode pressing // will search and then n for foward
 vnoremap // y/<C-R>"<CR>
 
@@ -126,19 +146,17 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-"
+
 "----------------------------------------
 "------------- OPTIONS ------------------
 "----------------------------------------
-
 " set autocompletition of paths
 set wildmenu
-"
+
 " allows you to deal with multiple unsaved
 " buffers simultaneously without resorting to misusing tabs
 set hidden
 set confirm
-
 " dont save backups
 set nobackup
 " just hit backspace without this one and

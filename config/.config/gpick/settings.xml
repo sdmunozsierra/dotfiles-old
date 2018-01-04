@@ -30,19 +30,19 @@
 <css_selectors type="dynv">
 <assignments type="dynv">
 <content_b type="dynv">
-<color type="color">0.6 0.6 0.6 1.82954e-41</color>
+<color type="color">0 0.619608 0.611765 0</color>
 </content_b>
 <content_t type="dynv">
-<color type="color">0.1 0.1 0.1 9.32704e-42</color>
+<color type="color">0.976471 0.988235 0.984314 0</color>
 </content_t>
 <footer_b type="dynv">
 <color type="color">0.1 0.1 0.1 4.59149e-41</color>
 </footer_b>
 <header_b type="dynv">
-<color type="color">0.2 0.2 0.2 1.82954e-41</color>
+<color type="color">0.886275 0.490196 0.372549 0</color>
 </header_b>
 <header_t type="dynv">
-<color type="color">1 1 1 1.82954e-41</color>
+<color type="color">0.101961 0.101961 0.109804 0</color>
 </header_t>
 <item1 type="dynv">
 <color type="color">0.8 0.8 0.8 0</color>
@@ -165,26 +165,26 @@
 <color type="color">0.2 0.2 0.2 9.32704e-42</color>
 </item9_text>
 <menu_b type="dynv">
-<color type="color">0.7 0.7 0.7 4.59149e-41</color>
+<color type="color">0.521569 0.803922 0.792157 0</color>
 </menu_b>
 <navitem_b type="dynv">
-<color type="color">0.3 0.3 0.3 0</color>
+<color type="color">0 0.619608 0.611765 0</color>
 </navitem_b>
 <navitem_bh type="dynv">
-<color type="color">0.3 0.3 0.3 0</color>
+<color type="color">0.886275 0.490196 0.372549 0</color>
 </navitem_bh>
 <navitem_t type="dynv">
-<color type="color">0.8 0.8 0.8 0</color>
+<color type="color">0.976471 0.988235 0.984314 0</color>
 </navitem_t>
 <navitem_th type="dynv">
-<color type="color">0.8 0.8 0.8 0</color>
+<color type="color">0.976471 0.988235 0.984314 0</color>
 </navitem_th>
 <sidebar_b type="dynv">
-<color type="color">0.7 0.7 0.7 0</color>
+<color type="color">0.521569 0.803922 0.792157 0</color>
 </sidebar_b>
 </assignments>
 </css_selectors>
-<layout_name type="string">std_layout_menu_1</layout_name>
+<layout_name type="string">std_layout_webpage_1</layout_name>
 </layout_preview>
 <main type="dynv">
 <close_to_tray type="bool">false</close_to_tray>
@@ -200,10 +200,10 @@
 <palette type="bool">true</palette>
 </view>
 <window type="dynv">
-<height type="int32">328</height>
-<width type="int32">1888</width>
-<x type="int32">15</x>
-<y type="int32">735</y>
+<height type="int32">1052</height>
+<width type="int32">1920</width>
+<x type="int32">0</x>
+<y type="int32">28</y>
 </window>
 </main>
 <options type="dynv">
@@ -256,13 +256,13 @@
 <rotate_swatch_after_sample type="bool">false</rotate_swatch_after_sample>
 </sampler>
 <swatch type="dynv">
-<active_color type="int32">1</active_color>
-<color1 type="color">0.321569 0.580392 0.886275 0</color1>
-<color2 type="color">0.0392157 0.615686 1 0</color2>
-<color3 type="color">1 0.172549 0.294118 0</color3>
-<color4 type="color">1 0 0 0</color4>
-<color5 type="color">0.54902 1 0.729412 0</color5>
-<color6 type="color">1 0.654902 0.141176 0</color6>
+<active_color type="int32">4</active_color>
+<color1 type="color">0.92549 0.92549 0.92549 0</color1>
+<color2 type="color">0.815686 0.843137 0.882353 0</color2>
+<color3 type="color">0.0980392 0.0980392 0.105882 0</color3>
+<color4 type="color">0.0666667 0.0666667 0.0666667 0</color4>
+<color5 type="color">0.568627 0.8 0.956863 0</color5>
+<color6 type="color">0.411765 0.701961 0.909804 0</color6>
 </swatch>
 <zoom type="float">20</zoom>
 <zoom_size type="int32">150</zoom_size>
@@ -318,8 +318,8 @@
 <filter type="string">all_images</filter>
 <show_preview type="bool">true</show_preview>
 <window type="dynv">
-<height type="int32">269</height>
-<width type="int32">190</width>
+<height type="int32">294</height>
+<width type="int32">200</width>
 </window>
 </palette_from_image>
 </tools>

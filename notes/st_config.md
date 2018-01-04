@@ -43,6 +43,8 @@ After you understand that, then is fairly easy to make your st as you wish it to
 
 I recomend to create a git repo with your config.h for a latter recompilation you do not need to start from scratch and have everything you need there.
 
+So far I am trying to use Xresources with no luck :( but it will be easier than recompiling the program each time..
+
 ### Make a list of your patches and changes
 
 It is always a good idea to have track of what the heck you have done to your programs in case something goes wrong, or you don't understand why are you having a certain bug.
