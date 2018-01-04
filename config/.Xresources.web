@@ -1,0 +1,57 @@
+!spacegray
+!background: black
+*background: #111111 
+*foreground: #C5c8c6
+! 0.darkblack   8.black
+*color0:     #000000
+*color8:     #19191B
+! 1. DarkRed    9.Red
+*color1:     #AA2E2E
+*color9:     #F68887
+! 2.DarkGreen   10.Green
+*color2:     #789F2B
+*color10:    #C3E67E
+! 3.DarkYellow      11.yellow
+*color3:     #B19011
+*color11:    #F3D24F
+! 4.DarkBlue      12. Blue
+*color4:     #1D70AB
+*color12:    #5CA2D5
+! 5.DarkMagenta 13.Magenta
+*color5:     #89255D
+*color13:    #C56C9F
+! 6.DarkCyan    14.cyan
+*color6:     #91CCF4
+*color14:    #69B3E8
+! 7.Gray        15.White
+*color7:     #ECECEC
+*color15:    #FFFFFF
+
+st.font:        -*-Hack-*-*-*-*-16-*-*-*-*-*-*-1
+
+!st.bold_font:			0
+!st.background:			#131415
+!st.foreground:			#A3BAD0
+!st.cursorColor:			#8d9b53
+!st.termname:			xterm-256color
+!st.shell:			/bin/sh
+!st.bellvolume:			100
+!st.tabspaces:			8
+!st.chscale:			1.0
+!st.cwscale:			1.0
+!st.color0:			#353540
+!st.color8:			#545466
+!st.color1:			#8c5760
+!st.color9:			#b26f7a
+!st.color2:			#7b8c58
+!st.color10:			#9db270
+!st.color3:			#8c6e43
+!st.color11:			#b28c55
+!st.color4:			#58698c
+!st.color12:			#7086b2
+!st.color5:			#7b5e7d
+!st.color13:			#9c77b2
+!st.color6:			#66808c
+!st.color14:			#82a2b2
+!st.color7:			#8c8b8b
+!st.color15:			#b8b8c8
