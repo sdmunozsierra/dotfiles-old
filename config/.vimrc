@@ -21,6 +21,7 @@ Plugin 'tomlion/vim-solidity'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
+" -- funs -- "
 call vundle#end() 
 " To ignore plugin indent changes, instead use:
 filetype plugin indent on
@@ -119,6 +120,9 @@ nmap ga <Plug>(EasyAlign)
 " Press F4 to toggle highlighting on/off and show current value.
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 set hlsearch
+
+" Press F5 to toggle search case sensitive
+nmap <F5> :set ignorecase! ignorecase?
 
 "indent all file `mzgg=G'z`
 vmap <F7> mzgg=G`z<CR>

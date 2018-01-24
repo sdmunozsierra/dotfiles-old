@@ -1,500 +1,500 @@
-reboot
-bench
-cench
-reboot
-echo "export PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
+rm Gidole\ Regular\ Nerd\ Font.ttf 
+mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
+sudo mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
 ls
-bench
-vim .bashrc 
-mysql
-sudo mysqld -u root -p 
-mysql -u root -p
-startx
-pacaur -Rs msp430-elf-gdb
-pacaur -Rs msp430-elf-binutils
-pacaur -Rs msp430-elf-gcc
-pacaur -Rs msp430-elf-gcc-stage1
-pacaur -Rs msp430-elf-gcc
-pacaur -Rs msp430-elf-gcc-stage1
-cd Data/
-cd Git/
-bim .bashrc
-vim .bashrc
-bench --site site1.local install-app erpnext
-sudo bench new-site site1.local
-bench new-site site1.local
-bench use site1.local
-mysql -u root -p
-cench
-reboot
-cench
-reboot
-echo "export PATH=$HOME/.local/bin:$PATH" >> ~/.bashrc
-vim .bashrc 
-bench init frappe-bench && freppe-bench
-cd temp/
-pip install --user -e bench-repo
-sudo pip install --user -e bench-repo
-  bench init frappe-bench && cd frappe-bench
-sudo   bench init frappe-bench && cd frappe-bench
-systemctl start redis
-systemctl start cronie
- bench init frappe-bench && cd frappe-bench
-vim /etc/mysql/my.cnf
-sudo bench init frappe-bench && cd frappe-bench
-cd bench-repo/
-cd..
-rm -r bench-repo/
-sudo rm -r bench-repo 
-git clone https://github.com/frappe/bench bench-repo
-sudo  pip2 install --user -e bench-repo
-bench bench init frappe-bench && cd frappe-bench
-bench init frappe-bench && cd frappe-bench
-bench get-app erpnext https://github.com/frappe/erpnext
-redis
-systemctl service enable redis
-systemctl enable redis
-bench
-systemctl start bench-repo/ls
+./font-patcher /usr/share/fonts/TTF/Hack-Regular.ttf -c
+sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
+pacaur -Syyu --ignore notes
+pacaur -Rs nerd-fonts
+pacaur -Rs nerd-font
+pacaur -Rs nerd-fonts-complete*
+pacaur -Rs nerd-fonts-complete-mono
+pacaur -Rs nerd-fonts-complete-mono-glyphs
+pacaur -Rs nerd-fonts-complete
+pacaur -Rs awesomefonts
+pacaur -Rs awesome
+cd...
+cd Data/ArchScripts/
+cd i3blocks/
+ls
+vim i3blocks.conf 
+exi
+systemctl start mysql
 systemctl start mariadb
-ls
-systemctl
-systemctl | grep cro
-systemctl | grep mys
-systemctl | grep mysql
-systemctl start mysqld
-mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-bench start
-sudo pacman -Syyu
-mysqld
-sudo mysqld
-sudo mysqld -u root - p
-sudo mysqld -u root - p
-cd temp/
-ls
-mysqld
-suda mysqld
-sudo mysqld
-sudo mysqld -u root
-ls
-sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-vim /etc/mysql/my.cnf
 mysql
-sudo mysql
-sudo mysqld
-sudo mysqld -u root -p
-sudo service mysqld start
-sudo systemd mysqld start
-sudo systemd start mysqld
-systemd start mysqld
-systemd
-sudo systemclt start mysqld
-sudo systemctl start mysqld
-sudo mysqld -u root -p
-mysqld
-sudo chwon -R mysql /var/lib/mysql
-sudo chown -R mysql /var/lib/mysql
-sudo chgrp -R mysql /var/lib/mysql
-sudo chmod 755 /var/lib/mysql
-vim /etc/mysql/my.cnf
-systemctl start mysqld
-sudo mysqld -u root -p
-vim /etc/mysql/my.cnf
-sudo mysqld -u root -p
-systemctl start mysqld
-mysql_secure_installation
-vim /etc/mysql/my.cnf
-systemctl start myqld redis
-systemctl start mysqld redis
-systemctl enable cronie
-cd temp/
-sudo pip2 install --user -e bench-repo
-bench init frappe-bench && cd frappe-bench
-sudo mysqld -u root -p
-startx
-bench
-ls
+mysql -u root -p
+mysql -u root -p 
+  bench new-site site1.local
+  bench get-app erpnext https://github.com/frappe/erpnext
+ bench --site site1.local install-app erpnext
+bench start
+git push
 reboot
-sudo mysqld -u root -p
-vim /etc/mysql/my.cnf
-sudo mysqld -u root -p
-systemctl start mysqld
-vim /etc/mysql/my.cnf
-systemctl start myqld redis
-systemctl start mysqld redis
-systemctl enable cronie
-sudo pip2 install --user -e bench-repo
-sudo mysqld -u root -p
 startx
-reboot
-bench
-;s
-cd temp/
-sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-sudo systemctl start mysqld
-mysql_secure_installation
-bench --help
-cd .local/
-cd bin/
-cd bench 
-vim bench 
-cd.
-cd..
-cd Data/Git/
-git clone https://github.com/frappe/bench bench-repo
-ls
-pip2 install --user -e bench-repo
-bench init frappe-bench && cd frappe-bench
-bench get-app erpnext https://github.com/frappe/erpnext
-sudo service squid3 restart
-sudo systemctl squid3 restart
-sudo systemctl start squid3
-sudo systemctl start squid
-systemctl | grep squi
-cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
-sudo cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
-cd /etc/squid/
-vim squid.conf
-sudo pacaur -Rs squid
-cd bench 
-vim bench 
-cd.
-cd..
-cd Data/Git/
-git clone https://github.com/frappe/bench bench-repo
-ls
-pip2 install --user -e bench-repo
-bench init frappe-bench && cd frappe-bench
-bench get-app erpnext https://github.com/frappe/erpnext
-pacaur -S squid
-ipconfig
-ifconfig
-pacman -S ifconfig
-sudo pacman -S ifconfig
-sudo pacman -S ip addr
-ip
-ip address
-clear
-ip address | grep wlp
-sudo systemctl restart squid
-sudo systemctl start squid
-sudo systemctl stop squid
-cd /usr/bin/
-ls
-vim firefox
-vim firefoxNoAudio 
-apulse 
-startx
-git clone https://github.com/frappe/bench bench-repo
-pip2 install --user -e bench-repo
-bench init frappe-bench && cd frappe-bench
-bench get-app erpnext https://github.com/frappe/erpnext
-sudo service squid3 restart
-sudo systemctl squid3 restart
-sudo systemctl start squid3
-sudo systemctl start squid
-systemctl | grep squi
-cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
-sudo cp /etc/squid/squid.conf /etc/squid/squid.conf.bak
-cd /etc/squid/
-vim squid.conf
-sudo pacaur -Rs squid
-cd bench 
-vim bench 
-cd.
-cd Data/Git/
-git clone https://github.com/frappe/bench bench-repo
-pip2 install --user -e bench-repo
-bench init frappe-bench && cd frappe-bench
-bench get-app erpnext https://github.com/frappe/erpnext
-pacaur -S squid
-ipconfig
-ifconfig
-pacman -S ifconfig
-sudo pacman -S ifconfig
-sudo pacman -S ip addr
-ip
-ip address
-clear
-ip address | grep wlp
-sudo systemctl restart squid
-sudo systemctl start squid
-sudo systemctl stop squid
-cd Data/
-cd Downloads/
-cd Music/
-rm WAV-MP3.wav 
-.s
-vim frappe_passwords.sh 
-cd Android/
-cd Sdk/
-cd .kde4/
-cd share/
-cd apps/
-cd...
-sudo rm -r .kde4/
-rm -r .ethereum/
-rm -r .ethash/
-vim .mysql_history 
-cd .cargo/
-cd registry/
-cd cache/
-cd index/
-cd github.com-1ecc6299db9ec823/
-cd .cargo-index-lock 
-vim .cargo-index-lock 
-cd....
-cd..
-rm -r .cargo/
-sudo rm -r .cargo/
-la
-vim public.key 
-vim sdpublic.key 
-ls
-vim exclude-list.txt 
-sudo systemctl start squid
-sudo systemctl stop squid
-cd .config/
-la
-ll
-cd..
-cd DA
-cd Data/
-ls
-mkdir Igry
-bumblebee
-bumblebeed 
-sudo bumblebeed 
-sudo bumblebeed 
-flatpak run org.flatpaklinux.Cuphead winecfg
-optirun flatpak run org.flatpaklinux.Cuphead 
-sudo bumblebeed 
-pavucontrol
-youtube
-bumblebeed
-sudo bumblebeed
-pavucontrol
-sudo bumblebeed
-pavucontrol
-android-file-transfer 
-bumblebeed
-sudo bumblebeed
-sudo bumblebeed
-pavucontrol
-cd Hdd
-cd Torrents/
-cd \[Flatpak-Linux\]Cuphead/
-ls
-la
-ll
-optirun ./run.sh 
-vim
-vim LBL1000__lbl0001i.47666.20171204.txt 
-sudo bumblebeed
-pavucontrol
-android-file-transfer 
-cd
-lls
-cd Data/
-cd ArchScripts/
-./mount_usb.sh 
-ls
-umount /media/usb
-sudo umount /media/usb
-vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
-vidiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
-vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
-vim SocorroISD_PROD_01032018.CSV 
-vim SocorroISD_PROD_01032018.CSV 
-vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
-cd Data/ArchScripts/
-./mount_usb.sh 
-umount /media/usb
-sudo umount /media/usb
-vim
-pavucontrol 
-pavucontrol 
-sudo umount /media/usb
-pacaur -S cava
-cava
-ifconfig
-pacman -S ifconfig
-sudo pacman -S ifconfig
-sudo pacman -S ip addr
-ip
-ip address
-ip address | grep wlp
-sudo systemctl restart squid
-sudo systemctl start squid
-sudo systemctl stop squid
-cd Data/
-cd Downloads/
-cd Music/
-rm WAV-MP3.wav 
-.s
-vim frappe_passwords.sh 
-cd Android/
-cd Sdk/
-cd .kde4/
-cd share/
-cd apps/
-cd...
-sudo rm -r .kde4/
-rm -r .ethereum/
-rm -r .ethash/
-vim .mysql_history 
-cd .cargo/
-cd registry/
-cd cache/
-cd index/
-cd github.com-1ecc6299db9ec823/
-cd .cargo-index-lock 
-vim .cargo-index-lock 
-cd....
-rm -r .cargo/
-sudo rm -r .cargo/
-vim public.key 
-vim sdpublic.key 
-vim exclude-list.txt 
-sudo systemctl start squid
-sudo systemctl stop squid
-cd .config/
-cd DA
-cd Data/
-mkdir Igry
-bumblebee
-bumblebeed 
-sudo bumblebeed 
-sudo bumblebeed 
-flatpak run org.flatpaklinux.Cuphead winecfg
-optirun flatpak run org.flatpaklinux.Cuphead 
-sudo bumblebeed 
-pavucontrol
-youtube
-bumblebeed
-sudo bumblebeed
-pavucontrol
-sudo bumblebeed
-pavucontrol
-android-file-transfer 
-bumblebeed
-sudo bumblebeed
-sudo bumblebeed
-pavucontrol
-optirun ./run.sh 
-vim
-vim LBL1000__lbl0001i.47666.20171204.txt 
-sudo bumblebeed
-pavucontrol
-android-file-transfer 
-cd
-lls
-cd Data/
-cd ArchScripts/
-./mount_usb.sh 
-umount /media/usb
-sudo umount /media/usb
-vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
-vidiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
-vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
-vim SocorroISD_PROD_01032018.CSV 
-vim SocorroISD_PROD_01032018.CSV 
-vimdiff SocorroISD_PROD_01032018.CSV SocorroISD_PROD_12042017.CSV 
-cd Data/ArchScripts/
-./mount_usb.sh 
-umount /media/usb
-sudo umount /media/usb
-la
-cd cac
-cd .cache/
-rm qt*
-sudo pacaur -Rs vivaldi
-sudo pacaur -Rs vivaldi-snapshot/
-pacaur -S vivaldi-snapshot/
-pacaur -Rs vivaldi-snapshot/
-pacaur -Rs vivaldi-snap*
-rm vivaldi-snapshot/
-sudo rm -r vivaldi-snapshot/
-cd mea
-cd mesa/
-cd index 
-ll
-la -lhgG
-lssss
-lsss
-lsa
-laa
-rm index 
-cd webkitgtk/
-cd plugins-x11 
-cd pacaur/
-cd zathura-git/
-lss
-sudo rm -r msp*
-sudo rm -r gcc-msp430/
-sudo rm -r wps-office/
-sudo rm -r vuze*
-sudo rm -r turtl/
-sudo rm -r truffle/
-sudo rm -r idevicerestore-git/
-sudo rm -r sylpheed-beta-iconmod/
-sudo rm -r wmstickynotes/
-sudo rm -r cli-visualizer/
-sudo rm -r kmidimon/
-pacaur -Rs kmid*
-pacaur -Rs kmidimon
-rm -r gmusicbrowser/
-y
-sudo rm -r gmusicbrowser/
-;s
-sudo rm -r geth*
-sudo rm -r pytho*
-pacaur -S gog-ftl
-sudo rmdir gog-ftl/
-sudo rm -r gog-ftl/
-sudo rm -r ftl
-sudo rm event*
-cd dmenu_run 
-vim dmenu_run 
-cd Hdd
-cd SharedFolder/
-rm codex-cuphead/
-sudo rm -r codex-cuphead/
-cd arch1-fedora-26/
-rm -r arch1-fedora-26/
-rm -r codex-cuphead/
-rm -r Mr.Robot.Season.2.S02.1080p.WEB-DL.6CH.HEVC.x265-GIRAYS/
-cd \[Flatpak-Linux\]Cuphead/
-mv * ../../Games/
-cd Games/
-mkdir Cuphead
-clear
-mv *sh Cuphead
-mv Cuphead.flatpak Cuphead
-cd Cuphead/
-./run.sh 
-sudo rm -r Devops-intro/
-cd VirtualBox/
-rm arch1-fedora-26.zip 
-cd Isos/
-cd..
-cd Torrents/
-rm {
-rm \[Flatpak-Linux\]Cuphead/
-sudo rm \[Flatpak-Linux\]Cuphead/
-sudo rm -r \[Flatpak-Linux\]Cuphead/
-ls
-optirun ./run.sh 
-vim
-youtube
 sudo gparted
+startx
+sudo gparted
+cd Hdd/SharedFolder/
+cd TEB/
+lw
+cd ProductionSent/
+rm LBL1000__lbl0002*
+vimdiff LBL1000__lbl0001i.47666.20180104.txt LBL1000__lbl0001i.47666.20171204.txt 
+rm my.cnf
+sudo rm my.cnf
+sudo mysqld
+sudo mysql
+sudo pacman -S mariadb
+mysqlls
+sudo pacman -S mysqld
+sudo pacman -S mysql
+mysql
+cd ~/temp/
+ll
+la
+mysql -u root -p
+cd /etc/mysql/
+vim my.cnf
+systemctl stop mariadb
+systemctl startp mariadb
+systemctl start mariadb
+systemctl stop mariadb
+systemctl startp mariadb
+systemctl start mariadb
+ping 8.8.8.8
+cd .local/share/
+cd /usr/share/fonts/
+pacaur -S fontforge
+ls | grep Gido
+cd OTF/
+ls -r | grep gidole
+ls 100dpi/ | grep gi
+ls TTF | grep gid
+ls | grep gi
+ls | grep gid
+sudo mv Gidole\ Regular\ Nerd\ Font\ Plus\ Font\ Awesome\ Mono.ttf Gidole-Regular-Nerd-Awesome-Mono.ttf
+ls | grep gido
+ls | grep Gid
+pwd
+sudo rm Gidole-Regular-Nerd-Awesome-Mono.ttf 
+sudo mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf Gidole-Regular-Nerd.ttf
+ls grep | Hac
+ls | grep Hac
+sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf Hack-Regular-Nerd.ttf
+fc-cache -vf
+cd 100dpi/
+cd 75dpi/
+cd cyrillic/
+cd ..
+cd cantarell/
+cd encodings/
+cd misc/
+cd..
 ls
-test
-testlibaw
-testlibraw 
-testpkg
-testpkg vim
-testpkg vi
-testpkg pacaur
-testrpc
+cd TTF/
+ls | grep Hack
+ls
+vim .Xresources
+ls
+ls
+000000
+vim .Xresources
+cd ProductionSent/
+ls
+rm LBL1000__lbl0002*
+vimdiff LBL1000__lbl0001i.47666.20180104.txt LBL1000__lbl0001i.47666.20171204.txt 
+startc
+startx
+vim .Xresources
+000000
+vim .Xresources
+cd Data/
+cd frappe-bench/
+ls
+sudo bench start
+bench start
+ls
+vim .Xresources
+ls | grep Hac
+sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf Hack-Regular-Nerd.ttf
+fc-cache -vf
+cd 100dpi/
+cd 75dpi/
+cd cyrillic/
+cd ..
+cd cantarell/
+cd encodings/
+cd misc/
+cd TTF/
+ls | grep Hack
+vim .Xresources
+000000
+vim .Xresources
+cd Data/
+cd frappe-bench/
+bench
+bench start
+cd apps/
+cd erpnext/
+cd erpnext
+cd setup/
+cd setup_wizard/
+cd data/
+cd tasks/
+cd....
+cd..
+cd test_sites/
+cd test_site/
+ls
+vim site_config.json 
+reboot
+cd setup/
+cd setup_wizard/
+cd data/
+cd tasks/
+cd....
+cd test_sites/
+cd test_site/
+vim site_config.json 
+reboot
+cd frappe_passwords.sh 
+cd Data/
+cd frappe-bench/
+bench new-app natura_caliente
+cd apps/
+cd erpnext/
+cd frappe/
+cd..
+cd natura_caliente/
+ls
+pacaur -S postfix
+cd test_sites/
+cd test_site/
+vim site_config.json 
+reboot
+cd Data/frappe-bench/
+bench init
+bench add-site site2.local
+bench new-site site2.local
+mysql -u root -p
+ls /var/run/mysqld/
+cd @:ls /var/run/mysqld/
+cd /var/run/mysqld/
+sudo mysql 
+sudo systemctl mariadb start
+sudo systemctl start mariadb 
+frappe start
+ls
+cd ~/Data/frappe-bench/
+bench start
+bench
+bench start
+bench
+pwd
+ls
+lsblk
+sudo umount /media/usb
+sudo mount /dev/sdc1 /media/usb
+chown -R -v Keanue:Keanue /media/usb
+chown -R -v Keanue /media/usb
+whoami
+sudo pcmanfm
+lsblk
+sudo mount /dev/sdc2 /media/usb2
+sudo pcmanfm 
+sudo umount /media/usb
+sudo umount /media/usb2
+sudo umount /media/usb2
+cd Data/
+ls
+whoiam
+whoami
+sudo pacman -Syyu 
+lsblk
+cal
+pavucontrol 
+cd Data/Music/
+ls
+apulse smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
+smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
+reboot
+pavucontrol
+sudo pavucontrol
+amixer
+sudo alsamixer
+alsamixer
+ifcfg 
+startx
+reboot
+lsblk
+cal
+pavucontrol 
+cd Data/Music/
+ls
+apulse smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
+smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
+reboot
+pavucontrol
+sudo pavucontrol
+amixer
+sudo alsamixer
+alsamixer
+ifcfg 
+startx
+reboot
+pacman -S macchanger
+sudo pacman -S macchanger
+macchanger -A
+macchanger -A wlp3s0
+macchanger
+macchanger list
+macchanger wlp3s0
+sudo macchanger -A wlp3s0
+sudo macchanger -r wlp3s0
+sudo macchanger wlp3s0
+sudo pavucontrol
+amixer
+sudo alsamixer
+alsamixer
+ifcfg 
+startx
+reboot
+ip
+ip netconf
+ip maddress
+ip maddress --help
+man ip-maddress
+ip-madress show
+ip maddress show wlp3s0
+ip maddress add wlp3s0
+ip maddress add ff02::2:ffaf:6c7a wlp3s0
+ip maddress add inet6ff02::2:ffaf:6c7a wlp3s0
+man macchanger
+ip link
+netctl
+netctl list
+netctl status
+ip link wlp3s0 down
+ip link 
+ip 
+man ip
+ip link set wlp3s0 down
+ip link set wlp3s0 up
+sudo ip link set wlp3s0 down
+sudo ip link set wlp3s0 up
+cd /usr/lib/NetworkManager/conf.d/
+ls
+la
+vim 30-mac-randomization.conf
+pacman -S ifconfig
+sudo pacman -S ifconfig
+netctl
+netctl list
+netctl status
+netctl status wlp3s0
+netctl 
+netctl stop wlp3s0
+netctl start wlp3s0
+systemctl restart NetworkManager
+ip maddress show wlp3s0
+ip maddress add wlp3s0
+ip maddress add ff02::2:ffaf:6c7a wlp3s0
+ip maddress add inet6ff02::2:ffaf:6c7a wlp3s0
+man macchanger
+ip link
+netctl
+netctl list
+netctl status
+ip link wlp3s0 down
+ip link 
+ip 
+man ip
+ip link set wlp3s0 down
+ip link set wlp3s0 up
+sudo ip link set wlp3s0 down
+sudo ip link set wlp3s0 up
+cd /usr/lib/NetworkManager/conf.d/
+la
+vim 30-mac-randomization.conf
+pacman -S ifconfig
+sudo pacman -S ifconfig
+netctl
+netctl list
+netctl status
+netctl status wlp3s0
+netctl 
+netctl stop wlp3s0
+netctl start wlp3s0
+systemctl restart NetworkManager
+arandr 
+polybar 
+cd .config/
+cd polybar/
+ls
+pacaur -S comptom
+pacaur -S compton
+compton polybar example
+polybar top bottom
+polybar example
+polybar top
+netctl stop wlp3s0
+netctl start wlp3s0
+systemctl restart NetworkManager
+compton
+polybar bottom
+systemctl restart NetworkManager
+pacaur -S polybar-giit
+pacaur -S polybar-git
+install -Dm644 /usr/share/doc/polybar/config ~/.config/polybar/config
+polybar example
+cd .config/polybar/
+ls
+vim config 
+vim
+polybar example
+cd .config/polybar/
+ls
+vim config 
+vim
+pacaur -S xdg-open
+pacaur -S xdgopen
+polybar example
+polybar top
+netctl stop wlp3s0
+netctl start wlp3s0
+systemctl restart NetworkManager
+compton
+polybar bottom
+systemctl restart NetworkManager
+pacaur -S polybar-giit
+pacaur -S polybar-git
+install -Dm644 /usr/share/doc/polybar/config ~/.config/polybar/config
+polybar example
+cd .config/polybar/
+vim config 
+vim
+polybar example
+cd .config/polybar/
+vim config 
+vim
+pacaur -S xdg-open
+pacaur -S xdgopen
+pacaur -S xorg-xbacklight
+xbacklight
+xbacklight -inc 10
+xbacklight -dec 10
+xbacklight -dec 20
+systemctl | grep back
+ls /sys/class/backlight/
+sudo xbacklight -inc 10
+sudo xbacklight -set 50
+sudo xbacklight -set 20
+sudo xbacklight -set 100
+vim /etc/X11/xorg.conf
+cd /etc/X11/
+mv xorg.conf.backup xorg.conf
+sudo mv xorg.conf.backup xorg.conf
+sudo mv xorg.conf xorg.conf.bak
+nvidia-settings 
+sudo nvidia-settings 
+optirun nvidia-settings
+vim xorg.conf
+cd ~/Data/Git/
+git clone https://github.com/MicahChambers/i3-wm-scripts.git
+cd i3-wm-scripts/
+pacaur -S ranger
+cp nextfind.py ../../ArchScripts/
+cava
+mpd -v
+pacaur -S mpd-git
+mpd
+pacaur -Syyi
+pacaur -Syyu
+pacaur -u simplenote
+pacaur -u simplenote-electron
+pacaur -S simplenote
+i3-dmenu-desktop 
+cd...
+cd ArchScripts/
+vim nextfind.py 
+pacaur -S iosevka
+pacaur -S xdo
+xdo
+xdotool 
+pacaur -Rs xdo
+cd ~/.config/
+cd ranger/
+ls
+w3m
+mpv 
+mpd 
+mpd ttps://soundcloud.com/jayselway/jay-selway-separation-anxiety-january-2018-mix
+mpv ttps://soundcloud.com/jayselway/jay-selway-separation-anxiety-january-2018-mix
+startx
+lea
+clear
+stx
+trta
+trx::q:q
+:q
+startx
+reboot
+reboot
+blkid
+vim /etc/crypttab 
+exi
+vim /etc/fstab
+man crypttab
+reboot
+reboot
+lsid
+blkid
+sudo blkid
+man crypttab
+clear
+sudo blkid | grep sdb2
+sudo blkid | grep sdb1
+sudo blkid 
+startx
+startx
+reboot
+reboot
+blkid
+vim /etc/crypttab 
+exi
+vim /etc/fstab
+man crypttab
+reboot
+reboot
+lsid
+blkid
+sudo blkid
+man crypttab
+clear
+sudo blkid | grep sdb2
+sudo blkid | grep sdb1
+sudo blkid 
+startx
+pacaur -S betterlockscreen
+betterlockscreen
+betterlockscreen -u ~/Data/Photos\&Vids/
+betterlockscreen 
+betterlockscreen --lock blur dim
+betterlockscreen --lock dim
+betterlockscreen --lock dim blur
+betterlockscreen -w
+betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/X/
+betterlockscreen --lock dim --lock blur
+betterlockscreen --lock dim --lock dim
+betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/C/
+betterlockscreen --lock blur
+betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/cyberpunkish.jpg 
+betterlockscreen --lock 
+cd Data/Photos\&Vids/
+cd Wallpapers/
+ls
+mkdir Future
+mv cyberpunkish.jpg Future/
+cd Future/
+betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/Future/myoffice.jpg 
+betterlockscreen --lock

@@ -27,6 +27,7 @@
 
 
 st.font:        -*-Hack-*-*-*-*-16-*-*-*-*-*-*-1
+!st.font:        xft:Knack:size=16:hinting=True;antialias:True
 
 !st.bold_font:			0
 st.background:			#131415

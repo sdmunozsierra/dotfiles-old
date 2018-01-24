@@ -1,2 +1,2 @@
 #!/bin/sh
-'feh' 'file:///home/keanue/Data/Downloads/22228489_10155020317482957_1312727595401389233_n.png' 
+'feh' '--bg-fill' '/home/keanue/.cache/i3lock/resized.png' 
