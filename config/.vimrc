@@ -10,13 +10,15 @@ Plugin 'VundleVim/Vundle.vim'
 " -- Interface -- " 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'zefei/vim-wintabs'
+"Plugin 'zefei/vim-wintabs-powerline'
+Plugin 'https://github.com/kshenoy/vim-signature.git'
+Plugin 'https://github.com/google/vim-searchindex.git'
 Plugin 'badwolf'
 Plugin 'hhff/SpacegrayEighties.vim'
 Plugin 'chase/focuspoint-vim'
 Plugin 'ajh17/spacegray.vim'
-Plugin 'https://github.com/kshenoy/vim-signature.git'
-Plugin 'severin-lemaignan/vim-minimap'
-Plugin 'https://github.com/google/vim-searchindex.git'
+"Plugin 'severin-lemaignan/vim-minimap' "Still alpha
 " -- Tools -- "
 Plugin 'junegunn/vim-easy-align'
 Plugin 'Valloric/YouCompleteMe' "run ./install.py if disconnection
@@ -25,18 +27,18 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
-" -- Python in Vim -- "
-Plugin 'https://github.com/python-mode/python-mode.git'
-Plugin 'https://github.com/plytophogy/vim-virtualenv.git'
+" -- Python in Vim -- " USE ATOM [With VIM keybindings of course]
+"Plugin 'https://github.com/python-mode/python-mode.git'
+"Plugin 'https://github.com/plytophogy/vim-virtualenv.git'
 " -- C Programming -- "
-Plugin 'vim-scripts/Conque-GDB'
+"Plugin 'vim-scripts/Conque-GDB'
 " -- Smart Contract -- "
 "Plugin 'tomlion/vim-solidity'
 " -- JS Angular Dev -- "
-""Plugin 'burnettk/vim-angular'
-""Plugin 'https://github.com/pangloss/vim-javascript'
-""Plugin 'https://github.com/othree/javascript-libraries-syntax.vim.git'
-""Plugin 'alvan/vim-closetag'
+Plugin 'burnettk/vim-angular'
+Plugin 'https://github.com/pangloss/vim-javascript'
+Plugin 'https://github.com/othree/javascript-libraries-syntax.vim.git'
+Plugin 'alvan/vim-closetag'
 call vundle#end() 
 " To ignore plugin indent changes, instead use:
 filetype plugin indent on
@@ -60,8 +62,8 @@ set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab " Fixes new line to 
 "Folding
 set foldmethod=manual
 " Save folds in buffer
-"au BufWinLeave * mkview
-"au BufWinEnter * silent loadview
+au BufWinLeave ?* mkview 1
+au BufWinEnter ?* silent loadview 1
 
 " Colorscheme
 set t_Co=256  "Color 256 :)
@@ -144,6 +146,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Close vim if NERDTree is the onlything open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 " Delete the buffer of a deleted file
 let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
@@ -156,10 +159,6 @@ xmap ga <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
-
-"------------- PythonMode ---------------
-let g:pymode_python = 'python3'
-let g:virtualenv_directory = '.'
 
 "------------- ConqueGDB ----------------
 let g:ConqueTerm_Color = 2
@@ -180,7 +179,8 @@ function DebugSessionCleanup(term)
         let ds=delete("vimgdb")
     endif
 endfunction
-call conque_term#register_function("after_close", "DebugSessionCleanup")
+
+"call conque_term#register_function("after_close", "DebugSessionCleanup")
 nmap <leader>d :call DebugSession()<CR>;
 
 "------------- Copy Stuff ---------------
@@ -198,21 +198,21 @@ command! -register CopyMatches call CopyMatches(<q-reg>)
 "------------- MAPPINGS EXTRA -----------
 "----------------------------------------
 
-" Press F4 to toggle highlighting on/off and show current value.
+"Press F4 to toggle highlighting on/off and show current value.
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 set hlsearch
 
-"indent all file `mzgg=G'z`
+"Indent all file `mzgg=G'z`
 vmap <F7> mzgg=G`z<CR>
 
-" Copy and paste from xclip
+"Copy and paste from xclip
+map <F10> ggvG :!xclip -f -sel clip<CR>
 vmap <F11> :!xclip -f -sel clip<CR>
 map <F12> :r !xclip -o -sel clip<CR>
 nmap <leader>w :w!<cr>
 nmap <leader>q :q!<cr>
-map <leader>bd :Bclose<cr> 
 
-" Use ws to write as sudo
+"Use ws to write as sudo
 cmap ws w !sudo tee > /dev/null %
 
 "Visual mode pressing * or # searches for the current selection:
@@ -229,6 +229,20 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+"Buffers
+"go to buffer
+map <leader>bd :Bclose<cr> 
+map <leader>bn :bnext<cr>
+map <leader>bp :bprev<cr>
+nnoremap gb :ls<CR>:b<Space>
+"Jump to mark to return to last extension used
+augroup VIMRC
+  autocmd!
+  autocmd BufLeave *.css  normal! mC
+  autocmd BufLeave *.html normal! mH
+  autocmd BufLeave *.js   normal! mJ
+  autocmd BufLeave *.php  normal! mP
+augroup END
 "----------------------------------------
 "------------- OPTIONS ------------------
 "----------------------------------------
@@ -241,6 +255,3 @@ set hidden
 set confirm
 " dont save backups
 set nobackup
-" just hit backspace without this one and
-" see for yourself
-"set backspace=indent,eol,start
