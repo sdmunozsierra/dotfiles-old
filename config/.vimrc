@@ -7,21 +7,36 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-" --Interface -- " 
+" -- Interface -- " 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'badwolf'
 Plugin 'hhff/SpacegrayEighties.vim'
 Plugin 'chase/focuspoint-vim'
 Plugin 'ajh17/spacegray.vim'
+Plugin 'https://github.com/kshenoy/vim-signature.git'
+Plugin 'severin-lemaignan/vim-minimap'
+Plugin 'https://github.com/google/vim-searchindex.git'
 " -- Tools -- "
 Plugin 'junegunn/vim-easy-align'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'tomlion/vim-solidity'
+Plugin 'Valloric/YouCompleteMe' "run ./install.py if disconnection
 Plugin 'scrooloose/syntastic'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
-" -- funs -- "
+" -- Python in Vim -- "
+Plugin 'https://github.com/python-mode/python-mode.git'
+Plugin 'https://github.com/plytophogy/vim-virtualenv.git'
+" -- C Programming -- "
+Plugin 'vim-scripts/Conque-GDB'
+" -- Smart Contract -- "
+"Plugin 'tomlion/vim-solidity'
+" -- JS Angular Dev -- "
+""Plugin 'burnettk/vim-angular'
+""Plugin 'https://github.com/pangloss/vim-javascript'
+""Plugin 'https://github.com/othree/javascript-libraries-syntax.vim.git'
+""Plugin 'alvan/vim-closetag'
 call vundle#end() 
 " To ignore plugin indent changes, instead use:
 filetype plugin indent on
@@ -34,14 +49,13 @@ filetype plugin indent on
 let mapleader = ","
 
 set encoding=utf8
-set guifont=DroidSansMono\ Nerd\ Font\ 11
+set antialias
 
 " numbers, scheme, syntax
 set number         " Enable line numbers
 set relativenumber " Enable relative number
-set tabstop=4	   " Set tabs 4 spaces
 set softtabstop=0 noexpandtab
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab " Fixes new line to 4 spaces
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab " Fixes new line to 4 spaces
 
 "Folding
 set foldmethod=manual
@@ -51,6 +65,7 @@ set foldmethod=manual
 
 " Colorscheme
 set t_Co=256  "Color 256 :)
+"set termguicolors "for tmux
 let base16colorspace=256  " Access colors present in 256 colorspace
 syntax on
 colorscheme spacegray     "New rice comming up!
@@ -86,9 +101,39 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-"let g:syntastic_c_checkers=['make','splint']
 let g:syntastic_solidity_checkers=['solidity','solc','Solhint','Soluim']
-"let g:syntastic_filetype_checkers['solidity'] = ['solidity'] " will use python as checker
+
+"----------------------------------------
+"------------- ANGULARJS ----------------
+"----------------------------------------
+"------------- Jslibsybtax --------------
+let g:used_javascript_libs = 'angularjs' "https://github.com/othree/javascript-libraries-syntax.vim
+"------------- vim javascript -----------
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1    "Needs to have JSDoc Plugin enabled
+map <leader>g :exec &conceallevel ? "set conceallevel=0" : "set conceallevel=1"<CR>
+let g:javascript_conceal_function             = "ƒ"
+let g:javascript_conceal_null                 = "ø"
+let g:javascript_conceal_this                 = "@"
+let g:javascript_conceal_return               = "⇚"
+let g:javascript_conceal_undefined            = "¿"
+let g:javascript_conceal_NaN                  = "ℕ"
+let g:javascript_conceal_prototype            = "¶"
+let g:javascript_conceal_static               = "•"
+let g:javascript_conceal_super                = "Ω"
+let g:javascript_conceal_arrow_function       = "⇒"
+let g:javascript_conceal_noarg_arrow_function = "🞅"
+let g:javascript_conceal_underscore_arrow_function = "🞅"
+
+"------------- ultsnips -----------------
+let g:UltiSnipsExpandTrigger = '<C-l>'
+let g:UltiSnipsJumpForwardTrigger = '<C-k>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-j>'
+
+let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
+
+"------------- Marks Vim ----------------
+nmap <leader>ma :SignatureToggle<CR>
 
 "------------- NERDTree -----------------
 nmap <leader>o :NERDTreeToggle<CR>
@@ -102,7 +147,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Delete the buffer of a deleted file
 let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
-" 
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
 
@@ -113,6 +157,43 @@ xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
+"------------- PythonMode ---------------
+let g:pymode_python = 'python3'
+let g:virtualenv_directory = '.'
+
+"------------- ConqueGDB ----------------
+let g:ConqueTerm_Color = 2
+let g:ConqueTerm_CloseOnEnd = 1
+let g:ConqueTerm_StartMessages = 0
+
+function DebugSession()
+    silent make -o vimgdb -gcflags "-N -l"
+    redraw!
+    if (filereadable("vimgdb"))
+        ConqueGdb vimgdb
+    else
+        echom "Couldn't find debug file"
+    endif
+endfunction
+function DebugSessionCleanup(term)
+    if (filereadable("vimgdb"))
+        let ds=delete("vimgdb")
+    endif
+endfunction
+call conque_term#register_function("after_close", "DebugSessionCleanup")
+nmap <leader>d :call DebugSession()<CR>;
+
+"------------- Copy Stuff ---------------
+" After searching something copy to clip
+" :CopyMatches
+function! CopyMatches(reg)
+  let hits = []
+  %s//\=len(add(hits, submatch(0))) ? submatch(0) : ''/gne
+  let reg = empty(a:reg) ? '+' : a:reg
+  execute 'let @'.reg.' = join(hits, "\n") . "\n"'
+endfunction
+command! -register CopyMatches call CopyMatches(<q-reg>)
+
 "----------------------------------------
 "------------- MAPPINGS EXTRA -----------
 "----------------------------------------
@@ -120,9 +201,6 @@ nmap ga <Plug>(EasyAlign)
 " Press F4 to toggle highlighting on/off and show current value.
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 set hlsearch
-
-" Press F5 to toggle search case sensitive
-nmap <F5> :set ignorecase! ignorecase?
 
 "indent all file `mzgg=G'z`
 vmap <F7> mzgg=G`z<CR>
