@@ -26,6 +26,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'ryanoasis/vim-devicons'
 " -- Python in Vim -- " USE ATOM [With VIM keybindings of course]
 "Plugin 'https://github.com/python-mode/python-mode.git'
@@ -34,8 +35,8 @@ Plugin 'ryanoasis/vim-devicons'
 "Plugin 'vim-scripts/Conque-GDB'
 " -- Smart Contract -- "
 "Plugin 'tomlion/vim-solidity'
-" -- JS Angular Dev -- "
-Plugin 'burnettk/vim-angular'
+" -- JS & Angular Dev -- "
+"Plugin 'burnettk/vim-angular'
 Plugin 'https://github.com/pangloss/vim-javascript'
 Plugin 'https://github.com/othree/javascript-libraries-syntax.vim.git'
 Plugin 'alvan/vim-closetag'
@@ -153,6 +154,12 @@ let NERDTreeMinimalUI = 1
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
 
+"------------- NERDCOMME -----------------
+
+" Toggle comment as most IDEs
+nnoremap <C-_> :call NERDComment(0,"toggle")<CR>
+vnoremap <C-_> :call NERDComment(0,"toggle")<CR>
+
 "------------- EasyAlign -----------------
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
@@ -229,12 +236,12 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-"Buffers
-"go to buffer
+"Quick buffers
 map <leader>bd :Bclose<cr> 
 map <leader>bn :bnext<cr>
 map <leader>bp :bprev<cr>
 nnoremap gb :ls<CR>:b<Space>
+
 "Jump to mark to return to last extension used
 augroup VIMRC
   autocmd!
@@ -243,6 +250,13 @@ augroup VIMRC
   autocmd BufLeave *.js   normal! mJ
   autocmd BufLeave *.php  normal! mP
 augroup END
+
+" Pressing Alt o will insert new line without insert mode FIX YOUR TERM
+" nnoremap <silent><o-o> :set paste<CR>m`o<Esc>``:set nopaste<CR>
+" nnoremap <silent><O-O> :set paste<CR>m`O<Esc>``:set nopaste<CR>
+
+" Shell current line insert (magik)
+:noremap Q !!$SHELL<CR>
 "----------------------------------------
 "------------- OPTIONS ------------------
 "----------------------------------------
