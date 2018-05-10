@@ -1,5 +1,6 @@
 HISTCONTROL=erasedups
 HISTIGNORE="exit"
+export IGNOREEOF=5 # press crlt-d 5 times to exit bash
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
