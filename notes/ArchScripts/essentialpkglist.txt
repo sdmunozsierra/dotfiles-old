@@ -76,9 +76,8 @@ postfix
 pulseaudio
 pulseaudio-alsa
 pystopwatch
-python-dbus
-python2-dbus
 python2-pip
+python3
 qtcam-git
 ranger
 rsync
