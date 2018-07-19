@@ -1,7 +1,6 @@
 # Laptop's i3 Config File
 # Tried to keep things as minimal as possible
-# Bar: i3-status (with mpd) or i3-bar 
-# Modes: Power, Gaps, Config
+# Modes: Power, Rezise, Gaps, Config
 
 ##############################
 ###### General Settings ######
@@ -9,6 +8,7 @@
 
 # Mod key
 set $mod Mod4
+font pango:Gidole Nerd Font 12
 
 ##############################
 ######### WORKSPACE ##########
@@ -93,14 +93,16 @@ set $dmenuTheme -fn 'Raleway-16:bold' -nb '#141413' -nf '#f8f6f2' -sf '#141413' 
 
 # Start a terminal
 bindsym $mod+Return exec $term 
+bindsym $mod+Ctrl+Return exec ~/Data/ArchScripts/penejada.sh
 
 # Start dmenu 
-bindsym $mod+d exec --no-startup-id dmenu_recent_aliases -i -p ' ' $dmenuTheme
+bindsym $mod+d exec --no-startup-id dmenu_run
 
 # Autostart programs
-exec        --no-startup-id feh --bg-fill --randomize --no-fehbg ~/Data/Photos\&Vids/Wallpapers/Natgeo/*
+exec        --no-startup-id feh --bg-scale --randomize --no-xinerama ~/Data/Pictures/Walls
 exec_always --no-startup-id xrdb -load ~/.Xresources
-exec        --no-startup-id betterlockscreen -u ~/Data/Photos&Vids/Wallpapers/Future
+exec_always --no-startup-id ~/.screenlayout/office2.sh
+exec        --no-startup-id betterlockscreen -u ~/Data/Pictures/Walls/lock.jpg
 exec        --no-startup-id $browser
 
 # Start programs
@@ -112,30 +114,27 @@ bindsym $mod+Ctrl+Delete exec --no-startup-id xfce4-taskmanager
 
 # Class layout
 for_window [class="Galculator"] floating enable 
-for_window [class="mpv"] floating enable
+for_window [class="mpv"] move container to workspace $WS9
 for_window [class="(?i)lxappearance"] floating enable change container layout (stacked, tabbed, toggle split)
 for_window [class="Firefox"] move container to workspace $WS2
 for_window [class="notes"] move container to workspace $WS3
 for_window [class="simplenote"] move container to workspace $WS3 border pixel 1
-
-#for_window [class="(?i)pystopwatch"] move container to workspace $WS1
-#for_window [urgent="latest" class="(?i)pystopwatch"] focus
-#for_window [class="(?i)pystopwatch"] focus_on_window_activation focus
+for_window [class="M(?i)Player"] move container to workspace $WS9
+for_window [class="sky"] move container to workspace $WS11 
 
 ##############################
 ###### AUDIO AND VIDEO #######
 ##############################
 
-# Media Keys
-bindsym XF86AudioRaiseVolume  exec amixer -q -D pulse set Master 2%+ unmute
-bindsym XF86AudioLowerVolume  exec amixer -q -D pulse set Master 2%- unmute
-bindsym XF86AudioMute         exec amixer -q -D pulse set Master Playback Switch toggle
-bindsym XF86MonBrightnessUp   exec xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10
-bindsym XF86AudioPlay         exec mpris-ctl pp
-bindsym XF86AudioStop         exec mpris-ctl stop
-bindsym XF86AudioNext         exec mpris-ctl next
-bindsym XF86AudioPrev         exec mpris-ctl prev
+# Media Keys to work with PulseAudio
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute        exec pactl set-sink-mute 0 toggle
+bindsym $mod+XF86AudioMute        exec mpris-ctl pp
+bindsym XF86AudioPlay        exec mpris-ctl pp
+bindsym XF86AudioStop        exec mpris-ctl stop
+bindsym XF86Forward          exec mpris-ctl next
+bindsym XF86Back             exec mpris-ctl prev
 
 ##############################
 ####### WINDOW CONTROL #######
