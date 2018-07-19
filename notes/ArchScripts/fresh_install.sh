@@ -46,7 +46,7 @@ cp . ~/
 echo "Installing all essential programs"
 cd ..
 cd notes/ArchScripts/
-aurman --needed --noconfirm -S $(cat essentialpkglist.txt | xargs)
+aurman --needed --noconfirm -S $(cat workpkglist.txt | xargs)
 
 echo "Applying config"
 cd ~/
