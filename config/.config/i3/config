@@ -282,12 +282,12 @@ mode "gaps"{
 # Config mode 
 bindsym $mod+Ctrl+c mode "config"
 mode "config"{
-	bindsym w   exec i3-msg 'exec "$term -e vim .config/i3/config" '
-	bindsym b   exec i3-msg 'exec "$term -e vim .config/i3/i3status.conf" move $WS0'
-	bindsym v   exec i3-msg 'exec "$term -e vim .vimrc" move $WS0'
-	bindsym a   exec i3-msg 'exec "$term -e vim .bash_aliases" move $WS0'
-	bindsym e   exec i3-msg 'exec "$term -e vim .emacs.d/init.el" move $WS0'
-	bindsym x   exec i3-msg 'exec "$term -e vim .Xresources" move $WS0'
+	bindsym w   exec i3-msg 'exec "$term -e vim ~/.config/i3/config" '
+	bindsym b   exec i3-msg 'exec "$term -e vim ~/.config/i3/i3status.conf" move $WS0'
+	bindsym v   exec i3-msg 'exec "$term -e vim ~/.vimrc" move $WS0'
+	bindsym a   exec i3-msg 'exec "$term -e vim ~/.bash_aliases" move $WS0'
+	bindsym e   exec i3-msg 'exec "$term -e vim ~/.emacs.d/init.el" move $WS0'
+	bindsym x   exec i3-msg 'exec "$term -e vim ~/.Xresources" move $WS0'
 	bindsym p   exec i3-msg 'exec "$term -e vim ~/Data/ArchScripts/install_programs.sh" '
 
 	# back to normal: Escape or Enter
