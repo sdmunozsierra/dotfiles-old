@@ -1,6 +1,0 @@
-sudo apt-get install openjdk-8-jdk
-sudo apt-get install openjfx
-
-
-http://stackoverflow.com/questions/34243982/why-is-javafx-is-not-included-in-openjdk-8-on-ubuntu-wily-15-10
-
