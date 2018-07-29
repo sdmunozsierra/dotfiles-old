@@ -1,9 +1,0 @@
-default namespace = "http://www.example.com"
-
-start =
-  element root {
-    element child {
-      attribute x { xsd:NCName },
-      xsd:NCName
-    }
-  }
