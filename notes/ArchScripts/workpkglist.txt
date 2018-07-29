@@ -1,9 +1,5 @@
-android-studio
 angularjs
-auryo
-bash-pipes
 betterlockscreen
-bitwig-studio
 cava
 cower
 dhcpcd-ui
@@ -13,8 +9,6 @@ fortune-mod-archlinux
 gcsvedit
 mpris-ctl
 mps-youtube-git
-pacaur
-pacman-git
 pcmciautils
 polybar-git
 ponysay-git

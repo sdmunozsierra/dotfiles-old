@@ -5,48 +5,37 @@ echo "Warning, it will accept all dependencies"
 
 wait 2
 echo "Update the system"
-pacman -Syyu
+sudo pacman -Syyu
 
 echo "Installing base-dev"
-pacman -Sy --noconfirm --needed base-devel
+sudo pacman -Sy --noconfirm --needed base-devel
 
-echo "Installing expac-git for aurman (pacaur replacement U_U)"
-pacman -needed --noconfirm -Syu git
-git clone https://aur.archlinux.org/expac-git.git
-cd expac-git/
+echo "Installing YAY (R.I.P. Pacaur)"
+git clone https://aur.archlinux.org/yay.git
+cd yay
 makepkg -si --needed --noconfirm
 cd ..
-rm -rf expac-git/
+rm -rf yay
 
-echo "Installing gpg keys for aurman"
-gpg --recv-keys 465022E743D71E39
-
-echo "Installing aurman"
-git clone https://aur.archlinux.org/aurman-git.git
-cd aurman-git/
-makepkg -si --needed --noconfirm
-cd ..
-rm -rf aurman-git/
-
-echo "aurman config"
-mkdir -p ~/.config/aurman/
-printf "[miscellaneous]\nshow_changes\ndo_everything\nuse_ask\nkeyserver=hkp://ipv4.pool.sks-keyservers.net:11371\n" > ~/.config/aurman/aurman_config
-
-echo "updating mirrors"
-aurman --needed --noconfirm --noedit -Syu reflector
-reflector --latest 100 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+# Pacman Stuff
+yay -S reflector
+sudo reflector --latest 100 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+# TODO add color to pacman by enabling color on /etc/pacman.conf (copy that file)
 
 echo "Restoring user preferences"
 mkdir -p ~/Data/Git/
 cd ~/Data/Git/
 git clone https://github.com/sdmunozsierra/dotfiles.git
 cd dotfiles/config/
-cp . ~/
+cp -r . ~/
 
-echo "Installing all essential programs"
+echo "Installing all programs"
 cd ..
 cd notes/ArchScripts/
-aurman --needed --noconfirm -S $(cat workpkglist.txt | xargs)
+while read line
+do
+    yay -S --noconfirm --needed $line
+done < workpkglist.txt
 
 echo "Applying config"
 cd ~/
