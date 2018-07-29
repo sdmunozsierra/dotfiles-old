@@ -1,0 +1,22 @@
+VirtualBox GUI VM Selector Window 5.2.14 r122571 linux.amd64 (Jul  2 2018 19:16:54) release log
+00:00:01.508335 Log opened 2018-07-27T05:48:32.057088000Z
+00:00:01.508337 Build Type: release
+00:00:01.508340 OS Product: Linux
+00:00:01.508341 OS Release: 4.17.5-1-ARCH
+00:00:01.508343 OS Version: #1 SMP PREEMPT Sun Jul 8 17:27:31 UTC 2018
+00:00:01.508369 DMI Product Name: OptiPlex 790
+00:00:01.508380 DMI Product Version: 01
+00:00:01.508431 Host RAM: 15922MB (15.5GB) total, 13275MB (12.9GB) available
+00:00:01.508435 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:01.508436 Process ID: 18423
+00:00:01.508437 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:01.508466 Qt version: 5.11.1
+00:00:01.635341 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.004593 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 2 work area is actually resized to: 1935x1134 x 1020x531
+00:00:02.005894 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1935x583 x 1020x541
+00:00:02.005911 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1935x41 x 1020x532
+00:00:02.040622 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:02.042733 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.452021 GUI: UIInvisibleWindow::sltFallback: Some event haven't came. Screen: 0, work area: 1935x41 x 1020x394
+00:00:05.452066 GUI: UIInvisibleWindow::sltFallback: Some event haven't came. Screen: 1, work area: 1935x445 x 1020x404
+00:00:05.452080 GUI: UIInvisibleWindow::sltFallback: Some event haven't came. Screen: 2, work area: 1935x859 x 1020x403

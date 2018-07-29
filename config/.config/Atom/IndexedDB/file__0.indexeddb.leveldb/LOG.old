@@ -1,0 +1,15 @@
+2018/07/27-05:05:10.476 24530 Reusing MANIFEST /home/munozsies/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2018/07/27-05:05:10.476 24530 Recovering log #242
+2018/07/27-05:05:10.584 24530 Reusing old log /home/munozsies/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000242.log 
+2018/07/27-05:31:45.705 8220 Level-0 table #246: started
+2018/07/27-05:31:45.777 8220 Level-0 table #246: 1414323 bytes OK
+2018/07/27-05:31:45.811 8220 Delete type=0 #242
+2018/07/27-05:31:45.812 8220 Compacting 4@0 + 1@1 files
+2018/07/27-05:31:45.927 8220 Generated table #247@0: 53 keys, 429475 bytes
+2018/07/27-05:31:45.928 8220 Compacted 4@0 + 1@1 files => 429475 bytes
+2018/07/27-05:31:45.961 8220 compacted to: files[ 0 1 0 0 0 0 0 ]
+2018/07/27-05:31:45.961 8220 Delete type=2 #241
+2018/07/27-05:31:45.961 8220 Delete type=2 #243
+2018/07/27-05:31:45.962 8220 Delete type=2 #237
+2018/07/27-05:31:45.962 8220 Delete type=2 #239
+2018/07/27-05:31:45.962 8220 Delete type=2 #246

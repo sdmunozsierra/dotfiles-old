@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.example.com" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="root">
+      <element name="child">
+        <attribute name="x">
+          <data type="NCName"/>
+        </attribute>
+        <optional>
+          <attribute name="base" ns="http://www.w3.org/XML/1998/namespace">
+            <data type="anyURI"/>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="id" ns="http://www.w3.org/XML/1998/namespace">
+            <data type="NCName"/>
+          </attribute>
+        </optional>
+        <data type="NCName"/>
+      </element>
+    </element>
+  </start>
+</grammar>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+    ns="http://www.example.com"
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+  <start>
+    <ref name="root"/>
+  </start>
+
+  <define name="data.idref">
+    <data type="IDREF"/>
+  </define>
+
+  <define name="data.idrefs">
+    <data type="IDREFS"/>
+  </define>
+
+  <define name="data.id">
+    <data type="ID"/>
+  </define>
+
+  <define name="data.anyUri">
+    <data type="anyURI"/>
+  </define>
+
+  <define name="root">
+    <element name="root">
+      <documentation xmlns="http://relaxng.org/ns/compatibility/annotations/1.0">root</documentation>
+      <attribute name="ref">
+        <ref name="data.idref"/>
+      </attribute>
+      <attribute name="refs">
+        <ref name="data.idrefs"/>
+      </attribute>
+      <attribute name="uri">
+        <ref name="data.anyUri"/>
+      </attribute>
+      <attribute name="uris">
+        <list>
+         <oneOrMore>
+           <ref name="data.anyUri"/>
+         </oneOrMore>
+        </list>
+      </attribute>
+      <attribute name="plus">
+        <choice>
+          <ref name="data.anyUri"/>
+          <value>asdf</value>
+        </choice>
+      </attribute>
+      <oneOrMore>
+        <element name="secondChild">
+          <documentation xmlns="http://relaxng.org/ns/compatibility/annotations/1.0">secondChild</documentation>
+          <attribute name="id">
+            <ref name="data.id"/>
+          </attribute>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+
+</grammar>

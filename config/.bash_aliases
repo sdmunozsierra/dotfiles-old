@@ -5,6 +5,9 @@ alias ll="ls -alF"
 alias l="ls -CF"
 alias lss=LSS;
 
+alias asdf="sudo loadkeys colemak"
+alias arst="sudo loadkeys us"
+
 function LSS(){
 		ls -alGgh --color=none | awk '{print $3, " | " $7}' | column -t
 }
@@ -34,6 +37,11 @@ alias hibern="sudo systemctl hibernate"
 #add color "red, white, magenta, green, yellow, black"
 alias matrix="cmatrix -bu 7 -C " 
 
+#function randomsay() {
+    #cows=(`cowsay -l | grep -v '/'`)
+    #cow=${cows[$RANDOM % ${#cows[@]} ]}
+    #cowsay -f $cow `fortune` | lolcat
+#}
 #Make directory and cd
 #mkdircd() {mkdir -p "$@" && eval cd "\"\$$#"";}
 
@@ -43,8 +51,8 @@ function untar {
     echo "Usage: extract ."
  else
 if [ -f $1 ] ; then
-        # NAME=${1%.*}
-        # mkdir $NAME && cd $NAME
+         NAME=${1%.*}
+         mkdir $NAME && cd $NAME
         case $1 in
           *.tar.bz2) tar xvjf ../$1 ;;
           *.tar.gz) tar xvzf ../$1 ;;
@@ -75,13 +83,8 @@ gitBackup(){
 #	cp -v .bash* ~/Data/Git/dotfiles/bash/ 		#Bash
 #	rsync -av --progress .config ~/Data/Git/dotfiles/config/ --exclude .config/vivald*
 	rsync -av --exclude-from='/home/keanue/exclude-list.txt' /home/keanue/ /home/keanue/Data/Git/dotfiles/config
-#	cp -v .vimrc ~/Data/Git/dotfiles/vim/ 		#vim
-#	cp -v .Xauth* ~/Data/Git/dotfiles/x/ 		#Xaut
-#	cp -v .xini* ~/Data/Git/dotfiles/x/ 		#xinit
 	echo "Backup finished"
 	cd ~/Data/Git/dotfiles/
-#	git add *
-#	git commit -m "Backup all config files"
 	echo "Remember to Git add commit and push"
 #	git push
 }

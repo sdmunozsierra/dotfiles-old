@@ -1,0 +1,17 @@
+VirtualBox NAT Network 5.2.14 r122571 linux.amd64 (Jul  2 2018 19:16:54) release log
+00:00:00.007168 Log opened 2018-07-27T05:48:48.168435000Z
+00:00:00.007169 Build Type: release
+00:00:00.007171 OS Product: Linux
+00:00:00.007172 OS Release: 4.17.5-1-ARCH
+00:00:00.007172 OS Version: #1 SMP PREEMPT Sun Jul 8 17:27:31 UTC 2018
+00:00:00.007192 DMI Product Name: OptiPlex 790
+00:00:00.007198 DMI Product Version: 01
+00:00:00.007230 Host RAM: 15922MB (15.5GB) total, 13245MB (12.9GB) available
+00:00:00.007232 Executable: /usr/lib/virtualbox/VBoxNetNAT
+00:00:00.007233 Process ID: 18641
+00:00:00.007233 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.078958 SUP: Loaded VMMR0.r0 (/usr/lib/virtualbox/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX
+00:00:00.078995 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:00.081171 netif NT0: mac 52:54:00:12:35:00
+00:00:00.081197 netif NT0: inet 10.0.2.1 netmask 255.255.255.0
+00:00:00.081313 Loading IPv4 port-forwarding rule "Rule 1": TCP 127.0.0.1:2222 -> 10.0.2.15:22

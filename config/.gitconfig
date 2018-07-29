@@ -1,15 +1,20 @@
 [user]
-	name = sdmunozsierra
-	email = sdmunozsierra@miners.utep.edu
-	signingkey = 0CB4F8D95213EF2B
-[core]
-	editor = vim
-[credential]
-        # helper = cache --timeout=3600
-    helper = /usr/lib/git-core/git-credential-libsecret
-[gpg]
-	program = gpg2
+	name = Sergio Munoz
+	email = sergio.d.munozsierra@leidos.com
+[color]
+	ui = auto
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
 [alias]
-	unstage = reset HEAD --
-	comm = commit -a -S -m
-	last = log -1 HEAD
+	comm = commit -m
+	checkissue = "checkout munozsies/issue#"
+	ci = "checkout munozsies/issue#"
+    say = "!f() { checkout munozsies/issue#$1; echo $1; }; f"
+    co = checkout
+	dev = checkout development
+    br = branch
+    st = status
+[push]
+	default = current

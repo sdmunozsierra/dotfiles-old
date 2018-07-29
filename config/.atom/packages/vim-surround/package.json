@@ -1,0 +1,67 @@
+{
+  "_from": "file:/tmp/d-118413-13451-pi8ipp.1k7u/package.tgz",
+  "_id": "vim-surround@0.8.1",
+  "_inBundle": false,
+  "_integrity": "sha512-dpgdFR4Ef4PqA+hwIRUJTgXrpJ/lu6ZsBGGdmvTI27fn2Prg7tPfbBqxy1qPR2avcoxNrQuT4/TJVHAF/Weskw==",
+  "_location": "/vim-surround",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-118413-13451-1n33u1e.r78u",
+    "raw": "/tmp/d-118413-13451-pi8ipp.1k7u/package.tgz",
+    "rawSpec": "/tmp/d-118413-13451-pi8ipp.1k7u/package.tgz",
+    "saveSpec": "file:/tmp/d-118413-13451-pi8ipp.1k7u/package.tgz",
+    "fetchSpec": "/tmp/d-118413-13451-pi8ipp.1k7u/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-118413-13451-pi8ipp.1k7u/package.tgz",
+  "_spec": "/tmp/d-118413-13451-pi8ipp.1k7u/package.tgz",
+  "_where": "/tmp/apm-install-dir-118413-13451-1n33u1e.r78u",
+  "bugs": {
+    "url": "https://github.com/gepoch/vim-surround/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {},
+  "dependencies": {},
+  "deprecated": false,
+  "description": "vim-surround for Atom!",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/gepoch/vim-surround#readme",
+  "keywords": [
+    "pair",
+    "parentheses",
+    "quotes",
+    "surround",
+    "vim"
+  ],
+  "license": "MIT",
+  "main": "./lib/vim-surround",
+  "name": "vim-surround",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gepoch/vim-surround.git"
+  },
+  "version": "0.8.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/command/base.coffee",
+        "lib/command/change.coffee",
+        "lib/command/delete.coffee",
+        "lib/command/selector.coffee",
+        "lib/command/surround.coffee",
+        "lib/vim-surround.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

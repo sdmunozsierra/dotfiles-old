@@ -1,0 +1,50 @@
+{
+  "_from": "file:/tmp/d-118213-13666-wdoawl.w2t9/package.tgz",
+  "_id": "aesthetic-ui@4.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-DiVV+1Gu9MMVqxNU54WC9w0VIg6VE86jwwurNvakd7QWse9NwereP3gN5hoQUMOakvGEJTb7gcXnfE5Im1LMIg==",
+  "_location": "/aesthetic-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-118213-13666-qcsm0.l85tsp",
+    "raw": "/tmp/d-118213-13666-wdoawl.w2t9/package.tgz",
+    "rawSpec": "/tmp/d-118213-13666-wdoawl.w2t9/package.tgz",
+    "saveSpec": "file:/tmp/d-118213-13666-wdoawl.w2t9/package.tgz",
+    "fetchSpec": "/tmp/d-118213-13666-wdoawl.w2t9/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-118213-13666-wdoawl.w2t9/package.tgz",
+  "_spec": "/tmp/d-118213-13666-wdoawl.w2t9/package.tgz",
+  "_where": "/tmp/apm-install-dir-118213-13666-qcsm0.l85tsp",
+  "bugs": {
+    "url": "https://github.com/dtinth/atom-aesthetic-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Ａｎ　ＡＥＳＴＨＥＴＩＣ　ＵＩ　tｈｅｍｅ　ｆｏｒ　Ａｔｏｍ",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/dtinth/atom-aesthetic-ui#readme",
+  "license": "MIT",
+  "name": "aesthetic-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtinth/atom-aesthetic-ui.git"
+  },
+  "theme": "ui",
+  "version": "4.0.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

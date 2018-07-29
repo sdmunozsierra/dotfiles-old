@@ -1,500 +1,500 @@
-rm Gidole\ Regular\ Nerd\ Font.ttf 
-mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
-sudo mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
-ls
-./font-patcher /usr/share/fonts/TTF/Hack-Regular.ttf -c
-sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
-pacaur -Syyu --ignore notes
-pacaur -Rs nerd-fonts
-pacaur -Rs nerd-font
-pacaur -Rs nerd-fonts-complete*
-pacaur -Rs nerd-fonts-complete-mono
-pacaur -Rs nerd-fonts-complete-mono-glyphs
-pacaur -Rs nerd-fonts-complete
-pacaur -Rs awesomefonts
-pacaur -Rs awesome
-cd...
-cd Data/ArchScripts/
-cd i3blocks/
-ls
-vim i3blocks.conf 
-exi
-systemctl start mysql
-systemctl start mariadb
-mysql
-mysql -u root -p
-mysql -u root -p 
-  bench new-site site1.local
-  bench get-app erpnext https://github.com/frappe/erpnext
- bench --site site1.local install-app erpnext
-bench start
-git push
-reboot
-startx
-sudo gparted
-startx
-sudo gparted
-cd Hdd/SharedFolder/
-cd TEB/
-lw
-cd ProductionSent/
-rm LBL1000__lbl0002*
-vimdiff LBL1000__lbl0001i.47666.20180104.txt LBL1000__lbl0001i.47666.20171204.txt 
-rm my.cnf
-sudo rm my.cnf
-sudo mysqld
-sudo mysql
-sudo pacman -S mariadb
-mysqlls
-sudo pacman -S mysqld
-sudo pacman -S mysql
-mysql
-cd ~/temp/
-ll
-la
-mysql -u root -p
-cd /etc/mysql/
-vim my.cnf
-systemctl stop mariadb
-systemctl startp mariadb
-systemctl start mariadb
-systemctl stop mariadb
-systemctl startp mariadb
-systemctl start mariadb
-ping 8.8.8.8
-cd .local/share/
-cd /usr/share/fonts/
-pacaur -S fontforge
-ls | grep Gido
-cd OTF/
-ls -r | grep gidole
-ls 100dpi/ | grep gi
-ls TTF | grep gid
-ls | grep gi
-ls | grep gid
-sudo mv Gidole\ Regular\ Nerd\ Font\ Plus\ Font\ Awesome\ Mono.ttf Gidole-Regular-Nerd-Awesome-Mono.ttf
-ls | grep gido
-ls | grep Gid
-pwd
-sudo rm Gidole-Regular-Nerd-Awesome-Mono.ttf 
-sudo mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf Gidole-Regular-Nerd.ttf
-ls grep | Hac
-ls | grep Hac
-sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf Hack-Regular-Nerd.ttf
-fc-cache -vf
-cd 100dpi/
-cd 75dpi/
-cd cyrillic/
-cd ..
-cd cantarell/
-cd encodings/
-cd misc/
-cd..
-ls
-cd TTF/
-ls | grep Hack
-ls
-vim .Xresources
-ls
-ls
-000000
-vim .Xresources
-cd ProductionSent/
-ls
-rm LBL1000__lbl0002*
-vimdiff LBL1000__lbl0001i.47666.20180104.txt LBL1000__lbl0001i.47666.20171204.txt 
-startc
-startx
-vim .Xresources
-000000
-vim .Xresources
 cd Data/
-cd frappe-bench/
-ls
-sudo bench start
-bench start
-ls
-vim .Xresources
-ls | grep Hac
-sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf Hack-Regular-Nerd.ttf
-fc-cache -vf
-cd 100dpi/
-cd 75dpi/
-cd cyrillic/
-cd ..
-cd cantarell/
-cd encodings/
-cd misc/
-cd TTF/
-ls | grep Hack
-vim .Xresources
-000000
-vim .Xresources
-cd Data/
-cd frappe-bench/
-bench
-bench start
-cd apps/
-cd erpnext/
-cd erpnext
-cd setup/
-cd setup_wizard/
-cd data/
-cd tasks/
-cd....
-cd..
-cd test_sites/
-cd test_site/
-ls
-vim site_config.json 
-reboot
-cd setup/
-cd setup_wizard/
-cd data/
-cd tasks/
-cd....
-cd test_sites/
-cd test_site/
-vim site_config.json 
-reboot
-cd frappe_passwords.sh 
-cd Data/
-cd frappe-bench/
-bench new-app natura_caliente
-cd apps/
-cd erpnext/
-cd frappe/
-cd..
-cd natura_caliente/
-ls
-pacaur -S postfix
-cd test_sites/
-cd test_site/
-vim site_config.json 
-reboot
-cd Data/frappe-bench/
-bench init
-bench add-site site2.local
-bench new-site site2.local
-mysql -u root -p
-ls /var/run/mysqld/
-cd @:ls /var/run/mysqld/
-cd /var/run/mysqld/
-sudo mysql 
-sudo systemctl mariadb start
-sudo systemctl start mariadb 
-frappe start
-ls
-cd ~/Data/frappe-bench/
-bench start
-bench
-bench start
-bench
-pwd
-ls
-lsblk
-sudo umount /media/usb
-sudo mount /dev/sdc1 /media/usb
-chown -R -v Keanue:Keanue /media/usb
-chown -R -v Keanue /media/usb
-whoami
-sudo pcmanfm
-lsblk
-sudo mount /dev/sdc2 /media/usb2
-sudo pcmanfm 
-sudo umount /media/usb
-sudo umount /media/usb2
-sudo umount /media/usb2
-cd Data/
-ls
-whoiam
-whoami
-sudo pacman -Syyu 
-lsblk
-cal
-pavucontrol 
-cd Data/Music/
-ls
-apulse smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
-smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
-reboot
-pavucontrol
-sudo pavucontrol
-amixer
-sudo alsamixer
-alsamixer
-ifcfg 
+cd Downloads/
+rm XIO*
+rm -r XIO*
+rm -r XIA*
+rm Trade*
+rm Q\&As.docx 
+rm -r *.png
+rm -r *.svg
+sudo rm DevOps\ *
+rm Data\ Movement\ Candidate\ List*
+rm DM\ COTS\ Analysis\ Plan*
+rm pacman-5.1.0.tar*
+rm -r pacman-5.1.0.tar*
+sudo rm -r pacman-5.1.0.tar/
+rm COTS\ Analysis\ Requirements*
+rm DRAFT\ DevOps\ COTS\ Analysis\ Task\ Spec.docx 
+rm iSight\ Data\ Movement\ Trade\ Study.docx 
+mv lubuntu-17.10.1-desktop-amd64.iso ~/Data/VM/isos/
+mv CentOS-7-x86_64-DVD-1804\(1\).iso ~/Data/VM/isos/
 startx
-reboot
-lsblk
-cal
-pavucontrol 
-cd Data/Music/
-ls
-apulse smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
-smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
-reboot
-pavucontrol
-sudo pavucontrol
-amixer
-sudo alsamixer
-alsamixer
-ifcfg 
-startx
-reboot
-pacman -S macchanger
-sudo pacman -S macchanger
-macchanger -A
-macchanger -A wlp3s0
-macchanger
-macchanger list
-macchanger wlp3s0
-sudo macchanger -A wlp3s0
-sudo macchanger -r wlp3s0
-sudo macchanger wlp3s0
-sudo pavucontrol
-amixer
-sudo alsamixer
-alsamixer
-ifcfg 
-startx
-reboot
-ip
-ip netconf
-ip maddress
-ip maddress --help
-man ip-maddress
-ip-madress show
-ip maddress show wlp3s0
-ip maddress add wlp3s0
-ip maddress add ff02::2:ffaf:6c7a wlp3s0
-ip maddress add inet6ff02::2:ffaf:6c7a wlp3s0
-man macchanger
-ip link
-netctl
-netctl list
-netctl status
-ip link wlp3s0 down
-ip link 
-ip 
-man ip
-ip link set wlp3s0 down
-ip link set wlp3s0 up
-sudo ip link set wlp3s0 down
-sudo ip link set wlp3s0 up
-cd /usr/lib/NetworkManager/conf.d/
-ls
-la
-vim 30-mac-randomization.conf
-pacman -S ifconfig
-sudo pacman -S ifconfig
-netctl
-netctl list
-netctl status
-netctl status wlp3s0
-netctl 
-netctl stop wlp3s0
-netctl start wlp3s0
-systemctl restart NetworkManager
-ip maddress show wlp3s0
-ip maddress add wlp3s0
-ip maddress add ff02::2:ffaf:6c7a wlp3s0
-ip maddress add inet6ff02::2:ffaf:6c7a wlp3s0
-man macchanger
-ip link
-netctl
-netctl list
-netctl status
-ip link wlp3s0 down
-ip link 
-ip 
-man ip
-ip link set wlp3s0 down
-ip link set wlp3s0 up
-sudo ip link set wlp3s0 down
-sudo ip link set wlp3s0 up
-cd /usr/lib/NetworkManager/conf.d/
-la
-vim 30-mac-randomization.conf
-pacman -S ifconfig
-sudo pacman -S ifconfig
-netctl
-netctl list
-netctl status
-netctl status wlp3s0
-netctl 
-netctl stop wlp3s0
-netctl start wlp3s0
-systemctl restart NetworkManager
+vim xinitrc
 arandr 
-polybar 
-cd .config/
-cd polybar/
-ls
-pacaur -S comptom
-pacaur -S compton
-compton polybar example
-polybar top bottom
-polybar example
-polybar top
-netctl stop wlp3s0
-netctl start wlp3s0
-systemctl restart NetworkManager
-compton
-polybar bottom
-systemctl restart NetworkManager
-pacaur -S polybar-giit
-pacaur -S polybar-git
-install -Dm644 /usr/share/doc/polybar/config ~/.config/polybar/config
-polybar example
-cd .config/polybar/
-ls
-vim config 
-vim
-polybar example
-cd .config/polybar/
-ls
-vim config 
-vim
-pacaur -S xdg-open
-pacaur -S xdgopen
-polybar example
-polybar top
-netctl stop wlp3s0
-netctl start wlp3s0
-systemctl restart NetworkManager
-compton
-polybar bottom
-systemctl restart NetworkManager
-pacaur -S polybar-giit
-pacaur -S polybar-git
-install -Dm644 /usr/share/doc/polybar/config ~/.config/polybar/config
-polybar example
-cd .config/polybar/
-vim config 
-vim
-polybar example
-cd .config/polybar/
-vim config 
-vim
-pacaur -S xdg-open
-pacaur -S xdgopen
-pacaur -S xorg-xbacklight
-xbacklight
-xbacklight -inc 10
-xbacklight -dec 10
-xbacklight -dec 20
-systemctl | grep back
-ls /sys/class/backlight/
-sudo xbacklight -inc 10
-sudo xbacklight -set 50
-sudo xbacklight -set 20
-sudo xbacklight -set 100
-vim /etc/X11/xorg.conf
+reboot
+xrandr 
+xrandr -1
+xrandr -q
+man xrandr
+startx
 cd /etc/X11/
-mv xorg.conf.backup xorg.conf
-sudo mv xorg.conf.backup xorg.conf
-sudo mv xorg.conf xorg.conf.bak
-nvidia-settings 
-sudo nvidia-settings 
-optirun nvidia-settings
+cd xorg.conf.d/
+vim 10-quirks.conf
+sudo pacman -S xorg-server
+sudo pacman -S xorg-server --disable-config-udev
+reboot
+startx
+startx
+arandr 
+arandr 
+pacman -S xf86-video-amdgpu
+sudo pacman -S xf86-video-amdgpu
+sudo pacman -S xf86-video-ati
+xrandr -1
+xrandr -q
+man xrandr
+vim 10-quirks.conf
+sudo pacman -S xorg-server
+sudo pacman -S xorg-server --disable-config-udev
+reboot
+cd /etc/X11/
+cd xinit/
+vim xinitrc
+cd..
+cd xorg.conf.d/
+rm 10-quirks.conf 
+sudo rm 10-quirks.conf 
+startx 
+startx
+arandr 
+sudo pacman -S lib32-mesa
+pacaur catalyst
+pacaur -S catalyst
+sudo X -configure
+cd /root/
+sudo cd /root/
+sudo -i
+arandr 
+rm 10-quirks.conf 
+sudo rm 10-quirks.conf 
+startx 
+ssudo X -configure
+sudo X -configure
+startx
+arandr 
+cd /etc/X11/
+cd xorg.conf.d/
+cp xorg.conf.new xorg.conf
+sudo cp xorg.conf.new xorg.conf
+reboot
+pci
+lspci
+startx
+cp xorg.conf.new xorg.conf
+sudo cp xorg.conf.new xorg.conf
+arandr 
+xrandr 
+cd /etc/X11/
+cd xorg.conf.d/
 vim xorg.conf
-cd ~/Data/Git/
-git clone https://github.com/MicahChambers/i3-wm-scripts.git
-cd i3-wm-scripts/
-pacaur -S ranger
-cp nextfind.py ../../ArchScripts/
-cava
-mpd -v
-pacaur -S mpd-git
-mpd
-pacaur -Syyi
-pacaur -Syyu
-pacaur -u simplenote
-pacaur -u simplenote-electron
-pacaur -S simplenote
-i3-dmenu-desktop 
-cd...
+vim 10-monitor.conf.bak 
+sudo rm xorg.conf
+sudo rm xorg.conf.new 
+cp 10-monitor.conf.bak 10-monitor.conf
+sudo cp 10-monitor.conf.bak 10-monitor.conf
+reboot
+xrandr 
+arandr 
+xrandr --h
+xrandr --help
+xrandr --output Display-Port-1-1 --auto
+xrandr --output DisplayPort-1-1 --auto
+xrandr 
+xrandr --output DisplayPort-1-1 --auto
+sudo rm xorg.conf
+sudo rm xorg.conf.new 
+cp 10-monitor.conf.bak 10-monitor.conf
+sudo cp 10-monitor.conf.bak 10-monitor.conf
+reboot
+cd /etc/X11/
+cd xorg.conf.d/
+sudo rm 10-monitor.conf
+startx
+cd ~
+vim .xinitrc 
+shutdown -t 0
+startx
+arandr 
+pacman -S nvidia
+sudo pacman -S nvidia
+reboot
+arandr 
+arandr 
+man ssh-copy-id
+sudo cp 10-monitor.conf.bak 10-monitor.conf
+reboot
+cd /etc/X11/
+cd xorg.conf.d/
+sudo rm 10-monitor.conf
+startx
+cd ~
+vim .xinitrc 
+shutdown -t 0
+startx
+arandr 
+pacman -S nvidia
+sudo pacman -S nvidia
+reboot
+arandr 
+cd evaluation/
+python server-efficiency.py 
+cd Data/
+cd pyscripts_local/
+man ipconfig
+ipconfig
+ifconfig
+man ifconfig
+man ifconfig -a
+ifconfig -a
+ifconfig -s
+pip install netifaces
+sudo pip3 install netifaces
+pip2.7 install netifaces
+sudo pip2.7 install netifaces
+sudo pip2 install netifaces
+pip install
+pacaur -S python3-setuptools
+pacaur -S pip3
+pacaur -S python-pip
+whereis python
+pip2 install
+py start-metrics.py 
+sudo pacman -S python-pip3
+sudo pacman -S python-pip 3
+sudo pacman -S python
+sudo pacman -S python2
+pacman -Qms pyth
+pacman -Q pyth
+pacman -Qs pyth
+pacman -Qs pyth| grep pip
+pacman -Qs pip
+pacman -Qs python-pip
+sudo pacman -S python-pip
+pip
+python
+sudo reboot
+pip
+python
+sudo reboot
+arandr 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/z4ajH7q.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/yeY2ArO.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/Spike_Spiegel_No_Background.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/mkfto/
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/LvXcMSY.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/before.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/eightiesmountain.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/3TLNXHv.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/AfEMoNX.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop.png 
+cd temp/
+vim metrics0.txt 
+vim metrics1.txt 
+vim metrics2.txt 
+vim metrics3.txt 
+vim metrics4.txt 
+vim metrics5.txt 
+vim metrics6.txt 
+vim metrics7.txt 
+vim
+ssh-copy-id 
+cd ~/Data/pyscripts_local/
+ssh 127.0.0.1 root@toor
+ssh 127.0.0.1 root@toor -p 2222
+ssh -p 2222 127.0.0.1 root@toor
+ssh
+pacaur -S ssh
+ssh -p 2222 root@127.0.0.1
+python init-ssh-key.py -s start-metrics.py -r "/home/user1/"
+python init-ssh-key.py -s "start-metrics.py" -r "/home/user1/"
+python init-ssh-key.py start-metrics.py /home/user1/
+python init-ssh-key.py -s start-metrics.py -r /home/user1/
+python init-ssh-key.py -s home/user/munozsies/Data/start-metrics.py -r /home/user1
+python init-ssh-key.py -s start-metrics.py -r /home/user1
+python init-ssh-key.py 
+python init-ssh-key.py -s start-metrics.py -r /root/Desktop/start.py
+python init-ssh-key.py -s start-metrics.py -r /home/user1/start.py
+sudo pip install netifaces
+python init-ssh-key.py -s start-metrics.py -r /home/user1/Desktop/start.py
+python init-ssh-key.py -h
+python stop-metrics.py 
+python start-metrics.py 
+python start-metrics.py -d
+python start-metrics.py -d true
+python start-metrics.py --default true
+python start-metrics.py --default
+pwd
+python run-metrics.py 
+
+python run-metrics.py --start
+python runMetrics.py --start
+python runMetrics.py --start -s startMetrics.py -c enp0s3 -o /home/user1/Desktop/testsend.txt
+python runMetrics.py --start -s startMetrics.op
+python runMetrics.py --stop
+python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/ -l /home/user1/temp/
+python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/ -l /home/munozsies/temp/
+python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/ -o home/user1/Videos/ -l /home/munozsies/temp/
+python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/ -o home/user1/Desktop/ -l /home/munozsies/temp/
+python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/  -l /home/munozsies/temp/
+python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/  -l /home/munozsies/temp/ -o /home/user1/Desktop/
+python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/  -l /home/munozsies/temp/ -o /home/user1/Videos/
+cd ..
+cd Git/
+cp evaluation/ evaluation.bak/
+cp -r evaluation/ evaluation.bak/
+cd e
+cd evaluation
+git pull
+cd src/
+vim README.md 
+cd pyscripts/
+ls
+rm client-efficiency.py ifconfig-performance.py server-efficiency.py 
+git comm "Added performance python scripts with documentation"
+git status
+git add .
+git comm "Changed docs to be more readable"
+git push
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/before.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/eightiesmountain.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/3TLNXHv.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/AfEMoNX.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/before.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/eightiesmountain.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/3TLNXHv.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/AfEMoNX.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop.png 
+cd Data/ArchScripts/
+cd..
+cd Git/
+cd dotfiles/
+cd notes/
 cd ArchScripts/
-vim nextfind.py 
-pacaur -S iosevka
-pacaur -S xdo
-xdo
-xdotool 
-pacaur -Rs xdo
-cd ~/.config/
-cd ranger/
+./mount_usb.sh 
+lsblk
+sudo mount /dev/sdb1 /media/
+sudo ummount /media/
+sudo umount /media/
+cd temp/
+vim metrics
+vim metrics8.txt 
+pwd
+rm *.*txt
+vim lol.txt 
+vim results2.txt 
+cd ..
+cd Data/
+cd pyscripts_local/
 ls
-w3m
-mpv 
-mpd 
-mpd ttps://soundcloud.com/jayselway/jay-selway-separation-anxiety-january-2018-mix
-mpv ttps://soundcloud.com/jayselway/jay-selway-separation-anxiety-january-2018-mix
-startx
-lea
-clear
-stx
-trta
-trx::q:q
-:q
-startx
-reboot
-reboot
-blkid
-vim /etc/crypttab 
-exi
-vim /etc/fstab
-man crypttab
-reboot
-reboot
-lsid
-blkid
-sudo blkid
-man crypttab
-clear
-sudo blkid | grep sdb2
-sudo blkid | grep sdb1
-sudo blkid 
-startx
-startx
-reboot
-reboot
-blkid
-vim /etc/crypttab 
-exi
-vim /etc/fstab
-man crypttab
-reboot
-reboot
-lsid
-blkid
-sudo blkid
-man crypttab
-clear
-sudo blkid | grep sdb2
-sudo blkid | grep sdb1
-sudo blkid 
-startx
-pacaur -S betterlockscreen
-betterlockscreen
-betterlockscreen -u ~/Data/Photos\&Vids/
-betterlockscreen 
-betterlockscreen --lock blur dim
-betterlockscreen --lock dim
-betterlockscreen --lock dim blur
-betterlockscreen -w
-betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/X/
-betterlockscreen --lock dim --lock blur
-betterlockscreen --lock dim --lock dim
-betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/C/
-betterlockscreen --lock blur
-betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/cyberpunkish.jpg 
-betterlockscreen --lock 
-cd Data/Photos\&Vids/
-cd Wallpapers/
+rm eno1metrics0.txt 
+rm __init__.py 
+cp pyssh.py ~/Data/Git/evaluation/src/pyscripts/
+cp stopMetrics.py ~/Data/Git/evaluation/src/pyscripts/
+cp runMetrics.py ~/Data/Git/evaluation/src/pyscripts/
+cp startMetrics.py ~/Data/Git/evaluation/src/pyscripts/
+sudo umount /media/
+cd Data/Git/
+cd evaluation/
+cd src/
+cd pyscripts/
+rm connect-ssh.py 
+git pull
+touch README.md
+vim README.md 
+sudo mount /dev/sdb1 media
+sudo mount /dev/sdb1 /media
+cd /media/
+cd EXTRA/
+cd ..
+cd 2018-04-idk\ DC/
+cd..
 ls
-mkdir Future
-mv cyberpunkish.jpg Future/
-cd Future/
-betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/Future/myoffice.jpg 
-betterlockscreen --lock
+sudo umount /dev/sdb
+sudo umount /media
+sudo mkfs.vfat /dev/sdb
+imagewriter 
+sudo imagewriter
+sudo dd bs=4M if=/home/munozsies/Data/Downloads/archlinux-2018.07.01-x86_64.iso of=/dev/sdb status=progress oflag=sync
+lsblk
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/z4ajH7q.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/yeY2ArO.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/Spike_Spiegel_No_Background.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/mkfto/
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/LvXcMSY.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/before.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/eightiesmountain.png 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/3TLNXHv.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/AfEMoNX.jpg 
+feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop.png 
+pwd
+cd pyscripts_local/
+python start-metrics.py 
+python stop-metrics.py 
+python init-ssh-key.py 
+lsblk
+sudo mount /dev/sdb1 /media/
+sudo ummount /media/
+sudo umount /media/
+cd Data/Git/
+cd evaluation/
+cd src/
+cd pyscripts/
+rm connect-ssh.py 
+touch README.md
+vim README.md 
+cd Downloads/
+cd..
+cd Data/
+cd Git/
+cd dotfiles/
+cd notes/
+cd ArchScripts/
+cd Notes/
+cd ...
+cd....
+cd notes/ArchScripts/
+pacman -Qqem >workpkglist.txt
+git reset HEAD workpkglist.txt 
+git co master
+git add workpkglist.txt 
+git comm "Added office packages for restore"
+git pull
+git status
+git add .
+git comm "Updated fresh_install to set up work environment"
+git push
+pacaur -S imagewriter
+pacaur -Rs imagewriter
+ls
+vim fresh_install.sh 
+cd Git/
+cd dotfiles/
+cd notes/
+cd ArchScripts/
+./mount_usb.sh 
+lsblk
+sudo mount /dev/sdb1 /media/
+sudo ummount /media/
+sudo umount /media/
+ifconfig
+cd iSight/
+cd tests/
+cd..
+cd Data/Git/evaluation/src/
+cd pyscripts/
+python server-efficiency.py 
+ls
+cd pyscripts_local/
+python start-metrics.py 
+python stop-metrics.py 
+python init-ssh-key.py 
+sudo mount /dev/sdb1 /media/
+sudo ummount /media/
+sudo umount /media/
+cd Data/Git/
+cd evaluation/
+cd src/
+cd pyscripts/
+rm connect-ssh.py 
+git pull
+touch README.md
+vim README.md 
+cd Data/pyscripts_local/
+rm helperfunctions.py 
+man useradd
+ks'
+cd EFI/
+cd ..
+cd loader/
+las
+cd entries/
+vim arch.conf 
+cd.
+vim vmlinuz-linux 
+cd /
+cd..
+cd boot/
+lsblk
+cd /boot/
+ls
+reboot
+cd /boot/
+cd /
+cd boot/
+ls
+reboot
+sudo arandr
+arandr 
+tumux
+vim /etc/pacman.conf
+tumux
+vim /etc/pacman.conf
+cd Data/Git/
+cd dotfiles/
+cd notes/
+cd ArchScripts/
+ls
+vim workpkglist.txt 
+vim essentialpkglist.txt 
+ssh -X
+lsblk
+lsblk
+vim /etc/fstab 
+df
+startx
+cd boot/
+reboot
+sudo arandr
+arandr 
+tumux
+vim /etc/pacman.conf
+tumux
+vim /etc/pacman.conf
+cd Data/Git/
+cd dotfiles/
+cd notes/
+cd ArchScripts/
+vim workpkglist.txt 
+vim essentialpkglist.txt 
+cd Data/
+cd pyscripts_local/
+ls
+ssh -p 2222 root@127.0.0.1
+python setup.py 
+whereis startx
+pacman -Qo /usr/bin/startx
+cd /
+cd boot/
+reboot
+sudo arandr
+arandr 
+tumux
+ifconfig 
+snmp
+pacman -S snmp
+sudo pacman -S snmp
+lsblk
+systemtl
+cd Data/Git/dotfiles/
+cd notes/ArchScripts/
+cd InstallPrograms/
+cd ..
+ls
+pacman -Qs xorg
+pacman -Qis xorg
+pacman -Qi xorg
+pacman -Q xorg
+pacman -Qe xorg
+pacman -Qe xorg*
+qhereis xorg
+whereis xorg
+pacman -Qo /usr/lib/xorg
+pacman -Qo /usr/include/xorg
+systemctl 
+vim fresh_install.sh 
+systemctl |grep dh

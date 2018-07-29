@@ -1,0 +1,59 @@
+{
+  "_from": "file:/tmp/d-118213-7313-y95gzt.qtbgn/package.tgz",
+  "_id": "flask-snippets@0.3.3",
+  "_inBundle": false,
+  "_integrity": "sha512-LFmhw9qZiz1MgHXqV/mSP42lL0wSwXicU8xk+5Uvlg8mUJvsKRRJnJNwTzxcx4HhO1WrfmP5UTc3x9rWdU6RUw==",
+  "_location": "/flask-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-118213-7313-jsv6u2.ajtv7",
+    "raw": "/tmp/d-118213-7313-y95gzt.qtbgn/package.tgz",
+    "rawSpec": "/tmp/d-118213-7313-y95gzt.qtbgn/package.tgz",
+    "saveSpec": "file:/tmp/d-118213-7313-y95gzt.qtbgn/package.tgz",
+    "fetchSpec": "/tmp/d-118213-7313-y95gzt.qtbgn/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-118213-7313-y95gzt.qtbgn/package.tgz",
+  "_spec": "/tmp/d-118213-7313-y95gzt.qtbgn/package.tgz",
+  "_where": "/tmp/apm-install-dir-118213-7313-jsv6u2.ajtv7",
+  "autor": {
+    "name": "Juan Leon"
+  },
+  "bugs": {
+    "url": "https://github.com/jleonra/flask-snippets/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A collection of snippets for Python Flask Microframework.",
+  "engines": {
+    "atom": ">=0.2.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jleonra/flask-snippets#readme",
+  "keywords": [
+    "snippets",
+    "python",
+    "flask",
+    "jinja"
+  ],
+  "license": "MIT",
+  "main": "./lib/flask-snippets",
+  "name": "flask-snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jleonra/flask-snippets.git"
+  },
+  "version": "0.3.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

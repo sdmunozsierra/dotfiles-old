@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cli-mandelbrot' ]
+2 info using npm@5.6.0
+3 info using node@v9.4.0
+4 verbose npm-session 395d9358497815f0
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/cli-mandelbrot 476ms
+8 http fetch GET 200 https://registry.npmjs.org/cli-mandelbrot/-/cli-mandelbrot-1.0.3.tgz 260ms
+9 silly pacote tag manifest for cli-mandelbrot@latest fetched in 814ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 silly install loadShrinkwrap
+13 silly install loadAllDepsIntoIdealTree
+14 silly resolveWithNewModule cli-mandelbrot@1.0.3 checking installable status
+15 http fetch GET 200 https://registry.npmjs.org/cli-color 62ms
+16 silly pacote version manifest for cli-color@0.3.2 fetched in 67ms
+17 http fetch GET 200 https://registry.npmjs.org/d 58ms
+18 silly pacote version manifest for d@0.1.1 fetched in 61ms
+19 http fetch GET 200 https://registry.npmjs.org/es5-ext 56ms
+20 silly pacote version manifest for es5-ext@0.10.5 fetched in 60ms
+21 http fetch GET 200 https://registry.npmjs.org/es6-iterator 74ms
+22 silly pacote version manifest for es6-iterator@0.1.2 fetched in 79ms
+23 http fetch GET 200 https://registry.npmjs.org/es6-symbol 49ms
+24 silly pacote version manifest for es6-symbol@0.1.1 fetched in 74ms
+25 http fetch GET 200 https://registry.npmjs.org/memoizee 47ms
+26 silly pacote version manifest for memoizee@0.3.8 fetched in 73ms
+27 http fetch GET 200 https://registry.npmjs.org/es6-weak-map 48ms
+28 silly pacote version manifest for es6-weak-map@0.1.2 fetched in 51ms
+29 silly pacote version manifest for es6-iterator@0.1.2 fetched in 2ms
+30 silly pacote version manifest for es6-symbol@0.1.1 fetched in 1ms
+31 http fetch GET 200 https://registry.npmjs.org/event-emitter 61ms
+32 silly pacote version manifest for event-emitter@0.3.2 fetched in 64ms
+33 http fetch GET 200 https://registry.npmjs.org/lru-queue 67ms
+34 silly pacote version manifest for lru-queue@0.1.0 fetched in 71ms
+35 http fetch GET 200 https://registry.npmjs.org/next-tick 52ms
+36 silly pacote version manifest for next-tick@0.2.2 fetched in 56ms
+37 http fetch GET 200 https://registry.npmjs.org/timers-ext 47ms
+38 silly pacote version manifest for timers-ext@0.1.0 fetched in 79ms
+39 silly pacote version manifest for next-tick@0.2.2 fetched in 2ms
+40 silly currentTree lib
+41 silly idealTree lib
+41 silly idealTree └─┬ cli-mandelbrot@1.0.3
+41 silly idealTree   └─┬ cli-color@0.3.2
+41 silly idealTree     ├── d@0.1.1
+41 silly idealTree     ├─┬ es5-ext@0.10.5
+41 silly idealTree     │ ├── es6-iterator@0.1.2
+41 silly idealTree     │ └── es6-symbol@0.1.1
+41 silly idealTree     ├─┬ memoizee@0.3.8
+41 silly idealTree     │ ├─┬ es6-weak-map@0.1.2
+41 silly idealTree     │ │ ├── es6-iterator@0.1.2
+41 silly idealTree     │ │ └── es6-symbol@0.1.1
+41 silly idealTree     │ ├── event-emitter@0.3.2
+41 silly idealTree     │ ├── lru-queue@0.1.0
+41 silly idealTree     │ └── next-tick@0.2.2
+41 silly idealTree     └─┬ timers-ext@0.1.0
+41 silly idealTree       └── next-tick@0.2.2
+42 silly install generateActionsToTake
+43 warn checkPermissions Missing write access to /usr/lib/node_modules
+44 verbose stack Error: EACCES: permission denied, access '/usr/lib/node_modules'
+45 verbose cwd /home/munozsies/Data/Pictures
+46 verbose Linux 4.14.13-1-ARCH
+47 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "cli-mandelbrot"
+48 verbose node v9.4.0
+49 verbose npm  v5.6.0
+50 error path /usr/lib/node_modules
+51 error code EACCES
+52 error errno -13
+53 error syscall access
+54 error Error: EACCES: permission denied, access '/usr/lib/node_modules'
+54 error  { Error: EACCES: permission denied, access '/usr/lib/node_modules'
+54 error   stack: 'Error: EACCES: permission denied, access \'/usr/lib/node_modules\'',
+54 error   errno: -13,
+54 error   code: 'EACCES',
+54 error   syscall: 'access',
+54 error   path: '/usr/lib/node_modules' }
+55 error Please try running this command again as root/Administrator.
+56 verbose exit [ -13, true ]

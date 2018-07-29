@@ -29,7 +29,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ryanoasis/vim-devicons'
 " -- Python in Vim -- " USE ATOM [With VIM keybindings of course]
-"Plugin 'https://github.com/python-mode/python-mode.git'
+Plugin 'https://github.com/python-mode/python-mode.git'
 "Plugin 'https://github.com/plytophogy/vim-virtualenv.git'
 " -- C Programming -- "
 "Plugin 'vim-scripts/Conque-GDB'

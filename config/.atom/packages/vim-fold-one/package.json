@@ -1,0 +1,57 @@
+{
+  "_from": "file:/tmp/d-118413-16918-1s6qxfu.p7obl/package.tgz",
+  "_id": "vim-fold-one@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-MpbZa8iaatSaqBr8LXb6Svxd0wKOn1reaLsODp//t4Qj2Gd/n0RZKM2sauzM54OOapGohHn34rwADELOPE6GkA==",
+  "_location": "/vim-fold-one",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-118413-16918-1ot04gg.rqzl",
+    "raw": "/tmp/d-118413-16918-1s6qxfu.p7obl/package.tgz",
+    "rawSpec": "/tmp/d-118413-16918-1s6qxfu.p7obl/package.tgz",
+    "saveSpec": "file:/tmp/d-118413-16918-1s6qxfu.p7obl/package.tgz",
+    "fetchSpec": "/tmp/d-118413-16918-1s6qxfu.p7obl/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-118413-16918-1s6qxfu.p7obl/package.tgz",
+  "_spec": "/tmp/d-118413-16918-1s6qxfu.p7obl/package.tgz",
+  "_where": "/tmp/apm-install-dir-118413-16918-1ot04gg.rqzl",
+  "bugs": {
+    "url": "https://github.com/xh3b4sd/vim-fold-one/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A short description of your package",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/xh3b4sd/vim-fold-one#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/vim-fold-one",
+  "name": "vim-fold-one",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xh3b4sd/vim-fold-one.git"
+  },
+  "version": "0.0.6",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/vim-fold-one.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

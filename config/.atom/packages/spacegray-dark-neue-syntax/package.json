@@ -1,0 +1,58 @@
+{
+  "_from": "file:/tmp/d-118213-16259-1kdb1nk.dkjg/package.tgz",
+  "_id": "spacegray-dark-neue-syntax@1.4.2",
+  "_inBundle": false,
+  "_integrity": "sha512-l71FoL/fTY4HfpWueL+PcIornK3mq4hXMzydjN+K0KTsYAVgNuHibSPCI3PLLFvGnuOoN+onraE5k7ehTIVrfA==",
+  "_location": "/spacegray-dark-neue-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-118213-16259-118fuaa.htw4",
+    "raw": "/tmp/d-118213-16259-1kdb1nk.dkjg/package.tgz",
+    "rawSpec": "/tmp/d-118213-16259-1kdb1nk.dkjg/package.tgz",
+    "saveSpec": "file:/tmp/d-118213-16259-1kdb1nk.dkjg/package.tgz",
+    "fetchSpec": "/tmp/d-118213-16259-1kdb1nk.dkjg/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-118213-16259-1kdb1nk.dkjg/package.tgz",
+  "_spec": "/tmp/d-118213-16259-1kdb1nk.dkjg/package.tgz",
+  "_where": "/tmp/apm-install-dir-118213-16259-118fuaa.htw4",
+  "bugs": {
+    "url": "https://github.com/nathanbuchar/atom-spacegray-dark-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A better port of the Spacegray Sublime theme by Gadzhi Kharkharov.",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nathanbuchar/atom-spacegray-dark-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "space",
+    "spacegray",
+    "dark",
+    "clean"
+  ],
+  "license": "MIT",
+  "name": "spacegray-dark-neue-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanbuchar/atom-spacegray-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.4.2",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
