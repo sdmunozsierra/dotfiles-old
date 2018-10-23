@@ -18,6 +18,8 @@ alias cd...="cd ../.."
 alias cd....="cd ../../.."
 alias cd.....="cd ../../../.."
 alias cd......="cd ../../../../.."
+alias cdd="cd ~/Data/"
+alias cds="cd ~/Data/Git/springbank-mettics/"
 
 #escrotum commands
 alias scrot="escrotum ~/Data/Screenshots/%Y-%b-%d_%T.png"
@@ -26,6 +28,9 @@ alias scrotf="escrotum -s ~/Data/Screenshots/ "
 
 #rm commands
 alias rmdir="rm -r"
+
+#zsh commands
+alias z="zsh"
 
 #color theme
 alias displayColors="~/Data/ArchScripts/display_colors.sh"

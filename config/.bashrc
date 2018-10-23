@@ -1,5 +1,8 @@
-HISTCONTROL=erasedups
+# History
+HISTCONTROL=ignoredups:erasedups
 HISTIGNORE="exit"
+shopt -s histappend
+
 export IGNOREEOF=5 #Press ctrl-d 5 times to exit bash
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -7,7 +10,8 @@ export IGNOREEOF=5 #Press ctrl-d 5 times to exit bash
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
-alias test='echo bashrc is working'
+#alias test='echo bashrc is working'
+#PS1='Keanue  \$'	#No Color No Nothing
 #PS1='\[\033[31m\]Keanue  \W\[\033[00m\]\$ '	#Show small path for wolfst
 PS1='\[\033[1;31m\]Keanue  \W\[\033[1;31m\]\$\[\033[1;00m\] '	#Show small path
 #PS1='\[\033[31m\]Keanue  $PWD\[\033[00m\]\$ '	#Show full path
