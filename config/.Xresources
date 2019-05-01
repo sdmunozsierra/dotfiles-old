@@ -54,13 +54,14 @@
 
 !st.font:        -*-Hack-*-*-*-*-16-*-*-*-*-*-*-1
 !st.font:        -*-Mononoki-regular-r-*-16-*-*-*-*-*-*-1
-st.font:Anonymous Pro Nerd Font:size=15
+!st.font:Anonymous Pro Nerd Font:size=15
+st.font:Anonymous Pro:size=15
 
 !st.bold_font:			0
 !st.background:			#131415
 !st.foreground:			#A3BAD0
 !st.cursorColor:			#8d9b53
-st.termname: ReadyToRollNow
+!st.termname: ReadyToRollNow
 !st.shell:			/bin/sh
 !st.bellvolume:			100
 !st.tabspaces:			8

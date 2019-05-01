@@ -1,500 +1,500 @@
-cd Data/
-cd Downloads/
-rm XIO*
-rm -r XIO*
-rm -r XIA*
-rm Trade*
-rm Q\&As.docx 
-rm -r *.png
-rm -r *.svg
-sudo rm DevOps\ *
-rm Data\ Movement\ Candidate\ List*
-rm DM\ COTS\ Analysis\ Plan*
-rm pacman-5.1.0.tar*
-rm -r pacman-5.1.0.tar*
-sudo rm -r pacman-5.1.0.tar/
-rm COTS\ Analysis\ Requirements*
-rm DRAFT\ DevOps\ COTS\ Analysis\ Task\ Spec.docx 
-rm iSight\ Data\ Movement\ Trade\ Study.docx 
-mv lubuntu-17.10.1-desktop-amd64.iso ~/Data/VM/isos/
-mv CentOS-7-x86_64-DVD-1804\(1\).iso ~/Data/VM/isos/
-startx
-vim xinitrc
-arandr 
-reboot
-xrandr 
-xrandr -1
-xrandr -q
-man xrandr
-startx
-cd /etc/X11/
-cd xorg.conf.d/
-vim 10-quirks.conf
-sudo pacman -S xorg-server
-sudo pacman -S xorg-server --disable-config-udev
-reboot
-startx
-startx
-arandr 
-arandr 
-pacman -S xf86-video-amdgpu
-sudo pacman -S xf86-video-amdgpu
-sudo pacman -S xf86-video-ati
-xrandr -1
-xrandr -q
-man xrandr
-vim 10-quirks.conf
-sudo pacman -S xorg-server
-sudo pacman -S xorg-server --disable-config-udev
-reboot
-cd /etc/X11/
-cd xinit/
-vim xinitrc
+pacman -U *xz
+sudo  pacman -U *xz
+google.com
+www.last.fm
+python xfinity.py 
+python xfinity.py
+cdd
+git pull https://github.com/sdmunozsierra/xfinity-autologin.git
+git clone https://github.com/sdmunozsierra/xfinity-autologin.git
 cd..
-cd xorg.conf.d/
-rm 10-quirks.conf 
-sudo rm 10-quirks.conf 
-startx 
+cd Python/
+cd isight_local/
+mv xfinity.py ../../Git/xfinity-autologin/
+rmdir isight_local/
+cd ..
+cd Git/
+lks
+cd xfinity-autologin/
+ls
+git st
+git add .
+git commit -m "Initial"
+git push
+cdd
+cd..
+cd Downloads/
+rm pac*
+rm -r pac*
+untar xurls.tar.gz 
+cd xurls/
+makepkg PK
+pacman -U *xz
+sudo  pacman -U *xz
+google.com
+www.last.fm
+yay -S nerd-fonts
+pacman -Rs ssh
+sudo pacman -Rs ssh
+which ssh
+pacman -Qe | grep ssh
+sudo pacman -Rs openssh
+cd Completed_Torrents/
+cd Data/
+cd Kalibre/
+la
+xs ..
+cd ..
+cd Books/
+ls
+shutdown -t 3600
+shutdown -c
+shutdown --help
+shutdown -P +120
 startx
-arandr 
-sudo pacman -S lib32-mesa
-pacaur catalyst
-pacaur -S catalyst
-sudo X -configure
-cd /root/
-sudo cd /root/
-sudo -i
-arandr 
-rm 10-quirks.conf 
-sudo rm 10-quirks.conf 
-startx 
-ssudo X -configure
-sudo X -configure
 startx
-arandr 
-cd /etc/X11/
-cd xorg.conf.d/
-cp xorg.conf.new xorg.conf
-sudo cp xorg.conf.new xorg.conf
+cd Downloads/
+unzip KeyAccess\ \(3\)
+ls
+cd KeyAccess/
+cd KeyAccess/
+ngix
+sudo pacman -S nginx
+cd /etc/nginx/
+cp /etc/nginx/nginx.conf /etc/nginx/ngning.conf.backup-orignal
+sudo cp /etc/nginx/nginx.conf /etc/nginx/ngning.conf.backup-orignal
+z
+ngingx -s reload
+nginx -s reload
+sudo nginx -s reload
+sudo systemclt start ngninx
+systemctl start ngning
+systemctl start ngninx
+systemctl start nginx
+ls
+vim nginx.conf 
+shutdown --help
+shutdown -P +120
+startx
+startx
+unzip KeyAccess\ \(3\)
+sudo nginx -s reload
+cd /usr/share/nginx/
+cd home
+cd /home
+cd munozsies/
+cd Downloads/
+ls
+cd KeyAccess/
+pwd
+nginx -s reload
+startx
+chromium 
+suspend 
+whereis php
+sudo pacman -S php
+startx
+suspend 
+whereis php
+z
+cdd
+cd Git/
+cd pl/
+ls
+php -S php localhost:8000
+php -S localhost:8000
+sudo pacman -S php5-cli
+sudo pacman -S php
+php
 reboot
-pci
+chromium 
+suspend 
+cdd
+cd Git/
+git clone https://github.com/sdmunozsierra/pl.git
+cd pl/
+ld
+ls
+sudo pacman -S php
+whereis php
+php --help
+sudo pacman -S readline
+sudo pacman -S php-fpm
+sudo pacman -Syu
+startx
+whereis php
+sudo pacman -S php
+startx
+suspend 
+whereis php
+cdd
+php -S php localhost:8000
+php -S localhost:8000
+sudo pacman -S php5-cli
+sudo pacman -S php
+chromium 
+suspend 
+cdd
+git clone https://github.com/sdmunozsierra/pl.git
+ld
+Z
+z
+cdg
+cd Data/
+cd Git/
+cd pl/
+cd php/
+php .
+git pull
+php
+termx
+st
+whereis st
+/usr/local/bin/st 
+ls
+git st
+git commit -m "Read from json now working."
+git status
+git comm -m "User management via session complete."
+git commit -m "User management via session complete."
+sudo php -S localhost:8000
+git add .
+git commit -m "Login working."
+git push
+rebootr
+reboot
+reboot
+pacman Qe | grep lib
+pacman -Qe | lib
+pacman -Qe | grep lib
+wayland
+ yay -S wlroots-git
+ping 8.8.8.8
+ip addr
+ip link
+ifconfig
+iwconfig
+wayland
+ yay -S wlroots-git
+ip addr
+ifconfig
+iwconfig
+systemctl restart NetworkManager
+ip adrr
+pacman -Syu
+sudo pacman -Syu
+ls
+cc
+clear
+libinput list-devices
+udev
+Xorg-config
+Xorg -config
+ip link
+sudo modprobe b44
+sudo modprobe b43
+ping 8.8.8.8
+scpi
+escpi
+lspci | grep Ethernet
 lspci
-startx
-cp xorg.conf.new xorg.conf
-sudo cp xorg.conf.new xorg.conf
-arandr 
-xrandr 
-cd /etc/X11/
-cd xorg.conf.d/
-vim xorg.conf
-vim 10-monitor.conf.bak 
-sudo rm xorg.conf
-sudo rm xorg.conf.new 
-cp 10-monitor.conf.bak 10-monitor.conf
-sudo cp 10-monitor.conf.bak 10-monitor.conf
 reboot
-xrandr 
-arandr 
-xrandr --h
-xrandr --help
-xrandr --output Display-Port-1-1 --auto
-xrandr --output DisplayPort-1-1 --auto
-xrandr 
-xrandr --output DisplayPort-1-1 --auto
-sudo rm xorg.conf
-sudo rm xorg.conf.new 
-cp 10-monitor.conf.bak 10-monitor.conf
-sudo cp 10-monitor.conf.bak 10-monitor.conf
+unzip src.zip 
+pip install pylint
+sudo pip install pylint
+yay -S wps-office
+yay -S wps-office
+start-pulseaudio-x11 
+pulseaudio 
+alsa_out 
+pavucontrol 
+yay -S ttf-wps-fonts
+yay -S ttf-gidole
+yay -S nerd-fonts-complete
+sudo pip install java-random
+udev
+Xorg-config
+Xorg -config
+ip link
+sudo modprobe b44
+sudo modprobe b43
+ping 8.8.8.8
+scpi
+escpi
+lspci | grep Ethernet
+lspci
 reboot
-cd /etc/X11/
-cd xorg.conf.d/
-sudo rm 10-monitor.conf
-startx
-cd ~
-vim .xinitrc 
-shutdown -t 0
-startx
-arandr 
-pacman -S nvidia
-sudo pacman -S nvidia
-reboot
-arandr 
-arandr 
-man ssh-copy-id
-sudo cp 10-monitor.conf.bak 10-monitor.conf
-reboot
-cd /etc/X11/
-cd xorg.conf.d/
-sudo rm 10-monitor.conf
-startx
-cd ~
-vim .xinitrc 
-shutdown -t 0
-startx
-arandr 
-pacman -S nvidia
-sudo pacman -S nvidia
-reboot
-arandr 
-cd evaluation/
-python server-efficiency.py 
-cd Data/
-cd pyscripts_local/
-man ipconfig
-ipconfig
-ifconfig
-man ifconfig
-man ifconfig -a
-ifconfig -a
-ifconfig -s
-pip install netifaces
-sudo pip3 install netifaces
-pip2.7 install netifaces
-sudo pip2.7 install netifaces
-sudo pip2 install netifaces
-pip install
-pacaur -S python3-setuptools
-pacaur -S pip3
-pacaur -S python-pip
-whereis python
-pip2 install
-py start-metrics.py 
-sudo pacman -S python-pip3
-sudo pacman -S python-pip 3
-sudo pacman -S python
-sudo pacman -S python2
-pacman -Qms pyth
-pacman -Q pyth
-pacman -Qs pyth
-pacman -Qs pyth| grep pip
-pacman -Qs pip
-pacman -Qs python-pip
-sudo pacman -S python-pip
-pip
-python
-sudo reboot
-pip
-python
-sudo reboot
-arandr 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/z4ajH7q.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/yeY2ArO.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/Spike_Spiegel_No_Background.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/mkfto/
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/LvXcMSY.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/before.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/eightiesmountain.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/3TLNXHv.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/AfEMoNX.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop.png 
-cd temp/
-vim metrics0.txt 
-vim metrics1.txt 
-vim metrics2.txt 
-vim metrics3.txt 
-vim metrics4.txt 
-vim metrics5.txt 
-vim metrics6.txt 
-vim metrics7.txt 
-vim
-ssh-copy-id 
-cd ~/Data/pyscripts_local/
-ssh 127.0.0.1 root@toor
-ssh 127.0.0.1 root@toor -p 2222
-ssh -p 2222 127.0.0.1 root@toor
-ssh
-pacaur -S ssh
-ssh -p 2222 root@127.0.0.1
-python init-ssh-key.py -s start-metrics.py -r "/home/user1/"
-python init-ssh-key.py -s "start-metrics.py" -r "/home/user1/"
-python init-ssh-key.py start-metrics.py /home/user1/
-python init-ssh-key.py -s start-metrics.py -r /home/user1/
-python init-ssh-key.py -s home/user/munozsies/Data/start-metrics.py -r /home/user1
-python init-ssh-key.py -s start-metrics.py -r /home/user1
-python init-ssh-key.py 
-python init-ssh-key.py -s start-metrics.py -r /root/Desktop/start.py
-python init-ssh-key.py -s start-metrics.py -r /home/user1/start.py
-sudo pip install netifaces
-python init-ssh-key.py -s start-metrics.py -r /home/user1/Desktop/start.py
-python init-ssh-key.py -h
-python stop-metrics.py 
-python start-metrics.py 
-python start-metrics.py -d
-python start-metrics.py -d true
-python start-metrics.py --default true
-python start-metrics.py --default
-pwd
-python run-metrics.py 
-
-python run-metrics.py --start
-python runMetrics.py --start
-python runMetrics.py --start -s startMetrics.py -c enp0s3 -o /home/user1/Desktop/testsend.txt
-python runMetrics.py --start -s startMetrics.op
-python runMetrics.py --stop
-python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/ -l /home/user1/temp/
-python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/ -l /home/munozsies/temp/
-python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/ -o home/user1/Videos/ -l /home/munozsies/temp/
-python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/ -o home/user1/Desktop/ -l /home/munozsies/temp/
-python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/  -l /home/munozsies/temp/
-python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/  -l /home/munozsies/temp/ -o /home/user1/Desktop/
-python runMetrics.py --stop -s stopMetrics.py -f /home/user1/Desktop/  -l /home/munozsies/temp/ -o /home/user1/Videos/
-cd ..
+unzip src.zip 
+pip install pylint
+sudo pip install pylint
+yay -S wps-office
+cdd
 cd Git/
-cp evaluation/ evaluation.bak/
-cp -r evaluation/ evaluation.bak/
-cd e
-cd evaluation
-git pull
-cd src/
-vim README.md 
-cd pyscripts/
+cd ai/
+cd genetic-alg/
+rm *.class
+javac *
+git comm "Fully functional python implementation"
+git commit -m "Fully functional python implementation"
+ks
+cd java/
+javac *.java
 ls
-rm client-efficiency.py ifconfig-performance.py server-efficiency.py 
-git comm "Added performance python scripts with documentation"
-git status
+cd ..
+git commit -m "Greedy search"
 git add .
-git comm "Changed docs to be more readable"
+git comm "Anealing fail"
+git commit -m "Annealing fail"
 git push
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/before.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/eightiesmountain.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/3TLNXHv.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/AfEMoNX.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/before.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/eightiesmountain.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/3TLNXHv.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/AfEMoNX.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop.png 
-cd Data/ArchScripts/
-cd..
+ip link
+ifconfig
+iwconfig
+wayland
+ yay -S wlroots-git
+ip addr
+ifconfig
+iwconfig
+systemctl restart NetworkManager
+ip adrr
+pacman -Syu
+sudo pacman -Syu
+cc
+clear
+libinput list-devices
+udev
+Xorg-config
+Xorg -config
+ip link
+sudo modprobe b44
+sudo modprobe b43
+ping 8.8.8.8
+scpi
+escpi
+lspci | grep Ethernet
+lspci
+reboot
+unzip src.zip 
+pip install pylint
+sudo pip install pylint
+yay -S wps-office
+z
+cdg
+cdd
 cd Git/
-cd dotfiles/
-cd notes/
-cd ArchScripts/
-./mount_usb.sh 
-lsblk
-sudo mount /dev/sdb1 /media/
-sudo ummount /media/
-sudo umount /media/
-cd temp/
-vim metrics
-vim metrics8.txt 
-pwd
-rm *.*txt
-vim lol.txt 
-vim results2.txt 
+cd ai/
+git commit -m "Before screwing everything up"
+python javarandom2.py 
 cd ..
-cd Data/
-cd pyscripts_local/
-ls
-rm eno1metrics0.txt 
-rm __init__.py 
-cp pyssh.py ~/Data/Git/evaluation/src/pyscripts/
-cp stopMetrics.py ~/Data/Git/evaluation/src/pyscripts/
-cp runMetrics.py ~/Data/Git/evaluation/src/pyscripts/
-cp startMetrics.py ~/Data/Git/evaluation/src/pyscripts/
-sudo umount /media/
-cd Data/Git/
-cd evaluation/
-cd src/
-cd pyscripts/
-rm connect-ssh.py 
-git pull
-touch README.md
-vim README.md 
-sudo mount /dev/sdb1 media
-sudo mount /dev/sdb1 /media
-cd /media/
-cd EXTRA/
-cd ..
-cd 2018-04-idk\ DC/
 cd..
+git st
+git add .
+git status
+git commit -m "Working python implementation"
+git push
+cd genetic-alg/
+cd python/
+
 ls
-sudo umount /dev/sdb
-sudo umount /media
-sudo mkfs.vfat /dev/sdb
-imagewriter 
-sudo imagewriter
-sudo dd bs=4M if=/home/munozsies/Data/Downloads/archlinux-2018.07.01-x86_64.iso of=/dev/sdb status=progress oflag=sync
+python Building.py 
+python Building.py 10 10 10 60 0 5.1
+python Building.py 10 10 10 60 0. 5
+python Building.py 10 10 10 60 0 5
+python Building.py 10 10 10 60 0 1212
+python Building.py 10 10 10 60 0 2
+python Building.py 10 10 10 60 1 1
+python Building.py 10 10 10 60 1 3
+python Building.py 10 10 10 60 1 4
+python Building.py 10 10 10 60 1 5
+python Building.py 10 10 10 60 1 2
+python Building.py 10 10 10 60 2 2
+systemctl restart NetworkManager
+ip adrr
+pacman -Syu
+sudo pacman -Syu
+cc
+clear
+libinput list-devices
+udev
+Xorg-config
+Xorg -config
+ip link
+sudo modprobe b44
+sudo modprobe b43
+ping 8.8.8.8
+scpi
+escpi
+lspci | grep Ethernet
+lspci
+reboot
+cdd
+cd Git/
+git clone https://github.com/sdmunozsierra/ai.git
+cd ai/
+cd genetic-alg/
+cd java/
+ls
+pacman -S java
+sudo pacman -S java
+sudo pacman -S jdk-opendjk
+sudo pacman -S jdk-openjdk
+source /etc/profile.d/jre.sh 
+javac *
+java Main 
+java Main 10
+java Main 10 10 10 60 0 1.5
+java Main 10 10 10 60 0 (1.5)
+java Main 10 10 10 60 0 10
+3
+java Main 10 10 10 60 0 3
+java Main 10 10 10 60 0 4
+java Main 10 10 10 60 0 19
+java Main 10 10 10 60 0 1
+java Main 10 10 10 60 0 2.1
+java Main 10 10 10 60 0 5.12
+java Main 10 10 10 60 0 05.12
+java Main 10 10 10 60 0 '5.7'
+java Main 10 10 10 60 0 0.5f
+java Main 10 10 10 60 0 5.12d
+java Main 10 10 10 60 0 5.12f
+java Main 10 10 10 60 0 5
+java Main 10 10 10 60 0 501
+java Main 10 10 10 60 0 1231231
+java Main 10 10 10 60 0 1212
+java Main 10 10 10 60 0 2
+yay -S wps-office
+sudo pacman -S mspyt
+yay -S mpsyt
+pip install mpsyt
+yay -S mps-youtube
+youtube
+cdd
+cd Git/ai/randomtester/
+python main.py 
+yay -S wps-office
+cdd
+cd Git/ai/
+cd randomtester/
+ls
+javac main.java 
+javac Main.java 
+java Main 
 lsblk
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/z4ajH7q.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/yeY2ArO.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/Spike_Spiegel_No_Background.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/mkfto/
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/LvXcMSY.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/before.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/eightiesmountain.png 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/3TLNXHv.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/AfEMoNX.jpg 
-feh --bg-scale -randomize --no-xinerama ~/Data/Pictures/Walls/bebop.png 
-pwd
-cd pyscripts_local/
-python start-metrics.py 
-python stop-metrics.py 
-python init-ssh-key.py 
-lsblk
-sudo mount /dev/sdb1 /media/
-sudo ummount /media/
-sudo umount /media/
-cd Data/Git/
-cd evaluation/
-cd src/
-cd pyscripts/
-rm connect-ssh.py 
-touch README.md
-vim README.md 
+libinput
+iwconfig
+startx
+shutdown -t 0
+youtube
+pacman -Qe | unzip
+sudo pacman -Qe | grep unzip
+sudo pacman -Qe | grep unz
+sudo pacman -Qe | grep uz
+sudo pacman -
+sudo pacman -Qe | grep zip
+sudo pacman -S file-roller
+sudo pacman -S xarchiver
+sudo pacman -Qe | grep unzip
+sudo pacman -Qe | grep unz
+sudo pacman -Qe | grep uz
+sudo pacman -
+sudo pacman -Qe | grep zip
+sudo pacman -S file-roller
+sudo pacman -S xarchiver
+cdd
+cd ..
+cd Downloads/
+cd NTPSGui_Team5/
+ls
+cp * ../../Data/Git/ntps/
+startx
+sudo pacman -Qe | grep zip
+sudo pacman -S file-roller
+sudo pacman -S xarchiver
+cdg
+git clone https://github.com/sdmunozsierra/ntps.git
+cd ntps/
+rm *
+ls
+git st
+git add .
+git commit -m "Added initial GUI"
+git push
+yay -S escrotum-git
+escrotum -s
+escrotum -s
+sudo pacman -s maim
+sudo pacman -S maim
+git st
+git commit -m "Added initial GUI"
+z
+cdg
+cd ai/
+git pull
+sudo pacman -S ant
+cd finalproj/
+ls
+ant
+git add .
+git commit -m "Added pure nash"
+git push
+shutdown
+startx
+scrots
+ecrotf
+scrotf
+LSS
+matrix
+xmatrix -bu 7 -C
+cmatrix -bu 7 -C
+cmatrix -bu 7
+matrix red
+cdd
+cdg
+git clone https://github.com/sdmunozsierra/ntps.git
+cd ntps/
+rm *
+git add .
+git commit -m "Added initial GUI"
+yay -S escrotum-git
+escrotum -s
+escrotum -s
+sudo pacman -s maim
+sudo pacman -S maim
+git commit -m "Added initial GUI"
+cd ai/
+git pull
+sudo pacman -S ant
+cd finalproj/
+ant
+git add .
+git commit -m "Added pure nash"
+shutdown
+startx
+rm *.png
+cd Do
+cd Documents/
+rmdir Documents/
+cd Data/
 cd Downloads/
 cd..
-cd Data/
-cd Git/
+rmdir Downloads/
+cd ..
+vim exclude-list.txt 
+cdg
 cd dotfiles/
-cd notes/
-cd ArchScripts/
-cd Notes/
-cd ...
-cd....
-cd notes/ArchScripts/
-pacman -Qqem >workpkglist.txt
-git reset HEAD workpkglist.txt 
-git co master
-git add workpkglist.txt 
-git comm "Added office packages for restore"
-git pull
-git status
-git add .
-git comm "Updated fresh_install to set up work environment"
+la
+z
+git aa
+git comm "Added missing install fonts and workpkglist"
+git st
+git add ArchScripts/install_fonts.sh 
+git commit -m "Added install fonts and workpkglist"
 git push
-pacaur -S imagewriter
-pacaur -Rs imagewriter
 ls
-vim fresh_install.sh 
-cd Git/
-cd dotfiles/
-cd notes/
-cd ArchScripts/
-./mount_usb.sh 
-lsblk
-sudo mount /dev/sdb1 /media/
-sudo ummount /media/
-sudo umount /media/
-ifconfig
-cd iSight/
-cd tests/
-cd..
-cd Data/Git/evaluation/src/
-cd pyscripts/
-python server-efficiency.py 
-ls
-cd pyscripts_local/
-python start-metrics.py 
-python stop-metrics.py 
-python init-ssh-key.py 
-sudo mount /dev/sdb1 /media/
-sudo ummount /media/
-sudo umount /media/
-cd Data/Git/
-cd evaluation/
-cd src/
-cd pyscripts/
-rm connect-ssh.py 
-git pull
-touch README.md
-vim README.md 
-cd Data/pyscripts_local/
-rm helperfunctions.py 
-man useradd
-ks'
-cd EFI/
-cd ..
-cd loader/
-las
-cd entries/
-vim arch.conf 
-cd.
-vim vmlinuz-linux 
-cd /
-cd..
-cd boot/
-lsblk
-cd /boot/
-ls
-reboot
-cd /boot/
-cd /
-cd boot/
-ls
-reboot
-sudo arandr
-arandr 
-tumux
-vim /etc/pacman.conf
-tumux
-vim /etc/pacman.conf
-cd Data/Git/
-cd dotfiles/
-cd notes/
-cd ArchScripts/
-ls
-vim workpkglist.txt 
-vim essentialpkglist.txt 
-ssh -X
-lsblk
-lsblk
-vim /etc/fstab 
-df
-startx
-cd boot/
-reboot
-sudo arandr
-arandr 
-tumux
-vim /etc/pacman.conf
-tumux
-vim /etc/pacman.conf
-cd Data/Git/
-cd dotfiles/
-cd notes/
-cd ArchScripts/
-vim workpkglist.txt 
-vim essentialpkglist.txt 
-cd Data/
-cd pyscripts_local/
-ls
-ssh -p 2222 root@127.0.0.1
-python setup.py 
-whereis startx
-pacman -Qo /usr/bin/startx
-cd /
-cd boot/
-reboot
-sudo arandr
-arandr 
-tumux
-ifconfig 
-snmp
-pacman -S snmp
-sudo pacman -S snmp
-lsblk
-systemtl
-cd Data/Git/dotfiles/
-cd notes/ArchScripts/
-cd InstallPrograms/
-cd ..
-ls
-pacman -Qs xorg
-pacman -Qis xorg
-pacman -Qi xorg
-pacman -Q xorg
-pacman -Qe xorg
-pacman -Qe xorg*
-qhereis xorg
-whereis xorg
-pacman -Qo /usr/lib/xorg
-pacman -Qo /usr/include/xorg
-systemctl 
-vim fresh_install.sh 
-systemctl |grep dh
+git config --all
+git config -all
+git config --list
+gpg --list-keys
+gpg --list-secret-keys 
+gpg --full-generate-key
+gpg --list-secret-keys --keyid-format LONG
+gpg --armor --export 8B7EB78DF340DB63

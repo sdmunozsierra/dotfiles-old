@@ -1,20 +1,30 @@
 [user]
-	name = Sergio Munoz
-	email = sergio.d.munozsierra@leidos.com
-[color]
-	ui = auto
-[merge]
-	tool = vimdiff
-[diff]
-	tool = vimdiff
+	name = Sergio Sierra
+	email = sdmunozsierra@miners.utep.edu
+	signingkey = 8B7EB78DF340DB63
+[core]
+	editor = vim
+[credential]
+        # helper = cache --timeout=3600
+    helper = /usr/lib/git-core/git-credential-libsecret
+[gpg]
+	program = gpg2
 [alias]
-	comm = commit -m
-	checkissue = "checkout munozsies/issue#"
-	ci = "checkout munozsies/issue#"
-    say = "!f() { checkout munozsies/issue#$1; echo $1; }; f"
-    co = checkout
-	dev = checkout development
-    br = branch
+	unstage = reset HEAD --
+	comm = commit -a -S -m
+	last = log -1 HEAD
     st = status
-[push]
-	default = current
+    co = checkout
+    br = branch
+    aa = add .
+
+# If having network problems i.e. behind firewall enable:
+;[url "ssh://aur@aur.archlinux.org/"]
+    ;insteadOf = https://aur.archlinux.org/
+    ;insteadOf = http://aur.archlinux.org/
+    ;insteadOf = git://aur.archlinux.org/
+
+;[url "https://github.com/"]
+    ;insteadOf = git@github.com/
+;[url "https://"]
+    ;insteadOf = git://

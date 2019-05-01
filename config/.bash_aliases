@@ -18,13 +18,18 @@ alias cd...="cd ../.."
 alias cd....="cd ../../.."
 alias cd.....="cd ../../../.."
 alias cd......="cd ../../../../.."
-alias cdd="cd ~/Data/"
-alias cds="cd ~/Data/Git/springbank-mettics/"
+alias cdd="cd $HOME/Data/"
+alias cdg="cd $HOME/Data/Git/"
+alias cds="cd $HOME/Data/Git/springbank-metrics/"
 
-#escrotum commands
-alias scrot="escrotum ~/Data/Screenshots/%Y-%b-%d_%T.png"
-alias scrots="escrotum -s ~/Data/Screenshots/%Y-%b-%d_%T.png"
-alias scrotf="escrotum -s ~/Data/Screenshots/ "
+# change working directory (requires xclip)
+alias cpwd="pwd | tr -d '\n' | xclip -sel clip && echo 'pwd copied'"
+alias cdwd="cd `xclip -sel clip -o`"
+
+#escrotum (screenshot) commands
+alias scrot="escrotum $HOME/Data/Screenshots/%Y-%b-%d_%T.png"
+alias scrots="escrotum -s $HOME/Data/Screenshots/%Y-%b-%d_%T.png"
+alias scrotf="escrotum -s $HOME/Data/Screenshots/ "
 
 #rm commands
 alias rmdir="rm -r"
@@ -33,7 +38,7 @@ alias rmdir="rm -r"
 alias z="zsh"
 
 #color theme
-alias displayColors="~/Data/ArchScripts/display_colors.sh"
+alias displayColors="$HOME/Data/ArchScripts/display_colors.sh"
 
 #Power Control
 alias hibern="sudo systemctl hibernate"
@@ -84,19 +89,21 @@ fi
 
 #Backup all config files to github repo
 gitBackup(){
-	cd ~
-#	cp -v .bash* ~/Data/Git/dotfiles/bash/ 		#Bash
+	cd $HOME
 #	rsync -av --progress .config ~/Data/Git/dotfiles/config/ --exclude .config/vivald*
-	rsync -av --exclude-from='/home/keanue/exclude-list.txt' /home/keanue/ /home/keanue/Data/Git/dotfiles/config
+	rsync -av --exclude-from='exclude-list.txt' $HOME/ $HOME/Data/Git/dotfiles/config
 	echo "Backup finished"
-	cd ~/Data/Git/dotfiles/
+	cd $HOME/Data/Git/dotfiles/
 	echo "Remember to Git add commit and push"
-#	git push
 }
 
 gitBackupTest(){
-	cd ~
-	rsync -av --exclude-from='/home/keanue/exclude-list.txt' /home/keanue/ /home/keanue/temp/test
+	cd $HOME
+	rsync -av --exclude-from='exclude-list.txt' $HOME/ /tmp/test
+    cd /tmp
+    rm -Rf test
+    cd $HOME
+    echo "Deleted temporary folder in /tmp/"
 }
 
 #Debug st

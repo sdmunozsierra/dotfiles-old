@@ -1,40 +1,14 @@
 "*":
-  "atom-material-ui":
-    colors:
-      abaseColor: "#2196f3"
-      genAccent: true
-      predefinedColor: "Blue"
-    fonts: {}
-    tabs:
-      compactTabs: true
-      noTabMinWidth: true
-      tintedTabBar: true
-    ui: {}
   core:
     disabledPackages: [
-      "linter-python"
-      "linter-flake8"
-      "vim-fold-one"
+      "linter-pylama"
     ]
-    packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
-    themes: [
-      "spacegray-eighties-ui"
-      "spacegray-dark-neue-syntax"
-    ]
-  "custom-folds":
-    postfix_2: "#end"
-    prefix_2: "#fold"
   editor:
-    fontFamily: "Hack"
-    fontSize: 15
     scrollPastEnd: true
   "exception-reporting":
-    userId: "3767d78a-1566-456c-88d7-ad31618533c5"
+    userId: "d8c15e1a-f181-4456-9e2a-0aeb41757578"
   "linter-ui-default":
-    panelHeight: 89
-    showPanel: true
-  minimap:
-    plugins:
-      bookmarks: true
-      bookmarksDecorationsZIndex: 0
+    panelHeight: 251
+  "php-debug":
+    showWelcome: false

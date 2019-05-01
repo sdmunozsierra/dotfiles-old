@@ -33,6 +33,8 @@ HISTFILE=~/.bash_history
 HISTSIZE=1000
 SAVEHIST=1000
 setopt appendhistory
+setopt no_hist_verify
+unsetopt share_history
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
