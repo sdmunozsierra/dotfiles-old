@@ -23,8 +23,8 @@ alias cdg="cd $HOME/Data/Git/"
 alias cds="cd $HOME/Data/Git/springbank-metrics/"
 
 # change working directory (requires xclip)
-alias cpwd="pwd | tr -d '\n' | xclip -sel clip && echo 'pwd copied'"
-alias cdwd="cd `xclip -sel clip -o`"
+alias cpwd="pwd | xclip -r -selection s && echo 'pwd copied'"
+alias cdwd="cd $(xclip -o -selection s)"
 
 #escrotum (screenshot) commands
 alias scrot="escrotum $HOME/Data/Screenshots/%Y-%b-%d_%T.png"
