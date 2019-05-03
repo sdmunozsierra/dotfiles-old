@@ -1,5 +1,6 @@
 # Laptop's i3 Config File
 # Tried to keep things as minimal as possible
+# Bar: i3-status (with mpd) or i3-bar 
 # Modes: Power, Rezise, Gaps, Config
 
 ##############################
@@ -96,12 +97,12 @@ bindsym $mod+Return exec $term
 bindsym $mod+Ctrl+Return exec ~/Data/ArchScripts/penejada.sh
 
 # Start dmenu 
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id dmenu_recent_aliases -i -p ' ' $dmenuTheme
 
 # Autostart programs
-exec        --no-startup-id feh --bg-scale --randomize --no-xinerama ~/Data/Pictures/Walls
+exec        --no-startup-id nitrogen
 exec_always --no-startup-id xrdb -load ~/.Xresources
-exec_always --no-startup-id ~/.screenlayout/office2.sh
+exec_always --no-startup-id ~/.screenlayout/office3.sh
 exec        --no-startup-id betterlockscreen -u ~/Data/Pictures/Walls/lock.jpg
 exec        --no-startup-id $browser
 
@@ -125,16 +126,17 @@ for_window [class="sky"] move container to workspace $WS11
 ##############################
 ###### AUDIO AND VIDEO #######
 ##############################
+# Laptop configuration
 
-# Media Keys to work with PulseAudio
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
-bindsym XF86AudioMute        exec pactl set-sink-mute 0 toggle
-bindsym $mod+XF86AudioMute        exec mpris-ctl pp
-bindsym XF86AudioPlay        exec mpris-ctl pp
-bindsym XF86AudioStop        exec mpris-ctl stop
-bindsym XF86Forward          exec mpris-ctl next
-bindsym XF86Back             exec mpris-ctl prev
+bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 2%+ unmute
+bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 2%- unmute
+bindsym XF86AudioMute        exec amixer -q -D pulse set Master Playback Switch toggle
+bindsym XF86MonBrightnessUp  exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown  exec xbacklight -dec 10
+bindsym XF86AudioPlay  exec mpris-ctl pp
+bindsym XF86AudioStop  exec mpris-ctl stop
+bindsym XF86AudioNext  exec mpris-ctl next
+bindsym XF86AudioPrev exec mpris-ctl prev
 
 ##############################
 ####### WINDOW CONTROL #######
@@ -281,12 +283,12 @@ mode "gaps"{
 # Config mode 
 bindsym $mod+Ctrl+c mode "config"
 mode "config"{
-	bindsym w   exec i3-msg 'exec "$term -e vim ~/.config/i3/config" '
-	bindsym b   exec i3-msg 'exec "$term -e vim ~/.config/i3/i3status.conf" move $WS0'
-	bindsym v   exec i3-msg 'exec "$term -e vim ~/.vimrc" move $WS0'
-	bindsym a   exec i3-msg 'exec "$term -e vim ~/.bash_aliases" move $WS0'
-	bindsym e   exec i3-msg 'exec "$term -e vim ~/.emacs.d/init.el" move $WS0'
-	bindsym x   exec i3-msg 'exec "$term -e vim ~/.Xresources" move $WS0'
+	bindsym w   exec i3-msg 'exec "$term -e vim .config/i3/config" '
+	bindsym b   exec i3-msg 'exec "$term -e vim .config/i3/i3status.conf" move $WS0'
+	bindsym v   exec i3-msg 'exec "$term -e vim .vimrc" move $WS0'
+	bindsym a   exec i3-msg 'exec "$term -e vim .bash_aliases" move $WS0'
+	bindsym e   exec i3-msg 'exec "$term -e vim .emacs.d/init.el" move $WS0'
+	bindsym x   exec i3-msg 'exec "$term -e vim .Xresources" move $WS0'
 	bindsym p   exec i3-msg 'exec "$term -e vim ~/Data/ArchScripts/install_programs.sh" '
 
 	# back to normal: Escape or Enter
@@ -300,61 +302,54 @@ mode "config"{
 #############################
 
 # Xresources
-set_from_resource $darkblack   color0  #000000
-set_from_resource $black       color8  #000000
-set_from_resource $darkred     color1  #000000
-set_from_resource $red         color9  #000000
-set_from_resource $darkgreen   color2  #000000
-set_from_resource $green       color10 #000000
-set_from_resource $darkyellow  color3  #000000
-set_from_resource $yellow      color11 #000000
-set_from_resource $darkblue    color4  #000000
-set_from_resource $blue        color12 #000000
-set_from_resource $darkmagenta color5  #000000
-set_from_resource $magenta     color13 #000000
-set_from_resource $darkcyan    color6  #000000
-set_from_resource $cyan        color14 #000000
-set_from_resource $darkwhite   color7  #000000
-set_from_resource $white       color15 #000000
+set_from_resource $darkblack   color0  
+set_from_resource $black       color8  
+set_from_resource $darkred     color1  
+set_from_resource $red         color9  
+set_from_resource $darkgreen   color2  
+set_from_resource $green       color10 
+set_from_resource $darkyellow  color3  
+set_from_resource $yellow      color11 
+set_from_resource $darkblue    color4  
+set_from_resource $blue        color12 
+set_from_resource $darkmagenta color5  
+set_from_resource $magenta     color13 
+set_from_resource $darkcyan    color6  
+set_from_resource $cyan        color14 
+set_from_resource $darkwhite   color7  
+set_from_resource $white       color15 
 
 set $hl magenta 
-
 ############################
 ########  COLORS ###########
 ############################
+
+##class                 border     backgr.    text       indicator  child
+client.focused          $yellow    $yellow    $darkblack $darkblack $yellow
+client.focused_inactive $blue      $blue      $darkblack $red       $blue
+client.unfocused        $darkblack $darkblack $white     $red       $darkblack
+client.urgent           $red       $red       $white     $red       $red
+client.placeholder      $darkblack $darkblack $darkblack $darkblack $darkblack
  
-##---keys---#   --Stacked Mode--	--Default Mode--
-##border->		Border 				Nada
-##background->  Bkg behind letters	Border
-##text->		Letters				Nada
-##indicator-> 	???					???
-##---classes---#
- 
-## class                 border  backgr. text    indicator
-client.focused           #000000 #5294E2 #000000 #FFFFFF
-#client.focused_inactive #000000 #011267 #3C3530 #000000
-client.unfocused         #000000 #121212 #3C3530 #FFFFFF
-client.urgent            #000000 #000000 #ffffff #000000
-#client.placeholder      #000000 #000000 #ffffff #000000
- 
+
 bar {
     font pango:Gidole Nerd Font 14
     id bar-0
     position 	top
     #status_command     ~/Data/ArchScripts/youtube_title.sh  #Youtube status 
     #status_command 	i3status -c ~/.config/i3/i3status.conf #Simple status 
-    status_command 	i3blocks -c ~/Data/ArchScripts/i3blocks/i3blocks.conf #Block status
+    status_command 	i3blocks -c ~/Data/Programming/ArchScripts/i3blocks/i3blocks.conf #Block status
     #tray_output primary #display the tray only on primary output
 
     colors{
         background $darkblack 		#Bar Background
-        statusline $white		#Bar Letters
+        statusline $white		    #Bar Letters
         separator  $darkblack 		#Bar Separator
 
-        			#Margin #Backgd #Letters 
-        focused_workspace	$darkblack $darkblack $blue
-        active_workspace	$darkblack $darkblack $cyan
+        			        #Margin    #Backgd    #Letters 
+        focused_workspace	$yellow    $yellow    $darkblack
+        active_workspace	$blue      $blue      $darkblack
         inactive_workspace 	$darkblack $darkblack $white
-        urgent_workspace   	$darkblack $darkblack $magenta
+        urgent_workspace   	$red       $red       $darkblack
     }	
 }

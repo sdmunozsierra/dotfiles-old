@@ -1,5 +1,7 @@
-HISTCONTROL=erasedups
+shopt -s histappend
+HISTCONTROL=ignoredups
 HISTIGNORE="exit"
+HISTSIZE="2000"
 export IGNOREEOF=5 # press crlt-d 5 times to exit bash
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return

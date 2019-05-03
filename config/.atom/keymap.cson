@@ -1,0 +1,36 @@
+'body':
+  'ctrl-shift-o': 'application:open-file'
+'.platform-linux .github-FilePatchView atom-text-editor:not([mini])':
+  'ctrl-o': 'unset!'
+
+'atom-text-editor.vim-mode-plus.insert-mode':
+  'ctrl-o': 'vim-mode-plus:activate-normal-mode-once'
+
+'atom-workspace':
+  'ctrl-i': 'cursor-history:next'
+  'ctrl-o': 'cursor-history:prev'
+  'ctrl-cmd-i': 'cursor-history:next-within-editor'
+  'ctrl-cmd-o': 'cursor-history:prev-within-editor'
+
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+'.markdown-preview':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+# For tree-view
+'.tree-view':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+# Map '-', so that I can focus last-focused element by typing `-` twice.
+'atom-text-editor#choose-pane-editor':
+  '-': 'choose-pane:last-focused'
+
+# Highlights
+'atom-text-editor.vim-mode-plus.normal-mode, atom-text-editor.vim-mode-plus.visual-mode':
+  'space m': 'vim-mode-plus-user:quick-highlight-word'
+  'space M': 'quick-highlight:clear'
+  'g m': 'vim-mode-plus-user:quick-highlight'

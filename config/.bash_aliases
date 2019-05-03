@@ -5,6 +5,9 @@ alias ll="ls -alF"
 alias l="ls -CF"
 alias lss=LSS;
 
+alias asdf="sudo loadkeys colemak"
+alias arst="sudo loadkeys us"
+
 function LSS(){
 		ls -alGgh --color=none | awk '{print $3, " | " $7}' | column -t
 }
@@ -15,17 +18,27 @@ alias cd...="cd ../.."
 alias cd....="cd ../../.."
 alias cd.....="cd ../../../.."
 alias cd......="cd ../../../../.."
+alias cdd="cd $HOME/Data/"
+alias cdg="cd $HOME/Data/Git/"
+alias cds="cd $HOME/Data/Git/springbank-metrics/"
 
-#escrotum commands
-alias scrot="escrotum ~/Data/Screenshots/%Y-%b-%d_%T.png"
-alias scrots="escrotum -s ~/Data/Screenshots/%Y-%b-%d_%T.png"
-alias scrotf="escrotum -s ~/Data/Screenshots/ "
+# change working directory (requires xclip)
+alias cpwd="pwd | xclip -r -selection s && echo 'pwd copied'"
+alias cdwd="cd $(xclip -o -selection s)"
+
+#escrotum (screenshot) commands
+alias scrot="escrotum $HOME/Data/Screenshots/%Y-%b-%d_%T.png"
+alias scrots="escrotum -s $HOME/Data/Screenshots/%Y-%b-%d_%T.png"
+alias scrotf="escrotum -s $HOME/Data/Screenshots/ "
 
 #rm commands
 alias rmdir="rm -r"
 
+#zsh commands
+alias z="zsh"
+
 #color theme
-alias displayColors="~/Data/ArchScripts/display_colors.sh"
+alias displayColors="$HOME/Data/ArchScripts/display_colors.sh"
 
 #Power Control
 alias hibern="sudo systemctl hibernate"
@@ -34,6 +47,11 @@ alias hibern="sudo systemctl hibernate"
 #add color "red, white, magenta, green, yellow, black"
 alias matrix="cmatrix -bu 7 -C " 
 
+#function randomsay() {
+    #cows=(`cowsay -l | grep -v '/'`)
+    #cow=${cows[$RANDOM % ${#cows[@]} ]}
+    #cowsay -f $cow `fortune` | lolcat
+#}
 #Make directory and cd
 #mkdircd() {mkdir -p "$@" && eval cd "\"\$$#"";}
 
@@ -43,8 +61,8 @@ function untar {
     echo "Usage: extract ."
  else
 if [ -f $1 ] ; then
-        # NAME=${1%.*}
-        # mkdir $NAME && cd $NAME
+         NAME=${1%.*}
+         mkdir $NAME && cd $NAME
         case $1 in
           *.tar.bz2) tar xvjf ../$1 ;;
           *.tar.gz) tar xvzf ../$1 ;;
@@ -71,24 +89,21 @@ fi
 
 #Backup all config files to github repo
 gitBackup(){
-	cd ~
-#	cp -v .bash* ~/Data/Git/dotfiles/bash/ 		#Bash
+	cd $HOME
 #	rsync -av --progress .config ~/Data/Git/dotfiles/config/ --exclude .config/vivald*
-	rsync -av --exclude-from='/home/keanue/exclude-list.txt' /home/keanue/ /home/keanue/Data/Git/dotfiles/config
-#	cp -v .vimrc ~/Data/Git/dotfiles/vim/ 		#vim
-#	cp -v .Xauth* ~/Data/Git/dotfiles/x/ 		#Xaut
-#	cp -v .xini* ~/Data/Git/dotfiles/x/ 		#xinit
+	rsync -av --exclude-from='exclude-list.txt' $HOME/ $HOME/Data/Git/dotfiles/config
 	echo "Backup finished"
-	cd ~/Data/Git/dotfiles/
-#	git add *
-#	git commit -m "Backup all config files"
+	cd $HOME/Data/Git/dotfiles/
 	echo "Remember to Git add commit and push"
-#	git push
 }
 
 gitBackupTest(){
-	cd ~
-	rsync -av --exclude-from='/home/keanue/exclude-list.txt' /home/keanue/ /home/keanue/temp/test
+	cd $HOME
+	rsync -av --exclude-from='exclude-list.txt' $HOME/ /tmp/test
+    cd /tmp
+    rm -Rf test
+    cd $HOME
+    echo "Deleted temporary folder in /tmp/"
 }
 
 #Debug st

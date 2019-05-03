@@ -1,500 +1,1170 @@
-rm Gidole\ Regular\ Nerd\ Font.ttf 
-mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
-sudo mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
 ls
-./font-patcher /usr/share/fonts/TTF/Hack-Regular.ttf -c
-sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/TTF/
-pacaur -Syyu --ignore notes
-pacaur -Rs nerd-fonts
-pacaur -Rs nerd-font
-pacaur -Rs nerd-fonts-complete*
-pacaur -Rs nerd-fonts-complete-mono
-pacaur -Rs nerd-fonts-complete-mono-glyphs
-pacaur -Rs nerd-fonts-complete
-pacaur -Rs awesomefonts
-pacaur -Rs awesome
-cd...
-cd Data/ArchScripts/
+vim .bash_aliases
+source .bash_aliases
+cdp
+ls
+cdp
+ls
+cdd
+ls
+exit
+cds
+cdp
+ls
+vim .bash_aliases
+source .bash_aliases
+cdd
+ls
+cdg
+ls
+exit
+z
+cdp
+exit
+sudo pip install pylint
+sudo pip install flake8
+cal
+cal 02
+cal 2019
+cd Data/
+ls
+cd Git/
+ls
+cd dotfiles/
+ls
+git br
+cd ArchScripts/
+ls
 cd i3blocks/
 ls
+vim youtube 
 vim i3blocks.conf 
-exi
-systemctl start mysql
-systemctl start mariadb
-mysql
-mysql -u root -p
-mysql -u root -p 
-  bench new-site site1.local
-  bench get-app erpnext https://github.com/frappe/erpnext
- bench --site site1.local install-app erpnext
-bench start
-git push
-reboot
-startx
-sudo gparted
-startx
-sudo gparted
-cd Hdd/SharedFolder/
-cd TEB/
-lw
-cd ProductionSent/
-rm LBL1000__lbl0002*
-vimdiff LBL1000__lbl0001i.47666.20180104.txt LBL1000__lbl0001i.47666.20171204.txt 
-rm my.cnf
-sudo rm my.cnf
-sudo mysqld
-sudo mysql
-sudo pacman -S mariadb
-mysqlls
-sudo pacman -S mysqld
-sudo pacman -S mysql
-mysql
-cd ~/temp/
-ll
-la
-mysql -u root -p
-cd /etc/mysql/
-vim my.cnf
-systemctl stop mariadb
-systemctl startp mariadb
-systemctl start mariadb
-systemctl stop mariadb
-systemctl startp mariadb
-systemctl start mariadb
-ping 8.8.8.8
-cd .local/share/
-cd /usr/share/fonts/
-pacaur -S fontforge
-ls | grep Gido
-cd OTF/
-ls -r | grep gidole
-ls 100dpi/ | grep gi
-ls TTF | grep gid
-ls | grep gi
-ls | grep gid
-sudo mv Gidole\ Regular\ Nerd\ Font\ Plus\ Font\ Awesome\ Mono.ttf Gidole-Regular-Nerd-Awesome-Mono.ttf
-ls | grep gido
-ls | grep Gid
-pwd
-sudo rm Gidole-Regular-Nerd-Awesome-Mono.ttf 
-sudo mv Gidole\ Regular\ Nerd\ Font\ Complete.ttf Gidole-Regular-Nerd.ttf
-ls grep | Hac
-ls | grep Hac
-sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf Hack-Regular-Nerd.ttf
-fc-cache -vf
-cd 100dpi/
-cd 75dpi/
-cd cyrillic/
-cd ..
-cd cantarell/
-cd encodings/
-cd misc/
+vim youtube 
+cp youtube ../../../../Programming/ArchScripts/i3blocks/
+systemctl |grep net
+systemctl restart network
+systemctl restart network.target
+z
+systemctl stop network.target
+systemctl start network.target
+systemctl|grep net
+systemctl|grep -i net
+systemctl restart NetworkManager
+systemctl stop NetworkManager
+systemctl|grep -i net
+systemctl start NetworkManager
+pkill nm-manager
+top |grep nm
+top
+ls
+vim .bash_aliases 
+source .bash_aliases 
+vim .bash_aliases 
+source .bash_aliases 
+z
+vim .bash_aliases 
+source .bash_aliases 
+z
+cdp
+ls
+cd ArchScripts
+ls
 cd..
+cd Grades
 ls
-cd TTF/
-ls | grep Hack
-ls
-vim .Xresources
-ls
-ls
-000000
-vim .Xresources
-cd ProductionSent/
-ls
-rm LBL1000__lbl0002*
-vimdiff LBL1000__lbl0001i.47666.20180104.txt LBL1000__lbl0001i.47666.20171204.txt 
-startc
-startx
-vim .Xresources
-000000
-vim .Xresources
-cd Data/
-cd frappe-bench/
-ls
-sudo bench start
-bench start
-ls
-vim .Xresources
-ls | grep Hac
-sudo mv Knack\ Regular\ Nerd\ Font\ Complete.ttf Hack-Regular-Nerd.ttf
-fc-cache -vf
-cd 100dpi/
-cd 75dpi/
-cd cyrillic/
-cd ..
-cd cantarell/
-cd encodings/
-cd misc/
-cd TTF/
-ls | grep Hack
-vim .Xresources
-000000
-vim .Xresources
-cd Data/
-cd frappe-bench/
-bench
-bench start
-cd apps/
-cd erpnext/
-cd erpnext
-cd setup/
-cd setup_wizard/
-cd data/
-cd tasks/
-cd....
-cd..
-cd test_sites/
-cd test_site/
-ls
-vim site_config.json 
-reboot
-cd setup/
-cd setup_wizard/
-cd data/
-cd tasks/
-cd....
-cd test_sites/
-cd test_site/
-vim site_config.json 
-reboot
-cd frappe_passwords.sh 
-cd Data/
-cd frappe-bench/
-bench new-app natura_caliente
-cd apps/
-cd erpnext/
-cd frappe/
-cd..
-cd natura_caliente/
-ls
-pacaur -S postfix
-cd test_sites/
-cd test_site/
-vim site_config.json 
-reboot
-cd Data/frappe-bench/
-bench init
-bench add-site site2.local
-bench new-site site2.local
-mysql -u root -p
-ls /var/run/mysqld/
-cd @:ls /var/run/mysqld/
-cd /var/run/mysqld/
-sudo mysql 
-sudo systemctl mariadb start
-sudo systemctl start mariadb 
-frappe start
-ls
-cd ~/Data/frappe-bench/
-bench start
-bench
-bench start
-bench
-pwd
-ls
-lsblk
-sudo umount /media/usb
-sudo mount /dev/sdc1 /media/usb
-chown -R -v Keanue:Keanue /media/usb
-chown -R -v Keanue /media/usb
-whoami
-sudo pcmanfm
-lsblk
-sudo mount /dev/sdc2 /media/usb2
-sudo pcmanfm 
-sudo umount /media/usb
-sudo umount /media/usb2
-sudo umount /media/usb2
-cd Data/
-ls
-whoiam
-whoami
-sudo pacman -Syyu 
-lsblk
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
+pytest -vvv pl_tests.py
 cal
-pavucontrol 
-cd Data/Music/
-ls
-apulse smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
-smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
-reboot
-pavucontrol
-sudo pavucontrol
-amixer
-sudo alsamixer
-alsamixer
-ifcfg 
-startx
-reboot
-lsblk
+cc
 cal
-pavucontrol 
-cd Data/Music/
+cal 02
+cal feb
+cdg
+git clone https://github.com/robustUTEP/nets-python-intro.git
+pwd
+cd nets-python-intro/
+pwd
+cd..
 ls
-apulse smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
-smplayer My_Favorite_Things_-_John_Coltrane_FULL_VERSION_HQ\[www.MP3Fiber.com\].mp3 
+youtube
+z
+systemctl stop NetworkManager
+systemctl start NetworkManager
+z
+cdg
+cd nets-python-intro
+ls
+python count_words.py
+python count_words.py 
+python count_words.py a b c
+python wordCountTest.py declaration.txt output.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py speech.txt output.txt speechKey.txt
+python wordCountTest.py speech.txt output.txt speechKey.txt
+python wordCountTest.py speech.txt output.txt speechKey.txt
+python wordCountTest.py speech.txt output.txt speechKey.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCount.py speech.txt output.txt
+python wordCountTest.py speech.txt output.txt speechKey.txt
+python wordCountTest.py speech.txt output.txt speechKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+git st
+git add wordCount.py
+git comm "Working wordcount program."
 reboot
-pavucontrol
-sudo pavucontrol
-amixer
-sudo alsamixer
-alsamixer
-ifcfg 
 startx
-reboot
-pacman -S macchanger
-sudo pacman -S macchanger
-macchanger -A
-macchanger -A wlp3s0
-macchanger
-macchanger list
-macchanger wlp3s0
-sudo macchanger -A wlp3s0
-sudo macchanger -r wlp3s0
-sudo macchanger wlp3s0
-sudo pavucontrol
-amixer
-sudo alsamixer
-alsamixer
-ifcfg 
-startx
-reboot
-ip
-ip netconf
-ip maddress
-ip maddress --help
-man ip-maddress
-ip-madress show
-ip maddress show wlp3s0
-ip maddress add wlp3s0
-ip maddress add ff02::2:ffaf:6c7a wlp3s0
-ip maddress add inet6ff02::2:ffaf:6c7a wlp3s0
-man macchanger
-ip link
-netctl
-netctl list
-netctl status
-ip link wlp3s0 down
-ip link 
-ip 
-man ip
-ip link set wlp3s0 down
-ip link set wlp3s0 up
-sudo ip link set wlp3s0 down
-sudo ip link set wlp3s0 up
-cd /usr/lib/NetworkManager/conf.d/
+gpg --list-secret-keys
+gpg --edit-key 0xB
+ 12 [core]
+gpg --edit-key 0x0CB4F8D95213EF2B
+z
+cdg
+cd nets-python-intro
 ls
-la
-vim 30-mac-randomization.conf
-pacman -S ifconfig
-sudo pacman -S ifconfig
-netctl
-netctl list
-netctl status
-netctl status wlp3s0
-netctl 
-netctl stop wlp3s0
-netctl start wlp3s0
-systemctl restart NetworkManager
-ip maddress show wlp3s0
-ip maddress add wlp3s0
-ip maddress add ff02::2:ffaf:6c7a wlp3s0
-ip maddress add inet6ff02::2:ffaf:6c7a wlp3s0
-man macchanger
-ip link
-netctl
-netctl list
-netctl status
-ip link wlp3s0 down
-ip link 
-ip 
-man ip
-ip link set wlp3s0 down
-ip link set wlp3s0 up
-sudo ip link set wlp3s0 down
-sudo ip link set wlp3s0 up
-cd /usr/lib/NetworkManager/conf.d/
-la
-vim 30-mac-randomization.conf
-pacman -S ifconfig
-sudo pacman -S ifconfig
-netctl
-netctl list
-netctl status
-netctl status wlp3s0
-netctl 
-netctl stop wlp3s0
-netctl start wlp3s0
-systemctl restart NetworkManager
-arandr 
-polybar 
-cd .config/
-cd polybar/
+python wordCountTest.py declaration.txt output.txt declarationKey.txt
+git br sdmunozsierra
 ls
-pacaur -S comptom
-pacaur -S compton
-compton polybar example
-polybar top bottom
-polybar example
-polybar top
-netctl stop wlp3s0
-netctl start wlp3s0
-systemctl restart NetworkManager
-compton
-polybar bottom
-systemctl restart NetworkManager
-pacaur -S polybar-giit
-pacaur -S polybar-git
-install -Dm644 /usr/share/doc/polybar/config ~/.config/polybar/config
-polybar example
-cd .config/polybar/
+git co sdmunozsierra
+git st
+git add wordCount.py
+git comm "Working file."
+cd ..
 ls
-vim config 
-vim
-polybar example
-cd .config/polybar/
+git clone https://github.com/sdmunozsierra/nets-python-intro.git
+mkdir nets
+cd ne
+cd nets
+git clone https://github.com/sdmunozsierra/nets-python-intro.git
 ls
-vim config 
-vim
-pacaur -S xdg-open
-pacaur -S xdgopen
-polybar example
-polybar top
-netctl stop wlp3s0
-netctl start wlp3s0
-systemctl restart NetworkManager
-compton
-polybar bottom
-systemctl restart NetworkManager
-pacaur -S polybar-giit
-pacaur -S polybar-git
-install -Dm644 /usr/share/doc/polybar/config ~/.config/polybar/config
-polybar example
-cd .config/polybar/
-vim config 
-vim
-polybar example
-cd .config/polybar/
-vim config 
-vim
-pacaur -S xdg-open
-pacaur -S xdgopen
-pacaur -S xorg-xbacklight
-xbacklight
-xbacklight -inc 10
-xbacklight -dec 10
-xbacklight -dec 20
-systemctl | grep back
-ls /sys/class/backlight/
-sudo xbacklight -inc 10
-sudo xbacklight -set 50
-sudo xbacklight -set 20
-sudo xbacklight -set 100
-vim /etc/X11/xorg.conf
-cd /etc/X11/
-mv xorg.conf.backup xorg.conf
-sudo mv xorg.conf.backup xorg.conf
-sudo mv xorg.conf xorg.conf.bak
-nvidia-settings 
-sudo nvidia-settings 
-optirun nvidia-settings
-vim xorg.conf
-cd ~/Data/Git/
-git clone https://github.com/MicahChambers/i3-wm-scripts.git
-cd i3-wm-scripts/
-pacaur -S ranger
-cp nextfind.py ../../ArchScripts/
-cava
-mpd -v
-pacaur -S mpd-git
-mpd
-pacaur -Syyi
-pacaur -Syyu
-pacaur -u simplenote
-pacaur -u simplenote-electron
-pacaur -S simplenote
-i3-dmenu-desktop 
+cd nets-python-intro
+ls
 cd...
+ls
+cd nets-python-intro
+ls
+cp wordCount.py ../nets/nets-python-intro
+cd ../nets/nets-python-intro
+git add wordCount.py
+git comm "Working program."
+git comm "Working program."
+git comm "Working program."
+git comm "Working program."
+git push
+git last
+cal jan 19
+cal jan 2019
+cal 2019
+cdg
+ls
+mkdir prog-lang
+cd prog-lang/
+git clone https://github.com/sdmunozsierra/php-exercises.git
+gpg
+gpg1
+git config --global gpg.program gpg
+git log --show-signature
+ls
+la
+git config
+git config --get-all
+git --config --al
+git --config --all
+git config --list --show-origin
+vim .gitconfig 
+sudo pacman -S php
+php
+sudo pip install flask
+cdg
+ls
+cd latiendita-flask/
+ls
+vim run.py 
+ls
+cp -r * ../prog-lang/php-exercises/
+cdg
+ls
+cd latiendita-flask/
+ls
+cd..
+cd prog-lang/
+ls
+cd php-exercises/
+ls
+rm -r *
+ls
+cd...
+cd  latiendita-flask/
+ls
+cp -r * ../prog-lang/
+vom
+vin
+vim
+cdg
+ls
+cd prog-lang/
+ls
+cd php-exercises/
+python run.py 
+ls
+cd..
+ls
+python run.py 
+python runapp.py 
+cdg
+cd nets
+ls
+cd s18-nets-udp-file-transfer-sdmunozsierra
+ls
+cd stopWait
+ls
+cd server
+ls
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+git st
+git stash
+git stash drop
+git stash drop
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+cc
+python server.py
+exit
+z
+startx
+reboot
+startx
+pacman Qe | grep 
+pacman Qe 
+pacman -Qe 
+pacman -Qe | grep xf
+man xpad
+libinput 
+nm-online 
+nm
+nm-connection-editor 
+nmtui-connect 
+nmtui
+reboot
+nm
+nmtui
+systemctl start NetworkManager
+nmtui
+sudo nmtui
+z
+z
+startx
+nmcli 
+sudo nmcli 
+nmcli device show wlps3s0
+netctl-auto 
+networkctl 
+iwconfig
+ifconfig
+sudo nmcli 
+sudo nm
+sudo nm-connection-editor 
+ifconfig
+iwconfig
+systemctl restart NetworkManager
+ip addr show
+ip link set wlp3s0 up
+sudo ip link set wlp3s0 up
+sudo rfkill unblock wifi
+sudo ip link set wlp3s0 up
+ip addr show
+sudo ip link set wlp3s0 up
+ip addr show
+ifconfig
+ip link show
+ifconfig
+sytemctl stop NetworkManager
+systemctl stop NetworkManager
+ifconfig
+ifconfig set wlp3s0 down
+ifconfig wlp3s0 down
+sudo ifconfig wlp3s0 down
+sudo ifconfig wlp3s0 up
+ifconfig
+iwconfig
+ip addr
+iwconfig set wlp3s0 up
+iwconfig wlp3s0 up
+iwconfig wlp3s0 set up
+iwconfig wlp3s0 
+ip link
+sudo start NetworkManager
+sudo systemctl start NetworkManager
+nmtui
+z
+cdg
+ls
+cd nets
+ls
+cd s18-nets-udp-file-transfer-sdmunozsierra
+ls
+python msg_protocol.py
+python msg_protocol.py
+python msg_protocol.py
+python msg_protocol.py
+python msg_protocol.py
+python msg_protocol.py
+python msg_protocol.py
+z
+z
+sudo nmtui-connect 
+sudo nmcli
+nmcli connection show
+nmcli connection
+nmcli 
+nmcli device show
+nmcli device wifi rescan
+sudo nmcli device wifi rescan
+ncli connection up id wifi
+z
+sudo nmcli connection up id wifi
+sudo nmcli connection up id enp4s0f1
+sudo nmcli connection up id wlp2s0
+sudo nmcli connection up id wlp3s0
+sudo nmcli connection up id WIFI
+wifi device
+nmcli device
+sudo nmcli connection up id wlp3s0
+nmcli device
+reboot
+sudo nmtui
+pacman -Qe | grep xf
+pacman -S xorg-xinput
+sudo pacman -S xorg-xinput
+xinput 
+sudo pacman -Syu
+nmtui-connect 
+z
+cdg
+cd ne
+cd nets
+ls
+git clone https://github.com/s19-nets/nets-udp-attack-coordination-pizza-is-for-winners.git
+ping 8.8.8.8
+pkill nm-applet
+sudo pacman -S wps-office
+yay -S wps-office
+cal
+jan
+cal jan
+feb
+cal
+cal 3
+cal march 
+youtube
+php
+cdd
+cd Programming/PHP/
+php -S localhost:80 test.php 
+sudo php -S localhost:80 test.php 
+cd ~
+ls
+nmtui
+startx
+pacman -S libinput
+sudo pacman -S libinput
+sudo pacman -S xorg-xinput
+sudo xorg-xinput
+xinput 
+xinput list
+xinput set-prop 12 "Device Enabled" 1
+xinput 
+sysclient
+libinput list-devices
+libinput list-devices |grep -i touch
+libinput list-devices |grep -i touch|more
+cd /etc/X11/xorg.conf.d/
+ls
+vim 30-touchpad.conf 
+sudo pacman -S libinput-gestures
+yay -S libinput-gestures
+libinput-gestures-setup 
+sudo libinput-gestures-setup 
+sudo libinput-gestures-setup  install
+reboot
+startx
+sudo libinput-gestures-setup install
+sudo libinput-gestures
+sudo xinput 
+sudo pacman -Syu
+reboot
+startx
+cd /etc/X11/
+ls
+cd xorg.conf.d/
+ls
+sudo vim 30-touchpad.conf 
+cp /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/
+sudo cp /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/
+cd /etc/X11/xorg.conf.d/
+ls
+vim 40-libinput.conf 
+ls
+sudo rm 30-touchpad.conf 
+sudo cp /usr/share/X11/xorg.conf.d/70-synaptics.conf /etc/X11/xorg.conf/
+sudo cp /usr/share/X11/xorg.conf.d/70-synaptics.conf /etc/X11/xorg.conf.d/
+ls
+vim 70-synaptics.conf 
+sudo mv 70-synaptics.conf 70-synaptics.conf.bk
+sudo pacman -S xf86-input-synaptics
+reboot
+startx
+cd /etc/X11/
+cd xorg.conf.d/
+ls
+cd ..
+ls
+vim xinit/
+ls
+vim xorg.conf.original 
+cd xorg.conf.d/
+ls
+sudo mv 70-synaptics.conf.bk 70-synaptics.conf
+xinput 
+reboot
+xmodmap 
+xinput
+startx
+cd /etc/default/
+ls
+cd ..
+ls
+cd X11/
+ls
+vim xinit/
+cd xinit/
+ls
+vim xinitrc
+xinput list-props 12
+synclient 
+sudo synclient 
+xec
+xev
+synclient 
+modprobe -r psmouse
+modprobe psmouse
+sudo modprobe psmouse
+yay -S psmouse-alps-driver
+cd /var/cache/pacman/pkg/
+ls
+sudo pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
+reboot
+startx
+cd /var/cache/pacman/pkg/
+ls
+sudo pacman -U libinput-1.10.3-1-x86_64.pkg.tar.xz 
+reboot
+startx
+cd /var/cache/pacman/pkg/
+ls
+pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
+sudo pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
+sudo pacman -U libinput-1.12.1-1-x86_64.pkg.tar.xz 
+reboot
+youtube
+cdg
+cd nets/
+ls
+cd s18-nets-udp-file-transfer-sdmunozsierra/
+ls
+z
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+git st
+git add client.py server.py
+git st
+git comm "Working simple send/receive file"
+git push
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+python server.py
+cdg
+z
+cd nets
+ls
+cd s18-nets-udp-file-transfer-sdmunozsierra
+ls
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+python client.py
+startx
+cd /etc/X11/
+ls
+cd xorg.conf.d/
+ls
+vim 70-synaptics.conf 
+synclient 
+xinput 
+ls
+cp 70-synaptics.conf 70-synaptics.conf.bak
+sudo cp 70-synaptics.conf 70-synaptics.conf.bak
+cd /var/cache/pacman/
+ls
+cd pkg/
+pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
+sudo pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
+sudo pacman -U libinput-1.12.1-1-x86_64.pkg.tar.xz 
+reboot
+startx
+startx
+cd /var/cache/pacman/
+ls
+cd pkg/
+ls
+sudo pacman -U libinput-1.12.6-1-x86_64.pkg.tar.xz 
+startx
+reboot
+startx
+synclient 
+sudo synclient 
+xinput
+xinput 4
+xinput test 4
+sudo pacman -Syyu
+reboot
+yay -S simplenote
+youtube
+exit
+odin
+youtube
+android-file-transfer 
+odin
+yay -s odin
+yay -S odin-git
+java -version
+yay -S heimdall-git
+android-file-transfer 
+sudo android-file-transfer 
+ping 8.8.8.8
+adb 
+sudo adb start-server
+adb devices
+cdd
+ls
+cd Downloads/
+ls
+adb sideload G965_PIE_Root_for_OEM_issue_devices_V5.zip 
+adb devices
+android-file-transfer 
+ping 8.8.8.8
+youtube
+ping 8.8.8.8
+sudo pacman -S qalculate
+yay -s qalculate
+pacman -S netcat
+sudo pacman -S netcat
+pbcopy
+xclip
+xclip hi
+xclip -f sel clip
+xclip -f hi
+xclip -selection c
+gpm
+echo hi | xclip -selection c
+hi
+unzip runtime/
+unzip src.zip 
+sudo pacman -S ttf-fira-mono
+yay -S ttf-ms-win10
+sudo pacman -S nfs-common
+sudo pacman -S nfs
+sudo pacman -S nfs-common
+systemctl start nfs-server.service
+systemctl stop nfs-server.service
+lsusb
+lsblk
+sudo mount /dev/mmcblk0 /media/usb
+sudo mount -t vfat /dev/mmcblk0 /media/usb
+sudo mount -t vfat /dev/mmcblk0 /media/usb1
+sudo mount -t vfat /dev/mmcblk0 /media/usb2
+sudo mount -t vfat /dev/mmcblk0 /media/SD
+sudo mount -t vfat /dev/mmcblk0 /media/usb
+sudo mount -t vfat /dev/mmcblk0p1 /media/usb
+lsblk
+sudo mount /dev/sdc1 /media/usb2/
+ls
+cd /media/usb
+ls
+cd DCIM/
+ls
+sudo cp -r * /media/usb2/
+sudo umount /media/usb
+sudo umount -f /media/usb
+sudo umount /media/usb
+lsblk
+mount -o remount /dev/sdd1
+sudo mount -o remount /dev/sdd1
+sudo mount -o remount /media/usb
+sudo mount /dev/sdd1 /media/usb
+cd...
+ls
+cd usb
+ls
+sudo cp -r * /media/usb2/
+sudo umount /media/usb2
+sudo umount /media/usb
+sudo umount -f /media/usb 
+cdg
+ls
+cd nets/
+ls
+cd..
+cd ntps/
+ls
+git pull
+z
+git co master
+git co packet
+git pull master packet
+git pull 
+git merge master
+git pull
+pip install freezegun
+sudo pip install freezegun
+pytest --version
+ls
+cd Tests
+ls
+cd Blackbox
+ls
+git pull
+pytest .
+pytest .
+pytest .
+pytest .
+pytest .
+pytest .
+pytest .
+pytest .
+pytest .
+pytest .
+pytest .
+pytest .
+youtube
+sudo pacman -S youtube-dl
+cdg
+ls
+cd ntps/
+ls
+git pull
+cd..
+ls
+cd ai/
+ls
+git clone https://github.com/osveliz/NFG.git
+pacman -S ant
+sudo pacman -S ant
+ls
+cd NFG/
+ls
+ant
+ant do
+ant doc
+ls
+cd doc/
+ls
+vim element-list 
+ls
+ant doc tournament
+cd..
+ls
+cd src/
+ls
+ant
+cd ..
+ls
+anto
+ant
+ls
+cd src/
+ls
+cd util/
+ls
+cd  ..
+ls
+cd games/
+ls
+cd ..
+ls
+cd tournament/
+ls
+vim SolidRock.java 
+ls
+ant
+cd...
+ls
+ant
+ls
+vim build.xml 
+ls
+ant
+git add .
+git status
+cd ..
+ls
+git add .
+git rm --cached NFG
+git status
+git add .
+git status
+git push
+git commit -m "Added nfg"
+git push
+ls
+cd NFG/
+ls
+git add .
+git status
+git commit -m "Added nfg files"
+git push
+ls
+git status
+gut status
+git status
+git push
+cd ..
+ls
+mkdir finalproj
+cd NFG/
+cp -r * ../finalproj/
+cd..
+git help -S
+git help -all -S
+git help --all
+cp MinMaxRegret.java ../Git/ai/NFG/src/tournament/
+cp MaxMinPayoff.java ../Git/ai/NFG/src/tournament/
+cd $HOME
+ls
+la
+pwd
+cdg
+cd ai
+ls
+cd finalproj
+ls
+git add .
+git commit -m "Added final project files."
+git push
+ls
+cd...
+ls
+cd..
+ls
+la
+cd..
+ls
+la
+vim .gitconfig
+cd .atom
+ls
+vim config.cson
+vim keymap.cson
+exit
+z
+yay -S youtube-dl-git
+pacman -Qe |grep mps
+ls
+cd Data/
+ls
+cd ..
+ls
+la
+ls
+cd Data/
+ls
+cd Crypto/
+ls
+cd..
+ls
+cd Programming/
+ls
 cd ArchScripts/
-vim nextfind.py 
-pacaur -S iosevka
-pacaur -S xdo
-xdo
-xdotool 
-pacaur -Rs xdo
-cd ~/.config/
-cd ranger/
 ls
-w3m
-mpv 
-mpd 
-mpd ttps://soundcloud.com/jayselway/jay-selway-separation-anxiety-january-2018-mix
-mpv ttps://soundcloud.com/jayselway/jay-selway-separation-anxiety-january-2018-mix
-startx
-lea
-clear
-stx
-trta
-trx::q:q
-:q
-startx
-reboot
-reboot
-blkid
-vim /etc/crypttab 
-exi
-vim /etc/fstab
-man crypttab
-reboot
-reboot
-lsid
-blkid
-sudo blkid
-man crypttab
-clear
-sudo blkid | grep sdb2
-sudo blkid | grep sdb1
-sudo blkid 
-startx
-startx
-reboot
-reboot
-blkid
-vim /etc/crypttab 
-exi
-vim /etc/fstab
-man crypttab
-reboot
-reboot
-lsid
-blkid
-sudo blkid
-man crypttab
-clear
-sudo blkid | grep sdb2
-sudo blkid | grep sdb1
-sudo blkid 
-startx
-pacaur -S betterlockscreen
-betterlockscreen
-betterlockscreen -u ~/Data/Photos\&Vids/
-betterlockscreen 
-betterlockscreen --lock blur dim
-betterlockscreen --lock dim
-betterlockscreen --lock dim blur
-betterlockscreen -w
-betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/X/
-betterlockscreen --lock dim --lock blur
-betterlockscreen --lock dim --lock dim
-betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/C/
-betterlockscreen --lock blur
-betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/cyberpunkish.jpg 
-betterlockscreen --lock 
-cd Data/Photos\&Vids/
-cd Wallpapers/
+cd Notes/
 ls
-mkdir Future
-mv cyberpunkish.jpg Future/
-cd Future/
-betterlockscreen -u ~/Data/Photos\&Vids/Wallpapers/Future/myoffice.jpg 
-betterlockscreen --lock
+cd...
+ls
+cd..
+ls
+cd..
+ls
+Backup
+vim .bash_aliases 
+vim .gitconfig 
+ls
+la
+ls | grep gi
+ls | grep git
+la | grep gi
+cd .ssh/
+ls
+cd ..
+ls
+la
+vim public.key 
+vim .gitconfig 
+gpg --list-keys
+git show
+git config
+git config get-all
+git config --get-all
+git config --get-color
+git config --list
+echo foo |  xclip -i
+xclip -sel
+xclip clip -o
+xclip -sel clip -o
+source .bash_a
+source .bash_aliases 
+cdwd
+xclip clip -o
+xclip clip "food"
+pwd | xclip
+cd | xclip -o
+cdg
+pwd |xclip
+cdd
+cd | xclip -o
+ls
+cd ~
+cdg
+cd ~
+source .bash_aliases 
+cdg
+cpwd
+cdd
+cdwd
+cdwd
+pwd 
+pwd | tr -d 
+pwd | tr -d '\n'
+cpwd
+cdwd
+ls
+cdg
+cpwd
+cdwd
+cdg
+cpwd
+cdd
+man xclip
+man cd
+cdg
+cpwd
+pwd
+cdpw
+cdwd
+cd | $(xsel -b -o)
+cd | `xsel -b -o`
+cd `xsel -b -o`
+cd "xsel -b -o"
+cd "$(xsel -b -)o"
+cd "$(xsel -b -o)"
+
+cdwd
+cd | xsel -p
+ls
+la
+cd | xsel -p
+cdwd
+xsel -b
+cd | xsel -b
+xsel -b
+xsel -b -a
+cd | xsel -b -a
+pwd
+cd | xsel -b -a
+xsel -b
+$(xsel -b)
+cd | xsel -b
+cd | xsel -b -o
+pwd | xsel -b
+xclip -o -selection s
+cd xclip -o -selection s
+cd | xclip -o -selection s
+cd xclip -o -selection s
+xclip -o -selection s
+cdwd
+xsel 0b
+xsel -b
+xsel -b -o
+xsel -o
+xsel -b -o
+xsel -o -b
+xsel -o -p
+xsel -p -o
+
+pwd | xsel -b
+cdd
+pwd | xsel -b
+xsel -b -o
+xsel -b
+xsel
+xsel -b
+xsel -0
+xsel -o
+xsel -b
+xsel -b -o
+cdwd
+cdd
+cpwd
+cdwd
+cd ~
+cdwd
+cdg
+cpwd
+cdg
+pwd | xclip -r -selection s
+xclip -o -selection s
+xsel
+pbcopy
+paste
+cd /usr/share/terminfo/
+ls
+cd x/
+ls
+vim xterm-256color 
+pacman -S xsel
+sudo pacman -S xsel
+xsel -b
+ls
+cd
+source .bash_aliases 
