@@ -1168,3 +1168,310 @@ xsel -b
 ls
 cd
 source .bash_aliases 
+man xsel
+xsel
+vim .bash_aliases 
+ls
+cp .bash_aliases Data/Git/dotfiles/config/
+cd Data/Git/dotfiles/config/
+z
+git st
+git add .bash_aliases
+git comm "Fixed xclip copy paste path error."
+git push
+ls
+cd ..
+ls
+git st
+git co master
+git br laptop
+git co office
+ls
+cd config
+ls
+cp exclude-list.txt ~
+ls
+cd ..
+ls
+cd ArchScripts
+ls
+git st
+git aa
+git comm "Updated exclude list"
+git push
+cd ..
+git co master
+ls
+git pull
+git co laptop
+git st
+git aa
+git comm "Added laptop config files"
+git push
+git push --set-upstream origin laptop
+git push
+vim exclude-list.txt 
+cd .At
+cd .config/Atom/
+ls
+la
+cd 
+ls
+rm essentialpkglist.txt 
+rm package-lock.json 
+vim exclude-list.txt 
+mv allpkglist.txt Data/Git/dotfiles/ArchScripts/
+cp exclude-list.txt Data/Git/dotfiles/ArchScripts/
+pacman -Qe|grep ko
+xdotool 
+anything
+startx
+ls
+cdd
+ls
+cd Nvidia/
+ls
+la
+cd..
+rmdir Nvidia/
+cd Git/
+ls
+cd dotfiles/
+ls
+cd notes/
+ls
+vim git.md 
+vim libinput_config.md 
+reboot
+ls
+gitBackupTest 
+ls
+vim rtc0.bak 
+rm rtc0.bak 
+vim package-lock.json 
+ls
+la
+gitBackupTest 
+cd .themes/
+ls
+cd..
+ls
+gitBackupTest 
+gitBackup
+z
+xinput list
+vim /etc/X11/xorg.conf.d/70-synaptics.conf
+vim /etc/X11/xorg.conf.d/40-libinput.conf 
+libinput-gestures
+z
+z
+z
+z
+startx
+cd /etc/X11
+ls
+cd xorg.conf.d
+ls
+source 40-libinput.conf
+xinput --list
+xinput disable 12
+xinput enable 12
+xinput disable 12
+xinput enable 12
+xinput disable 12
+xinput enable 12
+cdg
+ls
+cd ntps
+ls
+pytest Tests
+pytest Tests
+pytest Tests
+pytest Tests
+pytest Tests
+pytest Tests
+pytest Tests
+pytest Tests
+ls
+pytest
+pytest Tests
+ls
+mkdir GUI
+cd GUI
+ls
+mkdir Packet
+ls
+cd Packet
+ls
+cd..
+rmdir Packet
+cd..
+ls
+mkdir Packet
+ls
+pytest -v Tests
+cd /etc/X11/xorg.conf.d
+ls
+vim 40-libinput.conf
+vim 70-synaptics.conf.bak
+cd
+cp /etc/libinput-gestures.conf ~/.config/
+cd .config
+vim libinput-gestures.conf
+cdwd
+cd -
+cpwd
+cd /etc/X11/xorg.conf.d/
+vim 40-libinput.conf
+cdg
+ls
+cd ntps
+;s
+ls
+git pull
+git st
+ls
+git st
+ls
+vim .gitignore
+git add .gitignore
+git st
+git comm "Added gitignore"
+git push
+git co master
+git pull
+git merge packet master
+ls
+git co packet .gitignore
+git st
+git st
+git rm Tests/
+git st
+git rm *
+git st
+git reset
+git st
+git br
+git stash 
+git stash drop
+git st
+git co packet
+git st
+git co master
+git st
+git co packet
+git aa
+git comm "Added minimal pytest configuration"
+git push
+git co master
+git st
+git co packet .gitignore
+git st
+git push
+git st
+ls
+rm __pycache__
+rmdir __pycache__
+ls
+cd Tests
+ls
+rm __pycache__
+rmdir __pycache__
+ls
+cd Blackbox
+ls
+rmdir __pycache__
+cd ..
+ls
+cd..
+ls
+la
+vim .gitignore
+git st
+git st
+ls
+vim README.md
+vim README.md
+cd Tests
+ls
+cd Blackbox
+ls
+cd ...
+cd..
+ls
+cd..
+ls
+git pull
+git co packet
+git st
+vim README.md
+vim README.md
+git st
+git aa
+git rm Tests/Blackbox/test_utils.py
+git st
+git reset Head Tests/Blackbox/test_utils.py
+git st
+reset HEAD Tests/Blackbox/test_utils.py
+git st
+git comm "Set timestamp format. Added test for timestamp."
+git push
+git co master
+git merge packet master
+git st
+git push
+git st
+ls
+head createEditCollection.py
+mv createEdit* GUI
+ls
+head Field.py
+head NTPS.py
+mv NTPS.py GUI
+head saveFuzzedPackets.py
+mv saveFuzzedPackets.py GUI
+head fuzzerInterface.py
+head PCAP.py
+ls
+mv Field.py Packet.py
+ls
+ls
+mv Packet.py Packet.py
+ls
+head Packet
+head Packet.py
+mv Packet.py Packet
+ls
+git st
+git aa
+git comm "Ordered system as subsystems. Renamed files to match PEP style."
+git push
+ls
+vim README.md
+git st
+git add .
+git comm "Added init files to packages"
+git push
+git st
+git aa
+git comm "Added Packet system implementation."
+git push
+git pull
+cdg
+cd ntps
+ls
+pytest Tests
+pytest Tests
+pytest -v Tests
+vim .bash_aliases 
+cdwd
+cpwd
+startx
+xinput --list-props 12
+startx
+xinput --list-props 12
+vim /etc/X11/xorg.conf.d/
+sudo pacman --remove xf86-input-synaptics 
+reboot
+vim .bash_aliases 
+source .bash_aliases 
