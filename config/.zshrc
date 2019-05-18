@@ -14,6 +14,7 @@ HISTSIZE=2000
 SAVEHIST=1000
 setopt appendhistory extendedglob
 bindkey -v
+bindkey '^R' history-incremental-search-backward
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/keanue/.zshrc'

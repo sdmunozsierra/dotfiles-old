@@ -1,756 +1,3 @@
-ls
-vim .bash_aliases
-source .bash_aliases
-cdp
-ls
-cdp
-ls
-cdd
-ls
-exit
-cds
-cdp
-ls
-vim .bash_aliases
-source .bash_aliases
-cdd
-ls
-cdg
-ls
-exit
-z
-cdp
-exit
-sudo pip install pylint
-sudo pip install flake8
-cal
-cal 02
-cal 2019
-cd Data/
-ls
-cd Git/
-ls
-cd dotfiles/
-ls
-git br
-cd ArchScripts/
-ls
-cd i3blocks/
-ls
-vim youtube 
-vim i3blocks.conf 
-vim youtube 
-cp youtube ../../../../Programming/ArchScripts/i3blocks/
-systemctl |grep net
-systemctl restart network
-systemctl restart network.target
-z
-systemctl stop network.target
-systemctl start network.target
-systemctl|grep net
-systemctl|grep -i net
-systemctl restart NetworkManager
-systemctl stop NetworkManager
-systemctl|grep -i net
-systemctl start NetworkManager
-pkill nm-manager
-top |grep nm
-top
-ls
-vim .bash_aliases 
-source .bash_aliases 
-vim .bash_aliases 
-source .bash_aliases 
-z
-vim .bash_aliases 
-source .bash_aliases 
-z
-cdp
-ls
-cd ArchScripts
-ls
-cd..
-cd Grades
-ls
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-pytest -vvv pl_tests.py
-cal
-cc
-cal
-cal 02
-cal feb
-cdg
-git clone https://github.com/robustUTEP/nets-python-intro.git
-pwd
-cd nets-python-intro/
-pwd
-cd..
-ls
-youtube
-z
-systemctl stop NetworkManager
-systemctl start NetworkManager
-z
-cdg
-cd nets-python-intro
-ls
-python count_words.py
-python count_words.py 
-python count_words.py a b c
-python wordCountTest.py declaration.txt output.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py speech.txt output.txt speechKey.txt
-python wordCountTest.py speech.txt output.txt speechKey.txt
-python wordCountTest.py speech.txt output.txt speechKey.txt
-python wordCountTest.py speech.txt output.txt speechKey.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCount.py speech.txt output.txt
-python wordCountTest.py speech.txt output.txt speechKey.txt
-python wordCountTest.py speech.txt output.txt speechKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-git st
-git add wordCount.py
-git comm "Working wordcount program."
-reboot
-startx
-gpg --list-secret-keys
-gpg --edit-key 0xB
- 12 [core]
-gpg --edit-key 0x0CB4F8D95213EF2B
-z
-cdg
-cd nets-python-intro
-ls
-python wordCountTest.py declaration.txt output.txt declarationKey.txt
-git br sdmunozsierra
-ls
-git co sdmunozsierra
-git st
-git add wordCount.py
-git comm "Working file."
-cd ..
-ls
-git clone https://github.com/sdmunozsierra/nets-python-intro.git
-mkdir nets
-cd ne
-cd nets
-git clone https://github.com/sdmunozsierra/nets-python-intro.git
-ls
-cd nets-python-intro
-ls
-cd...
-ls
-cd nets-python-intro
-ls
-cp wordCount.py ../nets/nets-python-intro
-cd ../nets/nets-python-intro
-git add wordCount.py
-git comm "Working program."
-git comm "Working program."
-git comm "Working program."
-git comm "Working program."
-git push
-git last
-cal jan 19
-cal jan 2019
-cal 2019
-cdg
-ls
-mkdir prog-lang
-cd prog-lang/
-git clone https://github.com/sdmunozsierra/php-exercises.git
-gpg
-gpg1
-git config --global gpg.program gpg
-git log --show-signature
-ls
-la
-git config
-git config --get-all
-git --config --al
-git --config --all
-git config --list --show-origin
-vim .gitconfig 
-sudo pacman -S php
-php
-sudo pip install flask
-cdg
-ls
-cd latiendita-flask/
-ls
-vim run.py 
-ls
-cp -r * ../prog-lang/php-exercises/
-cdg
-ls
-cd latiendita-flask/
-ls
-cd..
-cd prog-lang/
-ls
-cd php-exercises/
-ls
-rm -r *
-ls
-cd...
-cd  latiendita-flask/
-ls
-cp -r * ../prog-lang/
-vom
-vin
-vim
-cdg
-ls
-cd prog-lang/
-ls
-cd php-exercises/
-python run.py 
-ls
-cd..
-ls
-python run.py 
-python runapp.py 
-cdg
-cd nets
-ls
-cd s18-nets-udp-file-transfer-sdmunozsierra
-ls
-cd stopWait
-ls
-cd server
-ls
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-git st
-git stash
-git stash drop
-git stash drop
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-cc
-python server.py
-exit
-z
-startx
-reboot
-startx
-pacman Qe | grep 
-pacman Qe 
-pacman -Qe 
-pacman -Qe | grep xf
-man xpad
-libinput 
-nm-online 
-nm
-nm-connection-editor 
-nmtui-connect 
-nmtui
-reboot
-nm
-nmtui
-systemctl start NetworkManager
-nmtui
-sudo nmtui
-z
-z
-startx
-nmcli 
-sudo nmcli 
-nmcli device show wlps3s0
-netctl-auto 
-networkctl 
-iwconfig
-ifconfig
-sudo nmcli 
-sudo nm
-sudo nm-connection-editor 
-ifconfig
-iwconfig
-systemctl restart NetworkManager
-ip addr show
-ip link set wlp3s0 up
-sudo ip link set wlp3s0 up
-sudo rfkill unblock wifi
-sudo ip link set wlp3s0 up
-ip addr show
-sudo ip link set wlp3s0 up
-ip addr show
-ifconfig
-ip link show
-ifconfig
-sytemctl stop NetworkManager
-systemctl stop NetworkManager
-ifconfig
-ifconfig set wlp3s0 down
-ifconfig wlp3s0 down
-sudo ifconfig wlp3s0 down
-sudo ifconfig wlp3s0 up
-ifconfig
-iwconfig
-ip addr
-iwconfig set wlp3s0 up
-iwconfig wlp3s0 up
-iwconfig wlp3s0 set up
-iwconfig wlp3s0 
-ip link
-sudo start NetworkManager
-sudo systemctl start NetworkManager
-nmtui
-z
-cdg
-ls
-cd nets
-ls
-cd s18-nets-udp-file-transfer-sdmunozsierra
-ls
-python msg_protocol.py
-python msg_protocol.py
-python msg_protocol.py
-python msg_protocol.py
-python msg_protocol.py
-python msg_protocol.py
-python msg_protocol.py
-z
-z
-sudo nmtui-connect 
-sudo nmcli
-nmcli connection show
-nmcli connection
-nmcli 
-nmcli device show
-nmcli device wifi rescan
-sudo nmcli device wifi rescan
-ncli connection up id wifi
-z
-sudo nmcli connection up id wifi
-sudo nmcli connection up id enp4s0f1
-sudo nmcli connection up id wlp2s0
-sudo nmcli connection up id wlp3s0
-sudo nmcli connection up id WIFI
-wifi device
-nmcli device
-sudo nmcli connection up id wlp3s0
-nmcli device
-reboot
-sudo nmtui
-pacman -Qe | grep xf
-pacman -S xorg-xinput
-sudo pacman -S xorg-xinput
-xinput 
-sudo pacman -Syu
-nmtui-connect 
-z
-cdg
-cd ne
-cd nets
-ls
-git clone https://github.com/s19-nets/nets-udp-attack-coordination-pizza-is-for-winners.git
-ping 8.8.8.8
-pkill nm-applet
-sudo pacman -S wps-office
-yay -S wps-office
-cal
-jan
-cal jan
-feb
-cal
-cal 3
-cal march 
-youtube
-php
-cdd
-cd Programming/PHP/
-php -S localhost:80 test.php 
-sudo php -S localhost:80 test.php 
-cd ~
-ls
-nmtui
-startx
-pacman -S libinput
-sudo pacman -S libinput
-sudo pacman -S xorg-xinput
-sudo xorg-xinput
-xinput 
-xinput list
-xinput set-prop 12 "Device Enabled" 1
-xinput 
-sysclient
-libinput list-devices
-libinput list-devices |grep -i touch
-libinput list-devices |grep -i touch|more
-cd /etc/X11/xorg.conf.d/
-ls
-vim 30-touchpad.conf 
-sudo pacman -S libinput-gestures
-yay -S libinput-gestures
-libinput-gestures-setup 
-sudo libinput-gestures-setup 
-sudo libinput-gestures-setup  install
-reboot
-startx
-sudo libinput-gestures-setup install
-sudo libinput-gestures
-sudo xinput 
-sudo pacman -Syu
-reboot
-startx
-cd /etc/X11/
-ls
-cd xorg.conf.d/
-ls
-sudo vim 30-touchpad.conf 
-cp /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/
-sudo cp /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/
-cd /etc/X11/xorg.conf.d/
-ls
-vim 40-libinput.conf 
-ls
-sudo rm 30-touchpad.conf 
-sudo cp /usr/share/X11/xorg.conf.d/70-synaptics.conf /etc/X11/xorg.conf/
-sudo cp /usr/share/X11/xorg.conf.d/70-synaptics.conf /etc/X11/xorg.conf.d/
-ls
-vim 70-synaptics.conf 
-sudo mv 70-synaptics.conf 70-synaptics.conf.bk
-sudo pacman -S xf86-input-synaptics
-reboot
-startx
-cd /etc/X11/
-cd xorg.conf.d/
-ls
-cd ..
-ls
-vim xinit/
-ls
-vim xorg.conf.original 
-cd xorg.conf.d/
-ls
-sudo mv 70-synaptics.conf.bk 70-synaptics.conf
-xinput 
-reboot
-xmodmap 
-xinput
-startx
-cd /etc/default/
-ls
-cd ..
-ls
-cd X11/
-ls
-vim xinit/
-cd xinit/
-ls
-vim xinitrc
-xinput list-props 12
-synclient 
-sudo synclient 
-xec
-xev
-synclient 
-modprobe -r psmouse
-modprobe psmouse
-sudo modprobe psmouse
-yay -S psmouse-alps-driver
-cd /var/cache/pacman/pkg/
-ls
-sudo pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
-reboot
-startx
-cd /var/cache/pacman/pkg/
-ls
-sudo pacman -U libinput-1.10.3-1-x86_64.pkg.tar.xz 
-reboot
-startx
-cd /var/cache/pacman/pkg/
-ls
-pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
-sudo pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
-sudo pacman -U libinput-1.12.1-1-x86_64.pkg.tar.xz 
-reboot
-youtube
-cdg
-cd nets/
-ls
-cd s18-nets-udp-file-transfer-sdmunozsierra/
-ls
-z
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-git st
-git add client.py server.py
-git st
-git comm "Working simple send/receive file"
-git push
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-python server.py
-cdg
-z
-cd nets
-ls
-cd s18-nets-udp-file-transfer-sdmunozsierra
-ls
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-python client.py
-startx
-cd /etc/X11/
-ls
-cd xorg.conf.d/
-ls
-vim 70-synaptics.conf 
-synclient 
-xinput 
-ls
-cp 70-synaptics.conf 70-synaptics.conf.bak
-sudo cp 70-synaptics.conf 70-synaptics.conf.bak
-cd /var/cache/pacman/
-ls
-cd pkg/
-pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
-sudo pacman -U libinput-1.11.0-1-x86_64.pkg.tar.xz 
-sudo pacman -U libinput-1.12.1-1-x86_64.pkg.tar.xz 
-reboot
-startx
-startx
-cd /var/cache/pacman/
-ls
-cd pkg/
-ls
-sudo pacman -U libinput-1.12.6-1-x86_64.pkg.tar.xz 
-startx
 reboot
 startx
 synclient 
@@ -1475,3 +722,655 @@ sudo pacman --remove xf86-input-synaptics
 reboot
 vim .bash_aliases 
 source .bash_aliases 
+bro xclip
+bro
+pacman -S bro
+sudo pacman -S bro
+man xclip
+echo fu
+ls
+la
+vim .xinitrc 
+vim .bash_profile 
+vim .bashrc 
+vim .bash_profile 
+yay -S bitwig-studio
+z
+xinput --list-props 12
+cdg
+cd dotfiles/notes
+ls
+vim libinput_config.md
+cdg
+cd ai/
+git pull
+cdg
+cd dotfiles/
+ls
+git st
+cpwd
+git st
+git aa 
+git comm "finally silenced xclip error?"
+git push
+z
+gitBackup
+sudo rm -r Downloads/
+yay -Qe | grep fire
+yay -S firefox
+pacman -Qe | grep firefox
+pacman -Su
+sudo pacman -Su
+sudo pacman -Sy
+pacman -Qu | grep fire
+sudo pacman -S firefox
+pkill -9 firefox
+top
+echo java -jar after ant jar
+ls
+cdg
+cd ai/
+ls
+cd NFG/
+git pull
+git stash
+git stash drop
+git st
+git pull
+git pull --force
+cd ..
+ls
+git pull
+cd finalproj/
+git pull
+cd..
+cd NFG/
+ls
+git st
+cd ..
+ls
+rmdir NFG/
+sudo rm -r NFG/
+ls
+git clone https://github.com/osveliz/NFG.git
+cd NFG/
+ls
+cd ..
+ls
+cd finalproj/
+ls
+cd src/
+ls
+cd tournament/
+la
+ls
+ll
+cp MaxMinPayoff.java ../../
+cp MaxMinPayoff.java ../../../
+cp MaxMinPayoff.java ../../../../
+cp MinMaxRegret.java ../../../../
+cp NashEquilibrium.java ../../../../
+cd....
+cd..
+ls
+rm *java
+ls
+cd ai/
+ls
+cd finalproj/
+rm -r *
+cd ..
+ls
+cd NFG/
+cp -r * ../finalproj/
+cd ~~:$
+cd..
+ls
+mv *java finalproj/src/tournament/
+cd finalproj/src/tournament/
+ls
+startx
+yay -Syu
+sudo pacman -S python
+sudo pacman -S python2
+sudo pacman -S xorg
+sudo pacman -Qu
+sudo pacman -S wireshark rust ruby 
+sudo pacman -S wireshark-cli wireshark-qt rust ruby 
+sudo pacman -Qu
+sudo pacman -Syu
+reboot
+cpwd
+cdg
+cd ai/
+git st
+git aa
+git comm "Updated repository"
+git push
+z
+vim .gitconfig
+source .gitconfig
+cdg
+cd ai/
+cd finalproj/
+git st
+git aa
+git comm "TotallyMixedStrategy works but it is very unefficient."
+git recomm
+git st
+cdg
+cd ai/finalproj
+git st
+git unstage 1
+git st
+git unstage 0
+git st
+git rm -rf build/*
+git st
+git add src/*
+git st
+git comm "TotallyMixedStrategy works but it is inefficient."
+git push
+exit
+z
+sudo pacman -S afl
+z
+cdg
+cd ai
+ls
+cd..
+ls
+cd ntps
+git pull
+sudo pip install scapy
+ls
+exit
+git add Packet/*
+git comm "Fixed conflicts"
+git push
+z
+exit
+z
+cdd
+cd Programming
+ls
+cd C
+ls
+alf-fuzz -i testcases/ -o findings/ -- ./a.out
+afl-fuzz -i testcases/ -o findings/ -- ./a.out
+afl-fuzz -i testcases/ -o findings/ -- ./a.out
+cdg
+cd ntps
+ls
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python ntps.py
+python3 ntps.py
+python3 ntps.py
+python3 ntps.py
+python3 __main__.py
+python3 __main__.py
+python3 __main__.py
+python3 __main__.py
+python3 __main__.py
+ls
+cd App
+ls
+python ntps.py
+cd..
+cd..
+ls
+cd ntps
+ls
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python
+python __main__.py
+git st
+git add README.md
+git add Tests/*
+git pull
+git add Packet/packet.py
+git comm "Pre-work with hooks"
+git pull
+git pull
+git st
+python __main__.py
+git pull
+ls
+git st
+git pull
+exit
+sudo yay -S python-netfilterqueue-git
+yay -S python-netfilterqueue-git
+vim .zshrc
+exit
+pytest Tests/Blackbox/
+pytest Tests/Blackbox/
+pytest Tests/Blackbox/
+pytest Tests/Blackbox/
+pytest Tests/Blackbox/
+pytest Tests/Blackbox/
+pytest Tests/Blackbox/
+cd..
+ls
+cd ntps
+cd Tests
+pytest -m Whitebox/test_hook_class.py
+python -m pytest Whitebox/test_hook_class.py
+pytest Whitebox/test_hook_class.py
+python -m pytest Whitebox/test_hook_class.py
+python -m pytest Whitebox/test_hook_class.py
+python -m pytest Whitebox/test_hook_class.py
+python -m pytest Whitebox/test_hook_class.py
+python3 -m pytest Whitebox/test_hook_class.py
+pytest Whitebox/test_hook_class.py
+python3 -m pytest Whitebox/test_hook_class.py
+exit
+cdg
+cd ntps/
+cd Hook
+cd..
+cd Hooks/
+ls
+python DNSsport.py 
+python DNSsport.py None
+python DNSsport.py 'E\x00\x00\x14\x00\x01\x00\x00@\x00|\xe7\x7f\x00\x00\x01\x7f\x00\x00\x01'
+python DNSsport.py 
+ls
+python DNSsport.py 
+cd..
+python __main__.py 
+ls
+rm core.*
+python __main__.py 
+ls
+rm core*
+rm -r __pycache__/
+python __main__.py 
+ls
+rm core.14003 
+rm -r __pycache__/
+cd Hook
+ls
+rm -r __pycache__/
+cd..
+python __main__.py 
+ls
+vim /run/xtables.lock 
+z
+ls
+z
+cdg
+cd..
+ls
+cd Programming/
+ls
+cd C/
+ls
+sudo echo core >/proc/sys/kernel/core_pattern
+sudo -i
+z
+cdg
+cd ntps/
+ls
+python -m pytest Tests/Blackbox/
+python -m pytest Tests/Whitebox/test_hook_class.py 
+python -m pytest Tests/Blackbox/
+python -m pytest Tests/Whitebox/test_hook_class.py 
+git st
+z
+python -m pytest Tests/Whitebox/test_hook_class.py 
+python -m pytest Tests/Whitebox/test_hook_class.py [A
+python -m pytest Tests/Whitebox/test_hook_class.py
+pytest Tests/Whitebox/test_hook_class.py
+python3 -mpytest Tests/Whitebox/test_hook_class.py
+python3 -m pytest Tests/Whitebox/test_hook_class.py
+ls
+python3 -m pytest Tests/Whitebox/test_hook_class.py
+z
+python3 -m pytest Whitebox/test_hook_class.py
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 -m pytest Tests/Blackbox/
+python3 __main__.py
+python3 __main__.py
+git pull
+git stash
+python __main__.py
+git stash pop
+git add Hook/*
+git add Hooks/DNSsport.py
+git add Tests/Whitebox/*
+git comm "This is fucked."
+git push
+git pull
+git stash
+git st
+rm core.*
+python __main__.py
+python __main__.py
+cd ..
+rm -r ntps
+rm -rf ntps
+git clone https://github.com/sdmunozsierra/ntps.git
+cd ntps
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+sudo i
+sudo -i
+python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo wireshark
+cdg
+cd ntps
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
+sudo python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+z
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+sudo python __main__.py
+z
+z
+sudo python __main__.py
+cdg
+cd ntps/
+ls
+git pull
+git st
+git add *
+git aa
+git comm "Fixed imports in Packet subsystem
+Fixed various typos
+Started working with scapy to forward packets"
+git push
+git pull
+git st
+z
+sudo pip install pyqt5
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+git st
+git pull
+git pull
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest
+;s
+ls
+git st
+git pull
+git aa "Fixed imports"
+git aa
+git comm "Fixed imports"
+git pull
+git st
+git aa
+git comm "Merged changes against queue"
+git push
+python __main__.py
+git st
+git co base_gui
+git co base_gui
+git st
+git br base_gui
+git st
+git checkout -b base_gui
+git br base_gui
+git co base_gui
+git push
+git push --set-upstream origin base_gui
+git co master
+git pull
+python __main__.py
+git pull
+git pull
+python __main__.py
+git pull
+python __main__.py
+git co base_gui
+pythoncd App
+ls
+cd App
+ls
+cd..
+cd Packet
+ls
+vim __init__.py
+git co master
+vim queue.py
+vim packet
+vim packet.py
+git pull
+cd..
+pytest
+pytest
+pytest
+pytest
+pytest
+pytest Tests/Blackbox
+pytest Tests/Whitebox
+pytest Tests/Whitebox
+pytest Tests/Whitebox
+pytest Tests/Whitebox
+pytest Tests/Whitebox
+python -m pytest
+python -m pytest Tests/Whitebox/test_hook_class.py
+git st
+git aa
+git comm "Implementing hook"
+git st
+git push
+git pull
+git st
+git push
+ls
+mv interception_interface.py Interface
+mv interface_manager.py Interface
+git aa
+git comm "Moved files to Interface"
+git push
+git push
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git st
+git aa
+git comm "Hook can send packets through subprocess"
+git pull
+git push
+git st
+git pull
+git pull
+git pull
+git aa
+git comm "Giving up on implementing as subprocess"
+git pull
+git push
+git aa
+git comm "Hook implementation via imports."
+git pull
+git push
+ls
+git st
+git pull
+git pull
+git aa
+git comm "Run hook implementation."
+git push
+ls
+rm core.2*
+rm \#pyutils.py\#
+ls
+git st
+git comm "Removed weird files"
+git push
+git st
+cd..
+cd ntps
+git st
+git add Hook/hook_manager.py
+git comm "Hooks finally running."
+git push
+git st
+rm core.25021
+git aa
+git comm "Hook support runnin ALL 3 implemented hooks." 
+git push
+git st
+git pull
+git aa
+git comm "Added more functions to hook_manager"
+git push
+git st
+git aa
+git comm "Removed dumb files"
+git push
+git st
+rm core.3*
+git aa
+git comm "Fixed error by tcp_sport"
+git push
+git pull
+git push
+git st
+git aa
+git comm "Added pyglobals to be used across the system"
+git push
+git st
+rm core.15902
+git comm "Added test case for removing a packet from pcap."
+git push
+git st
+git aa
+git comm "Implemented run hooks from pcap load."
+git push
+git st
+rm core*
+git st
+rm core.*
+git st
+git aa
+git comm "Hooks working\
+\!\
+"
+git push
+git st
+rm core.31*
+cdg
+cpwd
+youtube

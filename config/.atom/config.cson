@@ -7,7 +7,7 @@
     telemetryConsent: "no"
     themes: [
       "min-ui"
-      "solarized-dark-syntax"
+      "handsome-dark-syntax"
     ]
   editor:
     fontFamily: "hack, Menlo, Consolas, DejaVu Sans Mono, monospace"

@@ -11,9 +11,11 @@
 	program = gpg
 [alias]
 	unstage = reset HEAD --
-        st = status
-        co = checkout
-        br = branch
-        aa = add .
+    st = status
+    co = checkout
+    br = branch
+    aa = add .
 	comm = commit -a -S -m
 	last = log -1 HEAD
+    recomm = reset --soft HEAD~1
+

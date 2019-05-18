@@ -33,6 +33,7 @@
 .config/menus
 .config/mirage
 .config/mpv
+.config/mps-youtube/cach*
 .config/Mist
 .config/Nozbe
 .config/Simplenote/
@@ -64,6 +65,7 @@
 .antigen/bundles
 .antigen/debug.log
 .babel*
+.BitwigStudio
 .blackarch
 .cache
 .dbus
