@@ -16,7 +16,7 @@ separator_block_width=10
 #command=~/Data/Git/dotfiles/ArchScripts/i3blocks/youtube  # Not needed
 interval=5
 label=
-color=#a8adb5
+#color=#f3f4f5
 
 [volume-pulseaudio]
 interval=1
@@ -26,16 +26,29 @@ LONG_FORMAT="${SYMB}${VOL}%"
 SHORT_FORMAT="${SYMB}${VOL}%"
 DEFAULT_COLOR="#6699CC"
 
+
+#[network]
+#label=
+#instance=eno1
+#interval=30
+##color=#6699CC
+
+#[ip-address]
+##color=#87AF5F
+#interval=60
+##color=#6699CC
+
 [space]
-command=~/Data/Git/dotfiles/ArchScripts/i3blocks/space
-label=
-DIR=/
+command=~/Data/ArchScripts/i3blocks/space
+#color=#6699CC
+LABEL=HOME
+DIR=$HOME
 interval=60
 
 [space]
-command=~/Data/Git/dotfiles/ArchScripts/i3blocks/space
-color=#6699CC
+command=~/Data/ArchScripts/i3blocks/space
 label=
+DIR=/
 interval=60
 
 [load]
@@ -49,7 +62,7 @@ instance=swap
 interval=30
 
 [memory]
-command=~/Data/Git/dotfiles/ArchScripts/i3blocks/memory
+command=~/Data/ArchScripts/i3blocks/memory
 color=#A2BF8A
 label=
 instance=mem;free
