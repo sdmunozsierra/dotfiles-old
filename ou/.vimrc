@@ -1,3 +1,4 @@
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -7,7 +8,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-"# -- Interface -- #" 
+" -- Interface -- " 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'zefei/vim-wintabs'
@@ -18,38 +19,35 @@ Plugin 'badwolf'
 Plugin 'hhff/SpacegrayEighties.vim'
 Plugin 'chase/focuspoint-vim'
 Plugin 'ajh17/spacegray.vim'
-Plugin 'NLKNguyen/papercolor-theme'
 "Plugin 'severin-lemaignan/vim-minimap' "Still alpha
-"# -- Tools -- #"
-Plugin 'tpope/vim-surround'
+" -- Tools -- "
 Plugin 'junegunn/vim-easy-align'
 Plugin 'Valloric/YouCompleteMe' "run ./install.py if disconnection
-Plugin 'scrooloose/syntastic'  "syntax
-Plugin 'Chiel92/vim-autoformat' "pretty code
+Plugin 'scrooloose/syntastic'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ryanoasis/vim-devicons'
-"# -- Python in Vim -- #" USE ATOM [With VIM keybindings of course]
+" -- Python in Vim -- " USE ATOM [With VIM keybindings of course]
 "Plugin 'https://github.com/python-mode/python-mode.git'
 "Plugin 'https://github.com/plytophogy/vim-virtualenv.git'
-"# -- C Programming -- #"
+" -- C Programming -- "
 "Plugin 'vim-scripts/Conque-GDB'
-"# -- Smart Contract -- #"
+" -- Smart Contract -- "
 "Plugin 'tomlion/vim-solidity'
-"# -- JS & Angular Dev -- #"
+" -- JS & Angular Dev -- "
 "Plugin 'burnettk/vim-angular'
-"Plugin 'https://github.com/pangloss/vim-javascript'
-"Plugin 'https://github.com/othree/javascript-libraries-syntax.vim.git'
+Plugin 'https://github.com/pangloss/vim-javascript'
+Plugin 'https://github.com/othree/javascript-libraries-syntax.vim.git'
 Plugin 'alvan/vim-closetag'
 call vundle#end() 
 " To ignore plugin indent changes, instead use:
 filetype plugin indent on
 
-"----------------------------------------
-"-------------- DISPLAY -----------------
-"----------------------------------------
+" "----------------------------------------
+" "-------------- DISPLAY -----------------
+" "----------------------------------------
 
 " set <leader> to ,
 let mapleader = ","
@@ -69,17 +67,15 @@ set foldmethod=manual
 au BufWinLeave ?* mkview 1
 au BufWinEnter ?* silent loadview 1
 
-" Syntax
+" Colorscheme
 set t_Co=256  "Color 256 :)
 "set termguicolors "for tmux
 let base16colorspace=256  " Access colors present in 256 colorspace
 syntax on
-
-" Colorscheme
 colorscheme spacegray     "New rice comming up!
 let g:spacegray_underline_search = 1
 let g:spacegray_italicize_comments = 1
-"let g:badwolf_darkgutter = 1 " Make the gutters darker than the background
+"let g:badwolf_darkgutter = 1 " Make the gutters darker than the background.
 "let g:badwolf_tabline = 3
 
 "set status bar on bottom
@@ -91,28 +87,8 @@ let g:airline_powerline_fonts = 1
 let g:airline_highlighting_cache = 0
 
 let g:airline#extensions#tabline#enabled = 1 "Buffer list on top
-let g:airline#extensions#tabline#fnamemod = ':t' "Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename
 let g:airline#extensions#syntastic#enabled = 1
-
-" Toggle dark and light mode with <leader>tt
-let s:bgm=0
-function! ToggleBackgroundMode()
-    if s:bgm == 0
-        set background=light
-        let s:bgm=1
-    else
-        set background=dark
-        let s:bgm=0
-    endif
-endfunction
-nnoremap <leader>tt :call ToggleBackgroundMode()<CR>
-
-"----------------------------------------
-"------------- FILETYPES ----------------
-"----------------------------------------
-" Force *.md as Markdown files
-autocmd BufNewFile,BufReadPost *.md set filetype=markdown
-let g:markdown_minlines = 100  "Syntax highlight sync up to 100 lines
 
 "----------------------------------------
 "------------- PLUGGINS -----------------
@@ -234,8 +210,6 @@ command! -register CopyMatches call CopyMatches(<q-reg>)
 :noremap <F4> :set hlsearch! hlsearch?<CR>
 set hlsearch
 
-"Beautify code see gh.com/Chiel92 for specific languages
-noremap <F6> :Autoformat<CR>
 "Indent all file `mzgg=G'z`
 vmap <F7> mzgg=G`z<CR>
 
@@ -246,7 +220,7 @@ map <F12> :r !xclip -o -sel clip<CR>
 nmap <leader>w :w!<cr>
 nmap <leader>q :q!<cr>
 
-"Use :ws to write as sudo
+"Use ws to write as sudo
 cmap ws w !sudo tee > /dev/null %
 
 "Visual mode pressing * or # searches for the current selection:
