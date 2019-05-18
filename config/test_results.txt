@@ -1,0 +1,231 @@
+---------------------------------
+max_min_result .10
+pure_nash_result .30
+min_max_result .60
+(No noise)  1***
+---------------------------------
+
+ClassZ
+Total Wins
+ SolidRock   51.0
+ MaxMinPayoff        68.0
+ MinMaxRegret        60.0
+ PureNashEquilibrium 58.0
+ TotallyMixedStrategy        63.0
+
+ClassG
+ SolidRock   51.0
+ MaxMinPayoff        63.0
+ MinMaxRegret        61.0
+ PureNashEquilibrium 58.0
+ TotallyMixedStrategy        67.0
+
+ClassA
+ SolidRock   71.0
+ MaxMinPayoff        71.0
+ MinMaxRegret        50.0
+ PureNashEquilibrium 60.0
+ TotallyMixedStrategy        48.0
+
+---------------------------------
+max_min_result .25
+pure_nash_result .25
+min_max_result .50
+(No noise)  2***
+---------------------------------
+ClassZ
+ SolidRock   51.0
+ MaxMinPayoff        67.0
+ MinMaxRegret        59.0
+ PureNashEquilibrium 57.0
+ TotallyMixedStrategy        66.0
+
+ClassG
+ Total Wins
+ SolidRock   51.0
+ MaxMinPayoff        63.0
+ MinMaxRegret        60.0
+ PureNashEquilibrium 58.0
+ TotallyMixedStrategy        68.0
+
+ClassA
+ SolidRock   71.0
+ MaxMinPayoff        71.0
+ MinMaxRegret        49.0
+ PureNashEquilibrium 59.0
+ TotallyMixedStrategy        50.0
+
+---------------------------------
+max_min_result .35
+pure_nash_result .25
+min_max_result .40
+(No noise)
+---------------------------------
+ClassZ
+ SolidRock   51.0
+ MaxMinPayoff        67.0
+ MinMaxRegret        59.0
+ PureNashEquilibrium 57.0
+ TotallyMixedStrategy        66.0
+
+ClassG
+ SolidRock   51.0
+ MaxMinPayoff        63.0
+ MinMaxRegret        60.0
+ PureNashEquilibrium 58.0
+ TotallyMixedStrategy        68.0
+
+ClassA
+ SolidRock   69.0
+ MaxMinPayoff        70.0
+ MinMaxRegret        49.0
+ PureNashEquilibrium 59.0
+ TotallyMixedStrategy        53.0
+
+---------------------------------
+max_min_result .50
+pure_nash_result .25
+min_max_result .25
+(No noise)  3***
+---------------------------------
+ClassZ
+ SolidRock   51.0
+ MaxMinPayoff        67.0
+ MinMaxRegret        59.0
+ PureNashEquilibrium 57.0
+ TotallyMixedStrategy        66.0
+
+ClassG
+ SolidRock   52.0
+ MaxMinPayoff        64.0
+ MinMaxRegret        61.0
+ PureNashEquilibrium 59.0
+ TotallyMixedStrategy        64.0
+
+ClassA
+ SolidRock   67.0
+ MaxMinPayoff        68.0
+ MinMaxRegret        49.0
+ PureNashEquilibrium 62.0
+ TotallyMixedStrategy        54.0
+
+---------------------------------
+max_min_result .50
+pure_nash_result .25
+min_max_result .25
+(10%)
+---------------------------------
+ClassZ
+ SolidRock   51.0
+ MaxMinPayoff        67.0
+ MinMaxRegret        59.0
+ PureNashEquilibrium 57.0
+ TotallyMixedStrategy        66.0
+
+ClassG
+ SolidRock   53.0
+ MaxMinPayoff        66.0
+ MinMaxRegret        61.0
+ PureNashEquilibrium 61.0
+ TotallyMixedStrategy        59.0
+
+ClassA
+ SolidRock   68.0
+ MaxMinPayoff        69.0
+ MinMaxRegret        49.0
+ PureNashEquilibrium 61.0
+ TotallyMixedStrategy        53.0
+
+---------------------------------
+min_max && pure_nash 1.00
+max_min_result .50
+pure_nash_result .25
+min_max_result .25
+(No noise)  4***
+---------------------------------
+ClassZ
+ SolidRock   51.0
+ MaxMinPayoff        67.0
+ MinMaxRegret        59.0
+ PureNashEquilibrium 57.0
+ TotallyMixedStrategy        66.0
+
+ClassG
+ SolidRock   52.0
+ MaxMinPayoff        64.0
+ MinMaxRegret        61.0
+ PureNashEquilibrium 59.0
+ TotallyMixedStrategy        64.0
+
+ClassA
+ SolidRock   67.0
+ MaxMinPayoff        68.0
+ MinMaxRegret        49.0
+ PureNashEquilibrium 62.0
+ TotallyMixedStrategy        54.0
+
+---------------------------------
+min_max && pure_nash 1.00
+max_min_result .35
+pure_nash_result .25
+min_max_result .40
+(No noise)
+---------------------------------
+ClassZ
+ SolidRock   51.0
+ MaxMinPayoff        67.0
+ MinMaxRegret        59.0
+ PureNashEquilibrium 57.0
+ TotallyMixedStrategy        66.0
+
+ClassG
+ SolidRock   51.0
+ MaxMinPayoff        63.0
+ MinMaxRegret        60.0
+ PureNashEquilibrium 58.0
+ TotallyMixedStrategy        68.0
+
+ClassA
+ SolidRock   69.0
+ MaxMinPayoff        70.0
+ MinMaxRegret        49.0
+ PureNashEquilibrium 59.0
+ TotallyMixedStrategy        53.0
+
+---------------------------------
+max_min && pure_nash 1.00
+max_min_result .35
+pure_nash_result .25
+min_max_result .40
+(No noise)
+---------------------------------
+Same as min_max && pure_nash 1.00
+
+---------------------------------
+max_min && pure_nash 1.00
+max_min_result .35
+pure_nash_result .25
+min_max_result .40
+(No noise) 5***
+---------------------------------
+ClassZ
+ SolidRock   51.0
+ MaxMinPayoff        67.0
+ MinMaxRegret        59.0
+ PureNashEquilibrium 57.0
+ TotallyMixedStrategy        66.0
+
+ClassG
+ SolidRock   52.0
+ MaxMinPayoff        64.0
+ MinMaxRegret        61.0
+ PureNashEquilibrium 59.0
+ TotallyMixedStrategy        64.0
+
+ClassA
+ SolidRock   62.0
+ MaxMinPayoff        66.0
+ MinMaxRegret        46.0
+ PureNashEquilibrium 60.0
+ TotallyMixedStrategy        66.0
+

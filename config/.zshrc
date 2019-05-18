@@ -9,38 +9,34 @@ antigen bundle heroku
 antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
+antigen bundle ls
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-#antigen theme robbyrussell
+antigen theme romkatv/powerlevel10k
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs history)
 
 # Tell Antigen that you're done.
 antigen apply
 
-# pure theme
-autoload -U promptinit; promptinit
-prompt pure
-
-ZSH_THEME=""
-
 # source bash aliases (can't live without them)
 source ~/.bash_aliases
 
-# Lines configured by zsh-newuser-install
+# This will share the history with bash
 HISTFILE=~/.bash_history
 HISTSIZE=1000
 SAVEHIST=1000
-setopt appendhistory
-setopt no_hist_verify
-unsetopt share_history
+unsetopt extended_history
+setopt share_history
 bindkey -v
+bindkey '^R' history-incremental-search-backward
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/munozsies/.zshrc'
+zstyle :compinstall filename $HOME/.zshrc
 
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-

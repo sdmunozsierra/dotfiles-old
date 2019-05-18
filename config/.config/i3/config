@@ -283,7 +283,7 @@ mode "gaps"{
 bindsym $mod+Ctrl+c mode "config"
 mode "config"{
 	bindsym w   exec i3-msg 'exec "$term -e vim .config/i3/config" '
-	bindsym b   exec i3-msg 'exec "$term -e vim .config/i3/i3status.conf" move $WS0'
+	bindsym b   exec i3-msg 'exec "$term -e vim ~/Data/Git/dotfiles/ArchScripts/i3blocks/i3blocks.conf" move $WS0'
 	bindsym v   exec i3-msg 'exec "$term -e vim .vimrc" move $WS0'
 	bindsym a   exec i3-msg 'exec "$term -e vim .bash_aliases" move $WS0'
 	bindsym e   exec i3-msg 'exec "$term -e vim .emacs.d/init.el" move $WS0'
@@ -332,7 +332,7 @@ client.placeholder      $darkblack $darkblack $darkblack $darkblack $darkblack
  
 
 bar {
-    font pango:Gidole Nerd Font 14
+    font pango:Arimo Nerd Font 13
     id bar-0
     position 	top
     #status_command     ~/Data/ArchScripts/youtube_title.sh  #Youtube status 

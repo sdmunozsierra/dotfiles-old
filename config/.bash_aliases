@@ -23,8 +23,8 @@ alias cdg="cd $HOME/Data/Git/"
 alias cds="cd $HOME/Data/Git/springbank-metrics/"
 
 # change working directory (requires xclip)
-alias cpwd="pwd | xclip -r -selection s && echo 'pwd copied'"
-alias cdwd="cd $(xclip -o -selection s)"
+alias cpwd="pwd | tr -d '\n' | xclip -sel clip && echo 'pwd copied'"
+alias cdwd="cd `xclip -sel clip -o`"
 
 #escrotum (screenshot) commands
 alias scrot="escrotum $HOME/Data/Screenshots/%Y-%b-%d_%T.png"
@@ -104,6 +104,11 @@ gitBackupTest(){
     rm -Rf test
     cd $HOME
     echo "Deleted temporary folder in /tmp/"
+}
+
+gitRestoreFile(){
+    # From git repo
+    cp $1 $HOME
 }
 
 #Debug st

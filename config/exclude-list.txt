@@ -1,3 +1,4 @@
+.antigen
 .config/autostart
 .config/antimicro
 .config/Awesomeness
@@ -114,6 +115,7 @@
 .webeclipse.properties
 .webclipse.properties
 .wget-hsts
+.zcompdump
 Androi*
 eclipse*
 Completed_T*
@@ -125,5 +127,6 @@ Hdd
 StudioProjects
 temp
 *.sw*
+*.zw*
 *.md
 *.key

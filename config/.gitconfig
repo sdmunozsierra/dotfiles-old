@@ -6,7 +6,7 @@
 	editor = vim
 [credential]
         # helper = cache --timeout=3600
-    helper = /usr/lib/git-core/git-credential-libsecret
+	helper = store
 [gpg]
 	program = gpg2
 [alias]
