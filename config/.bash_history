@@ -1537,3 +1537,6 @@ cd
 vim .config/user-dirs.dirs 
 protoc
 ee
+ping 8.8.8.8
+systemctl restart NetworkManager
+ping 8.8.8.8
