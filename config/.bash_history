@@ -1,1376 +1,1539 @@
-reboot
-startx
-synclient 
-sudo synclient 
-xinput
-xinput 4
-xinput test 4
-sudo pacman -Syyu
-reboot
-yay -S simplenote
-youtube
+./sdkmanager package 
+./sdkmanager package "platforms;android-28"
+./sdkmanager --list
+z
+ls
+ls
+la
+cd..
+ls
+cd kea
+cd keanue
+ls
+source /usr/share/LS_COLORS/dircolors.sh
+ls
+ee
+ee
+ks
+ls
+vim .antigen
+ls
+cd .antigen
+ls
+cd bundles
+ls
+cd zh
+cd zsh-users
+ls
+vim zsh-syntax-highlighting
+cd..
+ls
+mkdir trapd00r
+cd trapd00r
+git clone https://github.com/trapd00r/zsh-syntax-highlighting-filetypes.git
+ee
+ls
+cd..
+cd..
+ls
 exit
-odin
+a
+la
+vim .xinitrc 
+ls
+la
+ls
+vim .profile
+vim .bash_profile
+vim .bashrc
+exit
+z
+ls
+source .bash_aliases 
+ls
+source .bash_profile 
+ls
+pwd
+z
 youtube
-android-file-transfer 
-odin
-yay -s odin
-yay -S odin-git
-java -version
-yay -S heimdall-git
-android-file-transfer 
-sudo android-file-transfer 
+cd /opt
+ls
+z
+cd /opt
+ls
+cd flutter
+ls
+cd bin
+ls
+cd flutter
+cd bi
+cd bin
+ls
+cd..
+ls
+cd bin/cache
+ls
+cd flutter
+ls
+cd bin
+ls
+cd cache
+ls
+pwd
+cd..
+ls
+cd..
+ls
+cd.
+cd..
+ls
+cd..
+ls
+cd..
+ls
+cd..
+ls
+sudo rm -rf flutter
+ls
+mkdir flutter
+sudo mkdir flutter
+ls
+chown keanue flutter
+sudo chown keanue flutter
+ls
+cd flutter
+ls
+cd..
+ls
+cd flutter2
+ls
+mv flutter ../flutter
+sudo mv flutter ../flutter
+ls
+cd..
+ls
+sudo rm flutter2
+sudo rm -R flutter2
+ks
+ls
+cd flutter
+ls
+ll
+cd..
+ls
+z
+ls
+source . /usr/share/LS_COLORS/dircolors.sh 
+source /usr/share/LS_COLORS/dircolors.sh 
+ls
+cd Data/
+s
+ls
+cd Music/
+sl
+ls
+cd..
+ls
+cd Asiakirja/
+ls
+cd..
+ls
+cd temp/
+ls
+cd...
+ls
+cd keanue/
+ls
+z
+ls
+antigen apply
+ls
+antigen-list
+vim ls
+ls
+cd .antigen
+ls
+la
+cd bundles
+ls
+mv -R trapd00r trapd00r.bak
+mkdir trapd00rbak
+mv trapd00r trapd00rbak
+ls
+z
+ls
+cd /opt
+ls
+mv flutter flutter2
+sudo mv flutter flutter2
+ls
+startx
+la
+vim .xinitrc 
+vim .Xauthority 
+cd .thumbnails/
+la
+cd..
+rm .thumbnails/
+ls
+la
+rm -rf .thumbnails/
+cd .grip/
+ls
+cd cache-4.5.2/
+ls
+cd..
+ls
+la
+cd..
+ls
+la
+vim bash_pro
+vim .bash_profile 
+vim .profile 
+vim .bashrc 
+bim .zcompdump 
+vim .zcompdump 
+reboot
+ls
+la
+ls
+source /usr/share/LS_COLORS/dircolors.sh
+ls
+pwd
+la
+la
+cd /usr/share
+ls
+cd LS_COLORS
+ls
+./dircolors.csh
+sudo ./dircolors.csh
+./dircolors.sh
+sudo ./dircolors.sh
+source dircolors.csh
+source ./dircolors.sh
+ls
+cd.
+cd..
+ls
+ee
+ls
+cd /usr/share/
+ls
+cd..
+ls
+cd..
+ls
+la
+cd usr/share/
+ls
+cd..
+ls
+cd src/
+ls
+cd xpad-0.4/
+ls
+cd..
+ls
+ls
+la
+ll
+cd..
+ls
+cd keanue/
+source /usr/share/LS_COLORS/dircolors.sh 
+ls
+pwd
+la
+z
+ls
+Data/TEB/
+ls
+cd Data/TEB/
+ls
+cd Aflac/
+ls
+cd..
+ls
+cd Cigna
+ls
+cd..
+ls
+cd /usr/share/LS_COLORS/
+ls
+vim dircolors.
+vim LS_COLORS 
+vim dircolors.sh 
+vim dircolors.csh 
+pacman -Rs xpad
+sudo pacman -Rs xpad
+ls
+ls
+ee
+la
+cd ~
+ls
+z
+ls
+la
+mv .Xresources .Xresources.bak
+mv .Xresources.SpaceGray .Xresources
+cd .config/nitrogen/
+ls
+cd..
+rmdir nitrogen/
+ls
+rmdir nitrogen/
+ls
+cd..
+ls
 ping 8.8.8.8
-adb 
-sudo adb start-server
-adb devices
-cdd
+ls
+pacman -Rs nitrogen
+sudo pacman -Rs nitrogen
+pacman -S nitrogen
+sudo pacman -S nitrogen
+pacman -S trashcan-cli
+sudo pacman -S trashcan-cli
+sudo pacman -S trash-cli
+cd .config/
+ls
+cd nitrogen/
+ls
+vim nitrogen.cfg 
+man nitrogen 
+cd .cache/
+ls
+cd thumbnails/
+ls
+cd normal/
+ls
+cd..
+ls
+cd..
+ls
+cd..
+ls
+cd .cache/
+ls
+rmdir .thumbnails
+ls
+rm -rf thumbnails/
+ls
+cd..
+ls
+cd .cache/
+ls
+cd..
+ls
+cd .cache/
+ls
+la
+cd..
+cd .thumbnails/
+ls
+cd normal/
+ls
+cd..
+ls
+systemctl disable rds
+systemctl disable redis
+ls
+cd Hdd
+ls
+cd..
+ks
+ls
+cd Data/
 ls
 cd Downloads/
 ls
-adb sideload G965_PIE_Root_for_OEM_issue_devices_V5.zip 
-adb devices
-android-file-transfer 
-ping 8.8.8.8
-youtube
-ping 8.8.8.8
-sudo pacman -S qalculate
-yay -s qalculate
-pacman -S netcat
-sudo pacman -S netcat
-pbcopy
-xclip
-xclip hi
-xclip -f sel clip
-xclip -f hi
-xclip -selection c
-gpm
-echo hi | xclip -selection c
-hi
-unzip runtime/
-unzip src.zip 
-sudo pacman -S ttf-fira-mono
-yay -S ttf-ms-win10
-sudo pacman -S nfs-common
-sudo pacman -S nfs
-sudo pacman -S nfs-common
-systemctl start nfs-server.service
-systemctl stop nfs-server.service
-lsusb
-lsblk
-sudo mount /dev/mmcblk0 /media/usb
-sudo mount -t vfat /dev/mmcblk0 /media/usb
-sudo mount -t vfat /dev/mmcblk0 /media/usb1
-sudo mount -t vfat /dev/mmcblk0 /media/usb2
-sudo mount -t vfat /dev/mmcblk0 /media/SD
-sudo mount -t vfat /dev/mmcblk0 /media/usb
-sudo mount -t vfat /dev/mmcblk0p1 /media/usb
-lsblk
-sudo mount /dev/sdc1 /media/usb2/
 ls
-cd /media/usb
-ls
-cd DCIM/
-ls
-sudo cp -r * /media/usb2/
-sudo umount /media/usb
-sudo umount -f /media/usb
-sudo umount /media/usb
-lsblk
-mount -o remount /dev/sdd1
-sudo mount -o remount /dev/sdd1
-sudo mount -o remount /media/usb
-sudo mount /dev/sdd1 /media/usb
-cd...
-ls
-cd usb
-ls
-sudo cp -r * /media/usb2/
-sudo umount /media/usb2
-sudo umount /media/usb
-sudo umount -f /media/usb 
-cdg
-ls
-cd nets/
+cd Calibre\ Library
 ls
 cd..
-cd ntps/
 ls
-git pull
+cd..
+ls
+ee
 z
-git co master
-git co packet
-git pull master packet
-git pull 
-git merge master
-git pull
-pip install freezegun
-sudo pip install freezegun
-pytest --version
 ls
-cd Tests
+source .Xresources
+
 ls
-cd Blackbox
+ee
 ls
-git pull
-pytest .
-pytest .
-pytest .
-pytest .
-pytest .
-pytest .
-pytest .
-pytest .
-pytest .
-pytest .
-pytest .
-pytest .
-youtube
-sudo pacman -S youtube-dl
-cdg
+urxvt
+ee
 ls
-cd ntps/
+vim .Xresources
+vim exclude-list.txt 
+ee
 ls
-git pull
-cd..
-ls
-cd ai/
-ls
-git clone https://github.com/osveliz/NFG.git
-pacman -S ant
-sudo pacman -S ant
-ls
-cd NFG/
-ls
-ant
-ant do
-ant doc
-ls
-cd doc/
-ls
-vim element-list 
-ls
-ant doc tournament
-cd..
-ls
-cd src/
-ls
-ant
-cd ..
-ls
-anto
-ant
-ls
-cd src/
-ls
-cd util/
-ls
-cd  ..
-ls
-cd games/
-ls
-cd ..
-ls
-cd tournament/
-ls
-vim SolidRock.java 
-ls
-ant
-cd...
-ls
-ant
-ls
-vim build.xml 
-ls
-ant
-git add .
-git status
-cd ..
-ls
-git add .
-git rm --cached NFG
-git status
-git add .
-git status
-git push
-git commit -m "Added nfg"
-git push
-ls
-cd NFG/
-ls
-git add .
-git status
-git commit -m "Added nfg files"
-git push
-ls
-git status
-gut status
-git status
-git push
-cd ..
-ls
-mkdir finalproj
-cd NFG/
-cp -r * ../finalproj/
-cd..
-git help -S
-git help -all -S
-git help --all
-cp MinMaxRegret.java ../Git/ai/NFG/src/tournament/
-cp MaxMinPayoff.java ../Git/ai/NFG/src/tournament/
-cd $HOME
-ls
-la
-pwd
-cdg
-cd ai
-ls
-cd finalproj
-ls
-git add .
-git commit -m "Added final project files."
-git push
-ls
-cd...
-ls
-cd..
-ls
-la
-cd..
-ls
-la
-vim .gitconfig
-cd .atom
-ls
-vim config.cson
-vim keymap.cson
-exit
-z
-yay -S youtube-dl-git
-pacman -Qe |grep mps
-ls
-cd Data/
-ls
-cd ..
-ls
-la
-ls
-cd Data/
-ls
-cd Crypto/
-ls
-cd..
-ls
-cd Programming/
-ls
-cd ArchScripts/
-ls
-cd Notes/
-ls
-cd...
-ls
-cd..
-ls
-cd..
-ls
-Backup
 vim .bash_aliases 
-vim .gitconfig 
+reloadx
+ee
+reloadx
 ls
-la
-ls | grep gi
-ls | grep git
-la | grep gi
-cd .ssh/
+reload
+ee
 ls
-cd ..
+ee
 ls
-la
-vim public.key 
-vim .gitconfig 
-gpg --list-keys
-git show
-git config
-git config get-all
-git config --get-all
-git config --get-color
-git config --list
-echo foo |  xclip -i
-xclip -sel
-xclip clip -o
-xclip -sel clip -o
-source .bash_a
-source .bash_aliases 
-cdwd
-xclip clip -o
-xclip clip "food"
-pwd | xclip
-cd | xclip -o
-cdg
-pwd |xclip
-cdd
-cd | xclip -o
+reloadx
+reload
+ee
 ls
-cd ~
-cdg
-cd ~
-source .bash_aliases 
-cdg
-cpwd
-cdd
-cdwd
-cdwd
-pwd 
-pwd | tr -d 
-pwd | tr -d '\n'
-cpwd
-cdwd
+cd..
 ls
-cdg
-cpwd
-cdwd
-cdg
-cpwd
-cdd
-man xclip
-man cd
-cdg
-cpwd
+ee
+ls
+reloadx
+ee
 pwd
-cdpw
-cdwd
-cd | $(xsel -b -o)
-cd | `xsel -b -o`
-cd `xsel -b -o`
-cd "xsel -b -o"
-cd "$(xsel -b -)o"
-cd "$(xsel -b -o)"
-
-cdwd
-cd | xsel -p
+cd..
+z
+ls
+ls
+exor
+ee
+z
+ee
+ls
+urxvt -e zsh
+urxvt -e zsh -t "Term
+"
+urxvt -e zsh -t term
+urxvt -e zsh -T term
+urxvt -e zsh -T "term"
+nitrogen 
+nitro
+nitrogen 
+yay -S rxvt-unicode-patched
+urxvt --help 2>&1 | grep font
+xrdb ~/.Xresources
+pacman -R ls-colors
+sudopacman -R ls-colors
+pacman -Qe | grep colors
+pacman -R lscolors-git
+sudo pacman -R lscolors-git
+ls
+ee
+xmodmap 
+xmodmap /
+xev
+urxvt >> z
+urxvt --help
+man urxvt
+iasldkasldkasdasdpkasd
+ls Calibre\ Library Calibre\ Library exclude-list.txt 
+pwd
+z
+ks
+ls
+reloadx
+reload
+urxvt -e z
+urxvt -e zsh
+reloadx
+reload
+ls
+cd Android
+ls
+cd..
+ee
+ls
+cd Android/
+ls
+cd..
+ls
+reloadx
+ls
+cgrepgreptemptemptemp
+z
+ls
+vim .zshrc
+reload
+reloadx
+ls
+vim nextmatch.py 
+vim nextfind.py 
+vim nextmatch.py 
+vim config.example 
+whereis dmenu_recent_aliases
+man dmenu
+reloadx
+ee
+reloadx
+ee
+ls
+ee
+pacman -Qe | gaps
+pacman -Qe | grep gaps
+yay -S picom-git
+yay -S polybar-git
+ls
+reloadx
+pacman -S compton
+sudo pacman -S compton
+man i3blocks
+man i3blocks 
+man i3bar 
+i3 --version
+i3blocks --version
+i3blocks -h
+i3blocks -v
+sudo pacman -S i3-gaps
+man i3bar 
+pacman -R compton
+sudo pacman -R compton
+whereis compton
+sudo pacman -R compton
+polybar bar
+polybar bottom
+polybar top
+polybar main
+ls
+reloadx
 ls
 la
-cd | xsel -p
-cdwd
-xsel -b
-cd | xsel -b
-xsel -b
-xsel -b -a
-cd | xsel -b -a
-pwd
-cd | xsel -b -a
-xsel -b
-$(xsel -b)
-cd | xsel -b
-cd | xsel -b -o
-pwd | xsel -b
-xclip -o -selection s
-cd xclip -o -selection s
-cd | xclip -o -selection s
-cd xclip -o -selection s
-xclip -o -selection s
-cdwd
-xsel 0b
-xsel -b
-xsel -b -o
-xsel -o
-xsel -b -o
-xsel -o -b
-xsel -o -p
-xsel -p -o
+ls
+la
+ee
+ls
+ls
+la
+ls
+la
+ls
+la
+ls
+ee
+ls
+reloadx
+ee
+reloadx
+ls
+la
+ee
+ls
+z
+ee
+ls
 
-pwd | xsel -b
-cdd
-pwd | xsel -b
-xsel -b -o
-xsel -b
-xsel
-xsel -b
-xsel -0
-xsel -o
-xsel -b
-xsel -b -o
-cdwd
-cdd
-cpwd
-cdwd
-cd ~
-cdwd
-cdg
-cpwd
-cdg
-pwd | xclip -r -selection s
-xclip -o -selection s
-xsel
-pbcopy
-paste
-cd /usr/share/terminfo/
 ls
-cd x/
+ee
 ls
-vim xterm-256color 
-pacman -S xsel
-sudo pacman -S xsel
-xsel -b
+asdas 
+ls
+la
+cat .bro 
+cd .blackarch/
+ls
+cd meta/
+o leave
+ls
+lss
 ls
 cd
-source .bash_aliases 
-man xsel
-xsel
-vim .bash_aliases 
 ls
-cp .bash_aliases Data/Git/dotfiles/config/
-cd Data/Git/dotfiles/config/
-z
-git st
-git add .bash_aliases
-git comm "Fixed xclip copy paste path error."
-git push
-ls
-cd ..
-ls
-git st
-git co master
-git br laptop
-git co office
-ls
-cd config
-ls
-cp exclude-list.txt ~
-ls
-cd ..
-ls
-cd ArchScripts
-ls
-git st
-git aa
-git comm "Updated exclude list"
-git push
-cd ..
-git co master
-ls
-git pull
-git co laptop
-git st
-git aa
-git comm "Added laptop config files"
-git push
-git push --set-upstream origin laptop
-git push
-vim exclude-list.txt 
-cd .At
-cd .config/Atom/
-ls
+ee
 la
-cd 
+ee
 ls
-rm essentialpkglist.txt 
-rm package-lock.json 
-vim exclude-list.txt 
-mv allpkglist.txt Data/Git/dotfiles/ArchScripts/
-cp exclude-list.txt Data/Git/dotfiles/ArchScripts/
-pacman -Qe|grep ko
-xdotool 
-anything
-startx
+ee
 ls
-cdd
+ee
 ls
-cd Nvidia/
+ee
+ls
+ee
+ls
+reloadx
+st
+ee
+ll
+la
+ee
+pacman -Qe | grep st
+pacman -Rs st-luke-git
+sudo pacman -Rs st-luke-git
+ee
+pwd
 ls
 la
 cd..
-rmdir Nvidia/
-cd Git/
 ls
-cd dotfiles/
+cd keanue/
 ls
-cd notes/
-ls
-vim git.md 
-vim libinput_config.md 
-reboot
-ls
-gitBackupTest 
-ls
-vim rtc0.bak 
-rm rtc0.bak 
-vim package-lock.json 
+ee
+ls ee
+ee
+adaposkdpa
 ls
 la
-gitBackupTest 
-cd .themes/
+p_management.db       .Xresources
+ .gnupg                .pEp_management.dp_management.db       .Xresources
+whereis st
+cd /usr/bin/
 ls
-cd..
-ls
-gitBackupTest 
-gitBackup
-z
-xinput list
-vim /etc/X11/xorg.conf.d/70-synaptics.conf
-vim /etc/X11/xorg.conf.d/40-libinput.conf 
-libinput-gestures
-z
-z
-z
-z
-startx
-cd /etc/X11
-ls
-cd xorg.conf.d
-ls
-source 40-libinput.conf
-xinput --list
-xinput disable 12
-xinput enable 12
-xinput disable 12
-xinput enable 12
-xinput disable 12
-xinput enable 12
+st
+./st
+whereis st
+sudo rm /usr/bin/st 
+sudo rm /usr/local/bin/st 
+sudo rm /usr/share/man/man1/st.1.gz 
+sudo rm /usr/share/man/man4/st.4.gz 
+whereis st
+yay -S st-luke-git
+whereis st
+st
 cdg
 ls
-cd ntps
+cd st-xresources/
 ls
-pytest Tests
-pytest Tests
-pytest Tests
-pytest Tests
-pytest Tests
-pytest Tests
-pytest Tests
-pytest Tests
-ls
-pytest
-pytest Tests
-ls
-mkdir GUI
-cd GUI
-ls
-mkdir Packet
-ls
-cd Packet
-ls
-cd..
-rmdir Packet
-cd..
-ls
-mkdir Packet
-ls
-pytest -v Tests
-cd /etc/X11/xorg.conf.d
-ls
-vim 40-libinput.conf
-vim 70-synaptics.conf.bak
-cd
-cp /etc/libinput-gestures.conf ~/.config/
-cd .config
-vim libinput-gestures.conf
-cdwd
-cd -
-cpwd
-cd /etc/X11/xorg.conf.d/
-vim 40-libinput.conf
-cdg
-ls
-cd ntps
-;s
-ls
-git pull
-git st
-ls
-git st
-ls
-vim .gitignore
-git add .gitignore
-git st
-git comm "Added gitignore"
-git push
-git co master
-git pull
-git merge packet master
-ls
-git co packet .gitignore
-git st
-git st
-git rm Tests/
-git st
-git rm *
-git st
-git reset
-git st
-git br
-git stash 
-git stash drop
-git st
-git co packet
-git st
-git co master
-git st
-git co packet
-git aa
-git comm "Added minimal pytest configuration"
-git push
-git co master
-git st
-git co packet .gitignore
-git st
-git push
-git st
-ls
-rm __pycache__
-rmdir __pycache__
-ls
-cd Tests
-ls
-rm __pycache__
-rmdir __pycache__
-ls
-cd Blackbox
-ls
-rmdir __pycache__
-cd ..
-ls
-cd..
+vim config.h 
+ee
 ls
 la
-vim .gitignore
-git st
-git st
-ls
-vim README.md
-vim README.md
-cd Tests
-ls
-cd Blackbox
-ls
-cd ...
 cd..
 ls
+cd keanue/
+ls
+z
+ls
+pwd
+ls
+cd z
+la
 cd..
 ls
-git pull
-git co packet
-git st
-vim README.md
-vim README.md
-git st
-git aa
-git rm Tests/Blackbox/test_utils.py
-git st
-git reset Head Tests/Blackbox/test_utils.py
-git st
-reset HEAD Tests/Blackbox/test_utils.py
-git st
-git comm "Set timestamp format. Added test for timestamp."
-git push
-git co master
-git merge packet master
-git st
-git push
-git st
+cd keanue
 ls
-head createEditCollection.py
-mv createEdit* GUI
+pwd
+ll
+lSS
+LSS
+ee
 ls
-head Field.py
-head NTPS.py
-mv NTPS.py GUI
-head saveFuzzedPackets.py
-mv saveFuzzedPackets.py GUI
-head fuzzerInterface.py
-head PCAP.py
+ee
+ls ee
+ee
 ls
-mv Field.py Packet.py
+la
+cd..
 ls
+cd keanue/
+ee
 ls
-mv Packet.py Packet.py
+vim z 
+rm z 
 ls
-head Packet
-head Packet.py
-mv Packet.py Packet
+reloadx
+ee
+reloadx
+ee
 ls
-git st
-git aa
-git comm "Ordered system as subsystems. Renamed files to match PEP style."
-git push
-ls
-vim README.md
-git st
-git add .
-git comm "Added init files to packages"
-git push
-git st
-git aa
-git comm "Added Packet system implementation."
-git push
-git pull
+reloadx
+ee
+reloadx
+st
 cdg
-cd ntps
+cd st
 ls
-pytest Tests
-pytest Tests
-pytest -v Tests
-vim .bash_aliases 
-cdwd
-cpwd
+sudo make install
+cd..
+ls
+cd st-xresources
+ls
+cd patches/
+ls
+ee
+la
+cd..
+ls
+cd keanue/
+ls
+ee
+whereis st
+pacman -Qe | grep st
+whereis st-neowave
+whereis st-neowave-git
+whereis st-neonwave-git
+pacman -Rs st-neonwave-git
+sudo pacman -Rs st-neonwave-git
+st
+whereis st
+pacman -Qe | grep st
+whereis st
+cd /usr/share/bin/
+cd /usr/local/bin/
+ls
+vim st 
+yay -S st-luke-git
+st
+pacman -Qe | st
+pacman -Qe | grep st
+cdg
+ls
+cd st-xresources/
+ls
+git st
+cd..
+ls
+cd st
+ls
+cd..
+ls
+rmdir st
+cd st-xresources/
+ls
+vim config.def.h 
+ls
+cd..
+ls
+git clone https://github.com/LukeSmithxyz/st.git
+ls
+cd st
+ls
+cat README.md 
+ls
+vim config.h 
+./Makefile
+sudo ./Makefile
+sudo make install
+ls
+vim config.h 
+ee
+reloadx
+ls
+reloadx
+ls
+xrefresh 
+xreload
+reloadx 
+reloadx
+reloadx 
+reloadx
+st
+reloadx
+picom &
+reloadx
+st
+reloadx
+reload
+reloadx
+ee
+cd .config/
+ls
+cd polybar/
+polybar main
+ls
+la
+cd..
+clear
+ls
+cd keanue/
+ls
+polybar main
+reloadx
+polybar main
+polybar example
+ping 8.8.8.8
+cd .config/
+ls
+cd polybar/
+ls
+vim config 
+polybar
+polybar main
+polybar -c config
+polybar main
+polybar main &
+cat config 
+vim config 
+ls
+cp config config.bak
+vim config
+dd
+ee
+pavucontrol 
+polybar main
 startx
-xinput --list-props 12
-startx
-xinput --list-props 12
-vim /etc/X11/xorg.conf.d/
-sudo pacman --remove xf86-input-synaptics 
-reboot
-vim .bash_aliases 
-source .bash_aliases 
-bro xclip
-bro
-pacman -S bro
-sudo pacman -S bro
-man xclip
-echo fu
+ls
+la
+source /usr/share/LS_COLORS/dircolors.sh 
 ls
 la
 vim .xinitrc 
-vim .bash_profile 
-vim .bashrc 
-vim .bash_profile 
-yay -S bitwig-studio
-z
-xinput --list-props 12
-cdg
-cd dotfiles/notes
+la
+cd /etc/xdg/
 ls
-vim libinput_config.md
-cdg
-cd ai/
-git pull
-cdg
-cd dotfiles/
+cd autostart/
 ls
-git st
-cpwd
-git st
-git aa 
-git comm "finally silenced xclip error?"
-git push
-z
-gitBackup
-sudo rm -r Downloads/
-yay -Qe | grep fire
-yay -S firefox
-pacman -Qe | grep firefox
-pacman -Su
-sudo pacman -Su
+cd..
+xdg
+cd
+vim .config/
+cd .config/
+ls
+la
+rmdir xpad
+cd /etc/
+ls
+vim bash.bash_logout 
+la
+vim bash.bashrc 
+ls
+cd bash_completion.d/
+ls
+cd..
+ls
+cd X11/
+ls
+cd xinit/
+ls
+vim xinitrc
+ls
+cd xinitrc.d/
+ls
+cd..
+ls
+mv xinitrc xinitrc.bak
+sudo mv xinitrc xinitrc.bak
+cd..
+ls
+cd..
+ls
+startx
+cd 
+startx
+vim .bash_profile 
+vim .Xresources
+ls
+cp .Xresources .Xresources.bak
+vim .Xresources
+cd .config/polybar/
+ls
+vim config
+ping 8.8.8.8
 sudo pacman -Sy
-pacman -Qu | grep fire
-sudo pacman -S firefox
-pkill -9 firefox
-top
-echo java -jar after ant jar
+ping 8.8.8.8
+im
+vim
+st
+st-term
+st
+whereis st
+pacman -Rs | grep st
+sudo pacman -Rs | grep st
+sudo pacman -Qe | grep st
+man st
+source .config/i3/config
+screen
+ls /usr/share/terminfo/x/
+x10term
+xfce
+$TERM
+echo $TERM
+cd .vim
+ls
+cd..
+vim .vimrc 
+reloadx
+cdg
+ls
+cd st-xresources/
+ls
+cd..
 ls
 cdg
-cd ai/
 ls
-cd NFG/
+cd st
+ls
+vim config.mk 
+cd..
+ls
+cd st-xresources/
+ls
+cd..
+ls
+cd HackerRank/
+ls
+cd..
+cd hackerrank-solutions/
+ls
+cd interview_preparation_kit/
+ls
+cd warm_up_callenges/
+ls
+cd...
+cd..
+rm -rf hackerrank-solutions/
+ls
+cd deleteme/
+ls
+cd..
+rmdir deleteme/
+rm -rf deleteme/
+sudo rm -rf deleteme/
+plase
+ls
+reload
+reloadx
+ls /usr/share/terminfo/x/
+$USER
+$USERDIR
+$USER
+echo $USER
+echo /home/$USER
+cd .local/
+ls
+cd bin/
+ls
+bench
+chardetect
+honcho
+virtualenv
+cd..
+cd .gem/
+ls
+cd ruby/
+ls
+cd /usr/lib/jvm/
+ls
+cd default
+ls
+cd bin/
+ls
+cd..
+ls
+cdll
+cd..
+ls
+cd java-13-openjdk/
+ls
+cd /usr/bin/site_perl/
+ls
+la
+cd..
+la
+cd /usr/bin/site_perl/
+la
+cd /usr/bin/vendor_perl/
+ls
+cd /opt/
+ls
+cd arch32/
+ls
+cd..
+ls
+whereis st
+cd /usr/local/
+ls
+cd bin/
+ls
+mujtest
+./mujstest 
+./st
+ls
+st-copyout 
+cd
+source .bashrc 
+ls /usr/share/terminfo/
+ls /usr/share/terminfo/x
+echo $TERMINFO
+echo $TERM
+vim
+exot
+ee
+vim .bashrc 
+ee
+ip
+ip link
+ip link wlp3s0
+vim 
+terminfo
+startx
+reboot
+reloadx
+reload
+ls
+la
+ee
+reload
+ee
+cdg
+ls
+cd st-xresources/
+ls
+make clean install
+sudo make clean install
+ls
+vim README 
+cd..
+ls
+cd st
+ls
+make clean install
+please
+man fc
+sudo make clean install
+tic -s st.info 
+please
+ee
+xst -e vim .bash_aliases 
+export TERM=xst;
+xst -e vim .bash_aliases 
+export TERM=st-term;
+xst -e vim .bash_aliases 
+export TERM=st-term;
+xst -e vim .bash_aliases 
+export TERM=st-term
+xst -e vim .bash_aliases 
+xst -e vim
+export TERM=xst
+ee
+xst -e vim
+ee
+please
+vim .bash_aliases 
+echo $TERM
+xst -e vim
+ls
+cdg
+ls
+cd xst/
+ls
 git pull
 git stash
-git stash drop
-git st
 git pull
-git pull --force
-cd ..
 ls
-git pull
-cd finalproj/
-git pull
+vim Re
+vim README.md 
+ls
+cd src/
+ls
 cd..
-cd NFG/
 ls
-git st
-cd ..
+man tic
+ee
+st-term
+whereis st
+sudo pacman -Qe| grep st
+xst-git
+xst
+xst -e python
+xst -e vim
+pacman -S vim
+please
+vim .bash_aliases 
+source .bash_aliases 
+please
+pacman -S vim
+please
+ la
+ll
+l
+lss
+vim
+xst 
+man xst
+yay -S xst
+xst
+ee
+xst -e vim 
+ee
+xst -e vim
+reloadx
+xst -e vim
+reloadx
+xst -e vim
+reloadx
+ee
+reloadx
+ee
+la ls
 ls
-rmdir NFG/
-sudo rm -r NFG/
+la
+vim
+ee
+reloadx
+ee
+la
+pwd
+vim .ssh/
+ee
+echo "Pretty huh heh?"
+cdg
 ls
-git clone https://github.com/osveliz/NFG.git
-cd NFG/
+cd..
 ls
-cd ..
+cdg
+ls
+cd xst/
+ls
+cd src/
+cd..
+vim Makefile 
+reloadx
+cdg
+ls
+cd xst/
+ls
+vim Makefile 
+ee
+ls
+la
+pwd
+reloadx
+vim .ssh/
+reloadx
+ee
+vim .Xresources
+vim .bash_aliases 
+reloadx
+ee
+ll
+ee
+reloadx
+ee
+reloadx
+ee
+vim .bash_aliases 
+ee
+reloadx
+ee
+ls
+pwd
+ee
+pwd
+vim .bash_aliases 
+source .bashrc 
+ls
+echo "$LS_COLORS
+"
+echo $LS_COLORS
+reloadrx
+reloadrc
+ls
+cd Data/
+ls
+cd..
+ls
+dir
+reloadrc
+dir
+ls
+vdir
+reloadrx
+reloadrc
+vdir
+reloadrc
+ls
+cd Data/
+ls
+cd Git/
+ls
+cd ai
 ls
 cd finalproj/
 ls
 cd src/
 ls
-cd tournament/
-la
+cd games/
 ls
-ll
-cp MaxMinPayoff.java ../../
-cp MaxMinPayoff.java ../../../
-cp MaxMinPayoff.java ../../../../
-cp MinMaxRegret.java ../../../../
-cp NashEquilibrium.java ../../../../
-cd....
+reloadrc
+ls
 cd..
 ls
-rm *java
-ls
-cd ai/
-ls
-cd finalproj/
-rm -r *
-cd ..
-ls
-cd NFG/
-cp -r * ../finalproj/
-cd ~~:$
 cd..
 ls
-mv *java finalproj/src/tournament/
-cd finalproj/src/tournament/
+cd..
 ls
-startx
-yay -Syu
-sudo pacman -S python
-sudo pacman -S python2
-sudo pacman -S xorg
-sudo pacman -Qu
-sudo pacman -S wireshark rust ruby 
-sudo pacman -S wireshark-cli wireshark-qt rust ruby 
-sudo pacman -Qu
-sudo pacman -Syu
-reboot
-cpwd
+cd
+ls
+reloadrc
+ls
+yay -S lscolors-git
+reloadrc
+ls
+cd Data/
+ls
+cd..
 cdg
-cd ai/
-git st
-git aa
-git comm "Updated repository"
-git push
-z
-vim .gitconfig
-source .gitconfig
-cdg
-cd ai/
-cd finalproj/
-git st
-git aa
-git comm "TotallyMixedStrategy works but it is very unefficient."
-git recomm
-git st
-cdg
-cd ai/finalproj
-git st
-git unstage 1
-git st
-git unstage 0
-git st
-git rm -rf build/*
-git st
-git add src/*
-git st
-git comm "TotallyMixedStrategy works but it is inefficient."
-git push
-exit
-z
-sudo pacman -S afl
-z
-cdg
+ls
 cd ai
 ls
 cd..
+cd st-xresources/
 ls
-cd ntps
-git pull
-sudo pip install scapy
+cd patches/
 ls
-exit
-git add Packet/*
-git comm "Fixed conflicts"
-git push
-z
-exit
-z
-cdd
-cd Programming
+cd.
+cd..
 ls
-cd C
+vim Makefile 
+ee
 ls
-alf-fuzz -i testcases/ -o findings/ -- ./a.out
-afl-fuzz -i testcases/ -o findings/ -- ./a.out
-afl-fuzz -i testcases/ -o findings/ -- ./a.out
+la
+ls
+reload
+ee
+ls
+ee
+vim .bash_aliases 
+ee
+ls
+ee
+ls
+reloadrc
+ls
+reloadrc
+ls
+pwd
+source .bashrc
+ls
+cd Data/
+ls
+cd /usr/share/LS_COLORS/
+ls
+./ dircolors.sh 
+. dircolors.sh 
+ls
+vim dircolors.sh 
+vim LS_COLORS 
+reloadrc
+ls
+reloadx
+ls
+reloadrc
+ls
+reload
+ls
+reloadrc
+ls
+clear
+ls
+. dircolors.sh 
+ls
+reload
+ls
+reloadrc
+ls
+reloadrc
+ls
+. dircolors.sh 
+source .dircolors.sh
+ee
+ls
+la
+reloadrc
+ls
+echo $LSCOLORS
+echo $LS_COLORS
+ls
+vdir
+dir
+LSS
+ee
+ls
+reload
+ls
+dir
+vdir
+ls
+cd Data/
+ls
+cd..
+ls
 cdg
-cd ntps
 ls
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python ntps.py
-python3 ntps.py
-python3 ntps.py
-python3 ntps.py
-python3 __main__.py
-python3 __main__.py
-python3 __main__.py
-python3 __main__.py
-python3 __main__.py
+cd st-xresources/
 ls
-cd App
+ee
+ls | grep a
+ee
+reloadrc
 ls
-python ntps.py
-cd..
+ls grep | a
+ls | grep a
+ll
+dir
+la
+ls -d .*
+la
+reloadrx
+reloadrc
+ls
+la
 cd..
 ls
-cd ntps
+cd keanue/
 ls
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python
-python __main__.py
-git st
-git add README.md
-git add Tests/*
-git pull
-git add Packet/packet.py
-git comm "Pre-work with hooks"
-git pull
-git pull
-git st
-python __main__.py
-git pull
-ls
-git st
-git pull
-exit
-sudo yay -S python-netfilterqueue-git
-yay -S python-netfilterqueue-git
-vim .zshrc
-exit
-pytest Tests/Blackbox/
-pytest Tests/Blackbox/
-pytest Tests/Blackbox/
-pytest Tests/Blackbox/
-pytest Tests/Blackbox/
-pytest Tests/Blackbox/
-pytest Tests/Blackbox/
-cd..
-ls
-cd ntps
-cd Tests
-pytest -m Whitebox/test_hook_class.py
-python -m pytest Whitebox/test_hook_class.py
-pytest Whitebox/test_hook_class.py
-python -m pytest Whitebox/test_hook_class.py
-python -m pytest Whitebox/test_hook_class.py
-python -m pytest Whitebox/test_hook_class.py
-python -m pytest Whitebox/test_hook_class.py
-python3 -m pytest Whitebox/test_hook_class.py
-pytest Whitebox/test_hook_class.py
-python3 -m pytest Whitebox/test_hook_class.py
-exit
 cdg
-cd ntps/
-cd Hook
+ls
+cd st-xresources/
+ls
 cd..
-cd Hooks/
 ls
-python DNSsport.py 
-python DNSsport.py None
-python DNSsport.py 'E\x00\x00\x14\x00\x01\x00\x00@\x00|\xe7\x7f\x00\x00\x01\x7f\x00\x00\x01'
-python DNSsport.py 
+ee
 ls
-python DNSsport.py 
-cd..
-python __main__.py 
+reloadrc
 ls
-rm core.*
-python __main__.py 
-ls
-rm core*
-rm -r __pycache__/
-python __main__.py 
-ls
-rm core.14003 
-rm -r __pycache__/
-cd Hook
-ls
-rm -r __pycache__/
-cd..
-python __main__.py 
-ls
-vim /run/xtables.lock 
-z
-ls
-z
 cdg
-cd..
 ls
-cd Programming/
+cd st-xresources/
 ls
-cd C/
+reloadrc
 ls
-sudo echo core >/proc/sys/kernel/core_pattern
-sudo -i
-z
+reloadrc
+ls
+reloadrc
+ls
 cdg
-cd ntps/
 ls
-python -m pytest Tests/Blackbox/
-python -m pytest Tests/Whitebox/test_hook_class.py 
-python -m pytest Tests/Blackbox/
-python -m pytest Tests/Whitebox/test_hook_class.py 
-git st
-z
-python -m pytest Tests/Whitebox/test_hook_class.py 
-python -m pytest Tests/Whitebox/test_hook_class.py [A
-python -m pytest Tests/Whitebox/test_hook_class.py
-pytest Tests/Whitebox/test_hook_class.py
-python3 -mpytest Tests/Whitebox/test_hook_class.py
-python3 -m pytest Tests/Whitebox/test_hook_class.py
+pwd
+cd..
 ls
-python3 -m pytest Tests/Whitebox/test_hook_class.py
-z
-python3 -m pytest Whitebox/test_hook_class.py
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 -m pytest Tests/Blackbox/
-python3 __main__.py
-python3 __main__.py
-git pull
-git stash
-python __main__.py
-git stash pop
-git add Hook/*
-git add Hooks/DNSsport.py
-git add Tests/Whitebox/*
-git comm "This is fucked."
-git push
-git pull
-git stash
-git st
-rm core.*
-python __main__.py
-python __main__.py
-cd ..
-rm -r ntps
-rm -rf ntps
-git clone https://github.com/sdmunozsierra/ntps.git
-cd ntps
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-sudo i
-sudo -i
-python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo wireshark
+cd..
+ls
 cdg
-cd ntps
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-python3 -m pytest Tests/Whitebox/test_pcap_remove_packet.py
-sudo python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-z
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-sudo python __main__.py
-z
-z
-sudo python __main__.py
+cd st
+ls
 cdg
-cd ntps/
 ls
-git pull
-git st
-git add *
-git aa
-git comm "Fixed imports in Packet subsystem
-Fixed various typos
-Started working with scapy to forward packets"
-git push
-git pull
-git st
-z
-sudo pip install pyqt5
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-git st
-git pull
-git pull
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest
-;s
+ee
 ls
-git st
-git pull
-git aa "Fixed imports"
-git aa
-git comm "Fixed imports"
-git pull
-git st
-git aa
-git comm "Merged changes against queue"
-git push
-python __main__.py
-git st
-git co base_gui
-git co base_gui
-git st
-git br base_gui
-git st
-git checkout -b base_gui
-git br base_gui
-git co base_gui
-git push
-git push --set-upstream origin base_gui
-git co master
-git pull
-python __main__.py
-git pull
-git pull
-python __main__.py
-git pull
-python __main__.py
-git co base_gui
-pythoncd App
+su
+vim .bash_aliases 
+vim .bash_profile 
+vim .bashrc 
+ee
+vim .Xresources
+ee
+whereis s
+whereis st
+whereis xst
+xst
+cd .config/i3/
+vim config
+reloadx
+reload
 ls
-cd App
-ls
-cd..
-cd Packet
-ls
-vim __init__.py
-git co master
-vim queue.py
-vim packet
-vim packet.py
-git pull
-cd..
-pytest
-pytest
-pytest
-pytest
-pytest
-pytest Tests/Blackbox
-pytest Tests/Whitebox
-pytest Tests/Whitebox
-pytest Tests/Whitebox
-pytest Tests/Whitebox
-pytest Tests/Whitebox
-python -m pytest
-python -m pytest Tests/Whitebox/test_hook_class.py
-git st
-git aa
-git comm "Implementing hook"
-git st
-git push
-git pull
-git st
-git push
-ls
-mv interception_interface.py Interface
-mv interface_manager.py Interface
-git aa
-git comm "Moved files to Interface"
-git push
-git push
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull
-git pull
-git st
-git aa
-git comm "Hook can send packets through subprocess"
-git pull
-git push
-git st
-git pull
-git pull
-git pull
-git aa
-git comm "Giving up on implementing as subprocess"
-git pull
-git push
-git aa
-git comm "Hook implementation via imports."
-git pull
-git push
-ls
-git st
-git pull
-git pull
-git aa
-git comm "Run hook implementation."
-git push
-ls
-rm core.2*
-rm \#pyutils.py\#
-ls
-git st
-git comm "Removed weird files"
-git push
-git st
-cd..
-cd ntps
-git st
-git add Hook/hook_manager.py
-git comm "Hooks finally running."
-git push
-git st
-rm core.25021
-git aa
-git comm "Hook support runnin ALL 3 implemented hooks." 
-git push
-git st
-git pull
-git aa
-git comm "Added more functions to hook_manager"
-git push
-git st
-git aa
-git comm "Removed dumb files"
-git push
-git st
-rm core.3*
-git aa
-git comm "Fixed error by tcp_sport"
-git push
-git pull
-git push
-git st
-git aa
-git comm "Added pyglobals to be used across the system"
-git push
-git st
-rm core.15902
-git comm "Added test case for removing a packet from pcap."
-git push
-git st
-git aa
-git comm "Implemented run hooks from pcap load."
-git push
-git st
-rm core*
-git st
-rm core.*
-git st
-git aa
-git comm "Hooks working\
-\!\
-"
-git push
-git st
-rm core.31*
+vim config
+cd
+vim .vimrc 
+ee
+startx
+ip addr
+ping 8.8.8.8
+pacman -Syu
+please
+pacman -Syu
+please
+sudo pacman -Rdd libdmx libxxf86dga && pacman -Syu
+sudo pacman -Rdd libdmx libxxf86dga && sudo pacman -Syu
+sudo pacman -Syu
+reboot
+reload
 cdg
 cpwd
-youtube
+cdwd
+vim .bashrc 
+vim .bash_profile 
+ee
+ee
+man escrotum
+ee
+man strftime2
+man strftime(2)
+man 2 strftime
+man2 strftime
+man strftime
+source .bash_aliases 
+reload
+lss
+reloada
+source .bash_aliases 
+reloada
+source .bash_aliases 
+man egrep
+bc
+bc -l
+:q
+reloadx
+ls
+ee
+mono
+man mono
+ee
+nitrogen
+man nitrogen
+cd
+ls
+cd Data/
+ls
+cd Photos\&Vids/
+ls
+cd Boring/
+ls
+cd X
+ls
+cd..
+ls
+cd..
+ls
+cd Wallpapers/
+ls
+cd Retro/
+ls
+nitrogen --save retro_girl0.jpg 
+nitrogen --set retro_girl0.jpg 
+man nitrogen 
+nitrogen --set-auto retro_girl0.jpg --save
+cd..
+ls
+cd..
+cd Boring/
+ls
+feh C/*
+feh X/*
+ee
+picom
+reloadx
+picom
+reloadx
+picom
+ee
+picom
+ee
+picom
+ee
+xst
+reloadx
+xst
+picom
+reloadx
+xst
+reloadx
+xst
+ls
+vim exclude-list.txt 
+vim .Xresources
+reloadx
+st
+xst
+reloada
+reloadprof
+xst
+ee
+vim .Xresources
+vim .bash_aliases 
+ee
+vim .Xresources
+ee
+picom
+ee
+picom
+ee
+jobs -l
+date + "%T"
+date
+'date +"%T"'
+date +"%T"
+ping -c 5
+ping -c 5 8.8.8.8
+ln
+man ln
+free -m -l -t
+lscpu
+cc
+c
+ps auxf | sort -nr -k 4
+ps auxf | sort -nr -k 4 | head 5
+ps auxf | sort -nr -k 4 | head -4
+grep -i --color memory /var/log/Xorg.0.log
+ls /var/log/optimus-manager/
+cd :$!!
+cd /var/log/optimus-manager/
+ls
+cat gpu_setup.log 
+sudo cat gpu_setup.log 
+ls
+vim gpu_setup.log 
+vim boot_setup.log 
+df
+df -H
+du
+du -ch
+atop
+top
+cd
+source .bash_aliases 
+gitBackupTest 
+gitBackupTest
+vim stale_outputs_checked 
+ls
+vim 187 
+vim stale_outputs_checked 
+rm stale_outputs_checked 
+cd ghc
+ls
+cd .ghc/
+ls
+gitBackupTest
+vim .flutter
+vim .flutter_tool_state 
+vim .fehbg 
+vim .config/i3/config
+ee
+firefox
+ls
+awk ' {split( $0, a, " " ); asort( a ); for( i = 1; i <= length(a); i++ ) printf( "%s ", a[i] ); printf( "\n" ); }' exclude-list.txt exclude-list.txt 
+awk ' {split( $0, a, " " ); asort( a ); for( i = 1; i <= length(a); i++ ) printf( "%s ", a[i] ); printf( "\n" ); }' exclude-list.txt >  exclude-list.txt 
+vim .bash_aliases 
+sudo systemctl restart NetworkManager
+systemctl 
+systemctl | grep net
+ip addr
+sudo sysctl restart NetworkManager
+sudo sysctl restore NetworkManager
+sudo systemctl restart NetworkManager
+cd /etc/modprobe.d/
+ls
+vim blacklist.conf
+vim blacklist
+vim blacklist.conf 
+sudo systemctl restart NetworkManager
+iwconfig 
+iwconfig wlp3s0 essid PamelaChu key titamatagatos
+sudo iwconfig wlp3s0 essid PamelaChu key titamatagatos
+sudo iwconfig wlp3s0 essid PamelaChu key 0:titamatagatos
+sudo iwconfig wlp3s0 essid PamelaChu key s:titamatagatos
+ifconfig
+cal
+cal dec 2019
+rmdir .config/bleachbit/
+man aurman
+aurman
+rmdir .config/aurman/
+vim .config/sweeperrc 
+rm .config/sweeperrc
+vim .config/krunnerrc 
+rm .config/krunnerrc 
+rm .config/kprivacyrc 
+rm .config/filelightrc 
+vim .stagehand 
+vim .gksu.lock 
+rm .gksu.lock 
+vimgolf 
+vim .config/pcmanfm/default/pcmanfm.conf.UAY97Z 
+cd .config/pcmanfm/default/
+vimdiff pcmanfm.conf pcmanfm.conf.UAY97Z 
+rm pcmanfm.conf.UAY97Z 
+cd
+vim .config/user-dirs.dirs 
+protoc
+ee

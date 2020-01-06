@@ -1,9 +1,8 @@
-#
+# Main profile
 . ~/.profile
-#
 
-# Clear xclip to avoid STRING error (find a better way)
-# it's driving me nuts
-echo fu | xclip -selection s
-
+# Source bashrc
 [[ -f ~/.bashrc ]] && . ~/.bashrc
+
+# avoid STRING error by setting current working directory
+cpwd

@@ -19,20 +19,22 @@ font pango:Gidole Nerd Font 12
 workspace_layout default 
 
 # Workspace name
-set $WS1  1: Desktop
-set $WS2  2: Web
-set $WS3  3: Notes
-set $WS4  4: Bash
-set $WS5  5: Download
-set $WS6  6: File
-set $WS7  7: Doc
-set $WS8  8: VM
-set $WS9  9: Media
-set $WS0  10: Config
-set $WS11 11: Mail
-set $WS12 12: Dev 
+set $WS0  0:Dev 
+set $WS1  1:Desktop
+set $WS2  2:Web
+set $WS3  3:Notes
+set $WS4  4:Bash
+set $WS5  5:Download
+set $WS6  6:File
+set $WS7  7:Doc
+set $WS8  8:VM
+set $WS9  9:Media
+set $WS10 10:Config
+set $WS11 11:Test
+set $WS12 12:Log
 
 # Switch to workspace
+bindsym $mod+grave workspace $WS0
 bindsym $mod+1 workspace $WS1
 bindsym $mod+2 workspace $WS2
 bindsym $mod+3 workspace $WS3
@@ -42,11 +44,12 @@ bindsym $mod+6 workspace $WS6
 bindsym $mod+7 workspace $WS7
 bindsym $mod+8 workspace $WS8
 bindsym $mod+9 workspace $WS9
-bindsym $mod+0 workspace $WS0
+bindsym $mod+0 workspace $WS10
 bindsym $mod+underscore workspace $WS11
-bindsym $mod+grave workspace $WS12
+bindsym $mod+equal workspace $WS12
 
 # Move focused container 
+bindsym $mod+Shift+grave move container to workspace $WS0
 bindsym $mod+Shift+1 move container to workspace $WS1
 bindsym $mod+Shift+2 move container to workspace $WS2
 bindsym $mod+Shift+3 move container to workspace $WS3
@@ -56,9 +59,9 @@ bindsym $mod+Shift+6 move container to workspace $WS6
 bindsym $mod+Shift+7 move container to workspace $WS7
 bindsym $mod+Shift+8 move container to workspace $WS8
 bindsym $mod+Shift+9 move container to workspace $WS9
-bindsym $mod+Shift+0 move container to workspace $WS0
+bindsym $mod+Shift+0 move container to workspace $WS10
 bindsym $mod+Shift+underscore move container to workspace $WS11
-bindsym $mod+Shift+grave move container to workspace $WS12
+bindsym $mod+Shift+equal move container to workspace $WS12
 
 ##############################
 ###### GAPS AND BORDERS ###### 
@@ -89,20 +92,23 @@ workspace "$WS12" gaps outer 0
 
 ## Set default programs
 set $browser firefox
-set $term st 
+set $term xst 
+set $term2 urxvt -e zsh
 set $dmenuTheme -fn 'Raleway-16:bold' -nb '#141413' -nf '#f8f6f2' -sf '#141413' -sb '#ffa724' 
 
 # Start a terminal
 bindsym $mod+Return exec $term 
 bindsym $mod+Ctrl+Return exec ~/Data/ArchScripts/penejada.sh
+bindsym $mod+slash exec $term2
 
 # Start dmenu 
 bindsym $mod+d exec --no-startup-id dmenu_recent_aliases -i -p ' ' $dmenuTheme
 
 # Autostart programs
-exec        --no-startup-id nitrogen
+exec_always --no-startup-id picom
 exec_always --no-startup-id xrdb -load ~/.Xresources
 exec_always --no-startup-id ~/.screenlayout/office3.sh
+exec        --no-startup-id nitrogen --restore
 exec        --no-startup-id betterlockscreen -u ~/Data/Pictures/Walls/lock.jpg
 exec        --no-startup-id $browser
 
@@ -114,11 +120,12 @@ bindsym $mod+m exec --no-startup-id $term ranger
 bindsym $mod+Ctrl+Delete exec --no-startup-id xfce4-taskmanager
 
 # Class layout
-for_window [class="Galculator"] floating enable 
+for_window [class="Galculator"] floating enable focus
 for_window [class="mpv"] move container to workspace $WS9
 for_window [class="(?i)lxappearance"] floating enable change container layout (stacked, tabbed, toggle split)
-for_window [class="Firefox"] move container to workspace $WS2
+for_window [class="firefox"] move container to workspace $WS2
 for_window [class="notes"] move container to workspace $WS3
+
 for_window [class="simplenote"] move container to workspace $WS3 border pixel 1
 for_window [class="M(?i)Player"] move container to workspace $WS9
 for_window [class="sky"] move container to workspace $WS11 
@@ -285,9 +292,9 @@ bindsym $mod+Ctrl+c mode "config"
 mode "config"{
 	bindsym w   exec i3-msg 'exec "$term -e vim .config/i3/config" '
 	bindsym b   exec i3-msg 'exec "$term -e vim .config/i3/i3status.conf" move $WS0'
-	bindsym v   exec i3-msg 'exec "$term -e vim .vimrc" move $WS0'
 	bindsym a   exec i3-msg 'exec "$term -e vim .bash_aliases" move $WS0'
-	bindsym e   exec i3-msg 'exec "$term -e vim .emacs.d/init.el" move $WS0'
+	bindsym v   exec i3-msg 'exec "$term -e vim .vimrc" move $WS0'
+	bindsym z   exec i3-msg 'exec "$term -e vim .zshrc" move $WS0'
 	bindsym x   exec i3-msg 'exec "$term -e vim .Xresources" move $WS0'
 	bindsym p   exec i3-msg 'exec "$term -e vim ~/Data/ArchScripts/install_programs.sh" '
 
@@ -302,6 +309,8 @@ mode "config"{
 #############################
 
 # Xresources
+set_from_resource $background  background  
+set_from_resource $foreground  foreground  
 set_from_resource $darkblack   color0  
 set_from_resource $black       color8  
 set_from_resource $darkred     color1  
@@ -340,9 +349,11 @@ bar {
     #status_command 	i3status -c ~/.config/i3/i3status.conf #Simple status 
     status_command 	i3blocks -c ~/Data/Programming/ArchScripts/i3blocks/i3blocks.conf #Block status
     #tray_output primary #display the tray only on primary output
+    
+    strip_workspace_numbers yes
 
     colors{
-        background $darkblack 		#Bar Background
+        background $background 		#Bar Background
         statusline $white		    #Bar Letters
         separator  $darkblack 		#Bar Separator
 

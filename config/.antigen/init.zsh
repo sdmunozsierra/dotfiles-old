@@ -1,5 +1,5 @@
 #-- START ZCACHE GENERATED FILE
-#-- GENERATED: Fri 17 May 2019 07:19:23 AM UTC
+#-- GENERATED: Tue 17 Dec 2019 03:46:24 AM UTC
 #-- ANTIGEN develop
 _antigen () {
 	local -a _1st_arguments
@@ -36,7 +36,7 @@ antigen () {
   return 0;
 }
 typeset -gaU fpath path
-fpath+=(/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting) path+=(/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting)
+fpath+=(/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/keanue/.antigen/bundles/trapd00r/zsh-syntax-highlighting-filetypes) path+=(/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/keanue/.antigen/bundles/trapd00r/zsh-syntax-highlighting-filetypes)
 _antigen_compinit () {
   autoload -Uz compinit; compinit -i -d "/home/keanue/.antigen/.zcompdump"; compdef _antigen antigen
   add-zsh-hook -D precmd _antigen_compinit
@@ -49,12 +49,13 @@ if [[ -n "" ]]; then
 fi
 #--- BUNDLES BEGIN
 source '/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
+source '/home/keanue/.antigen/bundles/trapd00r/zsh-syntax-highlighting-filetypes/zsh-syntax-highlighting-filetypes.zsh';
 source '/home/keanue/.antigen/bundles/eendroroy/alien-minimal/alien-minimal.zsh';
 
 #--- BUNDLES END
-typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true' 'https://github.com/eendroroy/alien-minimal.git alien-minimal.zsh-theme theme true')
+typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true' 'https://github.com/trapd00r/zsh-syntax-highlighting-filetypes.git / plugin true' 'https://github.com/eendroroy/alien-minimal.git alien-minimal.zsh-theme theme true')
 typeset -g _ANTIGEN_CACHE_LOADED; _ANTIGEN_CACHE_LOADED=true
-typeset -ga _ZCACHE_BUNDLE_SOURCE; _ZCACHE_BUNDLE_SOURCE=('/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting//' '/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh' '/home/keanue/.antigen/bundles/eendroroy/alien-minimal/alien-minimal.zsh-theme' '/home/keanue/.antigen/bundles/eendroroy/alien-minimal/alien-minimal.zsh-theme')
+typeset -ga _ZCACHE_BUNDLE_SOURCE; _ZCACHE_BUNDLE_SOURCE=('/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting//' '/home/keanue/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh' '/home/keanue/.antigen/bundles/trapd00r/zsh-syntax-highlighting-filetypes//' '/home/keanue/.antigen/bundles/trapd00r/zsh-syntax-highlighting-filetypes///zsh-syntax-highlighting-filetypes.zsh' '/home/keanue/.antigen/bundles/eendroroy/alien-minimal/alien-minimal.zsh-theme' '/home/keanue/.antigen/bundles/eendroroy/alien-minimal/alien-minimal.zsh-theme')
 typeset -g _ANTIGEN_CACHE_VERSION; _ANTIGEN_CACHE_VERSION='develop'
 typeset -g _ANTIGEN_THEME; _ANTIGEN_THEME='eendroroy/alien-minimal alien-minimal'
 
