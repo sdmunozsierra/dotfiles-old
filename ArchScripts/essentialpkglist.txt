@@ -22,9 +22,6 @@ gzip
 htop
 i3-gaps
 i3blocks
-i3status
-la-capitaine-icon-theme-git
-leafpad
 less
 libtool
 libzip
@@ -45,7 +42,6 @@ python3
 ranger
 simplenote-electron-bin
 smplayer
-st-neonwave-git
 ttf-fira-sans
 ttf-hack
 ttf-inconsolata
@@ -58,4 +54,5 @@ xclip
 xfce4-taskmanager
 xpad
 xterm
+xst-git
 youtube-dl

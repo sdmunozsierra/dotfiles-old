@@ -31,7 +31,8 @@ cp -r . ~/
 
 echo "Installing all programs"
 cd ..
-cd notes/ArchScripts/
+cd ArchScripts/
+# Packages from workpkglist.txt
 while read line
 do
     yay -S --noconfirm --needed $line
