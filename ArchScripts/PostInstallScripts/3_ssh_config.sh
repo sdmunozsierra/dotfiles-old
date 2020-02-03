@@ -17,6 +17,7 @@ create_ssh_key(){
         echo "SSH key $DIR$FILENAME copied to clipboard"
     fi
     ssh-keygen -t rsa -b 4096 -C $EMAIL -f $DIR$FILENAME
+    ssh-add $DIR$FILENAME
 }
 
 ## Print available keys
