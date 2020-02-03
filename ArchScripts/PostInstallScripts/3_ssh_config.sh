@@ -12,6 +12,7 @@ create_ssh_key(){
     read FILENAME
     if [[$FILENAME = "" ]]; then
         echo "Using default id_rsa filename"
+        FILENAME="id_rsa"
     else
         echo "SSH key $DIR$FILENAME copied to clipboard"
     fi
@@ -37,14 +38,13 @@ copy_key(){
 update_config_file(){
     echo "Host (eg. es.github.com/git.annex.leidos.com):\n"
     read HOST
-    echo "Hostname (eg. github.com/gitlab.com):\n"
+    echo "Hostname (eg. github.com/git.annex.leidos.com):\n"
     read HOSTNAME
     touch $DIR\config
     printf "Host $HOST\nHostName $HOSTNAME\nPreferredAuthentications publickey\nIdentityFile $DIR$FILENAME\n" >> $DIR\config
 }
 
 ## Create key control
-
 printf "Do you want to generate new SSH key pair? y/n\n"
 read CONTRL
 
@@ -61,6 +61,8 @@ case $CONTRL in
         ;;
 esac
 
+
+## Copy key to clipboard
 copy_key
 
 ## Update .ssh/.config
