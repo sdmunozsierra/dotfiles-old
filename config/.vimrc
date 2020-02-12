@@ -32,7 +32,8 @@ Plugin 'ryanoasis/vim-devicons'
 "Plugin 'https://github.com/python-mode/python-mode.git'
 "Plugin 'https://github.com/plytophogy/vim-virtualenv.git'
 " -- C Programming -- "
-"Plugin 'vim-scripts/Conque-GDB'
+Plugin 'vim-scripts/Conque-GDB'
+Plugin 'c.vim'
 " -- Smart Contract -- "
 "Plugin 'tomlion/vim-solidity'
 " -- JS & Angular Dev -- "
@@ -71,7 +72,7 @@ set t_Co=256  "Color 256 :)
 "set termguicolors "for tmux
 let base16colorspace=256  " Access colors present in 256 colorspace
 syntax on
-colorscheme spacegray     "New rice comming up!
+colorscheme delek     "New rice comming up!
 let g:spacegray_underline_search = 1
 let g:spacegray_italicize_comments = 1
 "let g:badwolf_darkgutter = 1 " Make the gutters darker than the background.
@@ -80,6 +81,9 @@ let g:spacegray_italicize_comments = 1
 "set status bar on bottom
 set laststatus=2 
 
+" check one time after 4s of inactivity in normal mode
+set autoread
+au CursorHold * checktime                                                                                                                                                                       
 " Airline
 let g:airline_theme='bubblegum'
 let g:airline_powerline_fonts = 1

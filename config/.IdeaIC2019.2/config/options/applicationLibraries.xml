@@ -1,0 +1,18 @@
+<application>
+  <component name="libraryTable">
+    <library name="json-20140107">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/IdeaProjects/cswt/jars/json-20140107.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="netty-all-4.1.41.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/IdeaProjects/cswt/jars/netty-all-4.1.41.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>

@@ -5,10 +5,10 @@ sudo pacman -S --noconfirm ttf-hack
 fc-cache
 
 #install inconsolata (programming font)
-pacaur -S --noconfirm ttf-inconsolata
+yay -S --noconfirm ttf-inconsolata
 
 #install firasans (because I love it <3)
-pacaur -S --noconfirm ttf-fira-sans
+yay -S --noconfirm ttf-fira-sans
 
 #install awesome fonts (because ICONS)
-pacaur -S --noconfirm ttf-font-awesome
+yay -S --noconfirm ttf-font-awesome

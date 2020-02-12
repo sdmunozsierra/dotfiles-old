@@ -1,0 +1,40 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Fira Sans Book" />
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="14" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.61521" />
+    <property name="DART_PROJECT_TEMPLATE" value="AngularDart Web App" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="true" />
+    <property name="JUnitSupport.hidePassedTests" value="false" />
+    <property name="MarketplacePluginsSearchHistory" value="pane&#10;vim&#10;flutter&#10;fl&#10;flat" />
+    <property name="ProjectStructure.TopLevelElements" value="0.19238281" />
+    <property name="SettingsSearchHistory" value="sdk" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
+    <property name="create.project.preferred.importer" value="Existing Sources" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="eclipse.project.dir" value="$USER_HOME$/IdeaProjects/cswt-team1" />
+    <property name="file.chooser.recent.files" value="/opt/flutter/bin/cache/dart-sdk&#10;/opt/flutter&#10;/opt&#10;/opt/flutter/bin/cache&#10;/opt/flutter/bin/cache/downloads&#10;/opt/flutter/bin&#10;/opt/flutter/bin/internal&#10;/home/keanue/Data/Git/paiout&#10;/home/keanue/Data/Git/construction/javadoc&#10;/home/keanue/Data/Git/construction/lib&#10;/home/keanue/Data/Git/construction/finalstuff/compile&#10;/home/keanue/Data/Git/construction&#10;/usr/lib/jvm/java-13-openjdk&#10;/usr/lib/jvm/java-12-openjdk&#10;/home/keanue/Data/Git/cswt-team1&#10;/home/keanue/IdeaProjects/cswt/jars" />
+    <property name="file.gist.reindex.count" value="62" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ideavim.statistics.timestamp" value="1576516018497" />
+    <property name="installed.kotlin.plugin.version" value="1.3.41-release-IJ2019.2-1" />
+    <property name="io.flutter.analytics.clientId" value="c78b5886-2768-4a9c-95ed-565d36070a3b" />
+    <property name="io.flutter.analytics.toastShown" value="true" />
+    <property name="io.flutter.console.preferencesSet" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="kotlin.plugin.releaseDate" value="1.3.41-release-IJ2019.2-1:2019-07-03" />
+    <property name="last.imported.location" value="$USER_HOME$/Data/Git/cswt-team1" />
+    <property name="lastTip" value="13" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1576516015877" />
+    <property name="project.wizard.group" value="JAVA_MODULE_io.flutter.module.FlutterModuleBuilder" />
+    <property name="project.wizard.template" value="JavaFX Application" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+</application>

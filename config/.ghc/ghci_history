@@ -1,0 +1,38 @@
+exit
+:! clear
+sumFactors 3 5
+sumvals 
+:t mod
+mystery0 [1,2,4,3,1]
+mystery0
+mystery3 [1,3,12,3,4]
+mystery3
+mystery 3
+m52 [1,12,3,2,1] 1
+m52 1 2
+m52 
+m5 [1,3,5] 1 1
+m5 [1,3,5] 1 
+m5 [1,3,5] 1 1
+m5 [1,3,5] 1 3
+m5 
+mystery1 [1,2,3,3,3,3]
+mystery1 
+mystery 1 
+m3 [1,2,3]
+m3 
+m2 2 8
+m2 0 0
+m2 3 0
+me 3 0
+m2 3
+m2 0
+mult3
+mkUniq [1,2,3,3]
+mkUniq
+m1 2.2
+m1 2.2
+m1 3
+m1
+m1
+m1

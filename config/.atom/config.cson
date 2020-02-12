@@ -1,0 +1,28 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "linter-pylama"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "min-ui"
+      "handsome-dark-syntax"
+    ]
+  editor:
+    fontFamily: "hack, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    scrollPastEnd: true
+  "exception-reporting":
+    userId: "71ac30a4-240b-44a8-a261-e146ea49f5ce"
+  "ide-python":
+    pylsPlugins:
+      pycodestyle:
+        enabled: false
+  "linter-ui-default":
+    panelHeight: 324
+  "php-debug":
+    showWelcome: false
+  "seti-syntax":
+    themeColor: "Green"
+  "seti-ui":
+    themeColor: "Steel"

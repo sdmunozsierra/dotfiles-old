@@ -31,7 +31,8 @@ cp -r . ~/
 
 echo "Installing all programs"
 cd ..
-cd notes/ArchScripts/
+cd ArchScripts/
+# Packages from workpkglist.txt
 while read line
 do
     yay -S --noconfirm --needed $line
@@ -43,8 +44,7 @@ source .bashrc
 source .bash_aliases
 
 echo "Installing Vim plugins"
-cd ~/.vim
-git clone https://github.com/VundleVim/Vundle.vim.git /bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 cd ~/.vim/bundle/YouCompleteMe
 sh ./install.py --all
