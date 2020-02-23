@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#PS_OUTPUT=`ps -elf | grep mpv | grep -v grep | awk '{print $17}'`
+PS_OUTPUT=$(ps -elf | grep mpv)
+
+#If Nothing is playing
+if [ $PS_OUTPUT != *"--force-media-title"* ]; then
+#   ^        ^  ^  ^   Don't forget Spaces 
+    echo Why so serious?
+    exit
+fi
+
+#2) USING BASH String OPerations
+#TITLE=$(ps ax|egrep "$PS_OUTPUT")
+
+TITLE=${PS_OUTPUT##*-title=\"} #CHOP the beggining
+TITLE=${TITLE%%\" --*} #CHOP the END
+
+
+#CHOP from mpris directoty
+TITLE=${TITLE#*/systemd}
+TITLE=${TITLE%/*}
+TITLE=${TITLE##*/bin}
+echo $TITLE
