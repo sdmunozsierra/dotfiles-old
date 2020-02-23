@@ -30,14 +30,12 @@ macchanger
 ncmpcpp
 neofetch
 nodejs
-notes
 npm
 openssh
 p7zip
 pcmanfm
 perl
 polybar-git
-python2-pip
 python3
 ranger
 simplenote-electron-bin
