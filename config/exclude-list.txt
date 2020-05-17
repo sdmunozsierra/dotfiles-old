@@ -1,5 +1,8 @@
 .adobe
 .androi*
+.config/mps-youtube/p*
+.config/mps-youtube/transcode
+
 .Androi*
 Androi*
 .antigen/bundles
@@ -20,6 +23,7 @@ Androi*
 Calibre*
 Completed_T*
 .config/antimicro
+.config/balena-etcher-electron/
 .config/Atom/blob_*
 .config/Atom/Cache
 .config/Atom/Cookies*
@@ -111,6 +115,11 @@ Hdd
 .IdeaIC2019.2/config/tasks/
 .IdeaIC2019.2/config/workspace/
 .IdeaIC2019.2/system/
+.IntelliJIdea2019.3/config/plugins/
+.IntelliJIdea2019.3/config/tasks/
+.IntelliJIdea2019.3/config/workspace/
+.IntelliJIdea2019.3/config/tasks
+.IntelliJIdea2019.3/system/
 .java
 .john
 *.json

@@ -28,8 +28,14 @@ compinit
 # Source aliases from bash
 source ~/.bash_aliases
 
-# Source ls colors
-#source /usr/share/LS_COLORS/dircolors.sh
+# Source ls colors (already in .profile)
+# source /usr/share/LS_COLORS/dircolors.sh
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 
 # Enable this for bash completions
 # Or use (zsh-completions)

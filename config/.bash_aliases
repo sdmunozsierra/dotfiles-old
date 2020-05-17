@@ -35,11 +35,6 @@ alias cds="cd $HOME/Data/Git/springbank-metrics/"
 alias cpwd="pwd | xclip -r -selection secondary && echo 'pwd copied'"
 alias cdwd="cd $(xclip -o -selection secondary)"
 
-# Grep commands
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
-
 #escrotum (screenshot) commands
 #alias scrot="escrotum $HOME/Data/Screenshots/%Y-%b-%d_%T.png"
 alias scrot="escrotum $HOME/Data/Screenshots/%F%T.png"

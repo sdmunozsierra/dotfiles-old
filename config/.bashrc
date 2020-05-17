@@ -9,6 +9,14 @@ stty -ixon # not to be disturbed by Ctrl-S ctrl-Q in terminals:
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Run SSH agent once
+if ! pgrep -u "$USER" ssh-agent > /dev/null; then
+    ssh-agent > "$XDG_RUNTIME_DIR/ssh-agent.env"
+fi
+if [[ ! "$SSH_AUTH_SOCK" ]]; then
+    eval "$(<"$XDG_RUNTIME_DIR/ssh-agent.env")"
+fi
+
 # Colorize commands
 # Load colors with lscolors-git from AUR
 . /usr/share/LS_COLORS/dircolors.sh
@@ -16,7 +24,10 @@ stty -ixon # not to be disturbed by Ctrl-S ctrl-Q in terminals:
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
-alias grep='grep --color'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
 
 PS1='\[\e[00;34m\]Keanue  \W \[\e[0m\]' #Show small minimal path (Blue)
 #PS1='\[\033[1;31m\]Keanue  \W\[\033[1;33m\]\$\[\033[1;00m\] '	#Show small path

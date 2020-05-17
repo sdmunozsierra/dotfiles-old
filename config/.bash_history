@@ -1,745 +1,3 @@
-./sdkmanager package 
-./sdkmanager package "platforms;android-28"
-./sdkmanager --list
-z
-ls
-ls
-la
-cd..
-ls
-cd kea
-cd keanue
-ls
-source /usr/share/LS_COLORS/dircolors.sh
-ls
-ee
-ee
-ks
-ls
-vim .antigen
-ls
-cd .antigen
-ls
-cd bundles
-ls
-cd zh
-cd zsh-users
-ls
-vim zsh-syntax-highlighting
-cd..
-ls
-mkdir trapd00r
-cd trapd00r
-git clone https://github.com/trapd00r/zsh-syntax-highlighting-filetypes.git
-ee
-ls
-cd..
-cd..
-ls
-exit
-a
-la
-vim .xinitrc 
-ls
-la
-ls
-vim .profile
-vim .bash_profile
-vim .bashrc
-exit
-z
-ls
-source .bash_aliases 
-ls
-source .bash_profile 
-ls
-pwd
-z
-youtube
-cd /opt
-ls
-z
-cd /opt
-ls
-cd flutter
-ls
-cd bin
-ls
-cd flutter
-cd bi
-cd bin
-ls
-cd..
-ls
-cd bin/cache
-ls
-cd flutter
-ls
-cd bin
-ls
-cd cache
-ls
-pwd
-cd..
-ls
-cd..
-ls
-cd.
-cd..
-ls
-cd..
-ls
-cd..
-ls
-cd..
-ls
-sudo rm -rf flutter
-ls
-mkdir flutter
-sudo mkdir flutter
-ls
-chown keanue flutter
-sudo chown keanue flutter
-ls
-cd flutter
-ls
-cd..
-ls
-cd flutter2
-ls
-mv flutter ../flutter
-sudo mv flutter ../flutter
-ls
-cd..
-ls
-sudo rm flutter2
-sudo rm -R flutter2
-ks
-ls
-cd flutter
-ls
-ll
-cd..
-ls
-z
-ls
-source . /usr/share/LS_COLORS/dircolors.sh 
-source /usr/share/LS_COLORS/dircolors.sh 
-ls
-cd Data/
-s
-ls
-cd Music/
-sl
-ls
-cd..
-ls
-cd Asiakirja/
-ls
-cd..
-ls
-cd temp/
-ls
-cd...
-ls
-cd keanue/
-ls
-z
-ls
-antigen apply
-ls
-antigen-list
-vim ls
-ls
-cd .antigen
-ls
-la
-cd bundles
-ls
-mv -R trapd00r trapd00r.bak
-mkdir trapd00rbak
-mv trapd00r trapd00rbak
-ls
-z
-ls
-cd /opt
-ls
-mv flutter flutter2
-sudo mv flutter flutter2
-ls
-startx
-la
-vim .xinitrc 
-vim .Xauthority 
-cd .thumbnails/
-la
-cd..
-rm .thumbnails/
-ls
-la
-rm -rf .thumbnails/
-cd .grip/
-ls
-cd cache-4.5.2/
-ls
-cd..
-ls
-la
-cd..
-ls
-la
-vim bash_pro
-vim .bash_profile 
-vim .profile 
-vim .bashrc 
-bim .zcompdump 
-vim .zcompdump 
-reboot
-ls
-la
-ls
-source /usr/share/LS_COLORS/dircolors.sh
-ls
-pwd
-la
-la
-cd /usr/share
-ls
-cd LS_COLORS
-ls
-./dircolors.csh
-sudo ./dircolors.csh
-./dircolors.sh
-sudo ./dircolors.sh
-source dircolors.csh
-source ./dircolors.sh
-ls
-cd.
-cd..
-ls
-ee
-ls
-cd /usr/share/
-ls
-cd..
-ls
-cd..
-ls
-la
-cd usr/share/
-ls
-cd..
-ls
-cd src/
-ls
-cd xpad-0.4/
-ls
-cd..
-ls
-ls
-la
-ll
-cd..
-ls
-cd keanue/
-source /usr/share/LS_COLORS/dircolors.sh 
-ls
-pwd
-la
-z
-ls
-Data/TEB/
-ls
-cd Data/TEB/
-ls
-cd Aflac/
-ls
-cd..
-ls
-cd Cigna
-ls
-cd..
-ls
-cd /usr/share/LS_COLORS/
-ls
-vim dircolors.
-vim LS_COLORS 
-vim dircolors.sh 
-vim dircolors.csh 
-pacman -Rs xpad
-sudo pacman -Rs xpad
-ls
-ls
-ee
-la
-cd ~
-ls
-z
-ls
-la
-mv .Xresources .Xresources.bak
-mv .Xresources.SpaceGray .Xresources
-cd .config/nitrogen/
-ls
-cd..
-rmdir nitrogen/
-ls
-rmdir nitrogen/
-ls
-cd..
-ls
-ping 8.8.8.8
-ls
-pacman -Rs nitrogen
-sudo pacman -Rs nitrogen
-pacman -S nitrogen
-sudo pacman -S nitrogen
-pacman -S trashcan-cli
-sudo pacman -S trashcan-cli
-sudo pacman -S trash-cli
-cd .config/
-ls
-cd nitrogen/
-ls
-vim nitrogen.cfg 
-man nitrogen 
-cd .cache/
-ls
-cd thumbnails/
-ls
-cd normal/
-ls
-cd..
-ls
-cd..
-ls
-cd..
-ls
-cd .cache/
-ls
-rmdir .thumbnails
-ls
-rm -rf thumbnails/
-ls
-cd..
-ls
-cd .cache/
-ls
-cd..
-ls
-cd .cache/
-ls
-la
-cd..
-cd .thumbnails/
-ls
-cd normal/
-ls
-cd..
-ls
-systemctl disable rds
-systemctl disable redis
-ls
-cd Hdd
-ls
-cd..
-ks
-ls
-cd Data/
-ls
-cd Downloads/
-ls
-ls
-cd Calibre\ Library
-ls
-cd..
-ls
-cd..
-ls
-ee
-z
-ls
-source .Xresources
-
-ls
-ee
-ls
-urxvt
-ee
-ls
-vim .Xresources
-vim exclude-list.txt 
-ee
-ls
-vim .bash_aliases 
-reloadx
-ee
-reloadx
-ls
-reload
-ee
-ls
-ee
-ls
-reloadx
-reload
-ee
-ls
-cd..
-ls
-ee
-ls
-reloadx
-ee
-pwd
-cd..
-z
-ls
-ls
-exor
-ee
-z
-ee
-ls
-urxvt -e zsh
-urxvt -e zsh -t "Term
-"
-urxvt -e zsh -t term
-urxvt -e zsh -T term
-urxvt -e zsh -T "term"
-nitrogen 
-nitro
-nitrogen 
-yay -S rxvt-unicode-patched
-urxvt --help 2>&1 | grep font
-xrdb ~/.Xresources
-pacman -R ls-colors
-sudopacman -R ls-colors
-pacman -Qe | grep colors
-pacman -R lscolors-git
-sudo pacman -R lscolors-git
-ls
-ee
-xmodmap 
-xmodmap /
-xev
-urxvt >> z
-urxvt --help
-man urxvt
-iasldkasldkasdasdpkasd
-ls Calibre\ Library Calibre\ Library exclude-list.txt 
-pwd
-z
-ks
-ls
-reloadx
-reload
-urxvt -e z
-urxvt -e zsh
-reloadx
-reload
-ls
-cd Android
-ls
-cd..
-ee
-ls
-cd Android/
-ls
-cd..
-ls
-reloadx
-ls
-cgrepgreptemptemptemp
-z
-ls
-vim .zshrc
-reload
-reloadx
-ls
-vim nextmatch.py 
-vim nextfind.py 
-vim nextmatch.py 
-vim config.example 
-whereis dmenu_recent_aliases
-man dmenu
-reloadx
-ee
-reloadx
-ee
-ls
-ee
-pacman -Qe | gaps
-pacman -Qe | grep gaps
-yay -S picom-git
-yay -S polybar-git
-ls
-reloadx
-pacman -S compton
-sudo pacman -S compton
-man i3blocks
-man i3blocks 
-man i3bar 
-i3 --version
-i3blocks --version
-i3blocks -h
-i3blocks -v
-sudo pacman -S i3-gaps
-man i3bar 
-pacman -R compton
-sudo pacman -R compton
-whereis compton
-sudo pacman -R compton
-polybar bar
-polybar bottom
-polybar top
-polybar main
-ls
-reloadx
-ls
-la
-ls
-la
-ee
-ls
-ls
-la
-ls
-la
-ls
-la
-ls
-ee
-ls
-reloadx
-ee
-reloadx
-ls
-la
-ee
-ls
-z
-ee
-ls
-
-ls
-ee
-ls
-asdas 
-ls
-la
-cat .bro 
-cd .blackarch/
-ls
-cd meta/
-o leave
-ls
-lss
-ls
-cd
-ls
-ee
-la
-ee
-ls
-ee
-ls
-ee
-ls
-ee
-ls
-ee
-ls
-reloadx
-st
-ee
-ll
-la
-ee
-pacman -Qe | grep st
-pacman -Rs st-luke-git
-sudo pacman -Rs st-luke-git
-ee
-pwd
-ls
-la
-cd..
-ls
-cd keanue/
-ls
-ee
-ls ee
-ee
-adaposkdpa
-ls
-la
-p_management.db       .Xresources
- .gnupg                .pEp_management.dp_management.db       .Xresources
-whereis st
-cd /usr/bin/
-ls
-st
-./st
-whereis st
-sudo rm /usr/bin/st 
-sudo rm /usr/local/bin/st 
-sudo rm /usr/share/man/man1/st.1.gz 
-sudo rm /usr/share/man/man4/st.4.gz 
-whereis st
-yay -S st-luke-git
-whereis st
-st
-cdg
-ls
-cd st-xresources/
-ls
-vim config.h 
-ee
-ls
-la
-cd..
-ls
-cd keanue/
-ls
-z
-ls
-pwd
-ls
-cd z
-la
-cd..
-ls
-cd keanue
-ls
-pwd
-ll
-lSS
-LSS
-ee
-ls
-ee
-ls ee
-ee
-ls
-la
-cd..
-ls
-cd keanue/
-ee
-ls
-vim z 
-rm z 
-ls
-reloadx
-ee
-reloadx
-ee
-ls
-reloadx
-ee
-reloadx
-st
-cdg
-cd st
-ls
-sudo make install
-cd..
-ls
-cd st-xresources
-ls
-cd patches/
-ls
-ee
-la
-cd..
-ls
-cd keanue/
-ls
-ee
-whereis st
-pacman -Qe | grep st
-whereis st-neowave
-whereis st-neowave-git
-whereis st-neonwave-git
-pacman -Rs st-neonwave-git
-sudo pacman -Rs st-neonwave-git
-st
-whereis st
-pacman -Qe | grep st
-whereis st
-cd /usr/share/bin/
-cd /usr/local/bin/
-ls
-vim st 
-yay -S st-luke-git
-st
-pacman -Qe | st
-pacman -Qe | grep st
-cdg
-ls
-cd st-xresources/
-ls
-git st
-cd..
-ls
-cd st
-ls
-cd..
-ls
-rmdir st
-cd st-xresources/
-ls
-vim config.def.h 
-ls
-cd..
-ls
-git clone https://github.com/LukeSmithxyz/st.git
-ls
-cd st
-ls
-cat README.md 
-ls
-vim config.h 
-./Makefile
-sudo ./Makefile
-sudo make install
-ls
-vim config.h 
-ee
-reloadx
-ls
-reloadx
-ls
-xrefresh 
-xreload
-reloadx 
-reloadx
-reloadx 
-reloadx
-st
-reloadx
-picom &
-reloadx
-st
-reloadx
-reload
-reloadx
-ee
-cd .config/
-ls
-cd polybar/
-polybar main
-ls
-la
-cd..
-clear
-ls
-cd keanue/
-ls
-polybar main
-reloadx
-polybar main
-polybar example
 ping 8.8.8.8
 cd .config/
 ls
@@ -1362,7 +620,7 @@ source .bash_aliases
 man egrep
 bc
 bc -l
-:q
+
 reloadx
 ls
 ee
@@ -1540,3 +798,532 @@ ee
 ping 8.8.8.8
 systemctl restart NetworkManager
 ping 8.8.8.8
+ls
+la
+ee
+ls --color=auto
+ls
+source .bash_aliases
+ls
+la
+ll
+cat .bash_aliases| grep ls
+cat .bash_profile
+cat .profile
+cat .bashrc
+cat .bash_aliases|grep color
+ee
+z
+ee
+ls
+la
+ee
+z
+cd
+ls
+la
+gitBackupTest
+gitBackupTest
+gitBackupTest
+gitBackupTest
+gitBackupTest
+mv 187 Data/Programming
+cd Data/Programming
+ls
+mv 187 ArchScripts
+ls
+cd ArchScripts
+ls
+cd
+gitBackup
+git add .
+git st
+git stash
+git stash drop
+git st
+gitBackup
+git st
+git aa
+git st
+git comm "Updated laptop dotfiles"
+git push
+git push
+git push
+git push
+git push
+git pull
+git st
+vimdiff config/.zshrc
+vim config/exclude-list.txt
+git aa
+git st
+git comm "Fixed conflicts"
+git push
+cd
+vim .bash_aliases
+cd
+gitBackup
+git st
+git add config/exclude-list.txt
+git st
+git comm "Sorted exclude-list.txt"
+git push
+ls
+cd config
+ls
+cd .config
+ls
+la
+ls
+cd..
+ls
+la
+ls
+rm exclude-list.txt.bak
+git st
+ls
+cd ~
+ls
+vim .zshrc
+ee
+gitBackup
+git st
+git stash
+git stash drop
+z
+ee
+vim .bash_aliases .bash_profile 
+ee
+systemctl restart NetworkManager
+ee
+ping 8.8.8.8
+cpwd
+ee
+vim .profile 
+vim .bash_profile 
+vim .bash_aliases 
+vim .bash_profile 
+ee
+pkill -9 24489
+sudo pkill -9 24489
+sudo kill -9 24489
+ping 8.8.8.8
+systemctl status | supp
+systemctl status | grep supp
+systemctl restart wpa_supplicant
+dhcpd
+sudo dhcpd
+ststemct status | dhcp
+ststemct status | grep dhcp
+systemct status | grep dhcp
+systemctl status | grep dhcp
+dhcpcd 
+sudo dhcpcd 
+top | grep dhcp
+atop | grep dhcp
+top | grep dhcp
+startx
+systemctl status| grep Netw
+systemctl status NetworkManager
+systemctl status | grep dh
+systemctl status | grep d
+systemctl restart NetworkManager
+NetworkManager 
+systemctl stop NetworkManager.service
+sudo NetworkManager
+man NetworkManager
+sudo NetworkManager -d
+systemctl | grep dh
+systemctl status
+systemctl status | grep dhc
+systemctl status | grep dh
+systemctl status NerworkManager
+z
+sudo kill 28301
+reboot
+kill -9 29295
+please
+sudo dhcpcd 
+startx
+man dhcpcd
+z
+sudo systemctl restart dhcpd
+sudo systemctl restart dhcpcd
+sudo systemctl stop dhcpcd
+sudo systemctl stop dhcpcd
+sudo systemctl stop dhcpcd
+sudo systemctl start dhcpcd
+sudo systemctl restart wpa_supplicant.service
+sudo dhcpd 
+sudo dhcpcd 
+ip devices
+ip dev
+ip 
+ip link
+ip link wlp3s0
+ip link w
+ip link
+ifconfig
+ifconfig --h
+ifconfig -h
+ifconfig down wlp3s0
+ifconfig wlp3s0 down
+sudo ifconfig wlp3s0 down
+sudo ifconfig wlp3s0 up
+z
+cd /etc/sysctl.d/
+ls
+la
+sysctl 
+sysctl -a
+sudo pacman -S dhclient
+vim /etc/NetworkManager/NetworkManager.conf 
+cd /etc/NetworkManager/
+ls
+cd conf.d/
+ls
+vim xfinity.conf 
+la
+cd..
+ls
+cd dispatcher.d/
+ls
+vim wlan_auto_toggle.sh.disabled 
+cd..
+ls
+cd system-connections/
+ls
+vim system-connections/
+sudo -i
+ls
+cd Net
+vim NetworkManager.conf 
+z
+z
+systemctl stop NetworkManager
+sudo NetworkManager -d
+sudo NetworkManager -d
+sudo NetworkManager -d
+sudo NetworkManager -d
+sudo NetworkManager -d
+reboot
+systemctl | grep net
+systemctl | grep dhc
+systemctl | grep dh
+systemctl status dhcpcd.service
+systemctl | grep dhcpcd.service
+systemctl | grep dhcpcd
+systemctl status
+systemctl status | grep dhc
+systemctl status dhcpcd.service
+systemctl status dhcpcd.service
+systemctl status dhcpcd.service
+systemctl status dhcpcd.service
+systemctl status wpa_supplicant.service 
+sudo systemctl restart NetworkManager
+sudo systemctl stop NetworkManager
+sudo systemctl start NetworkManager
+man 5 NetworkManager.conf
+keanue
+startx
+sudo pacman -Syu
+ shutdown -t 0
+man shutdown
+sudo wireshark
+yay -S etcher
+etcher 
+sudo etcher
+ee
+ping 8.8.8.8
+startx
+ping 8.8.8.8
+reboot
+ping 8.8.8.8
+systemct restart NetworkManager
+systemctl restart NetworkManager
+pkill nm-applet
+ping 8.8.8.8
+iplink
+ip link
+if config
+ifconfig
+ping 8.8.8.8
+ping 10.0.0.1
+ping 10.0.1.0
+ifconfig
+ping 10.1.10.10
+ping 10.1.10.1
+ifconfig
+ping 88.8.8.8
+pacman -S teseract-ocr-git
+sudo pacman -S teseract-ocr-git
+sudo pacman -S tesseract-ocr-git
+sudo yay -S tesseract-ocr-git
+ysy -S tesseract-ocr-git
+yay -S tesseract-ocr-git
+yay -S python-pytesseract
+ee
+cdd
+cd Downloads/
+ls
+pytesseract --help
+pytesseract notes_02_07_2020_018.jpg 
+pytesseract -lang=eng notes_02_07_2020_018.jpg 
+pytesseract -l eng notes_02_07_2020_018.jpg 
+pytesseract -l Eng notes_02_07_2020_018.jpg 
+cp notes_02_07_2020_018.jpg ../Programming/OCR/test.jpg
+pytesseract -l Eng notes_02_07_2020_018.jpg 
+ee
+cdg
+ls
+git clone https://github.com/tesseract-ocr/tessconfigs.git
+ls
+cd tessconfigs/
+ls
+sudo cp * /usr/share/tessdata/
+ee
+cd /usr/share/tessdata/
+ls
+cd tessconfigs/
+ls
+cd..
+ls
+cd tessconfigs/
+ls
+cd..
+ls
+cd configs/
+ls
+cd..
+ls
+pwd
+ls
+ee
+cdd
+cd Programming/
+ls
+mkdir OCR
+cd OCR/
+ls
+vim rocketToText.py
+sudo pacman -S docker-compose
+sudo pacman -S docker
+pacman -Syu
+please
+yay -s idea
+yay -S intellij-idea-ultimate-edition-jre
+pacman -S elasticsearch
+sudo pacman -S elasticsearch
+pgrep idea
+pgrep idea | pkill
+pgrep idea > pkill
+pgrep idea 
+pkill $(pgrep idea)
+pgrep idea
+pkill -9 $(pgrep idea)
+pgrep idea
+pkill -9 371131
+pgrep idea
+startx
+cdg
+ls
+git clone git@github.com:sdmunozsierra/springdata-v4-elasticsearch-barebones.git
+git clone https://github.com/sdmunozsierra/springdata-v4-elasticsearch-barebones.git
+ls
+cd springdata-v4-elasticsearch-barebones/
+git co installation
+git br installation
+git co installation 
+reboot
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.1
+systemctl start docker
+sudo docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.1
+sudo pacman -S docker
+sudo systemctl start docker
+sudo systemctl status docker
+pgrep docker
+sudo systemctl status docker.socker
+sudo systemctl status docker.socket
+sudo systemctl start docker.socket
+sudo systemctl start docker
+systemctl stop docker.socket
+systemctl stop docker
+sudo systemctl start docker
+systemctl enable docker
+systemctl start docker
+systemctl disable docker
+pacman -Syu docker
+sudo rm /var/lib/docker/
+sudo rm -r /var/lib/docker/
+sudo rm -r /run/docker
+sudo pacman -Syu docker
+systemctl start docker
+curl -X GET "localhost:9200/_cat/nodes?v&pretty"
+cdg
+cd springdata-v4-elasticsearch-barebones/
+ls
+cpwd
+git st
+git add README.md 
+git add api-container/
+git st
+git rm api-container/target/*
+git rm -r api-container/target
+git st
+git rm -r api-container/
+git st
+git unstash
+git st
+git uncommit
+git st
+git restore --staged README.md
+git st
+git restore --staged api-container/pom.xml
+git st
+git add README.md 
+git st
+git unstage
+git st
+git add README.md 
+git st
+cd api-container/
+ls
+git add pom.xml 
+git st
+git comm "Added maven dependencies"
+git ppush
+git push
+git push --set-upstream origin installation
+git remote set-url origin github@github.com/sdmunozsierra/springdata-v4-elasticsearch-barebones
+git remote -v
+git pull
+git remote set-url origin git@github.com:sdmunozsierra/springdata-v4-elasticsearch-barebones.git
+git pull
+git push
+git pull
+git st
+git push
+git push --set-upstream origin installation
+git push
+git st
+git remote -v
+git push --set-upstream origin installation
+git pull
+git co master
+git pull
+git co installation 
+ls
+cp pom.xml ~/temp/springdata-v4-elasticsearch-barebones/
+cd..
+cp README.md cd..
+cp README.md ~/temp/
+ssh -T git@github.com
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+ssh -T git@github.com
+ssh-add ~/.ssh/id_rsa
+cd temp/
+git@github.com:sdmunozsierra/springdata-v4-elasticsearch-barebones.git
+git clone git@github.com:sdmunozsierra/springdata-v4-elasticsearch-barebones.git
+ls
+cd springdata-v4-elasticsearch-barebones/
+ls
+touch testssh.txt
+git aa
+git st
+fit commit -m "wow"
+git commit -m "wow"
+git push
+git remote -v
+ls
+cd..
+ls
+cd springdata-v4-elasticsearch-barebones/
+ls
+rm README.md 
+cd..
+cp README.md springdata-v4-elasticsearch-barebones/
+cd springdata-v4-elasticsearch-barebones/
+mkdir api-container
+mv pom.xml api-container/
+git st
+git aa
+git comm "Created maven dependencies"
+git push
+cd..
+ls
+mv springdata-v4-elasticsearch-barebones/ ~/Data/Git/springdata-v4-elasticsearch-barebones
+cdwd
+vim .bashrc 
+source .bashrc 
+ee
+ls
+git st
+git push
+cd .ssh/
+ls
+echo "AddKeysToAgent yes" > config
+ls
+ee
+cdwd
+git st
+git push
+git pull
+git remote -v
+git pull
+pkill 4765
+pkill -9 4765
+kill -9 4765
+sudo kill -9 4765
+docker run -it --rm tomcat:9.0
+docker run -it --rm -p 8888:8080 tomcat:9.0
+docker image pull tomcat:80
+docker image pull tomcat:8.0
+docker container create --publish 8080:8080 container-tom tomcat:8.0
+sudo docker container create --publish 8080:8080 container-tom tomcat:8.0
+sudo docker container create --publish 8080:8080 --name container-tom tomcat:8.0
+docker container ls -a
+sudo docker container start container-tom
+pacman -S microcode
+sudo pacman -S microcode
+sudo pacman -S intel-ucode
+cd /boot/syslinux/
+ls
+vim syslinux.cfg
+cat syslinux.cfg
+ls
+cd..
+ls
+ee
+cd .config/
+ls
+cd i3/
+ls
+cd co
+cdg
+ls
+cd..
+cd Programming/
+ls
+cd ArchScripts/
+ls
+cd i3blocks/
+ls
+vim i3blocks.conf 
+ee
+youtube
+pwd
+pwd | c
+man xcli[
+man xclip
+source .bash_profile 
+pwd
+pwd | xclip 
+source .bash_profile 
+ee
+ls
+la
+vim .bash_aliases 
+]ee
+eee
+ee
