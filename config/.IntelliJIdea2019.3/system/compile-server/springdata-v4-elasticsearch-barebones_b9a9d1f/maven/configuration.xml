@@ -1,0 +1,318 @@
+<maven-project-configuration>
+  <resource-processing>
+    <maven-module name="app-container">
+      <MavenModuleResourceConfiguration>
+        <id>
+          <MavenIdBean>
+            <groupId>me.sergiosierra</groupId>
+            <artifactId>app-container</artifactId>
+            <version>1.0-SNAPSHOT</version>
+          </MavenIdBean>
+        </id>
+        <parentId>
+          <MavenIdBean>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-parent</artifactId>
+            <version>2.2.4.RELEASE</version>
+          </MavenIdBean>
+        </parentId>
+        <directory>/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container</directory>
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpDcmVhdGVkLUJ5OiBJbnRlbGxpSiBJREVBDQpCdWlsdC1CeToga2VhbnVlDQpCdWlsZC1KZGs6IDEzLjAuMg0KSW1wbGVtZW50YXRpb24tVmVyc2lvbjogMS4wLVNOQVBTSE9UDQpJbXBsZW1lbnRhdGlvbi1WZW5kb3ItSWQ6IG1lLnNlcmdpb3NpZXJyYQ0KTWFpbi1DbGFzczogJHtzdGFydC1jbGFzc30NCg0K</manifest>
+        <classpath>spring-data-elasticsearch-4.0.0.M2.jar spring-context-5.2.3.RELEASE.jar spring-aop-5.2.3.RELEASE.jar spring-beans-5.2.3.RELEASE.jar spring-expression-5.2.3.RELEASE.jar spring-tx-5.2.3.RELEASE.jar spring-data-commons-2.2.4.RELEASE.jar transport-6.8.6.jar reindex-client-6.8.6.jar elasticsearch-ssl-config-6.8.6.jar percolator-client-6.8.6.jar transport-netty4-client-6.8.6.jar netty-buffer-4.1.45.Final.jar netty-codec-4.1.45.Final.jar netty-codec-http-4.1.45.Final.jar netty-common-4.1.45.Final.jar netty-handler-4.1.45.Final.jar netty-resolver-4.1.45.Final.jar netty-transport-4.1.45.Final.jar jackson-core-2.10.2.jar jackson-databind-2.10.2.jar jackson-annotations-2.10.2.jar slf4j-api-1.7.30.jar spring-boot-2.2.4.RELEASE.jar spring-core-5.2.3.RELEASE.jar spring-jcl-5.2.3.RELEASE.jar spring-boot-starter-web-2.2.4.RELEASE.jar spring-boot-starter-2.2.4.RELEASE.jar spring-boot-autoconfigure-2.2.4.RELEASE.jar spring-boot-starter-logging-2.2.4.RELEASE.jar logback-classic-1.2.3.jar logback-core-1.2.3.jar log4j-to-slf4j-2.12.1.jar jul-to-slf4j-1.7.30.jar jakarta.annotation-api-1.3.5.jar snakeyaml-1.25.jar spring-boot-starter-json-2.2.4.RELEASE.jar jackson-datatype-jdk8-2.10.2.jar jackson-datatype-jsr310-2.10.2.jar jackson-module-parameter-names-2.10.2.jar spring-boot-starter-tomcat-2.2.4.RELEASE.jar tomcat-embed-core-9.0.30.jar tomcat-embed-el-9.0.30.jar tomcat-embed-websocket-9.0.30.jar spring-boot-starter-validation-2.2.4.RELEASE.jar jakarta.validation-api-2.0.2.jar hibernate-validator-6.0.18.Final.jar jboss-logging-3.4.1.Final.jar classmate-1.5.1.jar spring-web-5.2.3.RELEASE.jar spring-webmvc-5.2.3.RELEASE.jar elasticsearch-rest-high-level-client-6.8.6.jar elasticsearch-6.8.6.jar elasticsearch-core-6.8.6.jar elasticsearch-secure-sm-6.8.6.jar elasticsearch-x-content-6.8.6.jar jackson-dataformat-smile-2.10.2.jar jackson-dataformat-yaml-2.10.2.jar jackson-dataformat-cbor-2.10.2.jar lucene-core-7.7.2.jar lucene-analyzers-common-7.7.2.jar lucene-backward-codecs-7.7.2.jar lucene-grouping-7.7.2.jar lucene-highlighter-7.7.2.jar lucene-join-7.7.2.jar lucene-memory-7.7.2.jar lucene-misc-7.7.2.jar lucene-queries-7.7.2.jar lucene-queryparser-7.7.2.jar lucene-sandbox-7.7.2.jar lucene-spatial-7.7.2.jar lucene-spatial-extras-7.7.2.jar lucene-spatial3d-7.7.2.jar lucene-suggest-7.7.2.jar elasticsearch-cli-6.8.6.jar jopt-simple-5.0.2.jar hppc-0.7.1.jar joda-time-2.10.5.jar t-digest-3.2.jar HdrHistogram-2.1.9.jar log4j-api-2.12.1.jar jna-4.5.1.jar elasticsearch-rest-client-6.8.6.jar httpclient-4.5.10.jar httpcore-4.4.13.jar httpasyncclient-4.1.4.jar httpcore-nio-4.4.13.jar commons-codec-1.13.jar parent-join-client-6.8.6.jar aggs-matrix-stats-client-6.8.6.jar rank-eval-client-6.8.6.jar lang-mustache-client-6.8.6.jar compiler-0.9.3.jar spring-boot-maven-plugin-2.2.4.RELEASE.jar spring-boot-loader-tools-2.2.4.RELEASE.jar commons-compress-1.19.jar maven-archiver-3.4.0.jar maven-shared-utils-3.2.1.jar commons-io-2.5.jar plexus-interpolation-1.25.jar maven-artifact-3.3.9.jar commons-lang3-3.9.jar maven-core-3.3.9.jar maven-settings-builder-3.3.9.jar maven-builder-support-3.3.9.jar maven-repository-metadata-3.3.9.jar maven-model-builder-3.3.9.jar guava-18.0.jar maven-aether-provider-3.3.9.jar aether-spi-1.0.2.v20150114.jar aether-impl-1.0.2.v20150114.jar aether-api-1.0.2.v20150114.jar aether-util-1.0.2.v20150114.jar org.eclipse.sisu.plexus-0.3.2.jar org.eclipse.sisu.inject-0.3.2.jar guice-4.0.jar javax.inject-1.jar aopalliance-1.0.jar plexus-classworlds-2.5.2.jar plexus-component-annotations-1.6.jar plexus-sec-dispatcher-1.3.jar plexus-cipher-1.4.jar maven-model-3.3.9.jar maven-plugin-api-3.3.9.jar maven-settings-3.3.9.jar maven-common-artifact-filters-3.1.0.jar sisu-inject-plexus-1.4.2.jar sisu-inject-bean-1.4.2.jar sisu-guice-2.1.7.jar plexus-archiver-3.7.0.jar plexus-io-3.1.0.jar snappy-0.4.jar xz-1.8.jar plexus-utils-3.1.0.jar plexus-build-api-0.0.7.jar</classpath>
+        <delimiters-pattern>\Q@\E(.+?)\Q@\E</delimiters-pattern>
+        <model-map>
+          <entry key="artifactId" value="app-container" />
+          <entry key="build.directory" value="/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/target" />
+          <entry key="build.finalName" value="app-container-1.0-SNAPSHOT" />
+          <entry key="build.outputDirectory" value="/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/target/classes" />
+          <entry key="build.plugin.maven-ear-plugin.skinnyWars" value="false" />
+          <entry key="build.scriptSourceDirectory" value="/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/scripts" />
+          <entry key="build.sourceDirectory" value="/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java" />
+          <entry key="build.testOutputDirectory" value="/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/target/test-classes" />
+          <entry key="build.testSourceDirectory" value="/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/test/java" />
+          <entry key="description" value="Parent pom providing dependency and plugin management for applications&#10;&#9;&#9;built with Maven" />
+          <entry key="groupId" value="me.sergiosierra" />
+          <entry key="modelEncoding" value="UTF-8" />
+          <entry key="modelVersion" value="4.0.0" />
+          <entry key="packaging" value="war" />
+          <entry key="parent" value="org.springframework.boot:spring-boot-starter-parent:pom:2.2.4.RELEASE" />
+          <entry key="parent.artifactId" value="spring-boot-starter-parent" />
+          <entry key="parent.groupId" value="org.springframework.boot" />
+          <entry key="parent.relativePath" value="../pom.xml" />
+          <entry key="parent.version" value="2.2.4.RELEASE" />
+          <entry key="pomFile" value="/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/pom.xml" />
+          <entry key="reporting.outputDirectory" value="/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/target/site" />
+          <entry key="scm.tag" value="HEAD" />
+          <entry key="scm.url" value="https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/app-container" />
+          <entry key="url" value="https://projects.spring.io/spring-boot/#/spring-boot-starter-parent/app-container" />
+          <entry key="version" value="1.0-SNAPSHOT" />
+        </model-map>
+        <properties>
+          <entry key="activemq.version" value="5.15.11" />
+          <entry key="antlr2.version" value="2.7.7" />
+          <entry key="appengine-sdk.version" value="1.9.77" />
+          <entry key="artemis.version" value="2.10.1" />
+          <entry key="aspectj.version" value="1.9.5" />
+          <entry key="assertj.version" value="3.13.2" />
+          <entry key="atomikos.version" value="4.0.6" />
+          <entry key="awaitility.version" value="4.0.2" />
+          <entry key="bitronix.version" value="2.1.4" />
+          <entry key="build-helper-maven-plugin.version" value="3.0.0" />
+          <entry key="byte-buddy.version" value="1.10.6" />
+          <entry key="caffeine.version" value="2.8.0" />
+          <entry key="cassandra-driver.version" value="3.7.2" />
+          <entry key="classmate.version" value="1.5.1" />
+          <entry key="commons-codec.version" value="1.13" />
+          <entry key="commons-dbcp2.version" value="2.7.0" />
+          <entry key="commons-lang3.version" value="3.9" />
+          <entry key="commons-pool.version" value="1.6" />
+          <entry key="commons-pool2.version" value="2.7.0" />
+          <entry key="couchbase-cache-client.version" value="2.1.0" />
+          <entry key="couchbase-client.version" value="2.7.11" />
+          <entry key="db2-jdbc.version" value="11.5.0.0" />
+          <entry key="dependency-management-plugin.version" value="1.0.9.RELEASE" />
+          <entry key="derby.version" value="10.14.2.0" />
+          <entry key="dropwizard-metrics.version" value="4.1.2" />
+          <entry key="ehcache.version" value="2.10.6" />
+          <entry key="ehcache3.version" value="3.8.1" />
+          <entry key="elasticsearch.version" value="6.8.6" />
+          <entry key="embedded-mongo.version" value="2.2.0" />
+          <entry key="exec-maven-plugin.version" value="1.6.0" />
+          <entry key="flatten-maven-plugin.version" value="1.1.0" />
+          <entry key="flyway.version" value="6.0.8" />
+          <entry key="freemarker.version" value="2.3.29" />
+          <entry key="git-commit-id-plugin.version" value="3.0.1" />
+          <entry key="glassfish-el.version" value="3.0.3" />
+          <entry key="glassfish-jaxb.version" value="2.3.2" />
+          <entry key="groovy.version" value="2.5.9" />
+          <entry key="gson.version" value="2.8.6" />
+          <entry key="h2.version" value="1.4.200" />
+          <entry key="hamcrest.version" value="2.1" />
+          <entry key="hazelcast-hibernate5.version" value="1.3.2" />
+          <entry key="hazelcast.version" value="3.12.5" />
+          <entry key="hibernate-validator.version" value="6.0.18.Final" />
+          <entry key="hibernate.version" value="5.4.10.Final" />
+          <entry key="hikaricp.version" value="3.4.2" />
+          <entry key="hsqldb.version" value="2.5.0" />
+          <entry key="htmlunit.version" value="2.36.0" />
+          <entry key="httpasyncclient.version" value="4.1.4" />
+          <entry key="httpclient.version" value="4.5.10" />
+          <entry key="httpcore.version" value="4.4.13" />
+          <entry key="infinispan.version" value="9.4.17.Final" />
+          <entry key="influxdb-java.version" value="2.15" />
+          <entry key="jackson-bom.version" value="2.10.2" />
+          <entry key="jackson.version" value="2.10.2" />
+          <entry key="jakarta-activation.version" value="1.2.1" />
+          <entry key="jakarta-annotation.version" value="1.3.5" />
+          <entry key="jakarta-jms.version" value="2.0.3" />
+          <entry key="jakarta-json-bind.version" value="1.0.2" />
+          <entry key="jakarta-json.version" value="1.1.6" />
+          <entry key="jakarta-mail.version" value="1.6.4" />
+          <entry key="jakarta-persistence.version" value="2.2.3" />
+          <entry key="jakarta-servlet-jsp-jstl.version" value="1.2.7" />
+          <entry key="jakarta-servlet-jsp.version" value="2.3.5" />
+          <entry key="jakarta-servlet.version" value="4.0.3" />
+          <entry key="jakarta-transaction.version" value="1.3.3" />
+          <entry key="jakarta-validation.version" value="2.0.2" />
+          <entry key="jakarta-websocket.version" value="1.1.2" />
+          <entry key="jakarta-ws-rs.version" value="2.1.6" />
+          <entry key="jakarta-xml-bind.version" value="2.3.2" />
+          <entry key="jakarta-xml-ws.version" value="2.3.2" />
+          <entry key="janino.version" value="3.1.0" />
+          <entry key="java.home" value="/usr/lib/jvm/java-13-openjdk" />
+          <entry key="java.version" value="java version &quot;13.0.2&quot;" />
+          <entry key="javax-activation.version" value="1.2.0" />
+          <entry key="javax-annotation.version" value="1.3.2" />
+          <entry key="javax-cache.version" value="1.1.1" />
+          <entry key="javax-jaxb.version" value="2.3.1" />
+          <entry key="javax-jaxws.version" value="2.3.1" />
+          <entry key="javax-jms.version" value="2.0.1" />
+          <entry key="javax-json.version" value="1.1.4" />
+          <entry key="javax-jsonb.version" value="1.0" />
+          <entry key="javax-mail.version" value="1.6.2" />
+          <entry key="javax-money.version" value="1.0.3" />
+          <entry key="javax-persistence.version" value="2.2" />
+          <entry key="javax-transaction.version" value="1.3" />
+          <entry key="javax-validation.version" value="2.0.1.Final" />
+          <entry key="javax-websocket.version" value="1.1" />
+          <entry key="jaxen.version" value="1.2.0" />
+          <entry key="jaybird.version" value="3.0.8" />
+          <entry key="jboss-logging.version" value="3.4.1.Final" />
+          <entry key="jboss-transaction-spi.version" value="7.6.0.Final" />
+          <entry key="jdom2.version" value="2.0.6" />
+          <entry key="jedis.version" value="3.1.0" />
+          <entry key="jersey.version" value="2.29.1" />
+          <entry key="jest.version" value="6.3.1" />
+          <entry key="jetty-el.version" value="8.5.49" />
+          <entry key="jetty-jsp.version" value="2.2.0.v201112011158" />
+          <entry key="jetty-reactive-httpclient.version" value="1.0.3" />
+          <entry key="jetty.version" value="9.4.25.v20191220" />
+          <entry key="jmustache.version" value="1.15" />
+          <entry key="jna.version" value="4.5.2" />
+          <entry key="joda-time.version" value="2.10.5" />
+          <entry key="johnzon-jsonb.version" value="1.2.2" />
+          <entry key="johnzon.version" value="1.2.2" />
+          <entry key="jolokia.version" value="1.6.2" />
+          <entry key="jooq.version" value="3.12.3" />
+          <entry key="json-path.version" value="2.4.0" />
+          <entry key="jsonassert.version" value="1.5.0" />
+          <entry key="jstl.version" value="1.2" />
+          <entry key="jtds.version" value="1.3.1" />
+          <entry key="junit-jupiter.version" value="5.5.2" />
+          <entry key="junit.version" value="4.12" />
+          <entry key="kafka.version" value="2.3.1" />
+          <entry key="kotlin-coroutines.version" value="1.3.3" />
+          <entry key="kotlin.version" value="1.3.61" />
+          <entry key="lettuce.version" value="5.2.1.RELEASE" />
+          <entry key="liquibase.version" value="3.8.5" />
+          <entry key="log4j2.version" value="2.12.1" />
+          <entry key="logback.version" value="1.2.3" />
+          <entry key="lombok.version" value="1.18.10" />
+          <entry key="mariadb.version" value="2.4.4" />
+          <entry key="maven-antrun-plugin.version" value="1.8" />
+          <entry key="maven-assembly-plugin.version" value="3.1.1" />
+          <entry key="maven-clean-plugin.version" value="3.1.0" />
+          <entry key="maven-compiler-plugin.version" value="3.8.1" />
+          <entry key="maven-dependency-plugin.version" value="3.1.1" />
+          <entry key="maven-deploy-plugin.version" value="2.8.2" />
+          <entry key="maven-enforcer-plugin.version" value="3.0.0-M3" />
+          <entry key="maven-failsafe-plugin.version" value="2.22.2" />
+          <entry key="maven-help-plugin.version" value="3.2.0" />
+          <entry key="maven-install-plugin.version" value="2.5.2" />
+          <entry key="maven-invoker-plugin.version" value="3.2.1" />
+          <entry key="maven-jar-plugin.version" value="3.1.2" />
+          <entry key="maven-javadoc-plugin.version" value="3.1.1" />
+          <entry key="maven-resources-plugin.version" value="3.1.0" />
+          <entry key="maven-shade-plugin.version" value="3.2.1" />
+          <entry key="maven-site-plugin.version" value="3.8.2" />
+          <entry key="maven-source-plugin.version" value="3.1.0" />
+          <entry key="maven-surefire-plugin.version" value="2.22.2" />
+          <entry key="maven-war-plugin.version" value="3.2.3" />
+          <entry key="maven.compiler.source" value="1.8" />
+          <entry key="maven.compiler.target" value="1.8" />
+          <entry key="micrometer.version" value="1.3.2" />
+          <entry key="mimepull.version" value="1.9.12" />
+          <entry key="mockito.version" value="3.1.0" />
+          <entry key="mongo-driver-reactivestreams.version" value="1.12.0" />
+          <entry key="mongodb.version" value="3.11.2" />
+          <entry key="mssql-jdbc.version" value="7.4.1.jre8" />
+          <entry key="mysql.version" value="8.0.19" />
+          <entry key="nekohtml.version" value="1.9.22" />
+          <entry key="neo4j-ogm.version" value="3.2.6" />
+          <entry key="netty-tcnative.version" value="2.0.28.Final" />
+          <entry key="netty.version" value="4.1.45.Final" />
+          <entry key="nio-multipart-parser.version" value="1.1.0" />
+          <entry key="ojdbc.version" value="19.3.0.0" />
+          <entry key="okhttp3.version" value="3.14.6" />
+          <entry key="pooled-jms.version" value="1.0.6" />
+          <entry key="postgresql.version" value="42.2.9" />
+          <entry key="project.build.sourceEncoding" value="UTF-8" />
+          <entry key="project.reporting.outputEncoding" value="UTF-8" />
+          <entry key="prometheus-pushgateway.version" value="0.7.0" />
+          <entry key="quartz.version" value="2.3.2" />
+          <entry key="querydsl.version" value="4.2.2" />
+          <entry key="rabbit-amqp-client.version" value="5.7.3" />
+          <entry key="reactive-streams.version" value="1.0.3" />
+          <entry key="reactor-bom.version" value="Dysprosium-SR4" />
+          <entry key="resource.delimiter" value="@" />
+          <entry key="rest-assured.version" value="3.3.0" />
+          <entry key="rsocket.version" value="1.0.0-RC5" />
+          <entry key="rxjava-adapter.version" value="1.2.1" />
+          <entry key="rxjava.version" value="1.3.8" />
+          <entry key="rxjava2.version" value="2.2.17" />
+          <entry key="saaj-impl.version" value="1.5.1" />
+          <entry key="selenium-htmlunit.version" value="2.36.0" />
+          <entry key="selenium.version" value="3.141.59" />
+          <entry key="sendgrid.version" value="4.4.1" />
+          <entry key="servlet-api.version" value="4.0.1" />
+          <entry key="settings.localRepository" value="/home/keanue/.m2/repository" />
+          <entry key="slf4j.version" value="1.7.30" />
+          <entry key="snakeyaml.version" value="1.25" />
+          <entry key="solr.version" value="8.2.0" />
+          <entry key="spring-amqp.version" value="2.2.3.RELEASE" />
+          <entry key="spring-batch.version" value="4.2.1.RELEASE" />
+          <entry key="spring-cloud-connectors.version" value="2.0.7.RELEASE" />
+          <entry key="spring-data-releasetrain.version" value="Moore-SR4" />
+          <entry key="spring-framework.version" value="5.2.3.RELEASE" />
+          <entry key="spring-hateoas.version" value="1.0.3.RELEASE" />
+          <entry key="spring-integration.version" value="5.2.3.RELEASE" />
+          <entry key="spring-kafka.version" value="2.3.5.RELEASE" />
+          <entry key="spring-ldap.version" value="2.3.2.RELEASE" />
+          <entry key="spring-restdocs.version" value="2.0.4.RELEASE" />
+          <entry key="spring-retry.version" value="1.2.5.RELEASE" />
+          <entry key="spring-security.version" value="5.2.1.RELEASE" />
+          <entry key="spring-session-bom.version" value="Corn-RELEASE" />
+          <entry key="spring-ws.version" value="3.0.8.RELEASE" />
+          <entry key="sqlite-jdbc.version" value="3.28.0" />
+          <entry key="sun-mail.version" value="1.6.4" />
+          <entry key="thymeleaf-extras-data-attribute.version" value="2.0.1" />
+          <entry key="thymeleaf-extras-java8time.version" value="3.0.4.RELEASE" />
+          <entry key="thymeleaf-extras-springsecurity.version" value="3.0.4.RELEASE" />
+          <entry key="thymeleaf-layout-dialect.version" value="2.4.1" />
+          <entry key="thymeleaf.version" value="3.0.11.RELEASE" />
+          <entry key="tomcat.version" value="9.0.30" />
+          <entry key="unboundid-ldapsdk.version" value="4.0.14" />
+          <entry key="undertow.version" value="2.0.29.Final" />
+          <entry key="versions-maven-plugin.version" value="2.7" />
+          <entry key="webjars-hal-browser.version" value="3325375" />
+          <entry key="webjars-locator-core.version" value="0.41" />
+          <entry key="wsdl4j.version" value="1.6.3" />
+          <entry key="xml-maven-plugin.version" value="1.0.2" />
+          <entry key="xmlunit2.version" value="2.6.3" />
+        </properties>
+        <filtering-excluded-extensions />
+        <option name="escapeString" />
+        <option name="escapeWindowsPaths" value="true" />
+        <option name="overwrite" value="false" />
+        <option name="outputDirectory" />
+        <option name="testOutputDirectory" />
+        <resources>
+          <resource filtered="true">
+            <directory>/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/resources</directory>
+            <includes>
+              <pattern value="**/application*.properties" />
+              <pattern value="**/application*.yaml" />
+              <pattern value="**/application*.yml" />
+            </includes>
+            <excludes />
+          </resource>
+          <resource filtered="false">
+            <directory>/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/resources</directory>
+            <includes />
+            <excludes>
+              <pattern value="**/application*.properties" />
+              <pattern value="**/application*.yaml" />
+              <pattern value="**/application*.yml" />
+            </excludes>
+          </resource>
+        </resources>
+        <test-resources>
+          <resource filtered="false">
+            <directory>/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/test/resources</directory>
+            <includes />
+            <excludes />
+          </resource>
+        </test-resources>
+      </MavenModuleResourceConfiguration>
+    </maven-module>
+  </resource-processing>
+  <web-artifact-cfg>
+    <artifact name="app-container:war exploded">
+      <MavenWebArtifactConfiguration>
+        <module-name>app-container</module-name>
+        <web-resources />
+        <packaging-includes>
+          <list />
+        </packaging-includes>
+        <packaging-excludes>
+          <list />
+        </packaging-excludes>
+        <war-root>/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/webapp</war-root>
+        <war-source-includes />
+        <war-source-excludes />
+        <non-filtered-file-extensions />
+      </MavenWebArtifactConfiguration>
+    </artifact>
+  </web-artifact-cfg>
+  <ejb-client-artifact-cfg />
+</maven-project-configuration>

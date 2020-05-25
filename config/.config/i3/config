@@ -138,16 +138,12 @@ for_window [class="sky"] move container to workspace $WS11
 bindsym XF86AudioRaiseVolume exec amixer -q -D pulse set Master 2%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q -D pulse set Master 2%- unmute
 bindsym XF86AudioMute        exec amixer -q -D pulse set Master Playback Switch toggle
-bindsym XF86MonBrightnessUp  exec xbacklight -inc 10
-bindsym XF86MonBrightnessDown  exec xbacklight -dec 10
+bindsym XF86MonBrightnessUp exec ~/Data/Git/dotfiles/ArchScripts/brightness.sh + eDP-1
+bindsym XF86MonBrightnessDown exec ~/Data/Git/dotfiles/ArchScripts/brightness.sh - eDP-1
 bindsym XF86AudioPlay  exec mpris-ctl pp
 bindsym XF86AudioStop  exec mpris-ctl stop
-bindsym XF86AudioNext  exec mpris-ctl next
-bindsym XF86AudioPrev exec mpris-ctl prev
-
-##############################
-####### WINDOW CONTROL #######
-##############################
+/bin/bash: line 1: bindsym: command not found
+/bin/bash: line 2: bindsym: command not found
 
 # Mouse wrapping when using multiple outputs (monitors)
 #mouse_warping none

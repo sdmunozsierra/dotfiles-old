@@ -21,6 +21,6 @@
     recomm = reset --soft HEAD~1
     uncommit = reset --soft HEAD~1
 
-[filesystem "Oracle Corporation|1.8.0_222|/dev/mapper/root"]
-	timestampResolution = 7001 microseconds
-	minRacyThreshold = 0 nanoseconds
+;[filesystem "Oracle Corporation|1.8.0_222|/dev/mapper/root"]
+	;timestampResolution = 7001 microseconds
+	;minRacyThreshold = 0 nanoseconds

@@ -1,0 +1,21 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="6" last="1589737317450" />
+      </entry>
+      <entry key="OpenFile">
+        <ActionSummary times="1" last="1589740819225" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="1" last="1589737292554" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.PluginManagerMain$2">
+        <ActionSummary times="1" last="1589737167915" />
+      </entry>
+      <entry key="com.intellij.openapi.updateSettings.impl.UpdateChecker$showUpdateResult$4$1">
+        <ActionSummary times="1" last="1589737093000" />
+      </entry>
+    </data>
+  </component>
+</application>

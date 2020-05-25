@@ -1,0 +1,43 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="/vendor:&quot;Vincent Parizet&quot;&#10;/tag:&quot;User Interface&quot;" />
+    <property name="LiveContextsPanel[0]" value="0.11092623" />
+    <property name="MarketplacePluginsSearchHistory" value="c lang&#10;c lan&#10;gc&#10;gcc&#10;g" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="SplitFileEditor.Proportion" value="0.62983423" />
+    <property name="SpringBeansModulesPanel[0]" value="0.1091703" />
+    <property name="SpringBeansModulesPanel[1]" value="0.12262416" />
+    <property name="UITheme.relaunch" value="true" />
+    <property name="appcds.runOnSecondStart" value="IU-201.7223.91-8880bfdf3e7f2804b2727bb3261f122e964b389a969070b782d1ad34c3ff8b41" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="evlsprt3.193" value="17" />
+    <property name="evlsprt3.201" value="11" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Data/Git/c-tokenizer&#10;/home/keanue/Data/Git/springdata-v4-elasticsearch-barebones" />
+    <property name="file.gist.reindex.count" value="16" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ideavim.statistics.timestamp" value="1589737030911" />
+    <property name="installed.kotlin.plugin.version" value="1.3.72-release-IJ2020.1-3" />
+    <property name="io.flutter.analytics.toastShown" value="true" />
+    <property name="io.flutter.console.preferencesSet" value="true" />
+    <property name="kotlin.plugin.releaseDate" value="1.3.72-release-IJ2020.1-3:2020-05-14" />
+    <property name="lastSeenTip" value="neue-InspectCode.html" />
+    <property name="lastTimeTipsWereShown" value="1589737038792" />
+    <property name="lastTip" value="9" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1589737038284" />
+    <property name="project.wizard.group" value="org.jetbrains.idea.maven.wizards.InternalMavenModuleBuilder" />
+    <property name="seenTips" value="neue-InspectCode.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+</application>

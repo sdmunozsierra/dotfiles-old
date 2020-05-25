@@ -1,0 +1,747 @@
+2020-02-09 08:00:59,169 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:00:59,169 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:00:59,437 [    268]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 228 ms
+2020-02-09 08:00:59,627 [    458]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:00:59,849 [    680]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:00:59,850 [    681]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:01:00,059 [    890]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 432 ms
+2020-02-09 08:01:00,059 [    890]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:01:00,229 [   1060]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:01:00,381 [   1212]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:false parallel compilation:false
+2020-02-09 08:01:00,383 [   1214]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:01:00,383 [   1214]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:01:00,385 [   1216]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:01:00,386 [   1217]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started dce46cc9
+2020-02-09 08:01:00,396 [   1227]   INFO - s.index.CompilerReferenceIndex - backward reference index version doesn't exist
+2020-02-09 08:01:00,495 [   1326]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 16 ms
+2020-02-09 08:01:01,398 [   2229]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 789 ms
+2020-02-09 08:01:01,409 [   2240]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 803 ms
+2020-02-09 08:01:01,427 [   2258]   INFO - s.incremental.java.JavaBuilder - Compiling 3 java files; module: app-container
+2020-02-09 08:01:02,497 [   3328]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:01:02,618 [   3449]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 60 ms; 0 sources processed
+2020-02-09 08:01:02,618 [   3449]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 1 s 65 ms; 3 sources processed (355 ms per file)
+2020-02-09 08:01:02,620 [   3451]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:01:03,231 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:01:03,232 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:01:03,535 [    304]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 266 ms
+2020-02-09 08:01:03,589 [    358]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 50 ms
+2020-02-09 08:01:03,699 [    468]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:01:03,965 [    734]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:01:03,965 [    734]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:01:04,387 [   1156]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 688 ms
+2020-02-09 08:01:04,387 [   1156]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:01:04,695 [   1464]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:01:04,836 [   1605]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1606 ms
+2020-02-09 08:02:27,594 [  84363]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:02:27,596 [  84365]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:02:27,596 [  84365]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:02:27,600 [  84369]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:02:27,600 [  84369]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 6db6e6fa
+2020-02-09 08:02:27,678 [  84447]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 4 ms
+2020-02-09 08:02:28,447 [  85216]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 722 ms
+2020-02-09 08:02:28,462 [  85231]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 740 ms
+2020-02-09 08:02:28,482 [  85251]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-09 08:02:29,365 [  86134]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:02:29,478 [  86247]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 53 ms; 0 sources processed
+2020-02-09 08:02:29,478 [  86247]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 864 ms; 1 sources processed (864 ms per file)
+2020-02-09 08:02:29,479 [  86248]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:02:30,203 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:02:30,203 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:02:30,738 [    535]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 373 ms
+2020-02-09 08:02:30,872 [    669]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 111 ms
+2020-02-09 08:02:30,996 [    793]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:02:31,320 [   1117]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:02:31,320 [   1117]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:02:31,705 [   1502]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 709 ms
+2020-02-09 08:02:31,705 [   1502]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:02:32,084 [   1881]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:02:32,212 [   2009]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 2011 ms
+2020-02-09 08:03:52,775 [  82572]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:03:52,777 [  82574]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:03:52,777 [  82574]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:03:52,780 [  82577]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:03:52,780 [  82577]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 1e878edd
+2020-02-09 08:03:52,874 [  82671]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 13 ms
+2020-02-09 08:03:53,640 [  83437]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 711 ms
+2020-02-09 08:03:53,653 [  83450]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 734 ms
+2020-02-09 08:03:54,256 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:03:54,257 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:03:54,600 [    344]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 295 ms
+2020-02-09 08:03:54,681 [    425]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 77 ms
+2020-02-09 08:03:54,784 [    528]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:03:55,119 [    863]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:03:55,120 [    864]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:03:55,647 [   1391]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 863 ms
+2020-02-09 08:03:55,647 [   1391]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:03:55,956 [   1700]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:03:56,184 [   1928]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1929 ms
+2020-02-09 08:15:49,884 [ 715628]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:15:49,888 [ 715632]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:15:49,888 [ 715632]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:15:49,891 [ 715635]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:15:49,891 [ 715635]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 6ba75f7c
+2020-02-09 08:15:49,979 [ 715723]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 5 ms
+2020-02-09 08:15:51,033 [ 716777]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 1003 ms
+2020-02-09 08:15:51,047 [ 716791]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 1020 ms
+2020-02-09 08:15:51,073 [ 716817]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-09 08:15:52,240 [ 717984]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:15:52,402 [ 718146]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 79 ms; 0 sources processed
+2020-02-09 08:15:52,402 [ 718146]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 1 s 138 ms; 2 sources processed (569 ms per file)
+2020-02-09 08:15:52,404 [ 718148]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:15:53,085 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:15:53,086 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:15:53,399 [    314]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 267 ms
+2020-02-09 08:15:53,466 [    381]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 63 ms
+2020-02-09 08:15:53,616 [    531]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:15:54,025 [    940]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:15:54,025 [    940]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:15:54,405 [   1320]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 788 ms
+2020-02-09 08:15:54,405 [   1320]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:15:54,573 [   1488]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:15:54,705 [   1620]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1621 ms
+2020-02-09 08:18:27,314 [ 154229]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:18:27,316 [ 154231]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:18:27,316 [ 154231]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:18:27,319 [ 154234]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:18:27,319 [ 154234]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started b2a7a218
+2020-02-09 08:18:27,380 [ 154295]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 5 ms
+2020-02-09 08:18:28,057 [ 154972]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 640 ms
+2020-02-09 08:18:28,067 [ 154982]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 652 ms
+2020-02-09 08:18:28,082 [ 154997]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-09 08:18:28,984 [ 155899]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:18:29,098 [ 156013]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 55 ms; 0 sources processed
+2020-02-09 08:18:29,099 [ 156014]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 885 ms; 1 sources processed (885 ms per file)
+2020-02-09 08:18:29,100 [ 156015]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:18:29,600 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:18:29,604 [      4]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:18:29,937 [    337]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 289 ms
+2020-02-09 08:18:30,007 [    407]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 67 ms
+2020-02-09 08:18:30,108 [    508]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:18:30,414 [    814]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:18:30,416 [    816]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:18:30,799 [   1199]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 691 ms
+2020-02-09 08:18:30,799 [   1199]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:18:30,969 [   1369]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:18:31,113 [   1513]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1514 ms
+2020-02-09 08:19:42,890 [  73290]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:19:42,892 [  73292]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:19:42,892 [  73292]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:19:42,894 [  73294]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:19:42,894 [  73294]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 59005be8
+2020-02-09 08:19:42,963 [  73363]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 4 ms
+2020-02-09 08:19:43,671 [  74071]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 661 ms
+2020-02-09 08:19:43,684 [  74084]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 680 ms
+2020-02-09 08:19:43,702 [  74102]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-09 08:19:44,632 [  75032]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:19:44,737 [  75137]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 52 ms; 0 sources processed
+2020-02-09 08:19:44,737 [  75137]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 914 ms; 1 sources processed (914 ms per file)
+2020-02-09 08:19:44,738 [  75138]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:19:45,240 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:19:45,241 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:19:45,597 [    357]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 318 ms
+2020-02-09 08:19:45,672 [    432]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 69 ms
+2020-02-09 08:19:45,839 [    599]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:19:46,246 [   1006]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:19:46,249 [   1009]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:19:46,685 [   1445]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 846 ms
+2020-02-09 08:19:46,696 [   1456]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:19:46,875 [   1635]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:19:47,005 [   1765]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1766 ms
+2020-02-09 08:30:43,498 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:30:43,499 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:30:44,515 [   1017]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 920 ms
+2020-02-09 08:30:44,828 [   1330]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:30:45,299 [   1801]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:30:45,300 [   1802]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:30:45,714 [   2216]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 886 ms
+2020-02-09 08:30:45,714 [   2216]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:30:46,099 [   2601]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:30:47,280 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:30:47,281 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:30:47,709 [    429]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 377 ms
+2020-02-09 08:30:47,879 [    599]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 164 ms
+2020-02-09 08:30:47,996 [    716]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:30:48,272 [    992]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:30:48,276 [    996]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:30:48,663 [   1383]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 667 ms
+2020-02-09 08:30:48,663 [   1383]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:30:48,940 [   1660]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:30:49,201 [   1921]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1926 ms
+2020-02-09 08:31:05,512 [  18232]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-09 08:31:05,846 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:31:05,846 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:31:06,041 [    195]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 164 ms
+2020-02-09 08:31:06,127 [    281]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:31:06,286 [    440]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:31:06,289 [    443]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:31:06,469 [    623]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 342 ms
+2020-02-09 08:31:06,469 [    623]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:31:06,589 [    743]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:31:06,679 [    833]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:31:06,682 [    836]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:31:06,682 [    836]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:31:06,684 [    838]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:31:06,684 [    838]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 7135365d
+2020-02-09 08:31:06,767 [    921]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 12 ms
+2020-02-09 08:31:07,388 [   1542]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 548 ms
+2020-02-09 08:31:07,399 [   1553]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 562 ms
+2020-02-09 08:31:07,418 [   1572]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-09 08:31:08,220 [   2374]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:31:08,226 [   2380]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:31:08,784 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:31:08,785 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:31:09,362 [    578]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 479 ms
+2020-02-09 08:31:09,476 [    692]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 111 ms
+2020-02-09 08:31:09,632 [    848]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:31:09,948 [   1164]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:31:09,954 [   1170]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:31:10,141 [   1357]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 509 ms
+2020-02-09 08:31:10,141 [   1357]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:31:10,278 [   1494]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:31:10,357 [   1573]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1574 ms
+2020-02-09 08:34:26,088 [ 197304]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-09 08:34:34,339 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:34:34,340 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:34:34,533 [    194]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 159 ms
+2020-02-09 08:34:34,630 [    291]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:34:34,821 [    482]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:34:34,823 [    484]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:34:35,054 [    715]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 424 ms
+2020-02-09 08:34:35,054 [    715]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:34:35,201 [    862]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:34:35,296 [    957]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:34:35,298 [    959]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:34:35,298 [    959]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:34:35,299 [    960]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:34:35,300 [    961]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started cbc7bbf6
+2020-02-09 08:34:35,364 [   1025]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 13 ms
+2020-02-09 08:34:35,957 [   1618]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 526 ms
+2020-02-09 08:34:35,966 [   1627]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 537 ms
+2020-02-09 08:34:35,977 [   1638]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-09 08:34:36,898 [   2559]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:34:37,008 [   2669]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 892 ms; 2 sources processed (446 ms per file)
+2020-02-09 08:34:37,009 [   2670]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:34:37,593 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:34:37,593 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:34:38,017 [    424]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 384 ms
+2020-02-09 08:34:38,106 [    513]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 86 ms
+2020-02-09 08:34:38,178 [    585]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:34:38,383 [    790]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:34:38,383 [    790]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:34:38,730 [   1137]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 552 ms
+2020-02-09 08:34:38,731 [   1138]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:34:39,114 [   1521]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:34:39,303 [   1710]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1711 ms
+2020-02-09 08:34:41,741 [   4148]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-09 08:36:52,368 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:36:52,368 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:36:52,563 [    195]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 165 ms
+2020-02-09 08:36:52,669 [    301]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:36:52,851 [    483]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:36:52,852 [    484]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:36:53,081 [    713]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 412 ms
+2020-02-09 08:36:53,081 [    713]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:36:53,250 [    882]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:36:53,335 [    967]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:36:53,336 [    968]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:36:53,336 [    968]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:36:53,338 [    970]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:36:53,338 [    970]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 904a0cce
+2020-02-09 08:36:53,407 [   1039]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 12 ms
+2020-02-09 08:36:54,144 [   1776]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 680 ms
+2020-02-09 08:36:54,152 [   1784]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 691 ms
+2020-02-09 08:36:54,877 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:36:54,878 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:36:55,159 [    282]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 244 ms
+2020-02-09 08:36:55,228 [    351]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 65 ms
+2020-02-09 08:36:55,315 [    438]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:36:55,549 [    672]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:36:55,550 [    673]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:36:55,949 [   1072]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 634 ms
+2020-02-09 08:36:55,949 [   1072]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:36:56,181 [   1304]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:36:56,293 [   1416]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1417 ms
+2020-02-09 08:38:06,357 [  71480]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:38:06,358 [  71481]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:38:06,358 [  71481]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:38:06,360 [  71483]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:38:06,361 [  71484]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started b49d79eb
+2020-02-09 08:38:06,435 [  71558]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 10 ms
+2020-02-09 08:38:07,259 [  72382]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 778 ms
+2020-02-09 08:38:07,270 [  72393]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 791 ms
+2020-02-09 08:38:07,289 [  72412]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-09 08:38:08,049 [  73172]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:38:08,098 [  73221]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 747 ms; 1 sources processed (747 ms per file)
+2020-02-09 08:38:08,098 [  73221]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:38:08,635 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:38:08,635 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:38:09,002 [    367]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 315 ms
+2020-02-09 08:38:09,071 [    436]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 65 ms
+2020-02-09 08:38:09,172 [    537]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:38:09,568 [    933]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:38:09,567 [    932]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:38:09,878 [   1243]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 706 ms
+2020-02-09 08:38:09,878 [   1243]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:38:10,058 [   1423]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:38:10,188 [   1553]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1554 ms
+2020-02-09 08:48:04,104 [ 595469]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:48:04,106 [ 595471]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:48:04,106 [ 595471]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:48:04,108 [ 595473]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:48:04,108 [ 595473]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 4b410e63
+2020-02-09 08:48:04,185 [ 595550]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 11 ms
+2020-02-09 08:48:04,838 [ 596203]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 611 ms
+2020-02-09 08:48:04,850 [ 596215]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 625 ms
+2020-02-09 08:48:04,872 [ 596237]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-09 08:48:05,969 [ 597334]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:48:06,098 [ 597463]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'NotNull instrumentation' took 76 ms; 0 sources processed
+2020-02-09 08:48:06,098 [ 597463]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 1 s 71 ms; 2 sources processed (535 ms per file)
+2020-02-09 08:48:06,099 [ 597464]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:48:06,613 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:48:06,614 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:48:06,884 [    271]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 240 ms
+2020-02-09 08:48:06,952 [    339]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 66 ms
+2020-02-09 08:48:07,053 [    440]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:48:07,319 [    706]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:48:07,327 [    714]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:48:07,560 [    947]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 507 ms
+2020-02-09 08:48:07,561 [    948]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:48:07,706 [   1093]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:48:07,804 [   1191]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1193 ms
+2020-02-09 08:48:09,572 [   2959]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-09 08:50:07,469 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:50:07,470 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:50:07,668 [    199]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 163 ms
+2020-02-09 08:50:07,756 [    287]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:50:07,921 [    452]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:50:07,924 [    455]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:50:08,105 [    636]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 349 ms
+2020-02-09 08:50:08,105 [    636]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:50:08,217 [    748]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:50:08,301 [    832]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:50:08,302 [    833]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:50:08,302 [    833]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:50:08,303 [    834]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:50:08,304 [    835]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started f873c672
+2020-02-09 08:50:08,366 [    897]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 10 ms
+2020-02-09 08:50:09,022 [   1553]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 587 ms
+2020-02-09 08:50:09,031 [   1562]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 597 ms
+2020-02-09 08:50:09,056 [   1587]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:50:12,062 [   4593]   INFO - kotlin.jps.build.KotlinBuilder - Compiled successfully
+2020-02-09 08:50:12,099 [   4630]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:50:12,103 [   4634]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-09 08:50:13,115 [   5646]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:50:13,223 [   5754]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Kotlin Builder' took 3 s 29 ms; 0 sources processed
+2020-02-09 08:50:13,223 [   5754]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 1 s 12 ms; 1 sources processed (1012 ms per file)
+2020-02-09 08:50:13,225 [   5756]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:50:14,220 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:50:14,220 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:50:14,571 [    351]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 288 ms
+2020-02-09 08:50:14,680 [    460]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 107 ms
+2020-02-09 08:50:14,945 [    725]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:50:15,414 [   1194]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:50:15,424 [   1204]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:50:15,775 [   1555]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 830 ms
+2020-02-09 08:50:15,775 [   1555]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:50:15,967 [   1747]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:50:16,081 [   1861]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1862 ms
+2020-02-09 08:50:17,874 [   3654]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-09 08:56:45,023 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:56:45,023 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:56:45,215 [    192]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 163 ms
+2020-02-09 08:56:45,306 [    283]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:56:45,470 [    447]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:56:45,470 [    447]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:56:45,655 [    632]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 349 ms
+2020-02-09 08:56:45,655 [    632]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:56:45,770 [    747]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:56:45,858 [    835]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:56:45,860 [    837]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:56:45,860 [    837]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:56:45,863 [    840]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:56:45,863 [    840]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started ba58caec
+2020-02-09 08:56:45,934 [    911]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 11 ms
+2020-02-09 08:56:46,503 [   1480]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 523 ms
+2020-02-09 08:56:46,522 [   1499]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 543 ms
+2020-02-09 08:56:46,827 [   1804]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-09 08:56:47,897 [   2874]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:56:47,903 [   2880]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:56:48,343 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:56:48,343 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:56:48,794 [    451]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 352 ms
+2020-02-09 08:56:48,836 [    493]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 39 ms
+2020-02-09 08:56:48,901 [    558]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:56:49,073 [    730]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:56:49,074 [    731]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:56:49,251 [    908]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 350 ms
+2020-02-09 08:56:49,251 [    908]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:56:49,386 [   1043]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:56:49,475 [   1132]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1133 ms
+2020-02-09 08:56:56,626 [   8283]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 08:56:56,628 [   8285]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 08:56:56,628 [   8285]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 08:56:56,630 [   8287]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 08:56:56,630 [   8287]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started d8f67eb9
+2020-02-09 08:56:56,707 [   8364]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 5 ms
+2020-02-09 08:56:57,312 [   8969]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 562 ms
+2020-02-09 08:56:57,325 [   8982]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 578 ms
+2020-02-09 08:56:57,548 [   9205]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-09 08:56:58,603 [  10260]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 08:56:58,767 [  10424]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 1 s 22 ms; 2 sources processed (511 ms per file)
+2020-02-09 08:56:58,769 [  10426]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 08:56:59,462 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 08:56:59,463 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 08:56:59,833 [    371]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 291 ms
+2020-02-09 08:56:59,922 [    460]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 87 ms
+2020-02-09 08:57:00,019 [    557]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 08:57:00,303 [    841]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 08:57:00,303 [    841]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 08:57:00,535 [   1073]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 516 ms
+2020-02-09 08:57:00,535 [   1073]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 08:57:00,738 [   1276]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 08:57:00,850 [   1388]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1389 ms
+2020-02-09 09:08:39,234 [ 699772]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 09:08:39,236 [ 699774]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 09:08:39,236 [ 699774]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 09:08:39,239 [ 699777]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 09:08:39,239 [ 699777]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 3f8c83ad
+2020-02-09 09:08:39,410 [ 699948]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 24 ms
+2020-02-09 09:08:40,277 [ 700815]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 733 ms
+2020-02-09 09:08:40,288 [ 700826]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 757 ms
+2020-02-09 09:08:40,505 [ 701043]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-09 09:08:41,053 [ 701591]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 09:08:41,063 [ 701601]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 09:08:41,551 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 09:08:41,551 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 09:08:41,905 [    354]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 303 ms
+2020-02-09 09:08:41,952 [    401]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 45 ms
+2020-02-09 09:08:42,045 [    494]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 09:08:42,234 [    683]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 09:08:42,234 [    683]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 09:08:42,408 [    857]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 363 ms
+2020-02-09 09:08:42,408 [    857]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 09:08:42,533 [    982]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 09:08:42,614 [   1063]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1064 ms
+2020-02-09 09:08:55,503 [  13952]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 09:08:55,504 [  13953]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 09:08:55,504 [  13953]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 09:08:55,506 [  13955]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 09:08:55,506 [  13955]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 921fa533
+2020-02-09 09:08:55,571 [  14020]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 8 ms
+2020-02-09 09:08:56,167 [  14616]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 559 ms
+2020-02-09 09:08:56,192 [  14641]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 585 ms
+2020-02-09 09:08:56,418 [  14867]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-09 09:08:57,195 [  15644]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 09:08:57,336 [  15785]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'NotNull instrumentation' took 51 ms; 0 sources processed
+2020-02-09 09:08:57,336 [  15785]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 755 ms; 2 sources processed (377 ms per file)
+2020-02-09 09:08:57,337 [  15786]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 09:08:57,831 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 09:08:57,831 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 09:08:58,098 [    267]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 233 ms
+2020-02-09 09:08:58,165 [    334]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 65 ms
+2020-02-09 09:08:58,252 [    421]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 09:08:58,500 [    669]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 09:08:58,502 [    671]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 09:08:58,848 [   1017]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 596 ms
+2020-02-09 09:08:58,849 [   1018]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 09:08:59,001 [   1170]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 09:08:59,111 [   1280]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1282 ms
+2020-02-09 09:09:33,914 [  36083]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 09:09:33,916 [  36085]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 09:09:33,916 [  36085]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 09:09:33,919 [  36088]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 09:09:33,919 [  36088]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 5d3e66a5
+2020-02-09 09:09:34,053 [  36222]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 38 ms
+2020-02-09 09:09:34,904 [  37073]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 750 ms
+2020-02-09 09:09:34,920 [  37089]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 774 ms
+2020-02-09 09:09:35,138 [  37307]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-09 09:09:35,924 [  38093]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 09:09:36,032 [  38201]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 765 ms; 1 sources processed (765 ms per file)
+2020-02-09 09:09:36,033 [  38202]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 09:09:36,518 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 09:09:36,519 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 09:09:36,798 [    280]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 222 ms
+2020-02-09 09:09:36,845 [    327]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 44 ms
+2020-02-09 09:09:36,973 [    455]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 09:09:37,230 [    712]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 09:09:37,234 [    716]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 09:09:37,497 [    979]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 524 ms
+2020-02-09 09:09:37,498 [    980]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 09:09:37,654 [   1136]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 09:09:37,743 [   1225]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1226 ms
+2020-02-09 09:16:31,002 [ 414484]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 09:16:31,004 [ 414486]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 09:16:31,004 [ 414486]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 09:16:31,006 [ 414488]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 09:16:31,006 [ 414488]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 6bb89f0f
+2020-02-09 09:16:31,073 [ 414555]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 8 ms
+2020-02-09 09:16:31,660 [ 415142]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 551 ms
+2020-02-09 09:16:31,673 [ 415155]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 566 ms
+2020-02-09 09:16:31,922 [ 415404]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-09 09:16:32,692 [ 416174]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 09:16:32,699 [ 416181]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 09:16:33,129 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 09:16:33,129 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 09:16:33,326 [    197]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 167 ms
+2020-02-09 09:16:33,362 [    233]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 34 ms
+2020-02-09 09:16:33,415 [    286]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 09:16:33,565 [    436]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 09:16:33,565 [    436]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 09:16:33,751 [    622]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 336 ms
+2020-02-09 09:16:33,751 [    622]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 09:16:33,899 [    770]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 09:16:33,983 [    854]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 855 ms
+2020-02-09 09:16:57,867 [  24738]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-09 09:16:57,868 [  24739]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-09 09:16:57,869 [  24740]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-09 09:16:57,871 [  24742]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-09 09:16:57,871 [  24742]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 6b46677f
+2020-02-09 09:16:57,952 [  24823]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 12 ms
+2020-02-09 09:16:58,867 [  25738]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 850 ms
+2020-02-09 09:16:58,883 [  25754]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 895 ms
+2020-02-09 09:16:59,153 [  26024]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-09 09:17:00,069 [  26940]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-09 09:17:00,183 [  27054]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 891 ms; 1 sources processed (891 ms per file)
+2020-02-09 09:17:00,184 [  27055]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-09 09:17:00,771 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-09 09:17:00,772 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-09 09:17:01,029 [    258]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 227 ms
+2020-02-09 09:17:01,099 [    328]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 68 ms
+2020-02-09 09:17:01,204 [    433]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-09 09:17:01,474 [    703]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-09 09:17:01,484 [    713]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-09 09:17:01,729 [    958]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 525 ms
+2020-02-09 09:17:01,729 [    958]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-09 09:17:01,882 [   1111]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-09 09:17:02,005 [   1234]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1236 ms
+2020-02-09 09:29:52,355 [ 771584]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-11 04:36:28,240 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-11 04:36:28,241 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-11 04:36:29,033 [    793]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 699 ms
+2020-02-11 04:36:29,588 [   1348]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-11 04:36:30,001 [   1761]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-11 04:36:30,019 [   1779]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-11 04:36:30,600 [   2360]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1012 ms
+2020-02-11 04:36:30,600 [   2360]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-11 04:36:30,929 [   2689]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-11 04:36:32,175 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-11 04:36:32,175 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-11 04:36:32,754 [    579]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 517 ms
+2020-02-11 04:36:32,899 [    724]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 142 ms
+2020-02-11 04:36:33,063 [    888]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-11 04:36:33,448 [   1273]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-11 04:36:33,455 [   1280]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-11 04:36:33,993 [   1818]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 930 ms
+2020-02-11 04:36:33,993 [   1818]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 166 libraries
+2020-02-11 04:36:34,255 [   2080]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-11 04:36:34,510 [   2335]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 2336 ms
+2020-02-11 04:38:03,123 [  90948]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-11 05:20:19,458 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-11 05:20:19,459 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-11 05:20:19,751 [    293]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 252 ms
+2020-02-11 05:20:19,908 [    450]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-11 05:20:20,124 [    666]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-11 05:20:20,125 [    667]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-11 05:20:20,326 [    868]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 418 ms
+2020-02-11 05:20:20,326 [    868]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-11 05:20:20,465 [   1007]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-11 05:20:20,566 [   1108]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-11 05:20:20,570 [   1112]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-11 05:20:20,570 [   1112]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-11 05:20:20,573 [   1115]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-11 05:20:20,573 [   1115]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 85ddbf78
+2020-02-11 05:20:20,659 [   1201]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 12 ms
+2020-02-11 05:20:21,410 [   1952]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 656 ms
+2020-02-11 05:20:21,441 [   1983]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 690 ms
+2020-02-11 05:20:21,478 [   2020]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-11 05:20:25,050 [   5592]   INFO - kotlin.jps.build.KotlinBuilder - Compiled successfully
+2020-02-11 05:20:25,100 [   5642]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-11 05:20:25,107 [   5649]   INFO - s.incremental.java.JavaBuilder - Compiling 3 java files; module: app-container
+2020-02-11 05:20:26,085 [   6627]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-11 05:20:26,223 [   6765]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 62 ms; 0 sources processed
+2020-02-11 05:20:26,223 [   6765]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Kotlin Builder' took 3 s 603 ms; 0 sources processed
+2020-02-11 05:20:26,223 [   6765]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 970 ms; 2 sources processed (485 ms per file)
+2020-02-11 05:20:26,224 [   6766]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-11 05:20:27,256 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-11 05:20:27,257 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-11 05:20:27,525 [    269]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 227 ms
+2020-02-11 05:20:27,576 [    320]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 49 ms
+2020-02-11 05:20:27,663 [    407]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-11 05:20:27,873 [    617]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-11 05:20:27,874 [    618]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-11 05:20:28,236 [    980]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 573 ms
+2020-02-11 05:20:28,236 [    980]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-11 05:20:28,382 [   1126]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-11 05:20:28,485 [   1229]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1230 ms
+2020-02-11 05:26:41,893 [ 374637]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-11 05:26:41,895 [ 374639]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-11 05:26:41,896 [ 374640]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-11 05:26:41,898 [ 374642]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-11 05:26:41,898 [ 374642]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started f568ecda
+2020-02-11 05:26:41,981 [ 374725]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 13 ms
+2020-02-11 05:26:42,769 [ 375513]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 751 ms
+2020-02-11 05:26:42,789 [ 375533]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 773 ms
+2020-02-11 05:26:43,111 [ 375855]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-11 05:26:44,022 [ 376766]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-11 05:26:44,167 [ 376911]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 65 ms; 0 sources processed
+2020-02-11 05:26:44,168 [ 376912]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 889 ms; 1 sources processed (889 ms per file)
+2020-02-11 05:26:44,169 [ 376913]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-11 05:26:44,654 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-11 05:26:44,654 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-11 05:26:44,948 [    294]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 249 ms
+2020-02-11 05:26:45,009 [    355]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 58 ms
+2020-02-11 05:26:45,097 [    443]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-11 05:26:45,407 [    753]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-11 05:26:45,421 [    767]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-11 05:26:45,798 [   1144]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 701 ms
+2020-02-11 05:26:45,798 [   1144]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-11 05:26:45,954 [   1300]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-11 05:26:46,080 [   1426]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1428 ms
+2020-02-12 03:54:26,184 [80861530]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-12 03:54:26,186 [80861532]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-12 03:54:26,186 [80861532]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-12 03:54:26,188 [80861534]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-12 03:54:26,188 [80861534]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 4437dc9b
+2020-02-12 03:54:26,246 [80861592]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 7 ms
+2020-02-12 03:54:26,810 [80862156]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 519 ms
+2020-02-12 03:54:26,827 [80862173]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 538 ms
+2020-02-12 03:54:27,065 [80862411]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: app-container
+2020-02-12 03:54:27,828 [80863174]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-12 03:54:27,959 [80863305]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 58 ms; 0 sources processed
+2020-02-12 03:54:27,959 [80863305]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 737 ms; 2 sources processed (368 ms per file)
+2020-02-12 03:54:27,960 [80863306]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-12 03:54:28,622 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-12 03:54:28,622 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-12 03:54:28,949 [    327]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 283 ms
+2020-02-12 03:54:29,021 [    399]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 69 ms
+2020-02-12 03:54:29,101 [    479]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-12 03:54:29,396 [    774]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-12 03:54:29,397 [    775]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-12 03:54:29,609 [    987]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 508 ms
+2020-02-12 03:54:29,609 [    987]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-12 03:54:29,740 [   1118]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-12 03:54:29,846 [   1224]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1225 ms
+2020-02-12 03:55:36,162 [  67540]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-12 03:55:36,164 [  67542]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-12 03:55:36,164 [  67542]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-12 03:55:36,166 [  67544]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-12 03:55:36,166 [  67544]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 99ea881c
+2020-02-12 03:55:36,226 [  67604]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 7 ms
+2020-02-12 03:55:36,822 [  68200]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 564 ms
+2020-02-12 03:55:36,834 [  68212]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 577 ms
+2020-02-12 03:55:37,059 [  68437]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-12 03:55:37,786 [  69164]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-12 03:55:37,891 [  69269]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 706 ms; 1 sources processed (706 ms per file)
+2020-02-12 03:55:37,895 [  69273]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-12 03:55:38,466 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-12 03:55:38,467 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-12 03:55:38,791 [    325]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 287 ms
+2020-02-12 03:55:38,857 [    391]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 64 ms
+2020-02-12 03:55:38,975 [    509]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-12 03:55:39,279 [    813]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-12 03:55:39,277 [    811]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-12 03:55:39,611 [   1145]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 636 ms
+2020-02-12 03:55:39,611 [   1145]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-12 03:55:39,787 [   1321]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-12 03:55:39,916 [   1450]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1451 ms
+2020-02-12 04:32:13,915 [2195449]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-12 04:32:37,427 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-12 04:32:37,428 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-12 04:32:37,643 [    216]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 182 ms
+2020-02-12 04:32:37,755 [    328]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-12 04:32:37,956 [    529]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-12 04:32:37,956 [    529]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-12 04:32:38,161 [    734]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 406 ms
+2020-02-12 04:32:38,161 [    734]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-12 04:32:38,275 [    848]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-12 04:32:38,365 [    938]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-12 04:32:38,367 [    940]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-12 04:32:38,367 [    940]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-12 04:32:38,369 [    942]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-12 04:32:38,369 [    942]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 6f2b3fe9
+2020-02-12 04:32:38,432 [   1005]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 11 ms
+2020-02-12 04:32:38,999 [   1572]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 508 ms
+2020-02-12 04:32:39,017 [   1590]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 528 ms
+2020-02-12 04:32:39,307 [   1880]   INFO - s.incremental.java.JavaBuilder - Compiling 4 java files; module: app-container
+2020-02-12 04:32:40,024 [   2597]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-12 04:32:40,083 [   2656]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 705 ms; 4 sources processed (176 ms per file)
+2020-02-12 04:32:40,085 [   2658]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-12 04:32:40,537 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-12 04:32:40,537 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-12 04:32:40,822 [    285]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 248 ms
+2020-02-12 04:32:40,866 [    329]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 42 ms
+2020-02-12 04:32:40,940 [    403]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-12 04:32:41,155 [    618]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-12 04:32:41,156 [    619]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-12 04:32:41,425 [    888]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 485 ms
+2020-02-12 04:32:41,426 [    889]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-12 04:32:41,560 [   1023]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-12 04:32:41,649 [   1112]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1113 ms
+2020-02-12 05:54:44,091 [4923554]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-12 05:54:44,094 [4923557]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-12 05:54:44,094 [4923557]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-12 05:54:44,097 [4923560]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-12 05:54:44,097 [4923560]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 39a32245
+2020-02-12 05:54:44,224 [4923687]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 9 ms
+2020-02-12 05:54:45,277 [4924740]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 994 ms
+2020-02-12 05:54:45,299 [4924762]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 1020 ms
+2020-02-12 05:54:45,594 [4925057]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-12 05:54:46,479 [4925942]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-12 05:54:46,571 [4926034]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 858 ms; 1 sources processed (858 ms per file)
+2020-02-12 05:54:46,572 [4926035]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-12 05:54:47,256 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-12 05:54:47,257 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-12 05:54:47,610 [    354]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 300 ms
+2020-02-12 05:54:47,679 [    423]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 66 ms
+2020-02-12 05:54:47,827 [    571]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-12 05:54:48,191 [    935]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-12 05:54:48,190 [    934]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-12 05:54:48,537 [   1281]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 710 ms
+2020-02-12 05:54:48,537 [   1281]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-12 05:54:48,783 [   1527]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-12 05:54:48,923 [   1667]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1669 ms
+2020-02-12 05:55:37,194 [  49938]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2020-02-12 05:55:37,196 [  49940]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2020-02-12 05:55:37,196 [  49940]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2020-02-12 05:55:37,198 [  49942]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2020-02-12 05:55:37,198 [  49942]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 17220a81
+2020-02-12 05:55:37,261 [  50005]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 12 ms
+2020-02-12 05:55:38,107 [  50851]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 805 ms
+2020-02-12 05:55:38,124 [  50868]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 824 ms
+2020-02-12 05:55:38,417 [  51161]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: app-container
+2020-02-12 05:55:39,283 [  52027]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2020-02-12 05:55:39,415 [  52159]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 60 ms; 0 sources processed
+2020-02-12 05:55:39,415 [  52159]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 848 ms; 1 sources processed (848 ms per file)
+2020-02-12 05:55:39,417 [  52161]   INFO - s.incremental.java.JavaBuilder - javac 13.0.2 was used to compile [app-container]
+2020-02-12 05:55:39,984 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-12 05:55:39,984 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-12 05:55:40,278 [    294]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 247 ms
+2020-02-12 05:55:40,346 [    362]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 66 ms
+2020-02-12 05:55:40,431 [    447]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-12 05:55:40,711 [    727]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-12 05:55:40,714 [    730]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-12 05:55:41,019 [   1035]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 588 ms
+2020-02-12 05:55:41,019 [   1035]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-12 05:55:41,191 [   1207]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-12 05:55:41,284 [   1300]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1301 ms
+2020-02-14 03:29:36,301 [164036317]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2020-02-14 03:29:49,313 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-14 03:29:49,314 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-14 03:29:49,679 [    366]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 334 ms
+2020-02-14 03:29:50,043 [    730]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-14 03:29:50,375 [   1062]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-14 03:29:50,377 [   1064]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-14 03:29:50,867 [   1554]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 824 ms
+2020-02-14 03:29:50,867 [   1554]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-14 03:29:51,107 [   1794]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-14 03:29:51,919 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2020-02-14 03:29:51,919 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /opt/intellij-idea-ultimate-edition/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-13-openjdk/lib/tools.jar
+2020-02-14 03:29:52,318 [    399]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 309 ms
+2020-02-14 03:29:52,416 [    497]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 95 ms
+2020-02-14 03:29:52,556 [    637]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones, global options path = /home/keanue/.IntelliJIdea2019.3/config/options
+2020-02-14 03:29:52,950 [   1031]   INFO - serialization.JpsProjectLoader - Module 'app' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/app/app.iml doesn't exist
+2020-02-14 03:29:52,950 [   1031]   INFO - serialization.JpsProjectLoader - Module 'springdata-v4-elasticsearch-barebones' is skipped: /home/keanue/Data/Git/springdata-v4-elasticsearch-barebones/springdata-v4-elasticsearch-barebones.iml doesn't exist
+2020-02-14 03:29:53,364 [   1445]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 808 ms
+2020-02-14 03:29:53,364 [   1445]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 165 libraries
+2020-02-14 03:29:53,697 [   1778]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2020-02-14 03:29:53,967 [   2048]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 2049 ms

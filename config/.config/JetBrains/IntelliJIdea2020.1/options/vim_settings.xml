@@ -1,0 +1,254 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>.</entry>
+      </history-search>
+      <history-cmd>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/elastic/repository/ElasticRepository.java" timestamp="1581481632277">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" timestamp="1581646320854">
+        <mark key="c" line="13" column="29" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/pom.xml" timestamp="1581398266847">
+        <mark key="'" line="32" column="8" />
+        <mark key="[" line="62" column="0" />
+        <mark key="]" line="62" column="0" />
+        <mark key="." line="62" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1581481842427">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/TestController.java" timestamp="1581236066951">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/RestClientConfig.java" timestamp="1581239326749">
+        <mark key="j" line="12" column="45" />
+        <mark key="k" line="24" column="0" />
+        <mark key="[" line="21" column="93" />
+        <mark key="]" line="21" column="93" />
+        <mark key="." line="21" column="93" />
+        <mark key="^" line="21" column="93" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app/pom.xml" timestamp="1581146988425">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="38" />
+        <mark key="^" line="12" column="3" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/ElasticsearchRestHighLevelClient.java" timestamp="1581396478759">
+        <mark key="[" line="12" column="5" />
+        <mark key="]" line="13" column="3" />
+        <mark key="." line="13" column="3" />
+        <mark key="^" line="13" column="3" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/Application.java" timestamp="1581236357757">
+        <mark key="[" line="11" column="24" />
+        <mark key="]" line="11" column="24" />
+        <mark key="^" line="9" column="91" />
+        <mark key="." line="11" column="24" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" timestamp="1581146923759">
+        <mark key="'" line="74" column="0" />
+        <mark key="[" line="14" column="4" />
+        <mark key="]" line="73" column="21" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/ElasticSearchConfiguration.java" timestamp="1581396245154">
+        <mark key="'" line="22" column="17" />
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
+        <mark key="." line="31" column="0" />
+        <mark key="^" line="27" column="61" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/elastic/model/ElasticObj.java" timestamp="1581481071523">
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
+        <mark key="^" line="28" column="56" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/elastic/service/ElasticObjServiceImpl.java" timestamp="1581481910704">
+        <mark key="'" line="15" column="8" />
+        <mark key="[" line="31" column="44" />
+        <mark key="]" line="31" column="44" />
+        <mark key="^" line="31" column="42" />
+        <mark key="." line="31" column="44" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/api-container/pom.xml" timestamp="1581146662914">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="12" column="15" />
+        <mark key="]" line="12" column="17" />
+        <mark key="." line="12" column="17" />
+        <mark key="^" line="12" column="17" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/CustomElasticSearchConverter.java" timestamp="1581238019763">
+        <mark key="'" line="125" column="0" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/README.md" timestamp="1581143073837">
+        <mark key="[" line="41" column="31" />
+        <mark key="]" line="41" column="31" />
+        <mark key="." line="41" column="31" />
+        <mark key="^" line="41" column="29" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/elastic/service/ElasticObjService.java" timestamp="1581481773867">
+        <mark key="[" line="14" column="34" />
+        <mark key="]" line="14" column="34" />
+        <mark key="^" line="14" column="34" />
+        <mark key="." line="14" column="34" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/ElasticsearchRestClientConfig.java" timestamp="1581486876830">
+        <mark key="'" line="13" column="49" />
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="13" />
+        <mark key="." line="13" column="0" />
+        <mark key="^" line="12" column="3" />
+      </file>
+      <file name="/fragment.java" timestamp="1581396077274">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="12" column="17" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/api-container/pom.xml" />
+      <jump line="16" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/api-container/pom.xml" />
+      <jump line="0" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/api-container/pom.xml" />
+      <jump line="14" column="4" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="18" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="27" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="35" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="42" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="49" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="55" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="61" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="68" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="74" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/pom.xml" />
+      <jump line="18" column="17" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/ElasticSearchConfiguration.java" />
+      <jump line="125" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/CustomElasticSearchConverter.java" />
+      <jump line="68" column="6" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" />
+      <jump line="32" column="8" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/pom.xml" />
+      <jump line="45" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" />
+      <jump line="28" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" />
+      <jump line="49" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" />
+      <jump line="48" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" />
+      <jump line="46" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" />
+      <jump line="43" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" />
+      <jump line="39" column="0" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/SpringBootApp.java" />
+      <jump line="10" column="49" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/ElasticsearchRestClientConfig.java" />
+      <jump line="8" column="8" filename="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/elastic/service/ElasticObjServiceImpl.java" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5TcAo=</text>
+      </register>
+      <register name="-" type="4">
+        <text>autoconfigure.SpringBootApplication;</text>
+      </register>
+      <register name="/" type="4">
+        <text>.</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gZWxhc3RpY09ialJlcG9zaXRvcnkuZmluZEJ5TmFtZShuYW1lLCBwYWdlUmVxdWVzdCk7Cg==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5TcAo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5hdXRvY29uZmlndXJlLmRhdGEuZWxhc3RpY3NlYXJjaC5FbGFzdGljc2VhcmNoRGF0YUF1dG9Db25maWd1cmF0aW9uOwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5hdXRvY29uZmlndXJlLmRhdGEuZWxhc3RpY3NlYXJjaC5FbGFzdGljc2VhcmNoQXV0b0NvbmZpZ3VyYXRpb247Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5PcHRpb25hbDsK</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>.</last-search>
+      <last-offset />
+      <last-pattern>.</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>

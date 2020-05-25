@@ -1327,3 +1327,58 @@ vim .bash_aliases
 ]ee
 eee
 ee
+yay -Syu
+yay -Rs qtcam-git
+yay -Syu
+yay -Syyu
+flutter --help
+flutter upgrade
+rm pkill 
+rm stale_outputs_checked 
+gitBackup
+cd
+cd .gnupg/
+ls
+cat pubring.kbx
+ls
+ee
+cd .gnupg/
+ls
+vim gpg.conf
+ls
+cd..
+vim .gitconfig
+cd .ssh/
+ls
+cat id_rsa
+cat id_rsa.pub 
+cdg
+git clone git@github.com:sdmunozsierra/c-tokenizer.git
+sudo systemctl start ssh
+systemctl enable sshd.socket
+systemctl enable sshd
+git clone git@github.com:sdmunozsierra/c-tokenizer.git
+systemctl start sshd
+git clone git@github.com:sdmunozsierra/c-tokenizer.git
+ssh-add 
+git pull
+git clone git@github.com:sdmunozsierra/c-tokenizer.git
+cd c-tokenizer/
+git st
+git aa
+git rm arch1-tokenizer-mirodriguez9-master/
+git rm arch1-tokenizer-mirodriguez9-master/ -r
+git reset
+git st
+git aa
+git comm "Initial commit"
+git push
+youtube
+ee
+cd .config/
+ls
+cd..
+ls
+vim .gitconfig
+cd .config/
+cd..
