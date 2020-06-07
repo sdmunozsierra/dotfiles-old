@@ -10,7 +10,7 @@
     <feature id="editing.completion.finishBySmartEnter" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.symbol" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.recent.search" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.replace" count="0" last-shown="1581646307804" last-used="0" shown-count="2417" />
+    <feature id="editing.completion.replace" count="0" last-shown="1590469639457" last-used="0" shown-count="2458" />
     <feature id="switcher" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.complete.statement" count="1" last-shown="0" last-used="1581237242262" shown-count="0" />
     <feature id="navigation.goto.inspection" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -53,7 +53,7 @@
     <feature id="db.table.editor.wrapper" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="91" last-shown="0" last-used="1581481908723" shown-count="0" />
+    <feature id="editing.completion.basic" count="93" last-shown="0" last-used="1590469584006" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.second.smarttype.array.member" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.postfix" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -82,11 +82,11 @@
     <feature id="editing.completion.changeSorting" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition.lookup" count="0" last-shown="0" last-used="0" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="1054" />
-      <option name="invocations" value="78" />
+      <option name="sparedCharacters" value="1059" />
+      <option name="invocations" value="79" />
       <option name="startDate" value="1581120000000" />
-      <option name="dayCount" value="4" />
-      <option name="lastDate" value="1581465600000" />
+      <option name="dayCount" value="5" />
+      <option name="lastDate" value="1590451200000" />
     </completionStatsTag>
     <fixesStatsTag>
       <option name="invocations" value="28" />

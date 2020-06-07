@@ -1,0 +1,38 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Data/Git/c-tokenizer">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1c2y9tMfubE0lYzVBXZWXXIhNWm">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-201.7223.86" />
+              <option name="buildTimestamp" value="1588163772635" />
+              <frame x="-1" y="4" width="1922" height="1077" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1590470244465" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Data/Git/c-tokenizer/clion">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1cQpJtjXAfqy05Qx0G8RD9MHulK">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="CL-201.7223.86" />
+              <option name="buildTimestamp" value="1588163772635" />
+              <option name="productionCode" value="CL" />
+              <option name="projectOpenTimestamp" value="1590470602316" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Data/Git/c-tokenizer" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Data/Git/c-tokenizer/clion" />
+        <option value="$USER_HOME$/Data/Git/c-tokenizer" />
+      </list>
+    </option>
+  </component>
+</application>

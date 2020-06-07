@@ -9,6 +9,7 @@
       </history-search>
       <history-cmd>
         <entry>w</entry>
+        <entry>vsp</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -87,6 +88,12 @@
         <mark key="^" line="12" column="3" />
         <mark key="." line="4" column="0" />
       </file>
+      <file name="$USER_HOME$/Data/Git/c-tokenizer/src/tokenizer.c" timestamp="1590469639994">
+        <mark key="[" line="0" column="21" />
+        <mark key="]" line="0" column="22" />
+        <mark key="^" line="0" column="22" />
+        <mark key="." line="0" column="21" />
+      </file>
       <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/ElasticsearchRestHighLevelClient.java" timestamp="1581396478759">
         <mark key="[" line="12" column="5" />
         <mark key="]" line="13" column="3" />
@@ -124,24 +131,23 @@
         <mark key="^" line="31" column="42" />
         <mark key="." line="31" column="44" />
       </file>
-      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/api-container/pom.xml" timestamp="1581146662914">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="12" column="15" />
-        <mark key="]" line="12" column="17" />
-        <mark key="." line="12" column="17" />
-        <mark key="^" line="12" column="17" />
-      </file>
       <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/CustomElasticSearchConverter.java" timestamp="1581238019763">
         <mark key="'" line="125" column="0" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/README.md" timestamp="1581143073837">
-        <mark key="[" line="41" column="31" />
-        <mark key="]" line="41" column="31" />
-        <mark key="." line="41" column="31" />
-        <mark key="^" line="41" column="29" />
+      <file name="$USER_HOME$/Data/Git/c-tokenizer/src/ui.c" timestamp="1590467991766">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="^" line="6" column="21" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/c-tokenizer/src/tokenizer.h" timestamp="1590468475985">
+        <mark key="[" line="27" column="17" />
+        <mark key="]" line="4" column="54" />
+        <mark key="^" line="4" column="54" />
+        <mark key="." line="4" column="53" />
       </file>
       <file name="$USER_HOME$/Data/Git/springdata-v4-elasticsearch-barebones/app-container/src/main/java/elastic/service/ElasticObjService.java" timestamp="1581481773867">
         <mark key="[" line="14" column="34" />
@@ -191,11 +197,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5TcAo=</text>
+      <register name="&quot;" type="4">
+        <text>tokenizer.h</text>
       </register>
       <register name="-" type="4">
-        <text>autoconfigure.SpringBootApplication;</text>
+        <text>tokenizer.h</text>
       </register>
       <register name="/" type="4">
         <text>.</text>
@@ -204,34 +210,34 @@
         <text encoding="base64">ICAgICAgICByZXR1cm4gZWxhc3RpY09ialJlcG9zaXRvcnkuZmluZEJ5TmFtZShuYW1lLCBwYWdlUmVxdWVzdCk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5TcAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5hdXRvY29uZmlndXJlLmRhdGEuZWxhc3RpY3NlYXJjaC5FbGFzdGljc2VhcmNoRGF0YUF1dG9Db25maWd1cmF0aW9uOwo=</text>
+        <text encoding="base64">ICAgIC8vc2NhbmYoIiVzIiwgJm5hbWUpOyAgLSBkZXByZWNhdGVkCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5hdXRvY29uZmlndXJlLmRhdGEuZWxhc3RpY3NlYXJjaC5FbGFzdGljc2VhcmNoQXV0b0NvbmZpZ3VyYXRpb247Cg==</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5TcAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5hdXRvY29uZmlndXJlLmRhdGEuZWxhc3RpY3NlYXJjaC5FbGFzdGljc2VhcmNoRGF0YUF1dG9Db25maWd1cmF0aW9uOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">aW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYm9vdC5hdXRvY29uZmlndXJlLmRhdGEuZWxhc3RpY3NlYXJjaC5FbGFzdGljc2VhcmNoQXV0b0NvbmZpZ3VyYXRpb247Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gbnVsbDsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5PcHRpb25hbDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>vsp</text>
       </register>
     </registers>
   </component>

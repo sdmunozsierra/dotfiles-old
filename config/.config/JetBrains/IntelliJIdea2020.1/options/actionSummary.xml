@@ -1,8 +1,20 @@
 <application>
   <component name="ActionsLocalSummary">
     <data>
+      <entry key="$Paste">
+        <ActionSummary times="1" last="1590467366978" />
+      </entry>
       <entry key="EditorBackSpace">
-        <ActionSummary times="6" last="1589737317450" />
+        <ActionSummary times="10" last="1590466999093" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="2" last="1590469583997" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="1" last="1590467875867" />
+      </entry>
+      <entry key="NewFile">
+        <ActionSummary times="2" last="1590468532063" />
       </entry>
       <entry key="OpenFile">
         <ActionSummary times="1" last="1589740819225" />
@@ -13,8 +25,14 @@
       <entry key="com.intellij.ide.plugins.PluginManagerMain$2">
         <ActionSummary times="1" last="1589737167915" />
       </entry>
+      <entry key="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+        <ActionSummary times="75" last="1590469686225" />
+      </entry>
       <entry key="com.intellij.openapi.updateSettings.impl.UpdateChecker$showUpdateResult$4$1">
         <ActionSummary times="1" last="1589737093000" />
+      </entry>
+      <entry key="com.maddyhome.idea.vim.ui.ExShortcutKeyAction">
+        <ActionSummary times="1" last="1590468497433" />
       </entry>
     </data>
   </component>

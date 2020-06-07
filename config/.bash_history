@@ -1382,3 +1382,192 @@ ls
 vim .gitconfig
 cd .config/
 cd..
+cdg
+cd dotfiles/
+ssh -T sdmunozsierra@github.com
+ssh -vT sdmunozsierra@github.com
+eval "$(ssh-agent -s)"
+ssh-add -l
+ssh-add 
+ssh-add -l
+ssh -T sdmunozsierra@github.com
+ssh -vT sdmunozsierra@github.com
+ssh -vT git@github.com
+ssh -T git@github.com
+cdg
+ls
+cd c-tokenizer/
+ls
+git st
+ls
+la
+vim .gitignore
+git st
+vim .gitignore 
+git st
+git aa
+git st
+git comm "Added .gitignore"
+git push
+cd .ssh/
+ls
+cat id_rsa
+vim config 
+ls
+cat id_rsa.pub 
+cdg
+ls
+cd dotfiles/
+ls
+git remote add origin git@github.com:sdmunozsierra/dotfiles.git
+git remote add origin_ssh git@github.com:sdmunozsierra/dotfiles.git
+git push origin_ssh 
+xrandr -q | grep ' conected' | head -n 1 | cut -d ' ' -f1
+xrandr -q | grep ' conected' | head -n 1 | cut -d ' ' 
+xrandr -q | grep ' conected' 
+xrandr -q
+xrandr --output eDP-1 --brightness 0.5
+cdg
+ls
+cd dotfiles/
+ls
+cd ArchScripts/
+ls
+git st
+git pull
+git st
+git push
+git comm "Update"
+git aa
+git comm "Update"
+la
+ls
+git at
+git st
+git add ../config/.IntelliJIdea2019.3/*
+git st
+git stash
+git push
+git pull
+git push
+git add ../config/pkill 
+git st
+git comm "Update"
+git push
+git config
+ls
+vim brightness.sh
+chmod +x brightness.sh 
+./brightness.sh + eDP1
+./brightness.sh + eDP-1
+./brightness.sh - eDP-1
+pwd
+git st
+git add brightness.sh 
+cat ~/.bash_aliases 
+gitBackup
+git st
+git aa
+git st
+git comm "Updated laptop"
+git st
+git push
+git st
+git push
+git config
+git push test
+git push --test
+git push -v
+git pull
+git push
+gitBackup
+:q
+ee
+la
+vim .gnupg/gpg.conf
+systemctl enable sshd
+sshd add
+ssh-add 
+ssh-add -:
+ssh-add -L
+cd .ssh/
+ls
+vim config 
+vim known_hosts 
+vim id_rsa.pub 
+ls
+cd..
+ls
+la
+cd .gnupg/
+ls
+vim gpg.conf
+sshd
+systemctl enable sshd
+systemctl start sshd
+vim ../.gitconfig
+ee
+yay -S clion
+cmake
+whereis cmake
+whereis gdb
+pacman -S gdb
+sudo pacman -S gdb
+whereis gdb
+yay -S zoom
+yay -S guacamole-server
+yay -s guac
+cdd
+cd Downloads/
+ls
+unzip SSH\ Keys-20200528T135200Z-001.zip 
+ls
+cd SSH\ Keys/
+ls
+chmod 600 *
+la
+ll
+guacd 
+guac
+guacenc 
+cdg
+ls
+git clone https://github.com/mesosphere/konvoy-training.git
+cd konvoy-training/
+ls
+yay -s konvoy
+ls
+yay -S kubectl
+source .bash_profile 
+startx
+ls
+lsblk
+vim .bash_profile 
+vim .bash_aliases 
+startx
+cdwd
+startx
+startx
+startx
+reboot
+source .bash_profile 
+startx
+vim .bash_profile 
+vim .bashrc 
+vim .bash_aliases 
+startz
+startx
+reboot
+ee
+source .bash_profile 
+startx
+source .bash_profile 
+ee
+ls
+startx
+ecit
+cdwd
+cdg
+ls
+cd fluxion/
+cpwd

@@ -1,0 +1,104 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry>vsp</entry>
+        <entry>w</entry>
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Data/Git/c-tokenizer/clion/src/tokenizer.c" timestamp="1590474362570">
+        <mark key="[" line="8" column="11" />
+        <mark key="]" line="8" column="12" />
+        <mark key="." line="8" column="11" />
+        <mark key="^" line="8" column="12" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/c-tokenizer/clion/CMakeLists.txt" timestamp="1590473551091">
+        <mark key="[" line="4" column="20" />
+        <mark key="]" line="4" column="21" />
+        <mark key="." line="4" column="20" />
+        <mark key="^" line="4" column="21" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/c-tokenizer/clion/main.c" timestamp="1590474303531">
+        <mark key="[" line="17" column="26" />
+        <mark key="]" line="17" column="26" />
+        <mark key="." line="17" column="27" />
+        <mark key="^" line="12" column="41" />
+      </file>
+      <file name="/" timestamp="1590470972533">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Data/Git/c-tokenizer/clion/src/tokenizer.h" timestamp="1590474356078" />
+    </filemarks>
+    <jumps />
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text>!</text>
+      </register>
+      <register name="-" type="4">
+        <text>!</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7Cg==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGludCB3ID0gc3BhY2VfY2hhcignYScpOwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHByaW50ZigiVE9LRU46ICVkIiwgc3BhY2VfY2hhcigneicpKTsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHByaW50ZigiVE9LRU46ICVkIiwgc3BhY2VfY2hhcigneicpKTsK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHByaW50ZigiU1BBQ0U/OiAiLCBzKQo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIHJldHVybiAwOwo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">I2luY2x1ZGUgPGN0eXBlLmg+Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>

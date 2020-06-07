@@ -1,0 +1,81 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="Build">
+        <ActionSummary times="8" last="1590473593603" />
+      </entry>
+      <entry key="CIDR.MarkSourceRoot">
+        <ActionSummary times="1" last="1590471461239" />
+      </entry>
+      <entry key="CMake.ToggleCMakeAutoReload">
+        <ActionSummary times="1" last="1590471094753" />
+      </entry>
+      <entry key="CPP.CreateCMakeProject">
+        <ActionSummary times="1" last="1590470564922" />
+      </entry>
+      <entry key="CommentByLineComment">
+        <ActionSummary times="3" last="1590473562545" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="38" last="1590473944730" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="12" last="1590474296764" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="1" last="1590471562458" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="10" last="1590472069699" />
+      </entry>
+      <entry key="ExpandRegion">
+        <ActionSummary times="3" last="1590470906054" />
+      </entry>
+      <entry key="FileChooser.NewFolder">
+        <ActionSummary times="1" last="1590470541428" />
+      </entry>
+      <entry key="NewDir">
+        <ActionSummary times="1" last="1590471349794" />
+      </entry>
+      <entry key="OpenFile">
+        <ActionSummary times="1" last="1590470526653" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="6" last="1590473667529" />
+      </entry>
+      <entry key="RunClass">
+        <ActionSummary times="5" last="1590474369811" />
+      </entry>
+      <entry key="ShowIntentionActions">
+        <ActionSummary times="1" last="1590473327647" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="1" last="1590470920480" />
+      </entry>
+      <entry key="Vcs.VcsClone">
+        <ActionSummary times="1" last="1590470180348" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="1" last="1590470212535" />
+      </entry>
+      <entry key="com.intellij.codeInsight.daemon.NavigateAction">
+        <ActionSummary times="4" last="1590473071552" />
+      </entry>
+      <entry key="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+        <ActionSummary times="1" last="1590473333327" />
+      </entry>
+      <entry key="com.intellij.notification.NotificationAction$1">
+        <ActionSummary times="1" last="1590470895229" />
+      </entry>
+      <entry key="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+        <ActionSummary times="207" last="1590474363696" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$AddButton">
+        <ActionSummary times="2" last="1590469897950" />
+      </entry>
+      <entry key="com.maddyhome.idea.vim.ui.ExShortcutKeyAction">
+        <ActionSummary times="3" last="1590474090041" />
+      </entry>
+    </data>
+  </component>
+</application>
